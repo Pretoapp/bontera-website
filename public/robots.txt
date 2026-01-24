@@ -1,0 +1,10 @@
+# Bontera Website
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://bontera.de/sitemap.xml
+
+# Disallow admin areas
+Disallow: /studio/
+Disallow: /api/

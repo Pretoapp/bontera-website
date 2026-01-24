@@ -1,0 +1,1377 @@
+{
+  "navigation": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "services": "Hizmetler",
+    "projects": "Projeler",
+    "careers": "Kariyer",
+    "news": "Haberler",
+    "contact": "İletişim"
+  },
+
+  "metadata": {
+    "title": "Bontera | İnşaat ve Altyapı",
+    "description": "Dünya standartlarında inşaat ve altyapı çözümleri. Fikirden teslimata, ufuk çizgilerini yeniden tanımlayan ve toplulukları dönüştüren projeler gerçekleştiriyoruz."
+  },
+
+  "hero": {
+    "eyebrow": "1999'dan beri mükemmellik",
+    "titleLine1": "Geleceği",
+    "titleLine2": "İnşa Ediyoruz",
+    "description": "Dünya standartlarında inşaat ve altyapı çözümleri. Fikirden teslimata, ufuk çizgilerini yeniden tanımlayan ve toplulukları dönüştüren projeler gerçekleştiriyoruz.",
+    "ctaPrimary": "Projelerimizi Görün",
+    "ctaSecondary": "İletişime Geçin",
+    "stats": {
+      "years": "Mükemmellik Yılı",
+      "projects": "Teslim Edilen Proje",
+      "countries": "Ülke"
+    }
+  },
+
+  "vision": {
+    "eyebrow": "Vizyonumuz",
+    "headline": "Yarının Simgelerini Bugünden Mühendislikle İnşa Ediyoruz",
+    "description": "Sadece binalar inşa etmiyoruz. Kalıcı miraslar oluşturuyoruz. İnovasyon, sürdürülebilirlik ve tavizsiz kaliteye bağlılığımız, bizi dünyanın en iddialı projeleri için tercih edilen ortak haline getirdi.",
+    "features": {
+      "innovation": {
+        "title": "Önce İnovasyon",
+        "description": "Sektörde yeni standartlar belirleyen inşaat teknolojileri ve yöntemleri."
+      },
+      "heritage": {
+        "title": "Güçlü Birikim",
+        "description": "Usta inşaatçılar ve mühendisler kuşaklarından gelen 25+ yıllık uzmanlık."
+      },
+      "sustainability": {
+        "title": "Sürdürülebilir Gelecek",
+        "description": "LEED sertifikalı projeler ve 2030'a kadar net-sıfır inşaat taahhüdü."
+      }
+    }
+  },
+
+  "services": {
+    "eyebrow": "Ne Yapıyoruz",
+    "headline": "Kapsamlı İnşaat Çözümleri",
+    "viewAll": "Tüm Hizmetleri Keşfedin",
+    "items": {
+      "commercial": {
+        "title": "Ticari İnşaat",
+        "description": "En yüksek standartlarda inşa edilen ofis kuleleri, perakende kompleksleri ve otel projeleri."
+      },
+      "infrastructure": {
+        "title": "Altyapı",
+        "description": "Toplulukları birbirine bağlayan yollar, köprüler, altyapı ağları ve kamu işleri."
+      },
+      "residential": {
+        "title": "Konut",
+        "description": "Üstün işçilikle üretilen lüks konutlar ve yaşam projeleri."
+      },
+      "industrial": {
+        "title": "Endüstriyel",
+        "description": "Üretim tesisleri, depolar ve endüstriyel kompleksler."
+      },
+      "renovation": {
+        "title": "Yenileme",
+        "description": "Modern dönüşümler ve miras odaklı restorasyonlarla yapıların yeniden canlandırılması."
+      },
+      "consulting": {
+        "title": "Danışmanlık",
+        "description": "Fizibilite, planlama ve proje yönetiminde uzman rehberlik."
+      }
+    }
+  },
+
+  "projects": {
+    "eyebrow": "Öne Çıkan İşler",
+    "headline": "Ufuk Çizgilerini Tanımlayan Projeler",
+    "viewAll": "Tüm Projeleri Görün",
+    "noProjects": "Şu anda gösterilecek proje yok."
+  },
+
+  "stats": {
+    "years": "Deneyim Yılı",
+    "projects": "Tamamlanan Proje",
+    "satisfaction": "Müşteri Memnuniyeti",
+    "delivered": "Teslim Edilen Değer"
+  },
+
+  "whyUs": {
+    "eyebrow": "Neden Bontera",
+    "headline": "Mükemmellik Bizim Standardımız",
+    "description": "Bontera ile çalıştığınızda, her projeyi itibarımız ona bağlıymış gibi ele alan bir ekibi seçmiş olursunuz. Çünkü bağlı.",
+    "cta": "Hakkımızda",
+    "points": {
+      "quality": {
+        "title": "Tavizsiz Kalite",
+        "description": "ISO 9001:2015 sertifikalı süreçler, her projede tutarlı mükemmellik sağlar."
+      },
+      "timeline": {
+        "title": "Zamanında Teslimat",
+        "description": "Projelerimizin yüzde 98'i planlanan tarihte veya daha önce teslim edilir."
+      },
+      "safety": {
+        "title": "Önce Güvenlik",
+        "description": "OSHA uyumu ve sıfır olay hedefli uygulamalarla sektör lideri güvenlik performansı."
+      }
+    }
+  },
+
+  "testimonial": {
+    "quote": "Bontera tüm beklentilerimizi aştı. Detaylara dikkatleri, profesyonellikleri ve vizyonumuza bağlılıkları, gurur duyduğumuz simgesel bir yapı ortaya çıkardı.",
+    "name": "Sarah Mitchell",
+    "role": "CEO, Atlas Development Group"
+  },
+
+  "news": {
+    "eyebrow": "Haberler ve İçgörüler",
+    "headline": "Son Güncellemeler",
+    "viewAll": "Tüm Haberleri Görün",
+    "readMore": "Makaleyi Oku",
+    "noNews": "Şu anda gösterilecek haber yok."
+  },
+
+  "newsSection": {
+    "title": "Haberler ve İçgörüler",
+    "seeMore": "Makaleyi Oku",
+    "discoverAll": "Tüm Haberleri Görün",
+    "empty": "Şu anda gösterilecek haber yok."
+  },
+
+  "header": {
+    "headquarters": "Berlin, Almanya",
+    "emergency24": "7/24 Acil",
+    "search": "Ara",
+    "searchPlaceholder": "Projeler, hizmetler, haberler ara...",
+    "quickLinks": "Hızlı Bağlantılar",
+    "pressEsc": "Kapatmak için ESC'ye basın veya dışarı tıklayın",
+    "selectLanguage": "Dil Seçin",
+    "requestQuote": "Teklif İste",
+    "contactInfo": "İletişim Bilgileri",
+
+    "ourServices": "Hizmetlerimiz",
+    "featured": "Öne Çıkan",
+    "sustainableBuilding": "Sürdürülebilir Yapı Çözümleri",
+    "sustainableBuildingDesc": "LEED sertifikalı projelerle çevre dostu inşaatta sektör lideriyiz.",
+    "viewAllServices": "Tüm Hizmetleri Gör",
+
+    "projectCategories": "Proje Kategorileri",
+    "featuredProject": "Öne Çıkan Proje",
+    "featuredProjectTitle": "Marina Tower Complex",
+    "featuredProjectLocation": "Dubai Marina, BAE",
+    "completed": "Tamamlandı",
+    "viewAllProjects": "Tüm Projeleri Gör",
+
+    "aboutBontera": "Bontera Hakkında",
+    "byTheNumbers": "Rakamlarla",
+    "yearsExperience": "Deneyim Yılı",
+    "projectsCompleted": "Tamamlanan Proje",
+    "countriesOperating": "Faaliyet Gösterilen Ülke",
+    "teamMembers": "Ekip Üyesi",
+
+    "services": {
+      "commercialConstruction": "Ticari İnşaat",
+      "commercialConstructionDesc": "Ofis, perakende, otel",
+      "infrastructure": "Altyapı",
+      "infrastructureDesc": "Yollar, köprüler, şebekeler",
+      "renovation": "Yenileme ve Restorasyon",
+      "renovationDesc": "Modernizasyon ve miras restorasyonu",
+      "consulting": "Danışmanlık",
+      "consultingDesc": "Uzman danışmanlık ve fizibilite",
+      "projectManagement": "Proje Yönetimi",
+      "projectManagementDesc": "Uçtan uca proje yönetimi",
+      "sustainability": "Sürdürülebilir İnşaat",
+      "sustainabilityDesc": "Yeşil bina ve LEED"
+    },
+
+    "projects": {
+      "commercial": "Ticari",
+      "residential": "Konut",
+      "industrial": "Endüstriyel",
+      "publicWorks": "Kamu"
+    },
+
+    "company": {
+      "ourStory": "Hikayemiz",
+      "leadership": "Yönetim Ekibi",
+      "values": "Misyon ve Değerler",
+      "certifications": "Sertifikalar",
+      "partners": "Partnerler ve İştirakler"
+    }
+  },
+
+  "cta": {
+    "headline": "Olağanüstü Bir Şey İnşa Etmeye Hazır mısınız?",
+    "description": "Vizyonunuzu konuşalım. Ekibimiz iddialı fikirlerinizi mimari gerçeğe dönüştürmeye hazır.",
+    "buttonPrimary": "Projenizi Başlatın",
+    "buttonSecondary": "Teklif İste",
+    "certifications": {
+      "leed": "Sertifikalı Partner",
+      "osha": "Uyumlu"
+    }
+  },
+
+  "footer": {
+    "description": "Bontera, disiplinli planlama, hassas uygulama ve tavizsiz işçilikle premium inşaat ve altyapı projeleri teslim eder.",
+
+    "followUs": "Bizi Takip Edin",
+    "company": "Şirket",
+    "services": "Hizmetler",
+    "contactUs": "İletişim",
+
+    "phone": "Telefon",
+    "email": "E-posta",
+    "emergency": "Acil",
+    "backToTop": "Yukarı dön",
+    "allRightsReserved": "Tüm hakları saklıdır.",
+
+    "cta": {
+      "headline": "İstisnai Bir Şey İnşa Etmeye Hazır mısınız?",
+      "description": "Ne inşa ettiğinizi anlatın. Zamanında ve en yüksek standartta teslimat için ekibi, planı ve uygulamayı getiririz.",
+      "button": "Bize Ulaşın",
+      "secondaryButton": "Teklif İste"
+    },
+
+    "offices": {
+      "headquarters": "Genel Merkez"
+    },
+
+    "serviceLinks": {
+      "commercial": "Ticari İnşaat",
+      "infrastructure": "Altyapı",
+      "residential": "Konut",
+      "industrial": "Endüstriyel",
+      "renovation": "Yenileme",
+      "consulting": "Danışmanlık"
+    },
+
+    "legal": {
+      "privacy": "Gizlilik Politikası",
+      "terms": "Kullanım Şartları",
+      "cookies": "Çerez Politikası"
+    }
+  },
+
+  "about": {
+    "meta": {
+      "title": "Hakkımızda | Bontera Construction",
+      "description": "Bontera'nın 25+ yıllık inşaat mirasını, misyonunu, değerlerini ve sektörde inovasyonu yönlendiren liderlik ekibini keşfedin."
+    },
+    "breadcrumb": {
+      "home": "Ana Sayfa",
+      "about": "Hakkımızda"
+    },
+    "hero": {
+      "eyebrow": "Bontera Hakkında",
+      "title": "1999'dan beri mükemmellik",
+      "subtitle": "Yirmi yılı aşkın süredir Bontera, küresel ölçekte ufuk çizgilerini ve toplulukları şekillendiren simgesel projelerle inşaat inovasyonunun ön saflarında yer almaktadır.",
+      "stats": {
+        "years": "Mükemmellik Yılı",
+        "projects": "Tamamlanan Proje",
+        "countries": "Ülke",
+        "employees": "Ekip Üyesi"
+      }
+    },
+    "story": {
+      "eyebrow": "Hikayemiz",
+      "title": "Hayalleri Gerçeğe Dönüştüren Bir Miras",
+      "paragraph1": "1999 yılında kurulan Bontera, büyük bir vizyonla yola çıktı: inovasyon, dürüstlük ve mükemmellikten ödün vermeyen bir yaklaşımla inşa edilmiş çevreyi dönüştürmek. Tutkulu bir ekip olarak başlayan yolculuk, bugün küresel bir inşaat liderliğine dönüştü.",
+      "paragraph2": "Son 25 yılda 12 ülkede 500'den fazla simgesel proje teslim ettik. İkonik ticari kulelerden sürdürülebilir konut topluluklarına kadar her proje, kaliteye bağlılığımızı ve güçlü zanaatkarlığı yansıtır.",
+      "paragraph3": "Bugün Bontera, uzmanlık ile hırsın buluştuğunda neler mümkün olduğunun kanıtıdır. Sınırları zorlamaya, yeni teknolojileri benimsemeye ve sürdürülebilir inşaatta yeni standartlar belirlemeye devam ediyoruz.",
+      "founderQuote": "Sadece binalar inşa etmiyoruz; toplulukların büyümesi ve gelecek nesillerin ilerlemesi için temeller atıyoruz.",
+      "founderName": "Mr. Nedjet",
+      "founderTitle": "Kurucu ve Yönetim Kurulu Başkanı",
+      "yearsExcellence": "Mükemmellik Yılı",
+      "since": "Kuruluş"
+    },
+    "mission": {
+      "title": "Misyonumuz",
+      "description": "Müşteri beklentilerini aşan, inovasyonu teşvik eden ve hizmet verdiğimiz topluluklara değer katan olağanüstü inşaat çözümleri sunmak. Bunu yaparken güvenlik, kalite ve sürdürülebilirliğin en yüksek standartlarını korumak."
+    },
+    "vision": {
+      "title": "Vizyonumuz",
+      "description": "Cesur mimari vizyonları ilham veren, hizmet eden ve zamanın testine dayanan kalıcı yapılara dönüştüren sürdürülebilir inşaatta küresel lider olmak."
+    },
+    "values": {
+      "eyebrow": "Ne İçin Varız",
+      "title": "Temel Değerlerimiz",
+      "subtitle": "Bu ilkeler, aldığımız her kararı ve üstlendiğimiz her projeyi yönlendirir.",
+      "items": {
+        "excellence": {
+          "title": "Mükemmellik",
+          "description": "İlk tasarımdan nihai teslimata kadar her ayrıntıda mükemmelliği hedefleriz."
+        },
+        "integrity": {
+          "title": "Dürüstlük",
+          "description": "İşlerimizi şeffaflık ve doğrulukla yürütür, güven inşa ederiz."
+        },
+        "innovation": {
+          "title": "İnovasyon",
+          "description": "Daha akıllı ve verimli çözümler için ileri teknoloji ve yöntemleri benimseriz."
+        },
+        "safety": {
+          "title": "Önce Güvenlik",
+          "description": "Ekibimizin ve toplulukların refahı önceliğimizdir. Her projede sıkı güvenlik standartları uygularız."
+        },
+        "sustainability": {
+          "title": "Sürdürülebilirlik",
+          "description": "Ayak izimizi azaltan ve olumlu etkimizi artıran çevreye duyarlı uygulamalara bağlıyız."
+        },
+        "partnership": {
+          "title": "Ortaklık",
+          "description": "Müşteriler ve paydaşlarla yakın iş birliği kurar, ortak başarıya odaklanırız."
+        }
+      }
+    },
+    "timeline": {
+      "eyebrow": "Yolculuğumuz",
+      "title": "Bizi Tanımlayan Dönüm Noktaları",
+      "milestones": {
+        "founding": {
+          "title": "Başlangıç",
+          "description": "Bontera, inovasyon ve kaliteye sarsılmaz bağlılıkla inşaat sektörünü dönüştürme vizyonuyla kuruldu."
+        },
+        "expansion": {
+          "title": "Bölgesel Büyüme",
+          "description": "Orta Doğu'da büyüme, önemli ortaklıklar ve ilk büyük ticari projemizin teslimi."
+        },
+        "international": {
+          "title": "Küreselleşme",
+          "description": "Avrupa ve Asya pazarlarına giriş ve 5 yeni ülkede ofis açılışı."
+        },
+        "sustainability": {
+          "title": "Sürdürülebilirlik Liderliği",
+          "description": "Sürdürülebilirlik programımızın başlatılması, LEED başarısı ve 2030 karbon nötrlüğü taahhüdü."
+        },
+        "digital": {
+          "title": "Dijital Dönüşüm",
+          "description": "Gelişmiş BIM ve yapay zeka destekli proje yönetimiyle süreçlerimizin dönüşümü."
+        },
+        "future": {
+          "title": "Yarını İnşa Etmek",
+          "description": "Akıllı bina teknolojileriyle inovasyonu sürdürmek ve sürdürülebilir portföyü küresel ölçekte büyütmek."
+        }
+      }
+    },
+    "leadership": {
+      "eyebrow": "Liderlik Ekibi",
+      "title": "Liderlerimizle Tanışın",
+      "subtitle": "Bontera'nın mükemmellik vizyonunu yöneten deneyimli profesyoneller.",
+      "viewAll": "Tüm Ekibi Gör",
+      "members": {
+        "ceo": {
+          "name": "Mr. Nedjet",
+          "title": "Genel Müdür"
+        },
+        "coo": {
+          "name": "Sarah Mitchell",
+          "title": "Operasyon Direktörü"
+        },
+        "cto": {
+          "name": "Dr. Michael Chen",
+          "title": "Teknoloji Direktörü"
+        },
+        "cfo": {
+          "name": "Elena Rodriguez",
+          "title": "Finans Direktörü"
+        }
+      }
+    },
+    "certifications": {
+      "eyebrow": "Kalite ve Standartlar",
+      "title": "Sertifikalar ve Akreditasyonlar",
+      "description": "Mükemmelliğe bağlılığımız, kalite, güvenlik ve çevresel sorumlulukta en yüksek standartları sağlayan uluslararası sertifikalarla doğrulanır.",
+      "viewAll": "Tüm Sertifikaları Gör"
+    },
+    "global": {
+      "eyebrow": "Küresel Ayak İzi",
+      "title": "Sınırların Ötesinde İnşa",
+      "description": "Dubai'nin yükselen siluetlerinden Avrupa'nın tarihi dokusuna kadar Bontera'nın uzmanlığı kıtalar boyunca uzanır. Küresel varlığımız, her yerde dünya standartlarında inşaat kabiliyeti sunmamızı sağlar.",
+      "stats": {
+        "countries": "Ülke",
+        "offices": "Bölgesel Ofis",
+        "continents": "Kıta",
+        "clients": "Uluslararası Müşteri"
+      }
+    },
+    "cta": {
+      "title": "Olağanüstü Bir Şey İnşa Etmeye Hazır mısınız?",
+      "description": "Ticari geliştirme, altyapı veya sürdürülebilir bina planlıyor olun, ekibimiz vizyonunuzu hayata geçirmeye hazır.",
+      "contactUs": "İletişim",
+      "joinTeam": "Ekibe Katılın"
+    }
+  },
+
+  "servicesPage": {
+    "meta": {
+      "title": "Hizmetlerimiz | Bontera Construction",
+      "description": "Bontera'nın ticari, konut, altyapı, endüstriyel, yenileme ve danışmanlık dahil kapsamlı inşaat hizmetlerini keşfedin."
+    },
+    "breadcrumb": {
+      "home": "Ana Sayfa",
+      "services": "Hizmetler"
+    },
+    "hero": {
+      "eyebrow": "Ne Yapıyoruz",
+      "title": "Kapsamlı İnşaat Çözümleri",
+      "subtitle": "Fikirden teslimata, vizyonunuza ve ihtiyaçlarınıza uygun uçtan uca inşaat hizmetleri sunuyoruz.",
+      "cta": "Teklif İste"
+    },
+    "overview": {
+      "eyebrow": "Uzmanlığımız",
+      "title": "Her Sektörde Mükemmellik",
+      "description": "25+ yıllık tecrübeyle Bontera, farklı sektörlerde derin uzmanlık geliştirdi. Entegre yaklaşımımız; yenilikçi tasarım, hassas mühendislik ve sürdürülebilir uygulamaları birleştirerek beklentilerin ötesinde projeler teslim eder.",
+      "points": {
+        "expertise": {
+          "title": "Derin Sektör Uzmanlığı",
+          "description": "Ticari, konut ve altyapıda uzmanlaşmış bilgi birikimi."
+        },
+        "quality": {
+          "title": "Tavizsiz Kalite",
+          "description": "İnşaatın her aşamasında sıkı kalite kontrol."
+        },
+        "innovation": {
+          "title": "Yenilikçi Çözümler",
+          "description": "Gelişmiş teknoloji ve modern yöntemler."
+        },
+        "safety": {
+          "title": "Güvenlikte Mükemmellik",
+          "description": "Sektör lideri güvenlik standartları ve protokoller."
+        }
+      },
+      "stats": {
+        "projects": "Tamamlanan Proje",
+        "years": "Deneyim Yılı",
+        "satisfaction": "Müşteri Memnuniyeti",
+        "awards": "Sektör Ödülleri"
+      }
+    },
+    "mainServices": {
+      "eyebrow": "Hizmetlerimiz",
+      "title": "Neler Sunuyoruz",
+      "subtitle": "Vizyonunuzu hayata geçirmek için kapsamlı inşaat hizmetleri.",
+      "learnMore": "Detaylar",
+      "items": {
+        "commercial": {
+          "title": "Ticari İnşaat",
+          "description": "İkonik ofis kulelerinden dinamik perakende alanlarına kadar, verimliliği artıran ve şehir dokusuna değer katan ticari yapılar inşa ediyoruz.",
+          "features": {
+            "officeBuildings": "Ofis Binaları",
+            "retailCenters": "Perakende Merkezleri",
+            "mixedUse": "Karma Kullanım",
+            "hospitality": "Otelcilik"
+          }
+        },
+        "infrastructure": {
+          "title": "Altyapı Geliştirme",
+          "description": "Köprüler, otoyollar, şebekeler ve ulaşım ağlarıyla modern yaşamın temelini inşa ediyoruz.",
+          "features": {
+            "bridges": "Köprü ve Tüneller",
+            "highways": "Otoyol ve Yollar",
+            "utilities": "Altyapı Şebekeleri",
+            "airports": "Havalimanı ve Limanlar"
+          }
+        },
+        "residential": {
+          "title": "Konut İnşaatı",
+          "description": "Lüks konutlardan sürdürülebilir yaşam alanlarına, modern yaşamı tanımlayan projeler geliştiriyoruz.",
+          "features": {
+            "luxuryHomes": "Lüks Konutlar",
+            "apartments": "Apartman Projeleri",
+            "communities": "Planlı Yerleşimler",
+            "villas": "Villa ve Malikaneler"
+          }
+        },
+        "industrial": {
+          "title": "Endüstriyel İnşaat",
+          "description": "Operasyonları optimize eden, verimliliği artıran ve üretimin zorlu gereksinimlerini karşılayan endüstriyel tesisler inşa ediyoruz.",
+          "features": {
+            "factories": "Üretim Tesisleri",
+            "warehouses": "Depolar",
+            "logistics": "Lojistik Merkezleri",
+            "manufacturing": "İşleme Tesisleri"
+          }
+        },
+        "renovation": {
+          "title": "Yenileme ve Restorasyon",
+          "description": "Mevcut yapılara; yenileme, tarihi koruma ve uyarlamalı yeniden kullanım ile yeni bir değer kazandırıyoruz.",
+          "features": {
+            "historic": "Tarihi Koruma",
+            "modernization": "Modernizasyon",
+            "retrofitting": "Güçlendirme",
+            "restoration": "Tam Restorasyon"
+          }
+        },
+        "consulting": {
+          "title": "Danışmanlık",
+          "description": "Fizibilite ve maliyet tahmininden risk değerlendirmesine ve mevzuat uyumuna kadar proje boyunca uzman rehberlik.",
+          "features": {
+            "feasibility": "Fizibilite",
+            "costEstimation": "Maliyet Tahmini",
+            "riskAssessment": "Risk Analizi",
+            "compliance": "Uyum"
+          }
+        }
+      }
+    },
+    "process": {
+      "eyebrow": "Nasıl Çalışırız",
+      "title": "Kanıtlanmış Sürecimiz",
+      "subtitle": "Her aşamada kalite, verimlilik ve şeffaflık sağlayan sistematik yaklaşım.",
+      "steps": {
+        "discovery": {
+          "title": "Keşif ve Planlama",
+          "description": "Vizyonunuzu ve gereksinimlerinizi anlayarak kapsamlı bir proje planı oluştururuz.",
+          "point1": "Gereksinim analizi",
+          "point2": "Saha değerlendirmesi",
+          "point3": "Bütçe planlama"
+        },
+        "planning": {
+          "title": "Tasarım ve Mühendislik",
+          "description": "Uzman ekiplerimiz, vizyonunuzu hayata geçirecek detaylı tasarım ve mühendislik planları üretir.",
+          "point1": "Mimari tasarım",
+          "point2": "Yapısal mühendislik",
+          "point3": "MEP koordinasyonu"
+        },
+        "execution": {
+          "title": "İnşaat ve Uygulama",
+          "description": "Usta işçilik ve ileri teknoloji ile üst düzey kalite sunarız.",
+          "point1": "Kaliteli uygulama",
+          "point2": "Güvenlik uyumu",
+          "point3": "İlerleme takibi"
+        },
+        "delivery": {
+          "title": "Teslimat ve Destek",
+          "description": "Test, teslim ve devam eden destekle tam memnuniyet sağlarız.",
+          "point1": "Kalite doğrulama",
+          "point2": "Müşteri bilgilendirme",
+          "point3": "Garanti desteği"
+        }
+      }
+    },
+    "industries": {
+      "eyebrow": "Hizmet Verdiğimiz Sektörler",
+      "title": "Sektörler Arası Uzmanlık",
+      "description": "Portföyümüz, özel gereksinimler ve uzmanlık isteyen birçok sektörü kapsar.",
+      "items": {
+        "healthcare": "Sağlık",
+        "education": "Eğitim",
+        "hospitality": "Otelcilik",
+        "retail": "Perakende",
+        "government": "Kamu",
+        "energy": "Enerji"
+      },
+      "sectorsServed": "Sektör"
+    },
+    "technology": {
+      "eyebrow": "İnovasyon ve Teknoloji",
+      "title": "Yarının Teknolojisiyle İnşa",
+      "description": "Verimliliği artırmak, kaliteyi yükseltmek ve daha iyi sonuçlar sunmak için ileri teknolojiler kullanırız.",
+      "items": {
+        "bim": {
+          "title": "BIM Teknolojisi",
+          "description": "Proje yaşam döngüsü boyunca planlama, koordinasyon ve görselleştirmede yüksek doğruluk."
+        },
+        "drones": {
+          "title": "Drone Ölçümleme",
+          "description": "Saha değerlendirmesi ve gerçek zamanlı ilerleme takibi için havadan izleme."
+        },
+        "prefab": {
+          "title": "Prefabrikasyon",
+          "description": "Daha hızlı, daha verimli ve daha kaliteli teslimat için saha dışı üretim."
+        },
+        "iot": {
+          "title": "IoT ve Akıllı Binalar",
+          "description": "Akıllı bina yönetimi ve operasyonel verimlilik için bağlı sistemler ve sensörler."
+        }
+      }
+    },
+    "cta": {
+      "title": "Projenizi Başlatmaya Hazır mısınız?",
+      "description": "Bontera'nın vizyonunuzu hayata geçirmek için nasıl destek olabileceğini konuşalım.",
+      "getQuote": "Teklif Al",
+      "contactUs": "İletişim"
+    }
+  },
+
+  "projectsPage": {
+    "meta": {
+      "title": "Projelerimiz | Bontera Construction",
+      "description": "Bontera'nın 12 ülkede ticari, konut, altyapı ve endüstriyel projelerden oluşan portföyünü keşfedin."
+    },
+    "breadcrumb": {
+      "home": "Ana Sayfa",
+      "projects": "Projeler"
+    },
+    "hero": {
+      "eyebrow": "Portföyümüz",
+      "title": "Ufuk Çizgilerini Şekillendiren Simgesel Projeler",
+      "subtitle": "Tamamlanan ve devam eden projelerimizle mükemmellik, inovasyon ve sürdürülebilirliğe bağlılığımızı görün.",
+      "stats": {
+        "projectsCompleted": "Tamamlanan Proje",
+        "totalValue": "Toplam Proje Değeri",
+        "countries": "Ülke",
+        "onTimeDelivery": "Zamanında Teslimat"
+      }
+    },
+    "featured": {
+      "eyebrow": "Öne Çıkanlar",
+      "title": "İmza Projeler",
+      "description": "Yeteneklerimizi ve kalite standardımızı gösteren en etkili projelerimiz.",
+      "badge": "Öne Çıkan",
+      "viewProject": "Projeyi Gör"
+    },
+    "allProjects": {
+      "eyebrow": "Tam Portföy",
+      "title": "Tüm Projeler",
+      "showing": "{count} proje gösteriliyor",
+      "inCategory": "kategorisinde"
+    },
+    "categories": {
+      "all": "Tüm Projeler",
+      "commercial": "Ticari",
+      "residential": "Konut",
+      "infrastructure": "Altyapı",
+      "industrial": "Endüstriyel",
+      "renovation": "Yenileme",
+      "publicWorks": "Kamu"
+    },
+    "status": {
+      "completed": "Tamamlandı",
+      "ongoing": "Devam ediyor",
+      "upcoming": "Yakında"
+    },
+    "projectCard": {
+      "value": "Değer",
+      "client": "Müşteri",
+      "viewDetails": "Detayları Gör"
+    },
+    "noProjects": {
+      "title": "Proje Bulunamadı",
+      "description": "Kriterlerinize uygun proje bulunamadı.",
+      "viewAll": "Tüm Projeleri Gör"
+    },
+    "breakdown": {
+      "eyebrow": "Kategoriye Göre",
+      "title": "Her Sektörde Projeler",
+      "exploreCategory": "Kategoriyi Keşfet",
+      "categories": {
+        "commercial": {
+          "title": "Ticari",
+          "description": "İş dünyasını büyüten ofis kuleleri, perakende merkezleri, oteller ve karma kullanımlı projeler."
+        },
+        "residential": {
+          "title": "Konut",
+          "description": "Lüks konutlar, apartman projeleri ve planlı yerleşimler."
+        },
+        "infrastructure": {
+          "title": "Altyapı",
+          "description": "Köprüler, otoyollar, havalimanları ve toplulukları bağlayan altyapı şebekeleri."
+        },
+        "industrial": {
+          "title": "Endüstriyel",
+          "description": "Verimlilik için optimize edilmiş üretim tesisleri, depolar ve lojistik merkezler."
+        },
+        "renovation": {
+          "title": "Yenileme",
+          "description": "Geçmişe saygı duyan, geleceğe uyumlu modernizasyon ve tarihi koruma projeleri."
+        },
+        "publicWorks": {
+          "title": "Kamu",
+          "description": "Topluluklara hizmet eden kamu binaları ve tesisler."
+        }
+      }
+    },
+    "cta": {
+      "eyebrow": "Projenizi Başlatın",
+      "title": "Vizyonunuzu İnşa Etmeye Hazır mısınız?",
+      "description": "Ticari bir geliştirme, konut projesi veya altyapı planlıyor olun, ekibimiz vizyonunuzu hayata geçirmeye hazır.",
+      "startProject": "Projenizi Başlatın",
+      "contactUs": "İletişim"
+    }
+  },
+
+  "contactPage": {
+    "meta": {
+      "title": "İletişim | Bontera Construction",
+      "description": "Bontera Construction ile iletişime geçin. Dubai, Riyad, Kahire ve Londra ofislerimizi ziyaret edin veya projenizi görüşmek için mesaj gönderin."
+    },
+    "breadcrumb": {
+      "home": "Ana Sayfa",
+      "contact": "İletişim"
+    },
+    "hero": {
+      "eyebrow": "İletişime Geçin",
+      "title": "Birlikte Harika Bir Şey İnşa Edelim",
+      "subtitle": "Bir projeniz mi var? Ekibimiz vizyonunuzu hayata geçirmek için hazır. Aşağıdaki kanallardan bize ulaşın."
+    },
+    "methods": {
+      "phone": { "label": "Bizi Arayın", "description": "Pzt-Cuma 08:00-18:00" },
+      "email": { "label": "E-posta Gönderin", "description": "24 saat içinde dönüş" },
+      "whatsapp": { "label": "WhatsApp", "description": "Hızlı destek" },
+      "emergency": { "label": "7/24 Acil", "description": "Acil durumlar için" }
+    },
+    "form": {
+      "eyebrow": "Mesaj Gönderin",
+      "title": "Nasıl Yardımcı Olabiliriz?",
+      "description": "Aşağıdaki formu doldurun, ekibimiz 24 saat içinde size dönecektir.",
+      "fields": {
+        "name": { "label": "Ad Soyad", "placeholder": "Ahmet Yılmaz" },
+        "email": { "label": "E-posta", "placeholder": "ahmet@company.com" },
+        "phone": { "label": "Telefon", "placeholder": "+49 30 123 456 7890" },
+        "company": { "label": "Şirket", "placeholder": "Şirketiniz" },
+        "subject": { "label": "Konu", "placeholder": "Nasıl yardımcı olabiliriz?" },
+        "projectType": {
+          "label": "Proje Türü",
+          "placeholder": "Bir proje türü seçin",
+          "options": {
+            "commercial": "Ticari İnşaat",
+            "residential": "Konut İnşaatı",
+            "infrastructure": "Altyapı",
+            "industrial": "Endüstriyel",
+            "renovation": "Yenileme ve Restorasyon",
+            "consulting": "Danışmanlık",
+            "other": "Diğer"
+          }
+        },
+        "budget": {
+          "label": "Tahmini Bütçe",
+          "placeholder": "Bütçe aralığı seçin",
+          "options": {
+            "under1m": "1 M$ altı",
+            "1mTo5m": "1 - 5 M$",
+            "5mTo10m": "5 - 10 M$",
+            "10mTo50m": "10 - 50 M$",
+            "over50m": "50 M$ üstü",
+            "notSure": "Henüz emin değilim"
+          }
+        },
+        "message": {
+          "label": "Mesajınız",
+          "placeholder": "Projeniz, gereksinimleriniz, zaman planınız ve ihtiyaçlarınızı anlamamıza yardımcı olacak diğer detayları yazın..."
+        }
+      },
+      "errors": {
+        "nameRequired": "Lütfen adınızı girin",
+        "emailRequired": "Lütfen e-posta adresinizi girin",
+        "emailInvalid": "Lütfen geçerli bir e-posta adresi girin",
+        "messageRequired": "Lütfen mesajınızı girin",
+        "messageTooShort": "Mesajınız en az 20 karakter olmalıdır"
+      },
+      "privacy": { "text": "Bu formu göndererek", "link": "Gizlilik Politikamızı" },
+      "submit": "Mesaj Gönder",
+      "submitting": "Gönderiliyor...",
+      "success": {
+        "title": "Mesaj Gönderildi",
+        "message": "Bize ulaştığınız için teşekkürler. Ekibimiz mesajınızı inceleyip 24 saat içinde size dönüş yapacaktır."
+      },
+      "error": {
+        "title": "Bir Hata Oluştu",
+        "message": "Mesajınızı gönderemedik. Lütfen tekrar deneyin veya telefon ya da e-posta ile bize ulaşın."
+      }
+    },
+    "departments": {
+      "title": "Departmana Göre İletişim",
+      "items": {
+        "general": "Genel",
+        "sales": "Satış ve İş Geliştirme",
+        "projects": "Proje Yönetimi",
+        "careers": "Kariyer ve İK",
+        "media": "Basın ve Medya",
+        "support": "Teknik Destek"
+      }
+    },
+    "responseTime": {
+      "title": "Hızlı Yanıt Garantisi",
+      "description": "Ekibimiz iş günlerinde genellikle 24 saat içinde yanıt verir. Acil konular için acil hattımızı kullanın."
+    },
+    "social": { "title": "Bizi Takip Edin" },
+    "offices": {
+      "eyebrow": "Lokasyonlarımız",
+      "title": "Ofislerimizi Ziyaret Edin",
+      "description": "Orta Doğu ve Avrupa'daki ofislerimizle projenize her zaman yakınız.",
+      "headquarters": "Genel Merkez",
+      "viewOnMap": "Haritada Gör"
+    },
+    "faq": {
+      "eyebrow": "SSS",
+      "title": "Sık Sorulan Sorular",
+      "description": "Bontera ile çalışma hakkında sık sorulan sorulara hızlı yanıtlar.",
+      "viewAll": "Tüm SSS",
+      "items": {
+        "timeline": {
+          "question": "Tipik bir inşaat projesi ne kadar sürer?",
+          "answer": "Zaman çizelgesi kapsam ve karmaşıklığa göre değişir. Küçük bir ticari yenileme 3-6 ay sürebilirken, büyük ölçekli bir geliştirme 2-3 yıla yayılabilir. İlk görüşmede projenize özel detaylı bir plan sunarız."
+        },
+        "budget": {
+          "question": "Bütçe ve maliyet tahminini nasıl yönetiyorsunuz?",
+          "answer": "Planlama aşamasında şeffaf ve detaylı maliyet tahminleri sunarız. Doğruluk için gelişmiş yazılımlar ve geçmiş veriler kullanırız. Kaliteden ödün vermeden maliyet optimizasyonu için value engineering seçenekleri de sunarız."
+        },
+        "process": {
+          "question": "Proje yönetim süreciniz nedir?",
+          "answer": "Kanıtlanmış 4 aşamalı sürecimiz: Keşif ve Planlama, Tasarım ve Mühendislik, İnşaat ve Uygulama, Teslimat ve Destek. Her aşamada net kilometre taşları vardır ve proje boyunca tek muhatabınız olan bir proje yöneticisi atanır."
+        },
+        "warranty": {
+          "question": "Tamamlanan projelerde hangi garantileri sunuyorsunuz?",
+          "answer": "Kapsamlı garanti sunarız. Yapısal unsurlar 10 yıl, mekanik ve elektrik sistemleri 5 yıl, genel işçilik 2 yıl garantilidir. İsteğe bağlı genişletilmiş garanti seçenekleri de mevcuttur."
+        }
+      }
+    },
+    "map": {
+      "placeholder": "Etkileşimli harita burada görüntülenecek",
+      "visitUs": "Genel Merkezimizi Ziyaret Edin",
+      "getDirections": "Yol Tarifi Al"
+    }
+  },
+
+  "careersPage": {
+    "meta": {
+      "title": "Kariyer | Bontera Construction'a Katılın",
+      "description": "Bontera ile kariyerinizi inşa edin. İnşaat, mühendislik, proje yönetimi ve daha birçok alanda küresel ofislerimizde fırsatları keşfedin."
+    },
+    "breadcrumb": {
+      "home": "Ana Sayfa",
+      "careers": "Kariyer"
+    },
+    "hero": {
+      "eyebrow": "Ekibimize Katılın",
+      "title": "Geleceğinizi Bizimle İnşa Edin",
+      "subtitle": "Dünyanın dört bir yanında ufuk çizgilerini şekillendiren ve topluluklar inşa eden tutkulu profesyonellerden oluşan bir ekibe katılın.",
+      "viewJobs": "Açık Pozisyonlar",
+      "ourCulture": "Kültürümüz",
+      "stats": {
+        "employees": "Ekip Üyesi",
+        "countries": "Ülke",
+        "openPositions": "Açık Pozisyon",
+        "glassdoorRating": "Glassdoor Puanı"
+      }
+    },
+    "whyJoin": {
+      "eyebrow": "Neden Bontera",
+      "title": "Neden Burada Kariyer İnşa Etmelisiniz?",
+      "description": "Bontera'da insan kaynağımız en büyük varlığımızdır. Yeteneğin geliştiği, inovasyonun büyüdüğü ve herkesin potansiyeline ulaşabildiği bir ortam kurmaya kararlıyız.",
+      "yearsGrowing": "Birlikte Büyüme Yılı",
+      "points": {
+        "impact": {
+          "title": "Gerçek Etki",
+          "description": "Toplulukları dönüştüren ve kalıcı miras bırakan simgesel projelerde çalışın."
+        },
+        "growth": {
+          "title": "Sürekli Gelişim",
+          "description": "Üst düzey eğitim, mentorluk ve net kariyer yollarına erişin."
+        },
+        "team": {
+          "title": "İş Birlikçi Ekip",
+          "description": "Başarıları birlikte kutlayan, çeşitli ve destekleyici bir ekibe katılın."
+        },
+        "innovation": {
+          "title": "İnovasyon Odaklı",
+          "description": "Gelişmiş teknoloji ve öncü yöntemlerle çalışın."
+        }
+      }
+    },
+    "featured": {
+      "eyebrow": "Öne Çıkan Fırsatlar",
+      "title": "Öne Çıkan Pozisyonlar",
+      "viewAll": "Tüm Pozisyonlar",
+      "badge": "Öne Çıkan",
+      "applyNow": "Başvur"
+    },
+    "departments": {
+      "engineering": "Mühendislik",
+      "projectManagement": "Proje Yönetimi",
+      "architecture": "Mimari ve Tasarım",
+      "operations": "Operasyon",
+      "finance": "Finans",
+      "hr": "İnsan Kaynakları"
+    },
+    "locations": {
+      "dubai": "Dubai, BAE",
+      "riyadh": "Riyad, Suudi Arabistan",
+      "cairo": "Kahire, Mısır",
+      "london": "Londra, Birleşik Krallık"
+    },
+    "jobTypes": {
+      "fullTime": "Tam Zamanlı",
+      "partTime": "Yarı Zamanlı",
+      "contract": "Sözleşmeli",
+      "internship": "Staj"
+    },
+    "benefits": {
+      "eyebrow": "Yan Haklar",
+      "title": "Ekibimize Değer Veriyoruz",
+      "subtitle": "Sağlığınızı, finansal güvenliğinizi ve iş-yaşam dengenizi destekleyen kapsamlı yan haklar.",
+      "items": {
+        "health": {
+          "title": "Sağlık ve İyi Yaşam",
+          "description": "Siz ve aileniz için kapsamlı sağlık planları, ayrıca iyi yaşam programları ve spor üyelikleri."
+        },
+        "retirement": {
+          "title": "Emeklilik Planları",
+          "description": "Geleceğinizi güvence altına almak için şirket katkılı emeklilik planları."
+        },
+        "learning": {
+          "title": "Öğrenme ve Gelişim",
+          "description": "Sertifikalar, konferanslar ve eğitim destek programları dahil sürekli gelişim fırsatları."
+        },
+        "vacation": {
+          "title": "Cömert İzinler",
+          "description": "Esnek izin politikası, resmi tatiller ve dinlenme için sabbatical fırsatları."
+        },
+        "flexibility": {
+          "title": "Esneklik",
+          "description": "İş-yaşam dengesini destekleyen esnek çalışma düzenleri ve uzaktan çalışma seçenekleri."
+        },
+        "growth": {
+          "title": "Kariyer Gelişimi",
+          "description": "Net kariyer yolları, mentorluk ve küresel operasyonlarda yükselme fırsatları."
+        }
+      }
+    },
+    "culture": {
+      "eyebrow": "Kültürümüz",
+      "title": "Bontera'da Yaşam",
+      "description": "Her sesin değerli olduğu; mükemmellik, iş birliği ve sürekli iyileştirme kültürünü destekleriz.",
+      "values": {
+        "innovation": {
+          "title": "İnovasyon",
+          "description": "Daha iyi çözümler için yeni fikirleri ve ileri teknolojileri benimseriz."
+        },
+        "teamwork": {
+          "title": "Takım Çalışması",
+          "description": "Farklı bakış açılarını kutlayarak iş birliğini merkeze alırız."
+        },
+        "excellence": {
+          "title": "Mükemmellik",
+          "description": "Her projede en yüksek standartları hedefleriz."
+        },
+        "safety": {
+          "title": "Önce Güvenlik",
+          "description": "Ekibimizin ve toplulukların refahı her zaman birinci önceliğimizdir."
+        }
+      }
+    },
+    "testimonials": {
+      "eyebrow": "Çalışan Hikayeleri",
+      "title": "Ekibimizden Dinleyin",
+      "quotes": {
+        "engineer": "Bontera'ya katılmak kariyerimde verdiğim en iyi karardı. Projeler zorlu, ekip destekleyici ve gelişim için her zaman alan var. Burada hiç hayal etmediğim fırsatlar yakaladım.",
+        "manager": "Bontera'da en sevdiğim şey iş birliği kültürü. Üst yönetimden yeni başlayanlara kadar herkes ortak hedeflere birlikte ilerliyor. Gerçekten bir aile gibi.",
+        "architect": "Bontera'daki projelerin ölçeği ve karmaşıklığı eşsiz. Nesiller boyu ayakta kalacak simgesel yapılar üzerinde çalışabildim. İşinizin şehrin siluetini şekillendirdiğini görmek çok tatmin edici."
+      }
+    },
+    "openings": {
+      "eyebrow": "Açık Pozisyonlar",
+      "title": "Size Uygun Rolü Bulun",
+      "showing": "{count} pozisyon gösteriliyor",
+      "apply": "Başvur"
+    },
+    "filters": {
+      "allDepartments": "Tüm Departmanlar",
+      "allLocations": "Tüm Lokasyonlar"
+    },
+    "noJobs": {
+      "title": "Pozisyon Bulunamadı",
+      "description": "Kriterlerinize uygun pozisyon bulunamadı. Filtreleri güncelleyebilir veya daha sonra tekrar kontrol edebilirsiniz.",
+      "clearFilters": "Filtreleri Temizle"
+    },
+    "cta": {
+      "title": "Doğru Rolü Göremediniz mi?",
+      "description": "Her zaman yetenekli kişiler arıyoruz. Özgeçmişinizi gönderin, uygun fırsatlarda sizi değerlendirelim.",
+      "browseJobs": "Tüm İşleri Gör",
+      "sendResume": "Özgeçmiş Gönder"
+    }
+  },
+
+  "newsPage": {
+    "meta": {
+      "title": "Haberler ve İçgörüler | Bontera Construction",
+      "description": "Bontera'nın son haberleri, proje duyuruları, sektör içgörüleri ve küresel operasyonlarımızdan güncellemeler."
+    },
+    "breadcrumb": {
+      "home": "Ana Sayfa",
+      "news": "Haberler"
+    },
+    "hero": {
+      "eyebrow": "Haberler ve İçgörüler",
+      "title": "Yarını İnşa Eden Hikayeler",
+      "subtitle": "Bontera'nın proje kilometre taşları, sektör trendleri ve şirket duyuruları dahil en son güncellemelerini takip edin."
+    },
+    "featured": {
+      "eyebrow": "Öne Çıkanlar",
+      "title": "Son Başlıklar",
+      "description": "Küresel operasyonlarımızdan en önemli güncellemeler ve duyurular."
+    },
+    "allNews": {
+      "eyebrow": "Tüm Makaleler",
+      "title": "Tüm Haberleri İnceleyin",
+      "showing": "{count} makale gösteriliyor",
+      "inCategory": "kategorisinde"
+    },
+    "categories": {
+      "all": "Tüm Haberler",
+      "companyNews": "Şirket Haberleri",
+      "projects": "Projeler",
+      "industry": "Sektör",
+      "sustainability": "Sürdürülebilirlik",
+      "awards": "Ödüller",
+      "events": "Etkinlikler"
+    },
+    "readMore": "Devamını Oku",
+    "minRead": "{minutes} dk okuma",
+    "articles": {
+      "news-001": {
+        "title": "Bontera, 2,5 Milyar Dolarlık NEOM Altyapı Sözleşmesini Kazandı",
+        "excerpt": "Önemli bir başarıyla Bontera, NEOM mega-projesindeki büyük bir altyapı geliştirmesi için ana yüklenici olarak seçildi. Bu, bugüne kadarki en büyük sözleşmemiz."
+      },
+      "news-002": {
+        "title": "2024'ü Şekillendiren 10 Sürdürülebilir İnşaat Trendi",
+        "excerpt": "Karbon nötr malzemelerden yapay zeka destekli bina yönetimine kadar, daha sürdürülebilir bir gelecek için inşaatı dönüştüren yenilikleri keşfedin."
+      },
+      "news-003": {
+        "title": "Marina Tower, LEED Platinum Sertifikası Aldı",
+        "excerpt": "Amiral gemisi karma kullanımlı projemiz, Bontera'nın çevreye duyarlı inşaata bağlılığını gösteren en yüksek sürdürülebilirlik derecesini aldı."
+      },
+      "news-004": {
+        "title": "Bontera, 2024 İnşaat Mükemmellik Ödülünü Aldı",
+        "excerpt": "Bu prestijli ödül, proje teslim yaklaşımımızdaki inovasyonu ve portföyümüz genelindeki kalite taahhüdümüzü takdir ediyor."
+      },
+      "news-005": {
+        "title": "Riyad'da Yeni Bölgesel Genel Merkez Açıldı",
+        "excerpt": "Suudi Arabistan'daki varlığımızı büyütürken, yeni ofis Vision 2030 projelerindeki operasyonlarımız için merkez görevi görecek."
+      },
+      "news-006": {
+        "title": "Global Infrastructure Summit 2024'ten Öne Çıkanlar",
+        "excerpt": "Ekibimiz, sektörün önde gelen etkinliğinden teknoloji, yatırım trendleri ve iş birliği fırsatlarına dair içgörüleri paylaşıyor."
+      },
+      "news-007": {
+        "title": "Akıllı Bina Teknolojisi Entegrasyonu: Pratik Rehber",
+        "excerpt": "IoT sensörlerini, otomasyon sistemlerini ve yapay zeka destekli yönetimi modern projelere nasıl entegre ettiğimizi öğrenin."
+      },
+      "news-008": {
+        "title": "400 Milyon Dolarlık Sağlık Kompleksi İçin Temel Atma Töreni",
+        "excerpt": "Metropol bölgede 2 milyondan fazla kişiye hizmet edecek ileri teknoloji sağlık tesisinin inşaatı resmen başladı."
+      },
+      "news-009": {
+        "title": "Bontera 2030'a Kadar Karbon Nötrlüğü Taahhüt Ediyor",
+        "excerpt": "Kapsamlı sürdürülebilirlik yol haritamız, tüm operasyonlarda net-sıfıra ulaşmak için attığımız adımları ortaya koyuyor."
+      },
+      "news-010": {
+        "title": "Küresel Mimarlık Firmasıyla Stratejik Ortaklık",
+        "excerpt": "Bu iş birliği, Orta Doğu ve Kuzey Afrika genelindeki projelerimize dünya standartlarında tasarım uzmanlığı kazandıracak."
+      },
+      "news-011": {
+        "title": "Çalışan Spotlight: Ocak Ayının Yıldızları",
+        "excerpt": "Bu ay ekstra çaba gösteren ekip üyelerini kutluyoruz. Bontera'nın başarısını ileri taşıyan yeteneği öne çıkarıyoruz."
+      },
+      "news-012": {
+        "title": "Şantiye Güvenliği Teknolojilerinde İnovasyonlar",
+        "excerpt": "Sahalarımızı daha güvenli hale getiren giyilebilir cihazlar, izleme sistemleri ve yapay zeka uygulamalarını inceliyoruz."
+      }
+    },
+    "noArticles": {
+      "title": "Makale Bulunamadı",
+      "description": "Bu kategoride makale bulamadık. Farklı bir kategori seçin veya yeni içerikler için yakında tekrar kontrol edin.",
+      "viewAll": "Tüm Makaleleri Gör"
+    },
+    "newsletter": {
+      "eyebrow": "Güncel Kalın",
+      "title": "Bültenimize Abone Olun",
+      "description": "Son haberler, proje güncellemeleri ve sektör içgörüleri e-posta kutunuza gelsin.",
+      "placeholder": "E-posta adresinizi girin",
+      "subscribe": "Abone Ol",
+      "privacy": "Gizliliğinize saygı duyarız. İstediğiniz zaman abonelikten çıkabilirsiniz."
+    },
+    "media": {
+      "eyebrow": "Basın ve Medya",
+      "title": "Medya İletişimi",
+      "description": "Basın talepleri, röportaj istekleri veya medya kaynakları için iletişim ekibimiz yardımcı olmaya hazır.",
+      "email": "Medya İletişimi",
+      "phone": "Basın Hattı",
+      "downloadKit": "Basın Kiti İndir",
+      "featuredIn": "Basında"
+    }
+  },
+
+  "quotePage": {
+    "meta": {
+      "title": "Teklif İste | Bontera Construction",
+      "description": "İnşaat projeniz için ücretsiz ve bağlayıcı olmayan teklif alın. Vizyonunuzu paylaşın, 48 saat içinde detaylı teklif sunalım."
+    },
+    "breadcrumb": {
+      "home": "Ana Sayfa",
+      "quote": "Teklif İste"
+    },
+    "hero": {
+      "eyebrow": "Başlayın",
+      "title": "Ücretsiz Teklifinizi İsteyin",
+      "subtitle": "Projenizi anlatın, uzman ekibimizden detaylı ve size özel bir teklif alın. Taahhüt yok, gizli ücret yok.",
+      "trust": {
+        "free": "Yüzde 100 Ücretsiz Teklif",
+        "response": "48 Saatte Yanıt",
+        "obligation": "Bağlayıcı Değil"
+      }
+    },
+    "form": {
+      "eyebrow": "Proje Talebi",
+      "title": "Projenizden Bahsedin",
+      "description": "Aşağıdaki formu doldurun, ekibimiz ihtiyaçlarınıza göre hazırlanmış detaylı bir teklif hazırlasın.",
+      "steps": {
+        "contact": "İletişim Bilgileri",
+        "project": "Proje Detayları",
+        "details": "Ek Bilgiler"
+      },
+      "step1": { "title": "İletişim Bilgileri" },
+      "step2": { "title": "Proje Detayları" },
+      "step3": { "title": "Ek Bilgiler" },
+      "fields": {
+        "firstName": "Ad",
+        "lastName": "Soyad",
+        "email": "E-posta",
+        "phone": "Telefon",
+        "company": "Şirket",
+        "role": "Rolünüz",
+        "rolePlaceholder": "Örn: Mal sahibi, Proje Yöneticisi, Mimar",
+        "projectType": "Proje Türü",
+        "projectLocation": "Proje Konumu",
+        "projectLocationPlaceholder": "Şehir, ülke",
+        "projectSize": "Proje Ölçeği",
+        "budget": "Tahmini Bütçe",
+        "timeline": "Beklenen Zaman Çizelgesi",
+        "description": "Proje Açıklaması",
+        "descriptionPlaceholder": "Kapsam, hedefler ve özel gereksinimler dahil projenizi detaylı şekilde açıklayın...",
+        "requirements": "Gerekli Hizmetler",
+        "referralSource": "Bizi nereden duydunuz?",
+        "preferredContact": "Tercih Edilen İletişim Yöntemi",
+        "selectOption": "Bir seçenek seçin"
+      },
+      "projectTypes": {
+        "commercial": "Ticari İnşaat",
+        "residential": "Konut İnşaatı",
+        "infrastructure": "Altyapı",
+        "industrial": "Endüstriyel",
+        "renovation": "Yenileme ve Restorasyon",
+        "mixedUse": "Karma Kullanım",
+        "healthcare": "Sağlık Tesisi",
+        "education": "Eğitim Kurumu",
+        "hospitality": "Otelcilik ve Turizm",
+        "other": "Diğer"
+      },
+      "projectSizes": {
+        "small": "Küçük (< 5.000 ft²)",
+        "medium": "Orta (5.000 - 50.000 ft²)",
+        "large": "Büyük (50.000 - 500.000 ft²)",
+        "megaProject": "Mega Proje (> 500.000 ft²)"
+      },
+      "budgetRanges": {
+        "under500k": "500.000 $ altı",
+        "500kTo1m": "500.000 $ - 1 M$",
+        "1mTo5m": "1 M$ - 5 M$",
+        "5mTo10m": "5 M$ - 10 M$",
+        "10mTo50m": "10 M$ - 50 M$",
+        "50mTo100m": "50 M$ - 100 M$",
+        "over100m": "100 M$ üstü"
+      },
+      "timelines": {
+        "immediate": "Hemen Başlangıç",
+        "1to3months": "1-3 Ay",
+        "3to6months": "3-6 Ay",
+        "6to12months": "6-12 Ay",
+        "over12months": "12+ Ay",
+        "flexible": "Esnek"
+      },
+      "requirements": {
+        "design": "Tasarım ve Mimari",
+        "permits": "İzinler ve Onaylar",
+        "projectManagement": "Proje Yönetimi",
+        "sustainability": "Sürdürülebilirlik/LEED",
+        "bim": "BIM Hizmetleri",
+        "turnkey": "Anahtar Teslim"
+      },
+      "referralSources": {
+        "search": "Arama Motoru",
+        "referral": "Tavsiye/Ağızdan Ağıza",
+        "socialMedia": "Sosyal Medya",
+        "advertisement": "Reklam",
+        "event": "Etkinlik/Konferans",
+        "other": "Diğer"
+      },
+      "contactMethods": {
+        "email": "E-posta",
+        "phone": "Telefon",
+        "whatsapp": "WhatsApp"
+      },
+      "privacy": {
+        "text": "Bu formu göndererek",
+        "link": "Gizlilik Politikamızı",
+        "and": "ve",
+        "terms": "Kullanım Şartlarını kabul etmiş olursunuz"
+      },
+      "buttons": {
+        "previous": "Geri",
+        "next": "Sonraki Adım",
+        "submit": "Talebi Gönder",
+        "submitting": "Gönderiliyor..."
+      },
+      "errors": {
+        "required": "Bu alan zorunludur",
+        "invalidEmail": "Lütfen geçerli bir e-posta adresi girin",
+        "descriptionTooShort": "Lütfen en az 50 karakter girin"
+      },
+      "success": {
+        "title": "Teklif Talebi Gönderildi",
+        "message": "Bontera'ya ilginiz için teşekkürler. Ekibimiz proje detaylarınızı inceleyip 48 saat içinde size özel bir teklif ile iletişime geçecektir.",
+        "reference": "Referans Numarası"
+      },
+      "error": {
+        "title": "Gönderim Başarısız",
+        "message": "Talebinizi işleyemedik. Lütfen tekrar deneyin veya doğrudan bizimle iletişime geçin."
+      }
+    },
+    "sidebar": {
+      "whyUs": {
+        "title": "Neden Bontera?",
+        "experience": "Deneyim Yılı",
+        "projects": "Tamamlanan Proje",
+        "onTime": "Zamanında Teslimat",
+        "clients": "Memnun Müşteri"
+      },
+      "contact": {
+        "title": "Konuşmayı mı Tercih Edersiniz?",
+        "description": "Ekibimiz projenizi doğrudan görüşmek için hazır.",
+        "phone": "Bizi Arayın",
+        "email": "E-posta Gönderin",
+        "whatsapp": "WhatsApp"
+      },
+      "hours": {
+        "title": "Ofis Saatleri",
+        "weekdays": "Pazar - Perşembe",
+        "saturday": "Cumartesi",
+        "sunday": "Cuma",
+        "closed": "Kapalı"
+      }
+    },
+    "process": {
+      "eyebrow": "Nasıl İşliyor",
+      "title": "Talep'ten Teklife",
+      "description": "Sade süreç yapımız, hızlı ve doğru teklif almanızı sağlar.",
+      "steps": {
+        "submit": {
+          "title": "Talebinizi Gönderin",
+          "description": "Detaylı formumuzu proje bilgileri ve ihtiyaçlarınızla doldurun."
+        },
+        "review": {
+          "title": "İnceliyoruz ve Analiz Ediyoruz",
+          "description": "Uzmanlarımız talebinizi inceler ve gereksinimleri analiz eder."
+        },
+        "consultation": {
+          "title": "İlk Görüşme",
+          "description": "Detayları konuşmak ve sorularınızı yanıtlamak için bir görüşme planlarız."
+        },
+        "proposal": {
+          "title": "Teklifinizi Alın",
+          "description": "Şeffaf fiyatlandırma ile detaylı ve size özel teklif alın."
+        }
+      }
+    },
+    "faq": {
+      "eyebrow": "SSS",
+      "title": "Tekliflerle İlgili Sık Sorulan Sorular",
+      "description": "Teklif sürecimiz hakkında sık sorulan soruların yanıtlarını bulun.",
+      "stillQuestions": {
+        "title": "Hala sorunuz mu var?",
+        "description": "Ekibimiz yardımcı olmaya hazır. Kişisel destek için bizimle iletişime geçin.",
+        "link": "Ekiple İletişime Geçin"
+      },
+      "items": {
+        "timeline": {
+          "question": "Teklifi almak ne kadar sürer?",
+          "answer": "Talebinizi aldıktan sonra genellikle 48 saat içinde ilk teklifi sunarız. Daha karmaşık projelerde detaylı analiz gerektiğinde süreyi netleştirmek için sizinle iletişime geçeriz."
+        },
+        "cost": {
+          "question": "Teklif almak ücretli mi?",
+          "answer": "Hayır. Tekliflerimiz tamamen ücretsiz ve bağlayıcı değildir. Bilinçli karar verebilmeniz için şeffaf iletişimi önemsiyoruz."
+        },
+        "included": {
+          "question": "Teklifin içinde neler var?",
+          "answer": "Tekliflerimiz; detaylı maliyet dökümü, proje takvimi, iş kapsamı, malzeme şartnameleri ve ödeme koşullarını içerir. Ayrıca izinler, sigorta ve garanti kapsamı hakkında bilgi sunarız."
+        },
+        "changes": {
+          "question": "Tekliften sonra değişiklik yapabilir miyim?",
+          "answer": "Elbette. Gereksinimler değişebilir. Güncellenmiş şartname veya kapsam değişikliklerine göre teklifi ek ücret olmadan revize ederiz."
+        }
+      }
+    },
+    "testimonial": {
+      "quote": "Teklif süreci son derece sorunsuzdu. Bontera ekibi ihtiyaçlarımızı gerçekten anladı ve ilerlemek için tam güven veren detaylı, şeffaf bir teklif sundu.",
+      "author": "Mohammad Al-Farsi",
+      "role": "CEO, Al-Farsi Developments"
+    },
+    "cta": {
+      "title": "Projenizi Başlatmaya Hazır mısınız?",
+      "description": "İnşaat ihtiyaçları için Bontera'yı seçen yüzlerce memnun müşteriye katılın.",
+      "getQuote": "Ücretsiz Teklif Al",
+      "viewProjects": "Projelerimizi Gör"
+    }
+  },
+
+  "common": {
+    "loading": "Yükleniyor...",
+    "error": "Bir hata oluştu",
+    "backToHome": "Ana Sayfaya Dön",
+    "seeMore": "Daha Fazla Gör",
+    "close": "Kapat"
+  },
+
+  "strengths": {
+    "sectionTitle": "Güçlü yönler",
+    "sectionSubtitle": "Karmaşık inşaat ve altyapı projelerini teslim etme biçimimizi tanımlayan dört temel unsur.",
+    "learnMore": "Detaylı bilgi",
+    "experience": {
+      "title": "Kanıtlanmış deneyim",
+      "description": "Yapı ve altyapıda onlarca yıllık teslimat tecrübesi, disiplinli yönetim ve hesap verebilirlik."
+    },
+    "team": {
+      "title": "Uzman ekip",
+      "description": "Çok disiplinli profesyoneller, güçlü şantiye yönetimi ve güvenilir iş ortakları."
+    },
+    "locations": {
+      "title": "Bölgesel varlık",
+      "description": "Kilit pazarlarda aktif, yerel bilgi ve tutarlı standartlarla."
+    },
+    "sustainability": {
+      "title": "Sürdürülebilir yaklaşım",
+      "description": "İş güvenliği, mevzuata uyum ve düşük etkili yöntemler her aşamaya entegre."
+    }
+  },
+
+  "expertise": {
+    "sectionTitle": "Uzmanlık alanları",
+    "sectionSubtitle": "Karmaşıklık, kalite ve teslimat disiplinine odaklı modern inşaat kabiliyeti.",
+    "cta": "İncele",
+    "items": {
+      "building": {
+        "label": "Yapı",
+        "title": "Yapı",
+        "description": "Ticari ve konut projeleri; hassasiyet, güvenlik ve kontrol ile teslim edilir."
+      },
+      "civil": {
+        "label": "Altyapı",
+        "title": "Altyapı",
+        "description": "Dayanıklılık, mevzuata uyum ve uzun vadeli performans için tasarlanır."
+      },
+      "structures": {
+        "label": "Yapısal onarım",
+        "title": "Yapısal onarım",
+        "description": "Modern yöntemlerle rehabilitasyon ve güçlendirme, minimum kesinti ile."
+      },
+      "restoration": {
+        "label": "Restorasyon",
+        "title": "Restorasyon",
+        "description": "Titiz planlama ve uzman işçilikle tarihi yapı restorasyonu."
+      }
+    }
+  }
+}
+
+
+
+

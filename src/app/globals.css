@@ -1,26 +1,688 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* ============================================
+   BONTERA CONSTRUCTION - Tailwind v4 Config
+   ============================================
+   
+   UNIFIED BRAND COLOR SYSTEM
+   ─────────────────────────────────────────────
+   
+   PRIMARY: BONTERA NAVY (#1E3A5F)
+   - Logo solid elements, CTAs, headings, primary actions
+   - Use on light backgrounds for maximum impact
+   
+   SECONDARY: BONTERA GREY (#4A5568)
+   - Body text, borders, secondary UI, dark backgrounds
+   - The footer and dark sections use grey exclusively
+   
+   RULE: Navy on light, Grey tints on dark backgrounds
+   ============================================ */
+
+@theme {
+  /* ─────────────────────────────────────────────
+     PRIMARY: BONTERA NAVY
+     Base: #1E3A5F (logo solid elements)
+     ───────────────────────────────────────────── */
+  --color-bontera-navy-25:  #f7f9fb;
+  --color-bontera-navy-50:  #eef2f7;
+  --color-bontera-navy-100: #dce4ed;
+  --color-bontera-navy-200: #b8c7d9;
+  --color-bontera-navy-300: #90a7c2;
+  --color-bontera-navy-400: #6685a8;
+  --color-bontera-navy-500: #3d628d;
+  --color-bontera-navy-600: #1E3A5F;  /* ★ PRIMARY */
+  --color-bontera-navy-700: #1a3253;
+  --color-bontera-navy-800: #152a46;
+  --color-bontera-navy-900: #112139;
+  --color-bontera-navy-950: #0b1525;
+
+  /* ─────────────────────────────────────────────
+     SECONDARY: BONTERA GREY
+     Base: #4A5568 (architectural lines aesthetic)
+     ───────────────────────────────────────────── */
+  --color-bontera-grey-25:  #fcfcfd;
+  --color-bontera-grey-50:  #f8f9fa;
+  --color-bontera-grey-100: #f1f3f5;
+  --color-bontera-grey-200: #e2e5e9;
+  --color-bontera-grey-300: #cdd2d9;
+  --color-bontera-grey-400: #9aa3b0;
+  --color-bontera-grey-500: #6b7685;
+  --color-bontera-grey-600: #4a5568;  /* ★ SECONDARY */
+  --color-bontera-grey-700: #3d4654;
+  --color-bontera-grey-800: #2d3440;
+  --color-bontera-grey-900: #1e232b;
+  --color-bontera-grey-950: #0f1216;
+
+  /* ─────────────────────────────────────────────
+     ACCENT COLOR (for dark backgrounds)
+     Use grey tints instead of navy on dark sections
+     ───────────────────────────────────────────── */
+  --color-bontera-accent-light: #cdd2d9;   /* grey-300 - icons/accents on dark */
+  --color-bontera-accent-muted: #9aa3b0;   /* grey-400 - subtle accents on dark */
+
+  /* ─────────────────────────────────────────────
+     LEGACY ALIAS: bontera-blue → bontera-navy
+     ───────────────────────────────────────────── */
+  --color-bontera-blue-25:  var(--color-bontera-navy-25);
+  --color-bontera-blue-50:  var(--color-bontera-navy-50);
+  --color-bontera-blue-100: var(--color-bontera-navy-100);
+  --color-bontera-blue-200: var(--color-bontera-navy-200);
+  --color-bontera-blue-300: var(--color-bontera-navy-300);
+  --color-bontera-blue-400: var(--color-bontera-navy-400);
+  --color-bontera-blue-500: var(--color-bontera-navy-500);
+  --color-bontera-blue-600: var(--color-bontera-navy-600);
+  --color-bontera-blue-700: var(--color-bontera-navy-700);
+  --color-bontera-blue-800: var(--color-bontera-navy-800);
+  --color-bontera-blue-900: var(--color-bontera-navy-900);
+  --color-bontera-blue-950: var(--color-bontera-navy-950);
+
+  /* ─────────────────────────────────────────────
+     SEMANTIC COLORS
+     ───────────────────────────────────────────── */
+  --color-bontera-success-50:  #ecfdf5;
+  --color-bontera-success-100: #d1fae5;
+  --color-bontera-success-500: #10b981;
+  --color-bontera-success-600: #059669;
+  --color-bontera-success-700: #047857;
+
+  --color-bontera-warning-50:  #fffbeb;
+  --color-bontera-warning-100: #fef3c7;
+  --color-bontera-warning-500: #f59e0b;
+  --color-bontera-warning-600: #d97706;
+  --color-bontera-warning-700: #b45309;
+
+  --color-bontera-error-50:  #fef2f2;
+  --color-bontera-error-100: #fee2e2;
+  --color-bontera-error-500: #ef4444;
+  --color-bontera-error-600: #dc2626;
+  --color-bontera-error-700: #b91c1c;
+
+  --color-bontera-info-50:  var(--color-bontera-navy-50);
+  --color-bontera-info-100: var(--color-bontera-navy-100);
+  --color-bontera-info-500: var(--color-bontera-navy-500);
+  --color-bontera-info-600: var(--color-bontera-navy-600);
+
+  /* ─────────────────────────────────────────────
+     TAILWIND DEFAULT OVERRIDES
+     ───────────────────────────────────────────── */
+  --color-blue-50:  var(--color-bontera-navy-50);
+  --color-blue-100: var(--color-bontera-navy-100);
+  --color-blue-200: var(--color-bontera-navy-200);
+  --color-blue-300: var(--color-bontera-navy-300);
+  --color-blue-400: var(--color-bontera-navy-400);
+  --color-blue-500: var(--color-bontera-navy-500);
+  --color-blue-600: var(--color-bontera-navy-600);
+  --color-blue-700: var(--color-bontera-navy-700);
+  --color-blue-800: var(--color-bontera-navy-800);
+  --color-blue-900: var(--color-bontera-navy-900);
+  --color-blue-950: var(--color-bontera-navy-950);
+
+  --color-gray-50:  var(--color-bontera-grey-50);
+  --color-gray-100: var(--color-bontera-grey-100);
+  --color-gray-200: var(--color-bontera-grey-200);
+  --color-gray-300: var(--color-bontera-grey-300);
+  --color-gray-400: var(--color-bontera-grey-400);
+  --color-gray-500: var(--color-bontera-grey-500);
+  --color-gray-600: var(--color-bontera-grey-600);
+  --color-gray-700: var(--color-bontera-grey-700);
+  --color-gray-800: var(--color-bontera-grey-800);
+  --color-gray-900: var(--color-bontera-grey-900);
+  --color-gray-950: var(--color-bontera-grey-950);
+
+  --color-slate-50:  var(--color-bontera-grey-50);
+  --color-slate-100: var(--color-bontera-grey-100);
+  --color-slate-200: var(--color-bontera-grey-200);
+  --color-slate-300: var(--color-bontera-grey-300);
+  --color-slate-400: var(--color-bontera-grey-400);
+  --color-slate-500: var(--color-bontera-grey-500);
+  --color-slate-600: var(--color-bontera-grey-600);
+  --color-slate-700: var(--color-bontera-grey-700);
+  --color-slate-800: var(--color-bontera-grey-800);
+  --color-slate-900: var(--color-bontera-grey-900);
+  --color-slate-950: var(--color-bontera-grey-950);
+
+  /* ─────────────────────────────────────────────
+     TYPOGRAPHY
+     ───────────────────────────────────────────── */
+  --font-sans: var(--font-inter), "Inter", system-ui, -apple-system, sans-serif;
+  --font-display: var(--font-outfit), "Outfit", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", "Fira Code", ui-monospace, monospace;
+
+  /* ─────────────────────────────────────────────
+     SHADOWS - Navy-tinted for light backgrounds
+     ───────────────────────────────────────────── */
+  --shadow-bontera-xs: 0 1px 2px 0 rgba(30, 58, 95, 0.04);
+  --shadow-bontera-sm: 0 1px 3px 0 rgba(30, 58, 95, 0.06),
+                       0 1px 2px -1px rgba(30, 58, 95, 0.06);
+  --shadow-bontera-md: 0 4px 6px -1px rgba(30, 58, 95, 0.08),
+                       0 2px 4px -2px rgba(30, 58, 95, 0.06);
+  --shadow-bontera-lg: 0 10px 15px -3px rgba(30, 58, 95, 0.10),
+                       0 4px 6px -4px rgba(30, 58, 95, 0.08);
+  --shadow-bontera-xl: 0 20px 25px -5px rgba(30, 58, 95, 0.12),
+                       0 8px 10px -6px rgba(30, 58, 95, 0.08);
+  --shadow-bontera-2xl: 0 25px 50px -12px rgba(30, 58, 95, 0.22);
+
+  --shadow-bontera-card: 0 1px 3px rgba(30, 58, 95, 0.05),
+                         0 6px 16px rgba(30, 58, 95, 0.06);
+  --shadow-bontera-card-hover: 0 4px 12px rgba(30, 58, 95, 0.08),
+                               0 16px 32px rgba(30, 58, 95, 0.12);
+  --shadow-bontera-modal: 0 4px 6px rgba(30, 58, 95, 0.04),
+                          0 24px 48px rgba(30, 58, 95, 0.16);
+  --shadow-bontera-button: 0 1px 2px rgba(30, 58, 95, 0.08),
+                           0 2px 4px rgba(30, 58, 95, 0.06);
+
+  /* ─────────────────────────────────────────────
+     BORDER RADIUS
+     ───────────────────────────────────────────── */
+  --radius-bontera-xs: 0.125rem;
+  --radius-bontera-sm: 0.25rem;
+  --radius-bontera-md: 0.5rem;
+  --radius-bontera-lg: 0.75rem;
+  --radius-bontera-xl: 1rem;
+  --radius-bontera-2xl: 1.5rem;
+  --radius-bontera-full: 9999px;
+
+  /* ─────────────────────────────────────────────
+     TRANSITIONS
+     ───────────────────────────────────────────── */
+  --transition-bontera-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-bontera-base: 200ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-bontera-slow: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-bontera-slower: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* ─────────────────────────────────────────────
+     Z-INDEX SCALE
+     ───────────────────────────────────────────── */
+  --z-bontera-base: 0;
+  --z-bontera-dropdown: 10;
+  --z-bontera-sticky: 20;
+  --z-bontera-fixed: 30;
+  --z-bontera-modal-backdrop: 40;
+  --z-bontera-modal: 50;
+  --z-bontera-popover: 60;
+  --z-bontera-tooltip: 70;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* ============================================
+   GLOBAL STYLES
+   ============================================ */
+
+html {
+  color: var(--color-bontera-grey-900);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+::selection {
+  background-color: var(--color-bontera-navy-600);
+  color: white;
+}
+
+::-moz-selection {
+  background-color: var(--color-bontera-navy-600);
+  color: white;
+}
+
+/* Focus states */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--color-bontera-navy-500);
+  outline-offset: 2px;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bontera-grey-100);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-bontera-grey-400);
+  border-radius: 5px;
+  border: 2px solid var(--color-bontera-grey-100);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-bontera-grey-600);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-bontera-grey-400) var(--color-bontera-grey-100);
+}
+
+/* ============================================
+   TYPOGRAPHY UTILITIES
+   ============================================ */
+
+.text-heading {
+  color: var(--color-bontera-navy-600);
+}
+
+.text-body {
+  color: var(--color-bontera-grey-600);
+}
+
+.text-body-light {
+  color: var(--color-bontera-grey-500);
+}
+
+.text-body-dark {
+  color: var(--color-bontera-grey-700);
+}
+
+.text-muted {
+  color: var(--color-bontera-grey-400);
+}
+
+/* ============================================
+   GRADIENT UTILITIES
+   ============================================ */
+
+.bg-bontera-gradient-navy {
+  background: linear-gradient(
+    135deg,
+    var(--color-bontera-navy-600) 0%,
+    var(--color-bontera-navy-800) 100%
+  );
+}
+
+.bg-bontera-gradient-grey {
+  background: linear-gradient(
+    135deg,
+    var(--color-bontera-grey-600) 0%,
+    var(--color-bontera-grey-800) 100%
+  );
+}
+
+.bg-bontera-gradient-brand {
+  background: linear-gradient(
+    135deg,
+    var(--color-bontera-navy-600) 0%,
+    var(--color-bontera-grey-700) 100%
+  );
+}
+
+.bg-bontera-gradient-subtle {
+  background: linear-gradient(
+    180deg,
+    var(--color-bontera-grey-50) 0%,
+    white 100%
+  );
+}
+
+.bg-bontera-gradient-hero {
+  background: linear-gradient(
+    145deg,
+    var(--color-bontera-grey-900) 0%,
+    var(--color-bontera-grey-800) 50%,
+    var(--color-bontera-grey-700) 100%
+  );
+}
+
+.text-bontera-gradient {
+  background: linear-gradient(
+    135deg,
+    var(--color-bontera-navy-600) 0%,
+    var(--color-bontera-grey-500) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ============================================
+   COMPONENT UTILITIES
+   ============================================ */
+
+.divider-bontera {
+  height: 4px;
+  width: 60px;
+  background: var(--color-bontera-navy-600);
+  border-radius: 2px;
+}
+
+.divider-bontera-grey {
+  height: 2px;
+  width: 60px;
+  background: var(--color-bontera-grey-300);
+  border-radius: 1px;
+}
+
+.card-bontera {
+  background: white;
+  border: 1px solid var(--color-bontera-grey-200);
+  border-radius: var(--radius-bontera-xl);
+  box-shadow: var(--shadow-bontera-card);
+  transition:
+    transform var(--transition-bontera-base),
+    box-shadow var(--transition-bontera-base),
+    border-color var(--transition-bontera-base);
+}
+
+.card-bontera:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-bontera-card-hover);
+  border-color: var(--color-bontera-grey-300);
+}
+
+.card-bontera-dark {
+  background: var(--color-bontera-grey-800);
+  border: 1px solid var(--color-bontera-grey-700);
+  border-radius: var(--radius-bontera-xl);
+  box-shadow: var(--shadow-bontera-lg);
+  color: white;
+}
+
+/* ============================================
+   BUTTON UTILITIES
+   ============================================ */
+
+.btn-bontera-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: white;
+  background-color: var(--color-bontera-navy-600);
+  border: none;
+  border-radius: var(--radius-bontera-md);
+  box-shadow: var(--shadow-bontera-button);
+  cursor: pointer;
+  transition:
+    background-color var(--transition-bontera-fast),
+    box-shadow var(--transition-bontera-fast),
+    transform var(--transition-bontera-fast);
+}
+
+.btn-bontera-primary:hover {
+  background-color: var(--color-bontera-navy-700);
+  box-shadow: var(--shadow-bontera-md);
+  transform: translateY(-1px);
+}
+
+.btn-bontera-primary:active {
+  background-color: var(--color-bontera-navy-800);
+  transform: translateY(0);
+}
+
+.btn-bontera-primary:disabled {
+  background-color: var(--color-bontera-grey-300);
+  color: var(--color-bontera-grey-500);
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+.btn-bontera-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: var(--color-bontera-grey-700);
+  background-color: var(--color-bontera-grey-100);
+  border: 1px solid var(--color-bontera-grey-200);
+  border-radius: var(--radius-bontera-md);
+  cursor: pointer;
+  transition:
+    background-color var(--transition-bontera-fast),
+    border-color var(--transition-bontera-fast),
+    color var(--transition-bontera-fast);
+}
+
+.btn-bontera-secondary:hover {
+  background-color: var(--color-bontera-grey-200);
+  border-color: var(--color-bontera-grey-300);
+  color: var(--color-bontera-grey-800);
+}
+
+.btn-bontera-outline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: var(--color-bontera-navy-600);
+  background-color: transparent;
+  border: 2px solid var(--color-bontera-navy-600);
+  border-radius: var(--radius-bontera-md);
+  cursor: pointer;
+  transition:
+    background-color var(--transition-bontera-fast),
+    color var(--transition-bontera-fast),
+    transform var(--transition-bontera-fast);
+}
+
+.btn-bontera-outline:hover {
+  background-color: var(--color-bontera-navy-600);
+  color: white;
+  transform: translateY(-1px);
+}
+
+.btn-bontera-ghost {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: var(--color-bontera-grey-600);
+  background-color: transparent;
+  border: none;
+  border-radius: var(--radius-bontera-md);
+  cursor: pointer;
+  transition:
+    background-color var(--transition-bontera-fast),
+    color var(--transition-bontera-fast);
+}
+
+.btn-bontera-ghost:hover {
+  background-color: var(--color-bontera-grey-100);
+  color: var(--color-bontera-navy-600);
+}
+
+/* ============================================
+   INPUT UTILITIES
+   ============================================ */
+
+.input-bontera {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: var(--color-bontera-grey-900);
+  background-color: white;
+  border: 1px solid var(--color-bontera-grey-300);
+  border-radius: var(--radius-bontera-md);
+  transition:
+    border-color var(--transition-bontera-fast),
+    box-shadow var(--transition-bontera-fast);
+}
+
+.input-bontera::placeholder {
+  color: var(--color-bontera-grey-400);
+}
+
+.input-bontera:hover {
+  border-color: var(--color-bontera-grey-400);
+}
+
+.input-bontera:focus {
+  outline: none;
+  border-color: var(--color-bontera-navy-500);
+  box-shadow: 0 0 0 3px var(--color-bontera-navy-100);
+}
+
+/* ============================================
+   ANIMATION KEYFRAMES
+   ============================================ */
+
+@keyframes bontera-fade-in {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes bontera-fade-in-up {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes bontera-scale-in {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes bontera-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+@keyframes bontera-shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.animate-bontera-fade-in {
+  animation: bontera-fade-in 0.4s ease-out forwards;
+}
+
+.animate-bontera-fade-in-up {
+  animation: bontera-fade-in-up 0.5s ease-out forwards;
+}
+
+.animate-bontera-scale-in {
+  animation: bontera-scale-in 0.3s ease-out forwards;
+}
+
+.animate-bontera-pulse {
+  animation: bontera-pulse 2s ease-in-out infinite;
+}
+
+.animate-bontera-shimmer {
+  background: linear-gradient(
+    90deg,
+    var(--color-bontera-grey-200) 0%,
+    var(--color-bontera-grey-100) 50%,
+    var(--color-bontera-grey-200) 100%
+  );
+  background-size: 200% 100%;
+  animation: bontera-shimmer 1.5s ease-in-out infinite;
+}
+
+/* ============================================
+   LAYOUT UTILITIES
+   ============================================ */
+
+.container-bontera {
+  width: 100%;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .container-bontera {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@media (min-width: 1024px) {
+  .container-bontera {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+}
+
+.section-bontera {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+@media (min-width: 1024px) {
+  .section-bontera {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+/* ============================================
+   ARCHITECTURAL PATTERNS
+   ============================================ */
+
+.pattern-bontera-lines {
+  background-image: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 8px,
+    var(--color-bontera-grey-200) 8px,
+    var(--color-bontera-grey-200) 9px
+  );
+}
+
+.pattern-bontera-lines-light {
+  background-image: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 8px,
+    rgba(255, 255, 255, 0.1) 8px,
+    rgba(255, 255, 255, 0.1) 9px
+  );
+}
+
+.pattern-bontera-grid {
+  background-image:
+    linear-gradient(var(--color-bontera-grey-200) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-bontera-grey-200) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+
+/* ════════════════════════════════════════════════════════════════════════════
+   ADD THIS TO YOUR src/app/globals.css
+   ════════════════════════════════════════════════════════════════════════════ */
+
+/* Architectural line pattern for header mega menus and sections */
+.pattern-bontera-lines {
+  background-image: 
+    linear-gradient(90deg, rgba(148, 163, 184, 0.1) 1px, transparent 1px),
+    linear-gradient(rgba(148, 163, 184, 0.1) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.heroStairsMask {
+  clip-path: polygon(
+    0% 0%,
+    70% 0%,
+    70% 18%,
+    56% 18%,
+    56% 40%,
+    44% 40%,
+    44% 60%,
+    32% 60%,
+    32% 78%,
+    0% 78%
+  );
 }
