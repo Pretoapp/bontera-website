@@ -36,7 +36,7 @@ export const defaultMetadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'de_DE',
-    alternateLocale: ['en_US', 'fr_FR', 'es_ES', 'tr_TR', 'ar_SA'],
+    alternateLocale: ['en_US', 'fr_FR', 'nl_NL', 'it_IT', 'ku_TR', 'tr_TR'],
     url: siteUrl,
     siteName: 'Bontera',
     title: 'Bontera | Construction Excellence',

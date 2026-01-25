@@ -53,7 +53,7 @@ const initialFormData: FormData = {
 
 export default function QuoteForm({ locale }: QuoteFormProps) {
    const t = useTranslations("quotePage.form");
-  const isRTL = locale === "ar";
+  const isRTL = locale === "ku";
 
   const [currentStep, setCurrentStep] = useState(1);
   const [formData, setFormData] = useState<FormData>(initialFormData);

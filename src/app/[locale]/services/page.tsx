@@ -104,7 +104,7 @@ const industries = [
 export default async function ServicesPage({ params }: Props) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "servicesPage" });
-  const isRTL = locale === "ar";
+  const isRTL = locale === "ku";
 
   return (
     <main className="bg-bontera-grey-50" dir={isRTL ? "rtl" : "ltr"}>

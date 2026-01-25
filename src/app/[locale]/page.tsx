@@ -122,7 +122,7 @@ async function getLatestNews(locale: string): Promise<any[]> {
 export default async function HomePage({ params }: Props) {
   const { locale } = await params;
   const t = await getTranslations({ locale });
-  const isRTL = locale === "ar";
+  const isRTL = locale === "ku";
 
   const featuredProjects = await getFeaturedProjects(locale);
   const latestNews = await getLatestNews(locale);

@@ -167,7 +167,7 @@ export default async function NewsPage({ params, searchParams }: Props) {
   const { locale } = await params;
   const { category: categoryFilter, page: pageParam } = await searchParams;
   const t = await getTranslations({ locale, namespace: "news" });
-  const isRTL = locale === "ar";
+  const isRTL = locale === "ku";
 
   const currentPage = parseInt(pageParam || "1", 10);
 

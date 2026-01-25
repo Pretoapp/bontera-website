@@ -22,7 +22,7 @@ type FormErrors = Partial<Record<keyof FormData, string>>;
 
 export default function ContactForm({ locale }: ContactFormProps) {
 const t = useTranslations("contactPage.form");
-  const isRTL = locale === "ar";
+  const isRTL = locale === "ku";
 
   const [formData, setFormData] = useState<FormData>({
     name: "",

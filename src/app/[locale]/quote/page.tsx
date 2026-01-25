@@ -98,7 +98,7 @@ export default async function QuotePage({ params }: Props) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "quotePage" });
 
-  const isRTL = locale === "ar";
+  const isRTL = locale === "ku";
 
   return (
     <main className="bg-bontera-grey-50" dir={isRTL ? "rtl" : "ltr"}>
