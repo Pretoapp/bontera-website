@@ -1311,5 +1311,82 @@
       "getQuote": "Ottieni il Tuo Preventivo Gratuito",
       "viewProjects": "Vedi i Nostri Progetti"
     }
+  },
+
+  "projectDetail": {
+    "breadcrumb": {
+      "home": "Home",
+      "projects": "Progetti"
+    },
+    "status": {
+      "completed": "Completato",
+      "ongoing": "In corso",
+      "upcoming": "In arrivo",
+      "planning": "Pianificazione"
+    },
+    "featured": "Progetto in evidenza",
+    "scrollToExplore": "Scorri per esplorare",
+    "overview": {
+      "eyebrow": "Panoramica del progetto",
+      "title": "Informazioni su questo progetto"
+    },
+    "scope": {
+      "title": "Ambito del progetto"
+    },
+    "servicesFeatures": {
+      "title": "Servizi e caratteristiche"
+    },
+    "challenges": {
+      "title": "Sfide"
+    },
+    "solutions": {
+      "title": "Le nostre soluzioni"
+    },
+    "results": {
+      "title": "Risultati e impatto"
+    },
+    "awards": {
+      "title": "Premi e certificazioni"
+    },
+    "details": {
+      "title": "Dettagli del progetto",
+      "client": "Cliente",
+      "location": "Posizione",
+      "year": "Anno",
+      "value": "Valore del progetto",
+      "duration": "Durata",
+      "size": "Dimensione del progetto",
+      "status": "Stato",
+      "teamSize": "Dimensione del team"
+    },
+    "team": {
+      "title": "Team del progetto",
+      "architect": "Architetto",
+      "contractor": "Appaltatore principale",
+      "engineers": "Ingegneri"
+    },
+    "sidebar": {
+      "cta": {
+        "title": "Interessato a un progetto simile?",
+        "description": "Discutiamo come possiamo realizzare la tua visione.",
+        "button": "Richiedi preventivo"
+      }
+    },
+    "gallery": {
+      "eyebrow": "Galleria del progetto",
+      "title": "Documentazione visiva"
+    },
+    "related": {
+      "eyebrow": "Altri progetti",
+      "title": "Lavori correlati",
+      "viewAll": "Vedi tutti i progetti"
+    },
+    "cta": {
+      "eyebrow": "Inizia il tuo progetto",
+      "title": "Pronto a costruire la tua visione?",
+      "description": "Il nostro team è pronto a trasformare le tue idee in realtà. Parliamo del tuo progetto oggi.",
+      "startProject": "Inizia il tuo progetto",
+      "contactUs": "Contattaci"
+    }
   }
 }

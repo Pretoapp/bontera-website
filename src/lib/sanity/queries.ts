@@ -36,13 +36,59 @@ export const projectBySlugQuery = groq`
     _id,
     title,
     slug,
+    "slugCurrent": slug.current,
     category,
     description,
+    shortDescription,
     location,
     year,
+    startDate,
+    endDate,
     client,
+    value,
+    projectValue,
+    budget,
+    duration,
+    status,
+    size,
+    area,
+    squareMeters,
+    scope,
+    services,
+    features,
+    highlights,
+    challenges,
+    solutions,
+    results,
+    awards,
+    certifications,
+    teamSize,
+    architect,
+    contractor,
+    engineers,
     mainImage,
-    gallery
+    heroImage,
+    coverImage,
+    image,
+    gallery,
+    images,
+    featured
+  }
+`;
+
+export const relatedProjectsQuery = groq`
+  *[_type == "project" && slug.current != $slug && (
+    category == $category ||
+    featured == true
+  )] | order(year desc)[0...3] {
+    _id,
+    title,
+    slug,
+    "slugCurrent": slug.current,
+    category,
+    location,
+    year,
+    mainImage
   }
 `;
 

@@ -1369,6 +1369,83 @@
         "description": "Titiz planlama ve uzman işçilikle tarihi yapı restorasyonu."
       }
     }
+  },
+
+  "projectDetail": {
+    "breadcrumb": {
+      "home": "Ana Sayfa",
+      "projects": "Projeler"
+    },
+    "status": {
+      "completed": "Tamamlandı",
+      "ongoing": "Devam Ediyor",
+      "upcoming": "Yakında",
+      "planning": "Planlama"
+    },
+    "featured": "Öne Çıkan Proje",
+    "scrollToExplore": "Keşfetmek için kaydırın",
+    "overview": {
+      "eyebrow": "Proje Özeti",
+      "title": "Bu Proje Hakkında"
+    },
+    "scope": {
+      "title": "Proje Kapsamı"
+    },
+    "servicesFeatures": {
+      "title": "Hizmetler ve Özellikler"
+    },
+    "challenges": {
+      "title": "Zorluklar"
+    },
+    "solutions": {
+      "title": "Çözümlerimiz"
+    },
+    "results": {
+      "title": "Sonuçlar ve Etki"
+    },
+    "awards": {
+      "title": "Ödüller ve Sertifikalar"
+    },
+    "details": {
+      "title": "Proje Detayları",
+      "client": "Müşteri",
+      "location": "Konum",
+      "year": "Yıl",
+      "value": "Proje Değeri",
+      "duration": "Süre",
+      "size": "Proje Boyutu",
+      "status": "Durum",
+      "teamSize": "Ekip Büyüklüğü"
+    },
+    "team": {
+      "title": "Proje Ekibi",
+      "architect": "Mimar",
+      "contractor": "Ana Yüklenici",
+      "engineers": "Mühendisler"
+    },
+    "sidebar": {
+      "cta": {
+        "title": "Benzer bir projeyle ilgileniyor musunuz?",
+        "description": "Vizyonunuzu nasıl hayata geçirebileceğimizi konuşalım.",
+        "button": "Teklif İste"
+      }
+    },
+    "gallery": {
+      "eyebrow": "Proje Galerisi",
+      "title": "Görsel Dokümantasyon"
+    },
+    "related": {
+      "eyebrow": "Daha Fazla Proje",
+      "title": "İlgili Çalışmalar",
+      "viewAll": "Tüm Projeleri Gör"
+    },
+    "cta": {
+      "eyebrow": "Projenizi Başlatın",
+      "title": "Vizyonunuzu İnşa Etmeye Hazır mısınız?",
+      "description": "Ekibimiz fikirlerinizi gerçeğe dönüştürmeye hazır. Bugün projenizi konuşalım.",
+      "startProject": "Projenizi Başlatın",
+      "contactUs": "Bize Ulaşın"
+    }
   }
 }
 

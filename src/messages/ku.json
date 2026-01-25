@@ -1311,5 +1311,82 @@
       "getQuote": "Bihayeke Xwe ya Belahe Bibin",
       "viewProjects": "Projeyen Me Bibin"
     }
+  },
+
+  "projectDetail": {
+    "breadcrumb": {
+      "home": "Mal",
+      "projects": "Proje"
+    },
+    "status": {
+      "completed": "Qediya",
+      "ongoing": "Derdikeve",
+      "upcoming": "Nêzîk e",
+      "planning": "Plansaz"
+    },
+    "featured": "Projeya Taybetî",
+    "scrollToExplore": "Ji bo lêgerînê bigerin",
+    "overview": {
+      "eyebrow": "Nêrîna Projeyê",
+      "title": "Derbarê vê projeyê de"
+    },
+    "scope": {
+      "title": "Berfirehiya Projeyê"
+    },
+    "servicesFeatures": {
+      "title": "Xizmet û Taybetmendî"
+    },
+    "challenges": {
+      "title": "Dijwarî"
+    },
+    "solutions": {
+      "title": "Çareseriyên Me"
+    },
+    "results": {
+      "title": "Encam û Bandor"
+    },
+    "awards": {
+      "title": "Xelat û Sertîfîka"
+    },
+    "details": {
+      "title": "Hûrguliyên Projeyê",
+      "client": "Xerîdar",
+      "location": "Cîh",
+      "year": "Sal",
+      "value": "Nirxa Projeyê",
+      "duration": "Dem",
+      "size": "Mezinbûna Projeyê",
+      "status": "Rewş",
+      "teamSize": "Mezinbûna Tîmê"
+    },
+    "team": {
+      "title": "Tîma Projeyê",
+      "architect": "Mîmar",
+      "contractor": "Peymankara Sereke",
+      "engineers": "Endezyar"
+    },
+    "sidebar": {
+      "cta": {
+        "title": "Balkêşiya projeyek wekhev?",
+        "description": "Ka em nîqaş bikin ka em çawa dikarin dîtina we zindî bikin.",
+        "button": "Bihayê Bixwaze"
+      }
+    },
+    "gallery": {
+      "eyebrow": "Galeriya Projeyê",
+      "title": "Belgekirin Dîtbarî"
+    },
+    "related": {
+      "eyebrow": "Projeyên Din",
+      "title": "Karên Têkildar",
+      "viewAll": "Hemû Projeyan Bibin"
+    },
+    "cta": {
+      "eyebrow": "Projeya Xwe Dest Pê Bikin",
+      "title": "Amade ne ku Dîtina Xwe Ava Bikin?",
+      "description": "Tîma me amade ye ku ramanên we veguherîne rastiyê. Ka îro li ser projeya xwe nîqaş bikin.",
+      "startProject": "Projeya Xwe Dest Pê Bikin",
+      "contactUs": "Bi Me Re Têkilî Bikin"
+    }
   }
 }

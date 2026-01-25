@@ -1311,6 +1311,83 @@
       "getQuote": "Obtenir un devis gratuit",
       "viewProjects": "Voir nos projets"
     }
+  },
+
+  "projectDetail": {
+    "breadcrumb": {
+      "home": "Accueil",
+      "projects": "Projets"
+    },
+    "status": {
+      "completed": "Terminé",
+      "ongoing": "En cours",
+      "upcoming": "À venir",
+      "planning": "Planification"
+    },
+    "featured": "Projet en vedette",
+    "scrollToExplore": "Défiler pour explorer",
+    "overview": {
+      "eyebrow": "Aperçu du projet",
+      "title": "À propos de ce projet"
+    },
+    "scope": {
+      "title": "Portée du projet"
+    },
+    "servicesFeatures": {
+      "title": "Services et caractéristiques"
+    },
+    "challenges": {
+      "title": "Défis"
+    },
+    "solutions": {
+      "title": "Nos solutions"
+    },
+    "results": {
+      "title": "Résultats et impact"
+    },
+    "awards": {
+      "title": "Prix et certifications"
+    },
+    "details": {
+      "title": "Détails du projet",
+      "client": "Client",
+      "location": "Emplacement",
+      "year": "Année",
+      "value": "Valeur du projet",
+      "duration": "Durée",
+      "size": "Taille du projet",
+      "status": "Statut",
+      "teamSize": "Taille de l'équipe"
+    },
+    "team": {
+      "title": "Équipe du projet",
+      "architect": "Architecte",
+      "contractor": "Entrepreneur principal",
+      "engineers": "Ingénieurs"
+    },
+    "sidebar": {
+      "cta": {
+        "title": "Intéressé par un projet similaire?",
+        "description": "Discutons de comment nous pouvons donner vie à votre vision.",
+        "button": "Demander un devis"
+      }
+    },
+    "gallery": {
+      "eyebrow": "Galerie du projet",
+      "title": "Documentation visuelle"
+    },
+    "related": {
+      "eyebrow": "Plus de projets",
+      "title": "Travaux connexes",
+      "viewAll": "Voir tous les projets"
+    },
+    "cta": {
+      "eyebrow": "Démarrez votre projet",
+      "title": "Prêt à construire votre vision?",
+      "description": "Notre équipe est prête à transformer vos idées en réalité. Discutons de votre projet aujourd'hui.",
+      "startProject": "Démarrer votre projet",
+      "contactUs": "Nous contacter"
+    }
   }
 }
 
