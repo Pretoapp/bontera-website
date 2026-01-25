@@ -10,9 +10,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Suspense } from "react";
 
-import { client, urlFor } from "@/lib/sanity/client";
-import { projectsQuery } from "@/lib/sanity/queries";
-import type { SanityImageSource } from "@sanity/image-url/lib/types/types";
+import { projects, getFeaturedProjects, categoryInfo } from "@/data/projects";
 
 /* ═══════════════════════════════════════════════════════════════════════════
    TYPES
@@ -23,26 +21,7 @@ type Props = {
   searchParams: Promise<{ category?: string; year?: string }>;
 };
 
-type LocalizedText = string | Record<string, string>;
-
-type Project = {
-  _id: string;
-  slug?: string | { current?: string };
-  slugCurrent?: string;
-  title?: LocalizedText;
-  category?: LocalizedText;
-  location?: LocalizedText;
-  year?: string;
-  client?: LocalizedText;
-  value?: string;
-  duration?: string;
-  status?: string;
-  mainImage?: SanityImageSource;
-  image?: SanityImageSource;
-  coverImage?: SanityImageSource;
-  heroImage?: SanityImageSource;
-  featured?: boolean;
-};
+type Locale = "de" | "en" | "fr" | "nl" | "it" | "ku" | "tr";
 
 /* ═══════════════════════════════════════════════════════════════════════════
    METADATA
@@ -56,37 +35,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: t("meta.title"),
     description: t("meta.description"),
   };
-}
-
-/* ═══════════════════════════════════════════════════════════════════════════
-   UTILITIES
-   ═══════════════════════════════════════════════════════════════════════════ */
-
-function pickLocalized(text: LocalizedText | undefined, locale: string, fallback = "") {
-  if (!text) return fallback;
-  if (typeof text === "string") return text;
-  return text[locale] ?? text.en ?? text.fr ?? fallback;
-}
-
-function pickSlug(input: any): string | null {
-  if (!input) return null;
-  if (typeof input === "string") return input;
-  if (typeof input?.current === "string") return input.current;
-  return null;
-}
-
-/* ═══════════════════════════════════════════════════════════════════════════
-   DATA FETCHING
-   ═══════════════════════════════════════════════════════════════════════════ */
-
-async function getProjects(locale: string): Promise<Project[]> {
-  try {
-    const projects = await client.fetch(projectsQuery, { locale });
-    return Array.isArray(projects) ? projects : [];
-  } catch (error) {
-    console.error("Error fetching projects:", error);
-    return [];
-  }
 }
 
 /* ═══════════════════════════════════════════════════════════════════════════
@@ -104,7 +52,7 @@ const categories = [
 
 const featuredStats = [
   { value: "500+", key: "projectsCompleted" },
-  { value: "$1.2B", key: "totalValue" },
+  { value: "€2.5B", key: "totalValue" },
   { value: "12", key: "countries" },
   { value: "98%", key: "onTimeDelivery" },
 ];
@@ -118,43 +66,32 @@ export default async function ProjectsPage({ params, searchParams }: Props) {
   const { category: categoryFilter } = await searchParams;
   const t = await getTranslations({ locale, namespace: "projectsPage" });
   const isRTL = locale === "ku";
+  const loc = locale as Locale;
 
-  const allProjects = await getProjects(locale);
-
-  // Process projects
-  const processedProjects = allProjects.map((p) => {
-    const slug = p.slugCurrent ?? pickSlug(p.slug);
-    if (!slug) return null;
-    const img = p.mainImage ?? p.image ?? p.coverImage ?? p.heroImage;
-    const categoryValue = pickLocalized(p.category, locale, "Construction");
-    
-    return {
-      id: p._id,
-      slug,
-      title: pickLocalized(p.title, locale, "Project"),
-      category: categoryValue,
-      categorySlug: categoryValue.toLowerCase().replace(/\s+/g, "-"),
-      location: pickLocalized(p.location, locale, ""),
-      year: p.year ?? "2024",
-      client: pickLocalized(p.client, locale, ""),
-      value: p.value ?? "",
-      duration: p.duration ?? "",
-      status: p.status ?? "completed",
-      featured: p.featured ?? false,
-      href: `/${locale}/projects/${slug}`,
-      imageUrl: img ? urlFor(img).width(1200).height(800).url() : "/images/placeholder.jpg",
-    };
-  }).filter(Boolean) as NonNullable<typeof processedProjects[number]>[];
+  // Process projects from static data
+  const processedProjects = projects.map((p) => ({
+    id: p.id,
+    slug: p.slug,
+    title: p.title[loc] || p.title.en,
+    category: t(`categories.${p.category}`),
+    categorySlug: p.category,
+    location: p.location[loc] || p.location.en,
+    year: p.year,
+    client: p.client,
+    value: p.value,
+    duration: p.duration,
+    status: p.status,
+    featured: p.featured,
+    href: `/${locale}/projects/${p.slug}`,
+    imageUrl: p.image,
+  }));
 
   // Filter by category
   const filteredProjects = categoryFilter
-    ? processedProjects.filter((p) => 
-        p.categorySlug === categoryFilter || 
-        p.category.toLowerCase().includes(categoryFilter.toLowerCase())
-      )
+    ? processedProjects.filter((p) => p.categorySlug === categoryFilter)
     : processedProjects;
 
-  // Get featured projects (first 3 featured or first 3 overall)
+  // Get featured projects
   const featuredProjects = processedProjects.filter((p) => p.featured).slice(0, 3);
   const displayFeatured = featuredProjects.length > 0 ? featuredProjects : processedProjects.slice(0, 3);
 
@@ -282,10 +219,10 @@ export default async function ProjectsPage({ params, searchParams }: Props) {
                     sizes="50vw"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-bontera-navy-900/90 via-bontera-navy-900/30 to-transparent" />
-                  
+
                   {/* Featured Badge */}
                   <div className="absolute top-6 left-6">
-                    <span className="px-4 py-2 bg-gray-500 text-white text-xs font-semibold uppercase tracking-wider">
+                    <span className="px-4 py-2 bg-bontera-navy-600 text-white text-xs font-semibold uppercase tracking-wider">
                       {t("featured.badge")}
                     </span>
                   </div>
@@ -439,7 +376,7 @@ export default async function ProjectsPage({ params, searchParams }: Props) {
                     className="group bg-white border border-bontera-grey-200 hover:border-bontera-grey-300 hover:shadow-xl transition-all duration-500 overflow-hidden"
                   >
                     {/* Image */}
-                    <div className="relative h-56 overflow-hidden">
+                    <div className="relative h-56 overflow-hidden bg-bontera-grey-200">
                       <Image
                         src={project.imageUrl}
                         alt={project.title}
@@ -568,25 +505,24 @@ export default async function ProjectsPage({ params, searchParams }: Props) {
           {/* Category Cards */}
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { key: "commercial", count: "150+", icon: "M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5 3H15m-1.5 3H15M9 21v-3.375c0-.621.504-1.125 1.125-1.125h3.75c.621 0 1.125.504 1.125 1.125V21" },
-              { key: "residential", count: "120+", icon: "M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" },
-              { key: "infrastructure", count: "80+", icon: "M9 6.75V15m6-6v8.25m.503 3.498l4.875-2.437c.381-.19.622-.58.622-1.006V4.82c0-.836-.88-1.38-1.628-1.006l-3.869 1.934c-.317.159-.69.159-1.006 0L9.503 3.252a1.125 1.125 0 00-1.006 0L3.622 5.689C3.24 5.88 3 6.27 3 6.695V19.18c0 .836.88 1.38 1.628 1.006l3.869-1.934c.317-.159.69-.159 1.006 0l4.994 2.497c.317.158.69.158 1.006 0z" },
-              { key: "industrial", count: "90+", icon: "M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 00.75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 00-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0112 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 01-.673-.38m0 0A2.18 2.18 0 013 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 013.413-.387m7.5 0V5.25A2.25 2.25 0 0013.5 3h-3a2.25 2.25 0 00-2.25 2.25v.894m7.5 0a48.667 48.667 0 00-7.5 0M12 12.75h.008v.008H12v-.008z" },
-              { key: "renovation", count: "60+", icon: "M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 004.486-6.336l-3.276 3.277a3.004 3.004 0 01-2.25-2.25l3.276-3.276a4.5 4.5 0 00-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437l1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008z" },
-              { key: "publicWorks", count: "40+", icon: "M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0012 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75z" },
+              { key: "commercial", count: "150+", icon: categoryInfo.commercial.icon },
+              { key: "residential", count: "120+", icon: categoryInfo.residential.icon },
+              { key: "infrastructure", count: "80+", icon: categoryInfo.infrastructure.icon },
+              { key: "industrial", count: "90+", icon: categoryInfo.industrial.icon },
+              { key: "renovation", count: "60+", icon: categoryInfo.renovation.icon },
             ].map((cat) => (
               <Link
                 key={cat.key}
-                href={`/${locale}/projects/category/${cat.key === 'publicWorks' ? 'public-works' : cat.key}`}
+                href={`/${locale}/projects/category/${cat.key}`}
                 className="group bg-bontera-navy-800 p-8 border border-bontera-grey-700 hover:border-gray-500 transition-all duration-300"
               >
                 <div className="flex items-start justify-between mb-6">
-                  <div className="w-14 h-14 bg-bontera-navy-700 flex items-center justify-center group-hover:bg-gray-500 transition-colors">
+                  <div className="w-14 h-14 bg-bontera-navy-700 flex items-center justify-center group-hover:bg-bontera-navy-600 transition-colors">
                     <svg className="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
                       <path strokeLinecap="round" strokeLinejoin="round" d={cat.icon} />
                     </svg>
                   </div>
-                  <span className="text-4xl font-bold text-gray-500">{cat.count}</span>
+                  <span className="text-4xl font-bold text-bontera-navy-500">{cat.count}</span>
                 </div>
 
                 <h3 className="text-xl font-semibold text-white mb-2 group-hover:text-gray-300 transition-colors">

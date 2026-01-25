@@ -11,10 +11,8 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
 
-import { client, urlFor } from "@/lib/sanity/client";
-import { projectsQuery } from "@/lib/sanity/queries";
+import { projects, getProjectsByCategory, categoryInfo, type Project } from "@/data/projects";
 import { locales } from "@/lib/i18n/config";
-import type { SanityImageSource } from "@sanity/image-url/lib/types/types";
 
 /* ═══════════════════════════════════════════════════════════════════════════
    TYPES
@@ -24,64 +22,15 @@ type Props = {
   params: Promise<{ locale: string; category: string }>;
 };
 
-type LocalizedText = string | Record<string, string>;
+type LocaleKey = "de" | "en" | "fr" | "nl" | "it" | "ku" | "tr";
 
-type Project = {
-  _id: string;
-  slug?: string | { current?: string };
-  slugCurrent?: string;
-  title?: LocalizedText;
-  category?: LocalizedText;
-  location?: LocalizedText;
-  year?: string;
-  client?: LocalizedText;
-  value?: string;
-  duration?: string;
-  status?: string;
-  mainImage?: SanityImageSource;
-  image?: SanityImageSource;
-  coverImage?: SanityImageSource;
-  heroImage?: SanityImageSource;
-  featured?: boolean;
-};
+type CategoryKey = "commercial" | "residential" | "infrastructure" | "industrial" | "renovation";
 
 /* ═══════════════════════════════════════════════════════════════════════════
-   CATEGORY DATA
+   VALID CATEGORIES
    ═══════════════════════════════════════════════════════════════════════════ */
 
-const categoryData: Record<string, {
-  key: string;
-  icon: string;
-  heroImage: string;
-  filterTerms: string[];
-}> = {
-  commercial: {
-    key: "commercial",
-    icon: "M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5 3H15m-1.5 3H15M9 21v-3.375c0-.621.504-1.125 1.125-1.125h3.75c.621 0 1.125.504 1.125 1.125V21",
-    heroImage: "/images/services/commercial.jpg",
-    filterTerms: ["commercial", "office", "retail", "hospitality", "hotel", "mall", "gewerbebau", "commercial", "commerciale", "ticari", "bazirganî"],
-  },
-  residential: {
-    key: "residential",
-    icon: "M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25",
-    heroImage: "/images/services/residential.jpg",
-    filterTerms: ["residential", "wohnungsbau", "résidentiel", "residenziale", "residentieel", "konut", "niştecîh", "home", "villa", "apartment"],
-  },
-  industrial: {
-    key: "industrial",
-    icon: "M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 00.75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 00-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0112 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 01-.673-.38m0 0A2.18 2.18 0 013 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 013.413-.387m7.5 0V5.25A2.25 2.25 0 0013.5 3h-3a2.25 2.25 0 00-2.25 2.25v.894m7.5 0a48.667 48.667 0 00-7.5 0M12 12.75h.008v.008H12v-.008z",
-    heroImage: "/images/services/industrial.jpg",
-    filterTerms: ["industrial", "industriebau", "industriel", "industriale", "industrieel", "endüstriyel", "pîşesazî", "factory", "warehouse", "manufacturing"],
-  },
-  "public-works": {
-    key: "publicWorks",
-    icon: "M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0012 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75z",
-    heroImage: "/images/services/infrastructure.jpg",
-    filterTerms: ["public", "government", "civic", "öffentlich", "publique", "pubblico", "openbaar", "kamu", "giştî", "municipal"],
-  },
-};
-
-const validCategories = Object.keys(categoryData);
+const validCategories: CategoryKey[] = ["commercial", "residential", "infrastructure", "industrial", "renovation"];
 
 /* ═══════════════════════════════════════════════════════════════════════════
    STATIC PARAMS
@@ -104,48 +53,16 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, category } = await params;
 
-  if (!validCategories.includes(category)) {
+  if (!validCategories.includes(category as CategoryKey)) {
     return { title: "Category Not Found" };
   }
 
-  const categoryInfo = categoryData[category];
   const t = await getTranslations({ locale, namespace: "projectsPage" });
 
   return {
-    title: `${t(`categories.${categoryInfo.key}`)} | Bontera`,
-    description: t(`breakdown.categories.${categoryInfo.key}.description`),
+    title: `${t(`categories.${category}`)} | Bontera`,
+    description: t(`breakdown.categories.${category}.description`),
   };
-}
-
-/* ═══════════════════════════════════════════════════════════════════════════
-   UTILITIES
-   ═══════════════════════════════════════════════════════════════════════════ */
-
-function pickLocalized(text: LocalizedText | undefined, locale: string, fallback = "") {
-  if (!text) return fallback;
-  if (typeof text === "string") return text;
-  return text[locale] ?? text.en ?? text.fr ?? fallback;
-}
-
-function pickSlug(input: any): string | null {
-  if (!input) return null;
-  if (typeof input === "string") return input;
-  if (typeof input?.current === "string") return input.current;
-  return null;
-}
-
-/* ═══════════════════════════════════════════════════════════════════════════
-   DATA FETCHING
-   ═══════════════════════════════════════════════════════════════════════════ */
-
-async function getProjects(locale: string): Promise<Project[]> {
-  try {
-    const projects = await client.fetch(projectsQuery, { locale });
-    return Array.isArray(projects) ? projects : [];
-  } catch (error) {
-    console.error("Error fetching projects:", error);
-    return [];
-  }
 }
 
 /* ═══════════════════════════════════════════════════════════════════════════
@@ -154,53 +71,41 @@ async function getProjects(locale: string): Promise<Project[]> {
 
 export default async function ProjectCategoryPage({ params }: Props) {
   const { locale, category } = await params;
+  const loc = locale as LocaleKey;
 
   // Validate category
-  if (!validCategories.includes(category)) {
+  if (!validCategories.includes(category as CategoryKey)) {
     notFound();
   }
 
-  const categoryInfo = categoryData[category];
+  const catKey = category as CategoryKey;
+  const catInfo = categoryInfo[catKey];
   const t = await getTranslations({ locale, namespace: "projectsPage" });
   const isRTL = locale === "ku";
 
-  const allProjects = await getProjects(locale);
+  // Get projects for this category
+  const categoryProjects = getProjectsByCategory(catKey);
 
-  // Process and filter projects by category
-  const processedProjects = allProjects.map((p) => {
-    const slug = p.slugCurrent ?? pickSlug(p.slug);
-    if (!slug) return null;
-    const img = p.mainImage ?? p.image ?? p.coverImage ?? p.heroImage;
-    const categoryValue = pickLocalized(p.category, locale, "Construction");
-
-    return {
-      id: p._id,
-      slug,
-      title: pickLocalized(p.title, locale, "Project"),
-      category: categoryValue,
-      categorySlug: categoryValue.toLowerCase().replace(/\s+/g, "-"),
-      location: pickLocalized(p.location, locale, ""),
-      year: p.year ?? "2024",
-      client: pickLocalized(p.client, locale, ""),
-      value: p.value ?? "",
-      duration: p.duration ?? "",
-      status: p.status ?? "completed",
-      featured: p.featured ?? false,
-      href: `/${locale}/projects/${slug}`,
-      imageUrl: img ? urlFor(img).width(1200).height(800).url() : "/images/placeholder.jpg",
-    };
-  }).filter(Boolean) as NonNullable<ReturnType<typeof allProjects.map>[number]>[];
-
-  // Filter by category using multiple terms
-  const filteredProjects = processedProjects.filter((p) => {
-    const categoryLower = p.category.toLowerCase();
-    return categoryInfo.filterTerms.some(term =>
-      categoryLower.includes(term.toLowerCase())
-    );
-  });
+  // Process projects for display
+  const processedProjects = categoryProjects.map((p) => ({
+    id: p.id,
+    slug: p.slug,
+    title: p.title[loc] || p.title.en,
+    category: t(`categories.${p.category}`),
+    categorySlug: p.category,
+    location: p.location[loc] || p.location.en,
+    year: p.year,
+    client: p.client,
+    value: p.value,
+    duration: p.duration,
+    status: p.status,
+    featured: p.featured,
+    href: `/${locale}/projects/${p.slug}`,
+    imageUrl: p.image || "/images/placeholder.jpg",
+  }));
 
   // Other categories for navigation
-  const otherCategories = validCategories.filter(c => c !== category);
+  const otherCategories = validCategories.filter(c => c !== catKey);
 
   return (
     <main className="bg-bontera-grey-50" dir={isRTL ? "rtl" : "ltr"}>
@@ -212,8 +117,8 @@ export default async function ProjectCategoryPage({ params }: Props) {
         {/* Background */}
         <div className="absolute inset-0">
           <Image
-            src={categoryInfo.heroImage}
-            alt={t(`categories.${categoryInfo.key}`)}
+            src={catInfo.heroImage}
+            alt={t(`categories.${catKey}`)}
             fill
             priority
             className="object-cover"
@@ -263,34 +168,34 @@ export default async function ProjectCategoryPage({ params }: Props) {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                   </svg>
                 </li>
-                <li className="text-white font-medium">{t(`categories.${categoryInfo.key}`)}</li>
+                <li className="text-white font-medium">{t(`categories.${catKey}`)}</li>
               </ol>
             </nav>
 
             {/* Icon Badge */}
             <div className="w-16 h-16 bg-white/10 backdrop-blur-sm flex items-center justify-center mb-6">
               <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-                <path strokeLinecap="round" strokeLinejoin="round" d={categoryInfo.icon} />
+                <path strokeLinecap="round" strokeLinejoin="round" d={catInfo.icon} />
               </svg>
             </div>
 
             {/* Title */}
             <h1 className="max-w-4xl">
               <span className="block text-4xl sm:text-5xl lg:text-6xl font-semibold text-white leading-[1.05] tracking-tight">
-                {t(`breakdown.categories.${categoryInfo.key}.title`)}
+                {t(`breakdown.categories.${catKey}.title`)}
               </span>
             </h1>
 
             {/* Description */}
             <p className="mt-6 max-w-2xl text-lg lg:text-xl text-bontera-grey-300 leading-relaxed">
-              {t(`breakdown.categories.${categoryInfo.key}.description`)}
+              {t(`breakdown.categories.${catKey}.description`)}
             </p>
 
             {/* Stats */}
             <div className="mt-8 flex items-center gap-6">
               <div className="text-center">
-                <div className="text-3xl font-bold text-white">{filteredProjects.length}</div>
-                <div className="text-sm text-bontera-grey-400">{t("allProjects.showing", { count: filteredProjects.length }).replace(/\d+/, "").trim()}</div>
+                <div className="text-3xl font-bold text-white">{processedProjects.length}</div>
+                <div className="text-sm text-bontera-grey-400">{t("allProjects.showing", { count: processedProjects.length }).replace(/\d+/, "").trim()}</div>
               </div>
             </div>
           </div>
@@ -310,8 +215,7 @@ export default async function ProjectCategoryPage({ params }: Props) {
               {t("categories.all")}
             </Link>
             {validCategories.map((cat) => {
-              const catInfo = categoryData[cat];
-              const isActive = cat === category;
+              const isActive = cat === catKey;
               return (
                 <Link
                   key={cat}
@@ -322,7 +226,7 @@ export default async function ProjectCategoryPage({ params }: Props) {
                       : "bg-white text-bontera-grey-700 hover:bg-bontera-navy-50 hover:text-bontera-navy-600 border border-bontera-grey-200"
                   }`}
                 >
-                  {t(`categories.${catInfo.key}`)}
+                  {t(`categories.${cat}`)}
                 </Link>
               );
             })}
@@ -338,11 +242,11 @@ export default async function ProjectCategoryPage({ params }: Props) {
           {/* Results Count */}
           <div className="mb-8 pb-6 border-b border-bontera-grey-300">
             <p className="text-bontera-grey-600">
-              {t("allProjects.showing", { count: filteredProjects.length })}
+              {t("allProjects.showing", { count: processedProjects.length })}
               <span className="ml-2">
                 {t("allProjects.inCategory")}{" "}
                 <span className="font-semibold text-bontera-navy-600">
-                  {t(`categories.${categoryInfo.key}`)}
+                  {t(`categories.${catKey}`)}
                 </span>
               </span>
             </p>
@@ -350,9 +254,9 @@ export default async function ProjectCategoryPage({ params }: Props) {
 
           {/* Projects Grid */}
           <Suspense fallback={<ProjectsGridSkeleton />}>
-            {filteredProjects.length > 0 ? (
+            {processedProjects.length > 0 ? (
               <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
-                {filteredProjects.map((project) => (
+                {processedProjects.map((project) => (
                   <Link
                     key={project.id}
                     href={project.href}
@@ -486,9 +390,9 @@ export default async function ProjectCategoryPage({ params }: Props) {
           </div>
 
           {/* Other Category Cards */}
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {otherCategories.map((cat) => {
-              const catInfo = categoryData[cat];
+              const otherCatInfo = categoryInfo[cat];
               return (
                 <Link
                   key={cat}
@@ -498,16 +402,16 @@ export default async function ProjectCategoryPage({ params }: Props) {
                   <div className="flex items-start justify-between mb-6">
                     <div className="w-14 h-14 bg-bontera-navy-700 flex items-center justify-center group-hover:bg-gray-500 transition-colors">
                       <svg className="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-                        <path strokeLinecap="round" strokeLinejoin="round" d={catInfo.icon} />
+                        <path strokeLinecap="round" strokeLinejoin="round" d={otherCatInfo.icon} />
                       </svg>
                     </div>
                   </div>
 
                   <h3 className="text-xl font-semibold text-white mb-2 group-hover:text-gray-300 transition-colors">
-                    {t(`breakdown.categories.${catInfo.key}.title`)}
+                    {t(`breakdown.categories.${cat}.title`)}
                   </h3>
-                  <p className="text-bontera-grey-400 text-sm leading-relaxed">
-                    {t(`breakdown.categories.${catInfo.key}.description`)}
+                  <p className="text-bontera-grey-400 text-sm leading-relaxed line-clamp-2">
+                    {t(`breakdown.categories.${cat}.description`)}
                   </p>
 
                   <div className="mt-6 flex items-center gap-2 text-sm font-semibold text-gray-400 group-hover:text-gray-300">
@@ -549,7 +453,7 @@ export default async function ProjectCategoryPage({ params }: Props) {
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
               href={`/${locale}/quote`}
-              className="group inline-flex items-center gap-3 bg-gray-500 hover:bg-gray-600 text-white px-10 py-5 text-sm font-semibold uppercase tracking-wider transition-all duration-300"
+              className="group inline-flex items-center gap-3 bg-white hover:bg-bontera-grey-100 text-bontera-navy-900 px-10 py-5 text-sm font-semibold uppercase tracking-wider transition-all duration-300"
             >
               {t("cta.startProject")}
               <svg className={`w-5 h-5 transition-transform group-hover:translate-x-1 ${isRTL ? "rotate-180" : ""}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
