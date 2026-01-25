@@ -12,12 +12,13 @@ import { locales, localeShortNames, type Locale } from '@/lib/i18n/config';
    ═══════════════════════════════════════════════════════════════════════════ */
 
 const localeLabels: Record<Locale, string> = {
+  de: 'Deutsch',
   en: 'English',
   fr: 'Français',
-  es: 'Español',
-  de: 'Deutsch',
+  nl: 'Néerlandais',
+  it: 'Italiano',
+  ku: 'Kurmaçi',
   tr: 'Türkçe',
-  ar: 'العربية',
 };
 
 type MegaMenuItem = {
@@ -440,48 +441,41 @@ export default function Header() {
         <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
           <div
             className={cn(
-             'grid grid-cols-[auto_1fr_auto] lg:grid-cols-[180px_1fr_auto] items-center gap-4 lg:gap-8',
-
+              'grid grid-cols-[auto_1fr_auto] lg:grid-cols-[180px_1fr_auto] items-center gap-4 lg:gap-6',
               'transition-all duration-300',
               isScrolled ? 'h-[82px]' : 'h-[102px]'
-
             )}
           >
             {/* ─────────────────────────────────────────────
                 LOGO / BRAND - Shows full logo
             ───────────────────────────────────────────── */}
 
-
-
-
-
-      <Link
-  href={`/${currentLocale}`}
-  className="inline-flex items-center group self-stretch"
->
-  <span
-    className={cn(
-      'relative h-full', // now this becomes 82px / 102px correctly
-      isScrolled ? 'w-[280px] lg:w-[360px]' : 'w-[320px] lg:w-[440px]'
-    )}
-  >
-    <Image
-      src="/brand/bontera-logo.png"
-      alt="Bontera"
-      fill
-      priority
-      quality={100}
-      sizes="(min-width: 1024px) 440px, (min-width: 640px) 320px, 280px"
-      className="object-contain object-left origin-left scale-[1.10]"
-    />
-  </span>
-</Link>
-
+            <Link
+              href={`/${currentLocale}`}
+              className="inline-flex items-center group self-stretch"
+            >
+              <span
+                className={cn(
+                  'relative h-full',
+                  isScrolled ? 'w-[280px] lg:w-[360px]' : 'w-[320px] lg:w-[440px]'
+                )}
+              >
+                <Image
+                  src="/brand/bontera-logo.png"
+                  alt="Bontera"
+                  fill
+                  priority
+                  quality={100}
+                  sizes="(min-width: 1024px) 440px, (min-width: 640px) 320px, 280px"
+                  className="object-contain object-left origin-left scale-[1.10]"
+                />
+              </span>
+            </Link>
 
             {/* ─────────────────────────────────────────────
                 DESKTOP NAVIGATION
             ───────────────────────────────────────────── */}
-            <nav className="hidden lg:flex items-center justify-center gap-1">
+            <nav className="hidden lg:flex items-center justify-center gap-0.5">
               {navItems.map((item) => {
                 const active = isActive(item.href);
                 const hasMega = item.hasMegaMenu;
@@ -499,8 +493,8 @@ export default function Header() {
                       aria-haspopup={hasMega ? 'menu' : undefined}
                       aria-expanded={hasMega ? activeMegaMenu === item.key : undefined}
                       className={cn(
-                        'relative inline-flex items-center gap-1.5 px-4 py-2 rounded-full',
-                        'text-sm font-medium transition-all duration-150',
+                        'relative inline-flex items-center gap-1 px-3 py-2 rounded-full',
+                        'text-sm font-medium transition-all duration-150 whitespace-nowrap',
                         active
                           ? 'text-bontera-navy-600 bg-bontera-navy-50'
                           : 'text-bontera-grey-600 hover:text-bontera-navy-600 hover:bg-bontera-grey-100'
@@ -510,7 +504,7 @@ export default function Header() {
                       {hasMega && (
                         <span
                           className={cn(
-                            'transition-transform duration-200',
+                            'transition-transform duration-200 flex-shrink-0',
                             activeMegaMenu === item.key && 'rotate-180'
                           )}
                         >
@@ -574,7 +568,7 @@ export default function Header() {
             {/* ─────────────────────────────────────────────
                 RIGHT CONTROLS
             ───────────────────────────────────────────── */}
-            <div className="flex items-center justify-end gap-2 sm:gap-3">
+            <div className="flex items-center justify-end gap-2 sm:gap-2">
               {/* Search Button */}
               <button
                 type="button"
@@ -599,7 +593,7 @@ export default function Header() {
                   aria-haspopup="menu"
                   aria-expanded={isLangMenuOpen}
                   className={cn(
-                    'inline-flex items-center gap-2',
+                    'inline-flex items-center gap-1.5',
                     'h-10 px-3 rounded-full',
                     'text-sm font-medium',
                     'text-bontera-grey-700 hover:text-bontera-navy-600',
@@ -677,7 +671,7 @@ export default function Header() {
                   'h-10 px-4 rounded-full',
                   'bg-bontera-grey-100 hover:bg-bontera-grey-200',
                   'text-bontera-grey-700 hover:text-bontera-navy-600',
-                  'text-sm font-semibold',
+                  'text-sm font-semibold whitespace-nowrap',
                   'border border-bontera-grey-200',
                   'transition-all duration-150'
                 )}
@@ -690,9 +684,9 @@ export default function Header() {
                 href={contactHref}
                 className={cn(
                   'hidden lg:inline-flex items-center justify-center gap-2',
-                  'h-10 px-5 rounded-full',
+                  'h-10 px-4 rounded-full',
                   'bg-bontera-navy-600 hover:bg-bontera-navy-700',
-                  'text-white text-sm font-semibold',
+                  'text-white text-sm font-semibold whitespace-nowrap',
                   'shadow-[0_4px_14px_rgba(30,58,95,0.25)]',
                   'hover:shadow-[0_6px_20px_rgba(30,58,95,0.30)]',
                   'transition-all duration-150',
@@ -1075,7 +1069,6 @@ function MobileMenu({
         <div className="sticky top-0 z-10 bg-white border-b border-bontera-grey-200 px-5 py-4 flex items-center justify-between">
           <div className="flex items-center">
             <span className="relative h-11 w-[160px] overflow-hidden">
-
               <Image
                 src="/brand/bontera-logo.png"
                 alt="Bontera"
