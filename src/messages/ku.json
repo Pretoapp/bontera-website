@@ -84,7 +84,15 @@
     "eyebrow": "Kareyen Taybet",
     "headline": "Projeyen ku Ezmanan Diyar Dikin",
     "viewAll": "Hemu Projeyan Bibin",
-    "noProjects": "Di ve deme de ti proje tune ye ku were xuya kirin."
+    "noProjects": "Di ve deme de ti proje tune ye ku were xuya kirin.",
+    "viewProject": "Projeye Bibin",
+    "projectValue": "Nirxa Projeye",
+    "client": "Xeridan",
+    "year": "Sal",
+    "showcase": {
+      "eyebrow": "Peshangaha Projeyan",
+      "headline": "Kareyen Me yen Heri Nu Bibin"
+    }
   },
 
   "stats": {

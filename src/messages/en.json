@@ -89,7 +89,15 @@
     "eyebrow": "Featured Work",
     "headline": "Projects That Define Skylines",
     "viewAll": "View All Projects",
-    "noProjects": "No projects to display at this time."
+    "noProjects": "No projects to display at this time.",
+    "viewProject": "View Project",
+    "projectValue": "Project Value",
+    "client": "Client",
+    "year": "Year",
+    "showcase": {
+      "eyebrow": "Project Showcase",
+      "headline": "Explore Our Latest Work"
+    }
   },
 
   "stats": {

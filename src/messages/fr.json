@@ -84,7 +84,15 @@
     "eyebrow": "Réalisations phares",
     "headline": "Des projets qui redessinent les skylines",
     "viewAll": "Voir tous les projets",
-    "noProjects": "Aucun projet à afficher pour le moment."
+    "noProjects": "Aucun projet à afficher pour le moment.",
+    "viewProject": "Voir le projet",
+    "projectValue": "Valeur du projet",
+    "client": "Client",
+    "year": "Année",
+    "showcase": {
+      "eyebrow": "Vitrine des projets",
+      "headline": "Découvrez nos dernières réalisations"
+    }
   },
 
   "stats": {

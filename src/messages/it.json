@@ -84,7 +84,15 @@
     "eyebrow": "Lavori in Evidenza",
     "headline": "Progetti che Definiscono Skyline",
     "viewAll": "Vedi Tutti i Progetti",
-    "noProjects": "Nessun progetto da visualizzare al momento."
+    "noProjects": "Nessun progetto da visualizzare al momento.",
+    "viewProject": "Vedi Progetto",
+    "projectValue": "Valore del Progetto",
+    "client": "Cliente",
+    "year": "Anno",
+    "showcase": {
+      "eyebrow": "Vetrina Progetti",
+      "headline": "Scopri i Nostri Ultimi Lavori"
+    }
   },
 
   "stats": {
