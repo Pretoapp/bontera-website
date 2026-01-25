@@ -50,7 +50,7 @@ type Project = {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "projects" });
+  const t = await getTranslations({ locale, namespace: "projectsPage" });
 
   return {
     title: t("meta.title"),
@@ -116,7 +116,7 @@ const featuredStats = [
 export default async function ProjectsPage({ params, searchParams }: Props) {
   const { locale } = await params;
   const { category: categoryFilter } = await searchParams;
-  const t = await getTranslations({ locale, namespace: "projects" });
+  const t = await getTranslations({ locale, namespace: "projectsPage" });
   const isRTL = locale === "ku";
 
   const allProjects = await getProjects(locale);
