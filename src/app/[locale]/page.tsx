@@ -10,6 +10,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import { getFeaturedProjects, projects } from "@/data/projects";
+import { getLatestNews } from "@/data/news";
 import HeroBackgroundSlider from "@/components/home/HeroSlider";
 import ProjectsCarousel from "@/components/home/ProjectsCarousel";
 
@@ -76,6 +77,19 @@ export default async function HomePage({ params }: Props) {
     year: p.year,
     imageUrl: p.image || "/images/placeholder.jpg",
     href: `/${locale}/projects/${p.slug}`,
+  }));
+
+  // Get latest news articles
+  const latestNews = getLatestNews(3).map((article) => ({
+    id: article.id,
+    slug: article.slug,
+    title: article.title[loc] || article.title.en,
+    excerpt: article.excerpt[loc] || article.excerpt.en,
+    category: article.category,
+    date: article.date,
+    readTime: article.readTime,
+    image: article.image,
+    href: `/${locale}/news/${article.slug}`,
   }));
 
   return (
@@ -502,7 +516,7 @@ export default async function HomePage({ params }: Props) {
       </section>
 
       {/* ═══════════════════════════════════════════════════════════════════
-          PROJECT CATEGORIES - Quick Links
+          NEWS SECTION - Latest Updates
       ═══════════════════════════════════════════════════════════════════ */}
       <section className="relative py-20 lg:py-28 bg-bontera-navy-900 overflow-hidden">
         <div
@@ -514,36 +528,74 @@ export default async function HomePage({ params }: Props) {
         />
 
         <div className="relative max-w-[1600px] mx-auto px-6 lg:px-16">
-          <div className="text-center max-w-3xl mx-auto mb-12">
-            <span className="inline-flex items-center gap-3 text-bontera-grey-400 text-xs uppercase tracking-[0.3em] font-semibold">
-              <span className="w-8 h-px bg-bontera-grey-400" />
-              {t("projects.categories.eyebrow")}
-              <span className="w-8 h-px bg-bontera-grey-400" />
-            </span>
-            <h2 className="mt-6 text-3xl sm:text-4xl font-semibold text-white leading-[1.1] tracking-tight">
-              {t("projects.categories.headline")}
-            </h2>
+          <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-8 mb-12">
+            <div>
+              <span className="inline-flex items-center gap-3 text-bontera-grey-400 text-xs uppercase tracking-[0.3em] font-semibold">
+                <span className="w-8 h-px bg-bontera-grey-400" />
+                {t("news.eyebrow")}
+              </span>
+              <h2 className="mt-6 text-3xl sm:text-4xl lg:text-5xl font-semibold text-white leading-[1.1] tracking-tight">
+                {t("news.headline")}
+              </h2>
+            </div>
+            <Link href={`/${locale}/news`} className="group inline-flex items-center gap-3 text-white/80 hover:text-white text-sm uppercase tracking-wider transition-colors">
+              {t("news.viewAll")}
+              <svg className={`w-5 h-5 transition-transform group-hover:translate-x-1 ${isRTL ? "rotate-180" : ""}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </Link>
           </div>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-4">
-            {["commercial", "residential", "infrastructure", "industrial", "renovation"].map((cat) => (
-              <Link
-                key={cat}
-                href={`/${locale}/projects/category/${cat}`}
-                className="group relative p-6 bg-bontera-navy-800 border border-bontera-grey-700 hover:border-gray-500 hover:bg-bontera-navy-700 transition-all duration-300 text-center"
-              >
-                <h3 className="text-lg font-semibold text-white group-hover:text-gray-300 transition-colors">
-                  {tProjects(`categories.${cat}`)}
-                </h3>
-                <div className="mt-3 flex items-center justify-center gap-2 text-sm text-gray-400 group-hover:text-gray-300">
-                  {t("projects.categories.explore")}
-                  <svg className={`w-4 h-4 transition-transform group-hover:translate-x-1 ${isRTL ? "rotate-180" : ""}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                  </svg>
-                </div>
-              </Link>
-            ))}
-          </div>
+          {latestNews.length > 0 ? (
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {latestNews.map((article) => (
+                <Link
+                  key={article.id}
+                  href={article.href}
+                  className="group relative bg-bontera-navy-800 border border-bontera-grey-700 hover:border-gray-500 overflow-hidden transition-all duration-300"
+                >
+                  <div className="relative h-48 overflow-hidden">
+                    <Image
+                      src={article.image || "/images/placeholder.jpg"}
+                      alt={article.title}
+                      fill
+                      className="object-cover transition-transform duration-700 group-hover:scale-110"
+                      sizes="(max-width: 768px) 100vw, 33vw"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-bontera-navy-900/80 to-transparent" />
+                    <div className="absolute top-4 left-4">
+                      <span className="px-3 py-1 bg-gray-500 text-white text-xs font-semibold uppercase tracking-wider">
+                        {article.category}
+                      </span>
+                    </div>
+                  </div>
+                  <div className="p-6">
+                    <div className="flex items-center gap-4 text-sm text-bontera-grey-400 mb-3">
+                      <span>{new Date(article.date).toLocaleDateString(locale, { year: "numeric", month: "short", day: "numeric" })}</span>
+                      <span>•</span>
+                      <span>{article.readTime} min</span>
+                    </div>
+                    <h3 className="text-lg font-semibold text-white group-hover:text-gray-300 transition-colors leading-tight mb-3">
+                      {article.title}
+                    </h3>
+                    <p className="text-sm text-bontera-grey-400 line-clamp-2">
+                      {article.excerpt}
+                    </p>
+                    <div className="mt-4 flex items-center gap-2 text-sm text-gray-400 group-hover:text-gray-300">
+                      {t("news.readMore")}
+                      <svg className={`w-4 h-4 transition-transform group-hover:translate-x-1 ${isRTL ? "rotate-180" : ""}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                      </svg>
+                    </div>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          ) : (
+            <div className="text-center py-16 bg-bontera-navy-800 border border-bontera-grey-700">
+              <p className="text-bontera-grey-400">{t("news.noNews")}</p>
+            </div>
+          )}
         </div>
       </section>
 

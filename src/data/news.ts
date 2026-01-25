@@ -1,0 +1,219 @@
+// src/data/news.ts
+// ═══════════════════════════════════════════════════════════════════════════
+// BONTERA - STATIC NEWS DATA
+// Static news articles with full internationalization support
+// ═══════════════════════════════════════════════════════════════════════════
+
+export type NewsCategory = "companyNews" | "projects" | "industry" | "sustainability" | "awards" | "events";
+
+export interface NewsArticle {
+  id: string;
+  slug: string;
+  category: NewsCategory;
+  date: string;
+  readTime: number;
+  image: string;
+  featured: boolean;
+  title: {
+    de: string;
+    en: string;
+    fr: string;
+    nl: string;
+    it: string;
+    ku: string;
+    tr: string;
+  };
+  excerpt: {
+    de: string;
+    en: string;
+    fr: string;
+    nl: string;
+    it: string;
+    ku: string;
+    tr: string;
+  };
+}
+
+export const newsArticles: NewsArticle[] = [
+  {
+    id: "news-001",
+    slug: "bontera-neom-infrastructure-contract",
+    category: "companyNews",
+    date: "2024-01-15",
+    readTime: 5,
+    image: "/images/news/neom-contract.jpg",
+    featured: true,
+    title: {
+      de: "Bontera erhält 2,5 Milliarden Dollar NEOM-Infrastrukturvertrag",
+      en: "Bontera Awarded $2.5 Billion NEOM Infrastructure Contract",
+      fr: "Bontera remporte un contrat d'infrastructures NEOM de 2,5 milliards de dollars",
+      nl: "Bontera wint $2,5 miljard NEOM-infrastructuurcontract",
+      it: "Bontera ottiene contratto infrastrutturale NEOM da 2,5 miliardi di dollari",
+      ku: "Bontera peymana binesaziya NEOM ya 2.5 milyar dolaran wergirt",
+      tr: "Bontera 2,5 Milyar Dolarlık NEOM Altyapı Sözleşmesi Aldı",
+    },
+    excerpt: {
+      de: "In einer historischen Errungenschaft wurde Bontera als Hauptauftragnehmer für eine große Infrastrukturentwicklung innerhalb des NEOM-Megaprojekts ausgewählt.",
+      en: "In a landmark achievement, Bontera has been selected as the primary contractor for a major infrastructure development within the NEOM mega-project.",
+      fr: "Dans une réalisation majeure, Bontera a été sélectionnée comme entrepreneur principal pour un développement d'infrastructures au sein du méga-projet NEOM.",
+      nl: "In een mijlpaal is Bontera geselecteerd als hoofdaannemer voor een grote infrastructuurontwikkeling binnen het NEOM-megaproject.",
+      it: "In un traguardo storico, Bontera è stata selezionata come appaltatore principale per un importante sviluppo infrastrutturale nel mega-progetto NEOM.",
+      ku: "Di destkeftiyeke dîrokî de, Bontera wekî peymankara sereke ji bo pêşkeftinek binesaziya mezin di nav projeya mezin a NEOM de hate hilbijartin.",
+      tr: "Tarihi bir başarıda Bontera, NEOM mega projesi kapsamında büyük bir altyapı geliştirmesi için ana yüklenici olarak seçildi.",
+    },
+  },
+  {
+    id: "news-002",
+    slug: "sustainable-construction-trends-2024",
+    category: "industry",
+    date: "2024-01-10",
+    readTime: 8,
+    image: "/images/news/sustainable-trends.jpg",
+    featured: true,
+    title: {
+      de: "Top 10 nachhaltige Bautrends, die 2024 prägen",
+      en: "Top 10 Sustainable Construction Trends Shaping 2024",
+      fr: "Top 10 des tendances de construction durable qui façonnent 2024",
+      nl: "Top 10 duurzame bouwtrends die 2024 vormgeven",
+      it: "Top 10 tendenze di costruzione sostenibile che plasmano il 2024",
+      ku: "10 Trendên Avahîsaziya Berdewam ên ku 2024 Dişêwînin",
+      tr: "2024'ü Şekillendiren En İyi 10 Sürdürülebilir İnşaat Trendi",
+    },
+    excerpt: {
+      de: "Von kohlenstoffneutralen Materialien bis hin zu KI-gestütztem Gebäudemanagement - entdecken Sie die Innovationen, die die Bauweise für eine nachhaltigere Zukunft transformieren.",
+      en: "From carbon-neutral materials to AI-powered building management, explore the innovations transforming how we build for a more sustainable future.",
+      fr: "Des matériaux neutres en carbone à la gestion des bâtiments par IA, découvrez les innovations qui transforment la construction pour un avenir plus durable.",
+      nl: "Van koolstofneutrale materialen tot AI-aangedreven gebouwbeheer, ontdek de innovaties die bouwen voor een duurzamere toekomst transformeren.",
+      it: "Dai materiali a impatto zero alla gestione degli edifici con IA, scopri le innovazioni che trasformano il modo di costruire per un futuro più sostenibile.",
+      ku: "Ji materyalên karbon-neutral heta rêveberiya avahiyê bi AI-yê, nûjeniyên ku çawaniya ku em ava dikin ji bo pêşerojek berdewamtir veguherînin keşf bikin.",
+      tr: "Karbon-nötr malzemelerden yapay zeka destekli bina yönetimine, daha sürdürülebilir bir gelecek için inşaat yöntemlerini dönüştüren yenilikleri keşfedin.",
+    },
+  },
+  {
+    id: "news-003",
+    slug: "marina-tower-leed-platinum",
+    category: "projects",
+    date: "2024-01-05",
+    readTime: 4,
+    image: "/images/news/marina-tower-leed.jpg",
+    featured: true,
+    title: {
+      de: "Marina Tower erhält LEED Platinum-Zertifizierung",
+      en: "Marina Tower Achieves LEED Platinum Certification",
+      fr: "Marina Tower obtient la certification LEED Platinum",
+      nl: "Marina Tower behaalt LEED Platinum-certificering",
+      it: "Marina Tower ottiene la certificazione LEED Platinum",
+      ku: "Birca Marina sertîfîkaya LEED Platinum distîne",
+      tr: "Marina Tower LEED Platinum Sertifikası Aldı",
+    },
+    excerpt: {
+      de: "Unser Flaggschiff-Mixed-Use-Projekt hat die höchste Nachhaltigkeitsbewertung erhalten und demonstriert Bonteras Engagement für umweltverantwortliches Bauen.",
+      en: "Our flagship mixed-use development has received the highest sustainability rating, showcasing Bontera's commitment to environmentally responsible construction.",
+      fr: "Notre projet phare mixte a obtenu la plus haute certification durable, illustrant l'engagement de Bontera pour une construction responsable.",
+      nl: "Onze vlaggenschip-ontwikkeling met gemengd gebruik heeft de hoogste duurzaamheidsbeoordeling ontvangen, wat Bontera's toewijding aan milieuvriendelijk bouwen toont.",
+      it: "Il nostro progetto misto di punta ha ricevuto la più alta valutazione di sostenibilità, dimostrando l'impegno di Bontera per l'edilizia responsabile.",
+      ku: "Pêşveçûna me ya sereke ya karanîna tevlihev pileya herî bilind a berdewamiyê wergirt, sozdariya Bontera ji bo avahîsaziya berpirsiyar destnîşan dike.",
+      tr: "Amiral gemimiz olan karma kullanımlı geliştirmemiz en yüksek sürdürülebilirlik derecesini aldı ve Bontera'nın çevreye duyarlı inşaata bağlılığını sergiledi.",
+    },
+  },
+  {
+    id: "news-004",
+    slug: "construction-excellence-award-2024",
+    category: "awards",
+    date: "2023-12-20",
+    readTime: 3,
+    image: "/images/news/excellence-award.jpg",
+    featured: false,
+    title: {
+      de: "Bontera erhält Construction Excellence Award 2024",
+      en: "Bontera Receives Construction Excellence Award 2024",
+      fr: "Bontera reçoit le Construction Excellence Award 2024",
+      nl: "Bontera ontvangt Construction Excellence Award 2024",
+      it: "Bontera riceve il Construction Excellence Award 2024",
+      ku: "Bontera Xelata Serkeftina Avahîsaziyê 2024 wergirt",
+      tr: "Bontera 2024 İnşaat Mükemmellik Ödülü'nü Aldı",
+    },
+    excerpt: {
+      de: "Die prestigeträchtige Branchenauszeichnung würdigt unseren innovativen Ansatz bei der Projektabwicklung und unser Engagement für Qualität.",
+      en: "The prestigious industry award recognizes our innovative approach to project delivery and commitment to quality across our portfolio.",
+      fr: "Cette récompense prestigieuse salue notre approche innovante de la livraison et notre exigence de qualité.",
+      nl: "De prestigieuze brancheprijs erkent onze innovatieve aanpak van projectoplevering en toewijding aan kwaliteit.",
+      it: "Il prestigioso premio del settore riconosce il nostro approccio innovativo alla consegna dei progetti e l'impegno per la qualità.",
+      ku: "Xelata pîşesaziyê ya bi prestij nêzîkatiya me ya nûjen a radestkirina projeyê û sozdariya me ya ji bo kalîteyê nas dike.",
+      tr: "Prestijli sektör ödülü, proje teslimatına yenilikçi yaklaşımımızı ve kaliteye bağlılığımızı onurlandırdı.",
+    },
+  },
+  {
+    id: "news-005",
+    slug: "riyadh-regional-headquarters",
+    category: "companyNews",
+    date: "2023-12-15",
+    readTime: 4,
+    image: "/images/news/riyadh-office.jpg",
+    featured: false,
+    title: {
+      de: "Neues Regionalbüro in Riad eröffnet",
+      en: "New Regional Headquarters Opens in Riyadh",
+      fr: "Ouverture d'un nouveau siège régional à Riyad",
+      nl: "Nieuw regionaal hoofdkantoor geopend in Riyad",
+      it: "Nuova sede regionale aperta a Riyadh",
+      ku: "Navenda Herêmî ya Nû li Riyadh Vebû",
+      tr: "Riyad'da Yeni Bölge Merkezi Açıldı",
+    },
+    excerpt: {
+      de: "Mit der Erweiterung unserer Präsenz in Saudi-Arabien wird das neue Büro als Zentrum für unsere wachsenden Vision 2030-Projekte dienen.",
+      en: "Expanding our presence in Saudi Arabia, the new office will serve as a hub for our growing operations in the Kingdom's Vision 2030 projects.",
+      fr: "En renforçant notre présence en Arabie saoudite, ce nouveau bureau servira de hub pour nos opérations liées à Vision 2030.",
+      nl: "Door onze aanwezigheid in Saoedi-Arabië uit te breiden, zal het nieuwe kantoor dienen als hub voor onze groeiende Vision 2030-projecten.",
+      it: "Espandendo la nostra presenza in Arabia Saudita, il nuovo ufficio servirà come hub per i nostri progetti Vision 2030.",
+      ku: "Bi berfirehkirina hebûna me li Erebistana Siûdî, ofîsa nû dê wekî navendek ji bo operasyonên me yên projeyên Vision 2030 xizmetê bike.",
+      tr: "Suudi Arabistan'daki varlığımızı genişleterek, yeni ofis Vizyon 2030 projelerindeki büyüyen operasyonlarımız için merkez görevi görecek.",
+    },
+  },
+  {
+    id: "news-006",
+    slug: "global-infrastructure-summit-2024",
+    category: "events",
+    date: "2023-12-01",
+    readTime: 6,
+    image: "/images/news/infrastructure-summit.jpg",
+    featured: false,
+    title: {
+      de: "Erkenntnisse vom Global Infrastructure Summit 2024",
+      en: "Key Takeaways from the Global Infrastructure Summit 2024",
+      fr: "Points clés du Global Infrastructure Summit 2024",
+      nl: "Belangrijkste inzichten van de Global Infrastructure Summit 2024",
+      it: "Punti chiave dal Global Infrastructure Summit 2024",
+      ku: "Encamên Sereke ji Civîna Binesaziya Cîhanî 2024",
+      tr: "Global Altyapı Zirvesi 2024'ün Önemli Çıkarımları",
+    },
+    excerpt: {
+      de: "Unser Team teilt Einblicke von der führenden Branchenveranstaltung zu aufkommenden Technologien, Investitionstrends und Kooperationsmöglichkeiten.",
+      en: "Our team shares insights from the industry's premier event, covering emerging technologies, investment trends, and collaborative opportunities.",
+      fr: "Notre équipe partage ses enseignements sur les technologies émergentes, les tendances d'investissement et les opportunités de collaboration.",
+      nl: "Ons team deelt inzichten over opkomende technologieën, investeringstrends en samenwerkingsmogelijkheden.",
+      it: "Il nostro team condivide approfondimenti sulle tecnologie emergenti, le tendenze di investimento e le opportunità di collaborazione.",
+      ku: "Tîmê me têbîniyên xwe li ser teknolojiyên nûjen, trendên veberhênanê û derfetên hevkariyê parve dike.",
+      tr: "Ekibimiz gelişen teknolojiler, yatırım trendleri ve işbirliği fırsatları hakkında görüşlerini paylaşıyor.",
+    },
+  },
+];
+
+// Helper functions
+export function getFeaturedNews(): NewsArticle[] {
+  return newsArticles.filter((article) => article.featured);
+}
+
+export function getLatestNews(count: number = 3): NewsArticle[] {
+  return [...newsArticles]
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+    .slice(0, count);
+}
+
+export function getNewsByCategory(category: NewsCategory): NewsArticle[] {
+  return newsArticles.filter((article) => article.category === category);
+}
+
+export function getNewsArticleBySlug(slug: string): NewsArticle | undefined {
+  return newsArticles.find((article) => article.slug === slug);
+}
