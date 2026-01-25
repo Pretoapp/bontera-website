@@ -9,6 +9,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 
+import { newsArticles, getFeaturedNews } from "@/data/news";
+
 /* ═══════════════════════════════════════════════════════════════════════════
    TYPES
    ═══════════════════════════════════════════════════════════════════════════ */
@@ -18,13 +20,15 @@ type Props = {
   searchParams: Promise<{ category?: string; page?: string }>;
 };
 
+type LocaleKey = "de" | "en" | "fr" | "nl" | "it" | "ku" | "tr";
+
 /* ═══════════════════════════════════════════════════════════════════════════
    METADATA
    ═══════════════════════════════════════════════════════════════════════════ */
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "news" });
+  const t = await getTranslations({ locale, namespace: "newsPage" });
 
   return {
     title: t("meta.title"),
@@ -38,123 +42,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 const categories = [
   { key: "all", slug: "" },
-  { key: "companyNews", slug: "company-news" },
+  { key: "companyNews", slug: "companyNews" },
   { key: "projects", slug: "projects" },
   { key: "industry", slug: "industry" },
   { key: "sustainability", slug: "sustainability" },
   { key: "awards", slug: "awards" },
   { key: "events", slug: "events" },
-];
-
-const newsArticles = [
-  {
-    id: "news-001",
-    slug: "bontera-wins-mega-project-neom",
-    category: "companyNews",
-    date: "2024-01-28",
-    readTime: 5,
-    featured: true,
-    image: "/images/news/neom-project.jpg",
-  },
-  {
-    id: "news-002",
-    slug: "sustainable-construction-trends-2024",
-    category: "industry",
-    date: "2024-01-25",
-    readTime: 8,
-    featured: true,
-    image: "/images/news/sustainability.jpg",
-  },
-  {
-    id: "news-003",
-    slug: "marina-tower-achieves-leed-platinum",
-    category: "sustainability",
-    date: "2024-01-22",
-    readTime: 4,
-    featured: true,
-    image: "/images/news/leed-certification.jpg",
-  },
-  {
-    id: "news-004",
-    slug: "bontera-excellence-award-2024",
-    category: "awards",
-    date: "2024-01-20",
-    readTime: 3,
-    featured: false,
-    image: "/images/news/award-ceremony.jpg",
-  },
-  {
-    id: "news-005",
-    slug: "new-regional-office-riyadh",
-    category: "companyNews",
-    date: "2024-01-18",
-    readTime: 4,
-    featured: false,
-    image: "/images/news/riyadh-office.jpg",
-  },
-  {
-    id: "news-006",
-    slug: "infrastructure-summit-2024-recap",
-    category: "events",
-    date: "2024-01-15",
-    readTime: 6,
-    featured: false,
-    image: "/images/news/summit-event.jpg",
-  },
-  {
-    id: "news-007",
-    slug: "smart-building-technology-integration",
-    category: "industry",
-    date: "2024-01-12",
-    readTime: 7,
-    featured: false,
-    image: "/images/news/smart-building.jpg",
-  },
-  {
-    id: "news-008",
-    slug: "healthcare-complex-groundbreaking",
-    category: "projects",
-    date: "2024-01-10",
-    readTime: 4,
-    featured: false,
-    image: "/images/news/healthcare-project.jpg",
-  },
-  {
-    id: "news-009",
-    slug: "carbon-neutral-commitment-2030",
-    category: "sustainability",
-    date: "2024-01-08",
-    readTime: 5,
-    featured: false,
-    image: "/images/news/carbon-neutral.jpg",
-  },
-  {
-    id: "news-010",
-    slug: "partnership-global-architects-firm",
-    category: "companyNews",
-    date: "2024-01-05",
-    readTime: 3,
-    featured: false,
-    image: "/images/news/partnership.jpg",
-  },
-  {
-    id: "news-011",
-    slug: "employee-spotlight-january",
-    category: "companyNews",
-    date: "2024-01-03",
-    readTime: 4,
-    featured: false,
-    image: "/images/news/employee-spotlight.jpg",
-  },
-  {
-    id: "news-012",
-    slug: "construction-safety-innovations",
-    category: "industry",
-    date: "2024-01-01",
-    readTime: 6,
-    featured: false,
-    image: "/images/news/safety-tech.jpg",
-  },
 ];
 
 const ITEMS_PER_PAGE = 9;
@@ -165,8 +58,9 @@ const ITEMS_PER_PAGE = 9;
 
 export default async function NewsPage({ params, searchParams }: Props) {
   const { locale } = await params;
+  const loc = locale as LocaleKey;
   const { category: categoryFilter, page: pageParam } = await searchParams;
-  const t = await getTranslations({ locale, namespace: "news" });
+  const t = await getTranslations({ locale, namespace: "newsPage" });
   const isRTL = locale === "ku";
 
   const currentPage = parseInt(pageParam || "1", 10);
@@ -182,7 +76,7 @@ export default async function NewsPage({ params, searchParams }: Props) {
   const paginatedArticles = filteredArticles.slice(startIndex, startIndex + ITEMS_PER_PAGE);
 
   // Featured articles (top 3)
-  const featuredArticles = newsArticles.filter((a) => a.featured).slice(0, 3);
+  const featuredArticles = getFeaturedNews().slice(0, 3);
 
   // Latest article for hero
   const heroArticle = featuredArticles[0];
@@ -293,8 +187,8 @@ export default async function NewsPage({ params, searchParams }: Props) {
                 className="group relative lg:row-span-2 h-[400px] lg:h-auto min-h-[500px] overflow-hidden bg-bontera-grey-100"
               >
                 <Image
-                  src={heroArticle.image}
-                  alt={t(`articles.${heroArticle.id}.title`)}
+                  src={heroArticle.image || "/images/placeholder.jpg"}
+                  alt={heroArticle.title[loc] || heroArticle.title.en}
                   fill
                   className="object-cover transition-transform duration-700 group-hover:scale-105"
                   sizes="50vw"
@@ -317,11 +211,11 @@ export default async function NewsPage({ params, searchParams }: Props) {
                   </div>
 
                   <h3 className="text-2xl lg:text-3xl xl:text-4xl font-semibold text-white mb-4 group-hover:text-gray-200 transition-colors leading-tight">
-                    {t(`articles.${heroArticle.id}.title`)}
+                    {heroArticle.title[loc] || heroArticle.title.en}
                   </h3>
 
                   <p className="text-bontera-grey-300 text-lg leading-relaxed line-clamp-2 lg:line-clamp-3">
-                    {t(`articles.${heroArticle.id}.excerpt`)}
+                    {heroArticle.excerpt[loc] || heroArticle.excerpt.en}
                   </p>
 
                   <div className="mt-6 flex items-center gap-4">
@@ -351,8 +245,8 @@ export default async function NewsPage({ params, searchParams }: Props) {
                   className="group relative h-[240px] lg:h-auto min-h-[240px] overflow-hidden bg-bontera-grey-100"
                 >
                   <Image
-                    src={article.image}
-                    alt={t(`articles.${article.id}.title`)}
+                    src={article.image || "/images/placeholder.jpg"}
+                    alt={article.title[loc] || article.title.en}
                     fill
                     className="object-cover transition-transform duration-700 group-hover:scale-110"
                     sizes="50vw"
@@ -374,7 +268,7 @@ export default async function NewsPage({ params, searchParams }: Props) {
                     </div>
 
                     <h3 className="text-xl font-semibold text-white group-hover:text-gray-200 transition-colors leading-tight">
-                      {t(`articles.${article.id}.title`)}
+                      {article.title[loc] || article.title.en}
                     </h3>
 
                     <div className="mt-3 flex items-center gap-3 text-sm">
@@ -466,8 +360,8 @@ export default async function NewsPage({ params, searchParams }: Props) {
                     {/* Image */}
                     <div className="relative h-52 overflow-hidden">
                       <Image
-                        src={article.image}
-                        alt={t(`articles.${article.id}.title`)}
+                        src={article.image || "/images/placeholder.jpg"}
+                        alt={article.title[loc] || article.title.en}
                         fill
                         className="object-cover transition-transform duration-700 group-hover:scale-110"
                         sizes="(max-width: 768px) 100vw, 33vw"
@@ -504,12 +398,12 @@ export default async function NewsPage({ params, searchParams }: Props) {
 
                       {/* Title */}
                       <h3 className="text-lg font-semibold text-bontera-grey-900 group-hover:text-bontera-navy-600 transition-colors line-clamp-2 leading-tight">
-                        {t(`articles.${article.id}.title`)}
+                        {article.title[loc] || article.title.en}
                       </h3>
 
                       {/* Excerpt */}
                       <p className="mt-3 text-sm text-bontera-grey-600 line-clamp-2">
-                        {t(`articles.${article.id}.excerpt`)}
+                        {article.excerpt[loc] || article.excerpt.en}
                       </p>
 
                       {/* Read More */}
