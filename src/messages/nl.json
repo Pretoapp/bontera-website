@@ -1,0 +1,1315 @@
+{
+  "navigation": {
+    "home": "Startpagina",
+    "about": "Over ons",
+    "services": "Diensten",
+    "projects": "Projecten",
+    "careers": "Carriere",
+    "news": "Nieuws",
+    "contact": "Contact"
+  },
+
+  "metadata": {
+    "title": "Bontera | Bouw & Infrastructuur",
+    "description": "Wereldklasse bouw- en infrastructuuroplossingen. Van concept tot oplevering leveren wij projecten die skylines definieren en gemeenschappen transformeren."
+  },
+
+  "hero": {
+    "eyebrow": "Excellentie in Bouwen sinds 1999",
+    "titleLine1": "Wij Bouwen",
+    "titleLine2": "De Toekomst",
+    "description": "Wereldklasse bouw- en infrastructuuroplossingen. Van concept tot oplevering leveren wij projecten die skylines definieren en gemeenschappen transformeren.",
+    "ctaPrimary": "Bekijk Onze Projecten",
+    "ctaSecondary": "Neem Contact Op",
+    "stats": {
+      "years": "Jaren Excellentie",
+      "projects": "Opgeleverde Projecten",
+      "countries": "Landen"
+    }
+  },
+
+  "vision": {
+    "eyebrow": "Onze Visie",
+    "headline": "De Monumenten van Morgen Bouwen Wij Vandaag",
+    "description": "Wij bouwen niet alleen gebouwen. Wij creeren blijvende erfenissen. Onze toewijding aan innovatie, duurzaamheid en compromisloze kwaliteit heeft ons de partner van keuze gemaakt voor 's werelds meest ambitieuze projecten.",
+    "features": {
+      "innovation": {
+        "title": "Innovatie Voorop",
+        "description": "Baanbrekende bouwtechnologieen en methodologieen die nieuwe industriestandaarden zetten."
+      },
+      "heritage": {
+        "title": "Gebouwd op Erfgoed",
+        "description": "Meer dan 25 jaar expertise doorgegeven door generaties van meesterbouwers en ingenieurs."
+      },
+      "sustainability": {
+        "title": "Duurzame Toekomst",
+        "description": "LEED-gecertificeerde projecten met een toewijding aan klimaatneutrale bouw tegen 2030."
+      }
+    }
+  },
+
+  "services": {
+    "eyebrow": "Wat Wij Doen",
+    "headline": "Complete Bouwoplossingen",
+    "viewAll": "Bekijk Alle Diensten",
+    "items": {
+      "commercial": {
+        "title": "Commerciele Bouw",
+        "description": "Kantoortorens, winkelcentra en horecagelegenheden gebouwd volgens de hoogste standaarden."
+      },
+      "infrastructure": {
+        "title": "Infrastructuur",
+        "description": "Wegen, bruggen, nutsvoorzieningen en openbare werken die gemeenschappen verbinden."
+      },
+      "residential": {
+        "title": "Woningbouw",
+        "description": "Luxe woningen en woonprojecten met uitzonderlijk vakmanschap."
+      },
+      "industrial": {
+        "title": "Industriele Bouw",
+        "description": "Productiefaciliteiten, magazijnen en industriele complexen."
+      },
+      "renovation": {
+        "title": "Renovatie",
+        "description": "Het transformeren van bestaande gebouwen met moderne updates en erfgoedrestauratie."
+      },
+      "consulting": {
+        "title": "Advies",
+        "description": "Deskundige begeleiding bij haalbaarheid, planning en projectmanagement."
+      }
+    }
+  },
+
+  "projects": {
+    "eyebrow": "Uitgelicht Werk",
+    "headline": "Projecten die Skylines Definieren",
+    "viewAll": "Bekijk Alle Projecten",
+    "noProjects": "Er zijn momenteel geen projecten om weer te geven."
+  },
+
+  "stats": {
+    "years": "Jaren Ervaring",
+    "projects": "Voltooide Projecten",
+    "satisfaction": "Klanttevredenheid",
+    "delivered": "Opgeleverde Waarde"
+  },
+
+  "whyUs": {
+    "eyebrow": "Waarom Bontera",
+    "headline": "Excellentie is Onze Standaard",
+    "description": "Wanneer u samenwerkt met Bontera, kiest u voor een team dat elk project behandelt alsof onze reputatie ervan afhangt, want dat is ook zo.",
+    "cta": "Leer Ons Kennen",
+    "points": {
+      "quality": {
+        "title": "Compromisloze Kwaliteit",
+        "description": "ISO 9001:2015 gecertificeerde processen garanderen consistente excellentie in elk project."
+      },
+      "timeline": {
+        "title": "Tijdige Oplevering",
+        "description": "98% van onze projecten wordt op of voor schema opgeleverd, elke keer weer."
+      },
+      "safety": {
+        "title": "Veiligheid Voorop",
+        "description": "Toonaangevende veiligheidsresultaten met volledige naleving en nul-incident initiatieven."
+      }
+    }
+  },
+
+  "testimonial": {
+    "quote": "Bontera overtrof alle verwachtingen. Hun oog voor detail, professionaliteit en toewijding aan onze visie resulteerden in een monumentaal gebouw waar we ongelooflijk trots op zijn.",
+    "name": "Sarah Mitchell",
+    "role": "CEO, Atlas Development Group"
+  },
+
+  "news": {
+    "eyebrow": "Nieuws & Inzichten",
+    "headline": "Laatste Updates",
+    "viewAll": "Bekijk Alle Nieuws",
+    "readMore": "Lees Artikel",
+    "noNews": "Er zijn momenteel geen nieuwsartikelen om weer te geven."
+  },
+
+  "newsSection": {
+    "title": "Nieuws & Inzichten",
+    "seeMore": "Lees Artikel",
+    "discoverAll": "Bekijk Alle Nieuws",
+    "empty": "Er zijn momenteel geen nieuwsartikelen om weer te geven."
+  },
+
+  "header": {
+    "headquarters": "Berlijn, Duitsland",
+    "emergency24": "24/7 Noodgeval",
+    "search": "Zoeken",
+    "searchPlaceholder": "Zoek projecten, diensten, nieuws...",
+    "quickLinks": "Snelle Links",
+    "pressEsc": "Druk op ESC of klik buiten om te sluiten",
+    "selectLanguage": "Kies Taal",
+    "requestQuote": "Offerte Aanvragen",
+    "contactInfo": "Contactgegevens",
+
+    "ourServices": "Onze Diensten",
+    "featured": "Uitgelicht",
+    "sustainableBuilding": "Duurzame Bouwoplossingen",
+    "sustainableBuildingDesc": "Toonaangevend in de industrie met milieuvriendelijke bouw en LEED-gecertificeerde projecten.",
+    "viewAllServices": "Bekijk Alle Diensten",
+
+    "projectCategories": "Projectcategorieen",
+    "featuredProject": "Uitgelicht Project",
+    "featuredProjectTitle": "Marina Tower Complex",
+    "featuredProjectLocation": "Dubai Marina, VAE",
+    "completed": "Voltooid",
+    "viewAllProjects": "Bekijk Alle Projecten",
+
+    "aboutBontera": "Over Bontera",
+    "byTheNumbers": "In Cijfers",
+    "yearsExperience": "Jaren Ervaring",
+    "projectsCompleted": "Voltooide Projecten",
+    "countriesOperating": "Actieve Landen",
+    "teamMembers": "Teamleden",
+
+    "services": {
+      "commercialConstruction": "Commerciele Bouw",
+      "commercialConstructionDesc": "Kantoorgebouwen, retail, horeca",
+      "infrastructure": "Infrastructuur",
+      "infrastructureDesc": "Wegen, bruggen, nutsvoorzieningen",
+      "renovation": "Renovatie & Restauratie",
+      "renovationDesc": "Modernisering en erfgoedrestauratie",
+      "consulting": "Adviesdiensten",
+      "consultingDesc": "Deskundig advies en haalbaarheidsstudies",
+      "projectManagement": "Projectmanagement",
+      "projectManagementDesc": "Volledige projectbegeleiding",
+      "sustainability": "Duurzame Bouw",
+      "sustainabilityDesc": "Groene bouw en LEED-certificering"
+    },
+
+    "projects": {
+      "commercial": "Commercieel",
+      "residential": "Woningbouw",
+      "industrial": "Industrieel",
+      "publicWorks": "Openbare Werken"
+    },
+
+    "company": {
+      "ourStory": "Ons Verhaal",
+      "leadership": "Leiderschapsteam",
+      "values": "Missie & Waarden",
+      "certifications": "Certificeringen",
+      "partners": "Partners & Affiliates"
+    }
+  },
+
+  "cta": {
+    "headline": "Klaar om Iets Buitengewoons te Bouwen?",
+    "description": "Laten we uw visie bespreken. Ons team staat klaar om uw ambitieuze ideeen om te zetten in architectonische werkelijkheid.",
+    "buttonPrimary": "Start Uw Project",
+    "buttonSecondary": "Vraag een Offerte Aan",
+    "certifications": {
+      "leed": "Gecertificeerd Partner",
+      "osha": "Conform"
+    }
+  },
+
+  "footer": {
+    "description": "Bontera levert premium bouw- en infrastructuurwerk met gedisciplineerde planning, nauwkeurige uitvoering en compromisloze afwerking.",
+
+    "followUs": "Volg Ons",
+    "company": "Bedrijf",
+    "services": "Diensten",
+    "contactUs": "Neem Contact Op",
+
+    "phone": "Telefoon",
+    "email": "E-mail",
+    "emergency": "Noodgeval",
+    "backToTop": "Terug naar boven",
+    "allRightsReserved": "Alle rechten voorbehouden.",
+
+    "cta": {
+      "headline": "Klaar om Iets Uitzonderlijks te Bouwen?",
+      "description": "Vertel ons wat u wilt bouwen. Wij leveren het team, het plan en de uitvoering om het op tijd en volgens de hoogste standaarden te realiseren.",
+      "button": "Neem Contact Op",
+      "secondaryButton": "Vraag een Offerte Aan"
+    },
+
+    "offices": {
+      "headquarters": "Hoofdkantoor"
+    },
+
+    "serviceLinks": {
+      "commercial": "Commerciele Bouw",
+      "infrastructure": "Infrastructuur",
+      "residential": "Woningbouw",
+      "industrial": "Industriele Bouw",
+      "renovation": "Renovatie",
+      "consulting": "Advies"
+    },
+
+    "legal": {
+      "privacy": "Privacybeleid",
+      "terms": "Algemene Voorwaarden",
+      "cookies": "Cookiebeleid"
+    }
+  },
+
+  "about": {
+    "meta": {
+      "title": "Over Ons | Bontera Bouw",
+      "description": "Ontdek Bontera's erfgoed van meer dan 25 jaar excellentie in de bouw, onze missie, waarden en het leiderschapsteam dat innovatie in de industrie stimuleert."
+    },
+    "breadcrumb": {
+      "home": "Startpagina",
+      "about": "Over Ons"
+    },
+    "hero": {
+      "eyebrow": "Over Bontera",
+      "title": "Excellentie in Bouwen sinds 1999",
+      "subtitle": "Al meer dan twee decennia staat Bontera aan de voorhoede van bouwinnovatie en levert monumentale projecten die skylines en gemeenschappen over de hele wereld vormgeven.",
+      "stats": {
+        "years": "Jaren Excellentie",
+        "projects": "Voltooide Projecten",
+        "countries": "Landen",
+        "employees": "Teamleden"
+      }
+    },
+    "story": {
+      "eyebrow": "Ons Verhaal",
+      "title": "Een Erfenis van Dromen Omzetten in Werkelijkheid",
+      "paragraph1": "Opgericht in 1999, begon Bontera als een klein bouwbedrijf met een grote visie: de bebouwde omgeving transformeren door innovatie, integriteit en een niet aflatende toewijding aan excellentie. Wat begon als een team van gepassioneerde bouwers, is uitgegroeid tot een wereldleider in de bouw.",
+      "paragraph2": "In de afgelopen 25 jaar hebben we meer dan 500 monumentale projecten voltooid in 12 landen, van iconische commerciele torens tot duurzame woongemeenschappen. Elk project weerspiegelt onze toewijding aan kwaliteitsvakmanschap en ons geloof dat geweldige gebouwen de kracht hebben om te inspireren.",
+      "paragraph3": "Vandaag de dag staat Bontera als bewijs van wat mogelijk is wanneer expertise ambitie ontmoet. We blijven grenzen verleggen, nieuwe technologieen omarmen en nieuwe standaarden zetten in duurzame bouwpraktijken.",
+      "founderQuote": "Wij bouwen niet alleen gebouwen; wij creeren de fundamenten waarop gemeenschappen kunnen bloeien en generaties kunnen gedijen.",
+      "founderName": "Dhr. Nedjet",
+      "founderTitle": "Oprichter & Voorzitter",
+      "yearsExcellence": "Jaren Excellentie",
+      "since": "Opgericht"
+    },
+    "mission": {
+      "title": "Onze Missie",
+      "description": "Het leveren van uitzonderlijke bouwoplossingen die de verwachtingen van klanten overtreffen, innovatie bevorderen en positief bijdragen aan de gemeenschappen die we bedienen, terwijl we de hoogste standaarden van veiligheid, kwaliteit en duurzaamheid handhaven."
+    },
+    "vision": {
+      "title": "Onze Visie",
+      "description": "De wereldleider zijn in duurzame bouw, erkend voor het transformeren van gedurfde architectonische visies in blijvende constructies die inspireren, dienen en de tand des tijds doorstaan."
+    },
+    "values": {
+      "eyebrow": "Waar Wij Voor Staan",
+      "title": "Onze Kernwaarden",
+      "subtitle": "Deze principes sturen elke beslissing die we nemen en elk project dat we ondernemen.",
+      "items": {
+        "excellence": {
+          "title": "Excellentie",
+          "description": "Wij streven naar excellentie in elk detail, van eerste ontwerp tot uiteindelijke oplevering, zodat ons werk getuigt van kwaliteit."
+        },
+        "integrity": {
+          "title": "Integriteit",
+          "description": "Wij voeren zaken uit met eerlijkheid en transparantie, en bouwen vertrouwen op met klanten, partners en gemeenschappen."
+        },
+        "innovation": {
+          "title": "Innovatie",
+          "description": "Wij omarmen geavanceerde technologieen en methodologieen om slimmere, efficientere bouwoplossingen te leveren."
+        },
+        "safety": {
+          "title": "Veiligheid Voorop",
+          "description": "Het welzijn van ons team en gemeenschappen staat voorop. We handhaven strenge veiligheidsnormen bij elk project."
+        },
+        "sustainability": {
+          "title": "Duurzaamheid",
+          "description": "Wij zijn toegewijd aan milieuverantwoorde praktijken die onze voetafdruk minimaliseren en positieve impact maximaliseren."
+        },
+        "partnership": {
+          "title": "Partnerschap",
+          "description": "Wij geloven in samenwerkingsrelaties, werken nauw samen met klanten en belanghebbenden om gedeeld succes te behalen."
+        }
+      }
+    },
+    "timeline": {
+      "eyebrow": "Onze Reis",
+      "title": "Mijlpalen die Ons Definieren",
+      "milestones": {
+        "founding": {
+          "title": "Het Begin",
+          "description": "Bontera werd opgericht met de visie om de bouwsector te revolutioneren door innovatie en een niet aflatende toewijding aan kwaliteit."
+        },
+        "expansion": {
+          "title": "Regionale Uitbreiding",
+          "description": "Uitbreiding van activiteiten in het Midden-Oosten, opbouw van belangrijke partnerschappen en voltooiing van ons eerste grote commerciele project."
+        },
+        "international": {
+          "title": "Internationaal",
+          "description": "Betreding van Europese en Aziatische markten, het begin van onze internationale aanwezigheid met kantoren in 5 nieuwe landen."
+        },
+        "sustainability": {
+          "title": "Duurzaamheidsleiderschap",
+          "description": "Lancering van ons uitgebreide duurzaamheidsinitiatief, behalen van LEED-certificering en toewijding aan klimaatneutrale activiteiten tegen 2030."
+        },
+        "digital": {
+          "title": "Digitale Transformatie",
+          "description": "Implementatie van geavanceerde BIM-technologie en AI-gestuurde projectmanagement, revolutie in onze bouwprocessen."
+        },
+        "future": {
+          "title": "Bouwen aan Morgen",
+          "description": "Doorgaan met innoveren met slimme bouwtechnologieen en uitbreiden van ons duurzame bouwportfolio wereldwijd."
+        }
+      }
+    },
+    "leadership": {
+      "eyebrow": "Leiderschapsteam",
+      "title": "Ontmoet Onze Leiders",
+      "subtitle": "Ervaren professionals die Bontera's visie van excellentie in de bouw aandrijven.",
+      "viewAll": "Bekijk Volledig Team",
+      "members": {
+        "ceo": {
+          "name": "Dhr. Nedjet",
+          "title": "Chief Executive Officer"
+        },
+        "coo": {
+          "name": "Sarah Mitchell",
+          "title": "Chief Operating Officer"
+        },
+        "cto": {
+          "name": "Dr. Michael Chen",
+          "title": "Chief Technology Officer"
+        },
+        "cfo": {
+          "name": "Elena Rodriguez",
+          "title": "Chief Financial Officer"
+        }
+      }
+    },
+    "certifications": {
+      "eyebrow": "Kwaliteit & Standaarden",
+      "title": "Certificeringen & Accreditaties",
+      "description": "Onze toewijding aan excellentie wordt bevestigd door internationaal erkende certificeringen en branche-accreditaties die de hoogste standaarden in kwaliteit, veiligheid en milieuverantwoordelijkheid garanderen.",
+      "viewAll": "Bekijk Alle Certificeringen"
+    },
+    "global": {
+      "eyebrow": "Wereldwijde Aanwezigheid",
+      "title": "Bouwen Over Grenzen",
+      "description": "Van de hoge skylines van Dubai tot de historische straten van Europa, Bontera's expertise overspant continenten. Onze wereldwijde aanwezigheid stelt ons in staat om wereldklasse bouwcapaciteiten te brengen naar projecten overal.",
+      "stats": {
+        "countries": "Landen",
+        "offices": "Regionale Kantoren",
+        "continents": "Continenten",
+        "clients": "Internationale Klanten"
+      }
+    },
+    "cta": {
+      "title": "Klaar om Iets Buitengewoons te Bouwen?",
+      "description": "Of u nu een commerciele ontwikkeling, infrastructuurproject of duurzaam gebouw plant, ons team staat klaar om uw visie tot leven te brengen.",
+      "contactUs": "Neem Contact Op",
+      "joinTeam": "Word Lid van Ons Team"
+    }
+  },
+
+  "servicesPage": {
+    "meta": {
+      "title": "Onze Diensten | Bontera Bouw",
+      "description": "Ontdek Bontera's uitgebreide bouwdiensten waaronder commerciele, residentieel, infrastructuur, industriele, renovatie en adviesoplossingen."
+    },
+    "breadcrumb": {
+      "home": "Startpagina",
+      "services": "Diensten"
+    },
+    "hero": {
+      "eyebrow": "Wat Wij Doen",
+      "title": "Complete Bouwoplossingen",
+      "subtitle": "Van concept tot oplevering leveren wij end-to-end bouwdiensten op maat van uw unieke visie en eisen.",
+      "cta": "Vraag een Offerte Aan"
+    },
+    "overview": {
+      "eyebrow": "Onze Expertise",
+      "title": "Bouwexcellentie in Elke Sector",
+      "description": "Met meer dan 25 jaar ervaring heeft Bontera diepe expertise ontwikkeld in diverse bouwsectoren. Onze geintegreerde aanpak combineert innovatief ontwerp, precisie-engineering en duurzame praktijken om projecten te leveren die verwachtingen overtreffen.",
+      "points": {
+        "expertise": {
+          "title": "Diepe Branche-expertise",
+          "description": "Gespecialiseerde kennis in commerciele, residentieel en infrastructuursectoren."
+        },
+        "quality": {
+          "title": "Compromisloze Kwaliteit",
+          "description": "Strenge kwaliteitscontrole in elke fase van de bouw."
+        },
+        "innovation": {
+          "title": "Innovatieve Oplossingen",
+          "description": "Geavanceerde technologie en moderne bouwmethoden."
+        },
+        "safety": {
+          "title": "Veiligheidsexcellentie",
+          "description": "Toonaangevende veiligheidsnormen en protocollen."
+        }
+      },
+      "stats": {
+        "projects": "Voltooide Projecten",
+        "years": "Jaren Ervaring",
+        "satisfaction": "Klanttevredenheid",
+        "awards": "Brancheprijzen"
+      }
+    },
+    "mainServices": {
+      "eyebrow": "Onze Diensten",
+      "title": "Wat Wij Bieden",
+      "subtitle": "Uitgebreide bouwdiensten ontworpen om uw visie tot leven te brengen.",
+      "learnMore": "Meer Informatie",
+      "items": {
+        "commercial": {
+          "title": "Commerciele Bouw",
+          "description": "Van iconische kantoortorens tot dynamische winkelruimtes, wij creeren commerciele omgevingen die productiviteit inspireren, zakelijk succes stimuleren en als monumenten in stedelijke landschappen staan.",
+          "features": {
+            "officeBuildings": "Kantoorgebouwen",
+            "retailCenters": "Winkelcentra",
+            "mixedUse": "Gemengde Ontwikkelingen",
+            "hospitality": "Horeca"
+          }
+        },
+        "infrastructure": {
+          "title": "Infrastructuurontwikkeling",
+          "description": "Het bouwen van de fundamenten van de moderne samenleving door bruggen, snelwegen, nutsvoorzieningen en transportnetwerken die gemeenschappen verbinden en vooruitgang mogelijk maken.",
+          "features": {
+            "bridges": "Bruggen & Tunnels",
+            "highways": "Snelwegen & Wegen",
+            "utilities": "Nutsnetwerken",
+            "airports": "Luchthavens & Havens"
+          }
+        },
+        "residential": {
+          "title": "Woningbouw",
+          "description": "Het creeren van woningen en gemeenschappen waar gezinnen gedijen, van luxe landgoederen tot duurzame woonontwikkelingen die modern leven definieren.",
+          "features": {
+            "luxuryHomes": "Luxe Woningen",
+            "apartments": "Appartementencomplexen",
+            "communities": "Mastergeplande Gemeenschappen",
+            "villas": "Villa's & Landgoederen"
+          }
+        },
+        "industrial": {
+          "title": "Industriele Bouw",
+          "description": "Het ontwerpen en bouwen van industriele faciliteiten die activiteiten optimaliseren, efficientie maximaliseren en voldoen aan de veeleisende eisen van moderne productie.",
+          "features": {
+            "factories": "Productiefabrieken",
+            "warehouses": "Magazijnen",
+            "logistics": "Logistieke Centra",
+            "manufacturing": "Verwerkingsfaciliteiten"
+          }
+        },
+        "renovation": {
+          "title": "Renovatie & Restauratie",
+          "description": "Nieuw leven blazen in bestaande constructies door doordachte renovatie, historische preservatie en adaptief hergebruik dat het verleden eert terwijl de toekomst wordt omarmd.",
+          "features": {
+            "historic": "Historische Preservatie",
+            "modernization": "Modernisering",
+            "retrofitting": "Retrofitting",
+            "restoration": "Volledige Restauratie"
+          }
+        },
+        "consulting": {
+          "title": "Adviesdiensten",
+          "description": "Deskundige begeleiding door elke fase van uw project, van haalbaarheidsstudies en kostenramingen tot risicobeoordeling en wettelijke naleving.",
+          "features": {
+            "feasibility": "Haalbaarheidsstudies",
+            "costEstimation": "Kostenraming",
+            "riskAssessment": "Risicobeoordeling",
+            "compliance": "Wettelijke Naleving"
+          }
+        }
+      }
+    },
+    "process": {
+      "eyebrow": "Hoe Wij Werken",
+      "title": "Ons Bewezen Proces",
+      "subtitle": "Een systematische aanpak die kwaliteit, efficientie en transparantie garandeert in elke fase.",
+      "steps": {
+        "discovery": {
+          "title": "Ontdekking & Planning",
+          "description": "We beginnen met het begrijpen van uw visie, eisen en beperkingen om een uitgebreid projectplan te ontwikkelen.",
+          "point1": "Eisenanalyse",
+          "point2": "Locatiebeoordeling",
+          "point3": "Budgetplanning"
+        },
+        "planning": {
+          "title": "Ontwerp & Engineering",
+          "description": "Onze deskundige teams creeren gedetailleerde ontwerpen en engineeringplannen die uw visie tot leven brengen.",
+          "point1": "Architectonisch ontwerp",
+          "point2": "Constructieve engineering",
+          "point3": "MEP-coordinatie"
+        },
+        "execution": {
+          "title": "Bouw & Uitvoering",
+          "description": "Vakkundige ambachtslieden en geavanceerde technologie combineren om uitzonderlijke bouwkwaliteit te leveren.",
+          "point1": "Kwaliteitsbouw",
+          "point2": "Veiligheidsnaleving",
+          "point3": "Voortgangsbewaking"
+        },
+        "delivery": {
+          "title": "Oplevering & Ondersteuning",
+          "description": "Grondige tests, overdracht en doorlopende ondersteuning garanderen uw volledige tevredenheid.",
+          "point1": "Kwaliteitsborging",
+          "point2": "Klanttraining",
+          "point3": "Garantieondersteuning"
+        }
+      }
+    },
+    "industries": {
+      "eyebrow": "Sectoren die Wij Bedienen",
+      "title": "Expertise in Alle Sectoren",
+      "description": "Ons diverse portfolio overspant meerdere sectoren, elk met unieke eisen die gespecialiseerde kennis en op maat gemaakte oplossingen vereisen.",
+      "items": {
+        "healthcare": "Gezondheidszorg",
+        "education": "Onderwijs",
+        "hospitality": "Horeca",
+        "retail": "Retail",
+        "government": "Overheid",
+        "energy": "Energie"
+      },
+      "sectorsServed": "Industriesectoren"
+    },
+    "technology": {
+      "eyebrow": "Innovatie & Technologie",
+      "title": "Bouwen met de Technologie van Morgen",
+      "description": "Wij benutten geavanceerde technologie om efficientie te verbeteren, kwaliteit te verhogen en betere resultaten voor onze klanten te leveren.",
+      "items": {
+        "bim": {
+          "title": "BIM-Technologie",
+          "description": "Building Information Modeling voor nauwkeurige planning, coordinatie en visualisatie gedurende de hele projectlevenscyclus."
+        },
+        "drones": {
+          "title": "Drone-Surveys",
+          "description": "Luchtopnames en monitoring voor nauwkeurige locatiebeoordeling en real-time voortgangsregistratie."
+        },
+        "prefab": {
+          "title": "Prefabricage",
+          "description": "Offsite productie van bouwcomponenten voor snellere, efficientere en kwalitatief betere bouw."
+        },
+        "iot": {
+          "title": "IoT & Slimme Gebouwen",
+          "description": "Verbonden systemen en sensoren voor intelligent gebouwbeheer en operationele efficientie."
+        }
+      }
+    },
+    "cta": {
+      "title": "Klaar om Uw Project te Starten?",
+      "description": "Laten we bespreken hoe Bontera uw visie tot leven kan brengen met onze uitgebreide bouwoplossingen.",
+      "getQuote": "Vraag een Offerte Aan",
+      "contactUs": "Neem Contact Op"
+    }
+  },
+
+  "projectsPage": {
+    "meta": {
+      "title": "Onze Projecten | Bontera Bouw",
+      "description": "Ontdek Bontera's portfolio van monumentale bouwprojecten in commerciele, residentieel, infrastructuur en industriele sectoren in 12 landen."
+    },
+    "breadcrumb": {
+      "home": "Startpagina",
+      "projects": "Projecten"
+    },
+    "hero": {
+      "eyebrow": "Ons Portfolio",
+      "title": "Monumentale Projecten die Skylines Vormgeven",
+      "subtitle": "Ontdek ons diverse portfolio van voltooide en lopende projecten die onze toewijding aan excellentie, innovatie en duurzame bouw laten zien.",
+      "stats": {
+        "projectsCompleted": "Voltooide Projecten",
+        "totalValue": "Totale Projectwaarde",
+        "countries": "Landen",
+        "onTimeDelivery": "Tijdige Oplevering"
+      }
+    },
+    "featured": {
+      "eyebrow": "Uitgelicht Werk",
+      "title": "Kenmerkende Projecten",
+      "description": "Onze meest impactvolle projecten die onze capaciteiten en toewijding aan excellentie in de bouw demonstreren.",
+      "badge": "Uitgelicht",
+      "viewProject": "Bekijk Project"
+    },
+    "allProjects": {
+      "eyebrow": "Volledig Portfolio",
+      "title": "Alle Projecten",
+      "showing": "Toont {count} projecten",
+      "inCategory": "in"
+    },
+    "categories": {
+      "all": "Alle Projecten",
+      "commercial": "Commercieel",
+      "residential": "Woningbouw",
+      "infrastructure": "Infrastructuur",
+      "industrial": "Industrieel",
+      "renovation": "Renovatie",
+      "publicWorks": "Openbare Werken"
+    },
+    "status": {
+      "completed": "Voltooid",
+      "ongoing": "Lopend",
+      "upcoming": "Aankomend"
+    },
+    "projectCard": {
+      "value": "Waarde",
+      "client": "Opdrachtgever",
+      "viewDetails": "Bekijk Details"
+    },
+    "noProjects": {
+      "title": "Geen Projecten Gevonden",
+      "description": "We konden geen projecten vinden die aan uw criteria voldoen.",
+      "viewAll": "Bekijk Alle Projecten"
+    },
+    "breakdown": {
+      "eyebrow": "Per Categorie",
+      "title": "Projecten in Elke Sector",
+      "exploreCategory": "Bekijk Categorie",
+      "categories": {
+        "commercial": {
+          "title": "Commercieel",
+          "description": "Kantoortorens, winkelcentra, hotels en gemengde ontwikkelingen die zakelijk succes stimuleren."
+        },
+        "residential": {
+          "title": "Woningbouw",
+          "description": "Luxe woningen, appartementencomplexen en mastergeplande gemeenschappen waar gezinnen gedijen."
+        },
+        "infrastructure": {
+          "title": "Infrastructuur",
+          "description": "Bruggen, snelwegen, luchthavens en nutsvoorzieningen die gemeenschappen verbinden en voeden."
+        },
+        "industrial": {
+          "title": "Industrieel",
+          "description": "Productiefabrieken, magazijnen en logistieke centra geoptimaliseerd voor efficientie."
+        },
+        "renovation": {
+          "title": "Renovatie",
+          "description": "Historische preservatie en moderniseringsprojecten die het verleden eren terwijl de toekomst wordt omarmd."
+        },
+        "publicWorks": {
+          "title": "Openbare Werken",
+          "description": "Overheidsgebouwen, gemeenschapscentra en openbare faciliteiten die gemeenschappen bedienen."
+        }
+      }
+    },
+    "cta": {
+      "eyebrow": "Start Uw Project",
+      "title": "Klaar om Uw Visie te Bouwen?",
+      "description": "Of u nu een commerciele ontwikkeling, woongemeenschap of infrastructuurproject plant, ons team staat klaar om uw visie tot leven te brengen.",
+      "startProject": "Start Uw Project",
+      "contactUs": "Neem Contact Op"
+    }
+  },
+
+  "contactPage": {
+    "meta": {
+      "title": "Contact | Bontera Bouw",
+      "description": "Neem contact op met Bontera Bouw. Bezoek onze kantoren in Dubai, Riyad, Cairo en Londen, of stuur ons een bericht om uw bouwproject te bespreken."
+    },
+    "breadcrumb": {
+      "home": "Startpagina",
+      "contact": "Contact"
+    },
+    "hero": {
+      "eyebrow": "Neem Contact Op",
+      "title": "Laten We Samen Iets Geweldigs Bouwen",
+      "subtitle": "Heeft u een project in gedachten? Ons team staat klaar om u te helpen uw visie tot leven te brengen. Bereik ons via een van onderstaande kanalen."
+    },
+    "methods": {
+      "phone": { "label": "Bel Ons", "description": "Ma-Vr 8:00 tot 18:00" },
+      "email": { "label": "E-mail Ons", "description": "Wij antwoorden binnen 24 uur" },
+      "whatsapp": { "label": "WhatsApp", "description": "Snelle chat ondersteuning" },
+      "emergency": { "label": "24/7 Noodgeval", "description": "Voor dringende zaken" }
+    },
+    "form": {
+      "eyebrow": "Stuur een Bericht",
+      "title": "Hoe Kunnen Wij U Helpen?",
+      "description": "Vul onderstaand formulier in en ons team neemt binnen 24 uur contact met u op.",
+      "fields": {
+        "name": { "label": "Volledige Naam", "placeholder": "Jan Jansen" },
+        "email": { "label": "E-mailadres", "placeholder": "jan@bedrijf.nl" },
+        "phone": { "label": "Telefoonnummer", "placeholder": "+31 20 123 4567" },
+        "company": { "label": "Bedrijfsnaam", "placeholder": "Uw Bedrijf" },
+        "subject": { "label": "Onderwerp", "placeholder": "Hoe kunnen wij helpen?" },
+        "projectType": {
+          "label": "Projecttype",
+          "placeholder": "Selecteer een projecttype",
+          "options": {
+            "commercial": "Commerciele Bouw",
+            "residential": "Woningbouw",
+            "infrastructure": "Infrastructuur",
+            "industrial": "Industriele Bouw",
+            "renovation": "Renovatie & Restauratie",
+            "consulting": "Adviesdiensten",
+            "other": "Overig"
+          }
+        },
+        "budget": {
+          "label": "Geschat Budget",
+          "placeholder": "Selecteer budgetbereik",
+          "options": {
+            "under1m": "Minder dan 1 miljoen euro",
+            "1mTo5m": "1 - 5 miljoen euro",
+            "5mTo10m": "5 - 10 miljoen euro",
+            "10mTo50m": "10 - 50 miljoen euro",
+            "over50m": "Meer dan 50 miljoen euro",
+            "notSure": "Nog niet zeker"
+          }
+        },
+        "message": {
+          "label": "Uw Bericht",
+          "placeholder": "Vertel ons over uw project, eisen, tijdlijn en andere details die ons helpen uw behoeften te begrijpen..."
+        }
+      },
+      "errors": {
+        "nameRequired": "Voer uw naam in",
+        "emailRequired": "Voer uw e-mailadres in",
+        "emailInvalid": "Voer een geldig e-mailadres in",
+        "messageRequired": "Voer uw bericht in",
+        "messageTooShort": "Uw bericht moet minimaal 20 tekens bevatten"
+      },
+      "privacy": { "text": "Door dit formulier te verzenden, gaat u akkoord met ons", "link": "Privacybeleid" },
+      "submit": "Verstuur Bericht",
+      "submitting": "Verzenden...",
+      "success": {
+        "title": "Bericht Succesvol Verzonden!",
+        "message": "Bedankt voor uw contactopname. Ons team zal uw bericht bekijken en binnen 24 uur contact met u opnemen."
+      },
+      "error": {
+        "title": "Er Ging Iets Mis",
+        "message": "We konden uw bericht niet verzenden. Probeer het opnieuw of neem rechtstreeks contact met ons op via telefoon of e-mail."
+      }
+    },
+    "departments": {
+      "title": "Contact per Afdeling",
+      "items": {
+        "general": "Algemene Vragen",
+        "sales": "Verkoop & Bedrijfsontwikkeling",
+        "projects": "Projectmanagement",
+        "careers": "Carriere & HR",
+        "media": "Media & Pers",
+        "support": "Technische Ondersteuning"
+      }
+    },
+    "responseTime": {
+      "title": "Snelle Reactie Gegarandeerd",
+      "description": "Ons team reageert doorgaans binnen 24 uur op werkdagen. Voor dringende zaken kunt u onze noodnummerlijn gebruiken."
+    },
+    "social": { "title": "Volg Ons" },
+    "offices": {
+      "eyebrow": "Onze Locaties",
+      "title": "Bezoek Onze Kantoren",
+      "description": "Met kantoren in het Midden-Oosten en Europa zijn we altijd dichtbij uw project.",
+      "headquarters": "Hoofdkantoor",
+      "viewOnMap": "Bekijk op Kaart"
+    },
+    "faq": {
+      "eyebrow": "Veelgestelde Vragen",
+      "title": "Veelgestelde Vragen",
+      "description": "Vind snelle antwoorden op veelvoorkomende vragen over samenwerken met Bontera.",
+      "viewAll": "Bekijk Alle Vragen",
+      "items": {
+        "timeline": {
+          "question": "Hoe lang duurt een typisch bouwproject?",
+          "answer": "Projecttijdlijnen varieren op basis van omvang en complexiteit. Een kleine commerciele renovatie kan 3-6 maanden duren, terwijl een grootschalige ontwikkeling 2-3 jaar kan beslaan. Tijdens ons eerste gesprek geven we een gedetailleerde tijdlijn specifiek voor uw project."
+        },
+        "budget": {
+          "question": "Hoe gaan jullie om met projectbudgetten en kostenramingen?",
+          "answer": "Wij bieden transparante, gedetailleerde kostenramingen tijdens de planningsfase. Ons team gebruikt geavanceerde schattingssoftware en historische gegevens om nauwkeurigheid te garanderen. We bieden ook value engineering opties om kosten te optimaliseren zonder concessies aan kwaliteit."
+        },
+        "process": {
+          "question": "Wat is jullie projectmanagementproces?",
+          "answer": "Ons bewezen 4-fasenproces omvat Ontdekking & Planning, Ontwerp & Engineering, Bouw & Uitvoering, en Oplevering & Ondersteuning. Elke fase heeft duidelijke mijlpalen en u krijgt een toegewijde projectmanager als uw enige contactpunt gedurende het hele traject."
+        },
+        "warranty": {
+          "question": "Welke garanties bieden jullie op voltooide projecten?",
+          "answer": "Wij bieden uitgebreide garanties op al ons werk. Constructieve elementen zijn gedekt voor 10 jaar, mechanische en elektrische systemen voor 5 jaar, en algemeen vakmanschap voor 2 jaar. Verlengde garantieopties zijn ook beschikbaar."
+        }
+      }
+    },
+    "map": {
+      "placeholder": "Interactieve kaart wordt hier weergegeven",
+      "visitUs": "Bezoek Ons Hoofdkantoor",
+      "getDirections": "Routebeschrijving"
+    }
+  },
+
+  "careersPage": {
+    "meta": {
+      "title": "Carriere | Word Lid van Bontera Bouw",
+      "description": "Bouw uw carriere bij Bontera. Ontdek spannende mogelijkheden in bouw, engineering, projectmanagement en meer in onze wereldwijde kantoren."
+    },
+    "breadcrumb": {
+      "home": "Startpagina",
+      "careers": "Carriere"
+    },
+    "hero": {
+      "eyebrow": "Word Lid van Ons Team",
+      "title": "Bouw Uw Toekomst Met Ons",
+      "subtitle": "Word lid van een team van gepassioneerde professionals die skylines vormgeven en gemeenschappen bouwen over de hele wereld. Uw volgende geweldige kans wacht.",
+      "viewJobs": "Bekijk Vacatures",
+      "ourCulture": "Onze Cultuur",
+      "stats": {
+        "employees": "Teamleden",
+        "countries": "Landen",
+        "openPositions": "Vacatures",
+        "glassdoorRating": "Glassdoor Score"
+      }
+    },
+    "whyJoin": {
+      "eyebrow": "Waarom Bontera",
+      "title": "Waarom Hier Uw Carriere Bouwen?",
+      "description": "Bij Bontera geloven wij dat onze mensen onze grootste troef zijn. We zijn toegewijd aan het creeren van een omgeving waar talent gedijt, innovatie bloeit en elk teamlid zijn volledige potentieel kan bereiken.",
+      "yearsGrowing": "Jaren Samen Groeien",
+      "points": {
+        "impact": {
+          "title": "Maak Echte Impact",
+          "description": "Werk aan monumentale projecten die gemeenschappen vormgeven en een blijvende erfenis achterlaten."
+        },
+        "growth": {
+          "title": "Voortdurende Groei",
+          "description": "Toegang tot wereldklasse trainingen, mentorprogramma's en duidelijke carrierepaden."
+        },
+        "team": {
+          "title": "Samenwerkend Team",
+          "description": "Word lid van een divers, ondersteunend team dat samen prestaties viert."
+        },
+        "innovation": {
+          "title": "Innovatie Voorop",
+          "description": "Werk met geavanceerde technologie en baanbrekende bouwmethoden."
+        }
+      }
+    },
+    "featured": {
+      "eyebrow": "Uitgelichte Kansen",
+      "title": "Uitgelichte Functies",
+      "viewAll": "Bekijk Alle Functies",
+      "badge": "Uitgelicht",
+      "applyNow": "Solliciteer Nu"
+    },
+    "departments": {
+      "engineering": "Engineering",
+      "projectManagement": "Projectmanagement",
+      "architecture": "Architectuur & Ontwerp",
+      "operations": "Operaties",
+      "finance": "Financien",
+      "hr": "Human Resources"
+    },
+    "locations": {
+      "dubai": "Dubai, VAE",
+      "riyadh": "Riyad, KSA",
+      "cairo": "Cairo, Egypte",
+      "london": "Londen, VK"
+    },
+    "jobTypes": {
+      "fullTime": "Fulltime",
+      "partTime": "Parttime",
+      "contract": "Contract",
+      "internship": "Stage"
+    },
+    "benefits": {
+      "eyebrow": "Voordelen & Extra's",
+      "title": "Wij Zorgen voor Ons Team",
+      "subtitle": "Uitgebreid voordelenpakket ontworpen om uw gezondheid, financiele zekerheid en werk-privebalans te ondersteunen.",
+      "items": {
+        "health": {
+          "title": "Gezondheid & Welzijn",
+          "description": "Uitgebreide medische, tandheelkundige en oogzorgverzekering voor u en uw gezin, plus welzijnsprogramma's en sportschoolabonnementen."
+        },
+        "retirement": {
+          "title": "Pensioenregelingen",
+          "description": "Concurrerende pensioenspaarregelingen met bedrijfsbijdrage om uw financiele toekomst veilig te stellen."
+        },
+        "learning": {
+          "title": "Leren & Ontwikkeling",
+          "description": "Continue leermogelijkheden waaronder certificeringen, conferenties en opleidingsvergoedingsprogramma's."
+        },
+        "vacation": {
+          "title": "Ruim Verlof",
+          "description": "Flexibel verlofbeleid, betaalde feestdagen en sabbatical mogelijkheden om op te laden en te ontdekken."
+        },
+        "flexibility": {
+          "title": "Werkflexibiliteit",
+          "description": "Flexibele werkregelingen en thuiswerkmogelijkheden om werk-privebalans te behouden."
+        },
+        "growth": {
+          "title": "Carriereontwikkeling",
+          "description": "Duidelijke carrierepaden, mentorprogramma's en doorgroeimogelijkheden binnen onze wereldwijde organisatie."
+        }
+      }
+    },
+    "culture": {
+      "eyebrow": "Onze Cultuur",
+      "title": "Leven bij Bontera",
+      "description": "Wij koesteren een cultuur van excellentie, samenwerking en voortdurende verbetering waar elke stem telt.",
+      "values": {
+        "innovation": {
+          "title": "Innovatie",
+          "description": "Wij omarmen nieuwe ideeen en geavanceerde technologie om betere oplossingen te leveren."
+        },
+        "teamwork": {
+          "title": "Teamwerk",
+          "description": "Samenwerking staat centraal in alles wat we doen, waarbij we diverse perspectieven vieren."
+        },
+        "excellence": {
+          "title": "Excellentie",
+          "description": "Wij houden onszelf aan de hoogste standaarden in elk project dat we ondernemen."
+        },
+        "safety": {
+          "title": "Veiligheid Voorop",
+          "description": "Het welzijn van ons team en gemeenschappen is altijd onze hoogste prioriteit."
+        }
+      }
+    },
+    "testimonials": {
+      "eyebrow": "Verhalen van Medewerkers",
+      "title": "Hoor van Ons Team",
+      "quotes": {
+        "engineer": "Bij Bontera komen was de beste carrierebeslissing die ik ooit heb gemaakt. De projecten zijn uitdagend, het team is ondersteunend en er is altijd ruimte om te groeien. Ik heb hier kansen gehad die ik nooit voor mogelijk had gehouden.",
+        "manager": "Wat ik het meest waardeer aan Bontera is de samenwerkingscultuur. Iedereen van senior leiderschap tot nieuwe medewerkers werkt samen aan gemeenschappelijke doelen. Het voelt echt als een familie.",
+        "architect": "De schaal en complexiteit van projecten bij Bontera is ongeevenaaard. Ik heb kunnen werken aan monumentale gebouwen die generaties zullen blijven staan. Het is ongelooflijk bevredigend om je werk skylines te zien vormgeven."
+      }
+    },
+    "openings": {
+      "eyebrow": "Vacatures",
+      "title": "Vind Uw Perfecte Rol",
+      "showing": "Toont {count} functies",
+      "apply": "Solliciteer"
+    },
+    "filters": {
+      "allDepartments": "Alle Afdelingen",
+      "allLocations": "Alle Locaties"
+    },
+    "noJobs": {
+      "title": "Geen Functies Gevonden",
+      "description": "We konden geen functies vinden die aan uw criteria voldoen. Probeer uw filters aan te passen of kom binnenkort terug.",
+      "clearFilters": "Filters Wissen"
+    },
+    "cta": {
+      "title": "Niet de Juiste Rol Gevonden?",
+      "description": "Wij zijn altijd op zoek naar getalenteerde mensen om ons team te versterken. Stuur ons uw cv en we houden u in gedachten voor toekomstige mogelijkheden.",
+      "browseJobs": "Bekijk Alle Functies",
+      "sendResume": "Stuur Uw CV"
+    }
+  },
+
+  "newsPage": {
+    "meta": {
+      "title": "Nieuws & Inzichten | Bontera Bouw",
+      "description": "Blijf op de hoogte van Bontera's laatste nieuws, projectaankondigingen, branche-inzichten en bedrijfsupdates van onze wereldwijde activiteiten."
+    },
+    "breadcrumb": {
+      "home": "Startpagina",
+      "news": "Nieuws"
+    },
+    "hero": {
+      "eyebrow": "Nieuws & Inzichten",
+      "title": "Verhalen die Morgen Bouwen",
+      "subtitle": "Blijf geinformeerd met de laatste updates van Bontera, inclusief projectmijlpalen, branchetrends en bedrijfsaankondigingen."
+    },
+    "featured": {
+      "eyebrow": "Uitgelichte Verhalen",
+      "title": "Laatste Headlines",
+      "description": "De belangrijkste updates en aankondigingen van onze wereldwijde activiteiten."
+    },
+    "allNews": {
+      "eyebrow": "Alle Artikelen",
+      "title": "Bekijk Alle Nieuws",
+      "showing": "Toont {count} artikelen",
+      "inCategory": "in"
+    },
+    "categories": {
+      "all": "Alle Nieuws",
+      "companyNews": "Bedrijfsnieuws",
+      "projects": "Projecten",
+      "industry": "Branche",
+      "sustainability": "Duurzaamheid",
+      "awards": "Prijzen",
+      "events": "Evenementen"
+    },
+    "readMore": "Lees Meer",
+    "minRead": "{minutes} min leestijd",
+    "articles": {
+      "news-001": {
+        "title": "Bontera Wint Contract van 2,5 Miljard Dollar voor NEOM Infrastructuur",
+        "excerpt": "In een monumentale prestatie is Bontera geselecteerd als hoofdaannemer voor een grote infrastructuurontwikkeling binnen het NEOM-megaproject, ons grootste contract tot nu toe."
+      },
+      "news-002": {
+        "title": "Top 10 Duurzame Bouwtrends die 2024 Vormgeven",
+        "excerpt": "Van koolstofneutrale materialen tot AI-gestuurd gebouwbeheer, ontdek de innovaties die transformeren hoe we bouwen voor een duurzamere toekomst."
+      },
+      "news-003": {
+        "title": "Marina Tower Behaalt LEED Platinum Certificering",
+        "excerpt": "Onze vlaggenschip gemengde ontwikkeling heeft de hoogste duurzaamheidswaardering ontvangen, wat Bontera's toewijding aan milieuverantwoord bouwen toont."
+      },
+      "news-004": {
+        "title": "Bontera Ontvangt Construction Excellence Award 2024",
+        "excerpt": "De prestigieuze brancheprijs erkent onze innovatieve aanpak van projectoplevering en toewijding aan kwaliteit in ons hele portfolio."
+      },
+      "news-005": {
+        "title": "Nieuw Regionaal Hoofdkantoor Geopend in Riyad",
+        "excerpt": "Met de uitbreiding van onze aanwezigheid in Saudi-Arabie zal het nieuwe kantoor dienen als hub voor onze groeiende activiteiten in de Vision 2030-projecten van het Koninkrijk."
+      },
+      "news-006": {
+        "title": "Belangrijkste Inzichten van de Global Infrastructure Summit 2024",
+        "excerpt": "Ons team deelt inzichten van het toonaangevende branche-evenement, met aandacht voor opkomende technologieen, investeringstrends en samenwerkingsmogelijkheden."
+      },
+      "news-007": {
+        "title": "Integratie van Slimme Gebouwtechnologie: Een Praktische Gids",
+        "excerpt": "Leer hoe wij IoT-sensoren, geautomatiseerde systemen en AI-gestuurd beheer integreren in moderne bouwprojecten."
+      },
+      "news-008": {
+        "title": "Startschot voor Gezondheidscomplex van 400 Miljoen Dollar",
+        "excerpt": "De bouw van de state-of-the-art medische faciliteit die meer dan 2 miljoen inwoners in de metropoolregio zal bedienen, is officieel begonnen."
+      },
+      "news-009": {
+        "title": "Bontera Verbindt Zich tot Klimaatneutraliteit tegen 2030",
+        "excerpt": "Onze uitgebreide duurzaamheidsroadmap beschrijft de stappen die we nemen om netto-nul emissies te bereiken in al onze activiteiten."
+      },
+      "news-010": {
+        "title": "Strategisch Partnerschap met Wereldwijd Architectenbureau",
+        "excerpt": "De samenwerking brengt wereldklasse ontwerpexpertise naar onze projecten in het Midden-Oosten en Noord-Afrika."
+      },
+      "news-011": {
+        "title": "Medewerker in de Schijnwerpers: Ontmoet Onze Januari-Sterren",
+        "excerpt": "Viering van de uitzonderlijke teamleden die deze maand boven verwachting presteerden, en het talent tonen dat Bontera's succes aandrijft."
+      },
+      "news-012": {
+        "title": "Innovaties in Bouwplaatsveiligheidstechnologie",
+        "excerpt": "Verkenning van de nieuwste wearables, monitoringsystemen en AI-toepassingen die onze bouwplaatsen veiliger maken dan ooit."
+      }
+    },
+    "noArticles": {
+      "title": "Geen Artikelen Gevonden",
+      "description": "We konden geen artikelen in deze categorie vinden. Probeer een andere categorie te selecteren of kom binnenkort terug voor nieuwe content.",
+      "viewAll": "Bekijk Alle Artikelen"
+    },
+    "newsletter": {
+      "eyebrow": "Blijf Op de Hoogte",
+      "title": "Abonneer op Onze Nieuwsbrief",
+      "description": "Ontvang het laatste nieuws, projectupdates en branche-inzichten rechtstreeks in uw inbox.",
+      "placeholder": "Voer uw e-mailadres in",
+      "subscribe": "Abonneren",
+      "privacy": "Wij respecteren uw privacy. U kunt zich op elk moment afmelden."
+    },
+    "media": {
+      "eyebrow": "Pers & Media",
+      "title": "Mediavragen",
+      "description": "Voor persvragen, interviewverzoeken of mediamaterialen staat ons communicatieteam voor u klaar.",
+      "email": "Mediacontact",
+      "phone": "Pershotline",
+      "downloadKit": "Download Perskit",
+      "featuredIn": "Zoals Vermeld In"
+    }
+  },
+
+  "quotePage": {
+    "meta": {
+      "title": "Offerte Aanvragen | Bontera Bouw",
+      "description": "Ontvang een gratis, vrijblijvende offerte voor uw bouwproject. Vertel ons over uw visie en ons team levert een gedetailleerd voorstel binnen 48 uur."
+    },
+    "breadcrumb": {
+      "home": "Startpagina",
+      "quote": "Offerte Aanvragen"
+    },
+    "hero": {
+      "eyebrow": "Begin Nu",
+      "title": "Vraag Uw Gratis Offerte Aan",
+      "subtitle": "Vertel ons over uw project en ontvang een gedetailleerd, op maat gemaakt voorstel van ons expertteam. Geen verplichting, geen verborgen kosten.",
+      "trust": {
+        "free": "100% Gratis Offerte",
+        "response": "Reactie binnen 48 Uur",
+        "obligation": "Geen Verplichting"
+      }
+    },
+    "form": {
+      "eyebrow": "Projectaanvraag",
+      "title": "Vertel Ons Over Uw Project",
+      "description": "Vul onderstaand formulier in en ons team bereidt een gedetailleerde offerte voor, afgestemd op uw specifieke eisen.",
+      "steps": {
+        "contact": "Contactgegevens",
+        "project": "Projectdetails",
+        "details": "Extra Informatie"
+      },
+      "step1": { "title": "Contactgegevens" },
+      "step2": { "title": "Projectdetails" },
+      "step3": { "title": "Extra Informatie" },
+      "fields": {
+        "firstName": "Voornaam",
+        "lastName": "Achternaam",
+        "email": "E-mailadres",
+        "phone": "Telefoonnummer",
+        "company": "Bedrijfsnaam",
+        "role": "Uw Rol",
+        "rolePlaceholder": "bijv. Eigenaar, Projectmanager, Architect",
+        "projectType": "Projecttype",
+        "projectLocation": "Projectlocatie",
+        "projectLocationPlaceholder": "Stad, Land",
+        "projectSize": "Projectomvang",
+        "budget": "Geschat Budget",
+        "timeline": "Verwachte Tijdlijn",
+        "description": "Projectbeschrijving",
+        "descriptionPlaceholder": "Beschrijf uw project in detail, inclusief scope, doelstellingen en eventuele specifieke eisen...",
+        "requirements": "Benodigde Diensten",
+        "referralSource": "Hoe heeft u over ons gehoord?",
+        "preferredContact": "Voorkeur Contactmethode",
+        "selectOption": "Selecteer een optie"
+      },
+      "projectTypes": {
+        "commercial": "Commerciele Bouw",
+        "residential": "Woningbouw",
+        "infrastructure": "Infrastructuur",
+        "industrial": "Industriele Bouw",
+        "renovation": "Renovatie & Restauratie",
+        "mixedUse": "Gemengde Ontwikkeling",
+        "healthcare": "Zorginstelling",
+        "education": "Onderwijsinstelling",
+        "hospitality": "Horeca & Toerisme",
+        "other": "Overig"
+      },
+      "projectSizes": {
+        "small": "Klein (< 500 m2)",
+        "medium": "Gemiddeld (500 - 5.000 m2)",
+        "large": "Groot (5.000 - 50.000 m2)",
+        "megaProject": "Megaproject (> 50.000 m2)"
+      },
+      "budgetRanges": {
+        "under500k": "Minder dan 500.000 euro",
+        "500kTo1m": "500.000 - 1 miljoen euro",
+        "1mTo5m": "1 miljoen - 5 miljoen euro",
+        "5mTo10m": "5 miljoen - 10 miljoen euro",
+        "10mTo50m": "10 miljoen - 50 miljoen euro",
+        "50mTo100m": "50 miljoen - 100 miljoen euro",
+        "over100m": "Meer dan 100 miljoen euro"
+      },
+      "timelines": {
+        "immediate": "Directe Start",
+        "1to3months": "1-3 Maanden",
+        "3to6months": "3-6 Maanden",
+        "6to12months": "6-12 Maanden",
+        "over12months": "12+ Maanden",
+        "flexible": "Flexibel"
+      },
+      "requirements": {
+        "design": "Ontwerp & Architectuur",
+        "permits": "Vergunningen & Goedkeuringen",
+        "projectManagement": "Projectmanagement",
+        "sustainability": "Duurzaamheid/LEED",
+        "bim": "BIM-Diensten",
+        "turnkey": "Turnkey-Oplossing"
+      },
+      "referralSources": {
+        "search": "Zoekmachine",
+        "referral": "Aanbeveling/Mond-tot-mond",
+        "socialMedia": "Social Media",
+        "advertisement": "Advertentie",
+        "event": "Evenement/Conferentie",
+        "other": "Overig"
+      },
+      "contactMethods": {
+        "email": "E-mail",
+        "phone": "Telefoon",
+        "whatsapp": "WhatsApp"
+      },
+      "privacy": {
+        "text": "Door dit formulier te verzenden, gaat u akkoord met ons",
+        "link": "Privacybeleid",
+        "and": "en",
+        "terms": "Algemene Voorwaarden"
+      },
+      "buttons": {
+        "previous": "Vorige",
+        "next": "Volgende Stap",
+        "submit": "Aanvraag Indienen",
+        "submitting": "Verzenden..."
+      },
+      "errors": {
+        "required": "Dit veld is verplicht",
+        "invalidEmail": "Voer een geldig e-mailadres in",
+        "descriptionTooShort": "Geef minimaal 50 tekens op"
+      },
+      "success": {
+        "title": "Offerteaanvraag Ingediend!",
+        "message": "Bedankt voor uw interesse in Bontera. Ons team zal uw projectdetails bekijken en binnen 48 uur contact met u opnemen met een op maat gemaakt voorstel.",
+        "reference": "Referentienummer"
+      },
+      "error": {
+        "title": "Verzending Mislukt",
+        "message": "We konden uw aanvraag niet verwerken. Probeer het opnieuw of neem rechtstreeks contact met ons op."
+      }
+    },
+    "sidebar": {
+      "whyUs": {
+        "title": "Waarom Kiezen voor Bontera?",
+        "experience": "Jaren Ervaring",
+        "projects": "Voltooide Projecten",
+        "onTime": "Tijdige Oplevering",
+        "clients": "Tevreden Klanten"
+      },
+      "contact": {
+        "title": "Liever Persoonlijk Contact?",
+        "description": "Ons team staat klaar om uw project rechtstreeks te bespreken.",
+        "phone": "Bel Ons",
+        "email": "E-mail Ons",
+        "whatsapp": "WhatsApp"
+      },
+      "hours": {
+        "title": "Kantooruren",
+        "weekdays": "Maandag - Vrijdag",
+        "saturday": "Zaterdag",
+        "sunday": "Zondag",
+        "closed": "Gesloten"
+      }
+    },
+    "process": {
+      "eyebrow": "Hoe Het Werkt",
+      "title": "Van Aanvraag tot Voorstel",
+      "description": "Ons gestroomlijnd proces zorgt ervoor dat u snel een uitgebreide, nauwkeurige offerte ontvangt.",
+      "steps": {
+        "submit": {
+          "title": "Dien Uw Aanvraag In",
+          "description": "Vul ons gedetailleerde formulier in met uw projectinformatie en eisen."
+        },
+        "review": {
+          "title": "Wij Beoordelen & Analyseren",
+          "description": "Onze experts beoordelen uw inzending en analyseren projecteisen."
+        },
+        "consultation": {
+          "title": "Eerste Consultatie",
+          "description": "Wij plannen een gesprek om details te bespreken en uw vragen te beantwoorden."
+        },
+        "proposal": {
+          "title": "Ontvang Uw Voorstel",
+          "description": "Ontvang een gedetailleerd, op maat gemaakt voorstel met transparante prijzen."
+        }
+      }
+    },
+    "faq": {
+      "eyebrow": "Veelgestelde Vragen",
+      "title": "Veelgestelde Vragen over Offertes",
+      "description": "Vind antwoorden op veelgestelde vragen over ons offerteproces.",
+      "stillQuestions": {
+        "title": "Nog vragen?",
+        "description": "Ons team staat voor u klaar. Neem contact op voor persoonlijke hulp.",
+        "link": "Neem Contact Op met Ons Team"
+      },
+      "items": {
+        "timeline": {
+          "question": "Hoe lang duurt het om een offerte te ontvangen?",
+          "answer": "Wij leveren doorgaans eerste offertes binnen 48 uur na ontvangst van uw aanvraag. Voor complexe projecten die gedetailleerde analyse vereisen, nemen wij contact met u op om tijdlijnverwachtingen te bespreken."
+        },
+        "cost": {
+          "question": "Zijn er kosten verbonden aan het aanvragen van een offerte?",
+          "answer": "Nee, onze offertes zijn volledig gratis en vrijblijvend. Wij geloven in transparante communicatie en willen dat u alle informatie heeft om een weloverwogen beslissing te nemen."
+        },
+        "included": {
+          "question": "Wat is inbegrepen in de offerte?",
+          "answer": "Onze offertes bevatten gedetailleerde kostenspecificaties, projecttijdlijn, werkingsomvang, materiaalspecificaties en betalingsvoorwaarden. We verstrekken ook informatie over vergunningen, verzekeringen en garantiedekking."
+        },
+        "changes": {
+          "question": "Kan ik wijzigingen aanbrengen na ontvangst van de offerte?",
+          "answer": "Absoluut. Wij begrijpen dat projecteisen kunnen evolueren. Wij herzien graag offertes op basis van bijgewerkte specificaties of scopewijzigingen zonder extra kosten."
+        }
+      }
+    },
+    "testimonial": {
+      "quote": "Het offerteproces verliep ongelooflijk soepel. Bontera's team nam de tijd om onze unieke eisen te begrijpen en leverde een gedetailleerd, transparant voorstel dat ons volledig vertrouwen gaf om door te gaan.",
+      "author": "Mohammad Al-Farsi",
+      "role": "CEO, Al-Farsi Developments"
+    },
+    "cta": {
+      "title": "Klaar om Uw Project te Starten?",
+      "description": "Sluit u aan bij honderden tevreden klanten die kozen voor Bontera voor hun bouwbehoeften.",
+      "getQuote": "Ontvang Uw Gratis Offerte",
+      "viewProjects": "Bekijk Onze Projecten"
+    }
+  }
+}

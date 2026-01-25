@@ -1,0 +1,1315 @@
+{
+  "navigation": {
+    "home": "Destpek",
+    "about": "Der bare me de",
+    "services": "Xizmet",
+    "projects": "Proje",
+    "careers": "Kariyer",
+    "news": "Nuce",
+    "contact": "Tekili"
+  },
+
+  "metadata": {
+    "title": "Bontera | Avahisazi & Binesazi",
+    "description": "Carinan avahisazi u binesaziya cihangi. Ji ramaneke heta qedandineki, em projeyan radest dikin ku ezmanan diyar dikin u civakan veguhezinin."
+  },
+
+  "hero": {
+    "eyebrow": "Avahisaziya Bilind Ji Sala 1999an",
+    "titleLine1": "Em",
+    "titleLine2": "Pasiroke Ava Dikin",
+    "description": "Carinan avahisazi u binesaziya cihangi. Ji ramaneke heta qedandineki, em projeyan radest dikin ku ezmanan diyar dikin u civakan veguhezinin.",
+    "ctaPrimary": "Projeyen Me Bibin",
+    "ctaSecondary": "Bi Me Re Tekili Daynin",
+    "stats": {
+      "years": "Salen Serkeftine",
+      "projects": "Proje Radest Bune",
+      "countries": "Welat"
+    }
+  },
+
+  "vision": {
+    "eyebrow": "Diteya Me",
+    "headline": "Nisenan Sibe Iro Avakirin",
+    "description": "Em ne tene avahiyan ava dikin. Em mirateyen mayinde diafirinin. Sozdariya me ya li ser nujeni, domdariye, u kaliteya bela bilind me kir ku em ji bo projeyen here mezin en cihane hevkare bijarte bin.",
+    "features": {
+      "innovation": {
+        "title": "Nujeni Yekem",
+        "description": "Teknoloji u metodolojiyeyen avahisaziye yen peserok ku standardeyen nuh en piseye danin."
+      },
+      "heritage": {
+        "title": "Li Ser Miras Hatiye Avakirin",
+        "description": "25+ salen pisporive ku ji neslekan wergirtiye ji ostayan avahisaz u endezyaran."
+      },
+      "sustainability": {
+        "title": "Paserokeya Berdewam",
+        "description": "Projeyen bi LEED-sertifika bi sozdariya avahisaziya sifir-karbon heta sala 2030an."
+      }
+    }
+  },
+
+  "services": {
+    "eyebrow": "Em Ci Dikin",
+    "headline": "Carinan Avahisaziye Temam",
+    "viewAll": "Hemu Xizmetan Bibin",
+    "items": {
+      "commercial": {
+        "title": "Avahisaziya Bazirganiye",
+        "description": "Birceyen ofise, komplekseyen firotin, u cihakan miteli ku li gora standarden here bilind hatine avakirin."
+      },
+      "infrastructure": {
+        "title": "Binesazi",
+        "description": "Reh, pir, kargehi, u kareyen gisti ye ku civakan giredidin."
+      },
+      "residential": {
+        "title": "Nistecih",
+        "description": "Xaniyen luks u peseroken nistecih bi huneremendiya awarte."
+      },
+      "industrial": {
+        "title": "Piseyi",
+        "description": "Tesisen hilberine, embar, u komplekseyen piseyi."
+      },
+      "renovation": {
+        "title": "Nuvekirin",
+        "description": "Veguhertina strukturen heyi bi nuvekirinan modern u restorasyona miras."
+      },
+      "consulting": {
+        "title": "Serwistemeni",
+        "description": "Alikariya pispor li ser gengazi, plansazi, u bireveriya projeye."
+      }
+    }
+  },
+
+  "projects": {
+    "eyebrow": "Kareyen Taybet",
+    "headline": "Projeyen ku Ezmanan Diyar Dikin",
+    "viewAll": "Hemu Projeyan Bibin",
+    "noProjects": "Di ve deme de ti proje tune ye ku were xuya kirin."
+  },
+
+  "stats": {
+    "years": "Salen Tecrubey",
+    "projects": "Proje Qediyane",
+    "satisfaction": "Razibuna Xeridan",
+    "delivered": "Nirkirin Radest Bun"
+  },
+
+  "whyUs": {
+    "eyebrow": "Cima Bontera Hilbijerin",
+    "headline": "Serkeftin Standarda Me Ye",
+    "description": "Dema ku hun bi Bontera re hevriki dikin, hun timeke hildibijerin ku her projeyeke wek ku navuda me pe ve giredi ye dihesibinin - ji ber ku wisa ye.",
+    "cta": "Der Bare Me de Ferbun",
+    "points": {
+      "quality": {
+        "title": "Kaliteya Bela",
+        "description": "Prosesen bi ISO 9001:2015 sertifika serkeftina domdar di her projeyeki de misoger dikin."
+      },
+      "timeline": {
+        "title": "Radestkirina Li Ser Deme",
+        "description": "98% ji projeyen me li ser deme an jiberi radest dibin, her car."
+      },
+      "safety": {
+        "title": "Ewlehi Yekem",
+        "description": "Qeyda ewlehiye ya pesereng bi lihevhatina OSHA u destpeskirinen bela-buhur."
+      }
+    }
+  },
+
+  "testimonial": {
+    "quote": "Bontera ji her heviyeki derbas bu. Baldariya wan a li ser huran, pesnaziyi, u sozdariya wan a ji bo diteya me encam da avahiyeke nisane ku em pe geli serbilind in.",
+    "name": "Sarah Mitchell",
+    "role": "CEO, Atlas Development Group"
+  },
+
+  "news": {
+    "eyebrow": "Nuce & Biran",
+    "headline": "Nuvekiriyen Dawi",
+    "viewAll": "Hemu Nuceyan Bibin",
+    "readMore": "Gotare Bixwinin",
+    "noNews": "Di ve deme de ti gotareyen nuceyan tune ne ku were xuya kirin."
+  },
+
+  "newsSection": {
+    "title": "Nuce & Biran",
+    "seeMore": "Gotare Bixwinin",
+    "discoverAll": "Hemu Nuceyan Bibin",
+    "empty": "Di ve deme de ti gotareyen nuceyan tune ne ku were xuya kirin."
+  },
+
+  "header": {
+    "headquarters": "Berlin, Almanya",
+    "emergency24": "24/7 Rewseke Lez",
+    "search": "Ligerr",
+    "searchPlaceholder": "Li proje, xizmet, nuceyan bigerin...",
+    "quickLinks": "Linkeyen Bilez",
+    "pressEsc": "ESC bixin an li derve bixin da bigirin",
+    "selectLanguage": "Ziman Hilbijerin",
+    "requestQuote": "Bihayeke Bixwazin",
+    "contactInfo": "Agahiya Tekiliye",
+
+    "ourServices": "Xizmeten Me",
+    "featured": "Taybet",
+    "sustainableBuilding": "Carinan Avahisaziya Berdewam",
+    "sustainableBuildingDesc": "Di avahisaziya eko-dostane de pesereng bi projeyen bi LEED-sertifika.",
+    "viewAllServices": "Hemu Xizmetan Bibin",
+
+    "projectCategories": "Kategoriyeyen Projeyan",
+    "featuredProject": "Projeya Taybet",
+    "featuredProjectTitle": "Kompleksa Bircen Marina",
+    "featuredProjectLocation": "Dubai Marina, UAE",
+    "completed": "Qediyaye",
+    "viewAllProjects": "Hemu Projeyan Bibin",
+
+    "aboutBontera": "Der Bare Bontera de",
+    "byTheNumbers": "Bi Jimare",
+    "yearsExperience": "Salen Tecrubey",
+    "projectsCompleted": "Proje Qediyane",
+    "countriesOperating": "Welaten ku Te de Kar Dikin",
+    "teamMembers": "Endam Time",
+
+    "services": {
+      "commercialConstruction": "Avahisaziya Bazirganiye",
+      "commercialConstructionDesc": "Avahiyen ofise, firotin, miteli",
+      "infrastructure": "Binesazi",
+      "infrastructureDesc": "Reh, pir, kargehi",
+      "renovation": "Nuvekirin & Restorasyon",
+      "renovationDesc": "Modernkirin u restorasyona miras",
+      "consulting": "Xizmeten Serwistemeniye",
+      "consultingDesc": "Serlehe pispor u likolinen gengazi",
+      "projectManagement": "Bireveriya Projeyan",
+      "projectManagementDesc": "Cawerniya projeye ji sereke heta dawi",
+      "sustainability": "Avahisaziya Berdewam",
+      "sustainabilityDesc": "Avahiya kesk u sertifikaya LEED"
+    },
+
+    "projects": {
+      "commercial": "Bazirganiye",
+      "residential": "Nistecih",
+      "industrial": "Piseyi",
+      "publicWorks": "Kareyen Gisti"
+    },
+
+    "company": {
+      "ourStory": "Cirokeya Me",
+      "leadership": "Timea Rehberiye",
+      "values": "Meram & Nirxan",
+      "certifications": "Sertifikayan",
+      "partners": "Hevkar & Girediyan"
+    }
+  },
+
+  "cta": {
+    "headline": "Amade ne ku Tirsek Awarte Ava Bikin?",
+    "description": "Werin diteya xwe biaxivin. Timea me amade ye ku ramanene we yen mezin veguheze rastiyen mimariye.",
+    "buttonPrimary": "Projeya Xwe Dest Pe Bikin",
+    "buttonSecondary": "Bihayeke Bixwazin",
+    "certifications": {
+      "leed": "Hevkara Sertifika",
+      "osha": "Lihevhati"
+    }
+  },
+
+  "footer": {
+    "description": "Bontera avahisazi u binesaziya premium radest dike bi plansaziya disiplini, pekvekirina rast, u qedandineke bela.",
+
+    "followUs": "Me Biseqinin",
+    "company": "Sirket",
+    "services": "Xizmet",
+    "contactUs": "Bi Me Re Tekili Daynin",
+
+    "phone": "Telefon",
+    "email": "Email",
+    "emergency": "Rewseke Lez",
+    "backToTop": "Vegere seri",
+    "allRightsReserved": "Hemu maf parastin in.",
+
+    "cta": {
+      "headline": "Amade ne ku Tirsek Awarte Ava Bikin?",
+      "description": "Ji me re bejin hun ci ava dikin. Em timeki, planeki, u pekvekirineki tinin da li ser deme u li gora standarde here bilind radest bikin.",
+      "button": "Bi Me Re Tekili Daynin",
+      "secondaryButton": "Bihayeke Bixwazin"
+    },
+
+    "offices": {
+      "headquarters": "Navenda Serekin"
+    },
+
+    "serviceLinks": {
+      "commercial": "Avahisaziya Bazirganiye",
+      "infrastructure": "Binesazi",
+      "residential": "Nistecih",
+      "industrial": "Piseyi",
+      "renovation": "Nuvekirin",
+      "consulting": "Serwistemeni"
+    },
+
+    "legal": {
+      "privacy": "Siyaseta Nihenitiyi",
+      "terms": "Sertan Xizmetkirini",
+      "cookies": "Siyaseta Cookie"
+    }
+  },
+
+  "about": {
+    "meta": {
+      "title": "Der Bare Me de | Bontera Avahisazi",
+      "description": "Der bare mirata 25+ salen serkeftine ya Bontera de di avahisaziye de, merama me, nirxan, u timea rehberiye ku nujeniyi di piseye de diajo ferbun."
+    },
+    "breadcrumb": {
+      "home": "Destpek",
+      "about": "Der Bare Me de"
+    },
+    "hero": {
+      "eyebrow": "Der Bare Bontera de",
+      "title": "Avahisaziya Bilind Ji Sala 1999an",
+      "subtitle": "Ji zede ji du dehsalan, Bontera li pesniya nujeniyi avahisaziye biye, projeyen nisane radest kiriye ku ezmanan u civakan li seranser cihane diyar dikin.",
+      "stats": {
+        "years": "Salen Serkeftine",
+        "projects": "Proje Qediyane",
+        "countries": "Welat",
+        "employees": "Endam Time"
+      }
+    },
+    "story": {
+      "eyebrow": "Cirokeya Me",
+      "title": "Mirateya Veguhertina Xewnan bo Rastiye",
+      "paragraph1": "Di sala 1999an de hate damezrandin, Bontera wek sirketek avahisaziye ya biquk bi diteyeke mezin dest pe kir: veguhertina jingehe avakiri bi nujeni, rasti, u sozdariya bela ji bo serkeftine. Timekeke avahisazeren dilsoz ci dibe rehberek avahisaziye ya cihani.",
+      "paragraph2": "Di 25 salen boriye de, me zede ji 500 projeyen nisane di 12 welatan de qedandiye, ji birceyen bazirganiye yen ikonik heta civaken nistecih en berdewam. Her proje sozdariya me ya ji bo huneremendiya kaliteye u baweriya me ku avahiyen mezin dikarin ilham bidin nisan dide.",
+      "paragraph3": "Iro, Bontera wek xuyakirinek li ser ciki gengaz dema ku pisporbun bi meyla mezin re werin cem hev dimint. Em berdewam sinoran diperzin, teknolojiyeyen nuh hildibijerin, u standardeyen nuh di pratiken avahisaziya berdewam de daynin.",
+      "founderQuote": "Em ne tene avahiyan ava dikin; em bingeheyen ji bo civaken pesereftine u neslen dewlemendiyi diafirinin.",
+      "founderName": "Birez Nedjet",
+      "founderTitle": "Damezriner & Serok",
+      "yearsExcellence": "Salen Serkeftine",
+      "since": "Damezrandin"
+    },
+    "mission": {
+      "title": "Merama Me",
+      "description": "Radestkirina carinan avahisaziye yen awarte ye ku ji heviyeyen xeridan derbas dibin, nujeniyi dijorin, u bi ereketi besedesteyen civaken ku em pe re xizmet dikin, dema ku standardeyen here bilind en ewlehi, kalite, u domdariye diparezin."
+    },
+    "vision": {
+      "title": "Diteya Me",
+      "description": "Bun rehbere cihani di avahisaziya berdewam de, ku ji bo veguhertina diteyeyen mimariye yen dilsoz bo struktureyen mayinde ye ku ilham didin, xizmet dikin, u testek deme derbasker dibin nas dibin."
+    },
+    "values": {
+      "eyebrow": "Em Ji Bo Ci Radibistinin",
+      "title": "Nirxeyen Bingeh en Me",
+      "subtitle": "Ev prensip her biryare ku em digirin u her projeyeke ku em dest pe dikin rehber dikin.",
+      "items": {
+        "excellence": {
+          "title": "Serkeftin",
+          "description": "Em di her hurik de serkeftine dijorin, ji dizayne destpeki heta radestkirina dawi, misoger dikin ku kara me wek xuyangaha kaliteye dimint."
+        },
+        "integrity": {
+          "title": "Rasti",
+          "description": "Em bi rastbun u zelalbuni kar dikin, baweriye bi xeridan, hevkaran, u civakan ava dikin."
+        },
+        "innovation": {
+          "title": "Nujeni",
+          "description": "Em teknoloji u metodolojiyeyen pesereng hildibijerin da carinan avahisaziye yen jirtir u bi bandortir radest bikin."
+        },
+        "safety": {
+          "title": "Ewlehi Yekem",
+          "description": "Saxbuna timea me u civakan here giring e. Em standardeyen ewlehiye yen dijwar li ser her projeye didominin."
+        },
+        "sustainability": {
+          "title": "Domdariye",
+          "description": "Em sozdar in pratiken berpirsiyariyi jingehe ku taybetmendiya me kembike u bandora ereketi zede bike bi cih binin."
+        },
+        "partnership": {
+          "title": "Hevkari",
+          "description": "Em bi peywendiyen hevkari bawer dikin, bi xeridan u aliyen eleqedar re bi nezi kar dikin da serkeftina havbeh bigihijin."
+        }
+      }
+    },
+    "timeline": {
+      "eyebrow": "Regeza Me",
+      "title": "Qonagiyen ku Me Diyar Dikin",
+      "milestones": {
+        "founding": {
+          "title": "Destpek",
+          "description": "Bontera bi diteyeke ji bo veguhertina piseya avahisaziye bi nujeni u sozdariya bela ji bo kaliteye hate damezrandin."
+        },
+        "expansion": {
+          "title": "Berfireh buna Heremi",
+          "description": "Karguzeriye li seranser Rojhilata Navin berfireh bun, hevkariyen serekin ava bun u projeya me ya yekem a bazirganiye ya mezin qediyan."
+        },
+        "international": {
+          "title": "Bun Cihani",
+          "description": "Ketina bazareyen Ewrupa u Asyaye, destpeka hebuna me ya navnetewi bi ofisenki di 5 welaten nuh de nisan da."
+        },
+        "sustainability": {
+          "title": "Rehberiya Domdariye",
+          "description": "Destpeskirina me ya domdariyi ya berfireh hate danin, sertifikaya LEED hate stendin u sozdariya karguzariyeyen karbon-betal heta sala 2030an hate dayyin."
+        },
+        "digital": {
+          "title": "Veguhertina Dijital",
+          "description": "Teknolojiya BIM ya pesreftir u bireveriya projeyan bi AI-ajotin hate bicih kirin, prosesene me yen avahisaziye veguhestin."
+        },
+        "future": {
+          "title": "Avahikirina Sibe",
+          "description": "Berdewamkirina nujeniya bi teknolojiyeyen avahiya jir u berfirehkirina portfolioya me ya avahisaziya berdewam li seranser cihane."
+        }
+      }
+    },
+    "leadership": {
+      "eyebrow": "Timea Rehberiye",
+      "title": "Rehbereyen Me Nas Bikin",
+      "subtitle": "Pisporeen bi tecrube ku diteya Bontera ya serkeftine di avahisaziye de dijonin.",
+      "viewAll": "Hemuk Time Bibin",
+      "members": {
+        "ceo": {
+          "name": "Bireza Nedjet",
+          "title": "Seroke Karguzari"
+        },
+        "coo": {
+          "name": "Sarah Mitchell",
+          "title": "Seroke Karguzariye"
+        },
+        "cto": {
+          "name": "Dr. Michael Chen",
+          "title": "Seroke Teknolojiye"
+        },
+        "cfo": {
+          "name": "Elena Rodriguez",
+          "title": "Seroke Daravi"
+        }
+      }
+    },
+    "certifications": {
+      "eyebrow": "Kalite & Standardan",
+      "title": "Sertifikayan & Akkreditasyonan",
+      "description": "Sozdariya me ya ji bo serkeftine bi sertifikayeyen navnetewi naskirine u akkreditasyoneyen pisey ku standarden here bilind di kalite, ewlehi, u berpirsiyariya jingehe de misoger dikin, pejirand dibe.",
+      "viewAll": "Hemu Sertifikayan Bibin"
+    },
+    "global": {
+      "eyebrow": "Taybetmendiya Cihani",
+      "title": "Avahikirin Li Seranser Sinoran",
+      "description": "Ji ezmanen bilind en Dubai heta kolanene dirokiye yen Ewrupa, pisporiya Bontera qareyan derbas dike. Hebuna me ya cihani dem dide me ku selihiyeten avahisaziye yen cihan-class li her projeyan binin.",
+      "stats": {
+        "countries": "Welat",
+        "offices": "Ofisen Heremi",
+        "continents": "Qare",
+        "clients": "Xeriden Navnetewi"
+      }
+    },
+    "cta": {
+      "title": "Amade ne ku Tirsek Awarte Ava Bikin?",
+      "description": "Gelo hun pesereftinek bazirganiye, projeyek binesaziye, an avahiyeke berdewam plan dikin, timea me amade ye ku diteya we bo jiyane bine.",
+      "contactUs": "Bi Me Re Tekili Daynin",
+      "joinTeam": "Bibe Endam Timea Me"
+    }
+  },
+
+  "servicesPage": {
+    "meta": {
+      "title": "Xizmeten Me | Bontera Avahisazi",
+      "description": "Xizmeten avahisaziya temam ya Bontera bibinin tev avahisaziya bazirganiye, nistecih, binesazi, piseyi, nuvekirin, u carinan serwistemeniye."
+    },
+    "breadcrumb": {
+      "home": "Destpek",
+      "services": "Xizmet"
+    },
+    "hero": {
+      "eyebrow": "Em Ci Dikin",
+      "title": "Carinan Avahisaziye Temam",
+      "subtitle": "Ji ramane heta qedandine, em xizmeten avahisaziye ji sere heta dawi radest dikin ku li gora diteya u pewisteyen we yene awarte kirin.",
+      "cta": "Bihayeke Bixwazin"
+    },
+    "overview": {
+      "eyebrow": "Pisporiya Me",
+      "title": "Avahikirina Serkeftine Li Seranser Her Sektore",
+      "description": "Bi zede ji 25 salen tecrubey, Bontera pisporiya kur di sektoreyen avahisaziye yen ciyas de pesxistiye. Nerda me ya yekbui dizayne nujeni, endezyariya rast, u pratiken berdewam dike yek da projeyen ku heviyane derbas dikin radest bikin.",
+      "points": {
+        "expertise": {
+          "title": "Pisporiya Piseyi ya Kur",
+          "description": "Zanina taybeti li seranser sektoreyen bazirganiye, nistecih, u binesaziye."
+        },
+        "quality": {
+          "title": "Kaliteya Bela",
+          "description": "Kontrola kaliteye ya dijwar di her qonaga avahisaziye de."
+        },
+        "innovation": {
+          "title": "Carinan Nujeni",
+          "description": "Teknolojiya pesereng u metodet avahisaziye yen nujen."
+        },
+        "safety": {
+          "title": "Serkeftina Ewlehiye",
+          "description": "Standardet u protokolen ewlehiye yen pesereng di piseye de."
+        }
+      },
+      "stats": {
+        "projects": "Proje Qediyane",
+        "years": "Salen Tecrubey",
+        "satisfaction": "Razibuna Xeridan",
+        "awards": "Xelaten Piseyi"
+      }
+    },
+    "mainServices": {
+      "eyebrow": "Xizmeten Me",
+      "title": "Em Ci Peskesin",
+      "subtitle": "Xizmeten avahisaziye yen temam ku ji bo diteya we bo jiyane binin hatine diyarin.",
+      "learnMore": "Zede Ferbun",
+      "items": {
+        "commercial": {
+          "title": "Avahisaziya Bazirganiye",
+          "description": "Ji birceyen ofise yen ikonik heta cihaken firotin en dinamik, em jingehen bazirganiye diafirinin ku hilberdariye ilham didin, serkeftina kare dijonin, u wek nisaneyen di dorbereke bajaran de diminin.",
+          "features": {
+            "officeBuildings": "Avahiyen Ofise",
+            "retailCenters": "Navendeen Firotin",
+            "mixedUse": "Peseroken Bi Karanina Tev",
+            "hospitality": "Miteli"
+          }
+        },
+        "infrastructure": {
+          "title": "Pesereftina Binesaziye",
+          "description": "Avahikirina bingeheyen civakeke nujen bi pir, otostradan, kargehi, u toreyen veguhastine ku civakan giredidin u pesereftine pekve dixin.",
+          "features": {
+            "bridges": "Pir & Tunel",
+            "highways": "Otostradan & Reh",
+            "utilities": "Toreyen Kargehi",
+            "airports": "Balafirgeh & Bender"
+          }
+        },
+        "residential": {
+          "title": "Avahisaziya Nistecih",
+          "description": "Afirandina mal u civakeyen ku malbat te de pesereft dibin, ji xaniyen luks heta peserokene nistecih en berdewam ku jiyane nujen diyar dikin.",
+          "features": {
+            "luxuryHomes": "Xaniyen Luks",
+            "apartments": "Kompleksen Apartemaniye",
+            "communities": "Civaken Serekin",
+            "villas": "Villa & Malane Mezin"
+          }
+        },
+        "industrial": {
+          "title": "Avahisaziya Piseyi",
+          "description": "Dizaynkirin u avahikirina tesisen piseyi ku karguzariyan optimize dikin, bandoriye zede dikin, u pewisteyen dijwar en hilberina nujen pir dikin.",
+          "features": {
+            "factories": "Tesisen Hilberine",
+            "warehouses": "Embar",
+            "logistics": "Navendeen Logistiki",
+            "manufacturing": "Tesisen Pekvekirine"
+          }
+        },
+        "renovation": {
+          "title": "Nuvekirin & Restorasyon",
+          "description": "Dayina jiyane nuh bo struktureyen heyi bi nuvekirinek bihezman, parastina diroki, u biker-veguhertine ku boriye di bin rumetde digire dema ku pasiroke hildibijere.",
+          "features": {
+            "historic": "Parastina Diroki",
+            "modernization": "Modernkirin",
+            "retrofitting": "Retrofitting",
+            "restoration": "Restorasyona Temam"
+          }
+        },
+        "consulting": {
+          "title": "Xizmeten Serwistemeniye",
+          "description": "Alikariya pispor di her qonaga projeya we de, ji likolinen gengazi u tahminkirina liraje heta nirxandina metirsiye u lihevhatina biryarname.",
+          "features": {
+            "feasibility": "Likolinen Gengazi",
+            "costEstimation": "Tahminkirina Liraje",
+            "riskAssessment": "Nirxandina Metirsiye",
+            "compliance": "Lihevhatina Biryarname"
+          }
+        }
+      }
+    },
+    "process": {
+      "eyebrow": "Em Cawa Kar Dikin",
+      "title": "Prosesa Me ya Selih",
+      "subtitle": "Nerineke sistemati ku kalite, bandori, u zelalbuniye di her qonage de misoger dike.",
+      "steps": {
+        "discovery": {
+          "title": "Vedibinin & Plansazi",
+          "description": "Em bi fahimkirina diteya we, pewisteyan, u sinoran dest pe dikin da planeke projeyeke temam pesxin.",
+          "point1": "Analiza pewisteyan",
+          "point2": "Nirxandina cihi",
+          "point3": "Plansaziya bihayi"
+        },
+        "planning": {
+          "title": "Dizayn & Endezyari",
+          "description": "Timeyen me yen pispor dizayn u planeyen endezyariye yen berbereki diafirinin ku diteya we bo jiyane tinin.",
+          "point1": "Dizayna mimari",
+          "point2": "Endezyariya strukturi",
+          "point3": "Koordinasyona MEP"
+        },
+        "execution": {
+          "title": "Avahisazi & Pekvekirine",
+          "description": "Hosteyen jir u teknolojiya pesreftir digihijin yek da kaliteyeke avahisaziye ya awarte radest bikin.",
+          "point1": "Avahisaziya kaliteye",
+          "point2": "Lihevhatina ewlehiye",
+          "point3": "Sewqandina pesereftine"
+        },
+        "delivery": {
+          "title": "Radestkirine & Pilani",
+          "description": "Testkirina berbereki, radestkirine, u pilania berdewam razibuna we ya temam misoger dike.",
+          "point1": "Misogerkirina kaliteye",
+          "point2": "Rahenandin xeridan",
+          "point3": "Pilania garantiye"
+        }
+      }
+    },
+    "industries": {
+      "eyebrow": "Piseyen ku Em pe Xizmet Dikin",
+      "title": "Pispori Li Seranser Sektoran",
+      "description": "Portfolioya me ya ciyas sektoreyen pir derbas dike, ku her yek pewisteyen taybet heye ku zanina taybeti u carinan li gora daxwazan pesdixin.",
+      "items": {
+        "healthcare": "Tenderusti",
+        "education": "Perwerdehi",
+        "hospitality": "Miteli",
+        "retail": "Firotin",
+        "government": "Hukumet",
+        "energy": "Enerji"
+      },
+      "sectorsServed": "Sektoreyen Piseyi"
+    },
+    "technology": {
+      "eyebrow": "Nujeni & Teknoloji",
+      "title": "Avahikirin bi Teknolojiya Sibe",
+      "description": "Em teknolojiya pesereng biker dikin da bandoriye zede bikin, kalite pesxin, u encameyen bashtir ji bo xeridaneyen me radest bikin.",
+      "items": {
+        "bim": {
+          "title": "Teknolojiya BIM",
+          "description": "Modela Agahiya Avahiye ji bo plansazi, koordinasyon, u xuyakirineke rast di seranser jiyana projeye de."
+        },
+        "drones": {
+          "title": "Pirmasiya bi Drone",
+          "description": "Pirmasiya hewai u sewqandin ji bo nirxandina cihan rast u sewqandina pesereftine di deme rast de."
+        },
+        "prefab": {
+          "title": "Prefabrikasyon",
+          "description": "Hilberina parceyen avahiye li derve cihe ji bo avahisaziyeke bilez, bi bandortir, u bi kaliteya bilindtir."
+        },
+        "iot": {
+          "title": "IoT & Avahiyen Jir",
+          "description": "Sistemet gireday u senzor ji bo bireveriya avahiye ya jir u bandoriya karguzariye."
+        }
+      }
+    },
+    "cta": {
+      "title": "Amade ne ku Projeya Xwe Dest Pe Bikin?",
+      "description": "Werin biaxivin cawa Bontera dikare diteya we bo jiyane bine bi carinan avahisaziye yen me yen temam.",
+      "getQuote": "Bihayeke Bibin",
+      "contactUs": "Bi Me Re Tekili Daynin"
+    }
+  },
+
+  "projectsPage": {
+    "meta": {
+      "title": "Projeyen Me | Bontera Avahisazi",
+      "description": "Portfolioya projeyen avahisaziye yen nisane ya Bontera bibinin ku sektoreyen bazirganiye, nistecih, binesazi, u piseyi li 12 welatan derbas dike."
+    },
+    "breadcrumb": {
+      "home": "Destpek",
+      "projects": "Proje"
+    },
+    "hero": {
+      "eyebrow": "Portfolioya Me",
+      "title": "Projeyen Nisane ku Ezmanan Diyar Dikin",
+      "subtitle": "Portfolioya me ya ciyas a projeyen qediyayi u berdewam bibinin ku sozdariya me ya ji bo serkeftin, nujeni, u avahisaziya berdewam nisan dide.",
+      "stats": {
+        "projectsCompleted": "Proje Qediyane",
+        "totalValue": "Nirkirina Projeyan Temam",
+        "countries": "Welat",
+        "onTimeDelivery": "Radestkirina Li Ser Deme"
+      }
+    },
+    "featured": {
+      "eyebrow": "Kareyen Taybet",
+      "title": "Projeyen Imza",
+      "description": "Projeyen me yen here bandodar ku selihiyet u sozdariya me ya ji bo serkeftine di avahisaziye de nisan didin.",
+      "badge": "Taybet",
+      "viewProject": "Proje Bibin"
+    },
+    "allProjects": {
+      "eyebrow": "Portfolioya Temam",
+      "title": "Hemu Proje",
+      "showing": "{count} proje teni xuya kirin",
+      "inCategory": "di"
+    },
+    "categories": {
+      "all": "Hemu Proje",
+      "commercial": "Bazirganiye",
+      "residential": "Nistecih",
+      "infrastructure": "Binesazi",
+      "industrial": "Piseyi",
+      "renovation": "Nuvekirin",
+      "publicWorks": "Kareyen Gisti"
+    },
+    "status": {
+      "completed": "Qediyaye",
+      "ongoing": "Berdewam",
+      "upcoming": "Te"
+    },
+    "projectCard": {
+      "value": "Nirk",
+      "client": "Xerid",
+      "viewDetails": "Huran Bibin"
+    },
+    "noProjects": {
+      "title": "Ti Proje Nehat Ditin",
+      "description": "Me nekaribu ti projeyeyen ku li gora piveranene we bin bibinin.",
+      "viewAll": "Hemu Projeyan Bibin"
+    },
+    "breakdown": {
+      "eyebrow": "Bi Kategoriye",
+      "title": "Proje Li Seranser Her Sektore",
+      "exploreCategory": "Kategoriye Bibinin",
+      "categories": {
+        "commercial": {
+          "title": "Bazirganiye",
+          "description": "Birceyen ofise, navendeen firotin, otelen, u peserokene bi karanina tev ku serkeftina kare dijonin."
+        },
+        "residential": {
+          "title": "Nistecih",
+          "description": "Xaniyen luks, kompleksen apartemaniye, u civaken plan-serekin ku malbat te de pesereft dibin."
+        },
+        "infrastructure": {
+          "title": "Binesazi",
+          "description": "Pir, otostradan, balafirgehan, u kargehi ku civakan giredidin u enerjiye didin."
+        },
+        "industrial": {
+          "title": "Piseyi",
+          "description": "Tesisen hilberine, embar, u navendeen logistiki ku ji bo bandoriye hatine optimize kirin."
+        },
+        "renovation": {
+          "title": "Nuvekirin",
+          "description": "Projeyen parastina diroki u modernkirine ku boriye di bin rumetde digire dema ku pasiroke hildibijere."
+        },
+        "publicWorks": {
+          "title": "Kareyen Gisti",
+          "description": "Avahiyen hukumet, navendeen siviki, u tesisen gisti ku civakan xizmet dikin."
+        }
+      }
+    },
+    "cta": {
+      "eyebrow": "Projeya Xwe Dest Pe Bikin",
+      "title": "Amade ne ku Diteya Xwe Ava Bikin?",
+      "description": "Gelo hun pesereftinek bazirganiye, civakek nistecih, an projeyek binesaziye plan dikin, timea me amade ye ku diteya we bo jiyane bine.",
+      "startProject": "Projeya Xwe Dest Pe Bikin",
+      "contactUs": "Bi Me Re Tekili Daynin"
+    }
+  },
+
+  "contactPage": {
+    "meta": {
+      "title": "Bi Me Re Tekili Daynin | Bontera Avahisazi",
+      "description": "Bi Bontera Avahisazi re tekili daynin. Seredana ofisenene me li Dubai, Riyadh, Qahire, u London bikin, an peyameke ji me re bisepin da projeya xwe ya avahisaziye biaxivin."
+    },
+    "breadcrumb": {
+      "home": "Destpek",
+      "contact": "Tekili"
+    },
+    "hero": {
+      "eyebrow": "Bi Me Re Tekili Daynin",
+      "title": "Werin Tirsek Mezin Bi Hevra Ava Bikin",
+      "subtitle": "Projeyek di hizra we de heye? Timea me amade ye ku alkariya we bike da diteya we bo jiyane bine. Bi riya her yek ji kanalene me yen li jeri bi me re tekili daynin."
+    },
+    "methods": {
+      "phone": { "label": "Ji Me Re Bizen", "description": "Dusem-Ini ji 8e sibeh heta 6e evari" },
+      "email": { "label": "Ji Me Re Email Bikin", "description": "Em di 24 seetadi de bersiv didin" },
+      "whatsapp": { "label": "WhatsApp", "description": "Pilania suhbet bilez" },
+      "emergency": { "label": "24/7 Rewseke Lez", "description": "Ji bo kareyen lez" }
+    },
+    "form": {
+      "eyebrow": "Peyameke Bisepin",
+      "title": "Em Cawa Dikarin Alikariya We Bikin?",
+      "description": "Forma li jeri dagirin u timea me di 24 seetadi de bersive we dide.",
+      "fields": {
+        "name": { "label": "Nave Temam", "placeholder": "John Smith" },
+        "email": { "label": "Navnisana Email", "placeholder": "john@company.com" },
+        "phone": { "label": "Nimreya Telefone", "placeholder": "+49 30 123 456 7890" },
+        "company": { "label": "Nave Sirkete", "placeholder": "Sirketa We" },
+        "subject": { "label": "Mijar", "placeholder": "Em cawa dikarin alikariye bikin?" },
+        "projectType": {
+          "label": "Curne Projeye",
+          "placeholder": "Curneyek projeye hilbijerin",
+          "options": {
+            "commercial": "Avahisaziya Bazirganiye",
+            "residential": "Avahisaziya Nistecih",
+            "infrastructure": "Binesazi",
+            "industrial": "Piseyi",
+            "renovation": "Nuvekirin & Restorasyon",
+            "consulting": "Xizmeten Serwistemeniye",
+            "other": "Yen Din"
+          }
+        },
+        "budget": {
+          "label": "Bihaya Tahminyi",
+          "placeholder": "Piveya biha hilbijerin",
+          "options": {
+            "under1m": "Bin $1 Milyon",
+            "1mTo5m": "$1 - $5 Milyon",
+            "5mTo10m": "$5 - $10 Milyon",
+            "10mTo50m": "$10 - $50 Milyon",
+            "over50m": "Zede ji $50 Milyon",
+            "notSure": "Hina Nediyar"
+          }
+        },
+        "message": {
+          "label": "Peyama We",
+          "placeholder": "Der bare projeya xwe, pewisteyan, demname, u her hurayen din ku dikarin alkariye bikin da pewisteyen we fahim bikin ji me re bejin..."
+        }
+      },
+      "errors": {
+        "nameRequired": "Ji kerema xwe nave xwe binivisin",
+        "emailRequired": "Ji kerema xwe navnisana email xwe binivisin",
+        "emailInvalid": "Ji kerema xwe navnisaneke email drust binivisin",
+        "messageRequired": "Ji kerema xwe peyama xwe binivisin",
+        "messageTooShort": "Peyama we divit bi kembasi 20 tip be"
+      },
+      "privacy": { "text": "Bi seperandina ve forme, hun bi", "link": "Siyaseta Nihenitiyi" },
+      "submit": "Peyame Bisepin",
+      "submitting": "Te sepedrme...",
+      "success": {
+        "title": "Peyam bi Serkefti Hat Sepedrme!",
+        "message": "Spas ji bo tekilidayina me. Timea me peyama we dixwine u di 24 seetadi de bersive we dide."
+      },
+      "error": {
+        "title": "Tirsek Xelet Derket",
+        "message": "Me nekaribu peyama we bisepin. Ji kerema xwe disa biceribewin an bi riya telefon an email rasterast bi me re tekili daynin."
+      }
+    },
+    "departments": {
+      "title": "Bi Besha re Tekili Daynin",
+      "items": {
+        "general": "Pirsen Gisti",
+        "sales": "Firotin & Pesereftina Kar",
+        "projects": "Bireveriya Projeyan",
+        "careers": "Kariyer & HR",
+        "media": "Medya & Capa",
+        "support": "Pilania Tekniki"
+      }
+    },
+    "responseTime": {
+      "title": "Bersiva Bilez Garantiye",
+      "description": "Timea me bi girant di 24 seetadi de di rojen kare de bersiv dide. Ji bo kareyen lez, ji kerema xwe xeta me ya rewseke lez biker bikin."
+    },
+    "social": { "title": "Me Biseqinin" },
+    "offices": {
+      "eyebrow": "Cihneyen Me",
+      "title": "Seredana Ofisenene Me Bikin",
+      "description": "Bi ofiseneme li seranser Rojhilata Navin u Ewrupa, em tim li nezi projeya we ne.",
+      "headquarters": "Navenda Serekin",
+      "viewOnMap": "Li Nexseyi Bibin"
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Pirseyen ku Pircar Diken",
+      "description": "Bersiveyen bilez li pirseyen hevpar der bare karkirina bi Bontera re bibinin.",
+      "viewAll": "Hemu FAQ Bibin",
+      "items": {
+        "timeline": {
+          "question": "Projeyek avahisaziye bi giranke cend dem digire?",
+          "answer": "Demnameyen projeyan li gora dorme u pirgirviye diguherrin. Nuvekirinek bazirganiye ya biquk dikare 3-6 mehan bigire, dema ku pesereftinek mezin dikare 2-3 salan bidominin. Di serleheya me ya destpeki de, em demnameyeke berbereki ku taybeti projeya we ye peskesin."
+        },
+        "budget": {
+          "question": "Hun cawa bihayen projeyan u tahminkirina liraje birevin dikin?",
+          "answer": "Em di qonaga plansaziye de tahminkirinene liraje yen zelal, berbereki peskesin. Timea me nermalava tahminkirine ya pesreftir u daneyeyen diroki biker dike da rastbune misoger bike. Em jibo vebijarkene endezyariya nirke jibo optimizekirina liraje bela hevgirtina kaliteye peskesin."
+        },
+        "process": {
+          "question": "Prosesa bireveriya projeyen we ci ye?",
+          "answer": "Prosesa me ya 4-qonag ya selih Vedibinin & Plansazi, Dizayn & Endezyari, Avahisazi & Pekvekirine, u Radestkirine & Pilani digire. Her qonageki qonagiyen zelal heye, u bireverek projeyek we wek xala tekilidayina yek were ji sere heta dawi."
+        },
+        "warranty": {
+          "question": "Hun ci garantiyan li projeyen qediyayi peskesin?",
+          "answer": "Em li seranser hemu kara me garantiyen temam peskesin. Henceyen strukturi 10 sal, sistemeyen mekaniki u elektrik 5 sal, u huneremendiya gisti 2 sal teni dagirin. Vebijareyen garantiye ya direjkiri jibo heye."
+        }
+      }
+    },
+    "map": {
+      "placeholder": "Nexseya interaktiv li vir were xuya kirin",
+      "visitUs": "Seredana Navenda Me ya Serekin Bikin",
+      "getDirections": "Rehneran Bibin"
+    }
+  },
+
+  "careersPage": {
+    "meta": {
+      "title": "Kariyer | Bibe Endam Bontera Avahisazi",
+      "description": "Kariyera xwe bi Bontera re ava bikin. Derfeyen heyecan di avahisazi, endezyari, bireveriya projeyan, u zede li seranser ofisene me yen cihani bibinin."
+    },
+    "breadcrumb": {
+      "home": "Destpek",
+      "careers": "Kariyer"
+    },
+    "hero": {
+      "eyebrow": "Bibe Endam Timea Me",
+      "title": "Pasiroke Xwe Bi Me Re Ava Bikin",
+      "subtitle": "Bibe endam timekeke pisporene dilsoz ku ezmanan diyar dikin u civakan li seranser cihane ava dikin. Derfeya we ya mezin te hat intizar dike.",
+      "viewJobs": "Pozisyonene Vekiriye Bibin",
+      "ourCulture": "Kultura Me",
+      "stats": {
+        "employees": "Endam Time",
+        "countries": "Welat",
+        "openPositions": "Pozisyonene Vekiriye",
+        "glassdoorRating": "Nivra Glassdoor"
+      }
+    },
+    "whyJoin": {
+      "eyebrow": "Cima Bontera",
+      "title": "Cima Kariyera Xwe Li Vir Ava Bikin?",
+      "description": "Li Bontera, em bawer dikin ku mirovene me sermaniya me ya here mezin in. Em sozdar in ku jingeyeke ku zebuhati te de pesereft dibe, nujeni te de gesedibe, u her endamek time dikare potansiyeleke xwe ya temam bigihit biafirinin.",
+      "yearsGrowing": "Salen Pesxistina Bi Hevra",
+      "points": {
+        "impact": {
+          "title": "Bandoreke Rast Bikin",
+          "description": "Li ser projeyen nisane ku civakan diyar dikin u mirateke mayinde dihelin kar bikin."
+        },
+        "growth": {
+          "title": "Pesxistina Berdewam",
+          "description": "Gihistina rahenandin, bernameyeyen mentoriye, u rehene kariyereyen zelal."
+        },
+        "team": {
+          "title": "Timea Hevkar",
+          "description": "Bibe endam timekeke ciyas, pilani ku serkeftinan bi hevra pirozbahi dike."
+        },
+        "innovation": {
+          "title": "Nujeni Yekem",
+          "description": "Bi teknolojiya pesereng u metodet avahisaziye yen peserok kar bikin."
+        }
+      }
+    },
+    "featured": {
+      "eyebrow": "Derfeyen Germ",
+      "title": "Pozisyonene Taybet",
+      "viewAll": "Hemu Pozisyonan Bibin",
+      "badge": "Taybet",
+      "applyNow": "Nuke Sepin"
+    },
+    "departments": {
+      "engineering": "Endezyari",
+      "projectManagement": "Bireveriya Projeyan",
+      "architecture": "Mimari & Dizayn",
+      "operations": "Karguzariyen",
+      "finance": "Daravi",
+      "hr": "Careseriya Mirovi"
+    },
+    "locations": {
+      "dubai": "Dubai, UAE",
+      "riyadh": "Riyadh, KSA",
+      "cairo": "Qahire, Misir",
+      "london": "London, UK"
+    },
+    "jobTypes": {
+      "fullTime": "Dem-Temam",
+      "partTime": "Dem-Pareki",
+      "contract": "Peymanname",
+      "internship": "Stajyeri"
+    },
+    "benefits": {
+      "eyebrow": "Feyde & Xelatan",
+      "title": "Em Li Timea Xwe Meraq Dikin",
+      "subtitle": "Paketa feydeyan temam ku saxlemani, dewlemendi, u hevsengiya kar-jiyan pilani dike.",
+      "items": {
+        "health": {
+          "title": "Saxlemani & Bexteri",
+          "description": "Dagirtina pizski, diranan, u diten temam ji bo we u malbata we, herwiha bernameyeyen bexteriyi u endametiya jimnastikan."
+        },
+        "retirement": {
+          "title": "Planeyen Teqawtbune",
+          "description": "Planeyen pasinena teqawtbune yen peskesker bi lihevhatina sirkete da pasirokeke we ya daravi ewle bike."
+        },
+        "learning": {
+          "title": "Ferbunn & Pesereftine",
+          "description": "Derfeyen ferbunn yen berdewam tev sertifikayan, konferansan, u bernameyeyen vegerandina xerciye rahenandin."
+        },
+        "vacation": {
+          "title": "Dema Betlane ya Comerd",
+          "description": "Siyaseta PTO ya lekev, rojene betlane yen bi muzde, u derfeyen sabbatical da venuvinim u vekolim bikin."
+        },
+        "flexibility": {
+          "title": "Lekeviya Kar",
+          "description": "Aranjmaneyene kar en lekev u vebijareyen karkirina ji dure da alkariya we bikin ku hevsengiya kar-jiyan bidominin."
+        },
+        "growth": {
+          "title": "Pesereftina Kariyere",
+          "description": "Rehene kariyereyen zelal, bernameyeyen mentoriye, u derfeyen pesereftine li seranser karguzariyene me yen cihani."
+        }
+      }
+    },
+    "culture": {
+      "eyebrow": "Kultura Me",
+      "title": "Jiyan li Bontera",
+      "description": "Em kultureke serkeftin, hevkari, u pesxistina berdewam didominin ku her deng giring e.",
+      "values": {
+        "innovation": {
+          "title": "Nujeni",
+          "description": "Em ramanene nuh u teknolojiya pesereng hildibijerin da carinan bashtir radest bikin."
+        },
+        "teamwork": {
+          "title": "Kara Time",
+          "description": "Hevkari li navina her tirseke ku em dikin e, nerinene ciyas pirozbahi dike."
+        },
+        "excellence": {
+          "title": "Serkeftin",
+          "description": "Em xwe li gora standardeyen here bilind di her projeyeke ku em dest pe dikin de digirin."
+        },
+        "safety": {
+          "title": "Ewlehi Yekem",
+          "description": "Saxbuna timea me u civakan herdem prioriteya me ya here mezin e."
+        }
+      }
+    },
+    "testimonials": {
+      "eyebrow": "Cirokene Karmendan",
+      "title": "Ji Timea Me Bibihizin",
+      "quotes": {
+        "engineer": "Bune endam Bontera biryara kariyere here baş bu ku min da. Proje dijwar in, time pilani ye, u tim cihe pesxistine heye. Min li vir derfeyen ku min ti car neditin hebun.",
+        "manager": "Tirsa ku ez here ji Bontera hez dikim kultura hevkariye ye. Her kes ji rehberiya mezin heta endam nuh li hember armanjen havbeh kar dikin. Bi rasti wek malbateke his dike.",
+        "architect": "Dome u pirgirviya projeyan li Bontera tu lihevhatiye tune ye. Min karibu li ser avahiyen nisane ku ji bo neslan diminin kar bikim. Zor xwes e ku diteya xwe ezmanen bajaran diyar dike bibinin."
+      }
+    },
+    "openings": {
+      "eyebrow": "Pozisyonene Vekiriye",
+      "title": "Rola Xwe ya Tekhur Bibinin",
+      "showing": "{count} pozisyon teni xuya kirin",
+      "apply": "Sepin"
+    },
+    "filters": {
+      "allDepartments": "Hemu Besan",
+      "allLocations": "Hemu Cihneyan"
+    },
+    "noJobs": {
+      "title": "Ti Pozisyon Nehat Ditin",
+      "description": "Me nekaribu ti pozisyoneyek ku li gora piveranene we bin bibinin. Filtereyen xwe bigjerin an zudi ji bo naveroka nuh vegerrin.",
+      "clearFilters": "Filtereyan Paqij Bikin"
+    },
+    "cta": {
+      "title": "Rola Rast Nabinin?",
+      "description": "Em tim li donalene bi zebuhati digerin ku bibe endam timea me. Resumeya xwe ji me re bisepin u em we ji bo derfeyen pasiroke bi bir dikin.",
+      "browseJobs": "Hemu Karan Bigevin",
+      "sendResume": "Resumeya Xwe Bisepin"
+    }
+  },
+
+  "newsPage": {
+    "meta": {
+      "title": "Nuce & Biran | Bontera Avahisazi",
+      "description": "Bi nuceyen dawi, ragihandinene projeyan, biraneyen piseyi, u nuvekirinan sirkete ya Bontera ji seranser karguzariyene me yen cihani biminin nuhati."
+    },
+    "breadcrumb": {
+      "home": "Destpek",
+      "news": "Nuce"
+    },
+    "hero": {
+      "eyebrow": "Nuce & Biran",
+      "title": "Cirokene ku Sibe Ava Dikin",
+      "subtitle": "Bi nuvekirinan dawi ji Bontera biminin agahdar, tev qonagiyen projeyan, trendene piseyi, u ragihandinene sirkete."
+    },
+    "featured": {
+      "eyebrow": "Cirokene Taybet",
+      "title": "Sername Dawi",
+      "description": "Nuvekirin u ragihandinene here giring ji seranser karguzariyene me yen cihani."
+    },
+    "allNews": {
+      "eyebrow": "Hemu Gotare",
+      "title": "Hemu Nuceyan Bigevin",
+      "showing": "{count} gotare teni xuya kirin",
+      "inCategory": "di"
+    },
+    "categories": {
+      "all": "Hemu Nuce",
+      "companyNews": "Nuceyen Sirkete",
+      "projects": "Proje",
+      "industry": "Piseyi",
+      "sustainability": "Domdariye",
+      "awards": "Xelatan",
+      "events": "Buyer"
+    },
+    "readMore": "Zede Bixwinin",
+    "minRead": "{minutes} deq xwendin",
+    "articles": {
+      "news-001": {
+        "title": "Bontera $2.5 Milyar Peymannameya Binesaziya NEOM Qezenc Kir",
+        "excerpt": "Di serkeftineke nisane de, Bontera wek peymankere serekin ji bo pesereftineke binesaziye ya mezin di nav mega-projeya NEOM de hat hilbijartin, peymana me ya here mezin heta nuke nisan dide."
+      },
+      "news-002": {
+        "title": "10 Trendene Avahisaziya Berdewam ku Sala 2024e Diyar Dikin",
+        "excerpt": "Ji materyaleyen karbon-betal heta bireveriya avahiye bi AI-ajotin, nujeniyeyen ku veguhezinin cawa em ji bo paserokeye berdewamtir ava dikin bibinin."
+      },
+      "news-003": {
+        "title": "Birceka Marina Sertifikaya LEED Platinum Stendin",
+        "excerpt": "Pesereftina me ya bi karanina tev ya flagship nivra domdariye ya here bilind stendin, sozdariya Bontera ya ji bo avahisaziya berpirsiyar a jingehe nisan dide."
+      },
+      "news-004": {
+        "title": "Bontera Xelata Serkeftina Avahisaziye ya 2024e Werdigire",
+        "excerpt": "Xelata piseyi ya girank nerda me ya nujeni ji bo radestkirina projeyan u sozdariya kaliteye li seranser portfolioya me nas dike."
+      },
+      "news-005": {
+        "title": "Navenda Heremi ya Nuh li Riyadh Vebe",
+        "excerpt": "Berfirehkirina hebuna me li Erebistana Suudi, ofisa nuh wek navend ji bo karguzariyene me yen pesereft di projeyen Diteh 2030e ya Padisahiye de xizmet dike."
+      },
+      "news-006": {
+        "title": "Encameyen Serekin ji Konferansa Binesaziye ya Cihani ya 2024e",
+        "excerpt": "Timea me biranan ji buye ya pesereng a piseye parbehs dike, ku teknolojiyeyen pesereng, trendene vermayise, u derfeyen hevkari digire."
+      },
+      "news-007": {
+        "title": "Yekkirina Teknolojiya Avahiya Jir: Rehberek Pratik",
+        "excerpt": "Ferbin cawa em senzoret IoT, sistemeyen otomatik, u bireveriya bi AI-ajotin di projeyen avahisaziya nujen de biker dikin."
+      },
+      "news-008": {
+        "title": "Merasima Destpekkirine ji bo Kompleksa Tenderustiye ya $400M",
+        "excerpt": "Avahisazi fermii li ser tesisa pizski ya pesereng dest pe dike ku ze ji 2 milyon runistanet di navceya metropole de xizmet bike."
+      },
+      "news-009": {
+        "title": "Bontera Sozdariya Karbon-Betaliye bo Sala 2030an Dide",
+        "excerpt": "Nexseya reya domdariye ya me ya temam gaveyen ku em digirin da emmisyonene sifir-net li seranser hemu karguzariyan bigihijin nisan dide."
+      },
+      "news-010": {
+        "title": "Hevkariyek Stratejik bi Sirketek Mimariye ya Cihani",
+        "excerpt": "Hevkari pisporiya dizayne ya cihan-class bo projeyen me li seranser Rojhilata Navin u Bakure Afrikaye tine."
+      },
+      "news-011": {
+        "title": "Ronahiya Karmendan: Stareyen Me yen Janviye Nas Bikin",
+        "excerpt": "Pirozbahiya endamene time yen awarte yen ku di ve mehe de ji normali derbas bun, zebuhati ku serkeftina Bontera diajo nisan dide."
+      },
+      "news-012": {
+        "title": "Nujeniyen Teknolojiya Ewlehiya Cihde Avahisaziye",
+        "excerpt": "Lekolina teknolojiyeyen libasne, sistemeyen sewqandine, u serirastekirinene AI yen dawi ku cihdene kara me ji her deme ewletir dikin."
+      }
+    },
+    "noArticles": {
+      "title": "Ti Gotare Nehat Ditin",
+      "description": "Me nekaribu ti gotareyan di ve kategoriye de bibinin. Kategoriyeke cuda hilbijerin an zudi ji bo naveroka nuh vegerrin.",
+      "viewAll": "Hemu Gotareyan Bibin"
+    },
+    "newsletter": {
+      "eyebrow": "Binimin Nuhati",
+      "title": "Subscribe Rojnameya Me Bikin",
+      "description": "Nuce, nuvekirinene projeyan, u biraneyen piseyi yen dawi rasterast bo inbox a we bibin.",
+      "placeholder": "Navnisana email xwe binivisin",
+      "subscribe": "Subscribe Bikin",
+      "privacy": "Em nihenitiyi we rumet dikin. Her deme unsubscribe bikin."
+    },
+    "media": {
+      "eyebrow": "Capa & Medya",
+      "title": "Pirseyen Medyaye",
+      "description": "Ji bo pirseyen capa, daxwaziyeyen hevpeyivine, an careseriyeyen medyaye, timea ragihandina me amade ye ku alkariya we bike.",
+      "email": "Tekiliya Medyaye",
+      "phone": "Xeta Capa",
+      "downloadKit": "Kita Capa Daxistin",
+      "featuredIn": "Li Te de Hat Xuya Kirin"
+    }
+  },
+
+  "quotePage": {
+    "meta": {
+      "title": "Bihayeke Bixwazin | Bontera Avahisazi",
+      "description": "Ji bo projeya xwe ya avahisaziye bihayeke belahe, bela-sozdar bibin. Der bare diteya xwe de ji me re bejin u timea me di 48 seetadi de peskesenke berbereki pesdixe."
+    },
+    "breadcrumb": {
+      "home": "Destpek",
+      "quote": "Bihayeke Bixwazin"
+    },
+    "hero": {
+      "eyebrow": "Dest Pe Bikin",
+      "title": "Bihayeke Xwe ya Belahe Bixwazin",
+      "subtitle": "Der bare projeya xwe de ji me re bejin u peskesenke berbereki, li gora we ya taylandi ji timea me ya pispor bibin. Bela sozdar, bela heqen vesite.",
+      "trust": {
+        "free": "Bihayeke %100 Belahe",
+        "response": "Bersiva 48 Seeta",
+        "obligation": "Bela Sozdar"
+      }
+    },
+    "form": {
+      "eyebrow": "Pirsa Projeye",
+      "title": "Der Bare Projeya Xwe de ji Me Re Bejin",
+      "description": "Forma li jeri dagirin u timea me bihayeke berbereki ku li gora pewisteyen we yen taybeti hatiye taylandin amade dike.",
+      "steps": {
+        "contact": "Agahiya Tekili",
+        "project": "Hurayen Projeye",
+        "details": "Agahiya Zede"
+      },
+      "step1": { "title": "Agahiya Tekili" },
+      "step2": { "title": "Hurayen Projeye" },
+      "step3": { "title": "Agahiya Zede" },
+      "fields": {
+        "firstName": "Nave Yekem",
+        "lastName": "Pasnav",
+        "email": "Navnisana Email",
+        "phone": "Nimreya Telefone",
+        "company": "Nave Sirkete",
+        "role": "Rola We",
+        "rolePlaceholder": "me. Xwedi, Birevere Projeye, Mimar",
+        "projectType": "Curne Projeye",
+        "projectLocation": "Cihde Projeye",
+        "projectLocationPlaceholder": "Bajar, Welat",
+        "projectSize": "Meza Projeye",
+        "budget": "Bihaya Tahminyi",
+        "timeline": "Demname ya Heviya",
+        "description": "Ravekirina Projeye",
+        "descriptionPlaceholder": "Ji kerema xwe projeya xwe bi berbereki ravebkin, tev dorme, armancan, u her pewisteyen taybeti...",
+        "requirements": "Xizmeten Pesdixin",
+        "referralSource": "We cawa der bare me de bihist?",
+        "preferredContact": "Metoda Tekiliye ya Bijarte",
+        "selectOption": "Vebijarkeke hilbijerin"
+      },
+      "projectTypes": {
+        "commercial": "Avahisaziya Bazirganiye",
+        "residential": "Avahisaziya Nistecih",
+        "infrastructure": "Binesazi",
+        "industrial": "Piseyi",
+        "renovation": "Nuvekirin & Restorasyon",
+        "mixedUse": "Pesereftina Bi Karanina Tev",
+        "healthcare": "Tesisa Tenderustiye",
+        "education": "Saziyek Perwerdehi",
+        "hospitality": "Miteli & Gerok",
+        "other": "Yen Din"
+      },
+      "projectSizes": {
+        "small": "Biquk (< 5,000 sq ft)",
+        "medium": "Navincok (5,000 - 50,000 sq ft)",
+        "large": "Mezin (50,000 - 500,000 sq ft)",
+        "megaProject": "Mega Proje (> 500,000 sq ft)"
+      },
+      "budgetRanges": {
+        "under500k": "Bin $500,000",
+        "500kTo1m": "$500,000 - $1 Milyon",
+        "1mTo5m": "$1 Milyon - $5 Milyon",
+        "5mTo10m": "$5 Milyon - $10 Milyon",
+        "10mTo50m": "$10 Milyon - $50 Milyon",
+        "50mTo100m": "$50 Milyon - $100 Milyon",
+        "over100m": "Zede ji $100 Milyon"
+      },
+      "timelines": {
+        "immediate": "Destpeka Tavilane",
+        "1to3months": "1-3 Meh",
+        "3to6months": "3-6 Meh",
+        "6to12months": "6-12 Meh",
+        "over12months": "12+ Meh",
+        "flexible": "Lekev"
+      },
+      "requirements": {
+        "design": "Dizayn & Mimari",
+        "permits": "Desturen & Pesandin",
+        "projectManagement": "Bireveriya Projeyan",
+        "sustainability": "Domdariye/LEED",
+        "bim": "Xizmeten BIM",
+        "turnkey": "Careseriyek Turnkey"
+      },
+      "referralSources": {
+        "search": "Motorek Ligerine",
+        "referral": "Referans/Gotin Devi",
+        "socialMedia": "Medyaya Civaki",
+        "advertisement": "Reklam",
+        "event": "Buyer/Konferans",
+        "other": "Yen Din"
+      },
+      "contactMethods": {
+        "email": "Email",
+        "phone": "Telefon",
+        "whatsapp": "WhatsApp"
+      },
+      "privacy": {
+        "text": "Bi seperandina ve forme, hun bi",
+        "link": "Siyaseta Nihenitiyi",
+        "and": "u",
+        "terms": "Sertan Xizmetkirini"
+      },
+      "buttons": {
+        "previous": "Beri",
+        "next": "Gava Pasei",
+        "submit": "Daxwaze Bisepin",
+        "submitting": "Te sepedrme..."
+      },
+      "errors": {
+        "required": "Ev qad pesdixe",
+        "invalidEmail": "Ji kerema xwe navnisaneke email drust binivisin",
+        "descriptionTooShort": "Ji kerema xwe bi kembasi 50 tipeyan peskesin"
+      },
+      "success": {
+        "title": "Daxwaza Biha Hat Sepedrme!",
+        "message": "Spas ji bo eleqa we bi Bontera. Timea me hurayen projeya we dixwine u di 48 seetadi de bi peskesneke taylandi bi we re tekili digire.",
+        "reference": "Nimreya Referanse"
+      },
+      "error": {
+        "title": "Seperandin Serniket",
+        "message": "Me nekaribu daxwaza we pekve bikin. Ji kerema xwe disa biceribewin an rasterast bi me re tekili daynin."
+      }
+    },
+    "sidebar": {
+      "whyUs": {
+        "title": "Cima Bontera Hilbijerin?",
+        "experience": "Salen Tecrubey",
+        "projects": "Proje Qediyane",
+        "onTime": "Radestkirina Li Ser Deme",
+        "clients": "Xeriden Razi"
+      },
+      "contact": {
+        "title": "Biaxivin Hezdikint?",
+        "description": "Timea me amade ye ku projeya we rasterast biaxivin.",
+        "phone": "Ji Me Re Bizen",
+        "email": "Ji Me Re Email Bikin",
+        "whatsapp": "WhatsApp"
+      },
+      "hours": {
+        "title": "Seten Kare",
+        "weekdays": "Yeksem - Pencasem",
+        "saturday": "Sembi",
+        "sunday": "Ini",
+        "closed": "Girtiye"
+      }
+    },
+    "process": {
+      "eyebrow": "Cawa Kar Dike",
+      "title": "Ji Pirseyeke bo Peskesneke",
+      "description": "Prosesa me ya sade misoger dike ku hun bihayeke temam, rast bilez bibin.",
+      "steps": {
+        "submit": {
+          "title": "Daxwaza Xwe Bisepin",
+          "description": "Forma me ya berbereki bi agahiya projeya xwe u pewisteyan dagirin."
+        },
+        "review": {
+          "title": "Em Dixwinin & Analiz Dikin",
+          "description": "Pisporene me seperandina we dixwinin u pewisteyen projeye analiz dikin."
+        },
+        "consultation": {
+          "title": "Serleheya Destpeki",
+          "description": "Em bangeke daninin da hurayen biaxivin u pirsen we bersiv bidin."
+        },
+        "proposal": {
+          "title": "Peskesneka Xwe Bibin",
+          "description": "Peskesnekeke berbereki, taylandi bi bihayiriyeke zelal bibin."
+        }
+      }
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Pirseyen Hevpar Der Bare Bihayan de",
+      "description": "Bersiveyen pirseyen ku pircar dikin der bare prosesa bihayaen me de bibinin.",
+      "stillQuestions": {
+        "title": "Hina pirsen heye?",
+        "description": "Timea me li vir e ku alikariye bike. Ji bo alikariya kesane bi me re tekili daynin.",
+        "link": "Bi Timea Me Re Tekili Daynin"
+      },
+      "items": {
+        "timeline": {
+          "question": "Bihayeke bi giranke cend dem digire ku bibin?",
+          "answer": "Em bi girant bihayeyen destpeki di 48 seetadi de pirti daxwaza we peskesin. Ji bo projeyen pirgirviye ku analiza berbereki pesdixe, em bi we re tekili digirin da heviyeyen demname biaxivin."
+        },
+        "cost": {
+          "question": "Heqek heye ji bo bidestxistina bihayeke?",
+          "answer": "Na, bihayeyen me bi temamiyi belahe ne bela sozdar. Em bi ragihandina zelal bawer dikin u dixwazin ku hemu agahiya ku pesdixe hebin da biryareke agahdar bidin."
+        },
+        "included": {
+          "question": "Di bihaye de ci heye?",
+          "answer": "Bihayeyen me daberkirina liraje ya berbereki, demname projeye, dorme kare, taybetmendiyen materyalan, u sertan deyn digirin. Em jibo agahiya der bare desturen, sigmarta, u dagirtina garantiye jibo peskesin."
+        },
+        "changes": {
+          "question": "Ez dikarim pirti bidestxistina bihayeke guhertinan bikim?",
+          "answer": "Bi tekusi. Em fahim dikin ku pewisteyen projeyan dikarin biguherin. Em kefxwes in ku bihayeyen li gora taybetmendiyen nuhati an guhertinan dorme bela heqe zede nuvekin."
+        }
+      }
+    },
+    "testimonial": {
+      "quote": "Prosesa bihaye zor sade bu. Timea Bontera wext dan ku pewisteyen me yen taybet fahim bikin u peskesnekeke berbereki, zelal peskesin ku baweriya temam da me ku berdewam bikin.",
+      "author": "Mohammad Al-Farsi",
+      "role": "CEO, Al-Farsi Developments"
+    },
+    "cta": {
+      "title": "Amade ne ku Projeya Xwe Dest Pe Bikin?",
+      "description": "Bibe endam sedan xeridenen razi ku Bontera ji bo pewisteyen avahisaziya xwe hilbijart.",
+      "getQuote": "Bihayeke Xwe ya Belahe Bibin",
+      "viewProjects": "Projeyen Me Bibin"
+    }
+  }
+}
