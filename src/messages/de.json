@@ -1247,6 +1247,83 @@
       "getQuote": "Kostenloses Angebot anfordern",
       "viewProjects": "Unsere Projekte ansehen"
     }
+  },
+
+  "projectDetail": {
+    "breadcrumb": {
+      "home": "Startseite",
+      "projects": "Projekte"
+    },
+    "status": {
+      "completed": "Abgeschlossen",
+      "ongoing": "In Bearbeitung",
+      "upcoming": "Bevorstehend",
+      "planning": "Planung"
+    },
+    "featured": "Ausgewähltes Projekt",
+    "scrollToExplore": "Scrollen zum Erkunden",
+    "overview": {
+      "eyebrow": "Projektübersicht",
+      "title": "Über dieses Projekt"
+    },
+    "scope": {
+      "title": "Projektumfang"
+    },
+    "servicesFeatures": {
+      "title": "Leistungen & Merkmale"
+    },
+    "challenges": {
+      "title": "Herausforderungen"
+    },
+    "solutions": {
+      "title": "Unsere Lösungen"
+    },
+    "results": {
+      "title": "Ergebnisse & Wirkung"
+    },
+    "awards": {
+      "title": "Auszeichnungen & Zertifizierungen"
+    },
+    "details": {
+      "title": "Projektdetails",
+      "client": "Auftraggeber",
+      "location": "Standort",
+      "year": "Jahr",
+      "value": "Projektwert",
+      "duration": "Dauer",
+      "size": "Projektgröße",
+      "status": "Status",
+      "teamSize": "Teamgröße"
+    },
+    "team": {
+      "title": "Projektteam",
+      "architect": "Architekt",
+      "contractor": "Hauptauftragnehmer",
+      "engineers": "Ingenieure"
+    },
+    "sidebar": {
+      "cta": {
+        "title": "Interesse an einem ähnlichen Projekt?",
+        "description": "Lassen Sie uns besprechen, wie wir Ihre Vision verwirklichen können.",
+        "button": "Angebot anfordern"
+      }
+    },
+    "gallery": {
+      "eyebrow": "Projektgalerie",
+      "title": "Visuelle Dokumentation"
+    },
+    "related": {
+      "eyebrow": "Weitere Projekte",
+      "title": "Ähnliche Arbeiten",
+      "viewAll": "Alle Projekte ansehen"
+    },
+    "cta": {
+      "eyebrow": "Ihr Projekt starten",
+      "title": "Bereit, Ihre Vision zu bauen?",
+      "description": "Unser Team ist bereit, Ihre Ideen in die Realität umzusetzen. Lassen Sie uns heute über Ihr Projekt sprechen.",
+      "startProject": "Projekt starten",
+      "contactUs": "Kontakt"
+    }
   }
 }
 

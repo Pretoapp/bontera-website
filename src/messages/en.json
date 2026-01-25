@@ -1352,6 +1352,83 @@
     "getQuote": "Get Your Free Quote",
     "viewProjects": "View Our Projects"
   }
+},
+
+"projectDetail": {
+  "breadcrumb": {
+    "home": "Home",
+    "projects": "Projects"
+  },
+  "status": {
+    "completed": "Completed",
+    "ongoing": "In Progress",
+    "upcoming": "Upcoming",
+    "planning": "Planning"
+  },
+  "featured": "Featured Project",
+  "scrollToExplore": "Scroll to Explore",
+  "overview": {
+    "eyebrow": "Project Overview",
+    "title": "About This Project"
+  },
+  "scope": {
+    "title": "Project Scope"
+  },
+  "servicesFeatures": {
+    "title": "Services & Features"
+  },
+  "challenges": {
+    "title": "Challenges"
+  },
+  "solutions": {
+    "title": "Our Solutions"
+  },
+  "results": {
+    "title": "Results & Impact"
+  },
+  "awards": {
+    "title": "Awards & Certifications"
+  },
+  "details": {
+    "title": "Project Details",
+    "client": "Client",
+    "location": "Location",
+    "year": "Year",
+    "value": "Project Value",
+    "duration": "Duration",
+    "size": "Project Size",
+    "status": "Status",
+    "teamSize": "Team Size"
+  },
+  "team": {
+    "title": "Project Team",
+    "architect": "Architect",
+    "contractor": "Main Contractor",
+    "engineers": "Engineers"
+  },
+  "sidebar": {
+    "cta": {
+      "title": "Interested in a Similar Project?",
+      "description": "Let's discuss how we can bring your vision to life.",
+      "button": "Request Quote"
+    }
+  },
+  "gallery": {
+    "eyebrow": "Project Gallery",
+    "title": "Visual Documentation"
+  },
+  "related": {
+    "eyebrow": "More Projects",
+    "title": "Related Work",
+    "viewAll": "View All Projects"
+  },
+  "cta": {
+    "eyebrow": "Start Your Project",
+    "title": "Ready to Build Your Vision?",
+    "description": "Our team is ready to transform your ideas into reality. Let's discuss your project today.",
+    "startProject": "Start Your Project",
+    "contactUs": "Contact Us"
+  }
 }
 }
 

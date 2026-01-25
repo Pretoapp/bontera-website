@@ -1311,5 +1311,82 @@
       "getQuote": "Ontvang Uw Gratis Offerte",
       "viewProjects": "Bekijk Onze Projecten"
     }
+  },
+
+  "projectDetail": {
+    "breadcrumb": {
+      "home": "Home",
+      "projects": "Projecten"
+    },
+    "status": {
+      "completed": "Voltooid",
+      "ongoing": "In uitvoering",
+      "upcoming": "Binnenkort",
+      "planning": "Planning"
+    },
+    "featured": "Uitgelicht project",
+    "scrollToExplore": "Scroll om te verkennen",
+    "overview": {
+      "eyebrow": "Projectoverzicht",
+      "title": "Over dit project"
+    },
+    "scope": {
+      "title": "Projectomvang"
+    },
+    "servicesFeatures": {
+      "title": "Diensten en kenmerken"
+    },
+    "challenges": {
+      "title": "Uitdagingen"
+    },
+    "solutions": {
+      "title": "Onze oplossingen"
+    },
+    "results": {
+      "title": "Resultaten en impact"
+    },
+    "awards": {
+      "title": "Prijzen en certificeringen"
+    },
+    "details": {
+      "title": "Projectdetails",
+      "client": "Klant",
+      "location": "Locatie",
+      "year": "Jaar",
+      "value": "Projectwaarde",
+      "duration": "Duur",
+      "size": "Projectgrootte",
+      "status": "Status",
+      "teamSize": "Teamgrootte"
+    },
+    "team": {
+      "title": "Projectteam",
+      "architect": "Architect",
+      "contractor": "Hoofdaannemer",
+      "engineers": "Ingenieurs"
+    },
+    "sidebar": {
+      "cta": {
+        "title": "Geïnteresseerd in een vergelijkbaar project?",
+        "description": "Laten we bespreken hoe we uw visie werkelijkheid kunnen maken.",
+        "button": "Offerte aanvragen"
+      }
+    },
+    "gallery": {
+      "eyebrow": "Projectgalerij",
+      "title": "Visuele documentatie"
+    },
+    "related": {
+      "eyebrow": "Meer projecten",
+      "title": "Gerelateerd werk",
+      "viewAll": "Alle projecten bekijken"
+    },
+    "cta": {
+      "eyebrow": "Start uw project",
+      "title": "Klaar om uw visie te bouwen?",
+      "description": "Ons team staat klaar om uw ideeën werkelijkheid te maken. Laten we vandaag uw project bespreken.",
+      "startProject": "Start uw project",
+      "contactUs": "Neem contact op"
+    }
   }
 }
