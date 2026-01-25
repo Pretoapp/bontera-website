@@ -1,0 +1,1315 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "Chi Siamo",
+    "services": "Servizi",
+    "projects": "Progetti",
+    "careers": "Carriere",
+    "news": "Notizie",
+    "contact": "Contatti"
+  },
+
+  "metadata": {
+    "title": "Bontera | Costruzioni e Infrastrutture",
+    "description": "Soluzioni di costruzione e infrastrutture di livello mondiale. Dal concept al completamento, realizziamo progetti che definiscono skyline e trasformano comunita."
+  },
+
+  "hero": {
+    "eyebrow": "Eccellenza nella Costruzione dal 1999",
+    "titleLine1": "Costruiamo",
+    "titleLine2": "il Futuro",
+    "description": "Soluzioni di costruzione e infrastrutture di livello mondiale. Dal concept al completamento, realizziamo progetti che definiscono skyline e trasformano comunita.",
+    "ctaPrimary": "Scopri i Nostri Progetti",
+    "ctaSecondary": "Contattaci",
+    "stats": {
+      "years": "Anni di Eccellenza",
+      "projects": "Progetti Realizzati",
+      "countries": "Paesi"
+    }
+  },
+
+  "vision": {
+    "eyebrow": "La Nostra Visione",
+    "headline": "Progettiamo Oggi i Punti di Riferimento di Domani",
+    "description": "Non costruiamo semplicemente edifici. Creiamo eredita durature. Il nostro impegno per l'innovazione, la sostenibilita e la qualita senza compromessi ci ha reso il partner preferito per i progetti piu ambiziosi del mondo.",
+    "features": {
+      "innovation": {
+        "title": "Innovazione Prima di Tutto",
+        "description": "Tecnologie e metodologie costruttive pionieristiche che stabiliscono nuovi standard di settore."
+      },
+      "heritage": {
+        "title": "Fondati sulla Tradizione",
+        "description": "Oltre 25 anni di esperienza trasmessi attraverso generazioni di maestri costruttori e ingegneri."
+      },
+      "sustainability": {
+        "title": "Futuro Sostenibile",
+        "description": "Progetti certificati LEED con l'impegno per costruzioni a zero emissioni entro il 2030."
+      }
+    }
+  },
+
+  "services": {
+    "eyebrow": "Cosa Facciamo",
+    "headline": "Soluzioni Costruttive Complete",
+    "viewAll": "Scopri Tutti i Servizi",
+    "items": {
+      "commercial": {
+        "title": "Costruzioni Commerciali",
+        "description": "Torri per uffici, complessi commerciali e strutture ricettive costruiti secondo i piu alti standard."
+      },
+      "infrastructure": {
+        "title": "Infrastrutture",
+        "description": "Strade, ponti, reti di servizi e opere pubbliche che connettono le comunita."
+      },
+      "residential": {
+        "title": "Residenziale",
+        "description": "Case di lusso e sviluppi residenziali con artigianalita eccezionale."
+      },
+      "industrial": {
+        "title": "Industriale",
+        "description": "Stabilimenti produttivi, magazzini e complessi industriali."
+      },
+      "renovation": {
+        "title": "Ristrutturazioni",
+        "description": "Trasformazione di strutture esistenti con ammodernamenti e restauri del patrimonio storico."
+      },
+      "consulting": {
+        "title": "Consulenza",
+        "description": "Consulenza esperta su fattibilita, pianificazione e gestione dei progetti."
+      }
+    }
+  },
+
+  "projects": {
+    "eyebrow": "Lavori in Evidenza",
+    "headline": "Progetti che Definiscono Skyline",
+    "viewAll": "Vedi Tutti i Progetti",
+    "noProjects": "Nessun progetto da visualizzare al momento."
+  },
+
+  "stats": {
+    "years": "Anni di Esperienza",
+    "projects": "Progetti Completati",
+    "satisfaction": "Soddisfazione Clienti",
+    "delivered": "Valore Realizzato"
+  },
+
+  "whyUs": {
+    "eyebrow": "Perche Scegliere Bontera",
+    "headline": "L'Eccellenza e il Nostro Standard",
+    "description": "Quando scegli Bontera come partner, scegli un team che tratta ogni progetto come se la nostra reputazione dipendesse da esso, perche e cosi.",
+    "cta": "Scopri di Piu su di Noi",
+    "points": {
+      "quality": {
+        "title": "Qualita Senza Compromessi",
+        "description": "Processi certificati ISO 9001:2015 garantiscono eccellenza costante in ogni progetto."
+      },
+      "timeline": {
+        "title": "Consegna Puntuale",
+        "description": "Il 98% dei nostri progetti viene consegnato nei tempi previsti o in anticipo, sempre."
+      },
+      "safety": {
+        "title": "Sicurezza al Primo Posto",
+        "description": "Record di sicurezza leader nel settore con conformita OSHA e iniziative zero incidenti."
+      }
+    }
+  },
+
+  "testimonial": {
+    "quote": "Bontera ha superato ogni aspettativa. La loro attenzione ai dettagli, professionalita e impegno verso la nostra visione hanno portato a un edificio iconico di cui siamo incredibilmente orgogliosi.",
+    "name": "Sarah Mitchell",
+    "role": "CEO, Atlas Development Group"
+  },
+
+  "news": {
+    "eyebrow": "Notizie e Approfondimenti",
+    "headline": "Ultimi Aggiornamenti",
+    "viewAll": "Vedi Tutte le Notizie",
+    "readMore": "Leggi Articolo",
+    "noNews": "Nessun articolo da visualizzare al momento."
+  },
+
+  "newsSection": {
+    "title": "Notizie e Approfondimenti",
+    "seeMore": "Leggi Articolo",
+    "discoverAll": "Vedi Tutte le Notizie",
+    "empty": "Nessun articolo da visualizzare al momento."
+  },
+
+  "header": {
+    "headquarters": "Berlino, Germania",
+    "emergency24": "Emergenza 24/7",
+    "search": "Cerca",
+    "searchPlaceholder": "Cerca progetti, servizi, notizie...",
+    "quickLinks": "Link Rapidi",
+    "pressEsc": "Premi ESC o clicca fuori per chiudere",
+    "selectLanguage": "Seleziona Lingua",
+    "requestQuote": "Richiedi Preventivo",
+    "contactInfo": "Informazioni di Contatto",
+
+    "ourServices": "I Nostri Servizi",
+    "featured": "In Evidenza",
+    "sustainableBuilding": "Soluzioni Edilizie Sostenibili",
+    "sustainableBuildingDesc": "Leader del settore nelle costruzioni eco-compatibili con progetti certificati LEED.",
+    "viewAllServices": "Vedi Tutti i Servizi",
+
+    "projectCategories": "Categorie di Progetti",
+    "featuredProject": "Progetto in Evidenza",
+    "featuredProjectTitle": "Complesso Marina Tower",
+    "featuredProjectLocation": "Dubai Marina, EAU",
+    "completed": "Completato",
+    "viewAllProjects": "Vedi Tutti i Progetti",
+
+    "aboutBontera": "Chi e Bontera",
+    "byTheNumbers": "In Cifre",
+    "yearsExperience": "Anni di Esperienza",
+    "projectsCompleted": "Progetti Completati",
+    "countriesOperating": "Paesi Operativi",
+    "teamMembers": "Membri del Team",
+
+    "services": {
+      "commercialConstruction": "Costruzioni Commerciali",
+      "commercialConstructionDesc": "Edifici per uffici, retail, ospitalita",
+      "infrastructure": "Infrastrutture",
+      "infrastructureDesc": "Strade, ponti, reti di servizi",
+      "renovation": "Ristrutturazione e Restauro",
+      "renovationDesc": "Ammodernamento e restauro del patrimonio",
+      "consulting": "Servizi di Consulenza",
+      "consultingDesc": "Consulenza esperta e studi di fattibilita",
+      "projectManagement": "Gestione Progetti",
+      "projectManagementDesc": "Supervisione completa del progetto",
+      "sustainability": "Costruzione Sostenibile",
+      "sustainabilityDesc": "Edilizia verde e certificazione LEED"
+    },
+
+    "projects": {
+      "commercial": "Commerciale",
+      "residential": "Residenziale",
+      "industrial": "Industriale",
+      "publicWorks": "Opere Pubbliche"
+    },
+
+    "company": {
+      "ourStory": "La Nostra Storia",
+      "leadership": "Team Dirigenziale",
+      "values": "Missione e Valori",
+      "certifications": "Certificazioni",
+      "partners": "Partner e Affiliati"
+    }
+  },
+
+  "cta": {
+    "headline": "Pronti a Costruire Qualcosa di Straordinario?",
+    "description": "Parliamo della tua visione. Il nostro team e pronto a trasformare le tue idee ambiziose in realta architettonica.",
+    "buttonPrimary": "Inizia il Tuo Progetto",
+    "buttonSecondary": "Richiedi un Preventivo",
+    "certifications": {
+      "leed": "Partner Certificato",
+      "osha": "Conforme"
+    }
+  },
+
+  "footer": {
+    "description": "Bontera realizza costruzioni e infrastrutture di alta qualita con pianificazione disciplinata, esecuzione precisa e finiture impeccabili.",
+
+    "followUs": "Seguici",
+    "company": "Azienda",
+    "services": "Servizi",
+    "contactUs": "Contattaci",
+
+    "phone": "Telefono",
+    "email": "Email",
+    "emergency": "Emergenza",
+    "backToTop": "Torna in alto",
+    "allRightsReserved": "Tutti i diritti riservati.",
+
+    "cta": {
+      "headline": "Pronti a Costruire Qualcosa di Eccezionale?",
+      "description": "Raccontaci cosa stai costruendo. Metteremo a disposizione il team, il piano e l'esecuzione per consegnarlo puntualmente e ai massimi standard.",
+      "button": "Contattaci",
+      "secondaryButton": "Richiedi un Preventivo"
+    },
+
+    "offices": {
+      "headquarters": "Sede Centrale"
+    },
+
+    "serviceLinks": {
+      "commercial": "Costruzioni Commerciali",
+      "infrastructure": "Infrastrutture",
+      "residential": "Residenziale",
+      "industrial": "Industriale",
+      "renovation": "Ristrutturazioni",
+      "consulting": "Consulenza"
+    },
+
+    "legal": {
+      "privacy": "Informativa sulla Privacy",
+      "terms": "Termini di Servizio",
+      "cookies": "Cookie Policy"
+    }
+  },
+
+  "about": {
+    "meta": {
+      "title": "Chi Siamo | Bontera Costruzioni",
+      "description": "Scopri l'eredita di oltre 25 anni di eccellenza di Bontera nelle costruzioni, la nostra missione, i valori e il team dirigenziale che guida l'innovazione nel settore."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "about": "Chi Siamo"
+    },
+    "hero": {
+      "eyebrow": "Chi e Bontera",
+      "title": "Eccellenza nella Costruzione dal 1999",
+      "subtitle": "Da oltre due decenni, Bontera e all'avanguardia nell'innovazione edilizia, realizzando progetti iconici che plasmano skyline e comunita in tutto il mondo.",
+      "stats": {
+        "years": "Anni di Eccellenza",
+        "projects": "Progetti Completati",
+        "countries": "Paesi",
+        "employees": "Membri del Team"
+      }
+    },
+    "story": {
+      "eyebrow": "La Nostra Storia",
+      "title": "Un'Eredita di Sogni Trasformati in Realta",
+      "paragraph1": "Fondata nel 1999, Bontera e nata come una piccola impresa edile con una grande visione: trasformare l'ambiente costruito attraverso innovazione, integrita e un impegno incrollabile verso l'eccellenza. Quello che era iniziato come un team di costruttori appassionati e diventato un leader globale nel settore delle costruzioni.",
+      "paragraph2": "Negli ultimi 25 anni, abbiamo completato piu di 500 progetti iconici in 12 paesi, dalle torri commerciali emblematiche alle comunita residenziali sostenibili. Ogni progetto riflette la nostra dedizione all'artigianalita di qualita e la nostra convinzione che i grandi edifici abbiano il potere di ispirare.",
+      "paragraph3": "Oggi, Bontera rappresenta la testimonianza di cio che e possibile quando l'esperienza incontra l'ambizione. Continuiamo a spingere i limiti, ad abbracciare nuove tecnologie e a stabilire nuovi standard nelle pratiche di costruzione sostenibile.",
+      "founderQuote": "Non costruiamo semplicemente edifici; creiamo le fondamenta affinche le comunita prosperino e le generazioni possano crescere.",
+      "founderName": "Sig. Nedjet",
+      "founderTitle": "Fondatore e Presidente",
+      "yearsExcellence": "Anni di Eccellenza",
+      "since": "Fondata"
+    },
+    "mission": {
+      "title": "La Nostra Missione",
+      "description": "Fornire soluzioni costruttive eccezionali che superino le aspettative dei clienti, promuovere l'innovazione e contribuire positivamente alle comunita che serviamo, mantenendo i piu alti standard di sicurezza, qualita e sostenibilita."
+    },
+    "vision": {
+      "title": "La Nostra Visione",
+      "description": "Essere il leader globale nelle costruzioni sostenibili, riconosciuti per trasformare visioni architettoniche audaci in strutture durature che ispirano, servono e resistono alla prova del tempo."
+    },
+    "values": {
+      "eyebrow": "I Nostri Principi",
+      "title": "I Nostri Valori Fondamentali",
+      "subtitle": "Questi principi guidano ogni decisione che prendiamo e ogni progetto che intraprendiamo.",
+      "items": {
+        "excellence": {
+          "title": "Eccellenza",
+          "description": "Perseguiamo l'eccellenza in ogni dettaglio, dalla progettazione iniziale alla consegna finale, assicurando che il nostro lavoro sia testimonianza di qualita."
+        },
+        "integrity": {
+          "title": "Integrita",
+          "description": "Conduciamo gli affari con onesta e trasparenza, costruendo fiducia con clienti, partner e comunita."
+        },
+        "innovation": {
+          "title": "Innovazione",
+          "description": "Abbracciamo tecnologie e metodologie all'avanguardia per fornire soluzioni costruttive piu intelligenti ed efficienti."
+        },
+        "safety": {
+          "title": "Sicurezza al Primo Posto",
+          "description": "Il benessere del nostro team e delle comunita e fondamentale. Manteniamo rigorosi standard di sicurezza su ogni progetto."
+        },
+        "sustainability": {
+          "title": "Sostenibilita",
+          "description": "Siamo impegnati in pratiche ecologicamente responsabili che minimizzano il nostro impatto e massimizzano l'effetto positivo."
+        },
+        "partnership": {
+          "title": "Partnership",
+          "description": "Crediamo nelle relazioni collaborative, lavorando a stretto contatto con clienti e stakeholder per raggiungere un successo condiviso."
+        }
+      }
+    },
+    "timeline": {
+      "eyebrow": "Il Nostro Percorso",
+      "title": "Le Tappe che Ci Definiscono",
+      "milestones": {
+        "founding": {
+          "title": "L'Inizio",
+          "description": "Bontera e stata fondata con la visione di rivoluzionare l'industria delle costruzioni attraverso innovazione e impegno incrollabile verso la qualita."
+        },
+        "expansion": {
+          "title": "Espansione Regionale",
+          "description": "Espansione delle operazioni in tutto il Medio Oriente, stabilendo partnership chiave e completando il nostro primo grande progetto commerciale."
+        },
+        "international": {
+          "title": "Espansione Globale",
+          "description": "Ingresso nei mercati europei e asiatici, segnando l'inizio della nostra presenza internazionale con uffici in 5 nuovi paesi."
+        },
+        "sustainability": {
+          "title": "Leadership nella Sostenibilita",
+          "description": "Lancio della nostra iniziativa completa di sostenibilita, ottenendo la certificazione LEED e impegnandoci verso operazioni a zero emissioni entro il 2030."
+        },
+        "digital": {
+          "title": "Trasformazione Digitale",
+          "description": "Implementazione della tecnologia BIM avanzata e gestione progetti guidata dall'IA, rivoluzionando i nostri processi costruttivi."
+        },
+        "future": {
+          "title": "Costruire il Domani",
+          "description": "Continuiamo a innovare con tecnologie per edifici intelligenti e ad espandere il nostro portfolio di costruzioni sostenibili a livello mondiale."
+        }
+      }
+    },
+    "leadership": {
+      "eyebrow": "Team Dirigenziale",
+      "title": "I Nostri Leader",
+      "subtitle": "Professionisti esperti che guidano la visione di eccellenza di Bontera nelle costruzioni.",
+      "viewAll": "Vedi il Team Completo",
+      "members": {
+        "ceo": {
+          "name": "Sig. Nedjet",
+          "title": "Amministratore Delegato"
+        },
+        "coo": {
+          "name": "Sarah Mitchell",
+          "title": "Direttore Operativo"
+        },
+        "cto": {
+          "name": "Dr. Michael Chen",
+          "title": "Direttore Tecnologico"
+        },
+        "cfo": {
+          "name": "Elena Rodriguez",
+          "title": "Direttore Finanziario"
+        }
+      }
+    },
+    "certifications": {
+      "eyebrow": "Qualita e Standard",
+      "title": "Certificazioni e Accreditamenti",
+      "description": "Il nostro impegno verso l'eccellenza e validato da certificazioni riconosciute a livello internazionale e accreditamenti di settore che garantiscono i piu alti standard di qualita, sicurezza e responsabilita ambientale.",
+      "viewAll": "Vedi Tutte le Certificazioni"
+    },
+    "global": {
+      "eyebrow": "Presenza Globale",
+      "title": "Costruire Oltre i Confini",
+      "description": "Dalle imponenti skyline di Dubai alle strade storiche d'Europa, l'esperienza di Bontera attraversa i continenti. La nostra presenza globale ci permette di portare capacita costruttive di livello mondiale in progetti ovunque.",
+      "stats": {
+        "countries": "Paesi",
+        "offices": "Uffici Regionali",
+        "continents": "Continenti",
+        "clients": "Clienti Internazionali"
+      }
+    },
+    "cta": {
+      "title": "Pronti a Costruire Qualcosa di Straordinario?",
+      "description": "Che tu stia pianificando uno sviluppo commerciale, un progetto infrastrutturale o un edificio sostenibile, il nostro team e pronto a dare vita alla tua visione.",
+      "contactUs": "Contattaci",
+      "joinTeam": "Unisciti al Nostro Team"
+    }
+  },
+
+  "servicesPage": {
+    "meta": {
+      "title": "I Nostri Servizi | Bontera Costruzioni",
+      "description": "Esplora i servizi completi di costruzione di Bontera tra cui soluzioni commerciali, residenziali, infrastrutturali, industriali, di ristrutturazione e consulenza."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "services": "Servizi"
+    },
+    "hero": {
+      "eyebrow": "Cosa Facciamo",
+      "title": "Soluzioni Costruttive Complete",
+      "subtitle": "Dal concept al completamento, forniamo servizi costruttivi completi su misura per la tua visione unica e le tue esigenze.",
+      "cta": "Richiedi un Preventivo"
+    },
+    "overview": {
+      "eyebrow": "La Nostra Esperienza",
+      "title": "Eccellenza Costruttiva in Ogni Settore",
+      "description": "Con oltre 25 anni di esperienza, Bontera ha sviluppato una profonda competenza in diversi settori delle costruzioni. Il nostro approccio integrato combina design innovativo, ingegneria di precisione e pratiche sostenibili per realizzare progetti che superano le aspettative.",
+      "points": {
+        "expertise": {
+          "title": "Profonda Competenza di Settore",
+          "description": "Conoscenza specializzata nei settori commerciale, residenziale e infrastrutturale."
+        },
+        "quality": {
+          "title": "Qualita Senza Compromessi",
+          "description": "Rigoroso controllo qualita in ogni fase della costruzione."
+        },
+        "innovation": {
+          "title": "Soluzioni Innovative",
+          "description": "Tecnologia all'avanguardia e metodi costruttivi moderni."
+        },
+        "safety": {
+          "title": "Eccellenza nella Sicurezza",
+          "description": "Standard e protocolli di sicurezza leader nel settore."
+        }
+      },
+      "stats": {
+        "projects": "Progetti Completati",
+        "years": "Anni di Esperienza",
+        "satisfaction": "Soddisfazione Clienti",
+        "awards": "Premi di Settore"
+      }
+    },
+    "mainServices": {
+      "eyebrow": "I Nostri Servizi",
+      "title": "Cosa Offriamo",
+      "subtitle": "Servizi costruttivi completi progettati per dare vita alla tua visione.",
+      "learnMore": "Scopri di Piu",
+      "items": {
+        "commercial": {
+          "title": "Costruzioni Commerciali",
+          "description": "Dalle iconiche torri per uffici agli spazi retail dinamici, creiamo ambienti commerciali che ispirano produttivita, guidano il successo aziendale e si ergono come punti di riferimento nel paesaggio urbano.",
+          "features": {
+            "officeBuildings": "Edifici per Uffici",
+            "retailCenters": "Centri Commerciali",
+            "mixedUse": "Sviluppi a Uso Misto",
+            "hospitality": "Ospitalita"
+          }
+        },
+        "infrastructure": {
+          "title": "Sviluppo Infrastrutturale",
+          "description": "Costruiamo le fondamenta della societa moderna attraverso ponti, autostrade, reti di servizi e trasporti che connettono le comunita e permettono il progresso.",
+          "features": {
+            "bridges": "Ponti e Tunnel",
+            "highways": "Autostrade e Strade",
+            "utilities": "Reti di Servizi",
+            "airports": "Aeroporti e Porti"
+          }
+        },
+        "residential": {
+          "title": "Costruzioni Residenziali",
+          "description": "Creiamo case e comunita dove le famiglie prosperano, dalle proprieta di lusso agli sviluppi abitativi sostenibili che definiscono la vita moderna.",
+          "features": {
+            "luxuryHomes": "Case di Lusso",
+            "apartments": "Complessi Residenziali",
+            "communities": "Comunita Pianificate",
+            "villas": "Ville e Tenute"
+          }
+        },
+        "industrial": {
+          "title": "Costruzioni Industriali",
+          "description": "Progettiamo e costruiamo strutture industriali che ottimizzano le operazioni, massimizzano l'efficienza e soddisfano i requisiti esigenti della produzione moderna.",
+          "features": {
+            "factories": "Stabilimenti Produttivi",
+            "warehouses": "Magazzini",
+            "logistics": "Centri Logistici",
+            "manufacturing": "Impianti di Lavorazione"
+          }
+        },
+        "renovation": {
+          "title": "Ristrutturazione e Restauro",
+          "description": "Diamo nuova vita alle strutture esistenti attraverso ristrutturazioni attente, conservazione storica e riuso adattivo che onora il passato abbracciando il futuro.",
+          "features": {
+            "historic": "Conservazione Storica",
+            "modernization": "Ammodernamento",
+            "retrofitting": "Adeguamento",
+            "restoration": "Restauro Completo"
+          }
+        },
+        "consulting": {
+          "title": "Servizi di Consulenza",
+          "description": "Guida esperta in ogni fase del tuo progetto, dagli studi di fattibilita e stima dei costi alla valutazione dei rischi e conformita normativa.",
+          "features": {
+            "feasibility": "Studi di Fattibilita",
+            "costEstimation": "Stima dei Costi",
+            "riskAssessment": "Valutazione dei Rischi",
+            "compliance": "Conformita Normativa"
+          }
+        }
+      }
+    },
+    "process": {
+      "eyebrow": "Come Lavoriamo",
+      "title": "Il Nostro Processo Collaudato",
+      "subtitle": "Un approccio sistematico che garantisce qualita, efficienza e trasparenza in ogni fase.",
+      "steps": {
+        "discovery": {
+          "title": "Analisi e Pianificazione",
+          "description": "Iniziamo comprendendo la tua visione, requisiti e vincoli per sviluppare un piano di progetto completo.",
+          "point1": "Analisi dei requisiti",
+          "point2": "Valutazione del sito",
+          "point3": "Pianificazione del budget"
+        },
+        "planning": {
+          "title": "Progettazione e Ingegneria",
+          "description": "I nostri team esperti creano progetti dettagliati e piani ingegneristici che danno vita alla tua visione.",
+          "point1": "Progettazione architettonica",
+          "point2": "Ingegneria strutturale",
+          "point3": "Coordinamento MEP"
+        },
+        "execution": {
+          "title": "Costruzione ed Esecuzione",
+          "description": "Artigiani qualificati e tecnologia avanzata si combinano per fornire una qualita costruttiva eccezionale.",
+          "point1": "Costruzione di qualita",
+          "point2": "Conformita alla sicurezza",
+          "point3": "Monitoraggio avanzamento"
+        },
+        "delivery": {
+          "title": "Consegna e Supporto",
+          "description": "Test approfonditi, consegna e supporto continuo garantiscono la tua completa soddisfazione.",
+          "point1": "Garanzia di qualita",
+          "point2": "Formazione clienti",
+          "point3": "Supporto in garanzia"
+        }
+      }
+    },
+    "industries": {
+      "eyebrow": "Settori Serviti",
+      "title": "Competenza Trasversale ai Settori",
+      "description": "Il nostro portfolio diversificato abbraccia molteplici settori, ognuno con requisiti unici che richiedono conoscenze specializzate e soluzioni personalizzate.",
+      "items": {
+        "healthcare": "Sanita",
+        "education": "Istruzione",
+        "hospitality": "Ospitalita",
+        "retail": "Retail",
+        "government": "Pubblico",
+        "energy": "Energia"
+      },
+      "sectorsServed": "Settori Industriali"
+    },
+    "technology": {
+      "eyebrow": "Innovazione e Tecnologia",
+      "title": "Costruire con la Tecnologia del Domani",
+      "description": "Sfruttiamo la tecnologia all'avanguardia per migliorare l'efficienza, aumentare la qualita e ottenere risultati migliori per i nostri clienti.",
+      "items": {
+        "bim": {
+          "title": "Tecnologia BIM",
+          "description": "Building Information Modeling per pianificazione precisa, coordinamento e visualizzazione durante tutto il ciclo di vita del progetto."
+        },
+        "drones": {
+          "title": "Rilevamento con Droni",
+          "description": "Rilevamento aereo e monitoraggio per valutazioni accurate del sito e tracciamento dei progressi in tempo reale."
+        },
+        "prefab": {
+          "title": "Prefabbricazione",
+          "description": "Produzione fuori sede di componenti edilizi per costruzioni piu rapide, efficienti e di maggiore qualita."
+        },
+        "iot": {
+          "title": "IoT e Edifici Intelligenti",
+          "description": "Sistemi connessi e sensori per una gestione intelligente degli edifici ed efficienza operativa."
+        }
+      }
+    },
+    "cta": {
+      "title": "Pronti a Iniziare il Vostro Progetto?",
+      "description": "Parliamo di come Bontera puo dare vita alla tua visione con le nostre soluzioni costruttive complete.",
+      "getQuote": "Richiedi un Preventivo",
+      "contactUs": "Contattaci"
+    }
+  },
+
+  "projectsPage": {
+    "meta": {
+      "title": "I Nostri Progetti | Bontera Costruzioni",
+      "description": "Esplora il portfolio di progetti iconici di Bontera che spaziano dai settori commerciale, residenziale, infrastrutturale e industriale in 12 paesi."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "projects": "Progetti"
+    },
+    "hero": {
+      "eyebrow": "Il Nostro Portfolio",
+      "title": "Progetti Iconici che Plasmano Skyline",
+      "subtitle": "Esplora il nostro portfolio diversificato di progetti completati e in corso che mostrano il nostro impegno verso eccellenza, innovazione e costruzione sostenibile.",
+      "stats": {
+        "projectsCompleted": "Progetti Completati",
+        "totalValue": "Valore Totale Progetti",
+        "countries": "Paesi",
+        "onTimeDelivery": "Consegna Puntuale"
+      }
+    },
+    "featured": {
+      "eyebrow": "Lavori in Evidenza",
+      "title": "Progetti Distintivi",
+      "description": "I nostri progetti piu significativi che dimostrano le nostre capacita e l'impegno verso l'eccellenza nelle costruzioni.",
+      "badge": "In Evidenza",
+      "viewProject": "Vedi Progetto"
+    },
+    "allProjects": {
+      "eyebrow": "Portfolio Completo",
+      "title": "Tutti i Progetti",
+      "showing": "Visualizzazione di {count} progetti",
+      "inCategory": "in"
+    },
+    "categories": {
+      "all": "Tutti i Progetti",
+      "commercial": "Commerciale",
+      "residential": "Residenziale",
+      "infrastructure": "Infrastrutture",
+      "industrial": "Industriale",
+      "renovation": "Ristrutturazione",
+      "publicWorks": "Opere Pubbliche"
+    },
+    "status": {
+      "completed": "Completato",
+      "ongoing": "In Corso",
+      "upcoming": "Prossimamente"
+    },
+    "projectCard": {
+      "value": "Valore",
+      "client": "Cliente",
+      "viewDetails": "Vedi Dettagli"
+    },
+    "noProjects": {
+      "title": "Nessun Progetto Trovato",
+      "description": "Non abbiamo trovato progetti corrispondenti ai tuoi criteri.",
+      "viewAll": "Vedi Tutti i Progetti"
+    },
+    "breakdown": {
+      "eyebrow": "Per Categoria",
+      "title": "Progetti in Ogni Settore",
+      "exploreCategory": "Esplora Categoria",
+      "categories": {
+        "commercial": {
+          "title": "Commerciale",
+          "description": "Torri per uffici, centri commerciali, hotel e sviluppi a uso misto che guidano il successo aziendale."
+        },
+        "residential": {
+          "title": "Residenziale",
+          "description": "Case di lusso, complessi residenziali e comunita pianificate dove le famiglie prosperano."
+        },
+        "infrastructure": {
+          "title": "Infrastrutture",
+          "description": "Ponti, autostrade, aeroporti e servizi che connettono e alimentano le comunita."
+        },
+        "industrial": {
+          "title": "Industriale",
+          "description": "Stabilimenti produttivi, magazzini e centri logistici ottimizzati per l'efficienza."
+        },
+        "renovation": {
+          "title": "Ristrutturazione",
+          "description": "Progetti di conservazione storica e ammodernamento che onorano il passato abbracciando il futuro."
+        },
+        "publicWorks": {
+          "title": "Opere Pubbliche",
+          "description": "Edifici governativi, centri civici e strutture pubbliche al servizio delle comunita."
+        }
+      }
+    },
+    "cta": {
+      "eyebrow": "Inizia il Tuo Progetto",
+      "title": "Pronti a Costruire la Vostra Visione?",
+      "description": "Che tu stia pianificando uno sviluppo commerciale, una comunita residenziale o un progetto infrastrutturale, il nostro team e pronto a dare vita alla tua visione.",
+      "startProject": "Inizia il Tuo Progetto",
+      "contactUs": "Contattaci"
+    }
+  },
+
+  "contactPage": {
+    "meta": {
+      "title": "Contattaci | Bontera Costruzioni",
+      "description": "Contatta Bontera Costruzioni. Visita i nostri uffici a Dubai, Riyadh, Il Cairo e Londra, oppure inviaci un messaggio per discutere del tuo progetto edilizio."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "contact": "Contatti"
+    },
+    "hero": {
+      "eyebrow": "Contattaci",
+      "title": "Costruiamo Qualcosa di Grande Insieme",
+      "subtitle": "Hai un progetto in mente? Il nostro team e pronto ad aiutarti a realizzare la tua visione. Contattaci attraverso uno qualsiasi dei nostri canali."
+    },
+    "methods": {
+      "phone": { "label": "Chiamaci", "description": "Lun-Ven dalle 8 alle 18" },
+      "email": { "label": "Scrivici", "description": "Rispondiamo entro 24 ore" },
+      "whatsapp": { "label": "WhatsApp", "description": "Supporto rapido via chat" },
+      "emergency": { "label": "Emergenza 24/7", "description": "Per questioni urgenti" }
+    },
+    "form": {
+      "eyebrow": "Invia un Messaggio",
+      "title": "Come Possiamo Aiutarti?",
+      "description": "Compila il modulo sottostante e il nostro team ti rispondera entro 24 ore.",
+      "fields": {
+        "name": { "label": "Nome Completo", "placeholder": "Mario Rossi" },
+        "email": { "label": "Indirizzo Email", "placeholder": "mario@azienda.it" },
+        "phone": { "label": "Numero di Telefono", "placeholder": "+39 02 123 456 7890" },
+        "company": { "label": "Nome Azienda", "placeholder": "La Tua Azienda" },
+        "subject": { "label": "Oggetto", "placeholder": "Come possiamo aiutarti?" },
+        "projectType": {
+          "label": "Tipo di Progetto",
+          "placeholder": "Seleziona un tipo di progetto",
+          "options": {
+            "commercial": "Costruzione Commerciale",
+            "residential": "Costruzione Residenziale",
+            "infrastructure": "Infrastrutture",
+            "industrial": "Industriale",
+            "renovation": "Ristrutturazione e Restauro",
+            "consulting": "Servizi di Consulenza",
+            "other": "Altro"
+          }
+        },
+        "budget": {
+          "label": "Budget Stimato",
+          "placeholder": "Seleziona fascia di budget",
+          "options": {
+            "under1m": "Meno di 1 Milione di Euro",
+            "1mTo5m": "1 - 5 Milioni di Euro",
+            "5mTo10m": "5 - 10 Milioni di Euro",
+            "10mTo50m": "10 - 50 Milioni di Euro",
+            "over50m": "Oltre 50 Milioni di Euro",
+            "notSure": "Non Ancora Definito"
+          }
+        },
+        "message": {
+          "label": "Il Tuo Messaggio",
+          "placeholder": "Raccontaci del tuo progetto, requisiti, tempistiche e qualsiasi altro dettaglio che ci aiuti a comprendere le tue esigenze..."
+        }
+      },
+      "errors": {
+        "nameRequired": "Inserisci il tuo nome",
+        "emailRequired": "Inserisci il tuo indirizzo email",
+        "emailInvalid": "Inserisci un indirizzo email valido",
+        "messageRequired": "Inserisci il tuo messaggio",
+        "messageTooShort": "Il tuo messaggio deve contenere almeno 20 caratteri"
+      },
+      "privacy": { "text": "Inviando questo modulo, accetti la nostra", "link": "Informativa sulla Privacy" },
+      "submit": "Invia Messaggio",
+      "submitting": "Invio in corso...",
+      "success": {
+        "title": "Messaggio Inviato con Successo!",
+        "message": "Grazie per averci contattato. Il nostro team esaminer il tuo messaggio e ti rispondera entro 24 ore."
+      },
+      "error": {
+        "title": "Qualcosa e Andato Storto",
+        "message": "Non e stato possibile inviare il tuo messaggio. Riprova o contattaci direttamente via telefono o email."
+      }
+    },
+    "departments": {
+      "title": "Contatta per Reparto",
+      "items": {
+        "general": "Informazioni Generali",
+        "sales": "Vendite e Sviluppo Commerciale",
+        "projects": "Gestione Progetti",
+        "careers": "Carriere e Risorse Umane",
+        "media": "Media e Stampa",
+        "support": "Supporto Tecnico"
+      }
+    },
+    "responseTime": {
+      "title": "Risposta Rapida Garantita",
+      "description": "Il nostro team risponde generalmente entro 24 ore nei giorni lavorativi. Per questioni urgenti, utilizza la nostra linea di emergenza."
+    },
+    "social": { "title": "Seguici" },
+    "offices": {
+      "eyebrow": "Le Nostre Sedi",
+      "title": "Visita i Nostri Uffici",
+      "description": "Con uffici in Medio Oriente e in Europa, siamo sempre vicini al tuo progetto.",
+      "headquarters": "Sede Centrale",
+      "viewOnMap": "Vedi sulla Mappa"
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Domande Frequenti",
+      "description": "Trova risposte rapide alle domande comuni sulla collaborazione con Bontera.",
+      "viewAll": "Vedi Tutte le FAQ",
+      "items": {
+        "timeline": {
+          "question": "Quanto tempo richiede un tipico progetto di costruzione?",
+          "answer": "Le tempistiche variano in base alla portata e complessita del progetto. Una piccola ristrutturazione commerciale potrebbe richiedere 3-6 mesi, mentre uno sviluppo su larga scala potrebbe estendersi per 2-3 anni. Durante la consulenza iniziale, forniremo una tempistica dettagliata specifica per il tuo progetto."
+        },
+        "budget": {
+          "question": "Come gestite i budget e le stime dei costi dei progetti?",
+          "answer": "Forniamo stime dei costi trasparenti e dettagliate durante la fase di pianificazione. Il nostro team utilizza software di stima avanzati e dati storici per garantire l'accuratezza. Offriamo anche opzioni di value engineering per ottimizzare i costi senza compromettere la qualita."
+        },
+        "process": {
+          "question": "Qual e il vostro processo di gestione progetti?",
+          "answer": "Il nostro processo collaudato in 4 fasi include Analisi e Pianificazione, Progettazione e Ingegneria, Costruzione ed Esecuzione, e Consegna e Supporto. Ogni fase ha traguardi chiari e avrai un project manager dedicato come unico punto di contatto."
+        },
+        "warranty": {
+          "question": "Quali garanzie offrite sui progetti completati?",
+          "answer": "Forniamo garanzie complete su tutti i nostri lavori. Gli elementi strutturali sono coperti per 10 anni, i sistemi meccanici ed elettrici per 5 anni e la manodopera generale per 2 anni. Sono disponibili anche opzioni di garanzia estesa."
+        }
+      }
+    },
+    "map": {
+      "placeholder": "La mappa interattiva sara visualizzata qui",
+      "visitUs": "Visita la Nostra Sede Centrale",
+      "getDirections": "Ottieni Indicazioni"
+    }
+  },
+
+  "careersPage": {
+    "meta": {
+      "title": "Carriere | Unisciti a Bontera Costruzioni",
+      "description": "Costruisci la tua carriera con Bontera. Esplora opportunita entusiasmanti in costruzioni, ingegneria, gestione progetti e molto altro nei nostri uffici globali."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "careers": "Carriere"
+    },
+    "hero": {
+      "eyebrow": "Unisciti al Nostro Team",
+      "title": "Costruisci il Tuo Futuro con Noi",
+      "subtitle": "Unisciti a un team di professionisti appassionati che stanno plasmando skyline e costruendo comunita in tutto il mondo. La tua prossima grande opportunita ti aspetta.",
+      "viewJobs": "Vedi Posizioni Aperte",
+      "ourCulture": "La Nostra Cultura",
+      "stats": {
+        "employees": "Membri del Team",
+        "countries": "Paesi",
+        "openPositions": "Posizioni Aperte",
+        "glassdoorRating": "Valutazione Glassdoor"
+      }
+    },
+    "whyJoin": {
+      "eyebrow": "Perche Bontera",
+      "title": "Perche Costruire la Tua Carriera Qui?",
+      "description": "In Bontera, crediamo che le nostre persone siano il nostro bene piu prezioso. Ci impegniamo a creare un ambiente dove il talento prospera, l'innovazione fiorisce e ogni membro del team puo raggiungere il suo pieno potenziale.",
+      "yearsGrowing": "Anni di Crescita Insieme",
+      "points": {
+        "impact": {
+          "title": "Fai la Differenza",
+          "description": "Lavora su progetti iconici che plasmano le comunita e lasciano un'eredita duratura."
+        },
+        "growth": {
+          "title": "Crescita Continua",
+          "description": "Accedi a formazione di livello mondiale, programmi di mentoring e percorsi di carriera chiari."
+        },
+        "team": {
+          "title": "Team Collaborativo",
+          "description": "Unisciti a un team diversificato e solidale che celebra insieme i successi."
+        },
+        "innovation": {
+          "title": "Innovazione Prima di Tutto",
+          "description": "Lavora con tecnologia all'avanguardia e metodi costruttivi pionieristici."
+        }
+      }
+    },
+    "featured": {
+      "eyebrow": "Opportunita in Evidenza",
+      "title": "Posizioni in Primo Piano",
+      "viewAll": "Vedi Tutte le Posizioni",
+      "badge": "In Evidenza",
+      "applyNow": "Candidati Ora"
+    },
+    "departments": {
+      "engineering": "Ingegneria",
+      "projectManagement": "Gestione Progetti",
+      "architecture": "Architettura e Design",
+      "operations": "Operazioni",
+      "finance": "Finanza",
+      "hr": "Risorse Umane"
+    },
+    "locations": {
+      "dubai": "Dubai, EAU",
+      "riyadh": "Riyadh, KSA",
+      "cairo": "Il Cairo, Egitto",
+      "london": "Londra, UK"
+    },
+    "jobTypes": {
+      "fullTime": "Tempo Pieno",
+      "partTime": "Part-Time",
+      "contract": "Contratto",
+      "internship": "Stage"
+    },
+    "benefits": {
+      "eyebrow": "Benefici e Vantaggi",
+      "title": "Ci Prendiamo Cura del Nostro Team",
+      "subtitle": "Un pacchetto completo di benefici progettato per supportare la tua salute, il tuo benessere economico e l'equilibrio vita-lavoro.",
+      "items": {
+        "health": {
+          "title": "Salute e Benessere",
+          "description": "Copertura medica, dentale e oculistica completa per te e la tua famiglia, piu programmi benessere e abbonamenti in palestra."
+        },
+        "retirement": {
+          "title": "Piani Pensionistici",
+          "description": "Piani di risparmio pensionistico competitivi con contributo aziendale per assicurare il tuo futuro finanziario."
+        },
+        "learning": {
+          "title": "Formazione e Sviluppo",
+          "description": "Opportunita di apprendimento continuo incluse certificazioni, conferenze e programmi di rimborso delle tasse universitarie."
+        },
+        "vacation": {
+          "title": "Ferie Generose",
+          "description": "Politica flessibile per le ferie, festivita pagate e opportunita di anno sabbatico per ricaricarti ed esplorare."
+        },
+        "flexibility": {
+          "title": "Flessibilita Lavorativa",
+          "description": "Accordi di lavoro flessibili e opzioni di lavoro da remoto per mantenere l'equilibrio vita-lavoro."
+        },
+        "growth": {
+          "title": "Crescita Professionale",
+          "description": "Percorsi di carriera chiari, programmi di mentoring e opportunita di avanzamento nelle nostre operazioni globali."
+        }
+      }
+    },
+    "culture": {
+      "eyebrow": "La Nostra Cultura",
+      "title": "La Vita in Bontera",
+      "description": "Promuoviamo una cultura di eccellenza, collaborazione e miglioramento continuo dove ogni voce conta.",
+      "values": {
+        "innovation": {
+          "title": "Innovazione",
+          "description": "Abbracciamo nuove idee e tecnologie all'avanguardia per fornire soluzioni migliori."
+        },
+        "teamwork": {
+          "title": "Lavoro di Squadra",
+          "description": "La collaborazione e al centro di tutto cio che facciamo, celebrando prospettive diverse."
+        },
+        "excellence": {
+          "title": "Eccellenza",
+          "description": "Ci atteniamo ai piu alti standard in ogni progetto che intraprendiamo."
+        },
+        "safety": {
+          "title": "Sicurezza al Primo Posto",
+          "description": "Il benessere del nostro team e delle comunita e sempre la nostra priorita assoluta."
+        }
+      }
+    },
+    "testimonials": {
+      "eyebrow": "Storie dei Dipendenti",
+      "title": "Ascolta il Nostro Team",
+      "quotes": {
+        "engineer": "Entrare in Bontera e stata la migliore decisione della mia carriera. I progetti sono stimolanti, il team e solidale e c'e sempre spazio per crescere. Ho avuto opportunita qui che non avrei mai pensato possibili.",
+        "manager": "Cio che amo di piu di Bontera e la cultura della collaborazione. Tutti, dalla dirigenza ai nuovi assunti, lavorano insieme verso obiettivi comuni. E davvero come una famiglia.",
+        "architect": "La scala e complessita dei progetti in Bontera e impareggiabile. Ho potuto lavorare su edifici iconici che resteranno per generazioni. E incredibilmente gratificante vedere il proprio lavoro plasmare gli skyline delle citta."
+      }
+    },
+    "openings": {
+      "eyebrow": "Posizioni Aperte",
+      "title": "Trova il Tuo Ruolo Ideale",
+      "showing": "Visualizzazione di {count} posizioni",
+      "apply": "Candidati"
+    },
+    "filters": {
+      "allDepartments": "Tutti i Reparti",
+      "allLocations": "Tutte le Sedi"
+    },
+    "noJobs": {
+      "title": "Nessuna Posizione Trovata",
+      "description": "Non abbiamo trovato posizioni corrispondenti ai tuoi criteri. Prova a modificare i filtri o torna presto a controllare.",
+      "clearFilters": "Cancella Filtri"
+    },
+    "cta": {
+      "title": "Non Trovi il Ruolo Giusto?",
+      "description": "Siamo sempre alla ricerca di persone talentuose da aggiungere al nostro team. Inviaci il tuo curriculum e ti terremo in considerazione per opportunita future.",
+      "browseJobs": "Esplora Tutti i Lavori",
+      "sendResume": "Invia il Tuo Curriculum"
+    }
+  },
+
+  "newsPage": {
+    "meta": {
+      "title": "Notizie e Approfondimenti | Bontera Costruzioni",
+      "description": "Rimani aggiornato con le ultime notizie di Bontera, annunci di progetti, approfondimenti di settore e aggiornamenti aziendali dalle nostre operazioni globali."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "news": "Notizie"
+    },
+    "hero": {
+      "eyebrow": "Notizie e Approfondimenti",
+      "title": "Storie che Costruiscono il Domani",
+      "subtitle": "Rimani informato con gli ultimi aggiornamenti da Bontera, inclusi traguardi dei progetti, tendenze del settore e annunci aziendali."
+    },
+    "featured": {
+      "eyebrow": "Storie in Evidenza",
+      "title": "Ultime Notizie",
+      "description": "Gli aggiornamenti e gli annunci piu importanti dalle nostre operazioni globali."
+    },
+    "allNews": {
+      "eyebrow": "Tutti gli Articoli",
+      "title": "Sfoglia Tutte le Notizie",
+      "showing": "Visualizzazione di {count} articoli",
+      "inCategory": "in"
+    },
+    "categories": {
+      "all": "Tutte le Notizie",
+      "companyNews": "Notizie Aziendali",
+      "projects": "Progetti",
+      "industry": "Settore",
+      "sustainability": "Sostenibilita",
+      "awards": "Premi",
+      "events": "Eventi"
+    },
+    "readMore": "Leggi di Piu",
+    "minRead": "{minutes} min di lettura",
+    "articles": {
+      "news-001": {
+        "title": "Bontera Vince Contratto Infrastrutturale NEOM da 2,5 Miliardi di Dollari",
+        "excerpt": "In un traguardo storico, Bontera e stata selezionata come appaltatore principale per un importante sviluppo infrastrutturale all'interno del mega-progetto NEOM, segnando il nostro contratto piu grande di sempre."
+      },
+      "news-002": {
+        "title": "Le 10 Principali Tendenze di Costruzione Sostenibile che Plasmeranno il 2024",
+        "excerpt": "Dai materiali a zero emissioni alla gestione degli edifici basata sull'IA, esplora le innovazioni che stanno trasformando il modo in cui costruiamo per un futuro piu sostenibile."
+      },
+      "news-003": {
+        "title": "Marina Tower Ottiene la Certificazione LEED Platinum",
+        "excerpt": "Il nostro sviluppo di punta a uso misto ha ricevuto la piu alta valutazione di sostenibilita, dimostrando l'impegno di Bontera verso costruzioni ecologicamente responsabili."
+      },
+      "news-004": {
+        "title": "Bontera Riceve il Premio Eccellenza nelle Costruzioni 2024",
+        "excerpt": "Il prestigioso premio di settore riconosce il nostro approccio innovativo alla consegna dei progetti e l'impegno per la qualita in tutto il nostro portfolio."
+      },
+      "news-005": {
+        "title": "Nuova Sede Regionale Apre a Riyadh",
+        "excerpt": "Espandendo la nostra presenza in Arabia Saudita, il nuovo ufficio servira come hub per le nostre crescenti operazioni nei progetti Vision 2030 del Regno."
+      },
+      "news-006": {
+        "title": "Punti Chiave dal Global Infrastructure Summit 2024",
+        "excerpt": "Il nostro team condivide approfondimenti dall'evento principale del settore, coprendo tecnologie emergenti, tendenze degli investimenti e opportunita collaborative."
+      },
+      "news-007": {
+        "title": "Integrare la Tecnologia degli Edifici Intelligenti: Una Guida Pratica",
+        "excerpt": "Scopri come stiamo incorporando sensori IoT, sistemi automatizzati e gestione basata sull'IA nei progetti di costruzione moderni."
+      },
+      "news-008": {
+        "title": "Cerimonia di Inaugurazione per Complesso Sanitario da 400 Milioni di Dollari",
+        "excerpt": "Inizia ufficialmente la costruzione della struttura medica all'avanguardia che servira oltre 2 milioni di residenti nell'area metropolitana."
+      },
+      "news-009": {
+        "title": "Bontera si Impegna per la Neutralita Carbonica entro il 2030",
+        "excerpt": "La nostra roadmap completa di sostenibilita delinea i passi che stiamo compiendo per raggiungere zero emissioni nette in tutte le operazioni."
+      },
+      "news-010": {
+        "title": "Partnership Strategica con Studio di Architettura Globale",
+        "excerpt": "La collaborazione portera competenze di design di livello mondiale ai nostri progetti in Medio Oriente e Nord Africa."
+      },
+      "news-011": {
+        "title": "Dipendenti in Primo Piano: Incontra le Nostre Stelle di Gennaio",
+        "excerpt": "Celebriamo i membri eccezionali del team che hanno dato il massimo questo mese, mostrando il talento che guida il successo di Bontera."
+      },
+      "news-012": {
+        "title": "Innovazioni nella Tecnologia per la Sicurezza nei Cantieri",
+        "excerpt": "Esplorando i piu recenti dispositivi indossabili, sistemi di monitoraggio e applicazioni IA che stanno rendendo i nostri cantieri piu sicuri che mai."
+      }
+    },
+    "noArticles": {
+      "title": "Nessun Articolo Trovato",
+      "description": "Non abbiamo trovato articoli in questa categoria. Prova a selezionare una categoria diversa o torna presto per nuovi contenuti.",
+      "viewAll": "Vedi Tutti gli Articoli"
+    },
+    "newsletter": {
+      "eyebrow": "Rimani Aggiornato",
+      "title": "Iscriviti alla Nostra Newsletter",
+      "description": "Ricevi le ultime notizie, aggiornamenti sui progetti e approfondimenti di settore direttamente nella tua casella di posta.",
+      "placeholder": "Inserisci il tuo indirizzo email",
+      "subscribe": "Iscriviti",
+      "privacy": "Rispettiamo la tua privacy. Puoi annullare l'iscrizione in qualsiasi momento."
+    },
+    "media": {
+      "eyebrow": "Stampa e Media",
+      "title": "Richieste Media",
+      "description": "Per richieste stampa, interviste o risorse media, il nostro team comunicazione e pronto ad assisterti.",
+      "email": "Contatto Media",
+      "phone": "Linea Stampa",
+      "downloadKit": "Scarica Press Kit",
+      "featuredIn": "Come Visto Su"
+    }
+  },
+
+  "quotePage": {
+    "meta": {
+      "title": "Richiedi un Preventivo | Bontera Costruzioni",
+      "description": "Ottieni un preventivo gratuito e senza impegno per il tuo progetto edilizio. Raccontaci la tua visione e il nostro team fornira una proposta dettagliata entro 48 ore."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "quote": "Richiedi Preventivo"
+    },
+    "hero": {
+      "eyebrow": "Inizia Ora",
+      "title": "Richiedi il Tuo Preventivo Gratuito",
+      "subtitle": "Raccontaci del tuo progetto e ricevi una proposta dettagliata e personalizzata dal nostro team di esperti. Senza impegno, senza costi nascosti.",
+      "trust": {
+        "free": "Preventivo 100% Gratuito",
+        "response": "Risposta in 48 Ore",
+        "obligation": "Senza Impegno"
+      }
+    },
+    "form": {
+      "eyebrow": "Richiesta Progetto",
+      "title": "Raccontaci del Tuo Progetto",
+      "description": "Compila il modulo sottostante e il nostro team preparera un preventivo dettagliato su misura per le tue esigenze specifiche.",
+      "steps": {
+        "contact": "Info Contatto",
+        "project": "Dettagli Progetto",
+        "details": "Info Aggiuntive"
+      },
+      "step1": { "title": "Informazioni di Contatto" },
+      "step2": { "title": "Dettagli del Progetto" },
+      "step3": { "title": "Informazioni Aggiuntive" },
+      "fields": {
+        "firstName": "Nome",
+        "lastName": "Cognome",
+        "email": "Indirizzo Email",
+        "phone": "Numero di Telefono",
+        "company": "Nome Azienda",
+        "role": "Il Tuo Ruolo",
+        "rolePlaceholder": "es. Proprietario, Project Manager, Architetto",
+        "projectType": "Tipo di Progetto",
+        "projectLocation": "Ubicazione Progetto",
+        "projectLocationPlaceholder": "Citta, Paese",
+        "projectSize": "Dimensione Progetto",
+        "budget": "Budget Stimato",
+        "timeline": "Tempistiche Previste",
+        "description": "Descrizione Progetto",
+        "descriptionPlaceholder": "Descrivi il tuo progetto in dettaglio, includendo ambito, obiettivi e requisiti specifici...",
+        "requirements": "Servizi Richiesti",
+        "referralSource": "Come ci hai conosciuto?",
+        "preferredContact": "Metodo di Contatto Preferito",
+        "selectOption": "Seleziona un'opzione"
+      },
+      "projectTypes": {
+        "commercial": "Costruzione Commerciale",
+        "residential": "Costruzione Residenziale",
+        "infrastructure": "Infrastrutture",
+        "industrial": "Industriale",
+        "renovation": "Ristrutturazione e Restauro",
+        "mixedUse": "Sviluppo a Uso Misto",
+        "healthcare": "Struttura Sanitaria",
+        "education": "Istituto Scolastico",
+        "hospitality": "Ospitalita e Turismo",
+        "other": "Altro"
+      },
+      "projectSizes": {
+        "small": "Piccolo (< 500 mq)",
+        "medium": "Medio (500 - 5.000 mq)",
+        "large": "Grande (5.000 - 50.000 mq)",
+        "megaProject": "Mega Progetto (> 50.000 mq)"
+      },
+      "budgetRanges": {
+        "under500k": "Meno di 500.000 Euro",
+        "500kTo1m": "500.000 - 1 Milione di Euro",
+        "1mTo5m": "1 - 5 Milioni di Euro",
+        "5mTo10m": "5 - 10 Milioni di Euro",
+        "10mTo50m": "10 - 50 Milioni di Euro",
+        "50mTo100m": "50 - 100 Milioni di Euro",
+        "over100m": "Oltre 100 Milioni di Euro"
+      },
+      "timelines": {
+        "immediate": "Inizio Immediato",
+        "1to3months": "1-3 Mesi",
+        "3to6months": "3-6 Mesi",
+        "6to12months": "6-12 Mesi",
+        "over12months": "Oltre 12 Mesi",
+        "flexible": "Flessibile"
+      },
+      "requirements": {
+        "design": "Design e Architettura",
+        "permits": "Permessi e Approvazioni",
+        "projectManagement": "Gestione Progetti",
+        "sustainability": "Sostenibilita/LEED",
+        "bim": "Servizi BIM",
+        "turnkey": "Soluzione Chiavi in Mano"
+      },
+      "referralSources": {
+        "search": "Motore di Ricerca",
+        "referral": "Passaparola",
+        "socialMedia": "Social Media",
+        "advertisement": "Pubblicita",
+        "event": "Evento/Conferenza",
+        "other": "Altro"
+      },
+      "contactMethods": {
+        "email": "Email",
+        "phone": "Telefono",
+        "whatsapp": "WhatsApp"
+      },
+      "privacy": {
+        "text": "Inviando questo modulo, accetti la nostra",
+        "link": "Informativa sulla Privacy",
+        "and": "e i",
+        "terms": "Termini di Servizio"
+      },
+      "buttons": {
+        "previous": "Precedente",
+        "next": "Passo Successivo",
+        "submit": "Invia Richiesta",
+        "submitting": "Invio in corso..."
+      },
+      "errors": {
+        "required": "Questo campo e obbligatorio",
+        "invalidEmail": "Inserisci un indirizzo email valido",
+        "descriptionTooShort": "Fornisci almeno 50 caratteri"
+      },
+      "success": {
+        "title": "Richiesta di Preventivo Inviata!",
+        "message": "Grazie per il tuo interesse in Bontera. Il nostro team esaminer i dettagli del tuo progetto e ti contatter entro 48 ore con una proposta personalizzata.",
+        "reference": "Numero di Riferimento"
+      },
+      "error": {
+        "title": "Invio Fallito",
+        "message": "Non e stato possibile elaborare la tua richiesta. Riprova o contattaci direttamente."
+      }
+    },
+    "sidebar": {
+      "whyUs": {
+        "title": "Perche Scegliere Bontera?",
+        "experience": "Anni di Esperienza",
+        "projects": "Progetti Completati",
+        "onTime": "Consegna Puntuale",
+        "clients": "Clienti Soddisfatti"
+      },
+      "contact": {
+        "title": "Preferisci Parlare?",
+        "description": "Il nostro team e disponibile per discutere direttamente del tuo progetto.",
+        "phone": "Chiamaci",
+        "email": "Scrivici",
+        "whatsapp": "WhatsApp"
+      },
+      "hours": {
+        "title": "Orari Ufficio",
+        "weekdays": "Lunedi - Venerdi",
+        "saturday": "Sabato",
+        "sunday": "Domenica",
+        "closed": "Chiuso"
+      }
+    },
+    "process": {
+      "eyebrow": "Come Funziona",
+      "title": "Dalla Richiesta alla Proposta",
+      "description": "Il nostro processo snello garantisce di ricevere un preventivo completo e accurato rapidamente.",
+      "steps": {
+        "submit": {
+          "title": "Invia la Tua Richiesta",
+          "description": "Compila il nostro modulo dettagliato con le informazioni e i requisiti del tuo progetto."
+        },
+        "review": {
+          "title": "Esaminiamo e Analizziamo",
+          "description": "I nostri esperti esaminano la tua richiesta e analizzano i requisiti del progetto."
+        },
+        "consultation": {
+          "title": "Consulenza Iniziale",
+          "description": "Programmiamo una chiamata per discutere i dettagli e rispondere alle tue domande."
+        },
+        "proposal": {
+          "title": "Ricevi la Tua Proposta",
+          "description": "Ottieni una proposta dettagliata e personalizzata con prezzi trasparenti."
+        }
+      }
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Domande Comuni sui Preventivi",
+      "description": "Trova risposte alle domande frequenti sul nostro processo di preventivazione.",
+      "stillQuestions": {
+        "title": "Hai ancora domande?",
+        "description": "Il nostro team e qui per aiutarti. Contattaci per assistenza personalizzata.",
+        "link": "Contatta il Nostro Team"
+      },
+      "items": {
+        "timeline": {
+          "question": "Quanto tempo ci vuole per ricevere un preventivo?",
+          "answer": "Generalmente forniamo preventivi iniziali entro 48 ore dalla ricezione della richiesta. Per progetti complessi che richiedono analisi dettagliate, ti contatteremo per discutere le aspettative sui tempi."
+        },
+        "cost": {
+          "question": "C'e un costo per ottenere un preventivo?",
+          "answer": "No, i nostri preventivi sono completamente gratuiti e senza impegno. Crediamo nella comunicazione trasparente e vogliamo che tu abbia tutte le informazioni necessarie per prendere una decisione informata."
+        },
+        "included": {
+          "question": "Cosa e incluso nel preventivo?",
+          "answer": "I nostri preventivi includono suddivisioni dettagliate dei costi, tempistiche del progetto, ambito del lavoro, specifiche dei materiali e termini di pagamento. Forniamo anche informazioni su permessi, assicurazioni e copertura di garanzia."
+        },
+        "changes": {
+          "question": "Posso apportare modifiche dopo aver ricevuto il preventivo?",
+          "answer": "Assolutamente. Comprendiamo che i requisiti del progetto possono evolversi. Siamo lieti di rivedere i preventivi in base a specifiche aggiornate o modifiche dell'ambito senza costi aggiuntivi."
+        }
+      }
+    },
+    "testimonial": {
+      "quote": "Il processo di preventivazione e stato incredibilmente fluido. Il team di Bontera si e preso il tempo per comprendere i nostri requisiti unici e ha fornito una proposta dettagliata e trasparente che ci ha dato completa fiducia nel procedere.",
+      "author": "Mohammad Al-Farsi",
+      "role": "CEO, Al-Farsi Developments"
+    },
+    "cta": {
+      "title": "Pronti a Iniziare il Vostro Progetto?",
+      "description": "Unisciti a centinaia di clienti soddisfatti che hanno scelto Bontera per le loro esigenze costruttive.",
+      "getQuote": "Ottieni il Tuo Preventivo Gratuito",
+      "viewProjects": "Vedi i Nostri Progetti"
+    }
+  }
+}

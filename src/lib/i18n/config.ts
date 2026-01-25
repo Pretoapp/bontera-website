@@ -1,27 +1,29 @@
-export const locales = ['de', 'en', 'fr', 'es', 'tr', 'ar'] as const;
+export const locales = ['de', 'en', 'fr', 'nl', 'it', 'ku', 'tr'] as const;
 export type Locale = (typeof locales)[number];
 
 export const defaultLocale: Locale = 'de';
 
 export const localeNames: Record<Locale, string> = {
+  de: 'Deutsch',
   en: 'English',
   fr: 'Français',
-  es: 'Español',
-  de: 'Deutsch',
+  nl: 'Néerlandais',
+  it: 'Italiano',
+  ku: 'Kurmaçi',
   tr: 'Türkçe',
-  ar: 'العربية',
 };
 
 export const localeShortNames: Record<Locale, string> = {
+  de: 'DE',
   en: 'EN',
   fr: 'FR',
-  es: 'ES',
-  de: 'DE',
+  nl: 'NL',
+  it: 'IT',
+  ku: 'KU',
   tr: 'TR',
-  ar: 'AR',
 };
 
-export const rtlLocales: Locale[] = ['ar'];
+export const rtlLocales: Locale[] = ['ku'];
 
 export const isRtlLocale = (locale: Locale): boolean => {
   return rtlLocales.includes(locale);
