@@ -84,7 +84,15 @@
     "eyebrow": "Uitgelicht Werk",
     "headline": "Projecten die Skylines Definieren",
     "viewAll": "Bekijk Alle Projecten",
-    "noProjects": "Er zijn momenteel geen projecten om weer te geven."
+    "noProjects": "Er zijn momenteel geen projecten om weer te geven.",
+    "viewProject": "Bekijk Project",
+    "projectValue": "Projectwaarde",
+    "client": "Opdrachtgever",
+    "year": "Jaar",
+    "showcase": {
+      "eyebrow": "Projectshowcase",
+      "headline": "Ontdek Ons Nieuwste Werk"
+    }
   },
 
   "stats": {

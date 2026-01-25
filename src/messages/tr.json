@@ -84,7 +84,15 @@
     "eyebrow": "Öne Çıkan İşler",
     "headline": "Ufuk Çizgilerini Tanımlayan Projeler",
     "viewAll": "Tüm Projeleri Görün",
-    "noProjects": "Şu anda gösterilecek proje yok."
+    "noProjects": "Şu anda gösterilecek proje yok.",
+    "viewProject": "Projeyi Görün",
+    "projectValue": "Proje Değeri",
+    "client": "Müşteri",
+    "year": "Yıl",
+    "showcase": {
+      "eyebrow": "Proje Vitrini",
+      "headline": "En Son Çalışmalarımızı Keşfedin"
+    }
   },
 
   "stats": {

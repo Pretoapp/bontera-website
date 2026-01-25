@@ -84,7 +84,15 @@
     "eyebrow": "Ausgewählte Arbeiten",
     "headline": "Projekte, die Skylines prägen",
     "viewAll": "Alle Projekte ansehen",
-    "noProjects": "Derzeit sind keine Projekte verfügbar."
+    "noProjects": "Derzeit sind keine Projekte verfügbar.",
+    "viewProject": "Projekt ansehen",
+    "projectValue": "Projektwert",
+    "client": "Auftraggeber",
+    "year": "Jahr",
+    "showcase": {
+      "eyebrow": "Projektschaufenster",
+      "headline": "Entdecken Sie unsere neuesten Arbeiten"
+    }
   },
 
   "stats": {
