@@ -209,7 +209,7 @@ export default async function CareersPage({ params, searchParams }: Props) {
   const { department: deptFilter, location: locFilter } = await searchParams;
  const t = await getTranslations({ locale, namespace: "careersPage" });
 
-  const isRTL = locale === "ar";
+  const isRTL = locale === "ku";
 
   // Filter jobs
   const filteredJobs = jobListings.filter((job) => {

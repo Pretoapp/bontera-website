@@ -117,7 +117,7 @@ export default async function ProjectsPage({ params, searchParams }: Props) {
   const { locale } = await params;
   const { category: categoryFilter } = await searchParams;
   const t = await getTranslations({ locale, namespace: "projects" });
-  const isRTL = locale === "ar";
+  const isRTL = locale === "ku";
 
   const allProjects = await getProjects(locale);
 
