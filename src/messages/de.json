@@ -92,6 +92,11 @@
     "showcase": {
       "eyebrow": "Projektschaufenster",
       "headline": "Entdecken Sie unsere neuesten Arbeiten"
+    },
+    "categories": {
+      "eyebrow": "Nach Kategorie durchsuchen",
+      "headline": "Entdecken Sie unsere Expertise",
+      "explore": "Erkunden"
     }
   },
 

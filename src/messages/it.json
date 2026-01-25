@@ -92,6 +92,11 @@
     "showcase": {
       "eyebrow": "Vetrina Progetti",
       "headline": "Scopri i Nostri Ultimi Lavori"
+    },
+    "categories": {
+      "eyebrow": "Sfoglia per categoria",
+      "headline": "Scopri la Nostra Competenza",
+      "explore": "Esplora"
     }
   },
 
