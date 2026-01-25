@@ -577,7 +577,7 @@ export default async function ProjectsPage({ params, searchParams }: Props) {
             ].map((cat) => (
               <Link
                 key={cat.key}
-                href={`/${locale}/projects?category=${cat.key}`}
+                href={`/${locale}/projects/category/${cat.key === 'publicWorks' ? 'public-works' : cat.key}`}
                 className="group bg-bontera-navy-800 p-8 border border-bontera-grey-700 hover:border-gray-500 transition-all duration-300"
               >
                 <div className="flex items-start justify-between mb-6">

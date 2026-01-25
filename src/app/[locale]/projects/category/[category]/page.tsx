@@ -1,4 +1,4 @@
-// src/app/[locale]/projects/[category]/page.tsx
+// src/app/[locale]/projects/category/[category]/page.tsx
 // ═══════════════════════════════════════════════════════════════════════════
 // BONTERA - PROJECT CATEGORY PAGE
 // Filtered projects by category with dedicated pages
@@ -315,7 +315,7 @@ export default async function ProjectCategoryPage({ params }: Props) {
               return (
                 <Link
                   key={cat}
-                  href={`/${locale}/projects/${cat}`}
+                  href={`/${locale}/projects/category/${cat}`}
                   className={`px-5 py-2.5 text-sm font-medium whitespace-nowrap transition-all ${
                     isActive
                       ? "bg-bontera-navy-600 text-white"
@@ -492,7 +492,7 @@ export default async function ProjectCategoryPage({ params }: Props) {
               return (
                 <Link
                   key={cat}
-                  href={`/${locale}/projects/${cat}`}
+                  href={`/${locale}/projects/category/${cat}`}
                   className="group bg-bontera-navy-800 p-8 border border-bontera-grey-700 hover:border-gray-500 transition-all duration-300"
                 >
                   <div className="flex items-start justify-between mb-6">
