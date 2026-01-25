@@ -92,6 +92,11 @@
     "showcase": {
       "eyebrow": "Projectshowcase",
       "headline": "Ontdek Ons Nieuwste Werk"
+    },
+    "categories": {
+      "eyebrow": "Blader op categorie",
+      "headline": "Ontdek Onze Expertise",
+      "explore": "Verkennen"
     }
   },
 

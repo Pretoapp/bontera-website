@@ -92,6 +92,11 @@
     "showcase": {
       "eyebrow": "Peshangaha Projeyan",
       "headline": "Kareyen Me yen Heri Nu Bibin"
+    },
+    "categories": {
+      "eyebrow": "Li gor kategoriye bigerin",
+      "headline": "Pisporiyen Me Bibin",
+      "explore": "Bibin"
     }
   },
 

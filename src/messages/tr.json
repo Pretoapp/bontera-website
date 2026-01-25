@@ -92,6 +92,11 @@
     "showcase": {
       "eyebrow": "Proje Vitrini",
       "headline": "En Son Çalışmalarımızı Keşfedin"
+    },
+    "categories": {
+      "eyebrow": "Kategoriye Göre Gözat",
+      "headline": "Uzmanlığımızı Keşfedin",
+      "explore": "Keşfet"
     }
   },
 

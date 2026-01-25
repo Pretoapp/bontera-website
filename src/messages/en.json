@@ -97,6 +97,11 @@
     "showcase": {
       "eyebrow": "Project Showcase",
       "headline": "Explore Our Latest Work"
+    },
+    "categories": {
+      "eyebrow": "Browse by Category",
+      "headline": "Explore Our Expertise",
+      "explore": "Explore"
     }
   },
 
