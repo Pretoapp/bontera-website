@@ -290,14 +290,14 @@ export default async function HomePage({ params }: Props) {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { key: "commercial", image: "/images/slide-2.jpg" },
-              { key: "infrastructure", image: "/images/slide-3.jpg" },
-              { key: "residential", image: "/images/careers-feature.jpg" },
-              { key: "industrial", image: "/images/expertise-civil.jpg" },
-              { key: "renovation", image: "/images/expertise-restoration.jpg" },
-              { key: "consulting", image: "/images/expertise-building.jpg" },
+              { key: "commercial", slug: "commercial", image: "/images/slide-2.jpg" },
+              { key: "realEstate", slug: "real-estate", image: "/images/slide-3.jpg" },
+              { key: "residential", slug: "residential", image: "/images/careers-feature.jpg" },
+              { key: "industrial", slug: "industrial", image: "/images/expertise-civil.jpg" },
+              { key: "renovation", slug: "renovation", image: "/images/expertise-restoration.jpg" },
+              { key: "consulting", slug: "consulting", image: "/images/expertise-building.jpg" },
             ].map((service) => (
-              <Link key={service.key} href={`/${locale}/services/${service.key}`} className="group relative h-80 lg:h-96 overflow-hidden">
+              <Link key={service.key} href={`/${locale}/services/${service.slug}`} className="group relative h-80 lg:h-96 overflow-hidden">
                 <Image src={service.image} alt={t(`services.items.${service.key}.title`)} fill className="object-cover transition-transform duration-700 group-hover:scale-110" sizes="(max-width: 768px) 100vw, 33vw" />
                 <div className="absolute inset-0 bg-gradient-to-t from-bontera-navy-900 via-bontera-navy-900/40 to-transparent opacity-80 group-hover:opacity-90 transition-opacity" />
                 <div className="absolute inset-0 p-8 flex flex-col justify-end">
