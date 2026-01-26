@@ -10,7 +10,7 @@
   },
 
   "metadata": {
-    "title": "Bontera | Construction & Infrastructures",
+    "title": "Bontera | Construction & Real Estates",
     "description": "Des solutions de construction et d’infrastructure de classe mondiale. De la conception à la livraison, nous réalisons des projets qui redessinent les skylines et transforment les communautés."
   },
 
@@ -57,9 +57,9 @@
         "title": "Construction commerciale",
         "description": "Tours de bureaux, complexes commerciaux et projets hôteliers réalisés selon les standards les plus élevés."
       },
-      "infrastructure": {
-        "title": "Infrastructures",
-        "description": "Routes, ponts, réseaux et ouvrages publics qui relient les communautés."
+      "realEstate": {
+        "title": "Développement Immobilier",
+        "description": "Projets immobiliers résidentiels et commerciaux haut de gamme avec une valeur d'investissement exceptionnelle."
       },
       "residential": {
         "title": "Résidentiel",
@@ -183,8 +183,8 @@
     "services": {
       "commercialConstruction": "Construction commerciale",
       "commercialConstructionDesc": "Bureaux, commerce, hôtellerie",
-      "infrastructure": "Infrastructures",
-      "infrastructureDesc": "Routes, ponts, réseaux",
+      "realEstate": "Immobilier",
+      "realEstateDesc": "Développement immobilier premium",
       "renovation": "Rénovation & restauration",
       "renovationDesc": "Modernisation et restauration patrimoniale",
       "consulting": "Conseil",
@@ -249,7 +249,7 @@
 
     "serviceLinks": {
       "commercial": "Construction commerciale",
-      "infrastructure": "Infrastructures",
+      "realEstate": "Real Estates",
       "residential": "Résidentiel",
       "industrial": "Industriel",
       "renovation": "Rénovation",
@@ -473,14 +473,24 @@
             "hospitality": "Hôtellerie"
           }
         },
-        "infrastructure": {
-          "title": "Développement d’infrastructures",
-          "description": "Nous construisons les fondations des sociétés modernes: ponts, routes, réseaux et infrastructures de transport qui relient et font progresser les communautés.",
+        "realEstate": {
+          "title": "Développement Immobilier",
+          "description": "Nous créons des investissements immobiliers exceptionnels grâce au développement stratégique de propriétés résidentielles, commerciales et mixtes de premier choix offrant une valeur durable.",
           "features": {
-            "bridges": "Ponts & tunnels",
-            "highways": "Routes & autoroutes",
-            "utilities": "Réseaux",
-            "airports": "Aéroports & ports"
+            "residential": "Projets Résidentiels",
+            "commercial": "Propriétés Commerciales",
+            "mixedUse": "Développements Mixtes",
+            "investment": "Propriétés d'Investissement"
+          }
+        },
+        "real-estate": {
+          "title": "Développement Immobilier",
+          "description": "Nous créons des investissements immobiliers exceptionnels grâce au développement stratégique de propriétés résidentielles, commerciales et mixtes de premier choix offrant une valeur durable.",
+          "features": {
+            "residential": "Projets Résidentiels",
+            "commercial": "Propriétés Commerciales",
+            "mixedUse": "Développements Mixtes",
+            "investment": "Propriétés d'Investissement"
           }
         },
         "residential": {
@@ -642,7 +652,7 @@
       "all": "Tous les projets",
       "commercial": "Commercial",
       "residential": "Résidentiel",
-      "infrastructure": "Infrastructures",
+      "realEstate": "Real Estates",
       "industrial": "Industriel",
       "renovation": "Rénovation",
       "publicWorks": "Ouvrages publics"
@@ -675,8 +685,8 @@
           "title": "Résidentiel",
           "description": "Maisons de prestige, résidences et communautés planifiées où les familles s’épanouissent."
         },
-        "infrastructure": {
-          "title": "Infrastructures",
+        "realEstate": {
+          "title": "Real Estates",
           "description": "Ponts, routes, aéroports et réseaux qui connectent et alimentent les territoires."
         },
         "industrial": {
@@ -738,7 +748,7 @@
           "options": {
             "commercial": "Construction commerciale",
             "residential": "Construction résidentielle",
-            "infrastructure": "Infrastructures",
+            "realEstate": "Real Estates",
             "industrial": "Industriel",
             "renovation": "Rénovation & restauration",
             "consulting": "Conseil",
@@ -1052,7 +1062,7 @@
         "excerpt": "En renforçant notre présence en Arabie saoudite, ce nouveau bureau servira de hub pour nos opérations liées à Vision 2030."
       },
       "news-006": {
-        "title": "Points clés du Global Infrastructure Summit 2024",
+        "title": "Points clés du Global Real Estate Summit 2024",
         "excerpt": "Notre équipe partage ses enseignements sur les technologies émergentes, les tendances d’investissement et les opportunités de collaboration."
       },
       "news-007": {
@@ -1159,7 +1169,7 @@
       "projectTypes": {
         "commercial": "Construction commerciale",
         "residential": "Construction résidentielle",
-        "infrastructure": "Infrastructures",
+        "realEstate": "Real Estates",
         "industrial": "Industriel",
         "renovation": "Rénovation & restauration",
         "mixedUse": "Développement mixte",
