@@ -652,7 +652,8 @@
       "all": "Tous les projets",
       "commercial": "Commercial",
       "residential": "Résidentiel",
-      "realEstate": "Real Estates",
+      "infrastructure": "Infrastructure",
+      "realEstate": "Immobilier",
       "industrial": "Industriel",
       "renovation": "Rénovation",
       "publicWorks": "Ouvrages publics"
