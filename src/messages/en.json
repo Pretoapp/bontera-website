@@ -280,6 +280,13 @@
       "title": "About Us | Bontera Construction",
       "description": "Learn about Bontera's 25+ year legacy of excellence in construction, our mission, values, and the leadership team driving innovation in the industry."
     },
+    "quickNav": {
+      "ourStory": "Our Story",
+      "leadership": "Leadership",
+      "values": "Values",
+      "certifications": "Certifications",
+      "partners": "Partners"
+    },
     "breadcrumb": {
       "home": "Home",
       "about": "About Us"
@@ -1453,7 +1460,548 @@
     "startProject": "Start Your Project",
     "contactUs": "Contact Us"
   }
-}
+},
+
+"leadershipPage": {
+  "meta": {
+    "title": "Leadership Team | Bontera Construction",
+    "description": "Meet the experienced leaders driving Bontera's vision of excellence in construction. Our executive team brings decades of combined experience."
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "about": "About",
+    "leadership": "Leadership"
+  },
+  "hero": {
+    "eyebrow": "Our Leadership",
+    "title": "Meet the Team Behind Our Success",
+    "subtitle": "Experienced professionals with a shared vision of excellence, driving innovation and delivering exceptional results across every project."
+  },
+  "executive": {
+    "eyebrow": "Executive Team",
+    "title": "Executive Leadership",
+    "subtitle": "Our executive team brings together decades of industry experience and a shared commitment to building excellence.",
+    "members": {
+      "ceo": {
+        "name": "Mr. Nedjet",
+        "title": "Chief Executive Officer",
+        "bio": "With over 30 years in construction, Mr. Nedjet founded Bontera with a vision to transform the industry through innovation and quality."
+      },
+      "coo": {
+        "name": "Sarah Mitchell",
+        "title": "Chief Operating Officer",
+        "bio": "Sarah oversees all operational aspects, ensuring projects are delivered on time and to the highest standards."
+      },
+      "cto": {
+        "name": "Dr. Michael Chen",
+        "title": "Chief Technology Officer",
+        "bio": "Michael leads our digital transformation initiatives, implementing cutting-edge construction technologies."
+      },
+      "cfo": {
+        "name": "Elena Rodriguez",
+        "title": "Chief Financial Officer",
+        "bio": "Elena manages our financial strategy, ensuring sustainable growth and value creation for stakeholders."
+      }
+    }
+  },
+  "philosophy": {
+    "eyebrow": "Our Philosophy",
+    "title": "Leadership That Inspires Excellence",
+    "paragraph1": "At Bontera, leadership means more than managing projects and people. It means setting the standard for excellence, fostering innovation, and creating an environment where every team member can thrive.",
+    "paragraph2": "Our leaders are hands-on professionals who understand the complexities of construction from the ground up. They lead by example, prioritizing safety, quality, and sustainability in every decision.",
+    "quote": "Great buildings start with great leadership. We invest in our people because we know that's what builds lasting success.",
+    "quoteAuthor": "Mr. Nedjet",
+    "quoteTitle": "Founder & CEO",
+    "stats": {
+      "experience": "Years Combined Experience",
+      "projects": "Projects Led",
+      "countries": "Countries",
+      "satisfaction": "Client Satisfaction"
+    }
+  },
+  "senior": {
+    "eyebrow": "Senior Leadership",
+    "title": "Senior Management Team",
+    "subtitle": "Our senior leaders bring specialized expertise across all aspects of construction and business operations.",
+    "members": {
+      "vpEngineering": {
+        "name": "James Thompson",
+        "title": "VP of Engineering"
+      },
+      "vpOperations": {
+        "name": "Maria Santos",
+        "title": "VP of Operations"
+      },
+      "vpBusiness": {
+        "name": "Ahmed Hassan",
+        "title": "VP of Business Development"
+      },
+      "vpHR": {
+        "name": "Lisa Park",
+        "title": "VP of Human Resources"
+      },
+      "vpSafety": {
+        "name": "Robert Williams",
+        "title": "VP of Safety & Compliance"
+      },
+      "vpSustainability": {
+        "name": "Dr. Anna Schmidt",
+        "title": "VP of Sustainability"
+      }
+    }
+  },
+  "board": {
+    "eyebrow": "Board of Directors",
+    "title": "Our Board",
+    "subtitle": "Distinguished leaders providing strategic guidance and governance.",
+    "members": {
+      "chairman": {
+        "name": "Mr. Nedjet",
+        "title": "Chairman"
+      },
+      "director1": {
+        "name": "Dr. Klaus Weber",
+        "title": "Independent Director"
+      },
+      "director2": {
+        "name": "Margaret Chen",
+        "title": "Independent Director"
+      },
+      "director3": {
+        "name": "Omar Al-Rashid",
+        "title": "Independent Director"
+      }
+    }
+  },
+  "cta": {
+    "title": "Join Our Team of Professionals",
+    "description": "We're always looking for talented individuals who share our passion for excellence in construction.",
+    "joinTeam": "View Careers",
+    "contactUs": "Contact Us"
+  }
+},
+
+"valuesPage": {
+  "meta": {
+    "title": "Mission & Values | Bontera Construction",
+    "description": "Discover Bontera's mission, vision, and core values that guide every project we undertake and every relationship we build."
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "about": "About",
+    "values": "Values"
+  },
+  "hero": {
+    "eyebrow": "What We Stand For",
+    "title": "Our Mission, Vision & Values",
+    "subtitle": "The principles that guide every decision we make and every project we undertake."
+  },
+  "mission": {
+    "eyebrow": "Our Mission",
+    "title": "Building Excellence, Delivering Value",
+    "description": "To deliver exceptional construction solutions that exceed client expectations, foster innovation, and contribute positively to the communities we serve, while maintaining the highest standards of safety, quality, and sustainability."
+  },
+  "vision": {
+    "eyebrow": "Our Vision",
+    "title": "Shaping Tomorrow's World",
+    "description": "To be the global leader in sustainable construction, recognized for transforming bold architectural visions into enduring structures that inspire, serve, and stand the test of time."
+  },
+  "coreValues": {
+    "eyebrow": "Core Values",
+    "title": "The Pillars of Our Success",
+    "subtitle": "These fundamental values shape our culture and define how we work with clients, partners, and each other.",
+    "items": {
+      "excellence": {
+        "title": "Excellence",
+        "description": "We pursue excellence in every detail, from initial design to final delivery, ensuring our work stands as a testament to quality craftsmanship."
+      },
+      "integrity": {
+        "title": "Integrity",
+        "description": "We conduct business with honesty and transparency, building trust with clients, partners, and communities through ethical practices."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "We embrace cutting-edge technologies and methodologies to deliver smarter, more efficient, and more sustainable construction solutions."
+      },
+      "safety": {
+        "title": "Safety First",
+        "description": "The wellbeing of our team and communities is paramount. We maintain rigorous safety standards and protocols on every project."
+      },
+      "sustainability": {
+        "title": "Sustainability",
+        "description": "We are committed to environmentally responsible practices that minimize our footprint and maximize positive impact for future generations."
+      },
+      "partnership": {
+        "title": "Partnership",
+        "description": "We believe in collaborative relationships, working closely with clients and stakeholders to achieve shared success and lasting value."
+      }
+    }
+  },
+  "principles": {
+    "eyebrow": "Guiding Principles",
+    "title": "How We Work",
+    "items": {
+      "clientFirst": {
+        "title": "Client First",
+        "description": "Every decision we make is guided by what's best for our clients. We listen, understand, and deliver solutions that exceed expectations."
+      },
+      "qualityDriven": {
+        "title": "Quality Driven",
+        "description": "We never compromise on quality. From materials to workmanship, we hold ourselves to the highest standards in the industry."
+      },
+      "teamEmpowerment": {
+        "title": "Team Empowerment",
+        "description": "We invest in our people, providing training, resources, and opportunities for growth. Empowered teams deliver exceptional results."
+      },
+      "continuousImprovement": {
+        "title": "Continuous Improvement",
+        "description": "We constantly seek ways to improve our processes, embrace new technologies, and evolve our practices to stay ahead of industry trends."
+      }
+    }
+  },
+  "culture": {
+    "eyebrow": "Our Culture",
+    "title": "A Culture of Excellence",
+    "paragraph1": "At Bontera, our culture is built on mutual respect, collaboration, and a shared commitment to excellence. We foster an environment where every team member feels valued and empowered to contribute their best work.",
+    "paragraph2": "We celebrate diversity, encourage innovation, and recognize that our greatest strength lies in our people. Together, we're building more than structures—we're building careers, communities, and a legacy of excellence.",
+    "quote": "Culture isn't just about what we do—it's about who we are and how we treat each other. At Bontera, excellence is a way of life.",
+    "quoteAuthor": "Sarah Mitchell",
+    "quoteTitle": "Chief Operating Officer",
+    "teamMembers": "Team Members Worldwide"
+  },
+  "cta": {
+    "title": "Experience the Bontera Difference",
+    "description": "Discover how our values translate into exceptional results for your project.",
+    "contactUs": "Contact Us",
+    "learnMore": "Learn More"
+  }
+},
+
+"certificationsPage": {
+  "meta": {
+    "title": "Certifications & Standards | Bontera Construction",
+    "description": "Explore Bontera's internationally recognized certifications and quality standards that ensure excellence in every project."
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "about": "About",
+    "certifications": "Certifications"
+  },
+  "hero": {
+    "eyebrow": "Quality & Standards",
+    "title": "Certified Excellence in Construction",
+    "subtitle": "Our commitment to quality is validated by internationally recognized certifications and industry accreditations."
+  },
+  "overview": {
+    "eyebrow": "Our Commitment",
+    "title": "Setting the Standard for Quality",
+    "paragraph1": "At Bontera, quality isn't just a goal—it's a fundamental part of who we are. Our comprehensive certification portfolio demonstrates our unwavering commitment to excellence in every aspect of construction.",
+    "paragraph2": "These certifications aren't just credentials on paper. They represent thousands of hours of training, rigorous audits, and a company-wide dedication to maintaining the highest standards in quality, safety, and environmental responsibility.",
+    "stats": {
+      "safeHours": "Safe Work Hours",
+      "compliance": "Audit Compliance",
+      "incidents": "Major Safety Incidents",
+      "trained": "Staff Certified"
+    }
+  },
+  "certifications": {
+    "eyebrow": "Our Certifications",
+    "title": "Industry-Leading Standards",
+    "subtitle": "Each certification represents our dedication to specific areas of excellence.",
+    "since": "Since",
+    "items": {
+      "iso9001": {
+        "name": "ISO 9001:2015",
+        "category": "Quality Management",
+        "description": "International standard for quality management systems, ensuring consistent delivery of products and services that meet customer requirements."
+      },
+      "iso14001": {
+        "name": "ISO 14001:2015",
+        "category": "Environmental Management",
+        "description": "Framework for effective environmental management, helping us minimize our environmental footprint and comply with regulations."
+      },
+      "iso45001": {
+        "name": "ISO 45001:2018",
+        "category": "Occupational Health & Safety",
+        "description": "International standard for occupational health and safety management, ensuring safe and healthy workplaces."
+      },
+      "leed": {
+        "name": "LEED Certified Partner",
+        "category": "Green Building",
+        "description": "Leadership in Energy and Environmental Design certification, demonstrating our expertise in sustainable building practices."
+      },
+      "osha": {
+        "name": "OSHA Certified",
+        "category": "Workplace Safety",
+        "description": "Compliance with Occupational Safety and Health Administration standards, ensuring safe working conditions."
+      },
+      "pmp": {
+        "name": "PMP Certified Team",
+        "category": "Project Management",
+        "description": "Project Management Professional certification, demonstrating expertise in project management best practices."
+      }
+    }
+  },
+  "accreditations": {
+    "eyebrow": "Accreditations",
+    "title": "Industry Accreditations",
+    "subtitle": "Additional accreditations that validate our expertise across specialized areas.",
+    "items": {
+      "breeam": {
+        "name": "BREEAM Assessor"
+      },
+      "greenStar": {
+        "name": "Green Star Accredited"
+      },
+      "wellBuilding": {
+        "name": "WELL AP"
+      },
+      "passivHaus": {
+        "name": "Passive House Certified"
+      }
+    }
+  },
+  "commitment": {
+    "eyebrow": "Quality Assurance",
+    "title": "Our Quality Commitment",
+    "paragraph1": "Quality assurance is embedded in every phase of our projects. From initial planning through final handover, we implement rigorous quality control measures that ensure consistent excellence.",
+    "paragraph2": "Our dedicated quality team conducts regular audits, inspections, and reviews to identify and address any issues before they impact project delivery. This proactive approach has resulted in industry-leading client satisfaction rates.",
+    "badges": {
+      "quality": "Quality Assured",
+      "safety": "Safety Certified",
+      "environment": "Environmentally Responsible"
+    }
+  },
+  "cta": {
+    "title": "Build with Confidence",
+    "description": "Partner with a certified leader in construction excellence.",
+    "contactUs": "Contact Us",
+    "viewProjects": "View Projects"
+  }
+},
+
+"partnersPage": {
+  "meta": {
+    "title": "Partners & Affiliates | Bontera Construction",
+    "description": "Discover Bontera's strategic partnerships with leading companies in construction, technology, and materials supply."
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "about": "About",
+    "partners": "Partners"
+  },
+  "hero": {
+    "eyebrow": "Strategic Alliances",
+    "title": "Building Success Through Partnership",
+    "subtitle": "We collaborate with industry leaders to deliver exceptional results and drive innovation in construction."
+  },
+  "philosophy": {
+    "eyebrow": "Partnership Philosophy",
+    "title": "Stronger Together",
+    "paragraph1": "At Bontera, we believe that the best projects are built through collaboration. Our strategic partnerships extend our capabilities and allow us to deliver comprehensive solutions that exceed client expectations.",
+    "paragraph2": "We carefully select partners who share our commitment to quality, innovation, and sustainability. Together, we combine expertise, resources, and technologies to tackle the most challenging construction projects.",
+    "stats": {
+      "partners": "Strategic Partners",
+      "years": "Years of Partnerships",
+      "countries": "Countries"
+    }
+  },
+  "strategic": {
+    "eyebrow": "Strategic Partners",
+    "title": "Engineering & Design Partners",
+    "subtitle": "World-class engineering and design firms that help bring ambitious visions to life.",
+    "partners": {
+      "arcadis": {
+        "name": "Arcadis",
+        "specialty": "Design & Consultancy"
+      },
+      "aecom": {
+        "name": "AECOM",
+        "specialty": "Infrastructure"
+      },
+      "arup": {
+        "name": "Arup",
+        "specialty": "Engineering"
+      },
+      "wsp": {
+        "name": "WSP",
+        "specialty": "Professional Services"
+      }
+    }
+  },
+  "technology": {
+    "eyebrow": "Technology Partners",
+    "title": "Driving Digital Innovation",
+    "subtitle": "Technology partners that power our digital transformation and enable smarter construction.",
+    "partners": {
+      "autodesk": {
+        "name": "Autodesk",
+        "solution": "BIM & Design Software"
+      },
+      "trimble": {
+        "name": "Trimble",
+        "solution": "Construction Technology"
+      },
+      "procore": {
+        "name": "Procore",
+        "solution": "Project Management"
+      },
+      "oracle": {
+        "name": "Oracle",
+        "solution": "Enterprise Solutions"
+      }
+    }
+  },
+  "suppliers": {
+    "eyebrow": "Material Partners",
+    "title": "Premium Material Suppliers",
+    "subtitle": "Trusted suppliers providing quality materials that meet our exacting standards.",
+    "partners": {
+      "holcim": {
+        "name": "Holcim",
+        "products": "Cement & Aggregates"
+      },
+      "heidelberg": {
+        "name": "Heidelberg Materials",
+        "products": "Building Materials"
+      },
+      "caterpillar": {
+        "name": "Caterpillar",
+        "products": "Heavy Equipment"
+      },
+      "hilti": {
+        "name": "Hilti",
+        "products": "Construction Tools"
+      }
+    }
+  },
+  "associations": {
+    "eyebrow": "Industry Memberships",
+    "title": "Professional Associations",
+    "description": "We maintain active memberships in leading industry associations, staying connected to best practices and contributing to industry advancement.",
+    "items": {
+      "agc": {
+        "name": "AGC of America"
+      },
+      "usgbc": {
+        "name": "U.S. Green Building Council"
+      },
+      "fidic": {
+        "name": "FIDIC"
+      },
+      "ciob": {
+        "name": "CIOB"
+      },
+      "rics": {
+        "name": "RICS"
+      },
+      "aia": {
+        "name": "AIA"
+      }
+    }
+  },
+  "cta": {
+    "title": "Become a Partner",
+    "description": "Interested in partnering with Bontera? We're always looking for organizations that share our commitment to excellence.",
+    "becomePartner": "Partner With Us",
+    "learnMore": "Learn More"
+  }
+},
+
+"ourStoryPage": {
+  "meta": {
+    "title": "Our Story | Bontera Construction",
+    "description": "Discover the journey of Bontera from a small construction firm in 1999 to a global leader in construction excellence."
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "about": "About",
+    "ourStory": "Our Story"
+  },
+  "hero": {
+    "eyebrow": "Our Journey",
+    "title": "25 Years of Building Dreams",
+    "subtitle": "From humble beginnings to global recognition, this is the story of how we became industry leaders in construction excellence."
+  },
+  "origin": {
+    "eyebrow": "Where It All Began",
+    "title": "A Vision Takes Shape",
+    "paragraph1": "In 1999, Mr. Nedjet founded Bontera with a simple yet ambitious vision: to transform the construction industry through innovation, integrity, and an unwavering commitment to excellence.",
+    "paragraph2": "Starting with a small team and a single project, we quickly built a reputation for quality craftsmanship and reliable delivery. Word spread, and soon we were taking on larger, more complex projects.",
+    "paragraph3": "What set us apart from the beginning was our approach. We didn't just build structures—we built relationships. We listened to our clients, understood their needs, and delivered solutions that exceeded expectations.",
+    "founded": "Year Founded",
+    "location": "Berlin, Germany"
+  },
+  "founderQuote": {
+    "quote": "When I started Bontera, I had one goal: to build structures that would stand the test of time. Twenty-five years later, that mission hasn't changed—we're just doing it on a much bigger scale.",
+    "name": "Mr. Nedjet",
+    "title": "Founder & Chairman"
+  },
+  "timeline": {
+    "eyebrow": "Our Journey",
+    "title": "Milestones That Define Us",
+    "milestones": {
+      "founding": {
+        "title": "The Beginning",
+        "description": "Bontera was founded in Berlin with a vision to revolutionize the construction industry through quality and innovation."
+      },
+      "firstMajor": {
+        "title": "First Major Project",
+        "description": "Completed our first major commercial development, establishing our reputation for excellence in the region."
+      },
+      "expansion": {
+        "title": "Regional Expansion",
+        "description": "Expanded operations across Germany and into neighboring European markets, growing our team and capabilities."
+      },
+      "international": {
+        "title": "Going Global",
+        "description": "Entered international markets in the Middle East and Asia, establishing regional offices and partnerships."
+      },
+      "sustainability": {
+        "title": "Sustainability Leadership",
+        "description": "Launched comprehensive sustainability initiative, achieving LEED certification and committing to carbon-neutral operations."
+      },
+      "technology": {
+        "title": "Digital Transformation",
+        "description": "Implemented advanced BIM technology and AI-driven project management, revolutionizing our construction processes."
+      },
+      "pandemic": {
+        "title": "Resilience & Adaptation",
+        "description": "Successfully navigated global challenges, maintaining project delivery while prioritizing team safety and innovation."
+      },
+      "future": {
+        "title": "Building Tomorrow",
+        "description": "Continuing to innovate with smart building technologies and expanding our sustainable construction portfolio worldwide."
+      }
+    }
+  },
+  "achievements": {
+    "eyebrow": "By The Numbers",
+    "title": "Our Achievements",
+    "items": {
+      "projects": "Projects Completed",
+      "employees": "Team Members",
+      "countries": "Countries",
+      "awards": "Industry Awards"
+    }
+  },
+  "future": {
+    "eyebrow": "Looking Forward",
+    "title": "The Next Chapter",
+    "paragraph1": "As we look to the future, we remain committed to the values that have guided us for 25 years. We will continue to innovate, embrace new technologies, and push the boundaries of what's possible in construction.",
+    "paragraph2": "Our vision is to be the global leader in sustainable construction, delivering projects that not only meet today's needs but also contribute to a better future for generations to come.",
+    "focus": {
+      "innovation": "Technology & Innovation",
+      "sustainability": "Sustainable Practices",
+      "global": "Global Expansion"
+    }
+  },
+  "cta": {
+    "title": "Be Part of Our Story",
+    "description": "Join us as we continue to build the future. Whether as a client, partner, or team member, there's a place for you in the Bontera story.",
+    "startProject": "Start Your Project",
+    "joinTeam": "Join Our Team"
+  }
 }
 
 
