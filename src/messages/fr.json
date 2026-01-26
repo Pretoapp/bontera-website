@@ -15,16 +15,17 @@
   },
 
   "hero": {
-    "eyebrow": "L’excellence en construction depuis 1999",
+    "eyebrow": "L'excellence en construction depuis 2004",
     "titleLine1": "Nous bâtissons",
-    "titleLine2": "l’avenir",
-    "description": "Des solutions de construction et d’infrastructure de classe mondiale. De la conception à la livraison, nous réalisons des projets qui redessinent les skylines et transforment les communautés.",
+    "titleLine2": "l'avenir",
+    "description": "Forte de plus de 20 ans d'expérience dans la construction, le développement de projets et le courtage immobilier, nous accompagnons nos clients à chaque étape avec sécurité, qualité et transparence.",
     "ctaPrimary": "Voir nos projets",
     "ctaSecondary": "Nous contacter",
     "stats": {
-      "years": "Années d’excellence",
-      "projects": "Projets livrés",
-      "countries": "Pays"
+      "years": "Années d'expérience",
+      "sqm": "Mètres carrés livrés",
+      "budget": "Budget géré",
+      "languages": "Langues parlées"
     }
   },
 
@@ -39,7 +40,7 @@
       },
       "heritage": {
         "title": "Un héritage solide",
-        "description": "Plus de 25 ans d’expertise transmise à travers des générations de bâtisseurs et d’ingénieurs."
+        "description": "Plus de 20 ans d'expertise en construction, restauration et développement immobilier à travers l'Europe."
       },
       "sustainability": {
         "title": "Un futur durable",
@@ -53,29 +54,29 @@
     "headline": "Des solutions de construction complètes",
     "viewAll": "Découvrir tous les services",
     "items": {
-      "commercial": {
-        "title": "Construction commerciale",
-        "description": "Tours de bureaux, complexes commerciaux et projets hôteliers réalisés selon les standards les plus élevés."
+      "construction": {
+        "title": "Construction",
+        "description": "Construction résidentielle, commerciale et tertiaire réalisée avec sécurité, qualité et respect strict des normes en vigueur."
+      },
+      "restoration": {
+        "title": "Restauration & Rénovation",
+        "description": "Restauration experte de bâtiments classés et rénovation résidentielle dans le respect de l'intégrité architecturale."
+      },
+      "projectManagement": {
+        "title": "Gestion de Projet",
+        "description": "Gestion de projet de bout en bout pour clients privés et entreprises, garantissant transparence et respect des délais."
       },
       "realEstate": {
-        "title": "Développement Immobilier",
-        "description": "Projets immobiliers résidentiels et commerciaux haut de gamme avec une valeur d'investissement exceptionnelle."
+        "title": "Promotion Immobilière",
+        "description": "Développement de biens résidentiels et commerciaux axé sur la durabilité et la création de valeur à long terme."
       },
-      "residential": {
-        "title": "Résidentiel",
-        "description": "Maisons de luxe et programmes résidentiels avec un savoir-faire d’exception."
-      },
-      "industrial": {
-        "title": "Industriel",
-        "description": "Sites de production, entrepôts et complexes industriels."
-      },
-      "renovation": {
-        "title": "Rénovation",
-        "description": "Transformation d’ouvrages existants, modernisation et restauration patrimoniale."
+      "brokerage": {
+        "title": "Courtage Immobilier",
+        "description": "Services professionnels de courtage pour l'achat, la vente et la location de biens résidentiels et commerciaux."
       },
       "consulting": {
         "title": "Conseil",
-        "description": "Accompagnement expert en faisabilité, planification et gestion de projet."
+        "description": "Accompagnement expert en faisabilité, planification, gestion des coûts et conformité réglementaire."
       }
     }
   },
@@ -265,8 +266,15 @@
 
   "about": {
     "meta": {
-      "title": "À propos | Bontera Construction",
-      "description": "Découvrez l’héritage de Bontera (25+ ans) dans la construction, notre mission, nos valeurs et l’équipe dirigeante qui porte l’innovation."
+      "title": "À propos | Bontera GmbH",
+      "description": "Découvrez les 20+ ans d'excellence de Bontera dans la construction, le développement de projets et le courtage immobilier. Sécurité, qualité et transparence."
+    },
+    "quickNav": {
+      "ourStory": "Notre Histoire",
+      "leadership": "Direction",
+      "values": "Valeurs",
+      "certifications": "Certifications",
+      "partners": "Partenaires"
     },
     "breadcrumb": {
       "home": "Accueil",
@@ -274,63 +282,63 @@
     },
     "hero": {
       "eyebrow": "À propos de Bontera",
-      "title": "L’excellence en construction depuis 1999",
-      "subtitle": "Depuis plus de deux décennies, Bontera est à la pointe de l’innovation en construction, livrant des projets emblématiques qui façonnent les skylines et les communautés à travers le monde.",
+      "title": "L'excellence en construction depuis 2004",
+      "subtitle": "Forte de plus de 20 ans d'expérience dans la construction, le développement de projets et le courtage immobilier, nous accompagnons nos clients à chaque étape avec sécurité, qualité et transparence.",
       "stats": {
-        "years": "Années d’excellence",
-        "projects": "Projets terminés",
-        "countries": "Pays",
-        "employees": "Membres de l’équipe"
+        "years": "Années d'expérience",
+        "sqm": "Mètres carrés livrés",
+        "budget": "Budget géré",
+        "languages": "Langues parlées"
       }
     },
     "story": {
       "eyebrow": "Notre histoire",
       "title": "Un héritage qui transforme les ambitions en réalité",
-      "paragraph1": "Fondée en 1999, Bontera a commencé comme une petite entreprise avec une grande vision: transformer l’environnement bâti grâce à l’innovation, à l’intégrité et à un engagement constant envers l’excellence. Ce qui a démarré avec une équipe de bâtisseurs passionnés est devenu un acteur mondial de la construction.",
-      "paragraph2": "Au cours des 25 dernières années, nous avons livré plus de 500 projets majeurs dans 12 pays, des tours commerciales iconiques aux communautés résidentielles durables. Chaque projet reflète notre exigence de qualité et notre conviction que l’architecture peut inspirer.",
-      "paragraph3": "Aujourd’hui, Bontera incarne ce qui est possible lorsque l’expertise rencontre l’ambition. Nous continuons à repousser les limites, à adopter de nouvelles technologies et à établir de nouveaux standards en matière de construction durable.",
-      "founderQuote": "Nous ne construisons pas seulement des bâtiments; nous créons les fondations sur lesquelles les communautés prospèrent et les générations avancent.",
+      "paragraph1": "Forte de plus de 20 ans d'expérience dans les domaines de la construction, du développement de projets et du courtage immobilier, nous accompagnons nos clients à chaque étape de leurs projets, depuis la conception jusqu'à la réalisation finale, en accordant une importance primordiale à la sécurité, à la qualité d'exécution et au respect strict des normes en vigueur.",
+      "paragraph2": "Nous garantissons transparence et respect des délais. Grâce à notre expertise technique et à notre connaissance du marché immobilier, nous proposons des solutions fiables, durables et adaptées aux besoins de chaque client. Notre engagement repose sur des valeurs essentielles : professionnalisme, rigueur et confiance.",
+      "paragraph3": "Conscients des enjeux environnementaux, nous intégrons des solutions éco-responsables, des matériaux de qualité et des méthodes de construction respectueuses de l'environnement. Chaque projet est pensé pour allier performance énergétique, durabilité et confort.",
+      "founderQuote": "Notre objectif est clair : offrir à nos partenaires et clients des projets immobiliers fiables, sécurisés et à forte valeur ajoutée.",
       "founderName": "Mr. Nedjet",
-      "founderTitle": "Fondateur & Président",
-      "yearsExcellence": "Années d’excellence",
+      "founderTitle": "Fondateur & Directeur Général",
+      "yearsExcellence": "Années d'excellence",
       "since": "Fondée"
     },
     "mission": {
       "title": "Notre mission",
-      "description": "Fournir des solutions de construction exceptionnelles qui dépassent les attentes des clients, favorisent l’innovation et contribuent positivement aux communautés que nous servons, tout en respectant les plus hauts standards de sécurité, de qualité et de durabilité."
+      "description": "Nous créons des solutions durables, sûres et économiquement viables pour les clients privés, les investisseurs et les entreprises. Pour ce faire, nous combinons une connaissance approfondie du marché, des conseils transparents et un solide réseau de partenaires financiers et immobiliers."
     },
     "vision": {
       "title": "Notre vision",
-      "description": "Être le leader mondial de la construction durable, reconnu pour transformer des visions architecturales audacieuses en structures durables qui inspirent, servent et résistent à l’épreuve du temps."
+      "description": "Être le partenaire de confiance pour la construction et l'immobilier en Europe, reconnu pour des projets alliant qualité, durabilité et création de valeur à long terme."
     },
     "values": {
       "eyebrow": "Nos principes",
       "title": "Nos valeurs fondamentales",
       "subtitle": "Ces principes guident chacune de nos décisions et chacun de nos projets.",
       "items": {
-        "excellence": {
-          "title": "Excellence",
-          "description": "Nous recherchons l’excellence dans chaque détail, de la conception initiale à la livraison finale."
+        "transparency": {
+          "title": "Transparence",
+          "description": "Nous conduisons nos affaires avec une totale honnêteté et ouverture, garantissant à nos clients une visibilité complète sur tous les aspects de leurs projets."
         },
-        "integrity": {
-          "title": "Intégrité",
-          "description": "Nous agissons avec honnêteté et transparence, en construisant la confiance avec nos clients, partenaires et communautés."
+        "reliability": {
+          "title": "Fiabilité",
+          "description": "Nous honorons nos engagements avec une gestion rigoureuse des coûts, le respect du budget garanti et une livraison dans les délais."
         },
-        "innovation": {
-          "title": "Innovation",
-          "description": "Nous adoptons des technologies et des méthodes avancées pour livrer des solutions plus intelligentes et plus efficaces."
+        "expertise": {
+          "title": "Expertise Technique",
+          "description": "Notre connaissance technique approfondie et notre gestion intégrée des projets garantissent une excellence constante à toutes les phases de construction."
         },
-        "safety": {
-          "title": "La sécurité avant tout",
-          "description": "Le bien-être de nos équipes et des communautés est primordial. Nous appliquons des standards stricts sur chaque chantier."
+        "integrated": {
+          "title": "Approche Intégrée",
+          "description": "Nous offrons une solution complète combinant construction et vente, fournissant un service sans couture de la conception à la livraison."
         },
         "sustainability": {
           "title": "Durabilité",
-          "description": "Nous nous engageons dans des pratiques responsables qui réduisent notre empreinte et maximisent notre impact positif."
+          "description": "Nous intégrons des solutions éco-responsables, des matériaux de qualité et des méthodes de construction respectueuses de l'environnement."
         },
-        "partnership": {
-          "title": "Partenariat",
-          "description": "Nous croyons aux relations collaboratives et travaillons étroitement avec les parties prenantes pour une réussite commune."
+        "valueCreation": {
+          "title": "Création de Valeur",
+          "description": "Nous nous concentrons sur l'augmentation de la valeur, la minimisation des risques et la stabilité à long terme pour tous nos clients et partenaires."
         }
       }
     },
