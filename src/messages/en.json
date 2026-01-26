@@ -20,16 +20,17 @@
 ,
 
   "hero": {
-    "eyebrow": "Building Excellence Since 1999",
+    "eyebrow": "Building Excellence Since 2004",
     "titleLine1": "We Build",
     "titleLine2": "The Future",
-    "description": "World-class construction and infrastructure solutions. From concept to completion, we deliver projects that define skylines and transform communities.",
+    "description": "With over 20 years of experience in construction, project development, and real estate brokerage, we support our clients at every stage of their projects with safety, quality, and transparency.",
     "ctaPrimary": "View Our Projects",
     "ctaSecondary": "Get In Touch",
     "stats": {
-      "years": "Years of Excellence",
-      "projects": "Projects Delivered",
-      "countries": "Countries"
+      "years": "Years of Experience",
+      "sqm": "Square Meters Delivered",
+      "budget": "Budget Managed",
+      "languages": "Languages Spoken"
     }
   },
 
@@ -44,7 +45,7 @@
       },
       "heritage": {
         "title": "Built on Heritage",
-        "description": "25+ years of expertise passed down through generations of master builders and engineers."
+        "description": "20+ years of expertise in construction, restoration, and real estate development across Europe."
       },
       "sustainability": {
         "title": "Sustainable Future",
@@ -58,29 +59,29 @@
     "headline": "Comprehensive Construction Solutions",
     "viewAll": "Explore All Services",
     "items": {
-      "commercial": {
-        "title": "Commercial Construction",
-        "description": "Office towers, retail complexes, and hospitality venues built to the highest standards."
+      "construction": {
+        "title": "Construction",
+        "description": "Residential, commercial, and tertiary construction projects built with safety, quality, and strict adherence to standards."
+      },
+      "restoration": {
+        "title": "Restoration & Renovation",
+        "description": "Expert restoration of classified heritage buildings and residential renovation with respect for architectural integrity."
+      },
+      "projectManagement": {
+        "title": "Project Management",
+        "description": "End-to-end project management for private clients and businesses, ensuring transparency and deadline compliance."
       },
       "realEstate": {
         "title": "Real Estate Development",
-        "description": "Premium residential and commercial real estate projects with exceptional investment value."
+        "description": "Residential and commercial property development with focus on sustainability and long-term value creation."
       },
-      "residential": {
-        "title": "Residential",
-        "description": "Luxury homes and residential developments with exceptional craftsmanship."
-      },
-      "industrial": {
-        "title": "Industrial",
-        "description": "Manufacturing facilities, warehouses, and industrial complexes."
-      },
-      "renovation": {
-        "title": "Renovation",
-        "description": "Transforming existing structures with modern updates and heritage restoration."
+      "brokerage": {
+        "title": "Real Estate Brokerage",
+        "description": "Professional brokerage services for purchase, sale, and rental of residential and commercial properties."
       },
       "consulting": {
         "title": "Consulting",
-        "description": "Expert guidance on feasibility, planning, and project management."
+        "description": "Expert guidance on feasibility, planning, cost management, and regulatory compliance."
       }
     }
   },
@@ -277,8 +278,8 @@
 
   "about": {
     "meta": {
-      "title": "About Us | Bontera Construction",
-      "description": "Learn about Bontera's 25+ year legacy of excellence in construction, our mission, values, and the leadership team driving innovation in the industry."
+      "title": "About Us | Bontera GmbH",
+      "description": "Learn about Bontera's 20+ years of excellence in construction, project development, and real estate brokerage. Safety, quality, and transparency in every project."
     },
     "quickNav": {
       "ourStory": "Our Story",
@@ -293,63 +294,63 @@
     },
     "hero": {
       "eyebrow": "About Bontera",
-      "title": "Building Excellence Since 1999",
-      "subtitle": "For over two decades, Bontera has been at the forefront of construction innovation, delivering landmark projects that shape skylines and communities across the globe.",
+      "title": "Building Excellence Since 2004",
+      "subtitle": "With over 20 years of experience in construction, project development, and real estate brokerage, we support our clients at every stage with safety, quality, and transparency.",
       "stats": {
-        "years": "Years of Excellence",
-        "projects": "Projects Completed",
-        "countries": "Countries",
-        "employees": "Team Members"
+        "years": "Years of Experience",
+        "sqm": "Square Meters Delivered",
+        "budget": "Budget Managed",
+        "languages": "Languages Spoken"
       }
     },
     "story": {
       "eyebrow": "Our Story",
       "title": "A Legacy of Building Dreams Into Reality",
-      "paragraph1": "Founded in 1999, Bontera began as a small construction firm with a big vision: to transform the built environment through innovation, integrity, and an unwavering commitment to excellence. What started as a team of passionate builders has grown into a global construction leader.",
-      "paragraph2": "Over the past 25 years, we have completed more than 500 landmark projects across 12 countries, from iconic commercial towers to sustainable residential communities. Each project reflects our dedication to quality craftsmanship and our belief that great buildings have the power to inspire.",
-      "paragraph3": "Today, Bontera stands as a testament to what's possible when expertise meets ambition. We continue to push boundaries, embrace new technologies, and set new standards in sustainable construction practices.",
-      "founderQuote": "We don't just construct buildings; we create the foundations for communities to thrive and generations to prosper.",
+      "paragraph1": "With over 20 years of experience in construction, project development, and real estate brokerage, we support our clients at every stage of their projects, from design to final completion, with a primary focus on safety, quality of execution, and strict compliance with current standards.",
+      "paragraph2": "We guarantee transparency and respect for deadlines. Thanks to our technical expertise and knowledge of the real estate market, we offer reliable, sustainable solutions tailored to each client's needs. Our commitment is based on essential values: professionalism, rigor, and trust.",
+      "paragraph3": "Whether it's construction, development, or marketing real estate, our expertise enables us to design and deliver sustainable, high-performance projects adapted to current market requirements. We integrate eco-responsible solutions, quality materials, and environmentally friendly construction methods.",
+      "founderQuote": "Our goal is clear: to offer our partners and clients reliable, secure real estate projects with high added value.",
       "founderName": "Mr. Nedjet",
-      "founderTitle": "Founder & Chairman",
+      "founderTitle": "Founder & Managing Director",
       "yearsExcellence": "Years of Excellence",
       "since": "Established"
     },
     "mission": {
       "title": "Our Mission",
-      "description": "To deliver exceptional construction solutions that exceed client expectations, foster innovation, and contribute positively to the communities we serve, while maintaining the highest standards of safety, quality, and sustainability."
+      "description": "We create sustainable, safe, and economically viable solutions for private clients, investors, and businesses. We combine in-depth market knowledge, transparent advice, and a solid network of financial and real estate partners."
     },
     "vision": {
       "title": "Our Vision",
-      "description": "To be the global leader in sustainable construction, recognized for transforming bold architectural visions into enduring structures that inspire, serve, and stand the test of time."
+      "description": "To be the trusted partner for construction and real estate in Europe, recognized for delivering projects that combine quality, sustainability, and long-term value creation."
     },
     "values": {
       "eyebrow": "What We Stand For",
       "title": "Our Core Values",
       "subtitle": "These principles guide every decision we make and every project we undertake.",
       "items": {
-        "excellence": {
-          "title": "Excellence",
-          "description": "We pursue excellence in every detail, from initial design to final delivery, ensuring our work stands as a testament to quality."
+        "transparency": {
+          "title": "Transparency",
+          "description": "We conduct business with complete honesty and openness, ensuring our clients have full visibility into every aspect of their projects."
         },
-        "integrity": {
-          "title": "Integrity",
-          "description": "We conduct business with honesty and transparency, building trust with clients, partners, and communities."
+        "reliability": {
+          "title": "Reliability",
+          "description": "We honor our commitments with rigorous cost management, guaranteed budget compliance, and on-time delivery."
         },
-        "innovation": {
-          "title": "Innovation",
-          "description": "We embrace cutting-edge technologies and methodologies to deliver smarter, more efficient construction solutions."
+        "expertise": {
+          "title": "Technical Expertise",
+          "description": "Our deep technical knowledge and integrated project management ensure consistent excellence across all construction phases."
         },
-        "safety": {
-          "title": "Safety First",
-          "description": "The wellbeing of our team and communities is paramount. We maintain rigorous safety standards on every project."
+        "integrated": {
+          "title": "Integrated Approach",
+          "description": "We offer a complete solution combining construction and sales, providing seamless service from concept to completion."
         },
         "sustainability": {
           "title": "Sustainability",
-          "description": "We are committed to environmentally responsible practices that minimize our footprint and maximize positive impact."
+          "description": "We integrate eco-responsible solutions, quality materials, and environmentally friendly construction methods in every project."
         },
-        "partnership": {
-          "title": "Partnership",
-          "description": "We believe in collaborative relationships, working closely with clients and stakeholders to achieve shared success."
+        "valueCreation": {
+          "title": "Value Creation",
+          "description": "We focus on increasing value, minimizing risks, and ensuring long-term stability for all our clients and partners."
         }
       }
     },
@@ -414,19 +415,31 @@
       "viewAll": "View All Certifications"
     },
     "global": {
-      "eyebrow": "Global Footprint",
-      "title": "Building Across Borders",
-      "description": "From the towering skylines of Dubai to the historic streets of Europe, Bontera's expertise spans continents. Our global presence allows us to bring world-class construction capabilities to projects anywhere.",
+      "eyebrow": "Our Reach",
+      "title": "Building Across Europe",
+      "description": "From Germany to Belgium and beyond, Bontera's expertise spans across Europe. We bring world-class construction and real estate capabilities to projects throughout the region.",
       "stats": {
-        "countries": "Countries",
-        "offices": "Regional Offices",
-        "continents": "Continents",
-        "clients": "International Clients"
+        "years": "Years Experience",
+        "sqm": "Sqm Delivered",
+        "budget": "Budget Managed",
+        "languages": "Languages"
+      }
+    },
+    "clients": {
+      "eyebrow": "Trusted By",
+      "title": "Our Clients",
+      "description": "We are proud to work with prestigious organizations and institutions across Europe.",
+      "list": {
+        "valens": "Valens SA",
+        "galere": "Galere SA",
+        "galeries": "Galeries Royales Saint-Hubert",
+        "nato": "NATO",
+        "denys": "Denys NV"
       }
     },
     "cta": {
       "title": "Ready to Build Something Extraordinary?",
-      "description": "Whether you're planning a commercial development, infrastructure project, or sustainable building, our team is ready to bring your vision to life.",
+      "description": "Whether you're planning a commercial development, restoration project, or real estate investment, our team is ready to bring your vision to life.",
       "contactUs": "Contact Us",
       "joinTeam": "Join Our Team"
     }
@@ -457,7 +470,7 @@
     "overview": {
       "eyebrow": "Our Expertise",
       "title": "Building Excellence Across Every Sector",
-      "description": "With over 25 years of experience, Bontera has developed deep expertise across diverse construction sectors. Our integrated approach combines innovative design, precision engineering, and sustainable practices to deliver projects that exceed expectations.",
+      "description": "With over 20 years of experience, Bontera has developed deep expertise across construction, restoration, and real estate sectors. Our integrated approach combines technical excellence, transparent practices, and sustainable solutions to deliver projects that exceed expectations.",
       "points": {
         "expertise": {
           "title": "Deep Industry Expertise",
@@ -648,7 +661,7 @@
   "projectsPage": {
     "meta": {
       "title": "Our Projects | Bontera Construction",
-      "description": "Explore Bontera's portfolio of landmark construction projects spanning commercial, residential, infrastructure, and industrial sectors across 12 countries."
+      "description": "Explore Bontera's portfolio of construction projects spanning commercial, residential, industrial, and public sectors across Europe."
     },
     "breadcrumb": {
       "home": "Home",
@@ -1910,8 +1923,8 @@
 
 "ourStoryPage": {
   "meta": {
-    "title": "Our Story | Bontera Construction",
-    "description": "Discover the journey of Bontera from a small construction firm in 1999 to a global leader in construction excellence."
+    "title": "Our Story | Bontera GmbH",
+    "description": "Discover the journey of Bontera GmbH from its founding to becoming a trusted leader in construction and real estate in Europe."
   },
   "breadcrumb": {
     "home": "Home",
@@ -1920,22 +1933,22 @@
   },
   "hero": {
     "eyebrow": "Our Journey",
-    "title": "25 Years of Building Dreams",
-    "subtitle": "From humble beginnings to global recognition, this is the story of how we became industry leaders in construction excellence."
+    "title": "20+ Years of Building Dreams",
+    "subtitle": "From our founding to European recognition, this is the story of how we became trusted partners in construction and real estate."
   },
   "origin": {
     "eyebrow": "Where It All Began",
     "title": "A Vision Takes Shape",
-    "paragraph1": "In 1999, Mr. Nedjet founded Bontera with a simple yet ambitious vision: to transform the construction industry through innovation, integrity, and an unwavering commitment to excellence.",
-    "paragraph2": "Starting with a small team and a single project, we quickly built a reputation for quality craftsmanship and reliable delivery. Word spread, and soon we were taking on larger, more complex projects.",
-    "paragraph3": "What set us apart from the beginning was our approach. We didn't just build structures—we built relationships. We listened to our clients, understood their needs, and delivered solutions that exceeded expectations.",
+    "paragraph1": "Bontera GmbH was founded with a simple yet ambitious vision: to transform the construction and real estate industry through professionalism, rigor, and an unwavering commitment to client satisfaction.",
+    "paragraph2": "Starting with a dedicated team and a focus on quality, we quickly built a reputation for reliable delivery and transparent business practices. Word spread, and soon we were taking on larger, more prestigious projects.",
+    "paragraph3": "What set us apart from the beginning was our integrated approach. We didn't just build structures—we built lasting relationships, combining construction expertise with real estate knowledge to deliver complete solutions.",
     "founded": "Year Founded",
     "location": "Berlin, Germany"
   },
   "founderQuote": {
-    "quote": "When I started Bontera, I had one goal: to build structures that would stand the test of time. Twenty-five years later, that mission hasn't changed—we're just doing it on a much bigger scale.",
+    "quote": "Our goal is clear: to offer our partners and clients reliable, secure real estate projects with high added value. With Bontera, you invest in security, competence, and sustainable value creation.",
     "name": "Mr. Nedjet",
-    "title": "Founder & Chairman"
+    "title": "Founder & Managing Director"
   },
   "timeline": {
     "eyebrow": "Our Journey",
@@ -1979,21 +1992,21 @@
     "eyebrow": "By The Numbers",
     "title": "Our Achievements",
     "items": {
-      "projects": "Projects Completed",
-      "employees": "Team Members",
-      "countries": "Countries",
-      "awards": "Industry Awards"
+      "years": "Years of Experience",
+      "sqm": "Square Meters Delivered",
+      "budget": "Budget Managed",
+      "languages": "Languages Spoken"
     }
   },
   "future": {
     "eyebrow": "Looking Forward",
     "title": "The Next Chapter",
-    "paragraph1": "As we look to the future, we remain committed to the values that have guided us for 25 years. We will continue to innovate, embrace new technologies, and push the boundaries of what's possible in construction.",
-    "paragraph2": "Our vision is to be the global leader in sustainable construction, delivering projects that not only meet today's needs but also contribute to a better future for generations to come.",
+    "paragraph1": "As we look to the future, we remain committed to the values that have guided us for over 20 years. We will continue to deliver sustainable, safe, and economically viable solutions for our clients.",
+    "paragraph2": "Our vision is to be the trusted partner for construction and real estate in Europe, delivering projects that combine quality, sustainability, and long-term value creation.",
     "focus": {
       "innovation": "Technology & Innovation",
       "sustainability": "Sustainable Practices",
-      "global": "Global Expansion"
+      "growth": "European Growth"
     }
   },
   "cta": {
