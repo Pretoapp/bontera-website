@@ -10,7 +10,7 @@
   },
 
   "metadata": {
-    "title": "Bontera | İnşaat ve Altyapı",
+    "title": "Bontera | İnşaat ve Gayrimenkul",
     "description": "Dünya standartlarında inşaat ve altyapı çözümleri. Fikirden teslimata, ufuk çizgilerini yeniden tanımlayan ve toplulukları dönüştüren projeler gerçekleştiriyoruz."
   },
 
@@ -57,9 +57,9 @@
         "title": "Ticari İnşaat",
         "description": "En yüksek standartlarda inşa edilen ofis kuleleri, perakende kompleksleri ve otel projeleri."
       },
-      "infrastructure": {
-        "title": "Altyapı",
-        "description": "Toplulukları birbirine bağlayan yollar, köprüler, altyapı ağları ve kamu işleri."
+      "realEstate": {
+        "title": "Gayrimenkul Geliştirme",
+        "description": "Olağanüstü yatırım değerine sahip premium konut ve ticari gayrimenkul projeleri."
       },
       "residential": {
         "title": "Konut",
@@ -183,8 +183,8 @@
     "services": {
       "commercialConstruction": "Ticari İnşaat",
       "commercialConstructionDesc": "Ofis, perakende, otel",
-      "infrastructure": "Altyapı",
-      "infrastructureDesc": "Yollar, köprüler, şebekeler",
+      "realEstate": "Gayrimenkul",
+      "realEstateDesc": "Premium gayrimenkul geliştirme",
       "renovation": "Yenileme ve Restorasyon",
       "renovationDesc": "Modernizasyon ve miras restorasyonu",
       "consulting": "Danışmanlık",
@@ -249,7 +249,7 @@
 
     "serviceLinks": {
       "commercial": "Ticari İnşaat",
-      "infrastructure": "Altyapı",
+      "realEstate": "Gayrimenkul",
       "residential": "Konut",
       "industrial": "Endüstriyel",
       "renovation": "Yenileme",
@@ -473,14 +473,24 @@
             "hospitality": "Otelcilik"
           }
         },
-        "infrastructure": {
-          "title": "Altyapı Geliştirme",
-          "description": "Köprüler, otoyollar, şebekeler ve ulaşım ağlarıyla modern yaşamın temelini inşa ediyoruz.",
+        "realEstate": {
+          "title": "Gayrimenkul Geliştirme",
+          "description": "Kalıcı değer sunan premium konut, ticari ve karma kullanımlı projelerin stratejik geliştirilmesiyle olağanüstü gayrimenkul yatırımları oluşturuyoruz.",
           "features": {
-            "bridges": "Köprü ve Tüneller",
-            "highways": "Otoyol ve Yollar",
-            "utilities": "Altyapı Şebekeleri",
-            "airports": "Havalimanı ve Limanlar"
+            "residential": "Konut Projeleri",
+            "commercial": "Ticari Mülkler",
+            "mixedUse": "Karma Kullanım Projeleri",
+            "investment": "Yatırım Mülkleri"
+          }
+        },
+        "real-estate": {
+          "title": "Gayrimenkul Geliştirme",
+          "description": "Kalıcı değer sunan premium konut, ticari ve karma kullanımlı projelerin stratejik geliştirilmesiyle olağanüstü gayrimenkul yatırımları oluşturuyoruz.",
+          "features": {
+            "residential": "Konut Projeleri",
+            "commercial": "Ticari Mülkler",
+            "mixedUse": "Karma Kullanım Projeleri",
+            "investment": "Yatırım Mülkleri"
           }
         },
         "residential": {
@@ -642,7 +652,7 @@
       "all": "Tüm Projeler",
       "commercial": "Ticari",
       "residential": "Konut",
-      "infrastructure": "Altyapı",
+      "realEstate": "Gayrimenkul",
       "industrial": "Endüstriyel",
       "renovation": "Yenileme",
       "publicWorks": "Kamu"
@@ -675,8 +685,8 @@
           "title": "Konut",
           "description": "Lüks konutlar, apartman projeleri ve planlı yerleşimler."
         },
-        "infrastructure": {
-          "title": "Altyapı",
+        "realEstate": {
+          "title": "Gayrimenkul",
           "description": "Köprüler, otoyollar, havalimanları ve toplulukları bağlayan altyapı şebekeleri."
         },
         "industrial": {
@@ -738,7 +748,7 @@
           "options": {
             "commercial": "Ticari İnşaat",
             "residential": "Konut İnşaatı",
-            "infrastructure": "Altyapı",
+            "realEstate": "Gayrimenkul",
             "industrial": "Endüstriyel",
             "renovation": "Yenileme ve Restorasyon",
             "consulting": "Danışmanlık",
@@ -1032,7 +1042,7 @@
     "minRead": "{minutes} dk okuma",
     "articles": {
       "news-001": {
-        "title": "Bontera, 2,5 Milyar Dolarlık NEOM Altyapı Sözleşmesini Kazandı",
+        "title": "Bontera, 2,5 Milyar Dolarlık NEOM Gayrimenkul Sözleşmesini Kazandı",
         "excerpt": "Önemli bir başarıyla Bontera, NEOM mega-projesindeki büyük bir altyapı geliştirmesi için ana yüklenici olarak seçildi. Bu, bugüne kadarki en büyük sözleşmemiz."
       },
       "news-002": {
@@ -1052,7 +1062,7 @@
         "excerpt": "Suudi Arabistan'daki varlığımızı büyütürken, yeni ofis Vision 2030 projelerindeki operasyonlarımız için merkez görevi görecek."
       },
       "news-006": {
-        "title": "Global Infrastructure Summit 2024'ten Öne Çıkanlar",
+        "title": "Global Real Estate Summit 2024'ten Öne Çıkanlar",
         "excerpt": "Ekibimiz, sektörün önde gelen etkinliğinden teknoloji, yatırım trendleri ve iş birliği fırsatlarına dair içgörüleri paylaşıyor."
       },
       "news-007": {
@@ -1159,7 +1169,7 @@
       "projectTypes": {
         "commercial": "Ticari İnşaat",
         "residential": "Konut İnşaatı",
-        "infrastructure": "Altyapı",
+        "realEstate": "Gayrimenkul",
         "industrial": "Endüstriyel",
         "renovation": "Yenileme ve Restorasyon",
         "mixedUse": "Karma Kullanım",
@@ -1367,8 +1377,8 @@
         "description": "Ticari ve konut projeleri; hassasiyet, güvenlik ve kontrol ile teslim edilir."
       },
       "civil": {
-        "label": "Altyapı",
-        "title": "Altyapı",
+        "label": "Gayrimenkul",
+        "title": "Gayrimenkul",
         "description": "Dayanıklılık, mevzuata uyum ve uzun vadeli performans için tasarlanır."
       },
       "structures": {

@@ -10,7 +10,7 @@
   },
 
   "metadata": {
-    "title": "Bontera | Bouw & Infrastructuur",
+    "title": "Bontera | Bouw & Vastgoed",
     "description": "Wereldklasse bouw- en infrastructuuroplossingen. Van concept tot oplevering leveren wij projecten die skylines definieren en gemeenschappen transformeren."
   },
 
@@ -57,8 +57,8 @@
         "title": "Commerciele Bouw",
         "description": "Kantoortorens, winkelcentra en horecagelegenheden gebouwd volgens de hoogste standaarden."
       },
-      "infrastructure": {
-        "title": "Infrastructuur",
+      "realEstate": {
+        "title": "Vastgoed",
         "description": "Wegen, bruggen, nutsvoorzieningen en openbare werken die gemeenschappen verbinden."
       },
       "residential": {
@@ -183,8 +183,8 @@
     "services": {
       "commercialConstruction": "Commerciele Bouw",
       "commercialConstructionDesc": "Kantoorgebouwen, retail, horeca",
-      "infrastructure": "Infrastructuur",
-      "infrastructureDesc": "Wegen, bruggen, nutsvoorzieningen",
+      "realEstate": "Vastgoed",
+      "realEstateDesc": "Wegen, bruggen, nutsvoorzieningen",
       "renovation": "Renovatie & Restauratie",
       "renovationDesc": "Modernisering en erfgoedrestauratie",
       "consulting": "Adviesdiensten",
@@ -249,7 +249,7 @@
 
     "serviceLinks": {
       "commercial": "Commerciele Bouw",
-      "infrastructure": "Infrastructuur",
+      "realEstate": "Vastgoed",
       "residential": "Woningbouw",
       "industrial": "Industriele Bouw",
       "renovation": "Renovatie",
@@ -473,14 +473,24 @@
             "hospitality": "Horeca"
           }
         },
-        "infrastructure": {
-          "title": "Infrastructuurontwikkeling",
-          "description": "Het bouwen van de fundamenten van de moderne samenleving door bruggen, snelwegen, nutsvoorzieningen en transportnetwerken die gemeenschappen verbinden en vooruitgang mogelijk maken.",
+        "realEstate": {
+          "title": "Vastgoedontwikkeling",
+          "description": "Het creëren van uitzonderlijke vastgoedinvesteringen door strategische ontwikkeling van premium residentiële, commerciële en gemengde projecten met blijvende waarde.",
           "features": {
-            "bridges": "Bruggen & Tunnels",
-            "highways": "Snelwegen & Wegen",
-            "utilities": "Nutsnetwerken",
-            "airports": "Luchthavens & Havens"
+            "residential": "Woningbouwprojecten",
+            "commercial": "Commercieel Vastgoed",
+            "mixedUse": "Gemengde Ontwikkelingen",
+            "investment": "Beleggingsvastgoed"
+          }
+        },
+        "real-estate": {
+          "title": "Vastgoedontwikkeling",
+          "description": "Het creëren van uitzonderlijke vastgoedinvesteringen door strategische ontwikkeling van premium residentiële, commerciële en gemengde projecten met blijvende waarde.",
+          "features": {
+            "residential": "Woningbouwprojecten",
+            "commercial": "Commercieel Vastgoed",
+            "mixedUse": "Gemengde Ontwikkelingen",
+            "investment": "Beleggingsvastgoed"
           }
         },
         "residential": {
@@ -642,7 +652,7 @@
       "all": "Alle Projecten",
       "commercial": "Commercieel",
       "residential": "Woningbouw",
-      "infrastructure": "Infrastructuur",
+      "realEstate": "Vastgoed",
       "industrial": "Industrieel",
       "renovation": "Renovatie",
       "publicWorks": "Openbare Werken"
@@ -675,8 +685,8 @@
           "title": "Woningbouw",
           "description": "Luxe woningen, appartementencomplexen en mastergeplande gemeenschappen waar gezinnen gedijen."
         },
-        "infrastructure": {
-          "title": "Infrastructuur",
+        "realEstate": {
+          "title": "Vastgoed",
           "description": "Bruggen, snelwegen, luchthavens en nutsvoorzieningen die gemeenschappen verbinden en voeden."
         },
         "industrial": {
@@ -738,7 +748,7 @@
           "options": {
             "commercial": "Commerciele Bouw",
             "residential": "Woningbouw",
-            "infrastructure": "Infrastructuur",
+            "realEstate": "Vastgoed",
             "industrial": "Industriele Bouw",
             "renovation": "Renovatie & Restauratie",
             "consulting": "Adviesdiensten",
@@ -1032,7 +1042,7 @@
     "minRead": "{minutes} min leestijd",
     "articles": {
       "news-001": {
-        "title": "Bontera Wint Contract van 2,5 Miljard Dollar voor NEOM Infrastructuur",
+        "title": "Bontera Wint Contract van 2,5 Miljard Dollar voor NEOM Vastgoed",
         "excerpt": "In een monumentale prestatie is Bontera geselecteerd als hoofdaannemer voor een grote infrastructuurontwikkeling binnen het NEOM-megaproject, ons grootste contract tot nu toe."
       },
       "news-002": {
@@ -1052,7 +1062,7 @@
         "excerpt": "Met de uitbreiding van onze aanwezigheid in Saudi-Arabie zal het nieuwe kantoor dienen als hub voor onze groeiende activiteiten in de Vision 2030-projecten van het Koninkrijk."
       },
       "news-006": {
-        "title": "Belangrijkste Inzichten van de Global Infrastructure Summit 2024",
+        "title": "Belangrijkste Inzichten van de Global Real Estate Summit 2024",
         "excerpt": "Ons team deelt inzichten van het toonaangevende branche-evenement, met aandacht voor opkomende technologieen, investeringstrends en samenwerkingsmogelijkheden."
       },
       "news-007": {
@@ -1159,7 +1169,7 @@
       "projectTypes": {
         "commercial": "Commerciele Bouw",
         "residential": "Woningbouw",
-        "infrastructure": "Infrastructuur",
+        "realEstate": "Vastgoed",
         "industrial": "Industriele Bouw",
         "renovation": "Renovatie & Restauratie",
         "mixedUse": "Gemengde Ontwikkeling",

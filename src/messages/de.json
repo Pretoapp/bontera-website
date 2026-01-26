@@ -57,9 +57,9 @@
         "title": "Gewerbebau",
         "description": "Bürotürme, Retail-Komplexe und Hospitality-Projekte nach höchsten Standards."
       },
-      "infrastructure": {
-        "title": "Infrastruktur",
-        "description": "Straßen, Brücken, Versorgungsnetze und öffentliche Werke, die Gemeinschaften verbinden."
+      "realEstate": {
+        "title": "Immobilienentwicklung",
+        "description": "Premium-Wohn- und Gewerbeimmobilienprojekte mit außergewöhnlichem Investitionswert."
       },
       "residential": {
         "title": "Wohnungsbau",
@@ -183,8 +183,8 @@
     "services": {
       "commercialConstruction": "Gewerbebau",
       "commercialConstructionDesc": "Büro, Retail, Hospitality",
-      "infrastructure": "Infrastruktur",
-      "infrastructureDesc": "Straßen, Brücken, Netze",
+      "realEstate": "Immobilien",
+      "realEstateDesc": "Premium-Immobilienentwicklung",
       "renovation": "Sanierung & Restaurierung",
       "renovationDesc": "Modernisierung und Denkmalsanierung",
       "consulting": "Beratungsleistungen",
@@ -249,7 +249,7 @@
 
     "serviceLinks": {
       "commercial": "Gewerbebau",
-      "infrastructure": "Infrastruktur",
+      "realEstate": "Immobilien",
       "residential": "Wohnungsbau",
       "industrial": "Industriebau",
       "renovation": "Sanierung",
@@ -463,14 +463,24 @@
             "hospitality": "Hospitality"
           }
         },
-        "infrastructure": {
-          "title": "Infrastrukturentwicklung",
-          "description": "Wir bauen die Grundlagen moderner Gesellschaften: Brücken, Autobahnen, Versorgungsnetze und Transportinfrastruktur, die verbindet und Fortschritt ermöglicht.",
+        "realEstate": {
+          "title": "Immobilienentwicklung",
+          "description": "Wir schaffen außergewöhnliche Immobilieninvestitionen durch strategische Entwicklung von Premium-Wohn-, Gewerbe- und gemischt genutzten Objekten mit nachhaltigem Wert.",
           "features": {
-            "bridges": "Brücken & Tunnel",
-            "highways": "Straßen & Autobahnen",
-            "utilities": "Versorgungsnetze",
-            "airports": "Flughäfen & Häfen"
+            "residential": "Wohnprojekte",
+            "commercial": "Gewerbeobjekte",
+            "mixedUse": "Gemischt genutzte Projekte",
+            "investment": "Anlageobjekte"
+          }
+        },
+        "real-estate": {
+          "title": "Immobilienentwicklung",
+          "description": "Wir schaffen außergewöhnliche Immobilieninvestitionen durch strategische Entwicklung von Premium-Wohn-, Gewerbe- und gemischt genutzten Objekten mit nachhaltigem Wert.",
+          "features": {
+            "residential": "Wohnprojekte",
+            "commercial": "Gewerbeobjekte",
+            "mixedUse": "Gemischt genutzte Projekte",
+            "investment": "Anlageobjekte"
           }
         },
         "residential": {
@@ -632,7 +642,7 @@
       "all": "Alle Projekte",
       "commercial": "Gewerbe",
       "residential": "Wohnen",
-      "infrastructure": "Infrastruktur",
+      "realEstate": "Immobilien",
       "industrial": "Industrie",
       "renovation": "Sanierung",
       "publicWorks": "Öffentliche Werke"
@@ -665,9 +675,9 @@
           "title": "Wohnen",
           "description": "Luxusimmobilien, Apartmentanlagen und Masterplan-Communities."
         },
-        "infrastructure": {
-          "title": "Infrastruktur",
-          "description": "Brücken, Straßen, Flughäfen und Versorgungsnetze, die verbinden und versorgen."
+        "realEstate": {
+          "title": "Immobilien",
+          "description": "Premium-Immobilienentwicklungen, Anlageobjekte und gemischt genutzte Projekte mit außergewöhnlichem Wert."
         },
         "industrial": {
           "title": "Industrie",
@@ -728,7 +738,7 @@
           "options": {
             "commercial": "Gewerbebau",
             "residential": "Wohnungsbau",
-            "infrastructure": "Infrastruktur",
+            "realEstate": "Immobilien",
             "industrial": "Industrie",
             "renovation": "Sanierung & Restaurierung",
             "consulting": "Beratungsleistungen",
@@ -1107,7 +1117,7 @@
       "projectTypes": {
         "commercial": "Gewerbebau",
         "residential": "Wohnungsbau",
-        "infrastructure": "Infrastruktur",
+        "realEstate": "Immobilien",
         "industrial": "Industrie",
         "renovation": "Sanierung & Restaurierung",
         "mixedUse": "Mixed-Use-Entwicklung",

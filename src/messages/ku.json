@@ -57,7 +57,7 @@
         "title": "Avahisaziya Bazirganiye",
         "description": "Birceyen ofise, komplekseyen firotin, u cihakan miteli ku li gora standarden here bilind hatine avakirin."
       },
-      "infrastructure": {
+      "realEstate": {
         "title": "Binesazi",
         "description": "Reh, pir, kargehi, u kareyen gisti ye ku civakan giredidin."
       },
@@ -183,8 +183,8 @@
     "services": {
       "commercialConstruction": "Avahisaziya Bazirganiye",
       "commercialConstructionDesc": "Avahiyen ofise, firotin, miteli",
-      "infrastructure": "Binesazi",
-      "infrastructureDesc": "Reh, pir, kargehi",
+      "realEstate": "Binesazi",
+      "realEstateDesc": "Reh, pir, kargehi",
       "renovation": "Nuvekirin & Restorasyon",
       "renovationDesc": "Modernkirin u restorasyona miras",
       "consulting": "Xizmeten Serwistemeniye",
@@ -249,7 +249,7 @@
 
     "serviceLinks": {
       "commercial": "Avahisaziya Bazirganiye",
-      "infrastructure": "Binesazi",
+      "realEstate": "Binesazi",
       "residential": "Nistecih",
       "industrial": "Piseyi",
       "renovation": "Nuvekirin",
@@ -473,14 +473,24 @@
             "hospitality": "Miteli"
           }
         },
-        "infrastructure": {
-          "title": "Pesereftina Binesaziye",
-          "description": "Avahikirina bingeheyen civakeke nujen bi pir, otostradan, kargehi, u toreyen veguhastine ku civakan giredidin u pesereftine pekve dixin.",
+        "realEstate": {
+          "title": "Pêşveçûna Milkê",
+          "description": "Afirandina veberhênanan milkê yên awarte bi pêşvebirina stratejîk a milkên nîştecihi, bazirganî û bi karanîna tev bi nirxa demdirêj.",
           "features": {
-            "bridges": "Pir & Tunel",
-            "highways": "Otostradan & Reh",
-            "utilities": "Toreyen Kargehi",
-            "airports": "Balafirgeh & Bender"
+            "residential": "Projeyên Niştecihiyê",
+            "commercial": "Milkên Bazirganî",
+            "mixedUse": "Pêşveçûnên Bi Karanîna Tev",
+            "investment": "Milkên Veberhênanê"
+          }
+        },
+        "real-estate": {
+          "title": "Pêşveçûna Milkê",
+          "description": "Afirandina veberhênanan milkê yên awarte bi pêşvebirina stratejîk a milkên nîştecihi, bazirganî û bi karanîna tev bi nirxa demdirêj.",
+          "features": {
+            "residential": "Projeyên Niştecihiyê",
+            "commercial": "Milkên Bazirganî",
+            "mixedUse": "Pêşveçûnên Bi Karanîna Tev",
+            "investment": "Milkên Veberhênanê"
           }
         },
         "residential": {
@@ -642,7 +652,7 @@
       "all": "Hemu Proje",
       "commercial": "Bazirganiye",
       "residential": "Nistecih",
-      "infrastructure": "Binesazi",
+      "realEstate": "Binesazi",
       "industrial": "Piseyi",
       "renovation": "Nuvekirin",
       "publicWorks": "Kareyen Gisti"
@@ -675,7 +685,7 @@
           "title": "Nistecih",
           "description": "Xaniyen luks, kompleksen apartemaniye, u civaken plan-serekin ku malbat te de pesereft dibin."
         },
-        "infrastructure": {
+        "realEstate": {
           "title": "Binesazi",
           "description": "Pir, otostradan, balafirgehan, u kargehi ku civakan giredidin u enerjiye didin."
         },
@@ -738,7 +748,7 @@
           "options": {
             "commercial": "Avahisaziya Bazirganiye",
             "residential": "Avahisaziya Nistecih",
-            "infrastructure": "Binesazi",
+            "realEstate": "Binesazi",
             "industrial": "Piseyi",
             "renovation": "Nuvekirin & Restorasyon",
             "consulting": "Xizmeten Serwistemeniye",
@@ -1159,7 +1169,7 @@
       "projectTypes": {
         "commercial": "Avahisaziya Bazirganiye",
         "residential": "Avahisaziya Nistecih",
-        "infrastructure": "Binesazi",
+        "realEstate": "Binesazi",
         "industrial": "Piseyi",
         "renovation": "Nuvekirin & Restorasyon",
         "mixedUse": "Pesereftina Bi Karanina Tev",

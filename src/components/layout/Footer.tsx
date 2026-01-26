@@ -29,7 +29,7 @@ export default function Footer() {
 
   const serviceLinks = [
     { key: 'commercial', href: `/${currentLocale}/services/commercial` },
-    { key: 'infrastructure', href: `/${currentLocale}/services/infrastructure` },
+    { key: 'realEstate', href: `/${currentLocale}/services/real-estate` },
     { key: 'residential', href: `/${currentLocale}/services/residential` },
     { key: 'industrial', href: `/${currentLocale}/services/industrial` },
     { key: 'renovation', href: `/${currentLocale}/services/renovation` },

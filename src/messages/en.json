@@ -62,9 +62,9 @@
         "title": "Commercial Construction",
         "description": "Office towers, retail complexes, and hospitality venues built to the highest standards."
       },
-      "infrastructure": {
-        "title": "Infrastructure",
-        "description": "Roads, bridges, utilities, and public works that connect communities."
+      "realEstate": {
+        "title": "Real Estate Development",
+        "description": "Premium residential and commercial real estate projects with exceptional investment value."
       },
       "residential": {
         "title": "Residential",
@@ -188,8 +188,8 @@
     "services": {
       "commercialConstruction": "Commercial Construction",
       "commercialConstructionDesc": "Office buildings, retail, hospitality",
-      "infrastructure": "Infrastructure",
-      "infrastructureDesc": "Roads, bridges, utilities",
+      "realEstate": "Real Estate",
+      "realEstateDesc": "Premium property development",
       "renovation": "Renovation & Restoration",
       "renovationDesc": "Modernization and heritage restoration",
       "consulting": "Consulting Services",
@@ -258,7 +258,7 @@
 
     "serviceLinks": {
       "commercial": "Commercial Construction",
-      "infrastructure": "Infrastructure",
+      "realEstate": "Real Estate",
       "residential": "Residential",
       "industrial": "Industrial",
       "renovation": "Renovation",
@@ -492,14 +492,24 @@
             "hospitality": "Hospitality"
           }
         },
-        "infrastructure": {
-          "title": "Infrastructure Development",
-          "description": "Building the foundations of modern society through bridges, highways, utilities, and transportation networks that connect communities and enable progress.",
+        "realEstate": {
+          "title": "Real Estate Development",
+          "description": "Creating exceptional real estate investments through strategic development of premium residential, commercial, and mixed-use properties that deliver lasting value.",
           "features": {
-            "bridges": "Bridges & Tunnels",
-            "highways": "Highways & Roads",
-            "utilities": "Utility Networks",
-            "airports": "Airports & Ports"
+            "residential": "Residential Projects",
+            "commercial": "Commercial Properties",
+            "mixedUse": "Mixed-Use Developments",
+            "investment": "Investment Properties"
+          }
+        },
+        "real-estate": {
+          "title": "Real Estate Development",
+          "description": "Creating exceptional real estate investments through strategic development of premium residential, commercial, and mixed-use properties that deliver lasting value.",
+          "features": {
+            "residential": "Residential Projects",
+            "commercial": "Commercial Properties",
+            "mixedUse": "Mixed-Use Developments",
+            "investment": "Investment Properties"
           }
         },
         "residential": {
@@ -665,7 +675,7 @@
       "all": "All Projects",
       "commercial": "Commercial",
       "residential": "Residential",
-      "infrastructure": "Infrastructure",
+      "realEstate": "Real Estate",
       "industrial": "Industrial",
       "renovation": "Renovation",
       "publicWorks": "Public Works"
@@ -698,9 +708,9 @@
           "title": "Residential",
           "description": "Luxury homes, apartment complexes, and master-planned communities where families thrive."
         },
-        "infrastructure": {
-          "title": "Infrastructure",
-          "description": "Bridges, highways, airports, and utilities that connect and power communities."
+        "realEstate": {
+          "title": "Real Estate",
+          "description": "Premium property developments, investment properties, and mixed-use projects with exceptional value."
         },
         "industrial": {
           "title": "Industrial",
@@ -1200,7 +1210,7 @@
     "projectTypes": {
       "commercial": "Commercial Construction",
       "residential": "Residential Construction",
-      "infrastructure": "Infrastructure",
+      "realEstate": "Real Estate Development",
       "industrial": "Industrial",
       "renovation": "Renovation & Restoration",
       "mixedUse": "Mixed-Use Development",

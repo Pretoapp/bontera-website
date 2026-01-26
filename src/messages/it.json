@@ -57,7 +57,7 @@
         "title": "Costruzioni Commerciali",
         "description": "Torri per uffici, complessi commerciali e strutture ricettive costruiti secondo i piu alti standard."
       },
-      "infrastructure": {
+      "realEstate": {
         "title": "Infrastrutture",
         "description": "Strade, ponti, reti di servizi e opere pubbliche che connettono le comunita."
       },
@@ -183,8 +183,8 @@
     "services": {
       "commercialConstruction": "Costruzioni Commerciali",
       "commercialConstructionDesc": "Edifici per uffici, retail, ospitalita",
-      "infrastructure": "Infrastrutture",
-      "infrastructureDesc": "Strade, ponti, reti di servizi",
+      "realEstate": "Infrastrutture",
+      "realEstateDesc": "Strade, ponti, reti di servizi",
       "renovation": "Ristrutturazione e Restauro",
       "renovationDesc": "Ammodernamento e restauro del patrimonio",
       "consulting": "Servizi di Consulenza",
@@ -249,7 +249,7 @@
 
     "serviceLinks": {
       "commercial": "Costruzioni Commerciali",
-      "infrastructure": "Infrastrutture",
+      "realEstate": "Infrastrutture",
       "residential": "Residenziale",
       "industrial": "Industriale",
       "renovation": "Ristrutturazioni",
@@ -473,14 +473,24 @@
             "hospitality": "Ospitalita"
           }
         },
-        "infrastructure": {
-          "title": "Sviluppo Infrastrutturale",
-          "description": "Costruiamo le fondamenta della societa moderna attraverso ponti, autostrade, reti di servizi e trasporti che connettono le comunita e permettono il progresso.",
+        "realEstate": {
+          "title": "Sviluppo Immobiliare",
+          "description": "Creiamo investimenti immobiliari eccezionali attraverso lo sviluppo strategico di proprietà residenziali, commerciali e a uso misto di alta qualità con valore duraturo.",
           "features": {
-            "bridges": "Ponti e Tunnel",
-            "highways": "Autostrade e Strade",
-            "utilities": "Reti di Servizi",
-            "airports": "Aeroporti e Porti"
+            "residential": "Progetti Residenziali",
+            "commercial": "Proprietà Commerciali",
+            "mixedUse": "Sviluppi a Uso Misto",
+            "investment": "Proprietà di Investimento"
+          }
+        },
+        "real-estate": {
+          "title": "Sviluppo Immobiliare",
+          "description": "Creiamo investimenti immobiliari eccezionali attraverso lo sviluppo strategico di proprietà residenziali, commerciali e a uso misto di alta qualità con valore duraturo.",
+          "features": {
+            "residential": "Progetti Residenziali",
+            "commercial": "Proprietà Commerciali",
+            "mixedUse": "Sviluppi a Uso Misto",
+            "investment": "Proprietà di Investimento"
           }
         },
         "residential": {
@@ -642,7 +652,7 @@
       "all": "Tutti i Progetti",
       "commercial": "Commerciale",
       "residential": "Residenziale",
-      "infrastructure": "Infrastrutture",
+      "realEstate": "Infrastrutture",
       "industrial": "Industriale",
       "renovation": "Ristrutturazione",
       "publicWorks": "Opere Pubbliche"
@@ -675,7 +685,7 @@
           "title": "Residenziale",
           "description": "Case di lusso, complessi residenziali e comunita pianificate dove le famiglie prosperano."
         },
-        "infrastructure": {
+        "realEstate": {
           "title": "Infrastrutture",
           "description": "Ponti, autostrade, aeroporti e servizi che connettono e alimentano le comunita."
         },
@@ -738,7 +748,7 @@
           "options": {
             "commercial": "Costruzione Commerciale",
             "residential": "Costruzione Residenziale",
-            "infrastructure": "Infrastrutture",
+            "realEstate": "Infrastrutture",
             "industrial": "Industriale",
             "renovation": "Ristrutturazione e Restauro",
             "consulting": "Servizi di Consulenza",
@@ -1032,7 +1042,7 @@
     "minRead": "{minutes} min di lettura",
     "articles": {
       "news-001": {
-        "title": "Bontera Vince Contratto Infrastrutturale NEOM da 2,5 Miliardi di Dollari",
+        "title": "Bontera Vince Contratto Immobiliarele NEOM da 2,5 Miliardi di Dollari",
         "excerpt": "In un traguardo storico, Bontera e stata selezionata come appaltatore principale per un importante sviluppo infrastrutturale all'interno del mega-progetto NEOM, segnando il nostro contratto piu grande di sempre."
       },
       "news-002": {
@@ -1052,7 +1062,7 @@
         "excerpt": "Espandendo la nostra presenza in Arabia Saudita, il nuovo ufficio servira come hub per le nostre crescenti operazioni nei progetti Vision 2030 del Regno."
       },
       "news-006": {
-        "title": "Punti Chiave dal Global Infrastructure Summit 2024",
+        "title": "Punti Chiave dal Global Real Estate Summit 2024",
         "excerpt": "Il nostro team condivide approfondimenti dall'evento principale del settore, coprendo tecnologie emergenti, tendenze degli investimenti e opportunita collaborative."
       },
       "news-007": {
@@ -1159,7 +1169,7 @@
       "projectTypes": {
         "commercial": "Costruzione Commerciale",
         "residential": "Costruzione Residenziale",
-        "infrastructure": "Infrastrutture",
+        "realEstate": "Infrastrutture",
         "industrial": "Industriale",
         "renovation": "Ristrutturazione e Restauro",
         "mixedUse": "Sviluppo a Uso Misto",

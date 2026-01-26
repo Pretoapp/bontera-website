@@ -88,9 +88,9 @@ const Icons = {
       <path strokeLinecap="round" strokeLinejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
     </svg>
   ),
-  infrastructure: (
+  realEstate: (
     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-      <path strokeLinecap="round" strokeLinejoin="round" d="M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7m0 10a2 2 0 002 2h2a2 2 0 002-2V7a2 2 0 00-2-2h-2a2 2 0 00-2 2" />
+      <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
     </svg>
   ),
   renovation: (
@@ -202,7 +202,7 @@ export default function Header() {
   const serviceItems: MegaMenuItem[] = useMemo(
     () => [
       { key: 'commercialConstruction', icon: Icons.building, href: `/${currentLocale}/services/commercial` },
-      { key: 'infrastructure', icon: Icons.infrastructure, href: `/${currentLocale}/services/infrastructure` },
+      { key: 'realEstate', icon: Icons.realEstate, href: `/${currentLocale}/services/real-estate` },
       { key: 'renovation', icon: Icons.renovation, href: `/${currentLocale}/services/renovation` },
       { key: 'consulting', icon: Icons.consulting, href: `/${currentLocale}/services/consulting` },
       { key: 'projectManagement', icon: Icons.management, href: `/${currentLocale}/services/management` },
