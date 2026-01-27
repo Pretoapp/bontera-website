@@ -269,8 +269,15 @@
 
   "about": {
     "meta": {
-      "title": "Over Ons | Bontera Bouw",
-      "description": "Ontdek Bontera's erfgoed van meer dan 25 jaar excellentie in de bouw, onze missie, waarden en het leiderschapsteam dat innovatie in de industrie stimuleert."
+      "title": "Over Ons | Bontera GmbH",
+      "description": "Ontdek Bontera's 20+ jaar ervaring in bouw, projectontwikkeling en vastgoedbemiddeling met veiligheid, kwaliteit en transparantie."
+    },
+    "quickNav": {
+      "ourStory": "Ons Verhaal",
+      "leadership": "Leiderschap",
+      "values": "Waarden",
+      "certifications": "Certificeringen",
+      "partners": "Partners"
     },
     "breadcrumb": {
       "home": "Startpagina",
@@ -278,13 +285,13 @@
     },
     "hero": {
       "eyebrow": "Over Bontera",
-      "title": "Excellentie in Bouwen sinds 1999",
-      "subtitle": "Al meer dan twee decennia staat Bontera aan de voorhoede van bouwinnovatie en levert monumentale projecten die skylines en gemeenschappen over de hele wereld vormgeven.",
+      "title": "Excellentie in Bouwen sinds 2004",
+      "subtitle": "Met meer dan 20 jaar ervaring in bouw, projectontwikkeling en vastgoedbemiddeling ondersteunen wij onze klanten bij elke stap met veiligheid, kwaliteit en transparantie.",
       "stats": {
-        "years": "Jaren Excellentie",
-        "projects": "Voltooide Projecten",
-        "countries": "Landen",
-        "employees": "Teamleden"
+        "years": "Jaren Ervaring",
+        "sqm": "Vierkante Meters Geleverd",
+        "budget": "Budget Beheerd",
+        "languages": "Gesproken Talen"
       }
     },
     "story": {

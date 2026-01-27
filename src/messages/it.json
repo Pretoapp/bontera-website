@@ -269,22 +269,29 @@
 
   "about": {
     "meta": {
-      "title": "Chi Siamo | Bontera Costruzioni",
-      "description": "Scopri l'eredita di oltre 25 anni di eccellenza di Bontera nelle costruzioni, la nostra missione, i valori e il team dirigenziale che guida l'innovazione nel settore."
+      "title": "Chi Siamo | Bontera GmbH",
+      "description": "Scopri i 20+ anni di esperienza di Bontera nella costruzione, sviluppo progetti e intermediazione immobiliare con sicurezza, qualità e trasparenza."
+    },
+    "quickNav": {
+      "ourStory": "La Nostra Storia",
+      "leadership": "Leadership",
+      "values": "Valori",
+      "certifications": "Certificazioni",
+      "partners": "Partner"
     },
     "breadcrumb": {
       "home": "Home",
       "about": "Chi Siamo"
     },
     "hero": {
-      "eyebrow": "Chi e Bontera",
-      "title": "Eccellenza nella Costruzione dal 1999",
-      "subtitle": "Da oltre due decenni, Bontera e all'avanguardia nell'innovazione edilizia, realizzando progetti iconici che plasmano skyline e comunita in tutto il mondo.",
+      "eyebrow": "Chi è Bontera",
+      "title": "Eccellenza nella Costruzione dal 2004",
+      "subtitle": "Con oltre 20 anni di esperienza nella costruzione, sviluppo progetti e intermediazione immobiliare, supportiamo i nostri clienti in ogni fase con sicurezza, qualità e trasparenza.",
       "stats": {
-        "years": "Anni di Eccellenza",
-        "projects": "Progetti Completati",
-        "countries": "Paesi",
-        "employees": "Membri del Team"
+        "years": "Anni di Esperienza",
+        "sqm": "Metri Quadri Consegnati",
+        "budget": "Budget Gestito",
+        "languages": "Lingue Parlate"
       }
     },
     "story": {

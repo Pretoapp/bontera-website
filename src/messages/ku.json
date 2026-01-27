@@ -269,8 +269,15 @@
 
   "about": {
     "meta": {
-      "title": "Der Bare Me de | Bontera Avahisazi",
-      "description": "Der bare mirata 25+ salen serkeftine ya Bontera de di avahisaziye de, merama me, nirxan, u timea rehberiye ku nujeniyi di piseye de diajo ferbun."
+      "title": "Der Bare Me de | Bontera GmbH",
+      "description": "Der bare 20+ salen tecrubey Bontera di avahisazi, peseroka projeyan u navberiya milkan de bi ewlehi, kalite u safiye ferbun."
+    },
+    "quickNav": {
+      "ourStory": "Cirokeya Me",
+      "leadership": "Rehberi",
+      "values": "Nirx",
+      "certifications": "Sertifika",
+      "partners": "Hevkar"
     },
     "breadcrumb": {
       "home": "Destpek",
@@ -278,13 +285,13 @@
     },
     "hero": {
       "eyebrow": "Der Bare Bontera de",
-      "title": "Avahisaziya Bilind Ji Sala 1999an",
-      "subtitle": "Ji zede ji du dehsalan, Bontera li pesniya nujeniyi avahisaziye biye, projeyen nisane radest kiriye ku ezmanan u civakan li seranser cihane diyar dikin.",
+      "title": "Serkeftina Avahisaziye Ji Sala 2004an",
+      "subtitle": "Bi zede ji 20 salen tecrubey di avahisazi, peseroka projeyan u navberiya milkan de, em xeridaneyen xwe di her gaveki de bi ewlehi, kalite u safiye pishtgiri dikin.",
       "stats": {
-        "years": "Salen Serkeftine",
-        "projects": "Proje Qediyane",
-        "countries": "Welat",
-        "employees": "Endam Time"
+        "years": "Salen Tecrubey",
+        "sqm": "Metre Cargoseh Radest Bun",
+        "budget": "Budceya Bireve Biri",
+        "languages": "Zimanen ku Em Dipeyivin"
       }
     },
     "story": {
