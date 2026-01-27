@@ -15,16 +15,17 @@
   },
 
   "hero": {
-    "eyebrow": "Avahisaziya Bilind Ji Sala 1999an",
+    "eyebrow": "Avahisaziya Bilind Ji Sala 2004an",
     "titleLine1": "Em",
     "titleLine2": "Pasiroke Ava Dikin",
-    "description": "Carinan avahisazi u binesaziya cihangi. Ji ramaneke heta qedandineki, em projeyan radest dikin ku ezmanan diyar dikin u civakan veguhezinin.",
+    "description": "Bi 20+ salen tecrube di avahisazi, peseroka projeyan u bireveriya milkan de, em xeridaneyen xwe di her qonaxeke de bi ewlehiye, kalite u safiye pishtgiri dikin.",
     "ctaPrimary": "Projeyen Me Bibin",
     "ctaSecondary": "Bi Me Re Tekili Daynin",
     "stats": {
-      "years": "Salen Serkeftine",
-      "projects": "Proje Radest Bune",
-      "countries": "Welat"
+      "years": "Salen Tecrubey",
+      "sqm": "Metre Cargosey Radest Bun",
+      "budget": "Budceya Bireve",
+      "languages": "Zimanen Axaftine"
     }
   },
 
@@ -53,29 +54,29 @@
     "headline": "Carinan Avahisaziye Temam",
     "viewAll": "Hemu Xizmetan Bibin",
     "items": {
-      "commercial": {
-        "title": "Avahisaziya Bazirganiye",
-        "description": "Birceyen ofise, komplekseyen firotin, u cihakan miteli ku li gora standarden here bilind hatine avakirin."
+      "construction": {
+        "title": "Avahisazi",
+        "description": "Projeyen avahisaziya nistecihi, bazirganiye u tertiyera bi ewlehiye, kalite u peyrovkirina hisht a standarden."
+      },
+      "restoration": {
+        "title": "Restorasyon & Nuvekirin",
+        "description": "Restorasyona pispor a avahiyen miras u nuvevkirina nistecihi bi rezdariya temambuna mimarine."
+      },
+      "projectManagement": {
+        "title": "Bireveriya Projeye",
+        "description": "Bireveriya projeye ji destpek heta dawi ji bo xeridaneyen taybet u karsaziya bi safiye u dembendiya radesti."
       },
       "realEstate": {
-        "title": "Binesazi",
-        "description": "Reh, pir, kargehi, u kareyen gisti ye ku civakan giredidin."
+        "title": "Peseroka Milkan",
+        "description": "Peseroka milken nistecihi u bazirganiye bi bal li ser domdariye u afirandina nirxa drezahi."
       },
-      "residential": {
-        "title": "Nistecih",
-        "description": "Xaniyen luks u peseroken nistecih bi huneremendiya awarte."
-      },
-      "industrial": {
-        "title": "Piseyi",
-        "description": "Tesisen hilberine, embar, u komplekseyen piseyi."
-      },
-      "renovation": {
-        "title": "Nuvekirin",
-        "description": "Veguhertina strukturen heyi bi nuvekirinan modern u restorasyona miras."
+      "brokerage": {
+        "title": "Navberiya Milkan",
+        "description": "Xizmetên navberiyê yên pîşeyî ji bo kirîn, firotin û kirêkirina milkên niştecîhî û bazirganî."
       },
       "consulting": {
         "title": "Serwistemeni",
-        "description": "Alikariya pispor li ser gengazi, plansazi, u bireveriya projeye."
+        "description": "Alikariya pispor li ser gengazi, plansazi, bireveriya lesch u tevliheviya rêzike."
       }
     }
   },
@@ -102,6 +103,9 @@
 
   "stats": {
     "years": "Salen Tecrubey",
+    "sqm": "Metre Cargosey Radest Bun",
+    "budget": "Budceya Bireve",
+    "languages": "Zimanen Axaftine",
     "projects": "Proje Qediyane",
     "satisfaction": "Razibuna Xeridan",
     "delivered": "Nirkirin Radest Bun"

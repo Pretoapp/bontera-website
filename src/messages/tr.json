@@ -15,16 +15,17 @@
   },
 
   "hero": {
-    "eyebrow": "1999'dan beri mükemmellik",
+    "eyebrow": "2004'ten beri mükemmellik",
     "titleLine1": "Geleceği",
     "titleLine2": "İnşa Ediyoruz",
-    "description": "Dünya standartlarında inşaat ve altyapı çözümleri. Fikirden teslimata, ufuk çizgilerini yeniden tanımlayan ve toplulukları dönüştüren projeler gerçekleştiriyoruz.",
+    "description": "İnşaat, proje geliştirme ve gayrimenkul aracılığında 20 yılı aşkın deneyimimizle müşterilerimize her aşamada güvenlik, kalite ve şeffaflıkla destek veriyoruz.",
     "ctaPrimary": "Projelerimizi Görün",
     "ctaSecondary": "İletişime Geçin",
     "stats": {
-      "years": "Mükemmellik Yılı",
-      "projects": "Teslim Edilen Proje",
-      "countries": "Ülke"
+      "years": "Deneyim Yılı",
+      "sqm": "Teslim Edilen Metrekare",
+      "budget": "Yönetilen Bütçe",
+      "languages": "Konuşulan Dil"
     }
   },
 
@@ -53,29 +54,29 @@
     "headline": "Kapsamlı İnşaat Çözümleri",
     "viewAll": "Tüm Hizmetleri Keşfedin",
     "items": {
-      "commercial": {
-        "title": "Ticari İnşaat",
-        "description": "En yüksek standartlarda inşa edilen ofis kuleleri, perakende kompleksleri ve otel projeleri."
+      "construction": {
+        "title": "İnşaat",
+        "description": "Konut, ticari ve hizmet sektörü inşaat projeleri, güvenlik, kalite ve standartlara sıkı uyum ile."
+      },
+      "restoration": {
+        "title": "Restorasyon & Yenileme",
+        "description": "Tarihi binaların uzman restorasyonu ve mimari bütünlüğe saygılı konut yenileme."
+      },
+      "projectManagement": {
+        "title": "Proje Yönetimi",
+        "description": "Özel ve kurumsal müşteriler için şeffaflık ve zamanında teslim garantisi ile uçtan uca proje yönetimi."
       },
       "realEstate": {
         "title": "Gayrimenkul Geliştirme",
-        "description": "Olağanüstü yatırım değerine sahip premium konut ve ticari gayrimenkul projeleri."
+        "description": "Sürdürülebilirlik ve uzun vadeli değer yaratmaya odaklanan konut ve ticari gayrimenkul geliştirme."
       },
-      "residential": {
-        "title": "Konut",
-        "description": "Üstün işçilikle üretilen lüks konutlar ve yaşam projeleri."
-      },
-      "industrial": {
-        "title": "Endüstriyel",
-        "description": "Üretim tesisleri, depolar ve endüstriyel kompleksler."
-      },
-      "renovation": {
-        "title": "Yenileme",
-        "description": "Modern dönüşümler ve miras odaklı restorasyonlarla yapıların yeniden canlandırılması."
+      "brokerage": {
+        "title": "Gayrimenkul Aracılığı",
+        "description": "Konut ve ticari gayrimenkulün alım, satım ve kiralaması için profesyonel aracılık hizmetleri."
       },
       "consulting": {
         "title": "Danışmanlık",
-        "description": "Fizibilite, planlama ve proje yönetiminde uzman rehberlik."
+        "description": "Fizibilite, planlama, maliyet yönetimi ve mevzuat uyumluluğu konularında uzman rehberlik."
       }
     }
   },
@@ -102,6 +103,9 @@
 
   "stats": {
     "years": "Deneyim Yılı",
+    "sqm": "Teslim Edilen Metrekare",
+    "budget": "Yönetilen Bütçe",
+    "languages": "Konuşulan Dil",
     "projects": "Tamamlanan Proje",
     "satisfaction": "Müşteri Memnuniyeti",
     "delivered": "Teslim Edilen Değer"

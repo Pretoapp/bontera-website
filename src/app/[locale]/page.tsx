@@ -140,9 +140,9 @@ export default async function HomePage({ params }: Props) {
         {/* Floating Stats - Right Side */}
         <div className="absolute top-32 right-8 lg:right-16 hidden lg:flex flex-col gap-6 z-20">
           {[
-            { value: "25+", label: t("hero.stats.years") },
-            { value: "500+", label: t("hero.stats.projects") },
-            { value: "12", label: t("hero.stats.countries") },
+            { value: "20+", label: t("hero.stats.years") },
+            { value: "40,000+", label: t("hero.stats.sqm") },
+            { value: "7", label: t("hero.stats.languages") },
           ].map((stat) => (
             <div key={stat.label} className="text-right">
               <div className="text-4xl font-light text-white tracking-tight">{stat.value}</div>
@@ -290,11 +290,11 @@ export default async function HomePage({ params }: Props) {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { key: "commercial", slug: "commercial", image: "/images/slide-2.jpg" },
-              { key: "realEstate", slug: "real-estate", image: "/images/slide-3.jpg" },
-              { key: "residential", slug: "residential", image: "/images/careers-feature.jpg" },
-              { key: "industrial", slug: "industrial", image: "/images/expertise-civil.jpg" },
-              { key: "renovation", slug: "renovation", image: "/images/expertise-restoration.jpg" },
+              { key: "construction", slug: "construction", image: "/images/slide-2.jpg" },
+              { key: "restoration", slug: "renovation", image: "/images/expertise-restoration.jpg" },
+              { key: "projectManagement", slug: "project-management", image: "/images/slide-3.jpg" },
+              { key: "realEstate", slug: "real-estate", image: "/images/careers-feature.jpg" },
+              { key: "brokerage", slug: "brokerage", image: "/images/expertise-civil.jpg" },
               { key: "consulting", slug: "consulting", image: "/images/expertise-building.jpg" },
             ].map((service) => (
               <Link key={service.key} href={`/${locale}/services/${service.slug}`} className="group relative h-80 lg:h-96 overflow-hidden">
@@ -436,10 +436,10 @@ export default async function HomePage({ params }: Props) {
         <div className="relative max-w-[1600px] mx-auto px-6 lg:px-16">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
             {[
-              { value: "25+", label: t("stats.years"), suffix: "" },
-              { value: "500", label: t("stats.projects"), suffix: "+" },
-              { value: "98", label: t("stats.satisfaction"), suffix: "%" },
-              { value: "1.2", label: t("stats.delivered"), suffix: "B$" },
+              { value: "20+", label: t("stats.years"), suffix: "" },
+              { value: "40,000", label: t("stats.sqm"), suffix: "+" },
+              { value: "120", label: t("stats.budget"), suffix: "M€" },
+              { value: "7", label: t("stats.languages"), suffix: "" },
             ].map((stat) => (
               <div key={stat.label} className="text-center lg:text-left">
                 <div className="text-5xl lg:text-7xl font-light text-white tracking-tight">
