@@ -15,16 +15,17 @@
   },
 
   "hero": {
-    "eyebrow": "Eccellenza nella Costruzione dal 1999",
+    "eyebrow": "Eccellenza nella Costruzione dal 2004",
     "titleLine1": "Costruiamo",
     "titleLine2": "il Futuro",
-    "description": "Soluzioni di costruzione e infrastrutture di livello mondiale. Dal concept al completamento, realizziamo progetti che definiscono skyline e trasformano comunita.",
+    "description": "Con oltre 20 anni di esperienza nell'edilizia, sviluppo progetti e intermediazione immobiliare, supportiamo i nostri clienti in ogni fase con sicurezza, qualità e trasparenza.",
     "ctaPrimary": "Scopri i Nostri Progetti",
     "ctaSecondary": "Contattaci",
     "stats": {
-      "years": "Anni di Eccellenza",
-      "projects": "Progetti Realizzati",
-      "countries": "Paesi"
+      "years": "Anni di Esperienza",
+      "sqm": "Metri Quadrati Consegnati",
+      "budget": "Budget Gestito",
+      "languages": "Lingue Parlate"
     }
   },
 
@@ -53,29 +54,29 @@
     "headline": "Soluzioni Costruttive Complete",
     "viewAll": "Scopri Tutti i Servizi",
     "items": {
-      "commercial": {
-        "title": "Costruzioni Commerciali",
-        "description": "Torri per uffici, complessi commerciali e strutture ricettive costruiti secondo i piu alti standard."
+      "construction": {
+        "title": "Costruzione",
+        "description": "Progetti di costruzione residenziale, commerciale e terziaria con sicurezza, qualità e rigoroso rispetto degli standard."
+      },
+      "restoration": {
+        "title": "Restauro & Ristrutturazione",
+        "description": "Restauro esperto di edifici storici e ristrutturazione residenziale nel rispetto dell'integrità architettonica."
+      },
+      "projectManagement": {
+        "title": "Gestione Progetti",
+        "description": "Gestione progetti end-to-end per clienti privati e aziende, garantendo trasparenza e rispetto delle scadenze."
       },
       "realEstate": {
-        "title": "Infrastrutture",
-        "description": "Strade, ponti, reti di servizi e opere pubbliche che connettono le comunita."
+        "title": "Sviluppo Immobiliare",
+        "description": "Sviluppo di immobili residenziali e commerciali con focus su sostenibilità e creazione di valore a lungo termine."
       },
-      "residential": {
-        "title": "Residenziale",
-        "description": "Case di lusso e sviluppi residenziali con artigianalita eccezionale."
-      },
-      "industrial": {
-        "title": "Industriale",
-        "description": "Stabilimenti produttivi, magazzini e complessi industriali."
-      },
-      "renovation": {
-        "title": "Ristrutturazioni",
-        "description": "Trasformazione di strutture esistenti con ammodernamenti e restauri del patrimonio storico."
+      "brokerage": {
+        "title": "Intermediazione Immobiliare",
+        "description": "Servizi professionali di intermediazione per acquisto, vendita e locazione di immobili residenziali e commerciali."
       },
       "consulting": {
         "title": "Consulenza",
-        "description": "Consulenza esperta su fattibilita, pianificazione e gestione dei progetti."
+        "description": "Consulenza esperta su fattibilità, pianificazione, gestione costi e conformità normativa."
       }
     }
   },
@@ -102,6 +103,9 @@
 
   "stats": {
     "years": "Anni di Esperienza",
+    "sqm": "Metri Quadrati Consegnati",
+    "budget": "Budget Gestito",
+    "languages": "Lingue Parlate",
     "projects": "Progetti Completati",
     "satisfaction": "Soddisfazione Clienti",
     "delivered": "Valore Realizzato"

@@ -15,16 +15,17 @@
   },
 
   "hero": {
-    "eyebrow": "Excellentie in Bouwen sinds 1999",
+    "eyebrow": "Excellentie in Bouwen sinds 2004",
     "titleLine1": "Wij Bouwen",
     "titleLine2": "De Toekomst",
-    "description": "Wereldklasse bouw- en infrastructuuroplossingen. Van concept tot oplevering leveren wij projecten die skylines definieren en gemeenschappen transformeren.",
+    "description": "Met meer dan 20 jaar ervaring in bouw, projectontwikkeling en vastgoedbemiddeling begeleiden wij onze klanten in elke fase met veiligheid, kwaliteit en transparantie.",
     "ctaPrimary": "Bekijk Onze Projecten",
     "ctaSecondary": "Neem Contact Op",
     "stats": {
-      "years": "Jaren Excellentie",
-      "projects": "Opgeleverde Projecten",
-      "countries": "Landen"
+      "years": "Jaren Ervaring",
+      "sqm": "Vierkante Meter Opgeleverd",
+      "budget": "Beheerd Budget",
+      "languages": "Gesproken Talen"
     }
   },
 
@@ -53,29 +54,29 @@
     "headline": "Complete Bouwoplossingen",
     "viewAll": "Bekijk Alle Diensten",
     "items": {
-      "commercial": {
-        "title": "Commerciele Bouw",
-        "description": "Kantoortorens, winkelcentra en horecagelegenheden gebouwd volgens de hoogste standaarden."
+      "construction": {
+        "title": "Bouw",
+        "description": "Woning-, commerciële en tertiaire bouwprojecten met veiligheid, kwaliteit en strikte naleving van normen."
+      },
+      "restoration": {
+        "title": "Restauratie & Renovatie",
+        "description": "Deskundige restauratie van monumentale gebouwen en woningrenovatie met respect voor architecturale integriteit."
+      },
+      "projectManagement": {
+        "title": "Projectmanagement",
+        "description": "End-to-end projectmanagement voor particulieren en bedrijven met transparantie en tijdige levering."
       },
       "realEstate": {
-        "title": "Vastgoed",
-        "description": "Wegen, bruggen, nutsvoorzieningen en openbare werken die gemeenschappen verbinden."
+        "title": "Vastgoedontwikkeling",
+        "description": "Ontwikkeling van woon- en commercieel vastgoed met focus op duurzaamheid en langetermijnwaardecreatie."
       },
-      "residential": {
-        "title": "Woningbouw",
-        "description": "Luxe woningen en woonprojecten met uitzonderlijk vakmanschap."
-      },
-      "industrial": {
-        "title": "Industriele Bouw",
-        "description": "Productiefaciliteiten, magazijnen en industriele complexen."
-      },
-      "renovation": {
-        "title": "Renovatie",
-        "description": "Het transformeren van bestaande gebouwen met moderne updates en erfgoedrestauratie."
+      "brokerage": {
+        "title": "Vastgoedbemiddeling",
+        "description": "Professionele bemiddelingsdiensten voor aankoop, verkoop en verhuur van woon- en commercieel vastgoed."
       },
       "consulting": {
         "title": "Advies",
-        "description": "Deskundige begeleiding bij haalbaarheid, planning en projectmanagement."
+        "description": "Deskundige begeleiding bij haalbaarheid, planning, kostenbeheer en regelgevingsconformiteit."
       }
     }
   },
@@ -102,6 +103,9 @@
 
   "stats": {
     "years": "Jaren Ervaring",
+    "sqm": "Vierkante Meter Opgeleverd",
+    "budget": "Beheerd Budget",
+    "languages": "Gesproken Talen",
     "projects": "Voltooide Projecten",
     "satisfaction": "Klanttevredenheid",
     "delivered": "Opgeleverde Waarde"

@@ -108,6 +108,9 @@
 
   "stats": {
     "years": "Years of Experience",
+    "sqm": "Square Meters Delivered",
+    "budget": "Budget Managed",
+    "languages": "Languages Spoken",
     "projects": "Projects Completed",
     "satisfaction": "Client Satisfaction",
     "delivered": "Value Delivered"

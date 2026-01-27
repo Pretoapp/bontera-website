@@ -15,16 +15,17 @@
   },
 
   "hero": {
-    "eyebrow": "Exzellenz im Bau seit 1999",
+    "eyebrow": "Exzellenz im Bau seit 2004",
     "titleLine1": "Wir bauen",
     "titleLine2": "die Zukunft",
-    "description": "Weltklasse-Lösungen für Bau und Infrastruktur. Von der Idee bis zur Fertigstellung liefern wir Projekte, die Skylines prägen und Gemeinschaften transformieren.",
+    "description": "Mit über 20 Jahren Erfahrung in Bau, Projektentwicklung und Immobilienvermittlung begleiten wir unsere Kunden in jeder Projektphase mit Sicherheit, Qualität und Transparenz.",
     "ctaPrimary": "Unsere Projekte ansehen",
     "ctaSecondary": "Kontakt aufnehmen",
     "stats": {
-      "years": "Jahre Exzellenz",
-      "projects": "Gelieferte Projekte",
-      "countries": "Länder"
+      "years": "Jahre Erfahrung",
+      "sqm": "Quadratmeter geliefert",
+      "budget": "Verwaltetes Budget",
+      "languages": "Gesprochene Sprachen"
     }
   },
 
@@ -53,29 +54,29 @@
     "headline": "Umfassende Bauleistungen",
     "viewAll": "Alle Leistungen entdecken",
     "items": {
-      "commercial": {
-        "title": "Gewerbebau",
-        "description": "Bürotürme, Retail-Komplexe und Hospitality-Projekte nach höchsten Standards."
+      "construction": {
+        "title": "Bau",
+        "description": "Wohn-, Gewerbe- und Tertiärbauprojekte mit Sicherheit, Qualität und strenger Einhaltung von Standards."
+      },
+      "restoration": {
+        "title": "Restaurierung & Sanierung",
+        "description": "Fachkundige Restaurierung denkmalgeschützter Gebäude und Wohnungssanierung unter Wahrung der architektonischen Integrität."
+      },
+      "projectManagement": {
+        "title": "Projektmanagement",
+        "description": "End-to-End-Projektmanagement für Privatkunden und Unternehmen mit Transparenz und Termintreue."
       },
       "realEstate": {
         "title": "Immobilienentwicklung",
-        "description": "Premium-Wohn- und Gewerbeimmobilienprojekte mit außergewöhnlichem Investitionswert."
+        "description": "Entwicklung von Wohn- und Gewerbeimmobilien mit Fokus auf Nachhaltigkeit und langfristige Wertschöpfung."
       },
-      "residential": {
-        "title": "Wohnungsbau",
-        "description": "Luxusimmobilien und Wohnanlagen mit erstklassiger Ausführung."
-      },
-      "industrial": {
-        "title": "Industriebau",
-        "description": "Produktionsstätten, Lagerhäuser und Industriekomplexe."
-      },
-      "renovation": {
-        "title": "Sanierung",
-        "description": "Transformation bestehender Strukturen durch Modernisierung und Denkmalsanierung."
+      "brokerage": {
+        "title": "Immobilienvermittlung",
+        "description": "Professionelle Vermittlungsdienste für Kauf, Verkauf und Vermietung von Wohn- und Gewerbeimmobilien."
       },
       "consulting": {
         "title": "Beratung",
-        "description": "Expertenwissen zu Machbarkeit, Planung und Projektmanagement."
+        "description": "Expertenwissen zu Machbarkeit, Planung, Kostenmanagement und regulatorischer Compliance."
       }
     }
   },
@@ -102,6 +103,9 @@
 
   "stats": {
     "years": "Jahre Erfahrung",
+    "sqm": "Quadratmeter geliefert",
+    "budget": "Verwaltetes Budget",
+    "languages": "Gesprochene Sprachen",
     "projects": "Abgeschlossene Projekte",
     "satisfaction": "Kundenzufriedenheit",
     "delivered": "Gelieferter Wert"
