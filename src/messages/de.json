@@ -8,12 +8,10 @@
     "news": "News",
     "contact": "Kontakt"
   },
-
   "metadata": {
     "title": "Bontera | Bau & Infrastruktur",
     "description": "Weltklasse-Lösungen für Bau und Infrastruktur. Von der Idee bis zur Fertigstellung liefern wir Projekte, die Skylines prägen und Gemeinschaften transformieren."
   },
-
   "hero": {
     "eyebrow": "Exzellenz im Bau seit 2004",
     "titleLine1": "Wir bauen",
@@ -28,7 +26,6 @@
       "languages": "Gesprochene Sprachen"
     }
   },
-
   "vision": {
     "eyebrow": "Unsere Vision",
     "headline": "Wir entwickeln die Wahrzeichen von morgen schon heute",
@@ -48,7 +45,6 @@
       }
     }
   },
-
   "services": {
     "eyebrow": "Was wir tun",
     "headline": "Umfassende Bauleistungen",
@@ -80,7 +76,6 @@
       }
     }
   },
-
   "projects": {
     "eyebrow": "Ausgewählte Arbeiten",
     "headline": "Projekte, die Skylines prägen",
@@ -100,7 +95,6 @@
       "explore": "Erkunden"
     }
   },
-
   "stats": {
     "years": "Jahre Erfahrung",
     "sqm": "Quadratmeter geliefert",
@@ -110,7 +104,6 @@
     "satisfaction": "Kundenzufriedenheit",
     "delivered": "Gelieferter Wert"
   },
-
   "whyUs": {
     "eyebrow": "Warum Bontera",
     "headline": "Exzellenz ist unser Standard",
@@ -131,13 +124,11 @@
       }
     }
   },
-
   "testimonial": {
     "quote": "Bontera hat alle Erwartungen übertroffen. Ihre Detailgenauigkeit, Professionalität und Treue zu unserer Vision führten zu einem Landmark-Gebäude, auf das wir unglaublich stolz sind.",
     "name": "Sarah Mitchell",
     "role": "CEO, Atlas Development Group"
   },
-
   "news": {
     "eyebrow": "News & Insights",
     "headline": "Aktuelle Updates",
@@ -145,14 +136,12 @@
     "readMore": "Artikel lesen",
     "noNews": "Derzeit sind keine News-Artikel verfügbar."
   },
-
   "newsSection": {
     "title": "News & Insights",
     "seeMore": "Artikel lesen",
     "discoverAll": "Alle News ansehen",
     "empty": "Derzeit sind keine News-Artikel verfügbar."
   },
-
   "header": {
     "headquarters": "Berlin, Deutschland",
     "emergency24": "24/7 Notfall",
@@ -163,27 +152,23 @@
     "selectLanguage": "Sprache auswählen",
     "requestQuote": "Angebot anfordern",
     "contactInfo": "Kontaktinformationen",
-
     "ourServices": "Unsere Leistungen",
     "featured": "Ausgewählt",
     "sustainableBuilding": "Nachhaltige Bau-Lösungen",
     "sustainableBuildingDesc": "Branchenführend im umweltfreundlichen Bauen mit LEED-zertifizierten Projekten.",
     "viewAllServices": "Alle Leistungen ansehen",
-
     "projectCategories": "Projektkategorien",
     "featuredProject": "Ausgewähltes Projekt",
     "featuredProjectTitle": "Marina Tower Complex",
     "featuredProjectLocation": "Dubai Marina, VAE",
     "completed": "Abgeschlossen",
     "viewAllProjects": "Alle Projekte ansehen",
-
     "aboutBontera": "Über Bontera",
     "byTheNumbers": "Kennzahlen",
     "yearsExperience": "Jahre Erfahrung",
     "projectsCompleted": "Abgeschlossene Projekte",
     "countriesOperating": "Länder im Betrieb",
     "teamMembers": "Teammitglieder",
-
     "services": {
       "commercialConstruction": "Gewerbebau",
       "commercialConstructionDesc": "Büro, Retail, Hospitality",
@@ -198,14 +183,12 @@
       "sustainability": "Nachhaltiges Bauen",
       "sustainabilityDesc": "Green Building und LEED-Zertifizierung"
     },
-
     "projects": {
       "commercial": "Gewerbe",
       "residential": "Wohnen",
       "industrial": "Industrie",
       "publicWorks": "Öffentliche Werke"
     },
-
     "company": {
       "ourStory": "Unsere Geschichte",
       "leadership": "Führungsteam",
@@ -214,7 +197,6 @@
       "partners": "Partner & Affiliates"
     }
   },
-
   "cta": {
     "headline": "Bereit, etwas Außergewöhnliches zu bauen?",
     "description": "Lassen Sie uns über Ihre Vision sprechen. Unser Team ist bereit, ambitionierte Ideen in architektonische Realität zu verwandeln.",
@@ -225,32 +207,26 @@
       "osha": "Konform"
     }
   },
-
   "footer": {
     "description": "Bontera liefert Premium-Bau- und Infrastrukturleistungen mit disziplinierter Planung, präziser Ausführung und kompromisslosem Finish.",
-
     "followUs": "Folgen Sie uns",
     "company": "Unternehmen",
     "services": "Leistungen",
     "contactUs": "Kontakt",
-
     "phone": "Telefon",
     "email": "E-Mail",
     "emergency": "Notfall",
     "backToTop": "Nach oben",
     "allRightsReserved": "Alle Rechte vorbehalten.",
-
     "cta": {
       "headline": "Bereit, etwas Außergewöhnliches zu bauen?",
       "description": "Sagen Sie uns, was Sie bauen. Wir bringen Team, Plan und Umsetzung, um termingerecht und auf höchstem Niveau zu liefern.",
       "button": "Kontakt aufnehmen",
       "secondaryButton": "Angebot anfordern"
     },
-
     "offices": {
       "headquarters": "Hauptsitz"
     },
-
     "serviceLinks": {
       "commercial": "Gewerbebau",
       "realEstate": "Immobilien",
@@ -259,14 +235,12 @@
       "renovation": "Sanierung",
       "consulting": "Beratung"
     },
-
     "legal": {
       "privacy": "Datenschutzerklärung",
       "terms": "Nutzungsbedingungen",
       "cookies": "Cookie-Richtlinie"
     }
   },
-
   "about": {
     "meta": {
       "title": "Über uns | Bontera GmbH",
@@ -381,10 +355,22 @@
       "subtitle": "Erfahrene Professionals, die Bonteras Vision von Exzellenz im Bau vorantreiben.",
       "viewAll": "Ganzes Team ansehen",
       "members": {
-        "ceo": { "name": "Mr. Nedjet", "title": "Chief Executive Officer" },
-        "coo": { "name": "Sarah Mitchell", "title": "Chief Operating Officer" },
-        "cto": { "name": "Dr. Michael Chen", "title": "Chief Technology Officer" },
-        "cfo": { "name": "Elena Rodriguez", "title": "Chief Financial Officer" }
+        "ceo": {
+          "name": "Mr. Nedjet",
+          "title": "Chief Executive Officer"
+        },
+        "coo": {
+          "name": "Sarah Mitchell",
+          "title": "Chief Operating Officer"
+        },
+        "cto": {
+          "name": "Dr. Michael Chen",
+          "title": "Chief Technology Officer"
+        },
+        "cfo": {
+          "name": "Elena Rodriguez",
+          "title": "Chief Financial Officer"
+        }
       }
     },
     "certifications": {
@@ -411,10 +397,7 @@
       "joinTeam": "Karriere"
     }
   },
-
-
-
-    "servicesPage": {
+  "servicesPage": {
     "meta": {
       "title": "Unsere Leistungen | Bontera Construction",
       "description": "Entdecken Sie Bonteras umfassende Bauleistungen: Gewerbe, Wohnen, Infrastruktur, Industrie, Sanierung und Beratung."
@@ -615,7 +598,6 @@
       "contactUs": "Kontakt"
     }
   },
-
   "projectsPage": {
     "meta": {
       "title": "Unsere Projekte | Bontera Construction",
@@ -713,7 +695,6 @@
       "contactUs": "Kontakt"
     }
   },
-
   "contactPage": {
     "meta": {
       "title": "Kontakt | Bontera Construction",
@@ -729,21 +710,48 @@
       "subtitle": "Sie haben ein Projekt im Kopf? Unser Team ist bereit, Ihre Vision umzusetzen. Kontaktieren Sie uns über einen der Kanäle unten."
     },
     "methods": {
-      "phone": { "label": "Anrufen", "description": "Mo-Fr 8:00 bis 18:00" },
-      "email": { "label": "E-Mail", "description": "Antwort in der Regel innerhalb von 24 Stunden" },
-      "whatsapp": { "label": "WhatsApp", "description": "Schneller Chat-Support" },
-      "emergency": { "label": "24/7 Notfall", "description": "Für dringende Anliegen" }
+      "phone": {
+        "label": "Anrufen",
+        "description": "Mo-Fr 8:00 bis 18:00"
+      },
+      "email": {
+        "label": "E-Mail",
+        "description": "Antwort in der Regel innerhalb von 24 Stunden"
+      },
+      "whatsapp": {
+        "label": "WhatsApp",
+        "description": "Schneller Chat-Support"
+      },
+      "emergency": {
+        "label": "24/7 Notfall",
+        "description": "Für dringende Anliegen"
+      }
     },
     "form": {
       "eyebrow": "Nachricht senden",
       "title": "Wie können wir helfen?",
       "description": "Füllen Sie das Formular aus. Unser Team meldet sich innerhalb von 24 Stunden.",
       "fields": {
-        "name": { "label": "Vollständiger Name", "placeholder": "Max Mustermann" },
-        "email": { "label": "E-Mail-Adresse", "placeholder": "max@unternehmen.de" },
-        "phone": { "label": "Telefonnummer", "placeholder": "+49 30 123 456 7890" },
-        "company": { "label": "Unternehmen", "placeholder": "Ihr Unternehmen" },
-        "subject": { "label": "Betreff", "placeholder": "Wobei können wir helfen?" },
+        "name": {
+          "label": "Vollständiger Name",
+          "placeholder": "Max Mustermann"
+        },
+        "email": {
+          "label": "E-Mail-Adresse",
+          "placeholder": "max@unternehmen.de"
+        },
+        "phone": {
+          "label": "Telefonnummer",
+          "placeholder": "+49 30 123 456 7890"
+        },
+        "company": {
+          "label": "Unternehmen",
+          "placeholder": "Ihr Unternehmen"
+        },
+        "subject": {
+          "label": "Betreff",
+          "placeholder": "Wobei können wir helfen?"
+        },
         "projectType": {
           "label": "Projekttyp",
           "placeholder": "Projekttyp auswählen",
@@ -781,7 +789,10 @@
         "messageRequired": "Bitte geben Sie Ihre Nachricht ein",
         "messageTooShort": "Ihre Nachricht sollte mindestens 20 Zeichen enthalten"
       },
-      "privacy": { "text": "Mit dem Absenden stimmen Sie unserer", "link": "Datenschutzerklärung" },
+      "privacy": {
+        "text": "Mit dem Absenden stimmen Sie unserer",
+        "link": "Datenschutzerklärung"
+      },
       "submit": "Nachricht senden",
       "submitting": "Wird gesendet...",
       "success": {
@@ -808,7 +819,9 @@
       "title": "Schnelle Antwort garantiert",
       "description": "Wir antworten in der Regel innerhalb von 24 Stunden an Werktagen. Für dringende Anliegen nutzen Sie bitte die Notfall-Hotline."
     },
-    "social": { "title": "Folgen Sie uns" },
+    "social": {
+      "title": "Folgen Sie uns"
+    },
     "offices": {
       "eyebrow": "Unsere Standorte",
       "title": "Besuchen Sie unsere Büros",
@@ -846,7 +859,6 @@
       "getDirections": "Route planen"
     }
   },
-
   "careersPage": {
     "meta": {
       "title": "Karriere | Bontera Construction",
@@ -875,10 +887,22 @@
       "description": "Bei Bontera sind Menschen unser wichtigstes Asset. Wir schaffen ein Umfeld, in dem Talent wächst, Innovation entsteht und jeder sein Potenzial erreicht.",
       "yearsGrowing": "Jahre gemeinsames Wachstum",
       "points": {
-        "impact": { "title": "Echte Wirkung", "description": "Arbeiten Sie an Landmark-Projekten, die Gemeinschaften prägen und ein Vermächtnis hinterlassen." },
-        "growth": { "title": "Kontinuierliches Wachstum", "description": "Zugang zu Training, Mentoring und klaren Karrierepfaden." },
-        "team": { "title": "Teamkultur", "description": "Ein diverses, unterstützendes Team, das Erfolge gemeinsam feiert." },
-        "innovation": { "title": "Innovation zuerst", "description": "Arbeiten Sie mit moderner Technologie und innovativen Bauverfahren." }
+        "impact": {
+          "title": "Echte Wirkung",
+          "description": "Arbeiten Sie an Landmark-Projekten, die Gemeinschaften prägen und ein Vermächtnis hinterlassen."
+        },
+        "growth": {
+          "title": "Kontinuierliches Wachstum",
+          "description": "Zugang zu Training, Mentoring und klaren Karrierepfaden."
+        },
+        "team": {
+          "title": "Teamkultur",
+          "description": "Ein diverses, unterstützendes Team, das Erfolge gemeinsam feiert."
+        },
+        "innovation": {
+          "title": "Innovation zuerst",
+          "description": "Arbeiten Sie mit moderner Technologie und innovativen Bauverfahren."
+        }
       }
     },
     "featured": {
@@ -913,12 +937,30 @@
       "title": "Wir kümmern uns um unser Team",
       "subtitle": "Ein umfassendes Paket für Gesundheit, Finanzen und Work-Life-Balance.",
       "items": {
-        "health": { "title": "Gesundheit & Wohlbefinden", "description": "Umfassende medizinische Absicherung plus Wellness-Programme und Gym-Angebote." },
-        "retirement": { "title": "Altersvorsorge", "description": "Attraktive Vorsorgeprogramme mit Arbeitgeberanteil." },
-        "learning": { "title": "Lernen & Entwicklung", "description": "Weiterbildung, Zertifikate, Konferenzen und Unterstützung bei Qualifizierungen." },
-        "vacation": { "title": "Großzügige Freizeit", "description": "Flexible Urlaubspolitik, Feiertage und Sabbatical-Optionen." },
-        "flexibility": { "title": "Flexibilität", "description": "Flexible Arbeitsmodelle und Remote-Optionen, wo möglich." },
-        "growth": { "title": "Karriereentwicklung", "description": "Klare Karrierepfade, Mentoring und Aufstiegschancen in globalen Teams." }
+        "health": {
+          "title": "Gesundheit & Wohlbefinden",
+          "description": "Umfassende medizinische Absicherung plus Wellness-Programme und Gym-Angebote."
+        },
+        "retirement": {
+          "title": "Altersvorsorge",
+          "description": "Attraktive Vorsorgeprogramme mit Arbeitgeberanteil."
+        },
+        "learning": {
+          "title": "Lernen & Entwicklung",
+          "description": "Weiterbildung, Zertifikate, Konferenzen und Unterstützung bei Qualifizierungen."
+        },
+        "vacation": {
+          "title": "Großzügige Freizeit",
+          "description": "Flexible Urlaubspolitik, Feiertage und Sabbatical-Optionen."
+        },
+        "flexibility": {
+          "title": "Flexibilität",
+          "description": "Flexible Arbeitsmodelle und Remote-Optionen, wo möglich."
+        },
+        "growth": {
+          "title": "Karriereentwicklung",
+          "description": "Klare Karrierepfade, Mentoring und Aufstiegschancen in globalen Teams."
+        }
       }
     },
     "culture": {
@@ -926,10 +968,22 @@
       "title": "Arbeiten bei Bontera",
       "description": "Wir fördern Exzellenz, Zusammenarbeit und kontinuierliche Verbesserung, bei der jede Stimme zählt.",
       "values": {
-        "innovation": { "title": "Innovation", "description": "Wir nutzen neue Ideen und Technologie für bessere Lösungen." },
-        "teamwork": { "title": "Teamwork", "description": "Zusammenarbeit steht im Mittelpunkt. Diverse Perspektiven sind Stärke." },
-        "excellence": { "title": "Exzellenz", "description": "Wir setzen höchste Standards in jedem Projekt." },
-        "safety": { "title": "Sicherheit zuerst", "description": "Das Wohl unserer Teams und Gemeinschaften ist Priorität." }
+        "innovation": {
+          "title": "Innovation",
+          "description": "Wir nutzen neue Ideen und Technologie für bessere Lösungen."
+        },
+        "teamwork": {
+          "title": "Teamwork",
+          "description": "Zusammenarbeit steht im Mittelpunkt. Diverse Perspektiven sind Stärke."
+        },
+        "excellence": {
+          "title": "Exzellenz",
+          "description": "Wir setzen höchste Standards in jedem Projekt."
+        },
+        "safety": {
+          "title": "Sicherheit zuerst",
+          "description": "Das Wohl unserer Teams und Gemeinschaften ist Priorität."
+        }
       }
     },
     "testimonials": {
@@ -963,7 +1017,6 @@
       "sendResume": "Lebenslauf senden"
     }
   },
-
   "newsPage": {
     "meta": {
       "title": "News & Insights | Bontera Construction",
@@ -1073,7 +1126,6 @@
       "featuredIn": "Bekannt aus"
     }
   },
-
   "quotePage": {
     "meta": {
       "title": "Angebot anfordern | Bontera Construction",
@@ -1102,9 +1154,15 @@
         "project": "Projektdetails",
         "details": "Zusätzliche Angaben"
       },
-      "step1": { "title": "Kontaktinformationen" },
-      "step2": { "title": "Projektdetails" },
-      "step3": { "title": "Zusätzliche Informationen" },
+      "step1": {
+        "title": "Kontaktinformationen"
+      },
+      "step2": {
+        "title": "Projektdetails"
+      },
+      "step3": {
+        "title": "Zusätzliche Informationen"
+      },
       "fields": {
         "firstName": "Vorname",
         "lastName": "Nachname",
@@ -1237,10 +1295,22 @@
       "title": "Von Anfrage bis Angebot",
       "description": "Unser Prozess stellt sicher, dass Sie schnell ein umfassendes und präzises Angebot erhalten.",
       "steps": {
-        "submit": { "title": "Anfrage senden", "description": "Füllen Sie unser Formular mit Projektinfos und Anforderungen aus." },
-        "review": { "title": "Wir prüfen & analysieren", "description": "Unsere Experten prüfen die Anfrage und analysieren die Anforderungen." },
-        "consultation": { "title": "Erstgespräch", "description": "Wir vereinbaren einen Termin, klären Details und beantworten Fragen." },
-        "proposal": { "title": "Angebot erhalten", "description": "Sie erhalten ein detailliertes Angebot mit transparenter Preisstruktur." }
+        "submit": {
+          "title": "Anfrage senden",
+          "description": "Füllen Sie unser Formular mit Projektinfos und Anforderungen aus."
+        },
+        "review": {
+          "title": "Wir prüfen & analysieren",
+          "description": "Unsere Experten prüfen die Anfrage und analysieren die Anforderungen."
+        },
+        "consultation": {
+          "title": "Erstgespräch",
+          "description": "Wir vereinbaren einen Termin, klären Details und beantworten Fragen."
+        },
+        "proposal": {
+          "title": "Angebot erhalten",
+          "description": "Sie erhalten ein detailliertes Angebot mit transparenter Preisstruktur."
+        }
       }
     },
     "faq": {
@@ -1283,7 +1353,6 @@
       "viewProjects": "Unsere Projekte ansehen"
     }
   },
-
   "projectDetail": {
     "breadcrumb": {
       "home": "Startseite",
@@ -1359,6 +1428,56 @@
       "startProject": "Projekt starten",
       "contactUs": "Kontakt"
     }
+  },
+  "jobDetailPage": {
+    "meta": {
+      "titleSuffix": "Karriere | Bontera Construction",
+      "description": "Bewerben Sie sich auf diese spannende Karrieremöglichkeit bei Bontera Construction."
+    },
+    "breadcrumb": {
+      "home": "Startseite",
+      "careers": "Karriere"
+    },
+    "featured": "Empfohlen",
+    "posted": "Veröffentlicht",
+    "applyNow": "Jetzt bewerben",
+    "sections": {
+      "description": "Stellenbeschreibung",
+      "responsibilities": "Hauptaufgaben",
+      "requirements": "Anforderungen",
+      "benefits": "Was wir bieten"
+    },
+    "sidebar": {
+      "quickInfo": "Kurzinfo",
+      "department": "Abteilung",
+      "location": "Standort",
+      "type": "Beschäftigungsart",
+      "experience": "Erfahrung",
+      "shareJob": "Stelle teilen",
+      "questions": "Fragen?",
+      "contactText": "Unser Recruiting-Team hilft Ihnen gerne weiter. Kontaktieren Sie uns bei Fragen zu dieser Position."
+    },
+    "apply": {
+      "title": "Auf diese Stelle bewerben",
+      "subtitle": "Füllen Sie das Formular aus, um Ihre Bewerbung einzureichen. Wir werden sie prüfen und uns bald bei Ihnen melden.",
+      "fields": {
+        "firstName": "Vorname",
+        "lastName": "Nachname",
+        "email": "E-Mail-Adresse",
+        "phone": "Telefonnummer",
+        "linkedin": "LinkedIn-Profil",
+        "resume": "Lebenslauf",
+        "resumeHint": "Datei hierher ziehen oder klicken zum Durchsuchen",
+        "resumeFormats": "PDF, DOC, DOCX (Max 5MB)",
+        "coverLetter": "Anschreiben",
+        "coverLetterPlaceholder": "Erzählen Sie uns, warum Sie sich für diese Stelle interessieren und was Sie auszeichnet..."
+      },
+      "privacy": {
+        "text": "Ich stimme der Verarbeitung meiner personenbezogenen Daten gemäß der",
+        "link": "Datenschutzrichtlinie"
+      },
+      "submit": "Bewerbung absenden"
+    },
+    "backToCareers": "Zurück zu allen Stellen"
   }
 }
-

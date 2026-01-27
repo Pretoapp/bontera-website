@@ -8,12 +8,10 @@
     "news": "Haberler",
     "contact": "İletişim"
   },
-
   "metadata": {
     "title": "Bontera | İnşaat ve Gayrimenkul",
     "description": "Dünya standartlarında inşaat ve altyapı çözümleri. Fikirden teslimata, ufuk çizgilerini yeniden tanımlayan ve toplulukları dönüştüren projeler gerçekleştiriyoruz."
   },
-
   "hero": {
     "eyebrow": "2004'ten beri mükemmellik",
     "titleLine1": "Geleceği",
@@ -28,7 +26,6 @@
       "languages": "Konuşulan Dil"
     }
   },
-
   "vision": {
     "eyebrow": "Vizyonumuz",
     "headline": "Yarının Simgelerini Bugünden Mühendislikle İnşa Ediyoruz",
@@ -48,7 +45,6 @@
       }
     }
   },
-
   "services": {
     "eyebrow": "Ne Yapıyoruz",
     "headline": "Kapsamlı İnşaat Çözümleri",
@@ -80,7 +76,6 @@
       }
     }
   },
-
   "projects": {
     "eyebrow": "Öne Çıkan İşler",
     "headline": "Ufuk Çizgilerini Tanımlayan Projeler",
@@ -100,7 +95,6 @@
       "explore": "Keşfet"
     }
   },
-
   "stats": {
     "years": "Deneyim Yılı",
     "sqm": "Teslim Edilen Metrekare",
@@ -110,7 +104,6 @@
     "satisfaction": "Müşteri Memnuniyeti",
     "delivered": "Teslim Edilen Değer"
   },
-
   "whyUs": {
     "eyebrow": "Neden Bontera",
     "headline": "Mükemmellik Bizim Standardımız",
@@ -131,13 +124,11 @@
       }
     }
   },
-
   "testimonial": {
     "quote": "Bontera tüm beklentilerimizi aştı. Detaylara dikkatleri, profesyonellikleri ve vizyonumuza bağlılıkları, gurur duyduğumuz simgesel bir yapı ortaya çıkardı.",
     "name": "Sarah Mitchell",
     "role": "CEO, Atlas Development Group"
   },
-
   "news": {
     "eyebrow": "Haberler ve İçgörüler",
     "headline": "Son Güncellemeler",
@@ -145,14 +136,12 @@
     "readMore": "Makaleyi Oku",
     "noNews": "Şu anda gösterilecek haber yok."
   },
-
   "newsSection": {
     "title": "Haberler ve İçgörüler",
     "seeMore": "Makaleyi Oku",
     "discoverAll": "Tüm Haberleri Görün",
     "empty": "Şu anda gösterilecek haber yok."
   },
-
   "header": {
     "headquarters": "Berlin, Almanya",
     "emergency24": "7/24 Acil",
@@ -163,27 +152,23 @@
     "selectLanguage": "Dil Seçin",
     "requestQuote": "Teklif İste",
     "contactInfo": "İletişim Bilgileri",
-
     "ourServices": "Hizmetlerimiz",
     "featured": "Öne Çıkan",
     "sustainableBuilding": "Sürdürülebilir Yapı Çözümleri",
     "sustainableBuildingDesc": "LEED sertifikalı projelerle çevre dostu inşaatta sektör lideriyiz.",
     "viewAllServices": "Tüm Hizmetleri Gör",
-
     "projectCategories": "Proje Kategorileri",
     "featuredProject": "Öne Çıkan Proje",
     "featuredProjectTitle": "Marina Tower Complex",
     "featuredProjectLocation": "Dubai Marina, BAE",
     "completed": "Tamamlandı",
     "viewAllProjects": "Tüm Projeleri Gör",
-
     "aboutBontera": "Bontera Hakkında",
     "byTheNumbers": "Rakamlarla",
     "yearsExperience": "Deneyim Yılı",
     "projectsCompleted": "Tamamlanan Proje",
     "countriesOperating": "Faaliyet Gösterilen Ülke",
     "teamMembers": "Ekip Üyesi",
-
     "services": {
       "commercialConstruction": "Ticari İnşaat",
       "commercialConstructionDesc": "Ofis, perakende, otel",
@@ -198,14 +183,12 @@
       "sustainability": "Sürdürülebilir İnşaat",
       "sustainabilityDesc": "Yeşil bina ve LEED"
     },
-
     "projects": {
       "commercial": "Ticari",
       "residential": "Konut",
       "industrial": "Endüstriyel",
       "publicWorks": "Kamu"
     },
-
     "company": {
       "ourStory": "Hikayemiz",
       "leadership": "Yönetim Ekibi",
@@ -214,7 +197,6 @@
       "partners": "Partnerler ve İştirakler"
     }
   },
-
   "cta": {
     "headline": "Olağanüstü Bir Şey İnşa Etmeye Hazır mısınız?",
     "description": "Vizyonunuzu konuşalım. Ekibimiz iddialı fikirlerinizi mimari gerçeğe dönüştürmeye hazır.",
@@ -225,32 +207,26 @@
       "osha": "Uyumlu"
     }
   },
-
   "footer": {
     "description": "Bontera, disiplinli planlama, hassas uygulama ve tavizsiz işçilikle premium inşaat ve altyapı projeleri teslim eder.",
-
     "followUs": "Bizi Takip Edin",
     "company": "Şirket",
     "services": "Hizmetler",
     "contactUs": "İletişim",
-
     "phone": "Telefon",
     "email": "E-posta",
     "emergency": "Acil",
     "backToTop": "Yukarı dön",
     "allRightsReserved": "Tüm hakları saklıdır.",
-
     "cta": {
       "headline": "İstisnai Bir Şey İnşa Etmeye Hazır mısınız?",
       "description": "Ne inşa ettiğinizi anlatın. Zamanında ve en yüksek standartta teslimat için ekibi, planı ve uygulamayı getiririz.",
       "button": "Bize Ulaşın",
       "secondaryButton": "Teklif İste"
     },
-
     "offices": {
       "headquarters": "Genel Merkez"
     },
-
     "serviceLinks": {
       "commercial": "Ticari İnşaat",
       "realEstate": "Gayrimenkul",
@@ -259,14 +235,12 @@
       "renovation": "Yenileme",
       "consulting": "Danışmanlık"
     },
-
     "legal": {
       "privacy": "Gizlilik Politikası",
       "terms": "Kullanım Şartları",
       "cookies": "Çerez Politikası"
     }
   },
-
   "about": {
     "meta": {
       "title": "Hakkımızda | Bontera GmbH",
@@ -423,7 +397,6 @@
       "joinTeam": "Ekibe Katılın"
     }
   },
-
   "servicesPage": {
     "meta": {
       "title": "Hizmetlerimiz | Bontera Construction",
@@ -625,7 +598,6 @@
       "contactUs": "İletişim"
     }
   },
-
   "projectsPage": {
     "meta": {
       "title": "Projelerimiz | Bontera Construction",
@@ -723,7 +695,6 @@
       "contactUs": "İletişim"
     }
   },
-
   "contactPage": {
     "meta": {
       "title": "İletişim | Bontera Construction",
@@ -739,21 +710,48 @@
       "subtitle": "Bir projeniz mi var? Ekibimiz vizyonunuzu hayata geçirmek için hazır. Aşağıdaki kanallardan bize ulaşın."
     },
     "methods": {
-      "phone": { "label": "Bizi Arayın", "description": "Pzt-Cuma 08:00-18:00" },
-      "email": { "label": "E-posta Gönderin", "description": "24 saat içinde dönüş" },
-      "whatsapp": { "label": "WhatsApp", "description": "Hızlı destek" },
-      "emergency": { "label": "7/24 Acil", "description": "Acil durumlar için" }
+      "phone": {
+        "label": "Bizi Arayın",
+        "description": "Pzt-Cuma 08:00-18:00"
+      },
+      "email": {
+        "label": "E-posta Gönderin",
+        "description": "24 saat içinde dönüş"
+      },
+      "whatsapp": {
+        "label": "WhatsApp",
+        "description": "Hızlı destek"
+      },
+      "emergency": {
+        "label": "7/24 Acil",
+        "description": "Acil durumlar için"
+      }
     },
     "form": {
       "eyebrow": "Mesaj Gönderin",
       "title": "Nasıl Yardımcı Olabiliriz?",
       "description": "Aşağıdaki formu doldurun, ekibimiz 24 saat içinde size dönecektir.",
       "fields": {
-        "name": { "label": "Ad Soyad", "placeholder": "Ahmet Yılmaz" },
-        "email": { "label": "E-posta", "placeholder": "ahmet@company.com" },
-        "phone": { "label": "Telefon", "placeholder": "+49 30 123 456 7890" },
-        "company": { "label": "Şirket", "placeholder": "Şirketiniz" },
-        "subject": { "label": "Konu", "placeholder": "Nasıl yardımcı olabiliriz?" },
+        "name": {
+          "label": "Ad Soyad",
+          "placeholder": "Ahmet Yılmaz"
+        },
+        "email": {
+          "label": "E-posta",
+          "placeholder": "ahmet@company.com"
+        },
+        "phone": {
+          "label": "Telefon",
+          "placeholder": "+49 30 123 456 7890"
+        },
+        "company": {
+          "label": "Şirket",
+          "placeholder": "Şirketiniz"
+        },
+        "subject": {
+          "label": "Konu",
+          "placeholder": "Nasıl yardımcı olabiliriz?"
+        },
         "projectType": {
           "label": "Proje Türü",
           "placeholder": "Bir proje türü seçin",
@@ -791,7 +789,10 @@
         "messageRequired": "Lütfen mesajınızı girin",
         "messageTooShort": "Mesajınız en az 20 karakter olmalıdır"
       },
-      "privacy": { "text": "Bu formu göndererek", "link": "Gizlilik Politikamızı" },
+      "privacy": {
+        "text": "Bu formu göndererek",
+        "link": "Gizlilik Politikamızı"
+      },
       "submit": "Mesaj Gönder",
       "submitting": "Gönderiliyor...",
       "success": {
@@ -818,7 +819,9 @@
       "title": "Hızlı Yanıt Garantisi",
       "description": "Ekibimiz iş günlerinde genellikle 24 saat içinde yanıt verir. Acil konular için acil hattımızı kullanın."
     },
-    "social": { "title": "Bizi Takip Edin" },
+    "social": {
+      "title": "Bizi Takip Edin"
+    },
     "offices": {
       "eyebrow": "Lokasyonlarımız",
       "title": "Ofislerimizi Ziyaret Edin",
@@ -856,7 +859,6 @@
       "getDirections": "Yol Tarifi Al"
     }
   },
-
   "careersPage": {
     "meta": {
       "title": "Kariyer | Bontera Construction'a Katılın",
@@ -1015,7 +1017,6 @@
       "sendResume": "Özgeçmiş Gönder"
     }
   },
-
   "newsPage": {
     "meta": {
       "title": "Haberler ve İçgörüler | Bontera Construction",
@@ -1125,7 +1126,6 @@
       "featuredIn": "Basında"
     }
   },
-
   "quotePage": {
     "meta": {
       "title": "Teklif İste | Bontera Construction",
@@ -1154,9 +1154,15 @@
         "project": "Proje Detayları",
         "details": "Ek Bilgiler"
       },
-      "step1": { "title": "İletişim Bilgileri" },
-      "step2": { "title": "Proje Detayları" },
-      "step3": { "title": "Ek Bilgiler" },
+      "step1": {
+        "title": "İletişim Bilgileri"
+      },
+      "step2": {
+        "title": "Proje Detayları"
+      },
+      "step3": {
+        "title": "Ek Bilgiler"
+      },
       "fields": {
         "firstName": "Ad",
         "lastName": "Soyad",
@@ -1347,7 +1353,6 @@
       "viewProjects": "Projelerimizi Gör"
     }
   },
-
   "common": {
     "loading": "Yükleniyor...",
     "error": "Bir hata oluştu",
@@ -1355,7 +1360,6 @@
     "seeMore": "Daha Fazla Gör",
     "close": "Kapat"
   },
-
   "strengths": {
     "sectionTitle": "Güçlü yönler",
     "sectionSubtitle": "Karmaşık inşaat ve altyapı projelerini teslim etme biçimimizi tanımlayan dört temel unsur.",
@@ -1377,7 +1381,6 @@
       "description": "İş güvenliği, mevzuata uyum ve düşük etkili yöntemler her aşamaya entegre."
     }
   },
-
   "expertise": {
     "sectionTitle": "Uzmanlık alanları",
     "sectionSubtitle": "Karmaşıklık, kalite ve teslimat disiplinine odaklı modern inşaat kabiliyeti.",
@@ -1405,7 +1408,6 @@
       }
     }
   },
-
   "projectDetail": {
     "breadcrumb": {
       "home": "Ana Sayfa",
@@ -1481,9 +1483,56 @@
       "startProject": "Projenizi Başlatın",
       "contactUs": "Bize Ulaşın"
     }
+  },
+  "jobDetailPage": {
+    "meta": {
+      "titleSuffix": "Kariyer | Bontera Construction",
+      "description": "Bontera Construction'daki bu heyecan verici kariyer fırsatına başvurun."
+    },
+    "breadcrumb": {
+      "home": "Ana Sayfa",
+      "careers": "Kariyer"
+    },
+    "featured": "Öne Çıkan",
+    "posted": "Yayınlandı",
+    "applyNow": "Şimdi Başvur",
+    "sections": {
+      "description": "İş Tanımı",
+      "responsibilities": "Temel Sorumluluklar",
+      "requirements": "Gereksinimler",
+      "benefits": "Sunduklarımız"
+    },
+    "sidebar": {
+      "quickInfo": "Hızlı Bilgi",
+      "department": "Departman",
+      "location": "Konum",
+      "type": "İstihdam Türü",
+      "experience": "Deneyim",
+      "shareJob": "Bu İşi Paylaş",
+      "questions": "Sorularınız mı var?",
+      "contactText": "İşe alım ekibimiz size yardımcı olmak için hazır. Bu pozisyonla ilgili sorularınız için bizimle iletişime geçin."
+    },
+    "apply": {
+      "title": "Bu Pozisyona Başvur",
+      "subtitle": "Başvurunuzu göndermek için aşağıdaki formu doldurun. İnceleyip en kısa sürede size geri döneceğiz.",
+      "fields": {
+        "firstName": "Ad",
+        "lastName": "Soyad",
+        "email": "E-posta Adresi",
+        "phone": "Telefon Numarası",
+        "linkedin": "LinkedIn Profili",
+        "resume": "Özgeçmiş",
+        "resumeHint": "Dosyanızı buraya sürükleyin veya göz atmak için tıklayın",
+        "resumeFormats": "PDF, DOC, DOCX (Maks 5MB)",
+        "coverLetter": "Ön Yazı",
+        "coverLetterPlaceholder": "Bu rol için neden ilgilendiğinizi ve sizi harika bir aday yapan özellikleri anlatın..."
+      },
+      "privacy": {
+        "text": "Kişisel verilerimin işlenmesine aşağıdakine uygun olarak izin veriyorum",
+        "link": "Gizlilik Politikası"
+      },
+      "submit": "Başvuruyu Gönder"
+    },
+    "backToCareers": "Tüm Pozisyonlara Dön"
   }
 }
-
-
-
-

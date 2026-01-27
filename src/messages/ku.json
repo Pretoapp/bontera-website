@@ -8,12 +8,10 @@
     "news": "Nuce",
     "contact": "Tekili"
   },
-
   "metadata": {
     "title": "Bontera | Avahisazi & Binesazi",
     "description": "Carinan avahisazi u binesaziya cihangi. Ji ramaneke heta qedandineki, em projeyan radest dikin ku ezmanan diyar dikin u civakan veguhezinin."
   },
-
   "hero": {
     "eyebrow": "Avahisaziya Bilind Ji Sala 2004an",
     "titleLine1": "Em",
@@ -28,7 +26,6 @@
       "languages": "Zimanen Axaftine"
     }
   },
-
   "vision": {
     "eyebrow": "Diteya Me",
     "headline": "Nisenan Sibe Iro Avakirin",
@@ -48,7 +45,6 @@
       }
     }
   },
-
   "services": {
     "eyebrow": "Em Ci Dikin",
     "headline": "Carinan Avahisaziye Temam",
@@ -80,7 +76,6 @@
       }
     }
   },
-
   "projects": {
     "eyebrow": "Kareyen Taybet",
     "headline": "Projeyen ku Ezmanan Diyar Dikin",
@@ -100,7 +95,6 @@
       "explore": "Bibin"
     }
   },
-
   "stats": {
     "years": "Salen Tecrubey",
     "sqm": "Metre Cargosey Radest Bun",
@@ -110,7 +104,6 @@
     "satisfaction": "Razibuna Xeridan",
     "delivered": "Nirkirin Radest Bun"
   },
-
   "whyUs": {
     "eyebrow": "Cima Bontera Hilbijerin",
     "headline": "Serkeftin Standarda Me Ye",
@@ -131,13 +124,11 @@
       }
     }
   },
-
   "testimonial": {
     "quote": "Bontera ji her heviyeki derbas bu. Baldariya wan a li ser huran, pesnaziyi, u sozdariya wan a ji bo diteya me encam da avahiyeke nisane ku em pe geli serbilind in.",
     "name": "Sarah Mitchell",
     "role": "CEO, Atlas Development Group"
   },
-
   "news": {
     "eyebrow": "Nuce & Biran",
     "headline": "Nuvekiriyen Dawi",
@@ -145,14 +136,12 @@
     "readMore": "Gotare Bixwinin",
     "noNews": "Di ve deme de ti gotareyen nuceyan tune ne ku were xuya kirin."
   },
-
   "newsSection": {
     "title": "Nuce & Biran",
     "seeMore": "Gotare Bixwinin",
     "discoverAll": "Hemu Nuceyan Bibin",
     "empty": "Di ve deme de ti gotareyen nuceyan tune ne ku were xuya kirin."
   },
-
   "header": {
     "headquarters": "Berlin, Almanya",
     "emergency24": "24/7 Rewseke Lez",
@@ -163,27 +152,23 @@
     "selectLanguage": "Ziman Hilbijerin",
     "requestQuote": "Bihayeke Bixwazin",
     "contactInfo": "Agahiya Tekiliye",
-
     "ourServices": "Xizmeten Me",
     "featured": "Taybet",
     "sustainableBuilding": "Carinan Avahisaziya Berdewam",
     "sustainableBuildingDesc": "Di avahisaziya eko-dostane de pesereng bi projeyen bi LEED-sertifika.",
     "viewAllServices": "Hemu Xizmetan Bibin",
-
     "projectCategories": "Kategoriyeyen Projeyan",
     "featuredProject": "Projeya Taybet",
     "featuredProjectTitle": "Kompleksa Bircen Marina",
     "featuredProjectLocation": "Dubai Marina, UAE",
     "completed": "Qediyaye",
     "viewAllProjects": "Hemu Projeyan Bibin",
-
     "aboutBontera": "Der Bare Bontera de",
     "byTheNumbers": "Bi Jimare",
     "yearsExperience": "Salen Tecrubey",
     "projectsCompleted": "Proje Qediyane",
     "countriesOperating": "Welaten ku Te de Kar Dikin",
     "teamMembers": "Endam Time",
-
     "services": {
       "commercialConstruction": "Avahisaziya Bazirganiye",
       "commercialConstructionDesc": "Avahiyen ofise, firotin, miteli",
@@ -198,14 +183,12 @@
       "sustainability": "Avahisaziya Berdewam",
       "sustainabilityDesc": "Avahiya kesk u sertifikaya LEED"
     },
-
     "projects": {
       "commercial": "Bazirganiye",
       "residential": "Nistecih",
       "industrial": "Piseyi",
       "publicWorks": "Kareyen Gisti"
     },
-
     "company": {
       "ourStory": "Cirokeya Me",
       "leadership": "Timea Rehberiye",
@@ -214,7 +197,6 @@
       "partners": "Hevkar & Girediyan"
     }
   },
-
   "cta": {
     "headline": "Amade ne ku Tirsek Awarte Ava Bikin?",
     "description": "Werin diteya xwe biaxivin. Timea me amade ye ku ramanene we yen mezin veguheze rastiyen mimariye.",
@@ -225,32 +207,26 @@
       "osha": "Lihevhati"
     }
   },
-
   "footer": {
     "description": "Bontera avahisazi u binesaziya premium radest dike bi plansaziya disiplini, pekvekirina rast, u qedandineke bela.",
-
     "followUs": "Me Biseqinin",
     "company": "Sirket",
     "services": "Xizmet",
     "contactUs": "Bi Me Re Tekili Daynin",
-
     "phone": "Telefon",
     "email": "Email",
     "emergency": "Rewseke Lez",
     "backToTop": "Vegere seri",
     "allRightsReserved": "Hemu maf parastin in.",
-
     "cta": {
       "headline": "Amade ne ku Tirsek Awarte Ava Bikin?",
       "description": "Ji me re bejin hun ci ava dikin. Em timeki, planeki, u pekvekirineki tinin da li ser deme u li gora standarde here bilind radest bikin.",
       "button": "Bi Me Re Tekili Daynin",
       "secondaryButton": "Bihayeke Bixwazin"
     },
-
     "offices": {
       "headquarters": "Navenda Serekin"
     },
-
     "serviceLinks": {
       "commercial": "Avahisaziya Bazirganiye",
       "realEstate": "Binesazi",
@@ -259,14 +235,12 @@
       "renovation": "Nuvekirin",
       "consulting": "Serwistemeni"
     },
-
     "legal": {
       "privacy": "Siyaseta Nihenitiyi",
       "terms": "Sertan Xizmetkirini",
       "cookies": "Siyaseta Cookie"
     }
   },
-
   "about": {
     "meta": {
       "title": "Der Bare Me de | Bontera GmbH",
@@ -423,7 +397,6 @@
       "joinTeam": "Bibe Endam Timea Me"
     }
   },
-
   "servicesPage": {
     "meta": {
       "title": "Xizmeten Me | Bontera Avahisazi",
@@ -625,7 +598,6 @@
       "contactUs": "Bi Me Re Tekili Daynin"
     }
   },
-
   "projectsPage": {
     "meta": {
       "title": "Projeyen Me | Bontera Avahisazi",
@@ -723,7 +695,6 @@
       "contactUs": "Bi Me Re Tekili Daynin"
     }
   },
-
   "contactPage": {
     "meta": {
       "title": "Bi Me Re Tekili Daynin | Bontera Avahisazi",
@@ -739,21 +710,48 @@
       "subtitle": "Projeyek di hizra we de heye? Timea me amade ye ku alkariya we bike da diteya we bo jiyane bine. Bi riya her yek ji kanalene me yen li jeri bi me re tekili daynin."
     },
     "methods": {
-      "phone": { "label": "Ji Me Re Bizen", "description": "Dusem-Ini ji 8e sibeh heta 6e evari" },
-      "email": { "label": "Ji Me Re Email Bikin", "description": "Em di 24 seetadi de bersiv didin" },
-      "whatsapp": { "label": "WhatsApp", "description": "Pilania suhbet bilez" },
-      "emergency": { "label": "24/7 Rewseke Lez", "description": "Ji bo kareyen lez" }
+      "phone": {
+        "label": "Ji Me Re Bizen",
+        "description": "Dusem-Ini ji 8e sibeh heta 6e evari"
+      },
+      "email": {
+        "label": "Ji Me Re Email Bikin",
+        "description": "Em di 24 seetadi de bersiv didin"
+      },
+      "whatsapp": {
+        "label": "WhatsApp",
+        "description": "Pilania suhbet bilez"
+      },
+      "emergency": {
+        "label": "24/7 Rewseke Lez",
+        "description": "Ji bo kareyen lez"
+      }
     },
     "form": {
       "eyebrow": "Peyameke Bisepin",
       "title": "Em Cawa Dikarin Alikariya We Bikin?",
       "description": "Forma li jeri dagirin u timea me di 24 seetadi de bersive we dide.",
       "fields": {
-        "name": { "label": "Nave Temam", "placeholder": "John Smith" },
-        "email": { "label": "Navnisana Email", "placeholder": "john@company.com" },
-        "phone": { "label": "Nimreya Telefone", "placeholder": "+49 30 123 456 7890" },
-        "company": { "label": "Nave Sirkete", "placeholder": "Sirketa We" },
-        "subject": { "label": "Mijar", "placeholder": "Em cawa dikarin alikariye bikin?" },
+        "name": {
+          "label": "Nave Temam",
+          "placeholder": "John Smith"
+        },
+        "email": {
+          "label": "Navnisana Email",
+          "placeholder": "john@company.com"
+        },
+        "phone": {
+          "label": "Nimreya Telefone",
+          "placeholder": "+49 30 123 456 7890"
+        },
+        "company": {
+          "label": "Nave Sirkete",
+          "placeholder": "Sirketa We"
+        },
+        "subject": {
+          "label": "Mijar",
+          "placeholder": "Em cawa dikarin alikariye bikin?"
+        },
         "projectType": {
           "label": "Curne Projeye",
           "placeholder": "Curneyek projeye hilbijerin",
@@ -791,7 +789,10 @@
         "messageRequired": "Ji kerema xwe peyama xwe binivisin",
         "messageTooShort": "Peyama we divit bi kembasi 20 tip be"
       },
-      "privacy": { "text": "Bi seperandina ve forme, hun bi", "link": "Siyaseta Nihenitiyi" },
+      "privacy": {
+        "text": "Bi seperandina ve forme, hun bi",
+        "link": "Siyaseta Nihenitiyi"
+      },
       "submit": "Peyame Bisepin",
       "submitting": "Te sepedrme...",
       "success": {
@@ -818,7 +819,9 @@
       "title": "Bersiva Bilez Garantiye",
       "description": "Timea me bi girant di 24 seetadi de di rojen kare de bersiv dide. Ji bo kareyen lez, ji kerema xwe xeta me ya rewseke lez biker bikin."
     },
-    "social": { "title": "Me Biseqinin" },
+    "social": {
+      "title": "Me Biseqinin"
+    },
     "offices": {
       "eyebrow": "Cihneyen Me",
       "title": "Seredana Ofisenene Me Bikin",
@@ -856,7 +859,6 @@
       "getDirections": "Rehneran Bibin"
     }
   },
-
   "careersPage": {
     "meta": {
       "title": "Kariyer | Bibe Endam Bontera Avahisazi",
@@ -1015,7 +1017,6 @@
       "sendResume": "Resumeya Xwe Bisepin"
     }
   },
-
   "newsPage": {
     "meta": {
       "title": "Nuce & Biran | Bontera Avahisazi",
@@ -1125,7 +1126,6 @@
       "featuredIn": "Li Te de Hat Xuya Kirin"
     }
   },
-
   "quotePage": {
     "meta": {
       "title": "Bihayeke Bixwazin | Bontera Avahisazi",
@@ -1154,9 +1154,15 @@
         "project": "Hurayen Projeye",
         "details": "Agahiya Zede"
       },
-      "step1": { "title": "Agahiya Tekili" },
-      "step2": { "title": "Hurayen Projeye" },
-      "step3": { "title": "Agahiya Zede" },
+      "step1": {
+        "title": "Agahiya Tekili"
+      },
+      "step2": {
+        "title": "Hurayen Projeye"
+      },
+      "step3": {
+        "title": "Agahiya Zede"
+      },
       "fields": {
         "firstName": "Nave Yekem",
         "lastName": "Pasnav",
@@ -1347,7 +1353,6 @@
       "viewProjects": "Projeyen Me Bibin"
     }
   },
-
   "projectDetail": {
     "breadcrumb": {
       "home": "Mal",
@@ -1423,5 +1428,56 @@
       "startProject": "Projeya Xwe Dest Pê Bikin",
       "contactUs": "Bi Me Re Têkilî Bikin"
     }
+  },
+  "jobDetailPage": {
+    "meta": {
+      "titleSuffix": "کار | Bontera Construction",
+      "description": "بۆ ئەم دەرفەتە کارە سەرنجڕاکێشە لە Bontera Construction داواکاری بکە."
+    },
+    "breadcrumb": {
+      "home": "ماڵەوە",
+      "careers": "کار"
+    },
+    "featured": "تایبەت",
+    "posted": "بڵاوکراوە",
+    "applyNow": "ئێستا داواکاری بکە",
+    "sections": {
+      "description": "وەسفی کار",
+      "responsibilities": "بەرپرسیارێتییە سەرەکییەکان",
+      "requirements": "پێداویستییەکان",
+      "benefits": "چی پێشکەش دەکەین"
+    },
+    "sidebar": {
+      "quickInfo": "زانیاری خێرا",
+      "department": "بەش",
+      "location": "شوێن",
+      "type": "جۆری کار",
+      "experience": "ئەزموون",
+      "shareJob": "ئەم کارە بڵاوبکەرەوە",
+      "questions": "پرسیارت هەیە؟",
+      "contactText": "تیمی دەستنیشانکردنمان ئامادەیە یارمەتیت بدات. پەیوەندیمان پێوە بکە بۆ هەر پرسیارێک سەبارەت بەم پۆستە."
+    },
+    "apply": {
+      "title": "بۆ ئەم پۆستە داواکاری بکە",
+      "subtitle": "فۆڕمەکەی خوارەوە پڕبکەرەوە بۆ ناردنی داواکاریەکەت. ئێمە پێداچوونەوەی دەکەین و زوو پەیوەندیت پێوە دەکەین.",
+      "fields": {
+        "firstName": "ناوی یەکەم",
+        "lastName": "ناوی کۆتایی",
+        "email": "ناونیشانی ئیمەیڵ",
+        "phone": "ژمارەی تەلەفۆن",
+        "linkedin": "پرۆفایلی LinkedIn",
+        "resume": "CV",
+        "resumeHint": "فایلەکەت ڕابکێشە بۆ ئێرە یان کلیک بکە بۆ گەڕان",
+        "resumeFormats": "PDF, DOC, DOCX (زۆرترین 5MB)",
+        "coverLetter": "نامەی پێشکەشکردن",
+        "coverLetterPlaceholder": "پێمان بڵێ بۆچی حەزت لەم ڕۆڵە هەیە و چیت دەکاتە کەسێکی گونجاو..."
+      },
+      "privacy": {
+        "text": "ڕازیم بە پرۆسێسکردنی داتاکانی کەسییەکەم لەگەڵ",
+        "link": "سیاسەتی تایبەتمەندی"
+      },
+      "submit": "داواکاری بنێرە"
+    },
+    "backToCareers": "بگەڕێوە بۆ هەموو پۆستەکان"
   }
 }

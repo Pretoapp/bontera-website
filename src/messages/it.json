@@ -8,12 +8,10 @@
     "news": "Notizie",
     "contact": "Contatti"
   },
-
   "metadata": {
     "title": "Bontera | Costruzioni e Infrastrutture",
     "description": "Soluzioni di costruzione e infrastrutture di livello mondiale. Dal concept al completamento, realizziamo progetti che definiscono skyline e trasformano comunita."
   },
-
   "hero": {
     "eyebrow": "Eccellenza nella Costruzione dal 2004",
     "titleLine1": "Costruiamo",
@@ -28,7 +26,6 @@
       "languages": "Lingue Parlate"
     }
   },
-
   "vision": {
     "eyebrow": "La Nostra Visione",
     "headline": "Progettiamo Oggi i Punti di Riferimento di Domani",
@@ -48,7 +45,6 @@
       }
     }
   },
-
   "services": {
     "eyebrow": "Cosa Facciamo",
     "headline": "Soluzioni Costruttive Complete",
@@ -80,7 +76,6 @@
       }
     }
   },
-
   "projects": {
     "eyebrow": "Lavori in Evidenza",
     "headline": "Progetti che Definiscono Skyline",
@@ -100,7 +95,6 @@
       "explore": "Esplora"
     }
   },
-
   "stats": {
     "years": "Anni di Esperienza",
     "sqm": "Metri Quadrati Consegnati",
@@ -110,7 +104,6 @@
     "satisfaction": "Soddisfazione Clienti",
     "delivered": "Valore Realizzato"
   },
-
   "whyUs": {
     "eyebrow": "Perche Scegliere Bontera",
     "headline": "L'Eccellenza e il Nostro Standard",
@@ -131,13 +124,11 @@
       }
     }
   },
-
   "testimonial": {
     "quote": "Bontera ha superato ogni aspettativa. La loro attenzione ai dettagli, professionalita e impegno verso la nostra visione hanno portato a un edificio iconico di cui siamo incredibilmente orgogliosi.",
     "name": "Sarah Mitchell",
     "role": "CEO, Atlas Development Group"
   },
-
   "news": {
     "eyebrow": "Notizie e Approfondimenti",
     "headline": "Ultimi Aggiornamenti",
@@ -145,14 +136,12 @@
     "readMore": "Leggi Articolo",
     "noNews": "Nessun articolo da visualizzare al momento."
   },
-
   "newsSection": {
     "title": "Notizie e Approfondimenti",
     "seeMore": "Leggi Articolo",
     "discoverAll": "Vedi Tutte le Notizie",
     "empty": "Nessun articolo da visualizzare al momento."
   },
-
   "header": {
     "headquarters": "Berlino, Germania",
     "emergency24": "Emergenza 24/7",
@@ -163,27 +152,23 @@
     "selectLanguage": "Seleziona Lingua",
     "requestQuote": "Richiedi Preventivo",
     "contactInfo": "Informazioni di Contatto",
-
     "ourServices": "I Nostri Servizi",
     "featured": "In Evidenza",
     "sustainableBuilding": "Soluzioni Edilizie Sostenibili",
     "sustainableBuildingDesc": "Leader del settore nelle costruzioni eco-compatibili con progetti certificati LEED.",
     "viewAllServices": "Vedi Tutti i Servizi",
-
     "projectCategories": "Categorie di Progetti",
     "featuredProject": "Progetto in Evidenza",
     "featuredProjectTitle": "Complesso Marina Tower",
     "featuredProjectLocation": "Dubai Marina, EAU",
     "completed": "Completato",
     "viewAllProjects": "Vedi Tutti i Progetti",
-
     "aboutBontera": "Chi e Bontera",
     "byTheNumbers": "In Cifre",
     "yearsExperience": "Anni di Esperienza",
     "projectsCompleted": "Progetti Completati",
     "countriesOperating": "Paesi Operativi",
     "teamMembers": "Membri del Team",
-
     "services": {
       "commercialConstruction": "Costruzioni Commerciali",
       "commercialConstructionDesc": "Edifici per uffici, retail, ospitalita",
@@ -198,14 +183,12 @@
       "sustainability": "Costruzione Sostenibile",
       "sustainabilityDesc": "Edilizia verde e certificazione LEED"
     },
-
     "projects": {
       "commercial": "Commerciale",
       "residential": "Residenziale",
       "industrial": "Industriale",
       "publicWorks": "Opere Pubbliche"
     },
-
     "company": {
       "ourStory": "La Nostra Storia",
       "leadership": "Team Dirigenziale",
@@ -214,7 +197,6 @@
       "partners": "Partner e Affiliati"
     }
   },
-
   "cta": {
     "headline": "Pronti a Costruire Qualcosa di Straordinario?",
     "description": "Parliamo della tua visione. Il nostro team e pronto a trasformare le tue idee ambiziose in realta architettonica.",
@@ -225,32 +207,26 @@
       "osha": "Conforme"
     }
   },
-
   "footer": {
     "description": "Bontera realizza costruzioni e infrastrutture di alta qualita con pianificazione disciplinata, esecuzione precisa e finiture impeccabili.",
-
     "followUs": "Seguici",
     "company": "Azienda",
     "services": "Servizi",
     "contactUs": "Contattaci",
-
     "phone": "Telefono",
     "email": "Email",
     "emergency": "Emergenza",
     "backToTop": "Torna in alto",
     "allRightsReserved": "Tutti i diritti riservati.",
-
     "cta": {
       "headline": "Pronti a Costruire Qualcosa di Eccezionale?",
       "description": "Raccontaci cosa stai costruendo. Metteremo a disposizione il team, il piano e l'esecuzione per consegnarlo puntualmente e ai massimi standard.",
       "button": "Contattaci",
       "secondaryButton": "Richiedi un Preventivo"
     },
-
     "offices": {
       "headquarters": "Sede Centrale"
     },
-
     "serviceLinks": {
       "commercial": "Costruzioni Commerciali",
       "realEstate": "Infrastrutture",
@@ -259,14 +235,12 @@
       "renovation": "Ristrutturazioni",
       "consulting": "Consulenza"
     },
-
     "legal": {
       "privacy": "Informativa sulla Privacy",
       "terms": "Termini di Servizio",
       "cookies": "Cookie Policy"
     }
   },
-
   "about": {
     "meta": {
       "title": "Chi Siamo | Bontera GmbH",
@@ -423,7 +397,6 @@
       "joinTeam": "Unisciti al Nostro Team"
     }
   },
-
   "servicesPage": {
     "meta": {
       "title": "I Nostri Servizi | Bontera Costruzioni",
@@ -625,7 +598,6 @@
       "contactUs": "Contattaci"
     }
   },
-
   "projectsPage": {
     "meta": {
       "title": "I Nostri Progetti | Bontera Costruzioni",
@@ -723,7 +695,6 @@
       "contactUs": "Contattaci"
     }
   },
-
   "contactPage": {
     "meta": {
       "title": "Contattaci | Bontera Costruzioni",
@@ -739,21 +710,48 @@
       "subtitle": "Hai un progetto in mente? Il nostro team e pronto ad aiutarti a realizzare la tua visione. Contattaci attraverso uno qualsiasi dei nostri canali."
     },
     "methods": {
-      "phone": { "label": "Chiamaci", "description": "Lun-Ven dalle 8 alle 18" },
-      "email": { "label": "Scrivici", "description": "Rispondiamo entro 24 ore" },
-      "whatsapp": { "label": "WhatsApp", "description": "Supporto rapido via chat" },
-      "emergency": { "label": "Emergenza 24/7", "description": "Per questioni urgenti" }
+      "phone": {
+        "label": "Chiamaci",
+        "description": "Lun-Ven dalle 8 alle 18"
+      },
+      "email": {
+        "label": "Scrivici",
+        "description": "Rispondiamo entro 24 ore"
+      },
+      "whatsapp": {
+        "label": "WhatsApp",
+        "description": "Supporto rapido via chat"
+      },
+      "emergency": {
+        "label": "Emergenza 24/7",
+        "description": "Per questioni urgenti"
+      }
     },
     "form": {
       "eyebrow": "Invia un Messaggio",
       "title": "Come Possiamo Aiutarti?",
       "description": "Compila il modulo sottostante e il nostro team ti rispondera entro 24 ore.",
       "fields": {
-        "name": { "label": "Nome Completo", "placeholder": "Mario Rossi" },
-        "email": { "label": "Indirizzo Email", "placeholder": "mario@azienda.it" },
-        "phone": { "label": "Numero di Telefono", "placeholder": "+39 02 123 456 7890" },
-        "company": { "label": "Nome Azienda", "placeholder": "La Tua Azienda" },
-        "subject": { "label": "Oggetto", "placeholder": "Come possiamo aiutarti?" },
+        "name": {
+          "label": "Nome Completo",
+          "placeholder": "Mario Rossi"
+        },
+        "email": {
+          "label": "Indirizzo Email",
+          "placeholder": "mario@azienda.it"
+        },
+        "phone": {
+          "label": "Numero di Telefono",
+          "placeholder": "+39 02 123 456 7890"
+        },
+        "company": {
+          "label": "Nome Azienda",
+          "placeholder": "La Tua Azienda"
+        },
+        "subject": {
+          "label": "Oggetto",
+          "placeholder": "Come possiamo aiutarti?"
+        },
         "projectType": {
           "label": "Tipo di Progetto",
           "placeholder": "Seleziona un tipo di progetto",
@@ -791,7 +789,10 @@
         "messageRequired": "Inserisci il tuo messaggio",
         "messageTooShort": "Il tuo messaggio deve contenere almeno 20 caratteri"
       },
-      "privacy": { "text": "Inviando questo modulo, accetti la nostra", "link": "Informativa sulla Privacy" },
+      "privacy": {
+        "text": "Inviando questo modulo, accetti la nostra",
+        "link": "Informativa sulla Privacy"
+      },
       "submit": "Invia Messaggio",
       "submitting": "Invio in corso...",
       "success": {
@@ -818,7 +819,9 @@
       "title": "Risposta Rapida Garantita",
       "description": "Il nostro team risponde generalmente entro 24 ore nei giorni lavorativi. Per questioni urgenti, utilizza la nostra linea di emergenza."
     },
-    "social": { "title": "Seguici" },
+    "social": {
+      "title": "Seguici"
+    },
     "offices": {
       "eyebrow": "Le Nostre Sedi",
       "title": "Visita i Nostri Uffici",
@@ -856,7 +859,6 @@
       "getDirections": "Ottieni Indicazioni"
     }
   },
-
   "careersPage": {
     "meta": {
       "title": "Carriere | Unisciti a Bontera Costruzioni",
@@ -1015,7 +1017,6 @@
       "sendResume": "Invia il Tuo Curriculum"
     }
   },
-
   "newsPage": {
     "meta": {
       "title": "Notizie e Approfondimenti | Bontera Costruzioni",
@@ -1125,7 +1126,6 @@
       "featuredIn": "Come Visto Su"
     }
   },
-
   "quotePage": {
     "meta": {
       "title": "Richiedi un Preventivo | Bontera Costruzioni",
@@ -1154,9 +1154,15 @@
         "project": "Dettagli Progetto",
         "details": "Info Aggiuntive"
       },
-      "step1": { "title": "Informazioni di Contatto" },
-      "step2": { "title": "Dettagli del Progetto" },
-      "step3": { "title": "Informazioni Aggiuntive" },
+      "step1": {
+        "title": "Informazioni di Contatto"
+      },
+      "step2": {
+        "title": "Dettagli del Progetto"
+      },
+      "step3": {
+        "title": "Informazioni Aggiuntive"
+      },
       "fields": {
         "firstName": "Nome",
         "lastName": "Cognome",
@@ -1347,7 +1353,6 @@
       "viewProjects": "Vedi i Nostri Progetti"
     }
   },
-
   "projectDetail": {
     "breadcrumb": {
       "home": "Home",
@@ -1423,5 +1428,56 @@
       "startProject": "Inizia il tuo progetto",
       "contactUs": "Contattaci"
     }
+  },
+  "jobDetailPage": {
+    "meta": {
+      "titleSuffix": "Carriere | Bontera Construction",
+      "description": "Candidati per questa entusiasmante opportunità di carriera presso Bontera Construction."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "careers": "Carriere"
+    },
+    "featured": "In evidenza",
+    "posted": "Pubblicato",
+    "applyNow": "Candidati ora",
+    "sections": {
+      "description": "Descrizione del lavoro",
+      "responsibilities": "Responsabilità principali",
+      "requirements": "Requisiti",
+      "benefits": "Cosa offriamo"
+    },
+    "sidebar": {
+      "quickInfo": "Informazioni rapide",
+      "department": "Dipartimento",
+      "location": "Sede",
+      "type": "Tipo di impiego",
+      "experience": "Esperienza",
+      "shareJob": "Condividi questa offerta",
+      "questions": "Domande?",
+      "contactText": "Il nostro team di recruiting è qui per aiutarti. Contattaci per qualsiasi domanda su questa posizione."
+    },
+    "apply": {
+      "title": "Candidati per questa posizione",
+      "subtitle": "Compila il modulo sottostante per inviare la tua candidatura. La esamineremo e ti ricontatteremo presto.",
+      "fields": {
+        "firstName": "Nome",
+        "lastName": "Cognome",
+        "email": "Indirizzo email",
+        "phone": "Numero di telefono",
+        "linkedin": "Profilo LinkedIn",
+        "resume": "Curriculum Vitae",
+        "resumeHint": "Trascina il file qui o clicca per sfogliare",
+        "resumeFormats": "PDF, DOC, DOCX (Max 5MB)",
+        "coverLetter": "Lettera di presentazione",
+        "coverLetterPlaceholder": "Raccontaci perché sei interessato a questo ruolo e cosa ti rende un ottimo candidato..."
+      },
+      "privacy": {
+        "text": "Acconsento al trattamento dei miei dati personali in conformità con la",
+        "link": "Politica sulla privacy"
+      },
+      "submit": "Invia candidatura"
+    },
+    "backToCareers": "Torna a tutte le posizioni"
   }
 }
