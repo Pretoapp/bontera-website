@@ -314,37 +314,38 @@
       "title": "Vizyonumuz",
       "description": "Cesur mimari vizyonları ilham veren, hizmet eden ve zamanın testine dayanan kalıcı yapılara dönüştüren sürdürülebilir inşaatta küresel lider olmak."
     },
-    "values": {
-      "eyebrow": "Ne İçin Varız",
-      "title": "Temel Değerlerimiz",
-      "subtitle": "Bu ilkeler, aldığımız her kararı ve üstlendiğimiz her projeyi yönlendirir.",
-      "items": {
-        "excellence": {
-          "title": "Mükemmellik",
-          "description": "İlk tasarımdan nihai teslimata kadar her ayrıntıda mükemmelliği hedefleriz."
-        },
-        "integrity": {
-          "title": "Dürüstlük",
-          "description": "İşlerimizi şeffaflık ve doğrulukla yürütür, güven inşa ederiz."
-        },
-        "innovation": {
-          "title": "İnovasyon",
-          "description": "Daha akıllı ve verimli çözümler için ileri teknoloji ve yöntemleri benimseriz."
-        },
-        "safety": {
-          "title": "Önce Güvenlik",
-          "description": "Ekibimizin ve toplulukların refahı önceliğimizdir. Her projede sıkı güvenlik standartları uygularız."
-        },
-        "sustainability": {
-          "title": "Sürdürülebilirlik",
-          "description": "Ayak izimizi azaltan ve olumlu etkimizi artıran çevreye duyarlı uygulamalara bağlıyız."
-        },
-        "partnership": {
-          "title": "Ortaklık",
-          "description": "Müşteriler ve paydaşlarla yakın iş birliği kurar, ortak başarıya odaklanırız."
-        }
-      }
+"values": {
+  "eyebrow": "Değerlerimiz",
+  "title": "Temel değerlerimiz",
+  "subtitle": "Bu ilkeler, aldığımız her karara ve üstlendiğimiz her projeye yön verir.",
+  "items": {
+    "transparency": {
+      "title": "Şeffaflık",
+      "description": "Açık ve net iletişim kurar, projenin her aşamasında tam görünürlük sağlarız."
     },
+    "reliability": {
+      "title": "Güvenilirlik",
+      "description": "Sıkı maliyet kontrolü, bütçe disiplini ve plana uygun teslimatla taahhütlerimizi yerine getiririz."
+    },
+    "expertise": {
+      "title": "Teknik uzmanlık",
+      "description": "Derin teknik bilgi ve entegre proje yönetimi, her aşamada tutarlı kalite sağlar."
+    },
+    "integrated": {
+      "title": "Entegre yaklaşım",
+      "description": "Kavramdan teslimata kadar inşaat ve gayrimenkulü birleştiren kapsamlı bir çözüm sunarız."
+    },
+    "sustainability": {
+      "title": "Sürdürülebilirlik",
+      "description": "Etkiyi azaltmak ve değeri artırmak için sorumlu malzeme ve yöntemler kullanırız."
+    },
+    "valueCreation": {
+      "title": "Değer yaratma",
+      "description": "Riskleri azaltarak ve tasarım ile uygulamada akıllı tercihler yaparak uzun vadeli değeri maksimize ederiz."
+    }
+  }
+}
+,
     "timeline": {
       "eyebrow": "Yolculuğumuz",
       "title": "Bizi Tanımlayan Dönüm Noktaları",

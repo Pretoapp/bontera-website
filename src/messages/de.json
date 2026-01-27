@@ -314,37 +314,38 @@
       "title": "Unsere Vision",
       "description": "Globaler Marktführer im nachhaltigen Bauen zu sein, anerkannt dafür, mutige architektonische Visionen in dauerhafte Strukturen zu verwandeln, die inspirieren, dienen und die Zeit überdauern."
     },
-    "values": {
-      "eyebrow": "Wofür wir stehen",
-      "title": "Unsere Werte",
-      "subtitle": "Diese Prinzipien leiten jede Entscheidung und jedes Projekt.",
-      "items": {
-        "excellence": {
-          "title": "Exzellenz",
-          "description": "Wir verfolgen Exzellenz in jedem Detail, von der Planung bis zur Übergabe."
-        },
-        "integrity": {
-          "title": "Integrität",
-          "description": "Wir handeln ehrlich und transparent und schaffen Vertrauen bei Kunden, Partnern und Gemeinschaften."
-        },
-        "innovation": {
-          "title": "Innovation",
-          "description": "Wir nutzen moderne Technologien und Methoden, um intelligentere und effizientere Lösungen zu liefern."
-        },
-        "safety": {
-          "title": "Sicherheit zuerst",
-          "description": "Das Wohl unserer Teams und der Gemeinschaften steht an erster Stelle. Wir halten auf jedem Projekt strenge Sicherheitsstandards ein."
-        },
-        "sustainability": {
-          "title": "Nachhaltigkeit",
-          "description": "Wir verpflichten uns zu verantwortungsvollen Praktiken, die unseren Fußabdruck minimieren und positiven Nutzen maximieren."
-        },
-        "partnership": {
-          "title": "Partnerschaft",
-          "description": "Wir setzen auf Zusammenarbeit und arbeiten eng mit Kunden und Stakeholdern, um gemeinsame Erfolge zu erreichen."
-        }
-      }
+  "values": {
+  "eyebrow": "Wofür wir stehen",
+  "title": "Unsere Kernwerte",
+  "subtitle": "Diese Prinzipien leiten jede Entscheidung, die wir treffen, und jedes Projekt, das wir umsetzen.",
+  "items": {
+    "transparency": {
+      "title": "Transparenz",
+      "description": "Wir kommunizieren klar und sorgen in jeder Projektphase für vollständige Sichtbarkeit."
     },
+    "reliability": {
+      "title": "Zuverlässigkeit",
+      "description": "Wir halten Zusagen ein, mit strikter Kostenkontrolle, Budgetdisziplin und termingerechter Lieferung."
+    },
+    "expertise": {
+      "title": "Technische Expertise",
+      "description": "Fundiertes technisches Know-how und integriertes Projektmanagement sichern gleichbleibende Qualität in jeder Phase."
+    },
+    "integrated": {
+      "title": "Integrierter Ansatz",
+      "description": "Eine ganzheitliche Lösung, die Bau und Immobilien zusammenführt, vom Konzept bis zur Übergabe."
+    },
+    "sustainability": {
+      "title": "Nachhaltigkeit",
+      "description": "Wir setzen verantwortungsvolle Materialien und Methoden ein, um Auswirkungen zu reduzieren und Wert zu schaffen."
+    },
+    "valueCreation": {
+      "title": "Wertschöpfung",
+      "description": "Wir maximieren langfristigen Wert, indem wir Risiken reduzieren und in Planung und Umsetzung kluge Entscheidungen treffen."
+    }
+  }
+}
+,
     "timeline": {
       "eyebrow": "Unser Weg",
       "title": "Meilensteine, die uns definieren",

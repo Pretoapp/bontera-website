@@ -225,9 +225,10 @@ export default function Footer() {
                     <div>
                       <div className="font-semibold text-white">{t('footer.offices.headquarters')}</div>
                       <div className="mt-1 text-sm text-bontera-grey-400 leading-relaxed">
-                        Musterstraße 123<br />
-                        10115 Berlin, Germany
-                      </div>
+  Stodieks Hof 77<br />
+  33790 Halle (Westfalen), Germany
+</div>
+
                     </div>
                   </div>
                 </div>

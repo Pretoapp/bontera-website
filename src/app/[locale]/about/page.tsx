@@ -634,10 +634,10 @@ export default async function AboutPage({ params }: Props) {
               {/* Regional Stats */}
               <div className="mt-10 grid grid-cols-2 gap-6">
                 {[
-                  { value: "20+", label: t("global.stats.years") },
-                  { value: "40,000+", label: t("global.stats.sqm") },
-                  { value: "120M€", label: t("global.stats.budget") },
-                  { value: "7", label: t("global.stats.languages") },
+          { value: "20+", label: t("hero.stats.years") },
+  { value: "40,000+", label: t("hero.stats.sqm") },
+  { value: "120M€", label: t("hero.stats.budget") },
+  { value: "7", label: t("hero.stats.languages") }
                 ].map((stat) => (
                   <div key={stat.label} className="p-4 bg-bontera-grey-50 border border-bontera-grey-200">
                     <div className="text-2xl lg:text-3xl font-semibold text-bontera-navy-600">{stat.value}</div>

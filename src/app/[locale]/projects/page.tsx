@@ -105,7 +105,7 @@ export default async function ProjectsPage({ params, searchParams }: Props) {
         {/* Background */}
         <div className="absolute inset-0">
           <Image
-            src="/images/projects-hero.jpg"
+            src="/images/projects/residentos-1-2.jpg"
             alt="Bontera Projects"
             fill
             priority
