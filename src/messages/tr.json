@@ -269,8 +269,15 @@
 
   "about": {
     "meta": {
-      "title": "Hakkımızda | Bontera Construction",
-      "description": "Bontera'nın 25+ yıllık inşaat mirasını, misyonunu, değerlerini ve sektörde inovasyonu yönlendiren liderlik ekibini keşfedin."
+      "title": "Hakkımızda | Bontera GmbH",
+      "description": "Bontera'nın inşaat, proje geliştirme ve gayrimenkul aracılığında 20+ yıllık deneyimini güvenlik, kalite ve şeffaflıkla keşfedin."
+    },
+    "quickNav": {
+      "ourStory": "Hikayemiz",
+      "leadership": "Liderlik",
+      "values": "Değerler",
+      "certifications": "Sertifikalar",
+      "partners": "Ortaklar"
     },
     "breadcrumb": {
       "home": "Ana Sayfa",
@@ -278,13 +285,13 @@
     },
     "hero": {
       "eyebrow": "Bontera Hakkında",
-      "title": "1999'dan beri mükemmellik",
-      "subtitle": "Yirmi yılı aşkın süredir Bontera, küresel ölçekte ufuk çizgilerini ve toplulukları şekillendiren simgesel projelerle inşaat inovasyonunun ön saflarında yer almaktadır.",
+      "title": "2004'ten beri mükemmellik",
+      "subtitle": "İnşaat, proje geliştirme ve gayrimenkul aracılığında 20 yılı aşkın deneyimle müşterilerimizi her adımda güvenlik, kalite ve şeffaflıkla destekliyoruz.",
       "stats": {
-        "years": "Mükemmellik Yılı",
-        "projects": "Tamamlanan Proje",
-        "countries": "Ülke",
-        "employees": "Ekip Üyesi"
+        "years": "Yıllık Deneyim",
+        "sqm": "Teslim Edilen Metrekare",
+        "budget": "Yönetilen Bütçe",
+        "languages": "Konuşulan Dil"
       }
     },
     "story": {

@@ -269,8 +269,15 @@
 
   "about": {
     "meta": {
-      "title": "Über uns | Bontera Construction",
-      "description": "Erfahren Sie mehr über Bonteras 25+ Jahre Exzellenz im Bau, unsere Mission, Werte und das Führungsteam, das Innovation in der Branche vorantreibt."
+      "title": "Über uns | Bontera GmbH",
+      "description": "Erfahren Sie mehr über Bonteras 20+ Jahre Erfahrung in Bau, Projektentwicklung und Immobilienvermittlung mit Sicherheit, Qualität und Transparenz."
+    },
+    "quickNav": {
+      "ourStory": "Unsere Geschichte",
+      "leadership": "Führung",
+      "values": "Werte",
+      "certifications": "Zertifizierungen",
+      "partners": "Partner"
     },
     "breadcrumb": {
       "home": "Startseite",
@@ -278,13 +285,13 @@
     },
     "hero": {
       "eyebrow": "Über Bontera",
-      "title": "Exzellenz im Bau seit 1999",
-      "subtitle": "Seit über zwei Jahrzehnten steht Bontera an der Spitze der Bauinnovation und liefert Landmark-Projekte, die Skylines und Gemeinschaften weltweit prägen.",
+      "title": "Exzellenz im Bau seit 2004",
+      "subtitle": "Mit über 20 Jahren Erfahrung in Bau, Projektentwicklung und Immobilienvermittlung begleiten wir unsere Kunden bei jedem Schritt mit Sicherheit, Qualität und Transparenz.",
       "stats": {
-        "years": "Jahre Exzellenz",
-        "projects": "Abgeschlossene Projekte",
-        "countries": "Länder",
-        "employees": "Teammitglieder"
+        "years": "Jahre Erfahrung",
+        "sqm": "Quadratmeter geliefert",
+        "budget": "Budget verwaltet",
+        "languages": "Gesprochene Sprachen"
       }
     },
     "story": {
