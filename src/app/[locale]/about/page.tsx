@@ -46,28 +46,28 @@ const milestones = [
 
 const coreValues = [
   {
-    key: "excellence",
-    icon: "M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09z",
+    key: "transparency",
+    icon: "M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z M15 12a3 3 0 11-6 0 3 3 0 016 0z",
   },
   {
-    key: "integrity",
+    key: "reliability",
     icon: "M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z",
   },
   {
-    key: "innovation",
-    icon: "M12 18v-5.25m0 0a6.01 6.01 0 001.5-.189m-1.5.189a6.01 6.01 0 01-1.5-.189m3.75 7.478a12.06 12.06 0 01-4.5 0m3.75 2.383a14.406 14.406 0 01-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 10-7.517 0c.85.493 1.509 1.333 1.509 2.316V18",
+    key: "expertise",
+    icon: "M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 004.486-6.336l-3.276 3.277a3.004 3.004 0 01-2.25-2.25l3.276-3.276a4.5 4.5 0 00-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437l1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008z",
   },
   {
-    key: "safety",
-    icon: "M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 004.486-6.336l-3.276 3.277a3.004 3.004 0 01-2.25-2.25l3.276-3.276a4.5 4.5 0 00-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437l1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008z",
+    key: "integrated",
+    icon: "M13.5 16.875h3.375m0 0h3.375m-3.375 0V13.5m0 3.375v3.375M6 10.5h2.25a2.25 2.25 0 002.25-2.25V6a2.25 2.25 0 00-2.25-2.25H6A2.25 2.25 0 003.75 6v2.25A2.25 2.25 0 006 10.5zm0 9.75h2.25A2.25 2.25 0 0010.5 18v-2.25a2.25 2.25 0 00-2.25-2.25H6a2.25 2.25 0 00-2.25 2.25V18A2.25 2.25 0 006 20.25zm9.75-9.75H18a2.25 2.25 0 002.25-2.25V6A2.25 2.25 0 0018 3.75h-2.25A2.25 2.25 0 0013.5 6v2.25a2.25 2.25 0 002.25 2.25z",
   },
   {
     key: "sustainability",
     icon: "M12 21c-4.5 0-8-3-8-7 0-6 8-11 8-11s8 5 8 11c0 4-3.5 7-8 7z",
   },
   {
-    key: "partnership",
-    icon: "M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z",
+    key: "valueCreation",
+    icon: "M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 015.814-5.519l2.74-1.22m0 0l-5.94-2.28m5.94 2.28l-2.28 5.941",
   },
 ];
 
@@ -173,10 +173,10 @@ export default async function AboutPage({ params }: Props) {
             {/* Quick Stats */}
             <div className="mt-10 flex flex-wrap gap-8 lg:gap-12">
               {[
-                { value: "25+", label: t("hero.stats.years") },
-                { value: "500+", label: t("hero.stats.projects") },
-                { value: "12", label: t("hero.stats.countries") },
-                { value: "1200+", label: t("hero.stats.employees") },
+                { value: "20+", label: t("hero.stats.years") },
+                { value: "40,000+", label: t("hero.stats.sqm") },
+                { value: "120M€", label: t("hero.stats.budget") },
+                { value: "7", label: t("hero.stats.languages") },
               ].map((stat) => (
                 <div key={stat.label}>
                   <div className="text-3xl lg:text-4xl font-semibold text-white">{stat.value}</div>
@@ -281,11 +281,11 @@ export default async function AboutPage({ params }: Props) {
               
               {/* Floating Card */}
               <div className="absolute -bottom-8 -left-8 lg:-left-12 bg-bontera-navy-600 text-white p-6 lg:p-8 shadow-2xl max-w-xs">
-                <div className="text-5xl lg:text-6xl font-bold">25+</div>
+                <div className="text-5xl lg:text-6xl font-bold">20+</div>
                 <div className="text-lg font-medium mt-2">{t("story.yearsExcellence")}</div>
                 <div className="mt-4 h-px bg-white/20" />
                 <div className="mt-4 text-sm text-bontera-navy-200">
-                  {t("story.since")} 1999
+                  {t("story.since")} 2004
                 </div>
               </div>
 
@@ -634,10 +634,10 @@ export default async function AboutPage({ params }: Props) {
               {/* Regional Stats */}
               <div className="mt-10 grid grid-cols-2 gap-6">
                 {[
-                  { value: "12", label: t("global.stats.countries") },
-                  { value: "25+", label: t("global.stats.offices") },
-                  { value: "4", label: t("global.stats.continents") },
-                  { value: "50+", label: t("global.stats.clients") },
+                  { value: "20+", label: t("global.stats.years") },
+                  { value: "40,000+", label: t("global.stats.sqm") },
+                  { value: "120M€", label: t("global.stats.budget") },
+                  { value: "7", label: t("global.stats.languages") },
                 ].map((stat) => (
                   <div key={stat.label} className="p-4 bg-bontera-grey-50 border border-bontera-grey-200">
                     <div className="text-2xl lg:text-3xl font-semibold text-bontera-navy-600">{stat.value}</div>
