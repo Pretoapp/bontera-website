@@ -8,12 +8,10 @@
     "news": "Nieuws",
     "contact": "Contact"
   },
-
   "metadata": {
     "title": "Bontera | Bouw & Vastgoed",
     "description": "Wereldklasse bouw- en infrastructuuroplossingen. Van concept tot oplevering leveren wij projecten die skylines definieren en gemeenschappen transformeren."
   },
-
   "hero": {
     "eyebrow": "Excellentie in Bouwen sinds 2004",
     "titleLine1": "Wij Bouwen",
@@ -28,7 +26,6 @@
       "languages": "Gesproken Talen"
     }
   },
-
   "vision": {
     "eyebrow": "Onze Visie",
     "headline": "De Monumenten van Morgen Bouwen Wij Vandaag",
@@ -48,7 +45,6 @@
       }
     }
   },
-
   "services": {
     "eyebrow": "Wat Wij Doen",
     "headline": "Complete Bouwoplossingen",
@@ -80,7 +76,6 @@
       }
     }
   },
-
   "projects": {
     "eyebrow": "Uitgelicht Werk",
     "headline": "Projecten die Skylines Definieren",
@@ -100,7 +95,6 @@
       "explore": "Verkennen"
     }
   },
-
   "stats": {
     "years": "Jaren Ervaring",
     "sqm": "Vierkante Meter Opgeleverd",
@@ -110,7 +104,6 @@
     "satisfaction": "Klanttevredenheid",
     "delivered": "Opgeleverde Waarde"
   },
-
   "whyUs": {
     "eyebrow": "Waarom Bontera",
     "headline": "Excellentie is Onze Standaard",
@@ -131,13 +124,11 @@
       }
     }
   },
-
   "testimonial": {
     "quote": "Bontera overtrof alle verwachtingen. Hun oog voor detail, professionaliteit en toewijding aan onze visie resulteerden in een monumentaal gebouw waar we ongelooflijk trots op zijn.",
     "name": "Sarah Mitchell",
     "role": "CEO, Atlas Development Group"
   },
-
   "news": {
     "eyebrow": "Nieuws & Inzichten",
     "headline": "Laatste Updates",
@@ -145,14 +136,12 @@
     "readMore": "Lees Artikel",
     "noNews": "Er zijn momenteel geen nieuwsartikelen om weer te geven."
   },
-
   "newsSection": {
     "title": "Nieuws & Inzichten",
     "seeMore": "Lees Artikel",
     "discoverAll": "Bekijk Alle Nieuws",
     "empty": "Er zijn momenteel geen nieuwsartikelen om weer te geven."
   },
-
   "header": {
     "headquarters": "Berlijn, Duitsland",
     "emergency24": "24/7 Noodgeval",
@@ -163,27 +152,23 @@
     "selectLanguage": "Kies Taal",
     "requestQuote": "Offerte Aanvragen",
     "contactInfo": "Contactgegevens",
-
     "ourServices": "Onze Diensten",
     "featured": "Uitgelicht",
     "sustainableBuilding": "Duurzame Bouwoplossingen",
     "sustainableBuildingDesc": "Toonaangevend in de industrie met milieuvriendelijke bouw en LEED-gecertificeerde projecten.",
     "viewAllServices": "Bekijk Alle Diensten",
-
     "projectCategories": "Projectcategorieen",
     "featuredProject": "Uitgelicht Project",
     "featuredProjectTitle": "Marina Tower Complex",
     "featuredProjectLocation": "Dubai Marina, VAE",
     "completed": "Voltooid",
     "viewAllProjects": "Bekijk Alle Projecten",
-
     "aboutBontera": "Over Bontera",
     "byTheNumbers": "In Cijfers",
     "yearsExperience": "Jaren Ervaring",
     "projectsCompleted": "Voltooide Projecten",
     "countriesOperating": "Actieve Landen",
     "teamMembers": "Teamleden",
-
     "services": {
       "commercialConstruction": "Commerciele Bouw",
       "commercialConstructionDesc": "Kantoorgebouwen, retail, horeca",
@@ -198,14 +183,12 @@
       "sustainability": "Duurzame Bouw",
       "sustainabilityDesc": "Groene bouw en LEED-certificering"
     },
-
     "projects": {
       "commercial": "Commercieel",
       "residential": "Woningbouw",
       "industrial": "Industrieel",
       "publicWorks": "Openbare Werken"
     },
-
     "company": {
       "ourStory": "Ons Verhaal",
       "leadership": "Leiderschapsteam",
@@ -214,7 +197,6 @@
       "partners": "Partners & Affiliates"
     }
   },
-
   "cta": {
     "headline": "Klaar om Iets Buitengewoons te Bouwen?",
     "description": "Laten we uw visie bespreken. Ons team staat klaar om uw ambitieuze ideeen om te zetten in architectonische werkelijkheid.",
@@ -225,32 +207,26 @@
       "osha": "Conform"
     }
   },
-
   "footer": {
     "description": "Bontera levert premium bouw- en infrastructuurwerk met gedisciplineerde planning, nauwkeurige uitvoering en compromisloze afwerking.",
-
     "followUs": "Volg Ons",
     "company": "Bedrijf",
     "services": "Diensten",
     "contactUs": "Neem Contact Op",
-
     "phone": "Telefoon",
     "email": "E-mail",
     "emergency": "Noodgeval",
     "backToTop": "Terug naar boven",
     "allRightsReserved": "Alle rechten voorbehouden.",
-
     "cta": {
       "headline": "Klaar om Iets Uitzonderlijks te Bouwen?",
       "description": "Vertel ons wat u wilt bouwen. Wij leveren het team, het plan en de uitvoering om het op tijd en volgens de hoogste standaarden te realiseren.",
       "button": "Neem Contact Op",
       "secondaryButton": "Vraag een Offerte Aan"
     },
-
     "offices": {
       "headquarters": "Hoofdkantoor"
     },
-
     "serviceLinks": {
       "commercial": "Commerciele Bouw",
       "realEstate": "Vastgoed",
@@ -259,14 +235,12 @@
       "renovation": "Renovatie",
       "consulting": "Advies"
     },
-
     "legal": {
       "privacy": "Privacybeleid",
       "terms": "Algemene Voorwaarden",
       "cookies": "Cookiebeleid"
     }
   },
-
   "about": {
     "meta": {
       "title": "Over Ons | Bontera GmbH",
@@ -424,7 +398,6 @@
       "joinTeam": "Word Lid van Ons Team"
     }
   },
-
   "servicesPage": {
     "meta": {
       "title": "Onze Diensten | Bontera Bouw",
@@ -626,7 +599,6 @@
       "contactUs": "Neem Contact Op"
     }
   },
-
   "projectsPage": {
     "meta": {
       "title": "Onze Projecten | Bontera Bouw",
@@ -724,7 +696,6 @@
       "contactUs": "Neem Contact Op"
     }
   },
-
   "contactPage": {
     "meta": {
       "title": "Contact | Bontera Bouw",
@@ -740,21 +711,48 @@
       "subtitle": "Heeft u een project in gedachten? Ons team staat klaar om u te helpen uw visie tot leven te brengen. Bereik ons via een van onderstaande kanalen."
     },
     "methods": {
-      "phone": { "label": "Bel Ons", "description": "Ma-Vr 8:00 tot 18:00" },
-      "email": { "label": "E-mail Ons", "description": "Wij antwoorden binnen 24 uur" },
-      "whatsapp": { "label": "WhatsApp", "description": "Snelle chat ondersteuning" },
-      "emergency": { "label": "24/7 Noodgeval", "description": "Voor dringende zaken" }
+      "phone": {
+        "label": "Bel Ons",
+        "description": "Ma-Vr 8:00 tot 18:00"
+      },
+      "email": {
+        "label": "E-mail Ons",
+        "description": "Wij antwoorden binnen 24 uur"
+      },
+      "whatsapp": {
+        "label": "WhatsApp",
+        "description": "Snelle chat ondersteuning"
+      },
+      "emergency": {
+        "label": "24/7 Noodgeval",
+        "description": "Voor dringende zaken"
+      }
     },
     "form": {
       "eyebrow": "Stuur een Bericht",
       "title": "Hoe Kunnen Wij U Helpen?",
       "description": "Vul onderstaand formulier in en ons team neemt binnen 24 uur contact met u op.",
       "fields": {
-        "name": { "label": "Volledige Naam", "placeholder": "Jan Jansen" },
-        "email": { "label": "E-mailadres", "placeholder": "jan@bedrijf.nl" },
-        "phone": { "label": "Telefoonnummer", "placeholder": "+31 20 123 4567" },
-        "company": { "label": "Bedrijfsnaam", "placeholder": "Uw Bedrijf" },
-        "subject": { "label": "Onderwerp", "placeholder": "Hoe kunnen wij helpen?" },
+        "name": {
+          "label": "Volledige Naam",
+          "placeholder": "Jan Jansen"
+        },
+        "email": {
+          "label": "E-mailadres",
+          "placeholder": "jan@bedrijf.nl"
+        },
+        "phone": {
+          "label": "Telefoonnummer",
+          "placeholder": "+31 20 123 4567"
+        },
+        "company": {
+          "label": "Bedrijfsnaam",
+          "placeholder": "Uw Bedrijf"
+        },
+        "subject": {
+          "label": "Onderwerp",
+          "placeholder": "Hoe kunnen wij helpen?"
+        },
         "projectType": {
           "label": "Projecttype",
           "placeholder": "Selecteer een projecttype",
@@ -792,7 +790,10 @@
         "messageRequired": "Voer uw bericht in",
         "messageTooShort": "Uw bericht moet minimaal 20 tekens bevatten"
       },
-      "privacy": { "text": "Door dit formulier te verzenden, gaat u akkoord met ons", "link": "Privacybeleid" },
+      "privacy": {
+        "text": "Door dit formulier te verzenden, gaat u akkoord met ons",
+        "link": "Privacybeleid"
+      },
       "submit": "Verstuur Bericht",
       "submitting": "Verzenden...",
       "success": {
@@ -819,7 +820,9 @@
       "title": "Snelle Reactie Gegarandeerd",
       "description": "Ons team reageert doorgaans binnen 24 uur op werkdagen. Voor dringende zaken kunt u onze noodnummerlijn gebruiken."
     },
-    "social": { "title": "Volg Ons" },
+    "social": {
+      "title": "Volg Ons"
+    },
     "offices": {
       "eyebrow": "Onze Locaties",
       "title": "Bezoek Onze Kantoren",
@@ -857,7 +860,6 @@
       "getDirections": "Routebeschrijving"
     }
   },
-
   "careersPage": {
     "meta": {
       "title": "Carriere | Word Lid van Bontera Bouw",
@@ -1016,7 +1018,6 @@
       "sendResume": "Stuur Uw CV"
     }
   },
-
   "newsPage": {
     "meta": {
       "title": "Nieuws & Inzichten | Bontera Bouw",
@@ -1126,7 +1127,6 @@
       "featuredIn": "Zoals Vermeld In"
     }
   },
-
   "quotePage": {
     "meta": {
       "title": "Offerte Aanvragen | Bontera Bouw",
@@ -1155,9 +1155,15 @@
         "project": "Projectdetails",
         "details": "Extra Informatie"
       },
-      "step1": { "title": "Contactgegevens" },
-      "step2": { "title": "Projectdetails" },
-      "step3": { "title": "Extra Informatie" },
+      "step1": {
+        "title": "Contactgegevens"
+      },
+      "step2": {
+        "title": "Projectdetails"
+      },
+      "step3": {
+        "title": "Extra Informatie"
+      },
       "fields": {
         "firstName": "Voornaam",
         "lastName": "Achternaam",
@@ -1426,5 +1432,56 @@
       "startProject": "Start uw project",
       "contactUs": "Neem contact op"
     }
+  },
+  "jobDetailPage": {
+    "meta": {
+      "titleSuffix": "Vacatures | Bontera Construction",
+      "description": "Solliciteer op deze spannende carrièremogelijkheid bij Bontera Construction."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "careers": "Vacatures"
+    },
+    "featured": "Uitgelicht",
+    "posted": "Geplaatst",
+    "applyNow": "Nu solliciteren",
+    "sections": {
+      "description": "Functieomschrijving",
+      "responsibilities": "Belangrijkste verantwoordelijkheden",
+      "requirements": "Vereisten",
+      "benefits": "Wat wij bieden"
+    },
+    "sidebar": {
+      "quickInfo": "Snelle informatie",
+      "department": "Afdeling",
+      "location": "Locatie",
+      "type": "Type dienstverband",
+      "experience": "Ervaring",
+      "shareJob": "Deel deze vacature",
+      "questions": "Vragen?",
+      "contactText": "Ons recruitmentteam staat klaar om u te helpen. Neem contact met ons op voor vragen over deze functie."
+    },
+    "apply": {
+      "title": "Solliciteer op deze functie",
+      "subtitle": "Vul het onderstaande formulier in om uw sollicitatie in te dienen. We nemen het door en nemen snel contact met u op.",
+      "fields": {
+        "firstName": "Voornaam",
+        "lastName": "Achternaam",
+        "email": "E-mailadres",
+        "phone": "Telefoonnummer",
+        "linkedin": "LinkedIn-profiel",
+        "resume": "CV",
+        "resumeHint": "Sleep uw bestand hierheen of klik om te bladeren",
+        "resumeFormats": "PDF, DOC, DOCX (Max 5MB)",
+        "coverLetter": "Motivatiebrief",
+        "coverLetterPlaceholder": "Vertel ons waarom u geïnteresseerd bent in deze functie en wat u geschikt maakt..."
+      },
+      "privacy": {
+        "text": "Ik ga akkoord met de verwerking van mijn persoonsgegevens in overeenstemming met het",
+        "link": "Privacybeleid"
+      },
+      "submit": "Sollicitatie versturen"
+    },
+    "backToCareers": "Terug naar alle vacatures"
   }
 }

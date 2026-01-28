@@ -9,6 +9,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import CareersFilters from "./CareersFilters";
+import { jobListings, departments, locations } from "@/data/jobs";
 
 
 /* ═══════════════════════════════════════════════════════════════════════════
@@ -38,107 +39,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 /* ═══════════════════════════════════════════════════════════════════════════
    DATA
    ═══════════════════════════════════════════════════════════════════════════ */
-
-const departments = [
-  { key: "all", slug: "" },
-  { key: "engineering", slug: "engineering" },
-  { key: "projectManagement", slug: "project-management" },
-  { key: "architecture", slug: "architecture" },
-  { key: "operations", slug: "operations" },
-  { key: "finance", slug: "finance" },
-  { key: "hr", slug: "hr" },
-];
-
-const locations = [
-  { key: "all", slug: "" },
-  { key: "dubai", slug: "dubai" },
-  { key: "riyadh", slug: "riyadh" },
-  { key: "cairo", slug: "cairo" },
-  { key: "london", slug: "london" },
-];
-
-const jobListings = [
-  {
-    id: "job-001",
-    title: "Senior Project Manager",
-    department: "projectManagement",
-    location: "dubai",
-    type: "fullTime",
-    experience: "8+ years",
-    posted: "2024-01-15",
-    featured: true,
-  },
-  {
-    id: "job-002",
-    title: "Structural Engineer",
-    department: "engineering",
-    location: "dubai",
-    type: "fullTime",
-    experience: "5+ years",
-    posted: "2024-01-18",
-    featured: true,
-  },
-  {
-    id: "job-003",
-    title: "Site Supervisor",
-    department: "operations",
-    location: "riyadh",
-    type: "fullTime",
-    experience: "3+ years",
-    posted: "2024-01-20",
-    featured: false,
-  },
-  {
-    id: "job-004",
-    title: "BIM Coordinator",
-    department: "architecture",
-    location: "dubai",
-    type: "fullTime",
-    experience: "4+ years",
-    posted: "2024-01-22",
-    featured: true,
-  },
-  {
-    id: "job-005",
-    title: "Quantity Surveyor",
-    department: "finance",
-    location: "cairo",
-    type: "fullTime",
-    experience: "5+ years",
-    posted: "2024-01-25",
-    featured: false,
-  },
-  {
-    id: "job-006",
-    title: "HSE Manager",
-    department: "operations",
-    location: "dubai",
-    type: "fullTime",
-    experience: "7+ years",
-    posted: "2024-01-26",
-    featured: false,
-  },
-  {
-    id: "job-007",
-    title: "Civil Engineer",
-    department: "engineering",
-    location: "riyadh",
-    type: "fullTime",
-    experience: "3+ years",
-    posted: "2024-01-28",
-    featured: false,
-  },
-  {
-    id: "job-008",
-    title: "HR Business Partner",
-    department: "hr",
-    location: "dubai",
-    type: "fullTime",
-    experience: "5+ years",
-    posted: "2024-01-30",
-    featured: false,
-  },
-];
 
 const benefits = [
   {
