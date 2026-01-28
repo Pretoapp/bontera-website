@@ -68,10 +68,10 @@ const benefits = [
 ];
 
 const cultureValues = [
-  { key: "innovation", image: "/images/culture/innovation.jpg" },
-  { key: "teamwork", image: "/images/culture/teamwork.jpg" },
-  { key: "excellence", image: "/images/culture/excellence.jpg" },
-  { key: "safety", image: "/images/culture/safety.jpg" },
+  { key: "innovation", image: "/images/innovation.jpg" },
+  { key: "teamwork", image: "/images/teamwork.jpg" },
+  { key: "excellence", image: "/images/excellence.jpg" },
+  { key: "safety", image: "/images/safety.jpg" },
 ];
 
 const testimonials = [
@@ -148,7 +148,7 @@ const locationOptions = [
         {/* Background */}
         <div className="absolute inset-0">
           <Image
-            src="/images/careers-hero.jpg"
+            src="/images/bon.png"
             alt="Careers at Bontera"
             fill
             priority
@@ -334,7 +334,7 @@ const locationOptions = [
 
               {/* Floating Badge */}
               <div className="absolute -bottom-6 -left-6 lg:-left-12 bg-bontera-navy-600 text-white p-6 shadow-2xl">
-                <div className="text-4xl font-bold">25+</div>
+                <div className="text-4xl font-bold">20+</div>
                 <div className="text-sm text-bontera-navy-200 mt-1">{t("whyJoin.yearsGrowing")}</div>
               </div>
             </div>

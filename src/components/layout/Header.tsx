@@ -940,7 +940,7 @@ function ProjectsMegaMenu({
 
           <div className="rounded-xl overflow-hidden mb-4 ring-1 ring-bontera-grey-200">
             <Image
-              src="/images/project-featured.jpg"
+              src="/images/project123.jpg"
               alt="Featured project"
               width={280}
               height={160}
@@ -1009,7 +1009,7 @@ function CompanyMegaMenu({
 
           <div className="space-y-4">
             {[
-              { value: '25+', label: t('yearsExperience') },
+              { value: '20+', label: t('yearsExperience') },
               { value: '500+', label: t('projectsCompleted') },
               { value: '12', label: t('countriesOperating') },
               { value: '1200+', label: t('teamMembers') },

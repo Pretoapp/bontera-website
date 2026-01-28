@@ -40,56 +40,21 @@ const t = await getTranslations({ locale, namespace: "contactPage" });
 const offices = [
   {
     key: "headquarters",
-    city: "Dubai",
-    country: "UAE",
-    address: "Bontera Tower, Sheikh Zayed Road",
-    postalCode: "P.O. Box 12345",
+    city: "Halle (Westfalen)",
+    country: "Germany",
+    address: "Stodieks Hof 77",
+    postalCode: "P.O. Box 33790",
     phone: "+49 30 123 456 7890",
     email: "dubai@bontera.de",
     hours: "Sun - Thu: 8:00 AM - 6:00 PM",
     image: "/images/offices/dubai.jpg",
-    mapUrl: "https://maps.google.com/?q=Dubai",
+    mapUrl: "https://maps.google.com/?q=Stodieks%20Hof%2077%2C%2033790%20Halle%20%28Westfalen%29%2C%20Germany",
+
     isHQ: true,
   },
-  {
-    key: "riyadh",
-    city: "Riyadh",
-    country: "Saudi Arabia",
-    address: "King Fahd Road, Al Olaya District",
-    postalCode: "P.O. Box 54321",
-    phone: "+966 11 234 5678",
-    email: "riyadh@bontera.com",
-    hours: "Sun - Thu: 8:00 AM - 5:00 PM",
-    image: "/images/offices/riyadh.jpg",
-    mapUrl: "https://maps.google.com/?q=Riyadh",
-    isHQ: false,
-  },
-  {
-    key: "cairo",
-    city: "Cairo",
-    country: "Egypt",
-    address: "Smart Village, 6th of October City",
-    postalCode: "Building B2, Floor 3",
-    phone: "+20 2 3456 7890",
-    email: "cairo@bontera.com",
-    hours: "Sun - Thu: 9:00 AM - 5:00 PM",
-    image: "/images/offices/cairo.jpg",
-    mapUrl: "https://maps.google.com/?q=Cairo",
-    isHQ: false,
-  },
-  {
-    key: "london",
-    city: "London",
-    country: "United Kingdom",
-    address: "45 Canary Wharf, Tower Hamlets",
-    postalCode: "E14 5AB",
-    phone: "+44 20 7123 4567",
-    email: "london@bontera.com",
-    hours: "Mon - Fri: 9:00 AM - 5:30 PM",
-    image: "/images/offices/london.jpg",
-    mapUrl: "https://maps.google.com/?q=London+Canary+Wharf",
-    isHQ: false,
-  },
+
+
+
 ];
 
 const contactMethods = [
@@ -97,7 +62,7 @@ const contactMethods = [
     key: "phone",
     icon: "M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z",
     value: "+49 30 123 456 7890",
-    href: "tel:+97141234567",
+    href: "tel:+49 30 123 456 7890",
   },
   {
     key: "email",
@@ -108,8 +73,8 @@ const contactMethods = [
   {
     key: "whatsapp",
     icon: "M12 20.25c4.556 0 8.25-3.694 8.25-8.25S16.556 3.75 12 3.75 3.75 7.444 3.75 12c0 1.545.426 2.99 1.166 4.225L3.75 20.25l4.025-1.166A8.206 8.206 0 0012 20.25z",
-    value: "+971 50 123 4567",
-    href: "https://wa.me/971501234567",
+    value: "+49 30 123 456 7890",
+    href: "https://wa.me/49301234567890",
   },
   {
     key: "emergency",
@@ -137,6 +102,17 @@ export default async function ContactPage({ params }: Props) {
  const t = await getTranslations({ locale, namespace: "contactPage" });
 
   const isRTL = locale === "ku";
+
+  const getGoogleMapsEmbedUrl = (mapUrl: string) => {
+  try {
+    const url = new URL(mapUrl);
+    const q = url.searchParams.get("q") ?? "";
+    return `https://www.google.com/maps?q=${encodeURIComponent(q)}&output=embed`;
+  } catch {
+    return "https://www.google.com/maps?q=Germany&output=embed";
+  }
+};
+
 
   return (
     <main className="bg-bontera-grey-50" dir={isRTL ? "rtl" : "ltr"}>
@@ -538,36 +514,43 @@ export default async function ContactPage({ params }: Props) {
       {/* ═══════════════════════════════════════════════════════════════════
           MAP SECTION
       ═══════════════════════════════════════════════════════════════════ */}
-      <section className="relative h-[400px] lg:h-[500px] bg-bontera-grey-200">
-        {/* Placeholder for Google Maps or Mapbox integration */}
-        <div className="absolute inset-0 flex items-center justify-center bg-bontera-grey-100">
-          <div className="text-center">
-            <svg className="w-16 h-16 text-bontera-grey-400 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1}>
-              <path strokeLinecap="round" strokeLinejoin="round" d="M9 6.75V15m6-6v8.25m.503 3.498l4.875-2.437c.381-.19.622-.58.622-1.006V4.82c0-.836-.88-1.38-1.628-1.006l-3.869 1.934c-.317.159-.69.159-1.006 0L9.503 3.252a1.125 1.125 0 00-1.006 0L3.622 5.689C3.24 5.88 3 6.27 3 6.695V19.18c0 .836.88 1.38 1.628 1.006l3.869-1.934c.317-.159.69-.159 1.006 0l4.994 2.497c.317.158.69.158 1.006 0z" />
-            </svg>
-            <p className="text-bontera-grey-500">{t("map.placeholder")}</p>
-          </div>
-        </div>
+<section className="relative h-[400px] lg:h-[500px] bg-bontera-grey-200">
+  {/* Google Map Embed */}
+  <div className="absolute inset-0">
+    <iframe
+      title={`Map - ${offices[0].city}`}
+      src={getGoogleMapsEmbedUrl(offices[0].mapUrl)}
+      className="w-full h-full border-0"
+      loading="lazy"
+      referrerPolicy="no-referrer-when-downgrade"
+      allowFullScreen
+    />
+  </div>
 
-        {/* Floating Card */}
-        <div className={`absolute bottom-8 ${isRTL ? "right-8" : "left-8"} lg:bottom-12 ${isRTL ? "lg:right-16" : "lg:left-16"} bg-white p-6 shadow-2xl max-w-sm`}>
-          <h3 className="text-lg font-semibold text-bontera-grey-900">{t("map.visitUs")}</h3>
-          <p className="mt-2 text-bontera-grey-600 text-sm">
-            {offices[0].address}, {offices[0].city}
-          </p>
-          <a
-            href={offices[0].mapUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-bontera-navy-600 hover:text-bontera-navy-700"
-          >
-            {t("map.getDirections")}
-            <svg className={`w-4 h-4 ${isRTL ? "rotate-180" : ""}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-            </svg>
-          </a>
-        </div>
-      </section>
+  {/* Floating Card (keep yours as-is) */}
+  <div
+    className={`absolute bottom-8 ${isRTL ? "right-8" : "left-8"} lg:bottom-12 ${
+      isRTL ? "lg:right-16" : "lg:left-16"
+    } bg-white p-6 shadow-2xl max-w-sm`}
+  >
+    <h3 className="text-lg font-semibold text-bontera-grey-900">{t("map.visitUs")}</h3>
+    <p className="mt-2 text-bontera-grey-600 text-sm">
+      {offices[0].address}, {offices[0].city}
+    </p>
+    <a
+      href={offices[0].mapUrl}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-bontera-navy-600 hover:text-bontera-navy-700"
+    >
+      {t("map.getDirections")}
+      <svg className={`w-4 h-4 ${isRTL ? "rotate-180" : ""}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+      </svg>
+    </a>
+  </div>
+</section>
+
 
     </main>
   );

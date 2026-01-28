@@ -63,7 +63,7 @@ const processSteps = [
 const whyChooseUs = [
   {
     key: "experience",
-    value: "25+",
+    value: "20+",
     icon: "M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z",
   },
   {
@@ -254,11 +254,11 @@ export default async function QuotePage({ params }: Props) {
                     </div>
                     <div>
                       <div className="text-xs text-bontera-grey-500">{t("sidebar.contact.phone")}</div>
-                      <div className="font-semibold">+971 4 123 4567</div>
+                      <div className="font-semibold">+49 30 123 456 7890</div>
                     </div>
                   </a>
 
-                  <a href="mailto:quotes@bontera.com" className="flex items-center gap-3 text-bontera-grey-700 hover:text-bontera-navy-600 transition-colors">
+                  <a href="mailto:quotes@bontera.de" className="flex items-center gap-3 text-bontera-grey-700 hover:text-bontera-navy-600 transition-colors">
                     <div className="w-10 h-10 bg-bontera-navy-100 text-bontera-navy-600 flex items-center justify-center">
                       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
                         <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
@@ -266,7 +266,7 @@ export default async function QuotePage({ params }: Props) {
                     </div>
                     <div>
                       <div className="text-xs text-bontera-grey-500">{t("sidebar.contact.email")}</div>
-                      <div className="font-semibold">quotes@bontera.com</div>
+                      <div className="font-semibold">quotes@bontera.de</div>
                     </div>
                   </a>
 

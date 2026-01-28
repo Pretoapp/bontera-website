@@ -467,7 +467,7 @@ export default async function HomePage({ params }: Props) {
               <p className="text-lg text-bontera-grey-700 leading-relaxed italic">{t("testimonial.quote")}</p>
               <div className="mt-6 flex items-center gap-4">
                 <div className="w-12 h-12 rounded-full bg-bontera-grey-200 overflow-hidden">
-                  <Image src="/images/testimonial-avatar.jpg" alt="Client" width={48} height={48} className="object-cover" />
+                  <Image src="/images/test1.jpg" alt="Client" width={48} height={48} className="object-cover" />
                 </div>
                 <div>
                   <div className="font-semibold text-bontera-grey-900">{t("testimonial.name")}</div>

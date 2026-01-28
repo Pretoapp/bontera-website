@@ -106,7 +106,7 @@ export default async function AboutPage({ params }: Props) {
         {/* Background Image */}
         <div className="absolute inset-0">
           <Image
-            src="/images/about-hero.jpg"
+            src="/images/about-hero-luxury.jpg"
             alt="Bontera Construction"
             fill
             priority
@@ -587,7 +587,7 @@ export default async function AboutPage({ params }: Props) {
             {/* Map / Image */}
             <div className="relative aspect-[4/3] bg-bontera-grey-100 overflow-hidden order-2 lg:order-1">
               <Image
-                src="/images/global-presence.jpg"
+                src="/images/moto.jpg"
                 alt="Global presence"
                 fill
                 className="object-cover"

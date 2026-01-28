@@ -103,7 +103,7 @@ export default function Footer() {
               <Link href={`/${currentLocale}`} className="inline-flex items-center gap-4 group">
                 <span className="relative h-14 w-14 rounded-2xl overflow-hidden bg-white/10 border border-white/20 shadow-lg group-hover:border-white/30 transition-colors">
                   <Image
-                    src="/brand/bontera-logo.png"
+                    src="/images/bon.png"
                     alt="Bontera"
                     fill
                     sizes="56px"

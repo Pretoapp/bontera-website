@@ -140,7 +140,7 @@ export default async function PartnersPage({ params }: Props) {
               <div className="mt-10 grid grid-cols-3 gap-6">
                 {[
                   { value: "50+", label: t("philosophy.stats.partners") },
-                  { value: "25+", label: t("philosophy.stats.years") },
+                  { value: "20+", label: t("philosophy.stats.years") },
                   { value: "12", label: t("philosophy.stats.countries") },
                 ].map((stat) => (
                   <div key={stat.label}>

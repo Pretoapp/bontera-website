@@ -566,8 +566,8 @@ export default async function NewsPage({ params, searchParams }: Props) {
                   </div>
                   <div>
                     <p className="text-sm text-bontera-grey-500">{t("media.email")}</p>
-                    <a href="mailto:media@bontera.com" className="text-lg font-semibold text-bontera-navy-600 hover:text-bontera-navy-700">
-                      media@bontera.com
+                    <a href="mailto:media@bontera.de" className="text-lg font-semibold text-bontera-navy-600 hover:text-bontera-navy-700">
+                      media@bontera.de
                     </a>
                   </div>
                 </div>
@@ -581,7 +581,7 @@ export default async function NewsPage({ params, searchParams }: Props) {
                   <div>
                     <p className="text-sm text-bontera-grey-500">{t("media.phone")}</p>
                     <a href="tel:+97141234567" className="text-lg font-semibold text-bontera-grey-900">
-                      +971 4 123 4567
+                      +49 30 123 456 7890
                     </a>
                   </div>
                 </div>

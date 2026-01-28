@@ -586,7 +586,7 @@ export default async function ProjectsPage({ params, searchParams }: Props) {
             <div className="relative">
               <div className="relative aspect-[4/3] overflow-hidden">
                 <Image
-                  src="/images/projects-cta.jpg"
+                  src="/images/projects.jpg"
                   alt="Start your project"
                   fill
                   className="object-cover"
