@@ -143,7 +143,7 @@
     "empty": "No news articles to display at this time."
   },
   "header": {
-    "headquarters": "Berlin, Germany",
+    "headquarters": "Halle (Westfalen), Germany",
     "emergency24": "24/7 Emergency",
     "search": "Search",
     "searchPlaceholder": "Search projects, services, news...",
@@ -2029,4 +2029,8 @@
     },
     "backToCareers": "Back to All Positions"
   }
+}
+
+
+
 }

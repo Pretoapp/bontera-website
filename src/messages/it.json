@@ -288,37 +288,38 @@
       "title": "La Nostra Visione",
       "description": "Essere il leader globale nelle costruzioni sostenibili, riconosciuti per trasformare visioni architettoniche audaci in strutture durature che ispirano, servono e resistono alla prova del tempo."
     },
-    "values": {
-      "eyebrow": "I Nostri Principi",
-      "title": "I Nostri Valori Fondamentali",
-      "subtitle": "Questi principi guidano ogni decisione che prendiamo e ogni progetto che intraprendiamo.",
-      "items": {
-        "excellence": {
-          "title": "Eccellenza",
-          "description": "Perseguiamo l'eccellenza in ogni dettaglio, dalla progettazione iniziale alla consegna finale, assicurando che il nostro lavoro sia testimonianza di qualita."
-        },
-        "integrity": {
-          "title": "Integrita",
-          "description": "Conduciamo gli affari con onesta e trasparenza, costruendo fiducia con clienti, partner e comunita."
-        },
-        "innovation": {
-          "title": "Innovazione",
-          "description": "Abbracciamo tecnologie e metodologie all'avanguardia per fornire soluzioni costruttive piu intelligenti ed efficienti."
-        },
-        "safety": {
-          "title": "Sicurezza al Primo Posto",
-          "description": "Il benessere del nostro team e delle comunita e fondamentale. Manteniamo rigorosi standard di sicurezza su ogni progetto."
-        },
-        "sustainability": {
-          "title": "Sostenibilita",
-          "description": "Siamo impegnati in pratiche ecologicamente responsabili che minimizzano il nostro impatto e massimizzano l'effetto positivo."
-        },
-        "partnership": {
-          "title": "Partnership",
-          "description": "Crediamo nelle relazioni collaborative, lavorando a stretto contatto con clienti e stakeholder per raggiungere un successo condiviso."
-        }
-      }
+ "values": {
+  "eyebrow": "Ciò in cui crediamo",
+  "title": "I nostri valori fondamentali",
+  "subtitle": "Questi principi guidano ogni decisione che prendiamo e ogni progetto che realizziamo.",
+  "items": {
+    "transparency": {
+      "title": "Trasparenza",
+      "description": "Comunichiamo in modo chiaro e garantiamo piena visibilità in ogni fase del progetto."
     },
+    "reliability": {
+      "title": "Affidabilità",
+      "description": "Rispettiamo gli impegni con un rigoroso controllo dei costi, disciplina di budget e consegne puntuali."
+    },
+    "expertise": {
+      "title": "Competenza tecnica",
+      "description": "Una profonda conoscenza tecnica e una gestione integrata del progetto assicurano qualità costante in ogni fase."
+    },
+    "integrated": {
+      "title": "Approccio integrato",
+      "description": "Una soluzione completa che unisce costruzioni e immobiliare, dal concept alla consegna."
+    },
+    "sustainability": {
+      "title": "Sostenibilità",
+      "description": "Utilizziamo materiali e metodi responsabili per ridurre l’impatto e aumentare il valore."
+    },
+    "valueCreation": {
+      "title": "Creazione di valore",
+      "description": "Massimizziamo il valore nel lungo periodo riducendo i rischi e prendendo decisioni intelligenti in fase di progettazione ed esecuzione."
+    }
+  }
+}
+,
     "timeline": {
       "eyebrow": "Il Nostro Percorso",
       "title": "Le Tappe che Ci Definiscono",

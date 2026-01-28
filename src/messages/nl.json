@@ -288,37 +288,38 @@
       "title": "Onze Visie",
       "description": "De wereldleider zijn in duurzame bouw, erkend voor het transformeren van gedurfde architectonische visies in blijvende constructies die inspireren, dienen en de tand des tijds doorstaan."
     },
-    "values": {
-      "eyebrow": "Waar Wij Voor Staan",
-      "title": "Onze Kernwaarden",
-      "subtitle": "Deze principes sturen elke beslissing die we nemen en elk project dat we ondernemen.",
-      "items": {
-        "excellence": {
-          "title": "Excellentie",
-          "description": "Wij streven naar excellentie in elk detail, van eerste ontwerp tot uiteindelijke oplevering, zodat ons werk getuigt van kwaliteit."
-        },
-        "integrity": {
-          "title": "Integriteit",
-          "description": "Wij voeren zaken uit met eerlijkheid en transparantie, en bouwen vertrouwen op met klanten, partners en gemeenschappen."
-        },
-        "innovation": {
-          "title": "Innovatie",
-          "description": "Wij omarmen geavanceerde technologieen en methodologieen om slimmere, efficientere bouwoplossingen te leveren."
-        },
-        "safety": {
-          "title": "Veiligheid Voorop",
-          "description": "Het welzijn van ons team en gemeenschappen staat voorop. We handhaven strenge veiligheidsnormen bij elk project."
-        },
-        "sustainability": {
-          "title": "Duurzaamheid",
-          "description": "Wij zijn toegewijd aan milieuverantwoorde praktijken die onze voetafdruk minimaliseren en positieve impact maximaliseren."
-        },
-        "partnership": {
-          "title": "Partnerschap",
-          "description": "Wij geloven in samenwerkingsrelaties, werken nauw samen met klanten en belanghebbenden om gedeeld succes te behalen."
-        }
-      }
+   "values": {
+  "eyebrow": "Waar wij voor staan",
+  "title": "Onze kernwaarden",
+  "subtitle": "Deze principes sturen elke beslissing die we nemen en elk project dat we ondernemen.",
+  "items": {
+    "transparency": {
+      "title": "Transparantie",
+      "description": "We communiceren helder en geven volledige zichtbaarheid in elke fase van het project."
     },
+    "reliability": {
+      "title": "Betrouwbaarheid",
+      "description": "We komen afspraken na met strikte kostenbewaking, budgetdiscipline en oplevering volgens planning."
+    },
+    "expertise": {
+      "title": "Technische expertise",
+      "description": "Diepgaande technische kennis en geïntegreerd projectbeheer zorgen voor constante kwaliteit in elke fase."
+    },
+    "integrated": {
+      "title": "Geïntegreerde aanpak",
+      "description": "Een complete oplossing die bouw en vastgoed samenbrengt, van concept tot oplevering."
+    },
+    "sustainability": {
+      "title": "Duurzaamheid",
+      "description": "We gebruiken verantwoorde materialen en methodes om impact te beperken en waarde te vergroten."
+    },
+    "valueCreation": {
+      "title": "Waardecreatie",
+      "description": "We maximaliseren langetermijnwaarde door risico’s te beperken en slimme keuzes te maken in ontwerp en uitvoering."
+    }
+  }
+}
+,
     "timeline": {
       "eyebrow": "Onze Reis",
       "title": "Mijlpalen die Ons Definieren",
@@ -1353,6 +1354,9 @@
       "viewProjects": "Bekijk Onze Projecten"
     }
   },
+
+
+  
   "projectDetail": {
     "breadcrumb": {
       "home": "Home",

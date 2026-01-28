@@ -288,37 +288,38 @@
       "title": "Diteya Me",
       "description": "Bun rehbere cihani di avahisaziya berdewam de, ku ji bo veguhertina diteyeyen mimariye yen dilsoz bo struktureyen mayinde ye ku ilham didin, xizmet dikin, u testek deme derbasker dibin nas dibin."
     },
-    "values": {
-      "eyebrow": "Em Ji Bo Ci Radibistinin",
-      "title": "Nirxeyen Bingeh en Me",
-      "subtitle": "Ev prensip her biryare ku em digirin u her projeyeke ku em dest pe dikin rehber dikin.",
-      "items": {
-        "excellence": {
-          "title": "Serkeftin",
-          "description": "Em di her hurik de serkeftine dijorin, ji dizayne destpeki heta radestkirina dawi, misoger dikin ku kara me wek xuyangaha kaliteye dimint."
-        },
-        "integrity": {
-          "title": "Rasti",
-          "description": "Em bi rastbun u zelalbuni kar dikin, baweriye bi xeridan, hevkaran, u civakan ava dikin."
-        },
-        "innovation": {
-          "title": "Nujeni",
-          "description": "Em teknoloji u metodolojiyeyen pesereng hildibijerin da carinan avahisaziye yen jirtir u bi bandortir radest bikin."
-        },
-        "safety": {
-          "title": "Ewlehi Yekem",
-          "description": "Saxbuna timea me u civakan here giring e. Em standardeyen ewlehiye yen dijwar li ser her projeye didominin."
-        },
-        "sustainability": {
-          "title": "Domdariye",
-          "description": "Em sozdar in pratiken berpirsiyariyi jingehe ku taybetmendiya me kembike u bandora ereketi zede bike bi cih binin."
-        },
-        "partnership": {
-          "title": "Hevkari",
-          "description": "Em bi peywendiyen hevkari bawer dikin, bi xeridan u aliyen eleqedar re bi nezi kar dikin da serkeftina havbeh bigihijin."
-        }
-      }
+  "values": {
+  "eyebrow": "Ya ku em li ser wê rawestan",
+  "title": "Nirxên me yên bingehîn",
+  "subtitle": "Ev prensîb her bir biryar ku em didin û her projeyê ku em pêk tînin rêberî dikin.",
+  "items": {
+    "transparency": {
+      "title": "Şeffafî",
+      "description": "Em bi rengekî zelal têkiliyê dikin û di her qonaxê projeyê de dîtina tevahî peyda dikin."
     },
+    "reliability": {
+      "title": "Bawerbarî",
+      "description": "Em li peymanên xwe digirin bi şopandina hişkbûna lêçûn, disiplinê budceyê û teslîmkirina li gorî planê."
+    },
+    "expertise": {
+      "title": "Pisporiya teknîkî",
+      "description": "Zanîna teknîkî ya qelew û rêveberiya projeyê ya yekgirtî di her qonaxê de qalîteya domdar garantî dike."
+    },
+    "integrated": {
+      "title": "Rêbazê yekgirtî",
+      "description": "Çareseriyaek tevahî ku avahî û emlakan li hev tîne, ji konseptê heta teslîmkirinê."
+    },
+    "sustainability": {
+      "title": "Berdewamî",
+      "description": "Em materyal û rêbazên berpirsiyar bikar tînin da ku bandor kêm bikin û nirx zêde bikin."
+    },
+    "valueCreation": {
+      "title": "Afirandina nirxê",
+      "description": "Em nirxa dirêjdemê zêde dikin bi kêmkirina rîskê û hilbijartinên zîrek di sêwirandin û pêkanînê de."
+    }
+  }
+}
+,
     "timeline": {
       "eyebrow": "Regeza Me",
       "title": "Qonagiyen ku Me Diyar Dikin",
