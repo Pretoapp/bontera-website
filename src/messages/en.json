@@ -528,6 +528,26 @@
             "riskAssessment": "Risk Assessment",
             "compliance": "Regulatory Compliance"
           }
+        },
+        "management": {
+          "title": "Project Management",
+          "description": "From early-stage planning to final delivery, our dedicated management services ensure clarity, accountability, and results. We oversee schedules, coordinate contractors, and manage budgets to keep your vision on track.",
+          "features": {
+            "planning": "Strategic Planning",
+            "coordination": "Team Coordination",
+            "budgetControl": "Budget Control",
+            "qualityAssurance": "Quality Assurance"
+          }
+        },
+        "sustainability": {
+          "title": "Sustainable Building",
+          "description": "We are committed to environmentally responsible construction practices. From LEED certification guidance to energy-efficient design and sustainable material sourcing, we help you build for the future.",
+          "features": {
+            "greenBuilding": "Green Building",
+            "energyEfficiency": "Energy Efficiency",
+            "sustainableMaterials": "Sustainable Materials",
+            "leedCertification": "LEED Certification"
+          }
         }
       }
     },

@@ -517,6 +517,26 @@
             "riskAssessment": "Risk Analizi",
             "compliance": "Uyum"
           }
+        },
+        "management": {
+          "title": "Proje Yönetimi",
+          "description": "Erken planlama aşamasından nihai teslime kadar, özel yönetim hizmetlerimiz netlik, hesap verebilirlik ve sonuçlar sağlar. Programları denetler, yüklenicileri koordine eder ve vizyonunuzu yolda tutmak için bütçeleri yönetiriz.",
+          "features": {
+            "planning": "Stratejik Planlama",
+            "coordination": "Ekip Koordinasyonu",
+            "budgetControl": "Bütçe Kontrolü",
+            "qualityAssurance": "Kalite Güvencesi"
+          }
+        },
+        "sustainability": {
+          "title": "Sürdürülebilir İnşaat",
+          "description": "Çevreye duyarlı inşaat uygulamalarına bağlıyız. LEED sertifikası rehberliğinden enerji verimli tasarıma ve sürdürülebilir malzeme tedarikine kadar, geleceğe yönelik inşa etmenize yardımcı oluyoruz.",
+          "features": {
+            "greenBuilding": "Yeşil Bina",
+            "energyEfficiency": "Enerji Verimliliği",
+            "sustainableMaterials": "Sürdürülebilir Malzemeler",
+            "leedCertification": "LEED Sertifikası"
+          }
         }
       }
     },

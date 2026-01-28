@@ -516,6 +516,26 @@
             "riskAssessment": "Analyse des risques",
             "compliance": "Conformité"
           }
+        },
+        "management": {
+          "title": "Gestion de Projet",
+          "description": "De la planification initiale à la livraison finale, nos services de gestion dédiés assurent clarté, responsabilité et résultats. Nous supervisons les calendriers, coordonnons les entrepreneurs et gérons les budgets pour maintenir votre vision sur la bonne voie.",
+          "features": {
+            "planning": "Planification Stratégique",
+            "coordination": "Coordination d'Équipe",
+            "budgetControl": "Contrôle Budgétaire",
+            "qualityAssurance": "Assurance Qualité"
+          }
+        },
+        "sustainability": {
+          "title": "Construction Durable",
+          "description": "Nous nous engageons dans des pratiques de construction écologiquement responsables. De l'orientation vers la certification LEED à la conception écoénergétique et à l'approvisionnement en matériaux durables, nous vous aidons à construire pour l'avenir.",
+          "features": {
+            "greenBuilding": "Bâtiment Écologique",
+            "energyEfficiency": "Efficacité Énergétique",
+            "sustainableMaterials": "Matériaux Durables",
+            "leedCertification": "Certification LEED"
+          }
         }
       }
     },

@@ -517,6 +517,26 @@
             "riskAssessment": "Risicobeoordeling",
             "compliance": "Wettelijke Naleving"
           }
+        },
+        "management": {
+          "title": "Projectmanagement",
+          "description": "Van vroege planning tot definitieve oplevering zorgen onze toegewijde managementdiensten voor duidelijkheid, verantwoordelijkheid en resultaten. We bewaken schema's, coördineren aannemers en beheren budgetten om uw visie op koers te houden.",
+          "features": {
+            "planning": "Strategische Planning",
+            "coordination": "Teamcoördinatie",
+            "budgetControl": "Budgetcontrole",
+            "qualityAssurance": "Kwaliteitsborging"
+          }
+        },
+        "sustainability": {
+          "title": "Duurzaam Bouwen",
+          "description": "We zetten ons in voor milieuvriendelijke bouwpraktijken. Van LEED-certificeringsbegeleiding tot energie-efficiënt ontwerp en duurzame materiaalbronnen, we helpen u te bouwen voor de toekomst.",
+          "features": {
+            "greenBuilding": "Groen Bouwen",
+            "energyEfficiency": "Energie-efficiëntie",
+            "sustainableMaterials": "Duurzame Materialen",
+            "leedCertification": "LEED-certificering"
+          }
         }
       }
     },
