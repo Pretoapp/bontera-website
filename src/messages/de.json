@@ -516,6 +516,26 @@
             "riskAssessment": "Risikoanalyse",
             "compliance": "Regulatorische Compliance"
           }
+        },
+        "management": {
+          "title": "Projektmanagement",
+          "description": "Von der frühen Planung bis zur endgültigen Lieferung gewährleisten unsere engagierten Managementdienste Klarheit, Verantwortlichkeit und Ergebnisse. Wir überwachen Zeitpläne, koordinieren Auftragnehmer und verwalten Budgets, um Ihre Vision auf Kurs zu halten.",
+          "features": {
+            "planning": "Strategische Planung",
+            "coordination": "Teamkoordination",
+            "budgetControl": "Budgetkontrolle",
+            "qualityAssurance": "Qualitätssicherung"
+          }
+        },
+        "sustainability": {
+          "title": "Nachhaltiges Bauen",
+          "description": "Wir setzen uns für umweltverantwortliche Baupraktiken ein. Von der LEED-Zertifizierungsberatung über energieeffizientes Design bis hin zur nachhaltigen Materialbeschaffung helfen wir Ihnen, für die Zukunft zu bauen.",
+          "features": {
+            "greenBuilding": "Grünes Bauen",
+            "energyEfficiency": "Energieeffizienz",
+            "sustainableMaterials": "Nachhaltige Materialien",
+            "leedCertification": "LEED-Zertifizierung"
+          }
         }
       }
     },
