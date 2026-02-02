@@ -397,17 +397,18 @@
       "home": "Ana Sayfa",
       "about": "Hakkımızda"
     },
-    "hero": {
-      "eyebrow": "Bontera Hakkında",
-      "title": "2004'ten beri mükemmellik",
-      "subtitle": "İnşaat, proje geliştirme ve gayrimenkul aracılığında 20 yılı aşkın deneyimle müşterilerimizi her adımda güvenlik, kalite ve şeffaflıkla destekliyoruz.",
-      "stats": {
-        "years": "Yıllık Deneyim",
-        "sqm": "Teslim Edilen Metrekare",
-        "budget": "Tamamlanan Projeler",
-        "languages": "Konuşulan Dil"
-      }
-    },
+  "hero": {
+  "eyebrow": "Bontera Hakkında",
+  "title": "2004'ten beri mükemmellik",
+  "subtitle": "İnşaat, proje geliştirme ve gayrimenkul aracılığında 20 yılı aşkın uzmanlığımızla müşterilerimize her adımda verimlilik, bağlılık, güvenilirlik, kalite ve şeffaflık sunuyoruz.",
+  "stats": {
+    "years": "Yıllık Deneyim",
+    "sqm": "Teslim Edilen Metrekare",
+    "budget": "Tamamlanan Projeler",
+    "languages": "Konuşulan Dil"
+  }
+}
+,
     "story": {
       "eyebrow": "Hikayemiz",
       "title": "Hayalleri Gerçeğe Dönüştüren Bir Miras",

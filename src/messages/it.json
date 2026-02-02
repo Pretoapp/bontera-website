@@ -394,17 +394,18 @@
       "home": "Home",
       "about": "Chi Siamo"
     },
-    "hero": {
-      "eyebrow": "Chi è Bontera",
-      "title": "Eccellenza nella Costruzione dal 2004",
-      "subtitle": "Con oltre 20 anni di esperienza nella costruzione, sviluppo progetti e intermediazione immobiliare, supportiamo i nostri clienti in ogni fase con sicurezza, qualità e trasparenza.",
-      "stats": {
-        "years": "Anni di Esperienza",
-        "sqm": "Metri Quadri Consegnati",
-        "budget": "Progetti conclusi",
-        "languages": "Lingue Parlate"
-      }
-    },
+  "hero": {
+  "eyebrow": "Chi è Bontera",
+  "title": "Eccellenza nella Costruzione dal 2004",
+  "subtitle": "Con oltre 20 anni di competenza nella costruzione, sviluppo progetti e intermediazione immobiliare, accompagniamo i nostri clienti in ogni fase con efficienza, impegno, affidabilità, qualità e trasparenza.",
+  "stats": {
+    "years": "Anni di Esperienza",
+    "sqm": "Metri Quadri Consegnati",
+    "budget": "Progetti conclusi",
+    "languages": "Lingue Parlate"
+  }
+}
+,
     "story": {
       "eyebrow": "La Nostra Storia",
       "title": "Un'Eredita di Sogni Trasformati in Realta",

@@ -394,16 +394,17 @@
       "about": "Der Bare Me de"
     },
     "hero": {
-      "eyebrow": "Der Bare Bontera de",
-      "title": "Serkeftina Avahisaziye Ji Sala 2004an",
-      "subtitle": "Bi zede ji 20 salen tecrubey di avahisazi, peseroka projeyan u navberiya milkan de, em xeridaneyen xwe di her gaveki de bi ewlehi, kalite u safiye pishtgiri dikin.",
-      "stats": {
-        "years": "Salen Tecrubey",
-        "sqm": "Metre Cargoseh Radest Bun",
-        "budget": "Projên Temamkirî",
-        "languages": "Zimanen ku Em Dipeyivin"
-      }
-    },
+  "eyebrow": "Der Bare Bontera de",
+  "title": "Serkeftina Avahisaziye Ji Sala 2004an",
+  "subtitle": "Bi zêdetir ji 20 salan tecrûbe di avahîsazî, pêşvebirina projeyan û navberiya milkan de, em xerîdarên xwe di her gavê de bi karîgerî, dilsozî, bawerîpêkhatin, kalite û safîyê re şopandin dikin.",
+  "stats": {
+    "years": "Salen Tecrubey",
+    "sqm": "Metre Cargoseh Radest Bun",
+    "budget": "Projên Temamkirî",
+    "languages": "Zimanen ku Em Dipeyivin"
+  }
+}
+,
     "story": {
       "eyebrow": "Cirokeya Me",
       "title": "Mirateya Veguhertina Xewnan bo Rastiye",

@@ -397,17 +397,18 @@
       "home": "Startseite",
       "about": "Über uns"
     },
-    "hero": {
-      "eyebrow": "Über Bontera",
-      "title": "Exzellenz im Bau seit 2004",
-      "subtitle": "Mit über 20 Jahren Erfahrung in Bau, Projektentwicklung und Immobilienvermittlung begleiten wir unsere Kunden bei jedem Schritt mit Sicherheit, Qualität und Transparenz.",
-      "stats": {
-        "years": "Jahre Erfahrung",
-        "sqm": "Quadratmeter geliefert",
-        "budget": "Budget verwaltet",
-        "languages": "Gesprochene Sprachen"
-      }
-    },
+  "hero": {
+  "eyebrow": "Über Bontera",
+  "title": "Exzellenz im Bau seit 2004",
+  "subtitle": "Mit über 20 Jahren Expertise in Bau, Projektentwicklung und Immobilienvermittlung begleiten wir unsere Kunden bei jedem Schritt mit Effizienz, Engagement, Zuverlässigkeit, Qualität und Transparenz.",
+  "stats": {
+    "years": "Jahre Erfahrung",
+    "sqm": "Quadratmeter geliefert",
+    "budget": "Budget verwaltet",
+    "languages": "Gesprochene Sprachen"
+  }
+}
+,
     "story": {
       "eyebrow": "Unsere Geschichte",
       "title": "Ein Vermächtnis, Träume in Realität zu verwandeln",

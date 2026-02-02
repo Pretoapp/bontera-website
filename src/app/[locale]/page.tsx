@@ -294,9 +294,9 @@ export default async function HomePage({ params }: Props) {
               { key: "construction", slug: "commercial", image: "/images/slide-2.jpg" },
               { key: "restoration", slug: "renovation", image: "/images/expertise-restoration.jpg" },
               { key: "projectManagement", slug: "management", image: "/images/slide-3.jpg" },
-              { key: "realEstate", slug: "real-estate", image: "/images/careers-feature.jpg" },
-              { key: "brokerage", slug: "real-estate", image: "/images/expertise-civil.jpg" },
-              { key: "consulting", slug: "consulting", image: "/images/expertise-building.jpg" },
+              { key: "realEstate", slug: "real-estate", image: "/images/careers.jpg" },
+              { key: "brokerage", slug: "real-estate", image: "/images/civil09.jpg" },
+              { key: "consulting", slug: "consulting", image: "/images/expertise.jpg" },
             ].map((service) => (
               <Link key={service.key} href={`/${locale}/services/${service.slug}`} className="group relative h-80 lg:h-96 overflow-hidden">
                 <Image src={service.image} alt={t(`services.items.${service.key}.title`)} fill className="object-cover transition-transform duration-700 group-hover:scale-110" sizes="(max-width: 768px) 100vw, 33vw" />

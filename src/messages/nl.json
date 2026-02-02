@@ -394,17 +394,18 @@
       "home": "Startpagina",
       "about": "Over Ons"
     },
-    "hero": {
-      "eyebrow": "Over Bontera",
-      "title": "Excellentie in Bouwen sinds 2004",
-      "subtitle": "Met meer dan 20 jaar ervaring in bouw, projectontwikkeling en vastgoedbemiddeling ondersteunen wij onze klanten bij elke stap met veiligheid, kwaliteit en transparantie.",
-      "stats": {
-        "years": "Jaren Ervaring",
-        "sqm": "Vierkante Meters Geleverd",
-        "budget": "Budget Beheerd",
-        "languages": "Gesproken Talen"
-      }
-    },
+  "hero": {
+  "eyebrow": "Over Bontera",
+  "title": "Excellentie in Bouwen sinds 2004",
+  "subtitle": "Met meer dan 20 jaar expertise in bouw, projectontwikkeling en vastgoedbemiddeling begeleiden wij onze klanten bij elke stap met efficiëntie, betrokkenheid, betrouwbaarheid, kwaliteit en transparantie.",
+  "stats": {
+    "years": "Jaren Ervaring",
+    "sqm": "Vierkante Meters Geleverd",
+    "budget": "Budget Beheerd",
+    "languages": "Gesproken Talen"
+  }
+}
+,
     "story": {
       "eyebrow": "Ons Verhaal",
       "title": "Een Erfenis van Dromen Omzetten in Werkelijkheid",

@@ -19,11 +19,12 @@
       "about": "À propos",
       "ourStory": "Notre histoire"
     },
-    "hero": {
-      "eyebrow": "Notre histoire",
-      "title": "Un héritage qui transforme les ambitions en réalité",
-      "subtitle": "Forte de plus de 20 ans d'expérience dans la construction, le développement de projets et le courtage immobilier, nous accompagnons nos clients à chaque étape avec sécurité, qualité et transparence."
-    },
+  "hero": {
+  "eyebrow": "Notre histoire",
+  "title": "Un héritage qui transforme les ambitions en réalité",
+  "subtitle": "Avec plus de 20 ans d’expertise en construction, développement de projets et courtage immobilier, nous guidons nos clients à chaque étape avec efficacité, engagement, fiabilité, qualité et transparence."
+}
+,
     "origin": {
       "eyebrow": "Les origines",
       "title": "Là où tout a commencé",
@@ -108,20 +109,21 @@
     "title": "Bontera | Construction & Real Estates",
     "description": "Des solutions de construction et d’infrastructure de classe mondiale. De la conception à la livraison, nous réalisons des projets qui redessinent les skylines et transforment les communautés."
   },
-  "hero": {
-    "eyebrow": "L'excellence en construction depuis 2004",
-    "titleLine1": "Nous bâtissons",
-    "titleLine2": "l'avenir",
-    "description": "Forte de plus de 20 ans d'expérience dans la construction, le développement de projets et le courtage immobilier, nous accompagnons nos clients à chaque étape avec sécurité, qualité et transparence.",
-    "ctaPrimary": "Voir nos projets",
-    "ctaSecondary": "Nous contacter",
-    "stats": {
-      "years": "Années d'expérience",
-      "sqm": "Mètres carrés livrés",
-      "budget": "Projets achevés",
-      "languages": "Langues parlées"
-    }
-  },
+ "hero": {
+  "eyebrow": "L'excellence en construction depuis 2004",
+  "titleLine1": "Nous bâtissons",
+  "titleLine2": "l'avenir",
+  "description": "Avec plus de 20 ans d’expertise en construction, développement de projets et courtage immobilier, nous accompagnons chaque client avec efficacité, engagement, fiabilité, qualité et transparence.",
+  "ctaPrimary": "Voir nos projets",
+  "ctaSecondary": "Nous contacter",
+  "stats": {
+    "years": "Années d'expérience",
+    "sqm": "Mètres carrés livrés",
+    "budget": "Projets achevés",
+    "languages": "Langues parlées"
+  }
+}
+,
   "vision": {
     "eyebrow": "Notre vision",
     "headline": "Concevoir les repères de demain, dès aujourd’hui",
@@ -394,17 +396,18 @@
       "home": "Accueil",
       "about": "À propos"
     },
-    "hero": {
-      "eyebrow": "À propos de Bontera",
-      "title": "L'excellence en construction depuis 2004",
-      "subtitle": "Forte de plus de 20 ans d'expérience dans la construction, le développement de projets et le courtage immobilier, nous accompagnons nos clients à chaque étape avec sécurité, qualité et transparence.",
-      "stats": {
-        "years": "Années d'expérience",
-        "sqm": "Mètres carrés livrés",
-        "budget": "Projets achevés",
-        "languages": "Langues parlées"
-      }
-    },
+ "hero": {
+  "eyebrow": "À propos de Bontera",
+  "title": "L'excellence en construction depuis 2004",
+  "subtitle": "Avec plus de 20 ans d’expertise en construction, développement de projets et courtage immobilier, nous accompagnons nos clients avec efficacité, engagement, fiabilité, qualité et transparence.",
+  "stats": {
+    "years": "Années d'expérience",
+    "sqm": "Mètres carrés livrés",
+    "budget": "Projets achevés",
+    "languages": "Langues parlées"
+  }
+}
+,
 
     "story": {
       "eyebrow": "Notre histoire",
