@@ -53,7 +53,7 @@ const categories = [
 
 const featuredStats = [
   { value: "80+", key: "projectsCompleted" },
-  { value: "40,000", key: "totalValue" },,
+  { value: "40,000", key: "totalValue" },
   { value: "12", key: "countries" },
   { value: "98%", key: "onTimeDelivery" },
 ];

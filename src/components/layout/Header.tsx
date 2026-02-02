@@ -168,7 +168,8 @@ export default function Header() {
   const params = useParams();
   const pathname = usePathname();
   const currentLocale = params.locale as Locale;
-  const isRTL = currentLocale === 'ar';
+ const isRTL = currentLocale === 'ku';
+
 
   // State management
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);

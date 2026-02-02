@@ -6,6 +6,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion';
 import { useTranslations } from 'next-intl';
+import type { CSSProperties } from 'react';
+
 
 type ExpertiseItem = {
   key: string;
@@ -60,6 +62,18 @@ function TiltCard({
     py.set(0);
   }, [px, py]);
 
+  const sheenStyle = useMemo(
+  () =>
+    ({
+      background:
+        'radial-gradient(circle at var(--sx) var(--sy), rgba(255,255,255,0.55), rgba(255,255,255,0) 55%)',
+      '--sx': sheenX,
+      '--sy': sheenY,
+    }) as CSSProperties,
+  [sheenX, sheenY]
+);
+
+
   const slugIndex = String(index + 1).padStart(2, '0');
 
   return (
@@ -84,6 +98,12 @@ function TiltCard({
         'will-change-transform'
       )}
     >
+
+      <motion.div
+  className="pointer-events-none absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+  style={sheenStyle}
+/>
+
       {/* Premium card surface: subtle depth and texture */}
       <div aria-hidden="true" className="pointer-events-none absolute inset-0">
         <div className="absolute inset-0 pattern-bontera-lines opacity-[0.045]" />
@@ -119,7 +139,7 @@ function TiltCard({
               'radial-gradient(circle at var(--sx) var(--sy), rgba(255,255,255,0.55), rgba(255,255,255,0) 55%)',
             // @ts-expect-error CSS vars
             '--sx': sheenX,
-            // @ts-expect-error CSS vars
+           
             '--sy': sheenY,
           }}
         />

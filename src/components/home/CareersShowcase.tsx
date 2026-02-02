@@ -2,8 +2,12 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { motion, useInView } from 'framer-motion';
+import { motion, useInView, type Variants } from 'framer-motion';
 import { useMemo, useRef } from 'react';
+
+
+
+
 
 type RoleCard = {
   title: string;
@@ -41,6 +45,8 @@ type Props = {
   };
 };
 
+
+
 function cn(...classes: Array<string | false | undefined | null>) {
   return classes.filter(Boolean).join(' ');
 }
@@ -49,28 +55,33 @@ export default function CareersShowcase({ locale, content }: Props) {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: '-120px' });
 
-  const container = useMemo(
-    () => ({
-      hidden: { opacity: 0 },
-      visible: {
-        opacity: 1,
-        transition: { staggerChildren: 0.12 },
-      },
-    }),
-    []
-  );
+  
 
-  const item = useMemo(
-    () => ({
-      hidden: { opacity: 0, y: 18 },
-      visible: {
-        opacity: 1,
-        y: 0,
-        transition: { duration: 0.6, ease: [0.25, 0.1, 0.25, 1] },
+const container: Variants = useMemo(
+  () => ({
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: { staggerChildren: 0.12 },
+    },
+  }),
+  []
+);
+
+const item: Variants = useMemo(
+  () => ({
+    hidden: { opacity: 0, y: 18 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 0.6,
+        ease: [0.25, 0.1, 0.25, 1] as [number, number, number, number],
       },
-    }),
-    []
-  );
+    },
+  }),
+  []
+);
 
   return (
     <section ref={ref} className="relative py-20 lg:py-28 bg-bontera-grey-50 overflow-hidden">

@@ -14,7 +14,8 @@ export default function Footer() {
   const t = useTranslations();
   const params = useParams();
   const currentLocale = params.locale as Locale;
-  const isRTL = currentLocale === 'ar';
+const isRTL = currentLocale === 'ku';
+
 
   const currentYear = new Date().getFullYear();
 

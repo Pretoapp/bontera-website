@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { urlFor } from '@/lib/sanity/client';
 
+
 type Project = {
   _id: string;
   title?: string;
@@ -30,8 +31,12 @@ function getSlug(slug: Project['slug']) {
 
 function imgUrl(image: any, w = 1600, h = 1000) {
   if (!image) return null;
+
   try {
-    return urlFor(image).width(w).height(h).fit('crop').url();
+    const builder = urlFor(image);
+    if (!builder) return null; // <-- fixes "possibly null"
+
+    return builder.width(w).height(h).fit('crop').url();
   } catch {
     return null;
   }
