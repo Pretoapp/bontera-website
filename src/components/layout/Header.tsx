@@ -224,10 +224,12 @@ export default function Header() {
 
   const companyLinks = useMemo(
     () => [
-      { key: 'ourStory', href: `/${currentLocale}/about` },
-      { key: 'leadership', href: `/${currentLocale}/about/leadership` },
+      { key: 'ourStory', href: `/${currentLocale}/about/our-story` },
+    
+
       { key: 'values', href: `/${currentLocale}/about/values` },
-      { key: 'certifications', href: `/${currentLocale}/about/certifications` },
+       { key: 'whyBontera', href: `/${currentLocale}/about/why-bontera` },
+      
       { key: 'partners', href: `/${currentLocale}/about/partners` },
     ],
     [currentLocale]
@@ -340,9 +342,7 @@ export default function Header() {
     };
   }, [isMobileMenuOpen]);
 
-  /* ═══════════════════════════════════════════════════════════════════════════
-     RENDER
-   ═══════════════════════════════════════════════════════════════════════════ */
+
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50" dir={isRTL ? 'rtl' : 'ltr'}>
@@ -353,7 +353,8 @@ export default function Header() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="h-10 flex items-center justify-between text-xs">
             {/* Contact Info */}
-            <div className="flex items-center gap-6">
+            <div className="flex items-center gap-6 lg:-ml-4">
+
               <a
                 href="tel:+1234567890"
                 className="inline-flex items-center gap-2 text-bontera-grey-300 hover:text-white transition-colors"
@@ -402,7 +403,7 @@ export default function Header() {
                 <span className="inline-flex items-center justify-center h-5 w-5 rounded bg-green-600 text-[10px] font-bold text-white">
                   ISO
                 </span>
-                <span>9001:2015</span>
+                
               </div>
 
               <div className="w-px h-4 bg-bontera-grey-700" />
@@ -439,13 +440,15 @@ export default function Header() {
         <div className="h-[3px] bg-gradient-to-r from-bontera-navy-600 via-bontera-navy-500 to-bontera-navy-600" />
 
         <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
-          <div
-            className={cn(
-              'grid grid-cols-[auto_1fr_auto] lg:grid-cols-[180px_1fr_auto] items-center gap-4 lg:gap-6',
-              'transition-all duration-300',
-              isScrolled ? 'h-[82px]' : 'h-[102px]'
-            )}
-          >
+        <div
+  className={cn(
+    'flex items-center justify-between gap-3',          // mobile
+    'lg:grid lg:grid-cols-[180px_1fr_auto] lg:gap-6',   // desktop
+    'transition-all duration-300',
+    isScrolled ? 'h-[82px]' : 'h-[102px]'
+  )}
+>
+
             {/* ─────────────────────────────────────────────
                 LOGO / BRAND - Shows full logo
             ───────────────────────────────────────────── */}
@@ -454,14 +457,17 @@ export default function Header() {
               href={`/${currentLocale}`}
               className="inline-flex items-center group self-stretch"
             >
-              <span
-                className={cn(
-                  'relative h-full',
-                  isScrolled ? 'w-[280px] lg:w-[360px]' : 'w-[320px] lg:w-[440px]'
-                )}
-              >
+            <span
+  className={cn(
+    'relative h-full min-w-0',                          // allow shrink
+    isScrolled
+      ? 'w-[170px] sm:w-[220px] lg:w-[360px]'
+      : 'w-[190px] sm:w-[260px] lg:w-[440px]'
+  )}
+>
+
                 <Image
-                  src="/brand/bontera-logo.png"
+                  src="/brand/lastlogo.png"
                   alt="Bontera"
                   fill
                   priority
@@ -854,7 +860,7 @@ function ServicesMegaMenu({
 
           <div className="rounded-xl overflow-hidden mb-4">
             <Image
-              src="/images/services-featured.jpg"
+              src="/brand/lastlogo.png"
               alt="Featured service"
               width={200}
               height={120}
@@ -1010,7 +1016,7 @@ function CompanyMegaMenu({
           <div className="space-y-4">
             {[
               { value: '20+', label: t('yearsExperience') },
-              { value: '500+', label: t('projectsCompleted') },
+              { value: '80+', label: t('projectsCompleted') },
               { value: '12', label: t('countriesOperating') },
               { value: '1200+', label: t('teamMembers') },
             ].map((stat) => (
@@ -1070,7 +1076,7 @@ function MobileMenu({
           <div className="flex items-center">
             <span className="relative h-11 w-[160px] overflow-hidden">
               <Image
-                src="/brand/bontera-logo.png"
+                src="/brand/lastlogo.png"
                 alt="Bontera"
                 fill
                 sizes="120px"

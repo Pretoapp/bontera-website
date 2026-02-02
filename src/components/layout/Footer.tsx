@@ -36,11 +36,12 @@ export default function Footer() {
     { key: 'consulting', href: `/${currentLocale}/services/consulting` },
   ];
 
-  const legalLinks = [
-    { key: 'privacy', href: `/${currentLocale}/privacy` },
-    { key: 'terms', href: `/${currentLocale}/terms` },
-    { key: 'cookies', href: `/${currentLocale}/cookies` },
-  ];
+ const legalLinks = [
+  { key: 'privacy', href: `/${currentLocale}/legal#privacy` },
+  { key: 'terms', href: `/${currentLocale}/legal#terms` },
+  { key: 'cookies', href: `/${currentLocale}/legal#cookies` },
+];
+
 
   const socialLinks = [
     { name: 'LinkedIn', href: '#', icon: LinkedInIcon },
@@ -100,21 +101,50 @@ export default function Footer() {
             ───────────────────────────────────────────── */}
             <div className="lg:col-span-4">
               {/* Logo */}
-              <Link href={`/${currentLocale}`} className="inline-flex items-center gap-4 group">
-                <span className="relative h-14 w-14 rounded-2xl overflow-hidden bg-white/10 border border-white/20 shadow-lg group-hover:border-white/30 transition-colors">
-                  <Image
-                    src="/images/bon.png"
-                    alt="Bontera"
-                    fill
-                    sizes="56px"
-                    className="object-contain scale-[1.18]"
-                  />
-                </span>
-                <div>
-                  <div className="text-2xl font-semibold tracking-tight text-white">BONTERA</div>
-                  <div className="text-sm text-bontera-grey-400">Construction & Infrastructure</div>
-                </div>
-              </Link>
+<Link
+  href={`/${currentLocale}`}
+  className="inline-flex items-center gap-4 group"
+  aria-label="Bontera home"
+>
+  <span
+    className="
+      relative h-16 w-16 rounded-2xl overflow-hidden
+      bg-white/12 border border-white/20 ring-1 ring-white/10
+      shadow-[0_20px_60px_rgba(0,0,0,0.45)]
+      transition-all duration-200
+      group-hover:bg-white group-hover:border-white/40 group-hover:ring-white/20
+    "
+  >
+    {/* Optional: keep a subtle highlight only in normal state */}
+    <span className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(255,255,255,0.22),transparent_55%)] transition-opacity duration-200 group-hover:opacity-0" />
+
+    {/* White version for dark background (default) */}
+    <Image
+      src="/brand/bontera-icon-transparent@2x.png"
+      alt="Bontera"
+      fill
+      sizes="64px"
+      className="object-contain p-2.5 opacity-100 transition-opacity duration-200 group-hover:opacity-0"
+      priority
+    />
+
+    {/* Dark/blue version for white background (hover) */}
+    <Image
+      src="/brand/lastlogo.png" // your dark/blue version
+      alt=""
+      fill
+      sizes="64px"
+      className="object-contain p-2.5 opacity-0 transition-opacity duration-200 group-hover:opacity-100"
+    />
+  </span>
+
+  <div className="leading-tight">
+    <div className="text-2xl font-semibold tracking-tight text-white">BONTERA</div>
+    <div className="text-sm text-bontera-grey-300">Construction & Infrastructure</div>
+  </div>
+</Link>
+
+
 
               {/* Description */}
               <p className="mt-8 text-base text-bontera-grey-400 leading-relaxed max-w-sm">
@@ -124,7 +154,7 @@ export default function Footer() {
               {/* Certifications */}
               <div className="mt-8 flex flex-wrap items-center gap-4">
                 {[
-                  { label: 'ISO 9001', sublabel: '2015' },
+               
                   { label: 'LEED', sublabel: 'Certified' },
                   { label: 'OSHA', sublabel: 'Compliant' },
                 ].map((cert) => (

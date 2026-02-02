@@ -49,7 +49,7 @@ const services = [
     slug: "real-estate",
     icon: "M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25",
     image: "/images/real.jpg",
-    features: ["residential", "commercial", "mixedUse", "investment"],
+    features: ["residential", "commercial", "mixedUse", "investment", "brokerage"],
   },
   {
     key: "residential",
@@ -86,6 +86,8 @@ const services = [
     image: "/images/services/management.jpg",
     features: ["planning", "coordination", "budgetControl", "qualityAssurance"],
   },
+
+  
   {
     key: "sustainability",
     slug: "sustainability",
@@ -93,6 +95,8 @@ const services = [
     image: "/images/services/sustainability.jpg",
     features: ["greenBuilding", "energyEfficiency", "sustainableMaterials", "leedCertification"],
   },
+
+    
 ];
 
 const processSteps = [
@@ -130,7 +134,7 @@ export default async function ServicesPage({ params }: Props) {
         {/* Background */}
         <div className="absolute inset-0">
           <Image
-            src="/images/bon.png"
+            src="/brand/bontera-popo.png"
             alt="Bontera Services"
             fill
             priority
@@ -253,7 +257,7 @@ export default async function ServicesPage({ params }: Props) {
             {/* Stats Grid */}
             <div className="grid grid-cols-2 gap-4">
               {[
-                { value: "500+", label: t("overview.stats.projects") },
+                { value: "80+", label: t("overview.stats.projects") },
                 { value: "20+", label: t("overview.stats.years") },
                 { value: "98%", label: t("overview.stats.satisfaction") },
                 { value: "50+", label: t("overview.stats.awards") },
@@ -484,7 +488,7 @@ export default async function ServicesPage({ params }: Props) {
             <div className="relative">
               <div className="relative aspect-[4/5] overflow-hidden">
                 <Image
-                  src="/images/indus.jpg"
+                  src="/images/industri.jpg"
                   alt="Industries we serve"
                   fill
                   className="object-cover"

@@ -7860,7 +7860,7 @@ object.entries@^1.1.9:
 
 object.fromentries@^2.0.8:
   version "2.0.8"
-  resolved "https://registry.npmjs.org/object.fromentries/-/object.fromentries-2.0.8.tgz#f7195d8a9b97bd95cbc1999ea939ecd1a2b00c65"
+  resolved "https://registry.npmjs.org/object.fromentries/-/object.fromentries-2.0.8.tgz#f7195d8a9b97bd95cbc2004ea939ecd1a2b00c65"
   integrity sha512-k6E21FzySsSK5a21KRADBd/NGneRegFO5pLHfdQLpRDETUNJueLXs3WCzyQ3tFRDYgbq3KHGXfTbi2bs8WQ6rQ==
   dependencies:
     call-bind "^1.0.7"

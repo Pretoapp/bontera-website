@@ -86,6 +86,7 @@ export default async function ValuesPage({ params }: Props) {
 
         <div className="relative z-10 w-full pb-16 lg:pb-24">
           <div className="max-w-[1600px] mx-auto px-6 lg:px-16">
+            
             <nav className="mb-8" aria-label="Breadcrumb">
               <ol className="flex items-center gap-2 text-sm text-bontera-grey-400">
                 <li>
@@ -268,6 +269,47 @@ export default async function ValuesPage({ params }: Props) {
         </div>
       </section>
 
+
+      {/* Values Snapshot */}
+<section className="relative py-16 lg:py-20 bg-white overflow-hidden">
+  <div className="max-w-[1600px] mx-auto px-6 lg:px-16">
+    <div className="max-w-3xl">
+      <span className="inline-flex items-center gap-3 text-bontera-navy-600 text-xs uppercase tracking-[0.3em] font-semibold">
+        <span className="w-8 h-px bg-bontera-navy-600" />
+        {t("valuesSnapshot.eyebrow")}
+      </span>
+
+      <h2 className="mt-6 text-3xl sm:text-4xl font-semibold text-bontera-grey-900 leading-[1.1] tracking-tight">
+        {t("valuesSnapshot.title")}
+      </h2>
+
+      <ul className="mt-8 space-y-4 text-lg text-bontera-grey-600 leading-relaxed">
+        <li className="flex items-start gap-3">
+          <span className="mt-2 w-2 h-2 bg-bontera-navy-600 flex-shrink-0" />
+          <span>{t("valuesSnapshot.items.transparencyReliabilityCommitment")}</span>
+        </li>
+        <li className="flex items-start gap-3">
+          <span className="mt-2 w-2 h-2 bg-bontera-navy-600 flex-shrink-0" />
+          <span>{t("valuesSnapshot.items.technicalExpertise")}</span>
+        </li>
+        <li className="flex items-start gap-3">
+          <span className="mt-2 w-2 h-2 bg-bontera-navy-600 flex-shrink-0" />
+          <span>{t("valuesSnapshot.items.holisticApproach")}</span>
+        </li>
+        <li className="flex items-start gap-3">
+          <span className="mt-2 w-2 h-2 bg-bontera-navy-600 flex-shrink-0" />
+          <span>{t("valuesSnapshot.items.valueGrowth")}</span>
+        </li>
+      </ul>
+
+      <p className="mt-8 text-lg text-bontera-grey-700 font-medium leading-relaxed">
+        {t("valuesSnapshot.closing")}
+      </p>
+    </div>
+  </div>
+</section>
+
+
       {/* Culture Section */}
       <section className="relative py-24 lg:py-32 bg-white overflow-hidden">
         <div className="max-w-[1600px] mx-auto px-6 lg:px-16">
@@ -298,19 +340,25 @@ export default async function ValuesPage({ params }: Props) {
               </blockquote>
             </div>
 
-            <div className="relative aspect-[4/5] overflow-hidden">
-              <Image
-                src="/images/values-culture.jpg"
-                alt="Bontera Culture"
-                fill
-                className="object-cover"
-                sizes="50vw"
-              />
-              <div className="absolute -bottom-8 -left-8 lg:-left-12 bg-bontera-navy-600 text-white p-6 lg:p-8 shadow-2xl max-w-xs">
-                <div className="text-5xl lg:text-6xl font-bold">1200+</div>
-                <div className="text-lg font-medium mt-2">{t("culture.teamMembers")}</div>
-              </div>
-            </div>
+         <div className="relative aspect-[4/5] overflow-visible">
+  {/* keep image clipped, but allow the badge to overflow */}
+  <div className="absolute inset-0 overflow-hidden">
+    <Image
+      src="/images/values-culture.jpg"
+      alt="Bontera Culture"
+      fill
+      className="object-cover"
+      sizes="50vw"
+    />
+  </div>
+
+  {/* badge */}
+  <div className="absolute bottom-[-14px] -left-[110px] bg-bontera-navy-600 text-white p-6 lg:p-8 shadow-2xl max-w-xs z-10">
+    <div className="text-5xl lg:text-6xl font-bold">20+</div>
+    <div className="text-lg font-medium mt-2">{t("culture.teamMembers")}</div>
+  </div>
+</div>
+
           </div>
         </div>
       </section>

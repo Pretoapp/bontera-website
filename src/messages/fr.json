@@ -8,6 +8,102 @@
     "news": "Actualités",
     "contact": "Contact"
   },
+
+  "ourStoryPage": {
+    "meta": {
+      "title": "Notre histoire | Bontera",
+      "description": "Découvrez l’origine, l’évolution et la vision de Bontera. De 2004 à aujourd’hui, une trajectoire guidée par l’excellence, la sécurité et la durabilité."
+    },
+    "breadcrumb": {
+      "home": "Accueil",
+      "about": "À propos",
+      "ourStory": "Notre histoire"
+    },
+    "hero": {
+      "eyebrow": "Notre histoire",
+      "title": "Un héritage qui transforme les ambitions en réalité",
+      "subtitle": "Forte de plus de 20 ans d'expérience dans la construction, le développement de projets et le courtage immobilier, nous accompagnons nos clients à chaque étape avec sécurité, qualité et transparence."
+    },
+    "origin": {
+      "eyebrow": "Les origines",
+      "title": "Là où tout a commencé",
+      "paragraph1": "Bontera est née d’une conviction simple: bâtir avec exigence, transparence et maîtrise technique, pour livrer des projets fiables et durables.",
+      "paragraph2": "Dès le départ, nous avons structuré notre approche autour de la sécurité, du respect des normes et d’une gestion rigoureuse des coûts et des délais.",
+      "paragraph3": "Au fil des années, notre expertise s’est élargie à des projets plus complexes, avec une attention croissante à la performance énergétique et aux pratiques de construction responsables.",
+      "founded": "Fondée",
+      "location": "Berlin, Allemagne"
+    },
+    "founderQuote": {
+      "quote": "Notre objectif est clair: offrir à nos partenaires et clients des projets immobiliers fiables, sécurisés et à forte valeur ajoutée.",
+      "name": "Mr. Necdet",
+      "title": "Fondateur & Directeur Général"
+    },
+    "timeline": {
+      "eyebrow": "Notre parcours",
+      "title": "Des jalons qui nous définissent",
+      "milestones": {
+        "founding": {
+          "title": "Le début",
+          "description": "Bontera est fondée avec une vision: élever les standards de qualité, de sécurité et de livraison."
+        },
+        "firstMajor": {
+          "title": "Premier grand projet",
+          "description": "Livraison de notre premier projet majeur, consolidant notre crédibilité et notre méthodologie d’exécution."
+        },
+        "expansion": {
+          "title": "Expansion régionale",
+          "description": "Partenariats clés, croissance de l’équipe et extension progressive de nos capacités opérationnelles."
+        },
+        "international": {
+          "title": "Internationalisation",
+          "description": "Déploiement sur plusieurs marchés, avec une approche standardisée et une exécution locale contrôlée."
+        },
+        "sustainability": {
+          "title": "Virage durable",
+          "description": "Intégration de pratiques responsables, matériaux optimisés et objectifs de performance énergétique sur nos projets."
+        },
+        "technology": {
+          "title": "Accélération technologique",
+          "description": "Adoption d’outils de coordination avancés et de méthodes modernes pour améliorer qualité, délais et traçabilité."
+        },
+        "pandemic": {
+          "title": "Résilience en période critique",
+          "description": "Adaptation rapide des process et maintien des livraisons, malgré un environnement global instable."
+        },
+        "future": {
+          "title": "Construire demain",
+          "description": "Poursuite de l’innovation, montée en gamme et expansion autour de projets durables et à forte valeur."
+        }
+      }
+    },
+    "achievements": {
+      "eyebrow": "En chiffres",
+      "title": "Nos réussites",
+      "items": {
+        "projects": "Projets livrés",
+        "employees": "Membres de l’équipe",
+        "countries": "Pays d’intervention",
+        "awards": "Récompenses"
+      }
+    },
+    "future": {
+      "eyebrow": "Regard vers l’avenir",
+      "title": "Vision d’avenir",
+      "paragraph1": "Notre priorité est de livrer des projets toujours plus performants, plus sûrs et plus durables, sans compromis sur la qualité.",
+      "paragraph2": "Nous investissons dans les méthodes, les talents et les partenariats nécessaires pour rester un acteur de référence sur nos marchés.",
+      "focus": {
+        "innovation": "Innovation",
+        "sustainability": "Durabilité",
+        "growth": "Croissance"
+      }
+    },
+    "cta": {
+      "title": "Prêt à bâtir quelque chose d’exceptionnel",
+      "description": "Que vous planifiiez un développement commercial, une infrastructure ou un bâtiment durable, notre équipe est prête à donner vie à votre vision.",
+      "startProject": "Nous contacter",
+      "joinTeam": "Rejoindre l’équipe"
+    }
+  },
   "metadata": {
     "title": "Bontera | Construction & Real Estates",
     "description": "Des solutions de construction et d’infrastructure de classe mondiale. De la conception à la livraison, nous réalisons des projets qui redessinent les skylines et transforment les communautés."
@@ -22,7 +118,7 @@
     "stats": {
       "years": "Années d'expérience",
       "sqm": "Mètres carrés livrés",
-      "budget": "Budget géré",
+      "budget": "Projets achevés",
       "languages": "Langues parlées"
     }
   },
@@ -98,7 +194,7 @@
   "stats": {
     "years": "Années d'expérience",
     "sqm": "Mètres carrés livrés",
-    "budget": "Budget géré",
+    "budget": "Projets achevés",
     "languages": "Langues parlées",
     "projects": "Projets terminés",
     "satisfaction": "Satisfaction client",
@@ -112,7 +208,7 @@
     "points": {
       "quality": {
         "title": "Qualité sans compromis",
-        "description": "Des processus certifiés ISO 9001:2015 garantissent une excellence constante sur chaque projet."
+        "description": "Des processus garantissent une excellence constante sur chaque projet."
       },
       "timeline": {
         "title": "Livraison dans les délais",
@@ -126,8 +222,8 @@
   },
   "testimonial": {
     "quote": "Bontera a dépassé toutes nos attentes. Leur sens du détail, leur professionnalisme et leur engagement envers notre vision ont donné naissance à un bâtiment emblématique dont nous sommes très fiers.",
-    "name": "Sarah Mitchell",
-    "role": "CEO, Atlas Development Group"
+    "name": "Reginald Charles",
+    "role": "Lakay Business LTDA"
   },
   "news": {
     "eyebrow": "Actualités & analyses",
@@ -160,7 +256,7 @@
     "projectCategories": "Catégories de projets",
     "featuredProject": "Projet à la une",
     "featuredProjectTitle": "NATO Headquarters Brussels",
-    "featuredProjectLocation": "Dubai Marina, EAU",
+    "featuredProjectLocation": "Brussels, Belgium",
     "completed": "Terminé",
     "viewAllProjects": "Voir tous les projets",
     "aboutBontera": "À propos de Bontera",
@@ -194,7 +290,9 @@
       "leadership": "Équipe dirigeante",
       "values": "Mission & valeurs",
       "certifications": "Certifications",
-      "partners": "Partenaires & affiliés"
+      "partners": "Partenaires & affiliés",
+      "why Bontera": "Pourquoi choisir Bontera",
+      "whyBontera": "Pourquoi choisir Bontera"
     }
   },
   "cta": {
@@ -241,6 +339,43 @@
       "cookies": "Politique relative aux cookies"
     }
   },
+
+  "legalPage": {
+    "meta": {
+      "title": "Mentions légales, confidentialité, cookies et FAQ | Bontera",
+      "description": "Consultez nos informations légales, notre politique de confidentialité, notre politique cookies et nos questions fréquentes."
+    },
+    "hero": {
+      "eyebrow": "Centre légal",
+      "title": "Politique de confidentialité",
+      "subtitle": "Tout ce que vous devez savoir sur l’utilisation du site, la gestion des données et les questions fréquentes, au même endroit."
+    },
+    "nav": {
+      "privacy": "Confidentialité",
+      "terms": "Conditions",
+      "cookies": "Cookies",
+      "faq": "FAQ"
+    },
+    "sidebar": {
+      "title": "Sur cette page"
+    },
+    "privacy": {
+      "title": "Politique de confidentialité",
+      "body": "Bontera respecte votre vie privée. Nous ne collectons que les informations nécessaires pour répondre à vos demandes (formulaire, e-mail, téléphone) et améliorer l’expérience du site. Nous ne vendons pas vos données. Pour toute question ou demande relative à vos données, contactez-nous à info@bontera.de."
+    },
+    "terms": {
+      "title": "Conditions d’utilisation",
+      "body": "En utilisant ce site, vous acceptez de le consulter à des fins légales et de ne pas perturber son fonctionnement. Les contenus (textes, images, éléments graphiques) sont protégés et ne peuvent pas être réutilisés sans autorisation. Les informations présentées sont fournies à titre indicatif et peuvent évoluer."
+    },
+    "cookies": {
+      "title": "Politique cookies",
+      "body": "Nous utilisons des cookies et technologies similaires pour assurer le bon fonctionnement du site, mesurer l’audience et améliorer les performances. Vous pouvez gérer vos préférences via les paramètres de votre navigateur. Certaines fonctionnalités peuvent être limitées si les cookies sont désactivés."
+    },
+    "faqBlock": {
+      "title": "Questions fréquentes (FAQ)",
+      "subtitle": "Retrouvez ici les réponses aux questions les plus courantes sur nos projets, nos délais et notre processus."
+    }
+  },
   "about": {
     "meta": {
       "title": "À propos | Bontera GmbH",
@@ -250,6 +385,8 @@
       "ourStory": "Notre Histoire",
       "leadership": "Direction",
       "values": "Valeurs",
+      "why Bontera": "pourquoi Bontera",
+      "whyBontera": "Pourquoi Bontera",
       "certifications": "Certifications",
       "partners": "Partenaires"
     },
@@ -264,10 +401,11 @@
       "stats": {
         "years": "Années d'expérience",
         "sqm": "Mètres carrés livrés",
-        "budget": "Budget géré",
+        "budget": "Projets achevés",
         "languages": "Langues parlées"
       }
     },
+
     "story": {
       "eyebrow": "Notre histoire",
       "title": "Un héritage qui transforme les ambitions en réalité",
@@ -275,7 +413,7 @@
       "paragraph2": "Nous garantissons transparence et respect des délais. Grâce à notre expertise technique et à notre connaissance du marché immobilier, nous proposons des solutions fiables, durables et adaptées aux besoins de chaque client. Notre engagement repose sur des valeurs essentielles : professionnalisme, rigueur et confiance.",
       "paragraph3": "Conscients des enjeux environnementaux, nous intégrons des solutions éco-responsables, des matériaux de qualité et des méthodes de construction respectueuses de l'environnement. Chaque projet est pensé pour allier performance énergétique, durabilité et confort.",
       "founderQuote": "Notre objectif est clair : offrir à nos partenaires et clients des projets immobiliers fiables, sécurisés et à forte valeur ajoutée.",
-      "founderName": "Mr. Nedjet",
+      "founderName": "Mr. Necdet",
       "founderTitle": "Fondateur & Directeur Général",
       "yearsExcellence": "Années d'excellence",
       "since": "Fondée"
@@ -319,6 +457,7 @@
         }
       }
     },
+
     "timeline": {
       "eyebrow": "Notre parcours",
       "title": "Des jalons qui nous définissent",
@@ -356,12 +495,12 @@
       "viewAll": "Voir l’équipe complète",
       "members": {
         "ceo": {
-          "name": "Mr. Nedjet",
+          "name": "Mr. Necdet",
           "title": "Directeur général"
         },
         "coo": {
-          "name": "Sarah Mitchell",
-          "title": "Directrice des opérations"
+          "name": "Reginald Charles",
+          "title": "Directeur des opérations"
         },
         "cto": {
           "name": "Dr. Michael Chen",
@@ -458,23 +597,33 @@
           }
         },
         "realEstate": {
-          "title": "Développement Immobilier",
-          "description": "Nous créons des investissements immobiliers exceptionnels grâce au développement stratégique de propriétés résidentielles, commerciales et mixtes de premier choix offrant une valeur durable.",
+          "title": "Développement Immobilier & Courtage",
+          "description": "Nous développons et accompagnons des projets immobiliers résidentiels, commerciaux et mixtes, tout en assurant un service de courtage pour l’achat, la vente et la location. Notre approche combine expertise marché, maîtrise technique et transparence totale afin de sécuriser chaque étape et maximiser la valeur des actifs.",
           "features": {
             "residential": "Projets Résidentiels",
             "commercial": "Propriétés Commerciales",
             "mixedUse": "Développements Mixtes",
-            "investment": "Propriétés d'Investissement"
+            "investment": "Propriétés d'Investissement",
+            "brokerage": "Courtage: Achat, Vente & Location"
+          },
+          "brokerage": {
+            "title": "Courtage immobilier – Achat, Vente & Location",
+            "description": "Nous accompagnons nos clients dans leurs opérations d’achat, de vente et de location, en mettant à leur disposition notre expertise du marché.\n\nGrâce à notre réseau de professionnel, et notre approche personnalisée, nous vous aidons à prendre les meilleures décisions et à sécuriser vos opérations. Nous défendons vos intérêts à chaque étape afin d’optimiser la valeur de vos biens et de conclure vos transactions dans les meilleures conditions.\n\nNotre engagement repose sur une transparence totale et une défense constante des intérêts de nos clients."
           }
         },
         "real-estate": {
-          "title": "Développement Immobilier",
-          "description": "Nous créons des investissements immobiliers exceptionnels grâce au développement stratégique de propriétés résidentielles, commerciales et mixtes de premier choix offrant une valeur durable.",
+          "title": "Développement Immobilier & Courtage",
+          "description": "Nous développons et accompagnons des projets immobiliers résidentiels, commerciaux et mixtes, tout en assurant un service de courtage pour l’achat, la vente et la location. Notre approche combine expertise marché, maîtrise technique et transparence totale afin de sécuriser chaque étape et maximiser la valeur des actifs.",
           "features": {
             "residential": "Projets Résidentiels",
             "commercial": "Propriétés Commerciales",
             "mixedUse": "Développements Mixtes",
-            "investment": "Propriétés d'Investissement"
+            "investment": "Propriétés d'Investissement",
+            "brokerage": "Courtage: Achat, Vente & Location"
+          },
+          "brokerage": {
+            "title": "Courtage immobilier – Achat, Vente & Location",
+            "description": "Nous accompagnons nos clients dans leurs opérations d’achat, de vente et de location, en mettant à leur disposition notre expertise du marché.\n\nGrâce à notre réseau de professionnel, et notre approche personnalisée, nous vous aidons à prendre les meilleures décisions et à sécuriser vos opérations. Nous défendons vos intérêts à chaque étape afin d’optimiser la valeur de vos biens et de conclure vos transactions dans les meilleures conditions.\n\nNotre engagement repose sur une transparence totale et une défense constante des intérêts de nos clients."
           }
         },
         "residential": {
@@ -633,7 +782,7 @@
       "subtitle": "Découvrez nos projets livrés et en cours, témoins de notre engagement pour l’excellence, l’innovation et la construction durable.",
       "stats": {
         "projectsCompleted": "Projets terminés",
-        "totalValue": "Valeur totale",
+        "totalValue": "Mètres carrés réalisés",
         "countries": "Pays",
         "onTimeDelivery": "Livraison à l’heure"
       }
@@ -659,7 +808,8 @@
       "realEstate": "Immobilier",
       "industrial": "Industriel",
       "renovation": "Rénovation",
-      "publicWorks": "Ouvrages publics"
+      "publicWorks": "Ouvrages publics",
+      "public": "Ouvrages publics"
     },
     "status": {
       "completed": "Terminé",
@@ -688,6 +838,11 @@
         "residential": {
           "title": "Résidentiel",
           "description": "Maisons de prestige, résidences et communautés planifiées où les familles s’épanouissent."
+        },
+
+        "infrastructure": {
+          "title": "Infrastructures",
+          "description": "Routes, réseaux, équipements publics et projets de génie civil réalisés dans le respect des normes de conformité les plus strictes."
         },
         "realEstate": {
           "title": "Real Estates",
@@ -781,6 +936,8 @@
             "realEstate": "Real Estates",
             "industrial": "Industriel",
             "renovation": "Rénovation & restauration",
+            "infrastructure": "Infrastructure",
+
             "consulting": "Conseil",
             "other": "Autre"
           }
@@ -941,10 +1098,12 @@
       "hr": "Ressources humaines"
     },
     "locations": {
-      "dubai": "Dubaï, EAU",
+      "dubai": "Dubaï, Émirats arabes unis",
       "riyadh": "Riyad, Arabie saoudite",
       "cairo": "Le Caire, Égypte",
-      "london": "Londres, Royaume-Uni"
+      "london": "Londres, Royaume-Uni",
+      "brussels": "Bruxelles, Belgique",
+      "germany": "Halle (Westfalen), Allemagne"
     },
     "jobTypes": {
       "fullTime": "Temps plein",
@@ -1449,6 +1608,261 @@
       "contactUs": "Nous contacter"
     }
   },
+
+  "valuesPage": {
+    "meta": {
+      "title": "Mission & Valeurs | Bontera Construction",
+      "description": "Découvrez la mission, la vision et les valeurs fondamentales de Bontera qui guident chaque projet et chaque partenariat."
+    },
+
+    "breadcrumb": {
+      "home": "Accueil",
+      "about": "À propos",
+      "values": "Valeurs"
+    },
+
+    "hero": {
+      "eyebrow": "Ce que nous défendons",
+      "title": "Notre Mission, Vision & Valeurs",
+      "subtitle": "Les principes qui orientent chacune de nos décisions et chaque projet que nous réalisons."
+    },
+
+    "mission": {
+      "eyebrow": "Notre Mission",
+      "title": "Construire l’excellence, créer de la valeur",
+      "description": "Nous développons des solutions durables, sûres et économiquement viables pour les clients privés, les investisseurs et les entreprises. Pour cela, nous combinons une connaissance approfondie du marché, des conseils transparents et un solide réseau de partenaires financiers et immobiliers."
+    },
+
+    "vision": {
+      "eyebrow": "Notre Vision",
+      "title": "Façonner le monde de demain",
+      "description": "Être le leader mondial de la construction durable, reconnu pour transformer des visions architecturales audacieuses en structures durables qui inspirent, servent et résistent à l’épreuve du temps."
+    },
+
+    "coreValues": {
+      "eyebrow": "Valeurs Fondamentales",
+      "title": "Les piliers de notre réussite",
+      "subtitle": "Ces valeurs essentielles façonnent notre culture et définissent la manière dont nous travaillons avec nos clients, nos partenaires et entre nous.",
+
+      "items": {
+        "excellence": {
+          "title": "Excellence",
+          "description": "Nous visons l’excellence dans chaque détail, de la conception initiale à la livraison finale, afin que notre travail soit un symbole de qualité et de savoir-faire."
+        },
+        "integrity": {
+          "title": "Intégrité",
+          "description": "Nous menons nos activités avec honnêteté et transparence, en construisant la confiance grâce à des pratiques éthiques."
+        },
+        "innovation": {
+          "title": "Innovation",
+          "description": "Nous adoptons les technologies et méthodes les plus avancées afin de proposer des solutions de construction plus intelligentes et plus durables."
+        },
+        "safety": {
+          "title": "La sécurité avant tout",
+          "description": "Le bien-être de notre équipe et des communautés est primordial. Nous appliquons des normes de sécurité rigoureuses sur chaque projet."
+        },
+        "sustainability": {
+          "title": "Durabilité",
+          "description": "Nous nous engageons à adopter des pratiques responsables sur le plan environnemental, afin de réduire notre impact et de créer de la valeur pour les générations futures."
+        },
+        "partnership": {
+          "title": "Partenariat",
+          "description": "Nous croyons en des relations collaboratives solides, en travaillant étroitement avec nos clients et parties prenantes pour atteindre un succès commun."
+        }
+      }
+    },
+
+    "principles": {
+      "eyebrow": "Principes Directeurs",
+      "title": "Notre manière de travailler",
+
+      "items": {
+        "clientFirst": {
+          "title": "Le client avant tout",
+          "description": "Chaque décision est guidée par ce qui est le mieux pour nos clients. Nous écoutons, comprenons et livrons au-delà des attentes."
+        },
+        "qualityDriven": {
+          "title": "Exigence de qualité",
+          "description": "Nous ne faisons aucun compromis sur la qualité. Des matériaux à l’exécution, nous respectons les normes les plus élevées."
+        },
+        "teamEmpowerment": {
+          "title": "Valorisation des équipes",
+          "description": "Nous investissons dans nos collaborateurs par la formation, les ressources et des opportunités de développement. Des équipes fortes produisent des résultats exceptionnels."
+        },
+        "continuousImprovement": {
+          "title": "Amélioration continue",
+          "description": "Nous cherchons constamment à optimiser nos processus, adopter de nouvelles technologies et évoluer afin de rester en avance sur les tendances du secteur."
+        }
+      }
+    },
+
+    "valuesSnapshot": {
+      "eyebrow": "Des valeurs en action",
+      "title": "Ce qui définit Bontera",
+
+      "items": {
+        "transparencyReliabilityCommitment": "La transparence, la fiabilité et l’engagement constituent la base de chaque partenariat.",
+        "technicalExpertise": "L’expertise technique et une exécution rigoureuse garantissent une livraison de classe mondiale.",
+        "holisticApproach": "Une approche globale qui réunit construction et immobilier sous une vision unique.",
+        "valueGrowth": "Une création de valeur durable avec un risque maîtrisé et une croissance à long terme."
+      },
+
+      "closing": "Chez Bontera, les valeurs ne sont pas des déclarations, mais des standards que nous appliquons chaque jour."
+    },
+
+    "culture": {
+      "eyebrow": "Notre Culture",
+      "title": "Une culture de l’excellence",
+      "paragraph1": "Chez Bontera, notre culture repose sur le respect mutuel, la collaboration et un engagement partagé envers l’excellence.",
+      "paragraph2": "Nous célébrons la diversité, encourageons l’innovation et reconnaissons que notre plus grande force réside dans nos équipes.",
+      "quote": "La culture n’est pas seulement ce que nous faisons. C’est ce que nous sommes et la manière dont nous nous traitons.",
+      "quoteAuthor": "Reginald Charles",
+      "quoteTitle": "Directeur des opérations",
+      "teamMembers": "Membres de l’équipe dans le monde"
+    },
+
+    "cta": {
+      "title": "Découvrez la différence Bontera",
+      "description": "Voyez comment nos valeurs se traduisent par des résultats exceptionnels pour votre projet.",
+      "contactUs": "Nous contacter",
+      "learnMore": "En savoir plus"
+    }
+  },
+  "partnersPage": {
+    "meta": {
+      "title": "Partenaires & Affiliés | Bontera Construction",
+      "description": "Découvrez les partenariats stratégiques de Bontera avec des entreprises leaders dans la construction, la technologie et l’approvisionnement en matériaux."
+    },
+
+    "breadcrumb": {
+      "home": "Accueil",
+      "about": "À propos",
+      "partners": "Partenaires"
+    },
+
+    "hero": {
+      "eyebrow": "Alliances stratégiques",
+      "title": "Construire le succès grâce au partenariat",
+      "subtitle": "Nous collaborons avec des leaders du secteur pour offrir des résultats exceptionnels et stimuler l’innovation dans la construction."
+    },
+
+    "philosophy": {
+      "eyebrow": "Philosophie du partenariat",
+      "title": "Plus forts ensemble",
+      "paragraph1": "Chez Bontera, nous croyons que les meilleurs projets se construisent grâce à la collaboration. Nos partenariats stratégiques élargissent nos capacités et nous permettent de fournir des solutions globales qui dépassent les attentes de nos clients.",
+      "paragraph2": "Nous sélectionnons soigneusement des partenaires qui partagent notre engagement envers la qualité, l’innovation et la durabilité. Ensemble, nous combinons expertise, ressources et technologies pour relever les projets de construction les plus exigeants.",
+      "stats": {
+        "partners": "Partenaires stratégiques",
+        "years": "Années de partenariat",
+        "countries": "Pays"
+      }
+    },
+
+    "strategic": {
+      "eyebrow": "Partenaires stratégiques",
+      "title": "Partenaires en ingénierie & conception",
+      "subtitle": "Des cabinets d’ingénierie et de design de classe mondiale qui donnent vie aux visions les plus ambitieuses.",
+      "partners": {
+        "arcadis": {
+          "name": "Arcadis",
+          "specialty": "Conception & conseil"
+        },
+        "aecom": {
+          "name": "AECOM",
+          "specialty": "Infrastructure"
+        },
+        "arup": {
+          "name": "Arup",
+          "specialty": "Ingénierie"
+        },
+        "wsp": {
+          "name": "WSP",
+          "specialty": "Services professionnels"
+        }
+      }
+    },
+
+    "technology": {
+      "eyebrow": "Partenaires technologiques",
+      "title": "Accélérer l’innovation digitale",
+      "subtitle": "Des partenaires technologiques qui soutiennent notre transformation numérique et permettent une construction plus intelligente.",
+      "partners": {
+        "autodesk": {
+          "name": "Autodesk",
+          "solution": "Logiciels BIM & conception"
+        },
+        "trimble": {
+          "name": "Trimble",
+          "solution": "Technologies de construction"
+        },
+        "procore": {
+          "name": "Procore",
+          "solution": "Gestion de projet"
+        },
+        "oracle": {
+          "name": "Oracle",
+          "solution": "Solutions d’entreprise"
+        }
+      }
+    },
+
+    "suppliers": {
+      "eyebrow": "Partenaires matériaux",
+      "title": "Fournisseurs premium",
+      "subtitle": "Des fournisseurs de confiance offrant des matériaux de qualité répondant à nos standards d’excellence.",
+      "partners": {
+        "holcim": {
+          "name": "Holcim",
+          "products": "Ciment & granulats"
+        },
+        "heidelberg": {
+          "name": "Heidelberg Materials",
+          "products": "Matériaux de construction"
+        },
+        "caterpillar": {
+          "name": "Caterpillar",
+          "products": "Équipements lourds"
+        },
+        "hilti": {
+          "name": "Hilti",
+          "products": "Outils de construction"
+        }
+      }
+    },
+
+    "associations": {
+      "eyebrow": "Adhésions professionnelles",
+      "title": "Associations du secteur",
+      "description": "Nous maintenons des adhésions actives auprès des principales associations professionnelles, en restant connectés aux meilleures pratiques et en contribuant à l’évolution du secteur.",
+      "items": {
+        "agc": {
+          "name": "AGC of America"
+        },
+        "usgbc": {
+          "name": "U.S. Green Building Council"
+        },
+        "fidic": {
+          "name": "FIDIC"
+        },
+        "ciob": {
+          "name": "CIOB"
+        },
+        "rics": {
+          "name": "RICS"
+        },
+        "aia": {
+          "name": "AIA"
+        }
+      }
+    },
+
+    "cta": {
+      "title": "Devenir partenaire",
+      "description": "Vous souhaitez collaborer avec Bontera ? Nous recherchons toujours des organisations partageant notre engagement envers l’excellence.",
+      "becomePartner": "Devenir partenaire",
+      "learnMore": "En savoir plus"
+    }
+  },
   "jobDetailPage": {
     "meta": {
       "titleSuffix": "Carrières | Bontera Construction",
@@ -1499,5 +1913,54 @@
       "submit": "Soumettre la candidature"
     },
     "backToCareers": "Retour aux offres"
+  },
+
+  "whyBonteraPage": {
+    "meta": {
+      "title": "Pourquoi nous choisir ? | Bontera Construction",
+      "description": "Bontera est une entreprise intégrée qui accompagne ses clients à chaque étape de leurs projets en combinant expertise technique, vision stratégique et excellence opérationnelle."
+    },
+    "breadcrumb": {
+      "ariaLabel": "Fil d’Ariane",
+      "home": "Accueil",
+      "about": "À propos",
+      "current": "Pourquoi nous choisir ?"
+    },
+    "hero": {
+      "imageAlt": "Pourquoi nous choisir ?",
+      "title": "Pourquoi nous choisir ?",
+      "subtitle": "Bontera, un partenaire international pour vos projets immobiliers"
+    },
+    "sections": {
+      "global": {
+        "title": "BONTERA GmbH",
+        "p1": "Bontera est une entreprise intégrée qui accompagne ses clients à chaque étape de leurs projets en combinant expertise technique, vision stratégique et excellence opérationnelle. Notre approche repose sur la transparence, la fiabilité et l’engagement, avec un objectif constant : créer une valeur durable tout en maîtrisant les risques.",
+        "p2": "Grâce à une connaissance approfondie du marché et à une gestion rigoureuse des projets, Bontera accompagne les particuliers, les entreprises et les investisseurs en proposant des solutions sur mesure adaptées à chaque besoin."
+      },
+      "contractor": {
+        "title": "Bontera – Entreprise générale",
+        "p1": "En tant qu’entreprise générale, Bontera assure la planification, la gestion et l’exécution de projets immobiliers résidentiels et commerciaux, en garantissant la qualité, la conformité et le respect des délais.",
+        "p2": "Nous proposons également des services de conseil en construction pour les particuliers et les entreprises souhaitant sécuriser leurs décisions techniques et financières. En tant que représentant de maîtres d’ouvrage publics ou privés, nous agissons comme interlocuteur unique, défendons les intérêts du client, coordonnons l’ensemble des intervenants et assurons un suivi transparent tout au long du projet."
+      },
+      "developer": {
+        "title": "Bontera – Développeur / Promoteur immobilier",
+        "p1": "Bontera intervient en tant que développeur et promoteur immobilier, en accompagnant la création et le développement de projets immobiliers résidentiels ou industriels. Nous réalisons des études de faisabilité complètes intégrant les volets techniques, réglementaires, financiers et commerciaux, afin de sécuriser l’investissement dès les premières phases.",
+        "p2": "De la conception à la réalisation, nous assurons un montage global des projets avec une approche visant à maximiser la valeur de l’actif et à garantir une rentabilité et une durabilité à long terme."
+      },
+      "broker": {
+        "title": "Bontera – Courtier immobilier",
+        "p1": "En tant que courtier immobilier, Bontera accompagne les particuliers et les investisseurs dans leurs opérations d’achat, de vente et de location. Notre connaissance du marché, associée à une solide expertise technique et financière, nous permet d’identifier les meilleures opportunités et de sécuriser chaque transaction.",
+        "p2": "Nous plaçons la transparence et la protection des intérêts de nos clients au cœur de notre démarche, afin de garantir des décisions éclairées et des résultats optimaux."
+      },
+      "integrated": {
+        "title": "Une vision intégrée de l’immobilier",
+        "p1": "La combinaison de ces trois domaines d’expertise permet à Bontera de proposer une approche unique et globale couvrant l’ensemble du cycle de vie immobilier : faisabilité, conception, construction, gestion et commercialisation. Cette vision intégrée est une garantie de performance, de maîtrise des risques et de création de valeur durable."
+      }
+    },
+    "cta": {
+      "imageAlt": "Vous avez un projet immobilier ?",
+      "title": "Vous avez un projet immobilier ?",
+      "description": "Bontera est votre partenaire stratégique pour le concrétiser avec succès."
+    }
   }
 }

@@ -75,13 +75,13 @@ export const projects: Project[] = [
     },
     category: "infrastructure",
     description: {
-      de: "Das neue NATO-Hauptquartier ist ein hochmoderner Komplex mit über 250.000 m² Fläche, der höchste Sicherheitsstandards mit nachhaltiger Architektur verbindet.",
-      en: "The new NATO Headquarters is a state-of-the-art complex spanning over 250,000 m², combining the highest security standards with sustainable architecture and BREEAM certification.",
-      fr: "Le nouveau siège de l'OTAN est un complexe ultramoderne de plus de 250 000 m², alliant les plus hautes normes de sécurité à une architecture durable et une certification BREEAM.",
-      nl: "Het nieuwe NAVO-hoofdkwartier is een ultramodern complex van meer dan 250.000 m², dat de hoogste veiligheidsnormen combineert met duurzame architectuur en BREEAM-certificering.",
-      it: "Il nuovo Quartier Generale della NATO è un complesso all'avanguardia di oltre 250.000 m², che combina i più alti standard di sicurezza con architettura sostenibile e certificazione BREEAM.",
-      ku: "Serekaniya nû ya NATO kompleksek pêşkeftî ye ku ji 250,000 m² zêdetir e, standardên ewlehiyê yên herî bilind bi mîmariya domdar û sertîfîkaya BREEAM re dike yek.",
-      tr: "Yeni NATO Karargahı, en yüksek güvenlik standartlarını sürdürülebilir mimari ve BREEAM sertifikasyonu ile birleştiren 250.000 m²'nin üzerinde son teknoloji bir komplekstir.",
+      de: "Das neue NATO-Hauptquartier ist ein hochmoderner Komplex mit über 12,500 m² Fläche, der höchste Sicherheitsstandards mit nachhaltiger Architektur verbindet.",
+      en: "The new NATO Headquarters is a state-of-the-art complex spanning over 12,500 m², combining the highest security standards with sustainable architecture and BREEAM certification.",
+      fr: "Le nouveau siège de l'OTAN est un complexe ultramoderne de plus de 12,500 m², alliant les plus hautes normes de sécurité à une architecture durable et une certification BREEAM.",
+      nl: "Het nieuwe NAVO-hoofdkwartier is een ultramodern complex van meer dan 12,500 m², dat de hoogste veiligheidsnormen combineert met duurzame architectuur en BREEAM-certificering.",
+      it: "Il nuovo Quartier Generale della NATO è un complesso all'avanguardia di oltre 12,500 m², che combina i più alti standard di sicurezza con architettura sostenibile e certificazione BREEAM.",
+      ku: "Serekaniya nû ya NATO kompleksek pêşkeftî ye ku ji 12,500 m² zêdetir e, standardên ewlehiyê yên herî bilind bi mîmariya domdar û sertîfîkaya BREEAM re dike yek.",
+      tr: "Yeni NATO Karargahı, en yüksek güvenlik standartlarını sürdürülebilir mimari ve BREEAM sertifikasyonu ile birleştiren 12,500 m²'nin üzerinde son teknoloji bir komplekstir.",
     },
     location: {
       de: "Brüssel, Belgien",
@@ -93,10 +93,10 @@ export const projects: Project[] = [
       tr: "Brüksel, Belçika",
     },
     year: "2024",
-    client: "NATO - North Atlantic Treaty Organization",
+    client: "NATO",
     value: "€1.2B",
-    duration: "48 months",
-    size: "250,000 m²",
+    duration: "30 months",
+    size: "12,500 m²",
     status: "completed",
     featured: true,
     image: "/images/projects/commercial-1.jpg",
@@ -116,7 +116,7 @@ export const projects: Project[] = [
     ku: "Şanoya Qral a Galeriyan",
     tr: "Galeriler Kraliyet Tiyatrosu",
   },
-    category: "renovation",
+    category: "residential",
  description: {
     de: "Historisches Theater im Herzen der Galeries Royales Saint-Hubert, im italienischen Stil, mit ganzjährigem Programm und einem Saal mit ca. 850 Plätzen.",
     en: "Historic theatre inside the Galeries Royales Saint-Hubert in central Brussels, Italian-style auditorium, year-round programming, and around 850 seats.",
@@ -135,11 +135,11 @@ export const projects: Project[] = [
     ku: "Bruksel, Belçîka",
     tr: "Brüksel, Belçika",
   },
-    year: "1847",
-  client: "Galeries Royales Saint-Hubert (integrated venue)",
-  value: "non disclosed",
-  duration: "1846–1847 (inaugurated 20 June 1847)",
-  size: "850 seats",
+    year: "2009",
+  client: "Galeries Royales Saint-Hubert",
+  value: "🔒",
+  duration: "2014-2016",
+  size: "12.500 m²",
   status: "completed",
   featured: true,
     image: "/images/projects/com-2.jpg",
@@ -147,49 +147,7 @@ export const projects: Project[] = [
     features: ["Flexible Workspaces", "Conference Center", "Underground Parking", "Fitness Center"],
     teamSize: "320",
   },
-  {
-    id: "commercial-3",
-    slug: "valens-sa-development",
- title: {
-  de: "NHQ Development, neues Verteidigungs-Hauptquartier in Evere",
-  en: "NHQ Development, new Defence HQ in Evere",
-  fr: "NHQ Development, nouveau QG de la Défense à Evere",
-  nl: "NHQ Development, nieuw hoofdkwartier van Defensie in Evere",
-  it: "NHQ Development, nuovo quartier generale della Difesa a Evere",
-  ku: "Pêşveçûna NHQ, sernavê nû yê Parastinê li Evere",
-  tr: "NHQ Development, Evere'de yeni Savunma Karargâhı",
-},
-    category: "infrastructure",
-    description: {
-      de: "Hochwertiges Gewerbebauprojekt für Valens SA mit modernster Ausstattung und nachhaltiger Bauweise.",
-      en: "Premium commercial construction project for Valens SA with state-of-the-art facilities and sustainable building practices.",
-      fr: "Projet de construction commerciale premium pour Valens SA avec installations ultramodernes et pratiques de construction durables.",
-      nl: "Premium commercieel bouwproject voor Valens SA met ultramoderne faciliteiten en duurzame bouwpraktijken.",
-      it: "Progetto di costruzione commerciale premium per Valens SA con strutture all'avanguardia e pratiche edilizie sostenibili.",
-      ku: "Projeya avakirina bazirganî ya premium ji bo Valens SA bi tesîsên pêşkeftî û pratîkên avakirina domdar.",
-      tr: "Valens SA için son teknoloji tesisler ve sürdürülebilir yapı uygulamaları ile premium ticari inşaat projesi.",
-    },
-    location: {
-      de: "Brüssel, Belgien",
-      en: "Brussels, Belgium",
-      fr: "Bruxelles, Belgique",
-      nl: "Brussel, België",
-      it: "Bruxelles, Belgio",
-      ku: "Bruksel, Belçîka",
-      tr: "Brüksel, Belçika",
-    },
-    year: "2023",
-    client: "Valens SA",
-    value: "€499M",
-    duration: "32 months",
-    size: "114,000 m²",
-    status: "ongoing",
-    featured: true,
-    image: "/images/projects/coco-3.jpg",
-    gallery: ["/images/projects/coco-3-1.jpg", "/images/projects/coco-3-2.jpg"],
-    features: ["Premium Finishes", "Sustainable Design", "Modern Infrastructure", "Event Spaces"],
-    teamSize: "280",
-  },
+
   {
     id: "commercial-4",
     slug: "retail-plaza-hamburg",
@@ -202,7 +160,7 @@ export const projects: Project[] = [
     ku: "Enstîtuya Meteorolojiyê ya Qral a Belçîkayê",
     tr: "Belçika Kraliyet Meteoroloji Enstitüsü",
   },
-    category: "infrastructure",
+    category: "renovation",
     description: {
          de: "Föderales wissenschaftliches Institut in Ukkel (Brüssel), das Wetter- und Klimadienste bereitstellt und Forschung zu Wetter und Klima betreibt.",
     en: "Federal scientific institute in Uccle (Brussels) providing weather and climate services and conducting research on weather and climate.",
@@ -221,11 +179,11 @@ export const projects: Project[] = [
     ku: "Bruksel, Belçîka",
     tr: "Brüksel, Belçika",
   },
-    year: "1913",
-  client: "Belgian Federal Science Policy (BELSPO) - Federal Scientific Institute",
-  value: "public federal institute",
-  duration: "Operational since 1913",
-  size: "site building",
+    year: "2017",
+  client: "Régie des bâtiments",
+  value: "🔒",
+  duration: "2017-2018",
+  size: "900 m²",
   status: "completed",
   featured: true,
     image: "/images/projects/com-4.jpg",
@@ -234,62 +192,13 @@ export const projects: Project[] = [
     teamSize: "380",
   },
 
+
+
+
   // ═══════════════════════════════════════════════════════════════════════════
   // RESIDENTIAL PROJECTS
   // ═══════════════════════════════════════════════════════════════════════════
-  {
-    id: "residential-1",
-    slug: "galere-sa-residences",
-    title: {
-    de: "Espace Trianon (Lüttich)",
-  en: "Espace Trianon (Liège)",
-  fr: "Espace Trianon (Liège)",
-  nl: "Espace Trianon (Luik)",
-  it: "Espace Trianon (Liegi)",
-  ku: "Espace Trianon (Liège)",
-  tr: "Espace Trianon (Liège)",
-},
-    category: "residential",
-    description: {
-     de: "Neubau eines Wohnprojekts mit 5 Gebäuden (A bis E) in Lüttich: insgesamt 68 Wohnungen (35 bis 165 m²), jeweils mit Terrasse oder Garten, privatem Keller, Tiefgarage (ca. 94 bis 95 PKW) sowie Gewerbeflächen im Untergeschoss. Erschlossen über eine halbprivate Esplanade.",
-  en: "New construction of a residential project with 5 buildings (A to E) in Liège: 68 apartments (35 to 165 m²), each with a terrace or garden, private cellar, underground parking (about 94 to 95 cars), and retail space in the basement, organized around a semi-private esplanade.",
-  fr: "Construction neuve d’un projet résidentiel de 5 immeubles (A à E) à Liège: 68 appartements (35 à 165 m²), chacun avec terrasse ou jardin, cave privative, parking souterrain (environ 94 à 95 voitures) et surfaces commerciales en sous-sol, organisé autour d’une esplanade semi-privée.",
-  nl: "Nieuwbouw van een residentieel project met 5 gebouwen (A tot E) in Luik: 68 appartementen (35 tot 165 m²), elk met terras of tuin, private kelder, ondergrondse parking (ongeveer 94 tot 95 wagens) en commerciële ruimte in de kelder, rond een semi-private esplanade.",
-  it: "Nuova costruzione di un progetto residenziale con 5 edifici (A–E) a Liegi: 68 appartamenti (35–165 m²), ciascuno con terrazza o giardino, cantina privata, parcheggio interrato (circa 94–95 auto) e spazi commerciali nel seminterrato, organizzato attorno a un’esplanade semi-privata.",
-  ku: "Avakirina nû ya projeyek niştecîh bi 5 avahiyan (A–E) li Liège: 68 apartman (35–165 m²), her yek bi teras an jî baxçe, keldera taybet, parkkirina binerd (nêzîkî 94–95 otomobîl) û cihên bazirganî li jêrerdê, bi esplanadek nîv-taybet ve hatî rêxistin.",
-  tr: "Liège’de 5 binadan (A–E) oluşan yeni konut projesi: 68 daire (35–165 m²), her birinde teras veya bahçe, özel depo (kiler), yeraltı otoparkı (yaklaşık 94–95 araç) ve bodrum katta ticari alanlar, yarı özel bir esplanad etrafında kurgulanmıştır.",
-},
-    location: {
-     de: "Boulevard de la Sauvenière 12-14, 4000 Lüttich, Belgien",
-  en: "Boulevard de la Sauvenière 12-14, 4000 Liège, Belgium",
-  fr: "Boulevard de la Sauvenière 12-14, 4000 Liège, Belgique",
-  nl: "Boulevard de la Sauvenière 12-14, 4000 Luik, België",
-  it: "Boulevard de la Sauvenière 12-14, 4000 Liegi, Belgio",
-  ku: "Boulevard de la Sauvenière 12-14, 4000 Liège, Belçîka",
-  tr: "Boulevard de la Sauvenière 12-14, 4000 Liège, Belçika",
-},
-    year: "2024",
-    client: "Galere SA",
-    value: "€165M",
-    duration: "34 months",
-    size: "52,000 m²",
-    status: "completed",
-    featured: true,
-    image: "/images/projects/resido-1-1.jpg",
-    gallery: ["/images/projects/residosi-1-1.jpg", "/images/projects/residentos-1-2.jpg"],
-    features: [
-  "5 Buildings (A–E)",
-  "68 Apartments (35–165 m²)",
-  "Terrace or Garden for Each Unit",
-  "Private Cellars",
-  "Underground Parking (94–95 cars)",
-  "Retail Space in Basement",
-  "Semi-private Esplanade",
-  "Shared Roof Terrace",
-  "PV Panels for Common Areas",
-],
-   teamSize: "Not publicly disclosed",
-  },
+
   {
     id: "residential-2",
     slug: "villa-estate-cologne",
@@ -302,7 +211,7 @@ export const projects: Project[] = [
     ku: "Otelê Sofitel Bruxelles",
     tr: "Sofitel Otel Brüksel",
   },
-    category: "residential",
+    category: "commercial",
     description: {
    de: "Luxushotel in Brüssel mit eleganten Zimmern, Tagungsbereichen und gehobenem Service in zentraler Lage.",
     en: "Luxury hotel in Brussels offering elegant rooms, meeting spaces, and premium service in a central location.",
@@ -321,29 +230,29 @@ export const projects: Project[] = [
     ku: "Bruxelles, Belçîka",
     tr: "Brüksel, Belçika",
   },
-   year: "2023",
-  client: "Sofitel / Accor",
-  value: "non disclosed",
-  duration: "48",
-  size: "non disclosed",
+   year: "2006",
+  client: "Sofitel",
+  value: "🔒",
+  duration: "24",
+  size: "7.500 m²",
   status: "completed",
   featured: true,
     image: "/images/projects/dential-2.jpg",
     gallery: ["/images/projects/dential-2-1.jpg"],
     features: ["45 Custom Villas", "Private Security", "Clubhouse", "Tennis Courts"],
-    teamSize: "180",
+    teamSize: "580",
   },
   {
     id: "residential-3",
     slug: "waterfront-apartments",
    title: {
-    de: "Galeries Saint-Hubert",
-    en: "Galeries Saint-Hubert",
-    fr: "Galeries Saint-Hubert",
-    nl: "Sint-Hubertusgalerijen",
-    it: "Gallerie di Sant’Uberto",
-    ku: "Galeriyên Saint-Hubert",
-    tr: "Saint-Hubert Galerileri",
+    de: "Galeries Royales Saint-Hubert",
+    en: "Galeries Royales Saint-Hubert",
+    fr: "Galeries Royales Saint-Hubert",
+    nl: "Galeries Royales Saint-Hubert",
+    it: "Galeries Royales Saint-Hubert",
+    ku: "Galeries Royales Saint-Hubert",
+    tr: "Galeries Royales Saint-Hubert",
   },
     category: "commercial",
     description: {
@@ -366,9 +275,9 @@ export const projects: Project[] = [
     tr: "Brüksel, Belçika",
   },
     year: "2009",
-    client: "Galeries Saint-Hubert",
-    value: "€78M",
-    duration: "24 months",
+    client: "Galeries Royales Saint-Hubert",
+    value: "🔒",
+    duration: "30 months",
     size: "3,500 m²",
     status: "completed",
     featured: true,
@@ -381,19 +290,19 @@ export const projects: Project[] = [
     "Cultural Venues (theatre, cinema nearby)",
     "Protected Heritage Site",
   ],
-      teamSize: "N/A",
+      teamSize: "230",
   },
   {
     id: "residential-4",
     slug: "urban-living-stuttgart",
     title: {
-       de: "Johnson & Johnson Standort Courcelles",
-    en: "Johnson & Johnson Courcelles Site",
-    fr: "Site Johnson & Johnson de Courcelles",
-    nl: "Johnson & Johnson site Courcelles",
-    it: "Sito Johnson & Johnson di Courcelles",
-    ku: "Cihê Johnson & Johnson yê Courcelles",
-    tr: "Johnson & Johnson Courcelles Tesisi",
+       de: "Johnson & Johnson",
+    en: "Johnson & Johnson",
+    fr: "Johnson & Johnson",
+    nl: "Johnson & Johnson",
+    it: "Johnson & Johnson",
+    ku: "Cihê Johnson & Johnson",
+    tr: "Johnson & Johnson",
   },
     category: "industrial",
     description: {
@@ -416,8 +325,8 @@ export const projects: Project[] = [
   },
     year: "2006",
   client: "Johnson & Johnson",
-  value: "non disclosed",
-  duration: "1 year",
+  value: "🔒",
+  duration: "18 months",
   size: "12.000 m²",
   status: "completed",
   featured: true,
@@ -443,7 +352,7 @@ export const projects: Project[] = [
     ku: "Termên Kevn ên Spa",
     tr: "Spa Eski Termal Hamamları",
   },
-    category: "infrastructure",
+    category: "commercial",
     description: {
      de: "Restaurierung und Umnutzung der historischen Thermen (1862–1868) zu einem 5-Sterne-Hotel mit Restaurant und Wellness, inklusive Wiederherstellung von Fassaden und Innenräumen.",
     en: "Heritage restoration and adaptive reuse of the historic bathhouse (built 1862–1868) into a 5-star hotel with restaurant and wellness, including façade and interior restoration.",
@@ -462,11 +371,11 @@ export const projects: Project[] = [
     ku: "Spa (Parêzgeha Lîj), Belçîka",
     tr: "Spa (Liège Eyaleti), Belçika",
   },
- year: "2019–2025",
-    client: "Ville de Spa (owner)",
-    value: "€25M",
-    duration: "72 months",
-    size: "Large Scale",
+ year: "2020",
+    client: "Ville de Spa",
+    value: "🔒",
+    duration: "2020-2025",
+    size: "8.700 m²",
     status: "completed",
     featured: true,
     image: "/images/projects/infra-1.jpg",
@@ -478,15 +387,15 @@ export const projects: Project[] = [
     id: "infrastructure-2",
     slug: "galeries-royales-saint-hubert",
     title: {
-   de: "Espace Vanderborght (Rue de l’Écuyer)",
-    en: "Espace Vanderborght (Rue de l’Écuyer)",
-    fr: "Espace Vanderborght (Rue de l’Écuyer)",
-    nl: "Espace Vanderborght (Schildknaapsstraat)",
-    it: "Espace Vanderborght (Rue de l’Écuyer)",
-    ku: "Espace Vanderborght (Rue de l’Écuyer)",
-    tr: "Espace Vanderborght (Rue de l’Écuyer)",
+   de: "Ecuyer",
+    en: "Ecuyer",
+    fr: "Ecuyer",
+    nl: "Ecuyer",
+    it: "Ecuyer",
+    ku: "Ecuyer",
+    tr: "Ecuyer",
   },
-    category: "infrastructure",
+    category: "residential",
     description: {
      de: "Mehrstöckiges Veranstaltungs- und Ausstellungsgebäude im Zentrum von Brüssel, in der Nähe der Grand-Place, mit ca. 6.000 m² auf 5 Etagen und markanter Schaufensterfassade.",
     en: "Multi-level event and exhibition building in central Brussels near the Grand Place, offering about 6,000 m² across 5 floors with a distinctive large shopfront façade.",
@@ -506,14 +415,14 @@ export const projects: Project[] = [
       tr: "Brüksel, Belçika",
     },
    year: "2009",
-  client: "City of Brussels",
-  value: "N/A",
-  duration: "12 months",
+  client: "Galeries Royales Saint-hubert",
+  value: "🔒",
+  duration: "2009-2010",
   size: "1.500 m²",
   status: "completed",
   featured: true,
-    image: "/images/projects/info-2.jpg",
-    gallery: ["/images/projects/info-2-1.jpg", "/images/projects/info-2-2.jpg"],
+    image: "/images/projects/in.jpg",
+    gallery: ["/images/projects/in.jpg", "/images/projects/in.jpg"],
     features: ["Heritage Preservation", "Modern Infrastructure", "Retail Spaces", "LED Lighting"],
     teamSize: "340",
   },
@@ -527,8 +436,360 @@ export const projects: Project[] = [
 
 
   // ═══════════════════════════════════════════════════════════════════════════
-  // RENOVATION PROJECTS
-  // ═══════════════════════════════════════════════════════════════════════════
+// RENOVATION PROJECTS
+// ═══════════════════════════════════════════════════════════════════════════
+
+{
+  id: "Renovation-1",
+  slug: "metro-bruxelles-renovation",
+
+  title: {
+    de: "Metro in Brüssel",
+    en: "Metro  in Brussels",
+    fr: "METRO Bruxelles",
+    nl: "Metro in Brussel",
+    it: " Metropolitana a Bruxelles",
+    ku: " Metroya Brukselê",
+    tr: "Brüksel Metro"
+  },
+
+  category: "infrastructure",
+
+  description: {
+    de: "Verschiedene Umbau- und Renovierungsarbeiten an mehreren U-Bahn-Stationen in Brüssel.",
+    en: "Various transformation and renovation works carried out across multiple metro stations in Brussels.",
+    fr: "Divers travaux de transformation et rénovation au niveau de diverses stations de métro.",
+    nl: "Diverse renovatie- en verbouwingswerken uitgevoerd in verschillende metrostations in Brussel.",
+    it: "Diversi lavori di trasformazione e ristrutturazione effettuati in varie stazioni della metropolitana di Bruxelles.",
+    ku: "Cûrbecûr karên veguherîn û nûvekirinê li ser gelek stasyonên metroya Brukselê hatine kirin.",
+    tr: "Brüksel’de çeşitli metro istasyonlarında dönüşüm ve yenileme çalışmaları gerçekleştirilmiştir."
+  },
+
+  location: {
+    de: "Brüssel, Belgien",
+    en: "Brussels, Belgium",
+    fr: "Bruxelles, Belgique",
+    nl: "Brussel, België",
+    it: "Bruxelles, Belgio",
+    ku: "Bruksel, Belçîka",
+    tr: "Brüksel, Belçika"
+  },
+
+  year: "2005",
+
+  client: "Metro Bruxelles",
+
+  value: "🔒",
+
+  duration: "2005-2006",
+
+  size: "1.500 m²",
+
+  status: "completed",
+
+  featured: true,
+
+  image: "/images/projects/metro-bruxelles.jpg",
+
+  gallery: [
+    "/images/projects/metro-bruxelles-1.jpg",
+    "/images/projects/metro-bruxelles-2.jpg"
+  ],
+
+  features: [
+    "Metro Station Renovation",
+    "Structural Transformation Works",
+    "Interior Refurbishment",
+    "Brussels Public Infrastructure"
+  ],
+
+  teamSize: "340"
+},
+
+
+// RENOVATION PROJECTS
+// ═══════════════════════════════════════════════════════════════════════════
+
+{
+  id: "Renovation-2",
+  slug: "hopital-saint-pierre-bruxelles",
+
+  title: {
+    de: "Krankenhaus Saint-Pierre Renovierung",
+    en: "Saint-Pierre Hospital Renovation",
+    fr: "HOPITAL SAINT-PIERRE",
+    nl: "Renovatie Ziekenhuis Saint-Pierre",
+    it: "Ristrutturazione Ospedale Saint-Pierre",
+    ku: "Nûvekirina Nexweşxaneya Saint-Pierre",
+    tr: "Saint-Pierre Hastanesi Renovasyonu"
+  },
+
+  category: "infrastructure",
+
+  description: {
+    de: "Umbau des Parkplatzbereichs, Bau eines Lagergebäudes und Errichtung eines unterirdischen Tunnels zur Verbindung zweier bestehender Gebäude.",
+    en: "Transformation of the parking area, construction of a storage building, and creation of an underground tunnel connecting two existing hospital buildings.",
+    fr: "Transformation de la zone de parking, construction d’un bâtiment de stockage et réalisation d’un tunnel souterrain reliant deux bâtiments existants.",
+    nl: "Transformatie van de parkeerzone, bouw van een opslaggebouw en aanleg van een ondergrondse tunnel tussen twee bestaande gebouwen.",
+    it: "Trasformazione dell’area parcheggio, costruzione di un edificio per lo stoccaggio e realizzazione di un tunnel sotterraneo tra due edifici esistenti.",
+    ku: "Guhertina qada parkkirinê, avakirina avahiyek ji bo depokirinê û çêkirina tunêlek binerdî ji bo girêdana du avahiyên heyî.",
+    tr: "Otopark alanının dönüştürülmesi, depolama binasının inşası ve mevcut iki bina arasında yeraltı geçiş tünelinin yapılması."
+  },
+
+  location: {
+    de: "Brüssel, Belgien",
+    en: "Brussels, Belgium",
+    fr: "Bruxelles, Belgique",
+    nl: "Brussel, België",
+    it: "Bruxelles, Belgio",
+    ku: "Bruksel, Belçîka",
+    tr: "Brüksel, Belçika"
+  },
+
+  year: "2008",
+
+  client: "Hôpital Saint-Pierre",
+
+  value: "🔒",
+
+  duration: "2008-2009",
+
+  size: "3.500 m²",
+
+  status: "completed",
+
+  featured: true,
+
+  image: "/images/projects/hopital-saint-pierre.jpg",
+
+  gallery: [
+    "/images/projects/hopital-saint-pierre-1.jpg",
+    "/images/projects/hopital-saint-pierre-2.jpg"
+  ],
+
+  features: [
+    "Hospital Infrastructure Renovation",
+    "Parking Area Transformation",
+    "Storage Facility Construction",
+    "Underground Tunnel Connection"
+  ],
+
+  teamSize: "240"
+},
+
+
+// RENOVATION PROJECTS
+// ═══════════════════════════════════════════════════════════════════════════
+
+{
+  id: "Renovation-3",
+  slug: "commissariat-police-longdoz-liege",
+
+  title: {
+    de: "Polizeikommissariat Longdoz Renovierung",
+    en: "Longdoz Police Station Renovation",
+    fr: "COMMISSARIAT POLICE LONGDOZ",
+    nl: "Renovatie Politiebureau Longdoz",
+    it: "Ristrutturazione Commissariato di Polizia Longdoz",
+    ku: "Nûvekirina Komîseriyeta Polîsê Longdoz",
+    tr: "Longdoz Polis Karakolu Renovasyonu"
+  },
+
+  category: "renovation",
+
+  description: {
+    de: "Renovierung des Polizeikommissariats der Kriminalbrigade der Polizei von Lüttich.",
+    en: "Renovation of the judicial brigade police station of the Liège Police Department.",
+    fr: "Rénovation du commissariat de la brigade judiciaire de la police de Liège.",
+    nl: "Renovatie van het commissariaat van de gerechtelijke brigade van de politie van Luik.",
+    it: "Ristrutturazione del commissariato della brigata giudiziaria della polizia di Liegi.",
+    ku: "Nûvekirina komîseriyeta brigadeya dadwerî ya polîsa Lîjê.",
+    tr: "Liège polisi adli birim karakolunun yenilenmesi."
+  },
+
+  location: {
+    de: "Lüttich, Belgien",
+    en: "Liège, Belgium",
+    fr: "Liège, Belgique",
+    nl: "Luik, België",
+    it: "Liegi, Belgio",
+    ku: "Lîj, Belçîka",
+    tr: "Liège, Belçika"
+  },
+
+  year: "2008",
+
+  client: "Police de Liège",
+
+  value: "🔒",
+
+  duration: "2008-2009",
+
+  size: "650 m²",
+
+  status: "completed",
+
+  featured: false,
+
+  image: "/images/projects/police-longdoz.jpg",
+
+  gallery: [
+    "/images/projects/police-longdoz-1.jpg",
+    "/images/projects/police-longdoz-2.jpg"
+  ],
+
+  features: [
+    "Public Security Infrastructure Renovation",
+    "Judicial Police Facility Upgrade",
+    "Interior Refurbishment",
+    "Liège Government Project"
+  ],
+
+  teamSize: "340"
+},
+
+// RENOVATION PROJECTS
+// ═══════════════════════════════════════════════════════════════════════════
+
+{
+  id: "Renovation-4",
+  slug: "institut-royal-sciences-naturelles-bruxelles",
+
+  title: {
+    de: "Renovierung des Königlichen Naturwissenschaftlichen Instituts",
+    en: "Royal Institute of Natural Sciences Renovation",
+    fr: "Institut royal des sciences naturelles de Belgique",
+    nl: "Renovatie Koninklijk Instituut voor Natuurwetenschappen",
+    it: "Ristrutturazione dell’Istituto Reale di Scienze Naturali",
+    ku: "Nûvekirina Enstîtûya Şahî ya Zanistên Xwezayî",
+    tr: "Belçika Kraliyet Doğa Bilimleri Enstitüsü Renovasyonu"
+  },
+
+  category: "renovation",
+
+  description: {
+    de: "Renovierung einer Ausstellungsfläche zur Ermöglichung einer neuen musealen Ausstellung und Modernisierung des Besuchererlebnisses.",
+    en: "Renovation of exhibition-level spaces to enable a new museum display and enhance visitor experience.",
+    fr: "Rénovation de niveau pour permettre la mise en place d’une nouvelle exposition.",
+    nl: "Renovatie van tentoonstellingsruimtes om een nieuwe expositie mogelijk te maken.",
+    it: "Ristrutturazione degli spazi espositivi per consentire una nuova mostra.",
+    ku: "Nûvekirina qada pêşangehê ji bo çêkirina pêşangehek nû.",
+    tr: "Yeni bir serginin kurulmasını sağlamak amacıyla sergi alanlarının yenilenmesi."
+  },
+
+  location: {
+    de: "Brüssel, Belgien",
+    en: "Brussels, Belgium",
+    fr: "Bruxelles, Belgique",
+    nl: "Brussel, België",
+    it: "Bruxelles, Belgio",
+    ku: "Bruksel, Belçîka",
+    tr: "Brüksel, Belçika"
+  },
+
+  year: "2017",
+
+  client: "Institut royal des sciences naturelles de Belgique",
+
+  value: "🔒",
+
+  duration: "2017-2018",
+
+  size: "3.100 m²",
+
+  status: "completed",
+
+  featured: true,
+
+  image: "/images/projects/institut-sciences-naturelles.jpg",
+
+  gallery: [
+    "/images/projects/institut-sciences-naturelles-1.jpg",
+    "/images/projects/institut-sciences-naturelles-2.jpg"
+  ],
+
+  features: [
+    "Museum & Cultural Renovation",
+    "Exhibition Space Upgrade",
+    "Interior Modernization",
+    "Brussels Heritage Project"
+  ],
+
+  teamSize: "340"
+}
+,
+
+// RENOVATION PROJECTS
+// ═══════════════════════════════════════════════════════════════════════════
+
+{
+  id: "Renovation-5",
+  slug: "ecole-europeenne-fabiola-bruxelles",
+
+  title: {
+    de: "Renovierung der Europäischen Schule Fabiola",
+    en: "European School Fabiola Building Renovation",
+    fr: "École européenne",
+    nl: "Renovatie Europese School Fabiola-gebouw",
+    it: "Ristrutturazione della Scuola Europea - Edificio Fabiola",
+    ku: "Nûvekirina Dibistana Ewropî - Avahiya Fabiola",
+    tr: "Avrupa Okulu Fabiola Binası Renovasyonu"
+  },
+
+  category: "renovation",
+
+  description: {
+    de: "Renovierung des Fabiola-Gebäudes der Europäischen Schule in Brüssel.",
+    en: "Renovation of the Fabiola building of the European School in Brussels.",
+    fr: "Rénovation du bâtiment Fabiola de l’École européenne à Bruxelles.",
+    nl: "Renovatie van het Fabiola-gebouw van de Europese School in Brussel.",
+    it: "Ristrutturazione dell’edificio Fabiola della Scuola Europea a Bruxelles.",
+    ku: "Nûvekirina avahiya Fabiola ya Dibistana Ewropî li Brukselê.",
+    tr: "Brüksel Avrupa Okulu’nun Fabiola binasının yenilenmesi."
+  },
+
+  location: {
+    de: "Brüssel, Belgien",
+    en: "Brussels, Belgium",
+    fr: "Bruxelles, Belgique",
+    nl: "Brussel, België",
+    it: "Bruxelles, Belgio",
+    ku: "Bruksel, Belçîka",
+    tr: "Brüksel, Belçika"
+  },
+
+  year: "2017",
+
+  client: "École européenne de Bruxelles",
+
+  value: "🔒",
+
+  duration: "2017-2018",
+
+  size: "3.100 m²",
+
+  status: "completed",
+
+  featured: true,
+
+  image: "/images/projects/ecole-europeenne-fabiola.jpg",
+
+  gallery: [
+    "/images/projects/ecole-europeenne-fabiola-1.jpg",
+    "/images/projects/ecole-europeenne-fabiola-2.jpg"
+  ],
+
+  features: [
+    "Educational Building Renovation",
+    "School Infrastructure Upgrade",
+    "Interior Refurbishment",
+    "Brussels Public Sector Project"
+  ],
+
+  teamSize: "340"
+}
+
+
 
 
 

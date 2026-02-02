@@ -24,21 +24,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 const strategicPartners = [
-  { key: "arcadis", logo: "/images/partners/arcadis.png" },
-  { key: "aecom", logo: "/images/partners/aecom.png" },
-  { key: "arup", logo: "/images/partners/arup.png" },
-  { key: "wsp", logo: "/images/partners/wsp.png" },
+  { key: "arcadis", logo: "/images/partners/arca.png" },
+  { key: "aecom", logo: "/images/partners/sara12.png" },
+  { key: "arup", logo: "/images/partners/roger.png" },
+  { key: "wsp", logo: "/images/partners/wspp123.png" },
 ];
 
 const technologyPartners = [
-  { key: "autodesk", logo: "/images/partners/autodesk.png" },
+  { key: "autodesk", logo: "/images/partners/auto.png" },
   { key: "trimble", logo: "/images/partners/trimble.png" },
-  { key: "procore", logo: "/images/partners/procore.png" },
-  { key: "oracle", logo: "/images/partners/oracle.png" },
+  { key: "procore", logo: "/images/partners/proco.png" },
+  { key: "oracle", logo: "/images/partners/orac.png" },
 ];
 
 const materialSuppliers = [
-  { key: "holcim", logo: "/images/partners/holcim.png" },
+  { key: "holcim", logo: "/images/partners/hol.png" },
   { key: "heidelberg", logo: "/images/partners/heidelberg.png" },
   { key: "caterpillar", logo: "/images/partners/caterpillar.png" },
   { key: "hilti", logo: "/images/partners/hilti.png" },
@@ -53,7 +53,7 @@ const industryAssociations = [
   { key: "aia", name: "American Institute of Architects" },
 ];
 
-export default async function PartnersPage({ params }: Props) {
+export default async function PartnexrsPage({ params }: Props) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "partnersPage" });
   const isRTL = locale === "ku";
@@ -61,7 +61,8 @@ export default async function PartnersPage({ params }: Props) {
   return (
     <main className="bg-bontera-grey-50" dir={isRTL ? "rtl" : "ltr"}>
       {/* Hero Section */}
-      <section className="relative min-h-[50vh] lg:min-h-[60vh] flex items-end overflow-hidden">
+      <section className="relative min-h-[76vh] lg:min-h-[92vh] flex items-end overflow-hidden">
+
         <div className="absolute inset-0">
           <Image
             src="/images/partners-hero.jpg"
@@ -306,39 +307,7 @@ export default async function PartnersPage({ params }: Props) {
         </div>
       </section>
 
-      {/* Industry Associations */}
-      <section className="relative py-24 lg:py-32 bg-bontera-grey-100 overflow-hidden">
-        <div className="max-w-[1600px] mx-auto px-6 lg:px-16">
-          <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-            <div>
-              <span className="inline-flex items-center gap-3 text-bontera-navy-600 text-xs uppercase tracking-[0.3em] font-semibold">
-                <span className="w-8 h-px bg-bontera-navy-600" />
-                {t("associations.eyebrow")}
-              </span>
-              <h2 className="mt-6 text-3xl sm:text-4xl lg:text-5xl font-semibold text-bontera-grey-900 leading-[1.1] tracking-tight">
-                {t("associations.title")}
-              </h2>
-              <p className="mt-6 text-lg text-bontera-grey-600 leading-relaxed">
-                {t("associations.description")}
-              </p>
-            </div>
-
-            <div className="grid grid-cols-2 gap-4">
-              {industryAssociations.map((assoc) => (
-                <div
-                  key={assoc.key}
-                  className="bg-white p-5 border border-bontera-grey-200 hover:border-bontera-navy-300 transition-colors"
-                >
-                  <h3 className="font-semibold text-bontera-grey-900">
-                    {t(`associations.items.${assoc.key}.name`)}
-                  </h3>
-                  <p className="text-sm text-bontera-grey-500 mt-1">{assoc.name}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
+   
 
       {/* Become a Partner CTA */}
       <section className="relative py-24 lg:py-32 overflow-hidden">

@@ -34,7 +34,7 @@ const servicesData = {
       "/images/services/commercial.jpg",
     ],
     features: ["officeBuildings", "retailCenters", "mixedUse", "hospitality"],
-    stats: { projects: "150+", value: "$2.5B+", satisfaction: "99%" },
+    stats: { projects: "80+", value: "20+", satisfaction: "99%" },
   },
   "real-estate": {
     key: "real-estate",
@@ -46,7 +46,7 @@ const servicesData = {
       "/images/services/real-estate.jpg",
     ],
     features: ["residential", "commercial", "mixedUse", "investment"],
-    stats: { projects: "120+", value: "$2.1B+", satisfaction: "99%" },
+    stats: { projects: "80+", value: "20+", satisfaction: "99%" },
   },
   residential: {
     key: "residential",
@@ -58,7 +58,7 @@ const servicesData = {
       "/images/slide-2.jpg",
     ],
     features: ["luxuryHomes", "apartments", "communities", "villas"],
-    stats: { projects: "200+", value: "$1.2B+", satisfaction: "99%" },
+    stats: { projects: "200+", value: "20+", satisfaction: "99%" },
   },
   industrial: {
     key: "industrial",
@@ -70,7 +70,7 @@ const servicesData = {
       "/images/slide-3.jpg",
     ],
     features: ["factories", "warehouses", "logistics", "manufacturing"],
-    stats: { projects: "120+", value: "$900M+", satisfaction: "98%" },
+    stats: { projects: "80+", value: "$900M+", satisfaction: "98%" },
   },
   renovation: {
     key: "renovation",
@@ -82,7 +82,7 @@ const servicesData = {
       "/images/slide-2.jpg",
     ],
     features: ["historic", "modernization", "retrofitting", "restoration"],
-    stats: { projects: "90+", value: "$400M+", satisfaction: "99%" },
+    stats: { projects: "80+", value: "20+", satisfaction: "99%" },
   },
   consulting: {
     key: "consulting",
@@ -94,7 +94,7 @@ const servicesData = {
       "/images/slide-2.jpg",
     ],
     features: ["feasibility", "costEstimation", "riskAssessment", "compliance"],
-    stats: { projects: "250+", value: "$50B+", satisfaction: "100%" },
+    stats: { projects: "80+", value: "20+", satisfaction: "100%" },
   },
   management: {
     key: "management",
@@ -106,7 +106,7 @@ const servicesData = {
       "/images/slide-3.jpg",
     ],
     features: ["planning", "coordination", "budgetControl", "qualityAssurance"],
-    stats: { projects: "300+", value: "$5B+", satisfaction: "99%" },
+    stats: { projects: "80+", value: "20+", satisfaction: "99%" },
   },
   sustainability: {
     key: "sustainability",
@@ -118,7 +118,7 @@ const servicesData = {
       "/images/slide-2.jpg",
     ],
     features: ["greenBuilding", "energyEfficiency", "sustainableMaterials", "leedCertification"],
-    stats: { projects: "80+", value: "$1.2B+", satisfaction: "100%" },
+    stats: { projects: "80+", value: "20+", satisfaction: "100%" },
   },
 };
 

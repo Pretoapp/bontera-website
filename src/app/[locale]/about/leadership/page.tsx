@@ -214,7 +214,7 @@ export default async function LeadershipPage({ params }: Props) {
             <div className="grid grid-cols-2 gap-6">
               {[
                 { value: "20+", label: t("philosophy.stats.experience") },
-                { value: "500+", label: t("philosophy.stats.projects") },
+                { value: "80+", label: t("philosophy.stats.projects") },
                 { value: "12", label: t("philosophy.stats.countries") },
                 { value: "98%", label: t("philosophy.stats.satisfaction") },
               ].map((stat) => (

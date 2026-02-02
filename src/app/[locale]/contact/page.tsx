@@ -9,6 +9,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import ContactForm from "@/components/home/ContactForm";
+import ContactFaqModal from '@/components/ContactFaqModal';
 
 /* ═══════════════════════════════════════════════════════════════════════════
    TYPES
@@ -45,7 +46,7 @@ const offices = [
     address: "Stodieks Hof 77",
     postalCode: "P.O. Box 33790",
     phone: "+49 30 123 456 7890",
-    email: "dubai@bontera.de",
+    email: "info@bontera.de",
     hours: "Sun - Thu: 8:00 AM - 6:00 PM",
     image: "/images/offices/dubai.jpg",
     mapUrl: "https://maps.google.com/?q=Stodieks%20Hof%2077%2C%2033790%20Halle%20%28Westfalen%29%2C%20Germany",
@@ -470,15 +471,9 @@ export default async function ContactPage({ params }: Props) {
               </p>
 
               <div className="mt-8">
-                <Link
-                  href={`/${locale}/faq`}
-                  className="inline-flex items-center gap-2 text-bontera-navy-600 font-semibold hover:text-bontera-navy-700 transition-colors"
-                >
-                  {t("faq.viewAll")}
-                  <svg className={`w-4 h-4 ${isRTL ? "rotate-180" : ""}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                  </svg>
-                </Link>
+               <div className="mt-8">
+  <ContactFaqModal isRTL={isRTL} />
+</div>
               </div>
             </div>
 

@@ -1,13 +1,109 @@
 {
   "navigation": {
-    "home": "Destpek",
-    "about": "Der bare me de",
+    "home": "Destpêk",
+    "about": "Derbarê me de",
     "services": "Xizmet",
     "projects": "Proje",
-    "careers": "Kariyer",
-    "news": "Nuce",
-    "contact": "Tekili"
+    "careers": "Karîyer",
+    "news": "Nûçe",
+    "contact": "Têkilî"
   },
+  "ourStoryPage": {
+    "meta": {
+      "title": "Çîroka me | Bontera",
+      "description": "Serdana destpêkê, pêşketin û vîzyona Bontera bibîne. Ji 2004 heta îro, rêwîtiyek ku bi ekselans, ewlehî û domdarî tê rêvebirin."
+    },
+    "breadcrumb": {
+      "home": "Destpêk",
+      "about": "Derbarê me de",
+      "ourStory": "Çîroka me"
+    },
+    "hero": {
+      "eyebrow": "Çîroka me",
+      "title": "Mîratek ku armancan dike rastî",
+      "subtitle": "Bi zêdetir ji 20 salan ezmûnê di avakirinê, pêşxistina projeyan û navberîya malbatan de, em di her gavê de bi ewlehî, kalîte û transparansê re li gel xerîdarên xwe dimeşin."
+    },
+    "origin": {
+      "eyebrow": "Serdema destpêkê",
+      "title": "Li wir ku hemû tişt dest pê kir",
+      "paragraph1": "Bontera ji baweriyek sade hatiye dayîn: bi şert, transparans û zanyarîya teknîkî ava bike, da ku projeyên bawerbar û dirêjdemî bêne teslim kirin.",
+      "paragraph2": "Ji destpêkê ve, me rêbazê xwe li ser ewlehî, rêzgirtina standardan û rêvebirina bihayê û deman bi disiplin avakirin.",
+      "paragraph3": "Bi salan re, ezmûna me ber bi projeyên zêdetir tevlihev mezin bû, û di heman demê de balê me li ser performansa enerjiyê û pratîkên avakirina berpirsyar zêde bû.",
+      "founded": "Damezrandin",
+      "location": "Berlin, Almanya"
+    },
+    "founderQuote": {
+      "quote": "Armanca me eşkere ye: ji bo hevkar û xerîdarên xwe projeyên neynikan ên bawerbar, ewle û bi nirxa zêde pêşkêş bikin.",
+      "name": "Mr. Necdet",
+      "title": "Damezrîner û Rêvebirê Giştî"
+    },
+    "timeline": {
+      "eyebrow": "Rêya me",
+      "title": "Milestoneên ku me diyar dikin",
+      "milestones": {
+        "founding": {
+          "title": "Destpêk",
+          "description": "Bontera bi vîzyonek hate damezrandin: standardên kalîte, ewlehî û teslimkirinê bilind bike."
+        },
+        "firstMajor": {
+          "title": "Projekta mezin ya yekem",
+          "description": "Teslimkirina projeya mezin a yekem, ku bawerî û rêbaza me ya pêkanînê xurt kir."
+        },
+        "expansion": {
+          "title": "Firehbûna herêmî",
+          "description": "Hevkarîyên bingehîn, mezinbûna tîmê û firehbûna hêza operasiyonê bi qademan."
+        },
+        "international": {
+          "title": "Bûna navneteweyî",
+          "description": "Firehbûn li çend bazaran, bi rêbazek standard û pêkanîna herêmî ya kontrolkirî."
+        },
+        "sustainability": {
+          "title": "Guhertina domdarî",
+          "description": "Têkildarkirina pratîkên berpirsyar, materyalên optimizekirî û armancên performansa enerjiyê di projeyan de."
+        },
+        "technology": {
+          "title": "Lezkirina teknolojiyê",
+          "description": "Bikaranîna amûrên koordînasyona pêşkeftî û rêbazên nû ji bo başkirina kalîte, dem û şopandinê."
+        },
+        "pandemic": {
+          "title": "Berxwedan di demek şert de",
+          "description": "Adaptasyona bilez a prosesan û domandina teslimkirinan, her çend şertên cîhanî ne stabîl bûn."
+        },
+        "future": {
+          "title": "Avakirina sibê",
+          "description": "Domandina nûbûnê, bilindkirina kalîte û firehbûn bi projeyên domdar û bi nirxa bilind."
+        }
+      }
+    },
+    "achievements": {
+      "eyebrow": "Bi hejmaran",
+      "title": "Serkeftinên me",
+      "items": {
+        "projects": "Projeyên hatine teslim kirin",
+        "employees": "Endamên tîmê",
+        "countries": "Welatên ku em tê de dixebitin",
+        "awards": "Xelat"
+      }
+    },
+    "future": {
+      "eyebrow": "Li ber sibê",
+      "title": "Vîzyona sibê",
+      "paragraph1": "Pêşîniya me ew e ku projeyên zêdetir performansdar, ewle û domdar bêne teslim kirin, bê ku ji kalîteyê kêm bibe.",
+      "paragraph2": "Em di rêbazên xebatê, têlent û hevkarîyên pêwîst de ve-invest dikin, da ku di bazarên xwe de her tim rolek bingehîn bihêlin.",
+      "focus": {
+        "innovation": "Nûbûn",
+        "sustainability": "Domdarî",
+        "growth": "Mezinbûn"
+      }
+    },
+    "cta": {
+      "title": "Amade yî ku tiştek taybet ava bikî",
+      "description": "Tu çi pêşxistina bazirganiyê, çi binavî, yan jî avahiyek domdar plan dike, tîma me amade ye ku vîzyona te bîne jiyanê.",
+      "startProject": "Bi me re têkilî bike",
+      "joinTeam": "Beşdarî tîmê bibe"
+    }
+  },
+
   "metadata": {
     "title": "Bontera | Avahisazi & Binesazi",
     "description": "Carinan avahisazi u binesaziya cihangi. Ji ramaneke heta qedandineki, em projeyan radest dikin ku ezmanan diyar dikin u civakan veguhezinin."
@@ -22,7 +118,7 @@
     "stats": {
       "years": "Salen Tecrubey",
       "sqm": "Metre Cargosey Radest Bun",
-      "budget": "Budceya Bireve",
+      "budget": "Projên Temamkirî",
       "languages": "Zimanen Axaftine"
     }
   },
@@ -98,7 +194,7 @@
   "stats": {
     "years": "Salen Tecrubey",
     "sqm": "Metre Cargosey Radest Bun",
-    "budget": "Budceya Bireve",
+    "budget": "Projên Temamkirî",
     "languages": "Zimanen Axaftine",
     "projects": "Proje Qediyane",
     "satisfaction": "Razibuna Xeridan",
@@ -112,7 +208,7 @@
     "points": {
       "quality": {
         "title": "Kaliteya Bela",
-        "description": "Prosesen bi ISO 9001:2015 sertifika serkeftina domdar di her projeyeki de misoger dikin."
+        "description": "Prosesen serkeftina domdar di her projeyeki de misoger dikin."
       },
       "timeline": {
         "title": "Radestkirina Li Ser Deme",
@@ -126,8 +222,8 @@
   },
   "testimonial": {
     "quote": "Bontera ji her heviyeki derbas bu. Baldariya wan a li ser huran, pesnaziyi, u sozdariya wan a ji bo diteya me encam da avahiyeke nisane ku em pe geli serbilind in.",
-    "name": "Sarah Mitchell",
-    "role": "CEO, Atlas Development Group"
+    "name": "Reginald Charles",
+    "role": "Lakay Business LTDA"
   },
   "news": {
     "eyebrow": "Nuce & Biran",
@@ -194,7 +290,9 @@
       "leadership": "Timea Rehberiye",
       "values": "Meram & Nirxan",
       "certifications": "Sertifikayan",
-      "partners": "Hevkar & Girediyan"
+      "partners": "Hevkar & Girediyan",
+      "why Bontera": "çima Bontera",
+      "whyBontera": "Çima Bontera"
     }
   },
   "cta": {
@@ -241,6 +339,43 @@
       "cookies": "Siyaseta Cookie"
     }
   },
+
+  "legalPage": {
+    "meta": {
+      "title": "Yasayî, Nepenî, Kukî û Pirsên Pir Tên Pirsîn (FAQ) | Bontera",
+      "description": "Agahiyên yasayî, politikaya nepenîtiyê, politikaya kukiyan û pirsên pir tên pirsîn bibînin."
+    },
+    "hero": {
+      "eyebrow": "Navenda Yasayî",
+      "title": "Veşarî",
+      "subtitle": "Hemû tiştên pêwîst derbarê bikaranîna malperê, rêvebirina daneyan û pirsên herî pir tên pirsîn, li yek cihê."
+    },
+    "nav": {
+      "privacy": "Nepení",
+      "terms": "Şert û Merc",
+      "cookies": "Kukî",
+      "faq": "FAQ"
+    },
+    "sidebar": {
+      "title": "Li ser vê rûpelê"
+    },
+    "privacy": {
+      "title": "Politikaya Nepenîtiyê",
+      "body": "Bontera rêzê li nepenîtiya we digire. Em tenê agahiyên ku pêdivî ne ji bo bersivdanê (form, e-name, telefon) û başkirina tecrûbeya malperê berhev dikin. Em daneyên we nafiroşin. Ji bo pirs an daxwazên têkildar bi daneyên xwe, bi me re li info@bontera.de têkilî daynin."
+    },
+    "terms": {
+      "title": "Şert û Mercên Bikaranînê",
+      "body": "Bi bikaranîna vê malperê, hûn qebûl dikin ku wê bi awayekî qanûnî bikar bînin û karûbarê wê nebinirxînin. Naverok (nivîs, wêne, hêmanên grafîkî) parastî ye û bê destûr nayê ji nû ve bikaranîn. Agahiyên li vir ji bo rêberîya giştî ne û dikarin di demê de biguherin."
+    },
+    "cookies": {
+      "title": "Politikaya Kukiyan",
+      "body": "Em kukî û teknolojiyên mîna wan bikar tînin da ku malper rast bixebite, trafîkê bipîvînin û performans baş bikin. Hûn dikarin tercîhên xwe di mîhengên gerokê de rêk bikin. Heke kukî werin girtin, dibe ku hin taybetmendî bi sinor bixebitin."
+    },
+    "faqBlock": {
+      "title": "Pirsên Pir Tên Pirsîn (FAQ)",
+      "subtitle": "Bersivên pirsên herî pir têkildar bi projeyan, deman û prosesê me li vir bibînin."
+    }
+  },
   "about": {
     "meta": {
       "title": "Der Bare Me de | Bontera GmbH",
@@ -251,7 +386,8 @@
       "leadership": "Rehberi",
       "values": "Nirx",
       "certifications": "Sertifika",
-      "partners": "Hevkar"
+      "partners": "Hevkar",
+      "whyBontera": "Çima Bontera"
     },
     "breadcrumb": {
       "home": "Destpek",
@@ -264,14 +400,14 @@
       "stats": {
         "years": "Salen Tecrubey",
         "sqm": "Metre Cargoseh Radest Bun",
-        "budget": "Budceya Bireve Biri",
+        "budget": "Projên Temamkirî",
         "languages": "Zimanen ku Em Dipeyivin"
       }
     },
     "story": {
       "eyebrow": "Cirokeya Me",
       "title": "Mirateya Veguhertina Xewnan bo Rastiye",
-      "paragraph1": "Di sala 1999an de hate damezrandin, Bontera wek sirketek avahisaziye ya biquk bi diteyeke mezin dest pe kir: veguhertina jingehe avakiri bi nujeni, rasti, u sozdariya bela ji bo serkeftine. Timekeke avahisazeren dilsoz ci dibe rehberek avahisaziye ya cihani.",
+      "paragraph1": "Di sala 2004an de hate damezrandin, Bontera wek sirketek avahisaziye ya biquk bi diteyeke mezin dest pe kir: veguhertina jingehe avakiri bi nujeni, rasti, u sozdariya bela ji bo serkeftine. Timekeke avahisazeren dilsoz ci dibe rehberek avahisaziye ya cihani.",
       "paragraph2": "Di 25 salen boriye de, me zede ji 500 projeyen nisane di 12 welatan de qedandiye, ji birceyen bazirganiye yen ikonik heta civaken nistecih en berdewam. Her proje sozdariya me ya ji bo huneremendiya kaliteye u baweriya me ku avahiyen mezin dikarin ilham bidin nisan dide.",
       "paragraph3": "Iro, Bontera wek xuyakirinek li ser ciki gengaz dema ku pisporbun bi meyla mezin re werin cem hev dimint. Em berdewam sinoran diperzin, teknolojiyeyen nuh hildibijerin, u standardeyen nuh di pratiken avahisaziya berdewam de daynin.",
       "founderQuote": "Em ne tene avahiyan ava dikin; em bingeheyen ji bo civaken pesereftine u neslen dewlemendiyi diafirinin.",
@@ -288,38 +424,37 @@
       "title": "Diteya Me",
       "description": "Bun rehbere cihani di avahisaziya berdewam de, ku ji bo veguhertina diteyeyen mimariye yen dilsoz bo struktureyen mayinde ye ku ilham didin, xizmet dikin, u testek deme derbasker dibin nas dibin."
     },
-  "values": {
-  "eyebrow": "Ya ku em li ser wê rawestan",
-  "title": "Nirxên me yên bingehîn",
-  "subtitle": "Ev prensîb her bir biryar ku em didin û her projeyê ku em pêk tînin rêberî dikin.",
-  "items": {
-    "transparency": {
-      "title": "Şeffafî",
-      "description": "Em bi rengekî zelal têkiliyê dikin û di her qonaxê projeyê de dîtina tevahî peyda dikin."
+    "values": {
+      "eyebrow": "Ya ku em li ser wê rawestan",
+      "title": "Nirxên me yên bingehîn",
+      "subtitle": "Ev prensîb her bir biryar ku em didin û her projeyê ku em pêk tînin rêberî dikin.",
+      "items": {
+        "transparency": {
+          "title": "Şeffafî",
+          "description": "Em bi rengekî zelal têkiliyê dikin û di her qonaxê projeyê de dîtina tevahî peyda dikin."
+        },
+        "reliability": {
+          "title": "Bawerbarî",
+          "description": "Em li peymanên xwe digirin bi şopandina hişkbûna lêçûn, disiplinê budceyê û teslîmkirina li gorî planê."
+        },
+        "expertise": {
+          "title": "Pisporiya teknîkî",
+          "description": "Zanîna teknîkî ya qelew û rêveberiya projeyê ya yekgirtî di her qonaxê de qalîteya domdar garantî dike."
+        },
+        "integrated": {
+          "title": "Rêbazê yekgirtî",
+          "description": "Çareseriyaek tevahî ku avahî û emlakan li hev tîne, ji konseptê heta teslîmkirinê."
+        },
+        "sustainability": {
+          "title": "Berdewamî",
+          "description": "Em materyal û rêbazên berpirsiyar bikar tînin da ku bandor kêm bikin û nirx zêde bikin."
+        },
+        "valueCreation": {
+          "title": "Afirandina nirxê",
+          "description": "Em nirxa dirêjdemê zêde dikin bi kêmkirina rîskê û hilbijartinên zîrek di sêwirandin û pêkanînê de."
+        }
+      }
     },
-    "reliability": {
-      "title": "Bawerbarî",
-      "description": "Em li peymanên xwe digirin bi şopandina hişkbûna lêçûn, disiplinê budceyê û teslîmkirina li gorî planê."
-    },
-    "expertise": {
-      "title": "Pisporiya teknîkî",
-      "description": "Zanîna teknîkî ya qelew û rêveberiya projeyê ya yekgirtî di her qonaxê de qalîteya domdar garantî dike."
-    },
-    "integrated": {
-      "title": "Rêbazê yekgirtî",
-      "description": "Çareseriyaek tevahî ku avahî û emlakan li hev tîne, ji konseptê heta teslîmkirinê."
-    },
-    "sustainability": {
-      "title": "Berdewamî",
-      "description": "Em materyal û rêbazên berpirsiyar bikar tînin da ku bandor kêm bikin û nirx zêde bikin."
-    },
-    "valueCreation": {
-      "title": "Afirandina nirxê",
-      "description": "Em nirxa dirêjdemê zêde dikin bi kêmkirina rîskê û hilbijartinên zîrek di sêwirandin û pêkanînê de."
-    }
-  }
-}
-,
     "timeline": {
       "eyebrow": "Regeza Me",
       "title": "Qonagiyen ku Me Diyar Dikin",
@@ -361,7 +496,7 @@
           "title": "Seroke Karguzari"
         },
         "coo": {
-          "name": "Sarah Mitchell",
+          "name": "Reginald Charles",
           "title": "Seroke Karguzariye"
         },
         "cto": {
@@ -459,23 +594,33 @@
           }
         },
         "realEstate": {
-          "title": "Pêşveçûna Milkê",
-          "description": "Afirandina veberhênanan milkê yên awarte bi pêşvebirina stratejîk a milkên nîştecihi, bazirganî û bi karanîna tev bi nirxa demdirêj.",
+          "title": "Pêşveçûna Milkê & Navbeynkariya Milkê",
+          "description": "Em projeyên milkê yên nîştecihî, bazirganî û bi karanîna tev pêşve dikin û rêvebirin, her weha navbeynkariya kirîn, firotin û kirêkirinê jî pêşkêş dikin. Nêzîkbûnek yekgirtî ku zanîna bazarê, rastnivîsîya teknîk û şeffafiyeta tam li hev dike, da ku her gav pêvajoyê bi ewlehî bibe û nirxa milkê zêde bike.",
           "features": {
             "residential": "Projeyên Niştecihiyê",
             "commercial": "Milkên Bazirganî",
             "mixedUse": "Pêşveçûnên Bi Karanîna Tev",
-            "investment": "Milkên Veberhênanê"
+            "investment": "Milkên Veberhênanê",
+            "brokerage": "Navbeynkariya Milkê: Kirîn, Firotin & Kirêkirin"
+          },
+          "brokerage": {
+            "title": "Navbeynkariya Milkê – Kirîn, Firotin & Kirêkirin",
+            "description": "Em di karûbarên kirîn, firotin û kirêkirina milkê de alîkariya xerîdarên xwe dikin û ezmûna bazarê li ber dest dixin.\n\nBi torê me ya profesyonelan û nêzîkbûnek şexsîkirî, em we alîkarî dikin ku biryarên herî baş bistînin û karûbarên xwe ewle bikin. Em di her gavê de berjewendiyên we diparêzin da ku nirxa milkên we baştir bibe û danûstandin li şertên herî baş bi dawî bibe.\n\nPeymana me li ser şeffafiyeta tam û parastina berdewam a berjewendiyên xerîdarên me ava bûye."
           }
         },
         "real-estate": {
-          "title": "Pêşveçûna Milkê",
-          "description": "Afirandina veberhênanan milkê yên awarte bi pêşvebirina stratejîk a milkên nîştecihi, bazirganî û bi karanîna tev bi nirxa demdirêj.",
+          "title": "Pêşveçûna Milkê & Navbeynkariya Milkê",
+          "description": "Em projeyên milkê yên nîştecihî, bazirganî û bi karanîna tev pêşve dikin û rêvebirin, her weha navbeynkariya kirîn, firotin û kirêkirinê jî pêşkêş dikin. Nêzîkbûnek yekgirtî ku zanîna bazarê, rastnivîsîya teknîk û şeffafiyeta tam li hev dike, da ku her gav pêvajoyê bi ewlehî bibe û nirxa milkê zêde bike.",
           "features": {
             "residential": "Projeyên Niştecihiyê",
             "commercial": "Milkên Bazirganî",
             "mixedUse": "Pêşveçûnên Bi Karanîna Tev",
-            "investment": "Milkên Veberhênanê"
+            "investment": "Milkên Veberhênanê",
+            "brokerage": "Navbeynkariya Milkê: Kirîn, Firotin & Kirêkirin"
+          },
+          "brokerage": {
+            "title": "Navbeynkariya Milkê – Kirîn, Firotin & Kirêkirin",
+            "description": "Em di karûbarên kirîn, firotin û kirêkirina milkê de alîkariya xerîdarên xwe dikin û ezmûna bazarê li ber dest dixin.\n\nBi torê me ya profesyonelan û nêzîkbûnek şexsîkirî, em we alîkarî dikin ku biryarên herî baş bistînin û karûbarên xwe ewle bikin. Em di her gavê de berjewendiyên we diparêzin da ku nirxa milkên we baştir bibe û danûstandin li şertên herî baş bi dawî bibe.\n\nPeymana me li ser şeffafiyeta tam û parastina berdewam a berjewendiyên xerîdarên me ava bûye."
           }
         },
         "residential": {
@@ -634,7 +779,7 @@
       "subtitle": "Portfolioya me ya ciyas a projeyen qediyayi u berdewam bibinin ku sozdariya me ya ji bo serkeftin, nujeni, u avahisaziya berdewam nisan dide.",
       "stats": {
         "projectsCompleted": "Proje Qediyane",
-        "totalValue": "Nirkirina Projeyan Temam",
+        "totalValue": "Metreyên çargoşeyî teslîmkirî",
         "countries": "Welat",
         "onTimeDelivery": "Radestkirina Li Ser Deme"
       }
@@ -660,7 +805,8 @@
       "realEstate": "Pêşveçûna Milkê",
       "industrial": "Piseyi",
       "renovation": "Nuvekirin",
-      "publicWorks": "Kareyen Gisti"
+      "publicWorks": "Kareyen Gisti",
+      "public": "Kareyen Gisti"
     },
     "status": {
       "completed": "Qediyaye",
@@ -689,6 +835,10 @@
         "residential": {
           "title": "Nistecih",
           "description": "Xaniyen luks, kompleksen apartemaniye, u civaken plan-serekin ku malbat te de pesereft dibin."
+        },
+        "infrastructure": {
+          "title": "Binesazî",
+          "description": "Rê, karûbarên giştî, avahiyên giştî û projeyên endezyariya sivîl ku bi standardên bilind ên lihevhatinê têne bidestxistin."
         },
         "realEstate": {
           "title": "Binesazi",
@@ -783,6 +933,8 @@
             "industrial": "Piseyi",
             "renovation": "Nuvekirin & Restorasyon",
             "consulting": "Xizmeten Serwistemeniye",
+            "infrastructure": "Binyasazî",
+
             "other": "Yen Din"
           }
         },
@@ -942,16 +1094,27 @@
       "hr": "Careseriya Mirovi"
     },
     "locations": {
-      "dubai": "Dubai, UAE",
-      "riyadh": "Riyadh, KSA",
-      "cairo": "Qahire, Misir",
-      "london": "London, UK"
+      "dubai": "Dubai, Emiratên Erebî yên Yekbûyî",
+      "riyadh": "Riyad, Erebistana Siûdî",
+      "cairo": "Qahîre, Misir",
+      "london": "London, Keyaniya Yekbûyî",
+      "brussels": "Bruksel, Belçîka",
+      "germany": "Halle (Westfalen), Almanya"
     },
     "jobTypes": {
       "fullTime": "Dem-Temam",
       "partTime": "Dem-Pareki",
       "contract": "Peymanname",
       "internship": "Stajyeri"
+    },
+
+    "careersPage": {
+      "locations": {
+        "brussels": "Brussels, Belgium",
+        "dubai": "Dubai, UAE",
+        "cairo": "Cairo, Egypt",
+        "riyadh": "Riyadh, KSA"
+      }
     },
     "benefits": {
       "eyebrow": "Feyde & Xelatan",
@@ -1450,6 +1613,261 @@
       "contactUs": "Bi Me Re Têkilî Bikin"
     }
   },
+
+  "valuesPage": {
+    "meta": {
+      "title": "Mîsyon û Nirx | Bontera Construction",
+      "description": "Mîsyon, vîzyon û nirxên bingehîn ên Bontera keşf bikin ku her projeyek û her hevkarî rêber dikin."
+    },
+
+    "breadcrumb": {
+      "home": "Destpêk",
+      "about": "Derbarê Me",
+      "values": "Nirx"
+    },
+
+    "hero": {
+      "eyebrow": "Ev e baweriya me",
+      "title": "Mîsyon, Vîzyon û Nirxên Me",
+      "subtitle": "Prensîbên ku her biryar û her projeya ku em pêk tînin rêber dikin."
+    },
+
+    "mission": {
+      "eyebrow": "Mîsyona Me",
+      "title": "Avakirina ekselansê, afirandina nirxê",
+      "description": "Em ji bo mişteriyên taybet, veberhêner û şîrketan çareseriyên domdar, ewledar û aborî bihêz pêş dikin. Ji bo vê yekê, em zanîna kûr a bazarê, şîretkirina şeffaf û torêk hêzdar a hevkarên darayî û real-estate bi hev re têk dikin."
+    },
+
+    "vision": {
+      "eyebrow": "Vîzyona Me",
+      "title": "Şêwandina cîhana sibehê",
+      "description": "Bûn serokê cîhanî di avakirina domdar de, ku tê naskirin bi veguherandina vîzyonên mezin ên arşîtêktûrî bo avahiyên mayîndar ku îlham dide, xizmet dike û demê têber dike."
+    },
+
+    "coreValues": {
+      "eyebrow": "Nirxên Bingehîn",
+      "title": "Stûnên serkeftina me",
+      "subtitle": "Ev nirxên bingehîn çanda me û awayê ku em bi mişterî, hevkar û navbera xwe de dixebitin diyar dikin.",
+
+      "items": {
+        "excellence": {
+          "title": "Ekselans",
+          "description": "Em li her hûrguliyê ekselansê digerin, ji destpêka sêwiranê heta radestkirina dawî, da ku karê me nîşana kalîte û pisporiyê be."
+        },
+        "integrity": {
+          "title": "Rastî û Rêxistin",
+          "description": "Em bi rastî û şeffafî dixebitin, bawerî bi rêya pratîkên exlaqî û berpirsiyar ava dikin."
+        },
+        "innovation": {
+          "title": "Nûbûn",
+          "description": "Em teknololojî û metodên nû dipejirînin da ku çareseriyên avakirinê zîrek, bikêrhatî û domdar pêşkêş bikin."
+        },
+        "safety": {
+          "title": "Ewlehî her tiştê pêşî",
+          "description": "Rêxistina ewlehiyê ji bo tîmê me û civakê herî girîng e. Em di her projeyê de standardên ewlehiyê yên hişk diparêzin."
+        },
+        "sustainability": {
+          "title": "Domdariyê",
+          "description": "Em bi pratîkên jîngehparêz re girêdayî ne, bandora xwe kêm dikin û nirx ji bo nifşên pêşerojê diafirînin."
+        },
+        "partnership": {
+          "title": "Hevkarî",
+          "description": "Em bawer dikin ku peywendiyên hevkarî yên bihêz pêdivî ne, bi mişterî û şertdarên projeyê re nêzîk dixebitin da ku serkeftina hevpar bi dest bixin."
+        }
+      }
+    },
+
+    "principles": {
+      "eyebrow": "Prensîbên Rêber",
+      "title": "Awayê me yê karê",
+
+      "items": {
+        "clientFirst": {
+          "title": "Mişterî di navendê de",
+          "description": "Her biryar li ser tiştê ku ji bo mişteriyan herî baş e tê avakirin. Em guhdarî dikin, fêm dikin û zêdetir ji hêviyan radigihînin."
+        },
+        "qualityDriven": {
+          "title": "Kalîte bê kompromîs",
+          "description": "Em qet li ser kalîte kompromîs nakin. Ji materyalan heta karê destan, em standardên herî bilind diparêzin."
+        },
+        "teamEmpowerment": {
+          "title": "Hêzkirina tîmê",
+          "description": "Em di mirovên xwe de veberhênan dikin bi perwerde, çavkaniyên pêwîst û derfetên pêşkeftinê. Tîmên bihêz encamên awarte diafirînin."
+        },
+        "continuousImprovement": {
+          "title": "Pêşveçûna herdemî",
+          "description": "Em her dem hewl didin ku pêvajoyan baştir bikin, teknololojîya nû bi kar bînin û di pîşesaziyê de pêşeng bimînin."
+        }
+      }
+    },
+
+    "valuesSnapshot": {
+      "eyebrow": "Nirx di çalakiyê de",
+      "title": "Tiştê ku Bontera diyar dike",
+
+      "items": {
+        "transparencyReliabilityCommitment": "Şeffafî, bawerî û girêdan bingehê her hevkariyê ne.",
+        "technicalExpertise": "Pisporiya teknîkî û îcraya hişk encamên cîhanî garantî dike.",
+        "holisticApproach": "Nêrînek holîstîk ku avakirin û real-estate di yek vîzyonê de têk dike.",
+        "valueGrowth": "Afirandina nirxê ya domdar bi kontrolkirina rîskê û mezinbûna dirêjdem."
+      },
+
+      "closing": "Li Bontera, nirx ne tenê gotin in, lê standardên rojane ne ku em bi wan dixebitin."
+    },
+
+    "culture": {
+      "eyebrow": "Çanda Me",
+      "title": "Çandeke ekselansê",
+      "paragraph1": "Li Bontera, çanda me li ser rêzgirtin, hevkarî û girêdana hevpar bo ekselansê ava bûye.",
+      "paragraph2": "Em cihêrengiyê pîroz dikin, nûbûn teşwîq dikin û dizanin ku hêza me ya herî mezin di mirovên me de ye.",
+      "quote": "Çand tenê li ser tiştê ku em dikin nayê. Ew li ser tiştê ku em in û awayê ku em bi hev re têkilî dikin ye.",
+      "quoteAuthor": "Reginald Charles",
+      "quoteTitle": "Rêvebera Operasyonê",
+      "teamMembers": "Endamên tîmê li cîhanê"
+    },
+
+    "cta": {
+      "title": "Cûdabûna Bontera Bibîne",
+      "description": "Bibîne ka nirxên me çawa dibin encamên awarte ji bo projeya te.",
+      "contactUs": "Bi Me Re Têkilî Bikin",
+      "learnMore": "Zêdetir Bizanin"
+    }
+  },
+  "partnersPage": {
+    "meta": {
+      "title": "Hevkar & Affiliates | Bontera Construction",
+      "description": "Hevkarîyên stratejîk ên Bontera bi şîrketên pêşeng di avakirinê, teknololojiyê û peydakirina materyalan de keşf bikin."
+    },
+
+    "breadcrumb": {
+      "home": "Destpêk",
+      "about": "Derbarê Me",
+      "partners": "Hevkar"
+    },
+
+    "hero": {
+      "eyebrow": "Allîansên stratejîk",
+      "title": "Avakirina serkeftinê bi hevkarî",
+      "subtitle": "Em bi serokên pîşesaziyê re hevkarî dikin da ku encamên awarte pêşkêş bikin û nûbûnê di avakirinê de pêş bixin."
+    },
+
+    "philosophy": {
+      "eyebrow": "Felsefeya hevkariyê",
+      "title": "Bi hev re bihêztir",
+      "paragraph1": "Li Bontera, em bawer dikin ku projeyên herî baş bi hevkarî têne avakirin. Hevkarîyên me yên stratejîk kapasîteya me fireh dikin û destûr didin ku em çareseriyên temam pêşkêş bikin ku hêviyên mişteriyan derbas dikin.",
+      "paragraph2": "Em bi baldarî hevkarên ku heman girêdan bi kalîte, nûbûn û domdarî re hene hilbijêrin. Bi hev re, em pisporî, çavkanî û teknololojî têk dikin da ku projeyên herî dijwar ên avakirinê bi ser bikevin.",
+      "stats": {
+        "partners": "Hevkarên stratejîk",
+        "years": "Salên hevkariyê",
+        "countries": "Welat"
+      }
+    },
+
+    "strategic": {
+      "eyebrow": "Hevkarên stratejîk",
+      "title": "Hevkarên endezyarî & sêwiranê",
+      "subtitle": "Ofîsên endezyarî û sêwiranê yên asta cîhanî ku vîzyonên mezin didin jiyan.",
+      "partners": {
+        "arcadis": {
+          "name": "Arcadis",
+          "specialty": "Sêwiran & şîretkarî"
+        },
+        "aecom": {
+          "name": "AECOM",
+          "specialty": "Infrastruktûr"
+        },
+        "arup": {
+          "name": "Arup",
+          "specialty": "Endezyarî"
+        },
+        "wsp": {
+          "name": "WSP",
+          "specialty": "Xizmetên profesyonel"
+        }
+      }
+    },
+
+    "technology": {
+      "eyebrow": "Hevkarên teknololojiyê",
+      "title": "Pêşvebirina nûbûna dîjîtal",
+      "subtitle": "Hevkarên teknololojiyê ku veguherîna me ya dîjîtal pêş dixin û avakirina zîrek dikin.",
+      "partners": {
+        "autodesk": {
+          "name": "Autodesk",
+          "solution": "Nermalava BIM & sêwiranê"
+        },
+        "trimble": {
+          "name": "Trimble",
+          "solution": "Teknololojiya avakirinê"
+        },
+        "procore": {
+          "name": "Procore",
+          "solution": "Rêvebirina projeyê"
+        },
+        "oracle": {
+          "name": "Oracle",
+          "solution": "Çareseriyên şîrketî"
+        }
+      }
+    },
+
+    "suppliers": {
+      "eyebrow": "Hevkarên materyalan",
+      "title": "Firoşkarên materyalên premium",
+      "subtitle": "Firoşkarên bawerbar ku materyalên bilindkalîte peyda dikin û standardên me yên hişk pêk tînin.",
+      "partners": {
+        "holcim": {
+          "name": "Holcim",
+          "products": "Siman & agregat"
+        },
+        "heidelberg": {
+          "name": "Heidelberg Materials",
+          "products": "Materyalên avakirinê"
+        },
+        "caterpillar": {
+          "name": "Caterpillar",
+          "products": "Makîneyên giran"
+        },
+        "hilti": {
+          "name": "Hilti",
+          "products": "Amûrên avakirinê"
+        }
+      }
+    },
+
+    "associations": {
+      "eyebrow": "Endamtiyên pîşesaziyê",
+      "title": "Komeleyên profesyonel",
+      "description": "Em endamtiyên çalak di komeleyên pêşeng ên pîşesaziyê de diparêzin, bi pratîkên herî baş re girêdayî dimînin û beşdarî pêşkeftina sektora avakirinê dibin.",
+      "items": {
+        "agc": {
+          "name": "AGC of America"
+        },
+        "usgbc": {
+          "name": "U.S. Green Building Council"
+        },
+        "fidic": {
+          "name": "FIDIC"
+        },
+        "ciob": {
+          "name": "CIOB"
+        },
+        "rics": {
+          "name": "RICS"
+        },
+        "aia": {
+          "name": "AIA"
+        }
+      }
+    },
+
+    "cta": {
+      "title": "Bibe hevkar",
+      "description": "Tu dixwazî bi Bontera re hevkarî bikî? Em her dem li rêxistinên ku heman girêdan bi ekselansê re hene digerin.",
+      "becomePartner": "Bibe hevkar",
+      "learnMore": "Zêdetir Bizanin"
+    }
+  },
   "jobDetailPage": {
     "meta": {
       "titleSuffix": "کار | Bontera Construction",
@@ -1500,5 +1918,103 @@
       "submit": "داواکاری بنێرە"
     },
     "backToCareers": "بگەڕێوە بۆ هەموو پۆستەکان"
+  },
+
+  "whyBonteraPage": {
+    "meta": {
+      "title": "Çima me hilbijêrînin? | Bontera Construction",
+      "description": "Bontera şirketeek yekgirtî ye ku di her qonaxê projeyên we de bi têkiliya pisporiya teknîkî, vîzyona stratejîk û baştirîn karûbarê operasyonekî piştgirî dike."
+    },
+    "breadcrumb": {
+      "ariaLabel": "Rêberiya rê",
+      "home": "Destpêk",
+      "about": "Derbarê me de",
+      "current": "Çima me hilbijêrînin?"
+    },
+    "hero": {
+      "imageAlt": "Çima me hilbijêrînin?",
+      "title": "Çima me hilbijêrînin?",
+      "subtitle": "Bontera, hevkarê gerdûnî ji bo projeyên we yên mal û milkê"
+    },
+    "sections": {
+      "global": {
+        "title": "BONTERA GmbH",
+        "p1": "Bontera şirketeek yekgirtî ye ku di her qonaxê projeyên we de bi têkiliya pisporiya teknîkî, vîzyona stratejîk û baştirîn karûbarê operasyonekî piştgirî dike. Rêbazê me li ser ronahî, pêbawerî û berpirsyariyê hatiye avakirin, bi armancekî herdemî: afirandina nirxê dirêjdemî bi kontrolkirina xetereyan.",
+        "p2": "Bi zanîna qelew a bazarê û rêveberiya hişk a projeyan, Bontera bi kesên taybet, pargîdanî û veberhêneran re dixebite û çareseriyên li gorî hewcedariyan pêşkêş dike."
+      },
+      "contractor": {
+        "title": "Bontera - Pêdivîdar (Contractor)",
+        "p1": "Wekî pêdivîdar, Bontera plankirin, rêvebirin û bicihkirina projeyên avahiyên niştecîhî û bazirganiyê bi awayekî baş dike, bi garantîya qalîteyê, pejirandinê û rêzgirtina deman.",
+        "p2": "Em her weha xizmetên şîretkirina avahîsaziyê pêşkêş dikin ji bo kes û pargîdanîyên ku dixwazin biryarên xwe yên teknîkî û darayî ewle bikin. Wekî nûnerê xwediyê projeyên giştî an taybet, em dibin yek xalê têkilî, berjewendiyên mişterî diparêzin, hemû aliyên têkildar rêkûpêk dikin û şopandina ronahî di tevahî projeyê de dide."
+      },
+      "developer": {
+        "title": "Bontera - Pêşvebirê Projeyê / Pêşvebirê Mal û Milkê",
+        "p1": "Bontera wekî pêşvebirê projeyê û pêşvebirê mal û milkê dixebite û di afirandin û pêşvebirina projeyên niştecîhî an endustriyî de alîkariyê dike. Em lêkolînên giştî yên xebatîbûnê (feasibility) pêk tînin ku tê de aliyên teknîkî, qanûnî, darayî û bazarî têne yekgirtin, da ku veberhênerî ji destpêkê ve were ewle kirin.",
+        "p2": "Ji dizaynê heta bicihkirinê, em avakirina projeyê bi nêrîna giştî pêşkêş dikin ku armancê wê zêdekirina nirxê assetê û ewlekirina qazancî û domdarîya dirêjdemî ye."
+      },
+      "broker": {
+        "title": "Bontera - Brokerê Mal û Milkê",
+        "p1": "Wekî brokerê mal û milkê, Bontera mişterîyên taybet û veberhêneran di kirîn, firotin û kirêdanê de alîkarî dike. Zanîna me ya bazarê, bi pisporiya teknîkî û darayî ya bihêz re, destûr dide ku em şansên herî baş bibînin û her danûstendinê ewle bikin.",
+        "p2": "Em ronahî û parastina berjewendiyên mişterîyên xwe li navenda karê me dikin, da ku biryar bi agahî bêne girtin û encam baştir be."
+      },
+      "integrated": {
+        "title": "Nerînêke yekgirtî ya mal û milkê",
+        "p1": "Têkiliya van sê warên pisporiyê dihêle Bontera ku nêrînekî yekta û tevlihev pêşkêş bike ku tevahiya jiyana projeyên mal û milkê digire: xebatîbûn (feasibility), dizayn, avahî, rêvebirin û firotandin. Ev nerînê yekgirtî garantîya performansê, kontrolkirina xetereyan û afirandina nirxê domdar e."
+      }
+    },
+    "cta": {
+      "imageAlt": "Projeyekî mal û milkê hûn heye?",
+      "title": "Projeyekî mal û milkê hûn heye?",
+      "description": "Bontera hevkarê we yê stratejîk e ku ew bi serkeftinê bike."
+    },
+
+    "whyBonteraPage": {
+      "meta": {
+        "title": "Neden Bizi Seçmelisiniz? | Bontera Construction",
+        "description": "Bontera; teknik uzmanlık, stratejik vizyon ve operasyonel mükemmelliği bir araya getirerek müşterilerini projelerinin her aşamasında destekleyen entegre bir şirkettir."
+      },
+      "breadcrumb": {
+        "ariaLabel": "Gezinti yolu",
+        "home": "Ana Sayfa",
+        "about": "Hakkımızda",
+        "current": "Neden Bizi Seçmelisiniz?"
+      },
+      "hero": {
+        "imageAlt": "Neden Bizi Seçmelisiniz?",
+        "title": "Neden Bizi Seçmelisiniz?",
+        "subtitle": "Bontera, gayrimenkul projeleriniz için küresel bir ortak"
+      },
+      "sections": {
+        "global": {
+          "title": "Bontera, gayrimenkul projeleriniz için küresel bir ortak",
+          "p1": "Bontera; teknik uzmanlık, stratejik vizyon ve operasyonel mükemmelliği bir araya getirerek müşterilerini projelerinin her aşamasında destekleyen entegre bir şirkettir. Yaklaşımımız şeffaflık, güvenilirlik ve bağlılık üzerine kuruludur. Tek ve değişmeyen hedefimiz şudur: riskleri kontrol ederken kalıcı değer yaratmak.",
+          "p2": "Derin pazar bilgisi ve disiplinli proje yönetimi sayesinde Bontera; bireyler, şirketler ve yatırımcılarla çalışır ve her ihtiyaca uygun, kişiselleştirilmiş çözümler sunar."
+        },
+        "contractor": {
+          "title": "Bontera - Yüklenici",
+          "p1": "Yüklenici olarak Bontera, konut ve ticari gayrimenkul projelerinin planlama, yönetim ve uygulama süreçlerini üstlenir; kaliteyi, mevzuata uygunluğu ve teslim tarihlerine sadakati güvence altına alır.",
+          "p2": "Ayrıca teknik ve finansal kararlarını güvence altına almak isteyen bireyler ve işletmeler için inşaat danışmanlığı hizmetleri sunarız. Kamu veya özel proje sahiplerinin temsilcisi olarak tek irtibat noktası olur, müşterinin çıkarlarını korur, tüm paydaşları koordine eder ve proje boyunca şeffaf takip sağlar."
+        },
+        "developer": {
+          "title": "Bontera - Proje Geliştirici / Gayrimenkul Geliştirici",
+          "p1": "Bontera; proje geliştirici ve gayrimenkul promotörü olarak, konut veya endüstriyel gayrimenkul projelerinin oluşturulması ve geliştirilmesini destekler. Yatırımı en erken aşamalardan itibaren güvence altına almak için teknik, yasal, finansal ve ticari unsurları entegre eden kapsamlı fizibilite çalışmaları yürütürüz.",
+          "p2": "Tasarım aşamasından uygulamaya kadar, varlık değerini maksimize etmeyi ve uzun vadeli kârlılık ile sürdürülebilirliği sağlamayı hedefleyen bütüncül bir yaklaşımla projenin tam yapılandırmasını sunarız."
+        },
+        "broker": {
+          "title": "Bontera - Gayrimenkul Danışmanı",
+          "p1": "Gayrimenkul danışmanı olarak Bontera, bireysel müşteriler ve yatırımcıların alım, satım ve kiralama işlemlerinde yanında olur. Pazar bilgimiz ve güçlü teknik-finansal uzmanlığımız sayesinde en iyi fırsatları belirler ve her işlemi güvence altına alırız.",
+          "p2": "Şeffaflığı ve müşterilerimizin çıkarlarını korumayı işimizin merkezine koyar, bilinçli kararlar ve en iyi sonuçlar için süreci titizlikle yönetiriz."
+        },
+        "integrated": {
+          "title": "Gayrimenkule Entegre Bir Bakış",
+          "p1": "Bu üç uzmanlık alanının birleşimi, Bontera’ya gayrimenkul yaşam döngüsünün tamamını kapsayan benzersiz ve kapsamlı bir yaklaşım sunma imkânı verir: fizibilite, tasarım, inşaat, yönetim ve ticarileştirme. Bu entegre bakış; performans, risk kontrolü ve sürdürülebilir değer yaratımı için bir güvencedir."
+        }
+      },
+      "cta": {
+        "imageAlt": "Bir gayrimenkul projeniz var mı?",
+        "title": "Bir gayrimenkul projeniz var mı?",
+        "description": "Bontera, onu başarıyla hayata geçirmek için stratejik ortağınızdır."
+      }
+    }
   }
 }

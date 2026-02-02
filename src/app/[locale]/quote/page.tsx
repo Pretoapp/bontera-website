@@ -68,7 +68,7 @@ const whyChooseUs = [
   },
   {
     key: "projects",
-    value: "500+",
+    value: "80+",
     icon: "M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008z",
   },
   {
@@ -246,7 +246,7 @@ export default async function QuotePage({ params }: Props) {
                 <p className="text-sm text-bontera-grey-600 mb-6">{t("sidebar.contact.description")}</p>
                 
                 <div className="space-y-4">
-                  <a href="tel:+97141234567" className="flex items-center gap-3 text-bontera-grey-700 hover:text-bontera-navy-600 transition-colors">
+                  <a href="tel:+49 30 123 456 7890" className="flex items-center gap-3 text-bontera-grey-700 hover:text-bontera-navy-600 transition-colors">
                     <div className="w-10 h-10 bg-bontera-navy-100 text-bontera-navy-600 flex items-center justify-center">
                       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
                         <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
@@ -278,7 +278,7 @@ export default async function QuotePage({ params }: Props) {
                     </div>
                     <div>
                       <div className="text-xs text-bontera-grey-500">{t("sidebar.contact.whatsapp")}</div>
-                      <div className="font-semibold">+971 50 123 4567</div>
+                      <div className="font-semibold">+49 30 123 456 7890</div>
                     </div>
                   </a>
                 </div>
@@ -425,37 +425,7 @@ export default async function QuotePage({ params }: Props) {
         </div>
       </section>
 
-      {/* ═══════════════════════════════════════════════════════════════════
-          TESTIMONIAL SECTION
-      ═══════════════════════════════════════════════════════════════════ */}
-      <section className="relative py-20 lg:py-28 overflow-hidden">
-        <div className="absolute inset-0">
-          <Image
-            src="/images/quote-testimonial-bg.jpg"
-            alt="Client testimonial"
-            fill
-            className="object-cover"
-            sizes="100vw"
-          />
-          <div className="absolute inset-0 bg-bontera-navy-900/90" />
-        </div>
-
-        <div className="relative max-w-4xl mx-auto px-6 lg:px-16 text-center">
-          {/* Quote Icon */}
-          <svg className="w-16 h-16 text-gray-500 mx-auto mb-8" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
-          </svg>
-
-          <blockquote className="text-2xl lg:text-3xl text-white font-light leading-relaxed italic">
-            &ldquo;{t("testimonial.quote")}&rdquo;
-          </blockquote>
-
-          <div className="mt-8">
-            <div className="text-lg font-semibold text-white">{t("testimonial.author")}</div>
-            <div className="text-gray-400">{t("testimonial.role")}</div>
-          </div>
-        </div>
-      </section>
+  
 
       {/* ═══════════════════════════════════════════════════════════════════
           CTA SECTION

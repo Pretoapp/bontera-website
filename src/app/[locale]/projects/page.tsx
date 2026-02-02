@@ -48,11 +48,12 @@ const categories = [
   { key: "infrastructure", slug: "infrastructure" },
   { key: "industrial", slug: "industrial" },
   { key: "renovation", slug: "renovation" },
+   { key: "publicWorks", slug: "publicWorks"},
 ];
 
 const featuredStats = [
-  { value: "500+", key: "projectsCompleted" },
-  { value: "€2.5B", key: "totalValue" },
+  { value: "80+", key: "projectsCompleted" },
+  { value: "40,000", key: "totalValue" },,
   { value: "12", key: "countries" },
   { value: "98%", key: "onTimeDelivery" },
 ];
@@ -505,11 +506,11 @@ export default async function ProjectsPage({ params, searchParams }: Props) {
           {/* Category Cards */}
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { key: "commercial", count: "150+", icon: categoryInfo.commercial.icon },
-              { key: "residential", count: "120+", icon: categoryInfo.residential.icon },
-              { key: "infrastructure", count: "80+", icon: categoryInfo.infrastructure.icon },
-              { key: "industrial", count: "90+", icon: categoryInfo.industrial.icon },
-              { key: "renovation", count: "60+", icon: categoryInfo.renovation.icon },
+              { key: "commercial", count: "10+", icon: categoryInfo.commercial.icon },
+              { key: "residential", count: "53+", icon: categoryInfo.residential.icon },
+              { key: "infrastructure", count: "4+", icon: categoryInfo.infrastructure.icon },
+              { key: "industrial", count: "3+", icon: categoryInfo.industrial.icon },
+              { key: "renovation", count: "10+", icon: categoryInfo.renovation.icon },
             ].map((cat) => (
               <Link
                 key={cat.key}

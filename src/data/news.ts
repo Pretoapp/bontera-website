@@ -35,33 +35,8 @@ export interface NewsArticle {
 }
 
 export const newsArticles: NewsArticle[] = [
-  {
-    id: "news-001",
-    slug: "bontera-neom-infrastructure-contract",
-    category: "companyNews",
-    date: "2024-01-15",
-    readTime: 5,
-    image: "/images/news/neom-contract.jpg",
-    featured: true,
-    title: {
-      de: "Bontera erhält 2,5 Milliarden Dollar NEOM-Infrastrukturvertrag",
-      en: "Bontera Awarded $2.5 Billion NEOM Infrastructure Contract",
-      fr: "Bontera remporte un contrat d'infrastructures NEOM de 2,5 milliards de dollars",
-      nl: "Bontera wint $2,5 miljard NEOM-infrastructuurcontract",
-      it: "Bontera ottiene contratto infrastrutturale NEOM da 2,5 miliardi di dollari",
-      ku: "Bontera peymana binesaziya NEOM ya 2.5 milyar dolaran wergirt",
-      tr: "Bontera 2,5 Milyar Dolarlık NEOM Altyapı Sözleşmesi Aldı",
-    },
-    excerpt: {
-      de: "In einer historischen Errungenschaft wurde Bontera als Hauptauftragnehmer für eine große Infrastrukturentwicklung innerhalb des NEOM-Megaprojekts ausgewählt.",
-      en: "In a landmark achievement, Bontera has been selected as the primary contractor for a major infrastructure development within the NEOM mega-project.",
-      fr: "Dans une réalisation majeure, Bontera a été sélectionnée comme entrepreneur principal pour un développement d'infrastructures au sein du méga-projet NEOM.",
-      nl: "In een mijlpaal is Bontera geselecteerd als hoofdaannemer voor een grote infrastructuurontwikkeling binnen het NEOM-megaproject.",
-      it: "In un traguardo storico, Bontera è stata selezionata come appaltatore principale per un importante sviluppo infrastrutturale nel mega-progetto NEOM.",
-      ku: "Di destkeftiyeke dîrokî de, Bontera wekî peymankara sereke ji bo pêşkeftinek binesaziya mezin di nav projeya mezin a NEOM de hate hilbijartin.",
-      tr: "Tarihi bir başarıda Bontera, NEOM mega projesi kapsamında büyük bir altyapı geliştirmesi için ana yüklenici olarak seçildi.",
-    },
-  },
+
+    
   {
     id: "news-002",
     slug: "sustainable-construction-trends-2024",
@@ -116,33 +91,8 @@ export const newsArticles: NewsArticle[] = [
       tr: "Amiral gemimiz olan karma kullanımlı geliştirmemiz en yüksek sürdürülebilirlik derecesini aldı ve Bontera'nın çevreye duyarlı inşaata bağlılığını sergiledi.",
     },
   },
-  {
-    id: "news-004",
-    slug: "construction-excellence-award-2024",
-    category: "awards",
-    date: "2023-12-20",
-    readTime: 3,
-    image: "/images/news/excellence-award.jpg",
-    featured: false,
-    title: {
-      de: "Bontera erhält Construction Excellence Award 2024",
-      en: "Bontera Receives Construction Excellence Award 2024",
-      fr: "Bontera reçoit le Construction Excellence Award 2024",
-      nl: "Bontera ontvangt Construction Excellence Award 2024",
-      it: "Bontera riceve il Construction Excellence Award 2024",
-      ku: "Bontera Xelata Serkeftina Avahîsaziyê 2024 wergirt",
-      tr: "Bontera 2024 İnşaat Mükemmellik Ödülü'nü Aldı",
-    },
-    excerpt: {
-      de: "Die prestigeträchtige Branchenauszeichnung würdigt unseren innovativen Ansatz bei der Projektabwicklung und unser Engagement für Qualität.",
-      en: "The prestigious industry award recognizes our innovative approach to project delivery and commitment to quality across our portfolio.",
-      fr: "Cette récompense prestigieuse salue notre approche innovante de la livraison et notre exigence de qualité.",
-      nl: "De prestigieuze brancheprijs erkent onze innovatieve aanpak van projectoplevering en toewijding aan kwaliteit.",
-      it: "Il prestigioso premio del settore riconosce il nostro approccio innovativo alla consegna dei progetti e l'impegno per la qualità.",
-      ku: "Xelata pîşesaziyê ya bi prestij nêzîkatiya me ya nûjen a radestkirina projeyê û sozdariya me ya ji bo kalîteyê nas dike.",
-      tr: "Prestijli sektör ödülü, proje teslimatına yenilikçi yaklaşımımızı ve kaliteye bağlılığımızı onurlandırdı.",
-    },
-  },
+ 
+  
   {
     id: "news-005",
     slug: "riyadh-regional-headquarters",

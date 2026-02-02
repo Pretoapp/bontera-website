@@ -109,18 +109,18 @@ export default async function HomePage({ params }: Props) {
           fadeMs={900}
         />
 
-        {/* Stepped navy overlay on the TEXT side (left) */}
+        {/* ─── Stepped navy overlay – mobile-wider, desktop-original ─── */}
         <div className="absolute inset-0 pointer-events-none z-[2]">
           {[
-            { top: "0%", height: "22%", width: "28%" },
-            { top: "22%", height: "28%", width: "40%" },
-            { top: "50%", height: "26%", width: "50%" },
-            { top: "76%", height: "24%", width: "60%" },
+            { top: "0%", height: "22%", w: "w-[55%] sm:w-[45%] lg:w-[28%]" },
+            { top: "22%", height: "28%", w: "w-[70%] sm:w-[55%] lg:w-[40%]" },
+            { top: "50%", height: "26%", w: "w-[82%] sm:w-[65%] lg:w-[50%]" },
+            { top: "76%", height: "24%", w: "w-[92%] sm:w-[75%] lg:w-[60%]" },
           ].map((s, i) => (
             <div
               key={i}
-              className="absolute left-0 bg-bontera-navy-900/65"
-              style={{ top: s.top, height: s.height, width: s.width }}
+              className={`absolute left-0 bg-bontera-navy-900/65 ${s.w}`}
+              style={{ top: s.top, height: s.height }}
             >
               <div
                 className="absolute inset-0 opacity-[0.06]"
@@ -134,7 +134,8 @@ export default async function HomePage({ params }: Props) {
               />
             </div>
           ))}
-          <div className="absolute inset-0 bg-gradient-to-r from-bontera-navy-900/35 via-transparent to-transparent" />
+          {/* Gradient – stronger on mobile, original on desktop */}
+          <div className="absolute inset-0 bg-gradient-to-r from-bontera-navy-900/55 via-transparent to-transparent lg:from-bontera-navy-900/35" />
         </div>
 
         {/* Floating Stats - Right Side */}
@@ -290,11 +291,11 @@ export default async function HomePage({ params }: Props) {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { key: "construction", slug: "construction", image: "/images/slide-2.jpg" },
+              { key: "construction", slug: "commercial", image: "/images/slide-2.jpg" },
               { key: "restoration", slug: "renovation", image: "/images/expertise-restoration.jpg" },
-              { key: "projectManagement", slug: "project-management", image: "/images/slide-3.jpg" },
+              { key: "projectManagement", slug: "management", image: "/images/slide-3.jpg" },
               { key: "realEstate", slug: "real-estate", image: "/images/careers-feature.jpg" },
-              { key: "brokerage", slug: "brokerage", image: "/images/expertise-civil.jpg" },
+              { key: "brokerage", slug: "real-estate", image: "/images/expertise-civil.jpg" },
               { key: "consulting", slug: "consulting", image: "/images/expertise-building.jpg" },
             ].map((service) => (
               <Link key={service.key} href={`/${locale}/services/${service.slug}`} className="group relative h-80 lg:h-96 overflow-hidden">
@@ -438,7 +439,7 @@ export default async function HomePage({ params }: Props) {
             {[
               { value: "20+", label: t("stats.years"), suffix: "" },
               { value: "40,000", label: t("stats.sqm"), suffix: "+" },
-              { value: "120", label: t("stats.budget"), suffix: "M€" },
+              { value: "80", label: t("stats.budget"), suffix: "+" },
               { value: "7", label: t("stats.languages"), suffix: "" },
             ].map((stat) => (
               <div key={stat.label} className="text-center lg:text-left">
@@ -627,7 +628,7 @@ export default async function HomePage({ params }: Props) {
 
           <div className="mt-16 flex flex-wrap items-center justify-center gap-8 lg:gap-12">
             {[
-              { icon: "ISO", label: "9001:2015" },
+             
               { icon: "LEED", label: t("cta.certifications.leed") },
               { icon: "OSHA", label: t("cta.certifications.osha") },
             ].map((cert) => (

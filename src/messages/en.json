@@ -22,7 +22,7 @@
     "stats": {
       "years": "Years of Experience",
       "sqm": "Square Meters Delivered",
-      "budget": "Budget Managed",
+      "budget": "Projects Delivered",
       "languages": "Languages Spoken"
     }
   },
@@ -98,7 +98,7 @@
   "stats": {
     "years": "Years of Experience",
     "sqm": "Square Meters Delivered",
-    "budget": "Budget Managed",
+    "budget": "Projects Delivered",
     "languages": "Languages Spoken",
     "projects": "Projects Completed",
     "satisfaction": "Client Satisfaction",
@@ -112,7 +112,7 @@
     "points": {
       "quality": {
         "title": "Uncompromising Quality",
-        "description": "ISO 9001:2015 certified processes ensure consistent excellence across every project."
+        "description": "Processes ensure consistent excellence across every project."
       },
       "timeline": {
         "title": "On-Time Delivery",
@@ -126,8 +126,8 @@
   },
   "testimonial": {
     "quote": "Bontera exceeded every expectation. Their attention to detail, professionalism, and commitment to our vision resulted in a landmark building we are incredibly proud of.",
-    "name": "Sarah Mitchell",
-    "role": "CEO, Atlas Development Group"
+    "name": "Reginald Charles",
+    "role": "Lakay Business LTDA"
   },
   "news": {
     "eyebrow": "News & Insights",
@@ -191,7 +191,8 @@
     },
     "company": {
       "ourStory": "Our Story",
-      "leadership": "Leadership Team",
+      "why Bontera": "why Bontera",
+      "whyBontera": "Why Bontera",
       "values": "Mission & Values",
       "certifications": "Certifications",
       "partners": "Partners & Affiliates"
@@ -241,6 +242,49 @@
       "cookies": "Cookie Policy"
     }
   },
+
+  "legalPage": {
+    "meta": {
+      "title": "Legal, Privacy, Cookies & FAQ | Bontera",
+      "description": "Read our legal information, privacy policy, cookie policy, and frequently asked questions."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "legal": "Legal"
+    },
+    "hero": {
+      "eyebrow": "Legal Center",
+      "title": "PRIVACY",
+
+      "subtitle": "Everything you need to know about site usage, data handling, and common questions in one place."
+    },
+    "nav": {
+      "privacy": "Privacy",
+      "terms": "Terms",
+      "cookies": "Cookies",
+      "faq": "FAQ"
+    },
+    "sidebar": {
+      "title": "On this page"
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "body": "Bontera respects your privacy. We only collect information needed to respond to your requests (forms, email, phone) and improve the website experience. We do not sell your data. For questions or requests about your data, contact us at info@bontera.de."
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "body": "By using this website, you agree to use it lawfully and not disrupt its operation. Content (text, images, graphics) is protected and may not be reused without permission. Information on this site is provided for general guidance and may change over time."
+    },
+    "cookies": {
+      "title": "Cookie Policy",
+      "body": "We use cookies and similar technologies to ensure the site functions properly, measure traffic, and improve performance. You can manage preferences in your browser settings. Some features may not work as expected if cookies are disabled."
+    },
+    "faqBlock": {
+      "eyebrow": "Support",
+      "title": "Frequently Asked Questions (FAQ)",
+      "subtitle": "Find answers to common questions about our projects, timelines, and process."
+    }
+  },
   "about": {
     "meta": {
       "title": "About Us | Bontera GmbH",
@@ -250,6 +294,7 @@
       "ourStory": "Our Story",
       "leadership": "Leadership",
       "values": "Values",
+      "whyBontera": "Why Bontera",
       "certifications": "Certifications",
       "partners": "Partners"
     },
@@ -264,7 +309,7 @@
       "stats": {
         "years": "Years of Experience",
         "sqm": "Square Meters Delivered",
-        "budget": "Budget Managed",
+        "budget": "Projects Delivered",
         "languages": "Languages Spoken"
       }
     },
@@ -275,7 +320,7 @@
       "paragraph2": "We guarantee transparency and respect for deadlines. Thanks to our technical expertise and knowledge of the real estate market, we offer reliable, sustainable solutions tailored to each client's needs. Our commitment is based on essential values: professionalism, rigor, and trust.",
       "paragraph3": "Whether it's construction, development, or marketing real estate, our expertise enables us to design and deliver sustainable, high-performance projects adapted to current market requirements. We integrate eco-responsible solutions, quality materials, and environmentally friendly construction methods.",
       "founderQuote": "Our goal is clear: to offer our partners and clients reliable, secure real estate projects with high added value.",
-      "founderName": "Mr. Nedjet",
+      "founderName": "Mr. Necdet",
       "founderTitle": "Founder & Managing Director",
       "yearsExcellence": "Years of Excellence",
       "since": "Established"
@@ -356,11 +401,11 @@
       "viewAll": "View Full Team",
       "members": {
         "ceo": {
-          "name": "Mr. Nedjet",
+          "name": "Mr. Necdet",
           "title": "Chief Executive Officer"
         },
         "coo": {
-          "name": "Sarah Mitchell",
+          "name": "Reginald Charles",
           "title": "Chief Operating Officer"
         },
         "cto": {
@@ -386,7 +431,7 @@
       "stats": {
         "years": "Years Experience",
         "sqm": "Sqm Delivered",
-        "budget": "Budget Managed",
+        "budget": "Projects Delivered",
         "languages": "Languages"
       }
     },
@@ -470,23 +515,33 @@
           }
         },
         "realEstate": {
-          "title": "Real Estate Development",
-          "description": "Creating exceptional real estate investments through strategic development of premium residential, commercial, and mixed-use properties that deliver lasting value.",
+          "title": "Real Estate Development & Brokerage",
+          "description": "End-to-end real estate support, from development and investment strategy to brokerage services for buying, selling, and renting. We secure every stage with market insight, technical rigor, and total transparency.",
           "features": {
             "residential": "Residential Projects",
             "commercial": "Commercial Properties",
             "mixedUse": "Mixed-Use Developments",
-            "investment": "Investment Properties"
+            "investment": "Investment Strategy",
+            "brokerage": "Brokerage: Buy, Sell & Rent"
+          },
+          "brokerage": {
+            "title": "Real Estate Brokerage – Buying, Selling & Renting",
+            "description": "We support clients with property purchase, sale, and rental transactions by leveraging our market expertise. Through our professional network and a personalized approach, we help you make the best decisions and secure your transactions. We defend your interests at every stage to optimize asset value and close under the best conditions. Our commitment is built on total transparency and constant advocacy for our clients’ interests."
           }
         },
         "real-estate": {
-          "title": "Real Estate Development",
-          "description": "Creating exceptional real estate investments through strategic development of premium residential, commercial, and mixed-use properties that deliver lasting value.",
+          "title": "Real Estate Development & Brokerage",
+          "description": "End-to-end real estate support, from development and investment strategy to brokerage services for buying, selling, and renting. We secure every stage with market insight, technical rigor, and total transparency.",
           "features": {
             "residential": "Residential Projects",
             "commercial": "Commercial Properties",
             "mixedUse": "Mixed-Use Developments",
-            "investment": "Investment Properties"
+            "investment": "Investment Strategy",
+            "brokerage": "Brokerage: Buy, Sell & Rent"
+          },
+          "brokerage": {
+            "title": "Real Estate Brokerage – Buying, Selling & Renting",
+            "description": "We support clients with property purchase, sale, and rental transactions by leveraging our market expertise. Through our professional network and a personalized approach, we help you make the best decisions and secure your transactions. We defend your interests at every stage to optimize asset value and close under the best conditions. Our commitment is built on total transparency and constant advocacy for our clients’ interests."
           }
         },
         "residential": {
@@ -645,7 +700,7 @@
       "subtitle": "Explore our diverse portfolio of completed and ongoing projects that showcase our commitment to excellence, innovation, and sustainable construction.",
       "stats": {
         "projectsCompleted": "Projects Completed",
-        "totalValue": "Total Project Value",
+        "totalValue": "Square Meters Delivered",
         "countries": "Countries",
         "onTimeDelivery": "On-Time Delivery"
       }
@@ -671,8 +726,10 @@
       "realEstate": "Real Estate",
       "industrial": "Industrial",
       "renovation": "Renovation",
-      "publicWorks": "Public Works"
+      "publicWorks": "Public Works",
+      "public": "Public Works"
     },
+
     "status": {
       "completed": "Completed",
       "ongoing": "Ongoing",
@@ -700,6 +757,10 @@
         "residential": {
           "title": "Residential",
           "description": "Luxury homes, apartment complexes, and master-planned communities where families thrive."
+        },
+        "infrastructure": {
+          "title": "Infrastructure",
+          "description": "Roads, utilities, public facilities, and civil engineering projects delivered to high compliance standards."
         },
         "realEstate": {
           "title": "Real Estate",
@@ -937,6 +998,7 @@
         }
       }
     },
+
     "featured": {
       "eyebrow": "Hot Opportunities",
       "title": "Featured Positions",
@@ -956,7 +1018,9 @@
       "dubai": "Dubai, UAE",
       "riyadh": "Riyadh, KSA",
       "cairo": "Cairo, Egypt",
-      "london": "London, UK"
+      "london": "London, UK",
+      "brussels": "Brussels, Belgium",
+      "germany": "Halle (Westfalen), Germany"
     },
     "jobTypes": {
       "fullTime": "Full-Time",
@@ -1482,12 +1546,12 @@
       "subtitle": "Our executive team brings together decades of industry experience and a shared commitment to building excellence.",
       "members": {
         "ceo": {
-          "name": "Mr. Nedjet",
+          "name": "Mr. Necdet",
           "title": "Chief Executive Officer",
-          "bio": "With over 30 years in construction, Mr. Nedjet founded Bontera with a vision to transform the industry through innovation and quality."
+          "bio": "With over 30 years in construction, Mr. Necdet founded Bontera with a vision to transform the industry through innovation and quality."
         },
         "coo": {
-          "name": "Sarah Mitchell",
+          "name": "Reginald Charles",
           "title": "Chief Operating Officer",
           "bio": "Sarah oversees all operational aspects, ensuring projects are delivered on time and to the highest standards."
         },
@@ -1509,7 +1573,7 @@
       "paragraph1": "At Bontera, leadership means more than managing projects and people. It means setting the standard for excellence, fostering innovation, and creating an environment where every team member can thrive.",
       "paragraph2": "Our leaders are hands-on professionals who understand the complexities of construction from the ground up. They lead by example, prioritizing safety, quality, and sustainability in every decision.",
       "quote": "Great buildings start with great leadership. We invest in our people because we know that's what builds lasting success.",
-      "quoteAuthor": "Mr. Nedjet",
+      "quoteAuthor": "Mr. Necdet",
       "quoteTitle": "Founder & CEO",
       "stats": {
         "experience": "Years Combined Experience",
@@ -1555,7 +1619,7 @@
       "subtitle": "Distinguished leaders providing strategic guidance and governance.",
       "members": {
         "chairman": {
-          "name": "Mr. Nedjet",
+          "name": "Mr. Necdet",
           "title": "Chairman"
         },
         "director1": {
@@ -1597,7 +1661,7 @@
     "mission": {
       "eyebrow": "Our Mission",
       "title": "Building Excellence, Delivering Value",
-      "description": "To deliver exceptional construction solutions that exceed client expectations, foster innovation, and contribute positively to the communities we serve, while maintaining the highest standards of safety, quality, and sustainability."
+      "description": "We create sustainable, safe, and economically viable solutions for private clients, investors, and businesses. To achieve this, we combine deep market knowledge, transparent advice, and a strong network of financial and real estate partners."
     },
     "vision": {
       "eyebrow": "Our Vision",
@@ -1657,13 +1721,27 @@
         }
       }
     },
+
+    "valuesSnapshot": {
+      "eyebrow": "Values in Action",
+      "title": "What Defines Bontera",
+
+      "items": {
+        "transparencyReliabilityCommitment": "Transparency, reliability, and commitment are the foundation of every partnership.",
+        "technicalExpertise": "Technical expertise and rigorous execution ensure world-class results.",
+        "holisticApproach": "A holistic approach that unites construction and real estate under one vision.",
+        "valueGrowth": "Sustainable value creation with controlled risk and long-term growth."
+      },
+
+      "closing": "At Bontera, values are not statements, they are standards we apply every day."
+    },
     "culture": {
       "eyebrow": "Our Culture",
       "title": "A Culture of Excellence",
       "paragraph1": "At Bontera, our culture is built on mutual respect, collaboration, and a shared commitment to excellence. We foster an environment where every team member feels valued and empowered to contribute their best work.",
       "paragraph2": "We celebrate diversity, encourage innovation, and recognize that our greatest strength lies in our people. Together, we're building more than structures—we're building careers, communities, and a legacy of excellence.",
       "quote": "Culture isn't just about what we do—it's about who we are and how we treat each other. At Bontera, excellence is a way of life.",
-      "quoteAuthor": "Sarah Mitchell",
+      "quoteAuthor": "Reginald Charles",
       "quoteTitle": "Chief Operating Officer",
       "teamMembers": "Team Members Worldwide"
     },
@@ -1708,7 +1786,7 @@
       "since": "Since",
       "items": {
         "iso9001": {
-          "name": "ISO 9001:2015",
+          "name": "ISO",
           "category": "Quality Management",
           "description": "International standard for quality management systems, ensuring consistent delivery of products and services that meet customer requirements."
         },
@@ -1929,7 +2007,7 @@
     },
     "founderQuote": {
       "quote": "Our goal is clear: to offer our partners and clients reliable, secure real estate projects with high added value. With Bontera, you invest in security, competence, and sustainable value creation.",
-      "name": "Mr. Nedjet",
+      "name": "Mr. Necdet",
       "title": "Founder & Managing Director"
     },
     "timeline": {
@@ -1974,10 +2052,10 @@
       "eyebrow": "By The Numbers",
       "title": "Our Achievements",
       "items": {
-        "years": "Years of Experience",
-        "sqm": "Square Meters Delivered",
-        "budget": "Budget Managed",
-        "languages": "Languages Spoken"
+        "projects": "Projects Delivered",
+        "employees": "Team Members",
+        "countries": "Countries of Operation",
+        "awards": "Industry Awards"
       }
     },
     "future": {
@@ -2003,6 +2081,7 @@
       "titleSuffix": "Careers | Bontera Construction",
       "description": "Apply for this exciting career opportunity at Bontera Construction."
     },
+
     "breadcrumb": {
       "home": "Home",
       "careers": "Careers"
@@ -2048,9 +2127,85 @@
       "submit": "Submit Application"
     },
     "backToCareers": "Back to All Positions"
+  },
+
+  "whyBonteraPage": {
+    "meta": {
+      "title": "Why Choose Us? | Bontera Construction",
+      "description": "Bontera is an integrated company that supports its clients at every stage of their projects by combining technical expertise, strategic vision, and operational excellence."
+    },
+    "breadcrumb": {
+      "ariaLabel": "Breadcrumb",
+      "home": "Home",
+      "about": "About",
+      "why Bontera": "Why Bontera",
+      "current": "Why Choose Us?"
+    },
+    "hero": {
+      "imageAlt": "Why Choose Us?",
+      "title": "Why Choose Us?",
+      "subtitle": "Bontera, a Global Partner for Your Real Estate Projects"
+    },
+    "sections": {
+      "global": {
+        "title": "BONTERA GmbH",
+        "p1": "Bontera is an integrated company that supports its clients at every stage of their projects by combining technical expertise, strategic vision, and operational excellence. Our approach is built on transparency, reliability, and commitment, with one constant objective: to create lasting value while controlling risks.",
+        "p2": "Thanks to an in-depth knowledge of the market and rigorous project management, Bontera works with private individuals, companies, and investors, delivering tailored solutions to meet every need."
+      },
+      "contractor": {
+        "title": "Bontera – Contractor",
+        "p1": "As a contractor, Bontera ensures the planning, management, and execution of residential and commercial real estate projects, guaranteeing quality, compliance, and respect of deadlines.",
+        "p2": "We also provide construction consulting services for individuals and businesses seeking to secure their technical and financial decisions. Acting as the representative of public or private project owners, we serve as a single point of contact, defending the client’s interests, coordinating all stakeholders, and ensuring transparent monitoring throughout the project."
+      },
+      "developer": {
+        "title": "Bontera – Project Developer / Real Estate Developer",
+        "p1": "Bontera operates as a project developer and real estate promoter, supporting the creation and development of residential or industrial real estate projects. We carry out comprehensive feasibility studies, integrating technical, regulatory, financial, and commercial aspects to secure investments from the earliest stages.",
+        "p2": "From design through implementation, we provide full project structuring with a global approach aimed at maximizing asset value and ensuring long-term profitability and sustainability."
+      },
+      "broker": {
+        "title": "Bontera – Real Estate Broker",
+        "p1": "As a real estate broker, Bontera supports private clients and investors in their property purchase, sale, and rental transactions. Our market knowledge, combined with strong technical and financial expertise, enables us to identify the best opportunities and secure every transaction.",
+        "p2": "We place transparency and the protection of our clients’ interests at the heart of our work, ensuring informed decisions and optimal results."
+      },
+      "integrated": {
+        "title": "An Integrated Vision of Real Estate",
+        "p1": "The combination of these three areas of expertise allows Bontera to offer a unique, comprehensive approach covering the entire real estate lifecycle: feasibility, design, construction, management, and commercialization. This integrated vision is a guarantee of performance, risk control, and sustainable value creation."
+      }
+    },
+    "cta": {
+      "imageAlt": "Do you have a real estate project?",
+      "title": "Do you have a real estate project?",
+      "description": "Bontera is your strategic partner to bring it to life successfully."
+    }
+  },
+
+  "jobs": {
+    "job-001": {
+      "title": "Senior Project Manager",
+      "description": "Lead complex construction projects from inception to completion, ensuring delivery on time and within budget while maintaining the highest quality standards.",
+      "responsibilities": [
+        "Lead and manage multiple construction projects simultaneously",
+        "Develop and maintain project schedules, budgets, and resource plans",
+        "Coordinate with clients, architects, engineers, and subcontractors",
+        "Ensure compliance with safety regulations and quality standards",
+        "Manage project risks and implement mitigation strategies",
+        "Report project progress to senior management and stakeholders"
+      ],
+      "requirements": [
+        "Bachelor's degree in Civil Engineering, Construction Management, or related field",
+        "8+ years of experience in construction project management",
+        "PMP certification preferred",
+        "Strong leadership and communication skills",
+        "Proficiency in project management software (MS Project, Primavera)",
+        "Experience with large-scale commercial or infrastructure projects"
+      ],
+      "benefits": [
+        "Competitive salary and performance bonuses",
+        "Comprehensive health insurance",
+        "Professional development opportunities",
+        "Relocation assistance",
+        "Annual leave and holiday benefits"
+      ]
+    }
   }
-}
-
-
-
 }
