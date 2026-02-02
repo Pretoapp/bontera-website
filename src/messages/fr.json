@@ -1938,8 +1938,44 @@
       "global": {
         "title": "BONTERA GmbH",
         "p1": "Bontera est une entreprise intégrée qui accompagne ses clients à chaque étape de leurs projets en combinant expertise technique, vision stratégique et excellence opérationnelle. Notre approche repose sur la transparence, la fiabilité et l’engagement, avec un objectif constant : créer une valeur durable tout en maîtrisant les risques.",
-        "p2": "Grâce à une connaissance approfondie du marché et à une gestion rigoureuse des projets, Bontera accompagne les particuliers, les entreprises et les investisseurs en proposant des solutions sur mesure adaptées à chaque besoin."
+        "p2": "Grâce à une connaissance approfondie du marché et à une gestion rigoureuse des projets, Bontera accompagne les particuliers, les entreprises et les investisseurs en proposant des solutions sur mesure adaptées à chaque besoin.",
+        "summaryTitle": "Ce que vous obtenez",
+        "bullets": {
+          "clarity": "Clarté sur le périmètre et les livrables.",
+          "control": "Maîtrise du calendrier et de la coordination.",
+          "finish": "Une finition haut de gamme dont vous pouvez être fier."
+        },
+        "card": {
+          "title": "Livraison premium",
+          "body": "Un standard unique, appliqué avec constance sur l’ensemble du projet.",
+          "ctaLabel": "Email",
+          "ctaValue": "info@bontera.de"
+        }
       },
+      "integrated": {
+        "title": "Une vision intégrée de l’immobilier",
+        "p1": "La combinaison de ces domaines d’expertise permet à Bontera de proposer une approche globale couvrant l’ensemble du cycle de vie immobilier : faisabilité, conception, construction, gestion et commercialisation. Cette vision intégrée améliore la performance, réduit les frictions, et renforce la maîtrise des risques.",
+        "block1Title": "Ce qui est aligné",
+        "block2Title": "Ce que vous pouvez attendre",
+        "bullets": {
+          "scope": "Périmètre et livrables définis",
+          "timeline": "Calendrier et phasage maîtrisés",
+          "quality": "Jalons qualité et validations",
+          "predictable": "Livraison plus prévisible",
+          "accountability": "Responsabilités claires",
+          "premium": "Standard de finition premium"
+        }
+      
+    
+  
+},
+
+
+
+      
+
+      
+      
       "contractor": {
         "title": "Bontera – Entreprise générale",
         "p1": "En tant qu’entreprise générale, Bontera assure la planification, la gestion et l’exécution de projets immobiliers résidentiels et commerciaux, en garantissant la qualité, la conformité et le respect des délais.",
@@ -1954,12 +1990,11 @@
         "title": "Bontera – Courtier immobilier",
         "p1": "En tant que courtier immobilier, Bontera accompagne les particuliers et les investisseurs dans leurs opérations d’achat, de vente et de location. Notre connaissance du marché, associée à une solide expertise technique et financière, nous permet d’identifier les meilleures opportunités et de sécuriser chaque transaction.",
         "p2": "Nous plaçons la transparence et la protection des intérêts de nos clients au cœur de notre démarche, afin de garantir des décisions éclairées et des résultats optimaux."
-      },
-      "integrated": {
-        "title": "Une vision intégrée de l’immobilier",
-        "p1": "La combinaison de ces trois domaines d’expertise permet à Bontera de proposer une approche unique et globale couvrant l’ensemble du cycle de vie immobilier : faisabilité, conception, construction, gestion et commercialisation. Cette vision intégrée est une garantie de performance, de maîtrise des risques et de création de valeur durable."
-      }
-    },
+    }},
+     
+
+
+    
     "cta": {
       "imageAlt": "Vous avez un projet immobilier ?",
       "title": "Vous avez un projet immobilier ?",

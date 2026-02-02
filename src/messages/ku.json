@@ -1862,160 +1862,140 @@
       }
     },
 
-    "cta": {
-      "title": "Bibe hevkar",
-      "description": "Tu dixwazî bi Bontera re hevkarî bikî? Em her dem li rêxistinên ku heman girêdan bi ekselansê re hene digerin.",
-      "becomePartner": "Bibe hevkar",
-      "learnMore": "Zêdetir Bizanin"
-    }
+  
+  "cta": {
+    "title": "Bibe hevkar",
+    "description": "Tu dixwazî bi Bontera re hevkarî bikî? Em her dem li rêxistinên ku heman girêdan bi ekselansê re hene digerin.",
+    "becomePartner": "Bibe hevkar",
+    "learnMore": "Zêdetir bizane"
   },
   "jobDetailPage": {
     "meta": {
-      "titleSuffix": "کار | Bontera Construction",
-      "description": "بۆ ئەم دەرفەتە کارە سەرنجڕاکێشە لە Bontera Construction داواکاری بکە."
+      "titleSuffix": "Kar | Bontera Construction",
+      "description": "Ji bo vê derfetê karê ya balkêş li Bontera Construction serlêdan bike."
     },
     "breadcrumb": {
-      "home": "ماڵەوە",
-      "careers": "کار"
+      "home": "Mal",
+      "careers": "Kar"
     },
-    "featured": "تایبەت",
-    "posted": "بڵاوکراوە",
-    "applyNow": "ئێستا داواکاری بکە",
+    "featured": "Taybet",
+    "posted": "Hat weşandin",
+    "applyNow": "Niha serlêdan bike",
     "sections": {
-      "description": "وەسفی کار",
-      "responsibilities": "بەرپرسیارێتییە سەرەکییەکان",
-      "requirements": "پێداویستییەکان",
-      "benefits": "چی پێشکەش دەکەین"
+      "description": "Danasîna karê",
+      "responsibilities": "Berpirsiyariyên bingehîn",
+      "requirements": "Pêdiviyên bingehîn",
+      "benefits": "Em çi pêşkêş dikin"
     },
     "sidebar": {
-      "quickInfo": "زانیاری خێرا",
-      "department": "بەش",
-      "location": "شوێن",
-      "type": "جۆری کار",
-      "experience": "ئەزموون",
-      "shareJob": "ئەم کارە بڵاوبکەرەوە",
-      "questions": "پرسیارت هەیە؟",
-      "contactText": "تیمی دەستنیشانکردنمان ئامادەیە یارمەتیت بدات. پەیوەندیمان پێوە بکە بۆ هەر پرسیارێک سەبارەت بەم پۆستە."
+      "quickInfo": "Agahiyên bilez",
+      "department": "Beş",
+      "location": "Cih",
+      "type": "Cureyê karê",
+      "experience": "Tecrûbe",
+      "shareJob": "Vê karê parve bike",
+      "questions": "Pirsyarên te hene?",
+      "contactText": "Tîma me ya şandinê amade ye ku alîkariya te bike. Ji bo her pirsê li ser vê pozîsyonê, bi me re têkilî daynin."
     },
     "apply": {
-      "title": "بۆ ئەم پۆستە داواکاری بکە",
-      "subtitle": "فۆڕمەکەی خوارەوە پڕبکەرەوە بۆ ناردنی داواکاریەکەت. ئێمە پێداچوونەوەی دەکەین و زوو پەیوەندیت پێوە دەکەین.",
+      "title": "Ji bo vê pozîsyonê serlêdan bike",
+      "subtitle": "Forma jêrîn tije bike da ku serlêdana xwe bişînî. Em wê binirxînin û di demeke kurt de bi te re têkilî daynin.",
       "fields": {
-        "firstName": "ناوی یەکەم",
-        "lastName": "ناوی کۆتایی",
-        "email": "ناونیشانی ئیمەیڵ",
-        "phone": "ژمارەی تەلەفۆن",
-        "linkedin": "پرۆفایلی LinkedIn",
+        "firstName": "Navê yekem",
+        "lastName": "Navê paşîn",
+        "email": "Navnîşana e-nameyê",
+        "phone": "Hejmara telefonê",
+        "linkedin": "Profîla LinkedIn",
         "resume": "CV",
-        "resumeHint": "فایلەکەت ڕابکێشە بۆ ئێرە یان کلیک بکە بۆ گەڕان",
-        "resumeFormats": "PDF, DOC, DOCX (زۆرترین 5MB)",
-        "coverLetter": "نامەی پێشکەشکردن",
-        "coverLetterPlaceholder": "پێمان بڵێ بۆچی حەزت لەم ڕۆڵە هەیە و چیت دەکاتە کەسێکی گونجاو..."
+        "resumeHint": "Pelê xwe li vir bikşîne an jî bitikîne da ku bibîne",
+        "resumeFormats": "PDF, DOC, DOCX (herî zêde 5MB)",
+        "coverLetter": "Nameya şopandinê",
+        "coverLetterPlaceholder": "Ji me re bêje çima tu vê rolê dixwazî û çi te dike kesekî guncaw..."
       },
       "privacy": {
-        "text": "ڕازیم بە پرۆسێسکردنی داتاکانی کەسییەکەم لەگەڵ",
-        "link": "سیاسەتی تایبەتمەندی"
+        "text": "Ez razî me ku daneyên kesane yên min li gorî",
+        "link": "Siyaseta taybetiyê"
       },
-      "submit": "داواکاری بنێرە"
+      "submit": "Serlêdanê bişîne"
     },
-    "backToCareers": "بگەڕێوە بۆ هەموو پۆستەکان"
-  },
+    "backToCareers": "Vegere hemû pozîsyonan"
+  }
+}
+,
 
+ 
   "whyBonteraPage": {
     "meta": {
-      "title": "Çima me hilbijêrînin? | Bontera Construction",
-      "description": "Bontera şirketeek yekgirtî ye ku di her qonaxê projeyên we de bi têkiliya pisporiya teknîkî, vîzyona stratejîk û baştirîn karûbarê operasyonekî piştgirî dike."
+      "title": "Çima em hilbijêrin? | Bontera Construction",
+      "description": "Bontera pargîdanîyek yekgirtî ye ku di her qonaxê projeyên we de bi hev re pisporiya teknîkî, vîzyona stratejîk û ekselansiya operasyonî têk dike û piştgirî pêşkêş dike."
     },
     "breadcrumb": {
-      "ariaLabel": "Rêberiya rê",
+      "ariaLabel": "Rêbera rê",
       "home": "Destpêk",
       "about": "Derbarê me de",
-      "current": "Çima me hilbijêrînin?"
+      "current": "Çima em hilbijêrin?"
     },
     "hero": {
-      "imageAlt": "Çima me hilbijêrînin?",
-      "title": "Çima me hilbijêrînin?",
+      "imageAlt": "Çima em hilbijêrin?",
+      "title": "Çima em hilbijêrin?",
       "subtitle": "Bontera, hevkarê gerdûnî ji bo projeyên we yên mal û milkê"
     },
     "sections": {
       "global": {
         "title": "BONTERA GmbH",
-        "p1": "Bontera şirketeek yekgirtî ye ku di her qonaxê projeyên we de bi têkiliya pisporiya teknîkî, vîzyona stratejîk û baştirîn karûbarê operasyonekî piştgirî dike. Rêbazê me li ser ronahî, pêbawerî û berpirsyariyê hatiye avakirin, bi armancekî herdemî: afirandina nirxê dirêjdemî bi kontrolkirina xetereyan.",
-        "p2": "Bi zanîna qelew a bazarê û rêveberiya hişk a projeyan, Bontera bi kesên taybet, pargîdanî û veberhêneran re dixebite û çareseriyên li gorî hewcedariyan pêşkêş dike."
+        "p1": "Bontera pargîdanîyek yekgirtî ye ku di her qonaxê projeyan de bi xerîdaran re li gel hev dimeşe, bi tevahî têkiliya pisporiya teknîkî, nêrîna stratejîk û ekselansiya operasyonî. Rêbazê me li ser şeffafî, bawerîpêkî û girêdayîbûnê tê avakirin, bi armancek herdemî: nirxeke mayîndar biafirîne û di heman demê de xetereyan bi rêkûpêk kontrol bike.",
+        "p2": "Bi zanîna kûr a bazarê û rêveberiya projeyê ya bi disiplin, Bontera kesên taybet, pargîdaniyan û veberhêneran bi çareseriyên li gorî hewcedariyên wan piştgirî dike, ku li gorî her daxwazê têne saz kirin.",
+        "summaryTitle": "Tiştên ku hûn bistînin",
+        "bullets": {
+          "clarity": "Roniya tam li ser scope û encamên radestkirinê.",
+          "control": "Kontrol li ser plankirin û hevrêziyê.",
+          "finish": "Qedandina bilind-asta ku hûn dikarin pê serbilind bibin."
+        },
+        "card": {
+          "title": "Radestkirina premium",
+          "body": "Standardeke yek, ku bi domdarî li ser hemû projeyê tê sepandin.",
+          "ctaLabel": "E-name",
+          "ctaValue": "info@bontera.de"
+        }
       },
       "contractor": {
         "title": "Bontera - Pêdivîdar (Contractor)",
-        "p1": "Wekî pêdivîdar, Bontera plankirin, rêvebirin û bicihkirina projeyên avahiyên niştecîhî û bazirganiyê bi awayekî baş dike, bi garantîya qalîteyê, pejirandinê û rêzgirtina deman.",
-        "p2": "Em her weha xizmetên şîretkirina avahîsaziyê pêşkêş dikin ji bo kes û pargîdanîyên ku dixwazin biryarên xwe yên teknîkî û darayî ewle bikin. Wekî nûnerê xwediyê projeyên giştî an taybet, em dibin yek xalê têkilî, berjewendiyên mişterî diparêzin, hemû aliyên têkildar rêkûpêk dikin û şopandina ronahî di tevahî projeyê de dide."
+        "p1": "Wek pêdivîdar, Bontera plankirin, rêvebirin û bicihkirina projeyên avahiyên niştecîhî û bazirganiyê bi awayekî profesyonel pêk tîne, bi garantîya qalîteyê, pejirandinê û rêzgirtina deman.",
+        "p2": "Em her weha xizmetên şîretkirina avahîsaziyê pêşkêş dikin ji bo kes û pargîdanîyan ku dixwazin biryarên xwe yên teknîkî û darayî ewle bikin. Wek nûnerê xwediyê projeyê (giştî an taybet), em dibin yek xalê têkilî, berjewendiyên mişterî diparêzin, hemû aliyên têkildar rêkûpêk dikin û şopandina ronahî di tevahî projeyê de təmin dikin."
       },
       "developer": {
         "title": "Bontera - Pêşvebirê Projeyê / Pêşvebirê Mal û Milkê",
-        "p1": "Bontera wekî pêşvebirê projeyê û pêşvebirê mal û milkê dixebite û di afirandin û pêşvebirina projeyên niştecîhî an endustriyî de alîkariyê dike. Em lêkolînên giştî yên xebatîbûnê (feasibility) pêk tînin ku tê de aliyên teknîkî, qanûnî, darayî û bazarî têne yekgirtin, da ku veberhênerî ji destpêkê ve were ewle kirin.",
-        "p2": "Ji dizaynê heta bicihkirinê, em avakirina projeyê bi nêrîna giştî pêşkêş dikin ku armancê wê zêdekirina nirxê assetê û ewlekirina qazancî û domdarîya dirêjdemî ye."
+        "p1": "Bontera wek pêşvebirê projeyê û pêşvebirê mal û milkê dixebite û di afirandin û pêşvebirina projeyên niştecîhî an endustriyî de alîkarî dike. Em lêkolînên feasibility pêk tînin ku tê de aliyên teknîkî, qanûnî, darayî û bazarî bi hev re têne nirxandin, da ku veberhênerî ji destpêkê ve were ewle kirin.",
+        "p2": "Ji dizaynê heta bicihkirinê, em nêrînek giştî pêşkêş dikin ku armancê wê zêdekirina nirxê assetê, ewlekirina qazancî û domdarîya dirêjdemî ye."
       },
       "broker": {
         "title": "Bontera - Brokerê Mal û Milkê",
-        "p1": "Wekî brokerê mal û milkê, Bontera mişterîyên taybet û veberhêneran di kirîn, firotin û kirêdanê de alîkarî dike. Zanîna me ya bazarê, bi pisporiya teknîkî û darayî ya bihêz re, destûr dide ku em şansên herî baş bibînin û her danûstendinê ewle bikin.",
-        "p2": "Em ronahî û parastina berjewendiyên mişterîyên xwe li navenda karê me dikin, da ku biryar bi agahî bêne girtin û encam baştir be."
+        "p1": "Wek brokerê mal û milkê, Bontera mişterîyên taybet û veberhêneran di kirîn, firotin û kirêdanê de alîkarî dike. Zanîna me ya bazarê bi pisporiya teknîkî û darayî re destûr dide ku em şansên herî baş bibînin û her danûstendinê bi ewlehî bigihînin.",
+        "p2": "Em şeffafî û parastina berjewendiyên mişterîyên xwe li navenda karê xwe dikin, da ku biryar bi agahî were girtin û encam bi şertên herî baş were bidestxistin."
       },
       "integrated": {
-        "title": "Nerînêke yekgirtî ya mal û milkê",
-        "p1": "Têkiliya van sê warên pisporiyê dihêle Bontera ku nêrînekî yekta û tevlihev pêşkêş bike ku tevahiya jiyana projeyên mal û milkê digire: xebatîbûn (feasibility), dizayn, avahî, rêvebirin û firotandin. Ev nerînê yekgirtî garantîya performansê, kontrolkirina xetereyan û afirandina nirxê domdar e."
+        "title": "Nêrînek yekgirtî ya mal û milkê",
+        "p1": "Têkiliya van warên pisporiyê dihêle Bontera ku nêrînek yekgirtî li ser hemû jiyana projeyên mal û milkê pêşkêş bike: feasibility, dizayn, avahî, rêveberin û firotandin. Ev nêrîn performansê baştir dike, xetereyan kêm dike û kontrola projeyê zêde dike.",
+        "block1Title": "Tiştên ku em di yekê de rêz dikin",
+        "block2Title": "Tiştên ku hûn dikarin li bendê bin",
+        "bullets": {
+          "scope": "Scope hate diyarkirin û encamên radestkirinê ronî ne",
+          "timeline": "Plana demê ya rêkûpêk û qonaxên projeyê yên şeffaf",
+          "quality": "Standartên qalîteyê û radestkirinên bi belge",
+          "predictable": "Bicihkirina pêşbînîbar û surprîzên kêm",
+          "accountability": "Berdestîya berpirsiyariyê û ragihandina rasterast",
+          "premium": "Standardê premium di karmendî û hûrguliyên qediya de"
+        }
       }
     },
-    "cta": {
-      "imageAlt": "Projeyekî mal û milkê hûn heye?",
-      "title": "Projeyekî mal û milkê hûn heye?",
-      "description": "Bontera hevkarê we yê stratejîk e ku ew bi serkeftinê bike."
-    },
+ 
 
-    "whyBonteraPage": {
-      "meta": {
-        "title": "Neden Bizi Seçmelisiniz? | Bontera Construction",
-        "description": "Bontera; teknik uzmanlık, stratejik vizyon ve operasyonel mükemmelliği bir araya getirerek müşterilerini projelerinin her aşamasında destekleyen entegre bir şirkettir."
-      },
-      "breadcrumb": {
-        "ariaLabel": "Gezinti yolu",
-        "home": "Ana Sayfa",
-        "about": "Hakkımızda",
-        "current": "Neden Bizi Seçmelisiniz?"
-      },
-      "hero": {
-        "imageAlt": "Neden Bizi Seçmelisiniz?",
-        "title": "Neden Bizi Seçmelisiniz?",
-        "subtitle": "Bontera, gayrimenkul projeleriniz için küresel bir ortak"
-      },
-      "sections": {
-        "global": {
-          "title": "Bontera, gayrimenkul projeleriniz için küresel bir ortak",
-          "p1": "Bontera; teknik uzmanlık, stratejik vizyon ve operasyonel mükemmelliği bir araya getirerek müşterilerini projelerinin her aşamasında destekleyen entegre bir şirkettir. Yaklaşımımız şeffaflık, güvenilirlik ve bağlılık üzerine kuruludur. Tek ve değişmeyen hedefimiz şudur: riskleri kontrol ederken kalıcı değer yaratmak.",
-          "p2": "Derin pazar bilgisi ve disiplinli proje yönetimi sayesinde Bontera; bireyler, şirketler ve yatırımcılarla çalışır ve her ihtiyaca uygun, kişiselleştirilmiş çözümler sunar."
-        },
-        "contractor": {
-          "title": "Bontera - Yüklenici",
-          "p1": "Yüklenici olarak Bontera, konut ve ticari gayrimenkul projelerinin planlama, yönetim ve uygulama süreçlerini üstlenir; kaliteyi, mevzuata uygunluğu ve teslim tarihlerine sadakati güvence altına alır.",
-          "p2": "Ayrıca teknik ve finansal kararlarını güvence altına almak isteyen bireyler ve işletmeler için inşaat danışmanlığı hizmetleri sunarız. Kamu veya özel proje sahiplerinin temsilcisi olarak tek irtibat noktası olur, müşterinin çıkarlarını korur, tüm paydaşları koordine eder ve proje boyunca şeffaf takip sağlar."
-        },
-        "developer": {
-          "title": "Bontera - Proje Geliştirici / Gayrimenkul Geliştirici",
-          "p1": "Bontera; proje geliştirici ve gayrimenkul promotörü olarak, konut veya endüstriyel gayrimenkul projelerinin oluşturulması ve geliştirilmesini destekler. Yatırımı en erken aşamalardan itibaren güvence altına almak için teknik, yasal, finansal ve ticari unsurları entegre eden kapsamlı fizibilite çalışmaları yürütürüz.",
-          "p2": "Tasarım aşamasından uygulamaya kadar, varlık değerini maksimize etmeyi ve uzun vadeli kârlılık ile sürdürülebilirliği sağlamayı hedefleyen bütüncül bir yaklaşımla projenin tam yapılandırmasını sunarız."
-        },
-        "broker": {
-          "title": "Bontera - Gayrimenkul Danışmanı",
-          "p1": "Gayrimenkul danışmanı olarak Bontera, bireysel müşteriler ve yatırımcıların alım, satım ve kiralama işlemlerinde yanında olur. Pazar bilgimiz ve güçlü teknik-finansal uzmanlığımız sayesinde en iyi fırsatları belirler ve her işlemi güvence altına alırız.",
-          "p2": "Şeffaflığı ve müşterilerimizin çıkarlarını korumayı işimizin merkezine koyar, bilinçli kararlar ve en iyi sonuçlar için süreci titizlikle yönetiriz."
-        },
-        "integrated": {
-          "title": "Gayrimenkule Entegre Bir Bakış",
-          "p1": "Bu üç uzmanlık alanının birleşimi, Bontera’ya gayrimenkul yaşam döngüsünün tamamını kapsayan benzersiz ve kapsamlı bir yaklaşım sunma imkânı verir: fizibilite, tasarım, inşaat, yönetim ve ticarileştirme. Bu entegre bakış; performans, risk kontrolü ve sürdürülebilir değer yaratımı için bir güvencedir."
-        }
-      },
+      
       "cta": {
         "imageAlt": "Bir gayrimenkul projeniz var mı?",
         "title": "Bir gayrimenkul projeniz var mı?",
         "description": "Bontera, onu başarıyla hayata geçirmek için stratejik ortağınızdır."
       }
-    }
+    
   }
 }

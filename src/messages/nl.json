@@ -1931,9 +1931,40 @@
     "sections": {
       "global": {
         "title": "BONTERA GmbH",
-        "p1": "Bontera is een geïntegreerd bedrijf dat klanten in elke fase van hun projecten ondersteunt door technische expertise, strategische visie en operationele excellentie te combineren. Onze aanpak is gebouwd op transparantie, betrouwbaarheid en toewijding, met één constant doel: duurzame waarde creëren terwijl we risico’s beheersen.",
-        "p2": "Dankzij diepgaande marktkennis en strak projectmanagement werkt Bontera samen met particulieren, bedrijven en investeerders en levert het maatwerkoplossingen voor elke behoefte."
+        "p1": "Bontera is een geïntegreerd bedrijf dat klanten in elke fase van hun projecten ondersteunt door technische expertise, strategisch inzicht en operationele excellentie te combineren. Onze aanpak is gebaseerd op transparantie, betrouwbaarheid en betrokkenheid, met één constant doel: duurzame waarde creëren en risico’s strak beheersen.",
+        "p2": "Dankzij diepgaande marktkennis en strak projectmanagement begeleidt Bontera particulieren, bedrijven en investeerders met maatwerkoplossingen die aansluiten op elke behoefte.",
+        "summaryTitle": "Wat u krijgt",
+        "bullets": {
+          "clarity": "Duidelijkheid over de scope en de oplevering.",
+          "control": "Beheersing van planning en coördinatie.",
+          "finish": "Een hoogwaardige afwerking waar u trots op kunt zijn."
+        },
+        "card": {
+          "title": "Premium oplevering",
+          "body": "Eén uniforme standaard, consequent toegepast gedurende het hele project.",
+          "ctaLabel": "E-mail",
+          "ctaValue": "info@bontera.de"
+        }
       },
+      "integrated": {
+        "title": "Een geïntegreerde kijk op vastgoed",
+        "p1": "Door deze disciplines te combineren, levert Bontera een geïntegreerde aanpak over de volledige vastgoedcyclus: haalbaarheid, ontwerp, bouw, exploitatie en commercialisering. Dit verhoogt de prestaties, vermindert overdrachtsverlies en versterkt de risicobeheersing.",
+        "block1Title": "Wat is afgestemd",
+        "block2Title": "Wat u kunt verwachten",
+        "bullets": {
+          "scope": "Vastgelegde scope en duidelijke deliverables",
+          "timeline": "Gestructureerde planning en heldere projectfasen",
+          "quality": "Kwaliteitsmijlpalen en gedocumenteerde opleveringen",
+          "predictable": "Meer voorspelbare uitvoering en minder verrassingen",
+          "accountability": "Duidelijke verantwoordelijkheden en korte lijnen",
+          "premium": "Premium standaard in uitvoering en detaillering"
+        }
+      
+    
+  
+},
+
+
       "contractor": {
         "title": "Bontera – Aannemer",
         "p1": "Als aannemer zorgt Bontera voor de planning, het beheer en de uitvoering van residentiële en commerciële vastgoedprojecten, met garanties op kwaliteit, naleving en respect voor deadlines.",
@@ -1948,12 +1979,8 @@
         "title": "Bontera – Vastgoedmakelaar",
         "p1": "Als vastgoedmakelaar begeleidt Bontera particuliere klanten en investeerders bij aankoop-, verkoop- en verhuurtransacties. Onze marktkennis, gecombineerd met sterke technische en financiële expertise, stelt ons in staat om de beste kansen te identificeren en elke transactie te beveiligen.",
         "p2": "Wij plaatsen transparantie en de bescherming van de belangen van onze klanten centraal, zodat beslissingen goed onderbouwd zijn en resultaten optimaal."
-      },
-      "integrated": {
-        "title": "Een geïntegreerde visie op vastgoed",
-        "p1": "De combinatie van deze drie expertisedomeinen stelt Bontera in staat om een unieke, complete aanpak te bieden voor de volledige vastgoedcyclus: haalbaarheid, ontwerp, bouw, beheer en commercialisering. Deze geïntegreerde visie staat garant voor prestaties, risicobeheersing en duurzame waardecreatie."
-      }
-    },
+    } },
+   
     "cta": {
       "imageAlt": "Heeft u een vastgoedproject?",
       "title": "Heeft u een vastgoedproject?",

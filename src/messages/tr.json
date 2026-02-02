@@ -1969,6 +1969,7 @@
     },
     "backToCareers": "Tüm Pozisyonlara Dön"
   },
+ 
   "whyBonteraPage": {
     "meta": {
       "title": "Neden Bizi Seçmelisiniz? | Bontera Construction",
@@ -1988,9 +1989,60 @@
     "sections": {
       "global": {
         "title": "BONTERA GmbH",
-        "p1": "Bontera; teknik uzmanlık, stratejik vizyon ve operasyonel mükemmelliği bir araya getirerek müşterilerini projelerinin her aşamasında destekleyen entegre bir şirkettir. Yaklaşımımız şeffaflık, güvenilirlik ve bağlılık üzerine kuruludur. Tek ve değişmeyen hedefimiz şudur: riskleri kontrol ederken kalıcı değer yaratmak.",
-        "p2": "Derin pazar bilgisi ve disiplinli proje yönetimi sayesinde Bontera; bireyler, şirketler ve yatırımcılarla çalışır ve her ihtiyaca uygun, kişiselleştirilmiş çözümler sunar."
+        "p1": "Bontera; teknik uzmanlık, stratejik bakış ve operasyonel mükemmeliyeti bir araya getirerek müşterilerine projelerinin her aşamasında uçtan uca eşlik eden entegre bir şirkettir. Yaklaşımımız şeffaflık, güvenilirlik ve bağlılık üzerine kuruludur. Değişmeyen hedefimiz, riskleri kontrol altında tutarken kalıcı değer yaratmaktır.",
+        "p2": "Derin pazar bilgisi ve disiplinli proje yönetimi yaklaşımıyla Bontera; bireylere, şirketlere ve yatırımcılara her ihtiyaca uygun, özel çözümler sunar.",
+        "summaryTitle": "Sunduğumuz avantajlar",
+        "bullets": {
+          "clarity": "Kapsam ve teslimatlar konusunda netlik.",
+          "control": "Takvim ve koordinasyon üzerinde güçlü kontrol.",
+          "finish": "Gurur duyacağınız üst düzey bitiş kalitesi."
+        },
+        "card": {
+          "title": "Premium teslimat",
+          "body": "Projenin tamamında tutarlılıkla uygulanan tek ve özgün bir standart.",
+          "ctaLabel": "E-posta",
+          "ctaValue": "info@bontera.de"
+        }
       },
+      "contractor": {
+        "title": "Bontera - Yüklenici",
+        "p1": "Yüklenici olarak Bontera; konut ve ticari projelerin planlama, yönetim ve uygulama süreçlerini üstlenir. Kaliteyi, mevzuata uygunluğu ve teslim tarihine bağlılığı güvence altına alır.",
+        "p2": "Teknik ve finansal kararlarını güvence altına almak isteyen bireyler ve işletmeler için inşaat danışmanlığı da sunarız. Kamu veya özel proje sahiplerinin temsilcisi olarak tek irtibat noktası olur, müşterinin çıkarlarını korur, tüm paydaşları koordine eder ve proje boyunca şeffaf takip sağlar."
+      },
+      "developer": {
+        "title": "Bontera - Proje Geliştirici / Gayrimenkul Geliştirici",
+        "p1": "Bontera; proje geliştirici ve gayrimenkul geliştirici olarak, konut veya endüstriyel gayrimenkul projelerinin oluşturulması ve geliştirilmesini destekler. Yatırımı en erken aşamalardan itibaren güvence altına almak için teknik, yasal, finansal ve ticari unsurları bir araya getiren kapsamlı fizibilite çalışmaları yürütür.",
+        "p2": "Tasarım aşamasından uygulamaya kadar, varlık değerini maksimize etmeyi ve uzun vadeli karlılık ile sürdürülebilirliği sağlamayı hedefleyen bütüncül bir proje kurgusu sunar."
+      },
+      "broker": {
+        "title": "Bontera - Gayrimenkul Danışmanı",
+        "p1": "Gayrimenkul danışmanı olarak Bontera, bireysel müşteriler ve yatırımcıların alım, satım ve kiralama süreçlerinde yanında olur. Pazar bilgimiz ve güçlü teknik-finansal uzmanlığımız sayesinde en iyi fırsatları belirler ve her işlemi güvence altına alırız.",
+        "p2": "Şeffaflığı ve müşterilerimizin çıkarlarını korumayı işimizin merkezine koyar, bilinçli kararlar ve en iyi sonuçlar için süreci titizlikle yönetiriz."
+      },
+      "integrated": {
+        "title": "Entegre gayrimenkul bakışı",
+        "p1": "Bu üç uzmanlık alanının birleşimi, Bontera’nın gayrimenkul projelerinin yaşam döngüsünün tamamını kapsayan entegre bir yaklaşım sunmasını sağlar: fizibilite, tasarım, inşaat, proje yönetimi ve satış. Bu yaklaşım performansı artırır, riskleri azaltır ve proje üzerindeki kontrolü güçlendirir.",
+        "block1Title": "Tek çatı altında yönettiklerimiz",
+        "block2Title": "Bekleyebileceğiniz çıktılar",
+        "bullets": {
+          "scope": "Kapsam ve teslimatlar net, yazılı ve izlenebilir",
+          "timeline": "Şeffaf aşamalarla yönetilen gerçekçi zaman planı",
+          "quality": "Standartlaştırılmış kalite kontrol ve dokümantasyon",
+          "predictable": "Öngörülebilir uygulama, minimum sürpriz",
+          "accountability": "Tek sorumluluk noktası ve düzenli raporlama",
+          "premium": "Detaylarda premium işçilik standardı"
+        }
+      }
+    },
+    "cta": {
+      "imageAlt": "Bir gayrimenkul projeniz mi var?",
+      "title": "Bir gayrimenkul projeniz mi var?",
+      "description": "Bontera, projenizi başarıyla hayata geçirmek için stratejik ortağınızdır."
+    }
+  
+
+,
+
       "contractor": {
         "title": "Bontera - Yüklenici",
         "p1": "Yüklenici olarak Bontera, konut ve ticari gayrimenkul projelerinin planlama, yönetim ve uygulama süreçlerini üstlenir; kaliteyi, mevzuata uygunluğu ve teslim tarihlerine sadakati güvence altına alır.",
@@ -2005,16 +2057,8 @@
         "title": "Bontera - Gayrimenkul Danışmanı",
         "p1": "Gayrimenkul danışmanı olarak Bontera, bireysel müşteriler ve yatırımcıların alım, satım ve kiralama işlemlerinde yanında olur. Pazar bilgimiz ve güçlü teknik-finansal uzmanlığımız sayesinde en iyi fırsatları belirler ve her işlemi güvence altına alırız.",
         "p2": "Şeffaflığı ve müşterilerimizin çıkarlarını korumayı işimizin merkezine koyar, bilinçli kararlar ve en iyi sonuçlar için süreci titizlikle yönetiriz."
-      },
-      "integrated": {
-        "title": "Gayrimenkule Entegre Bir Bakış",
-        "p1": "Bu üç uzmanlık alanının birleşimi, Bontera’ya gayrimenkul yaşam döngüsünün tamamını kapsayan benzersiz ve kapsamlı bir yaklaşım sunma imkânı verir: fizibilite, tasarım, inşaat, yönetim ve ticarileştirme. Bu entegre bakış; performans, risk kontrolü ve sürdürülebilir değer yaratımı için bir güvencedir."
-      }
-    },
-    "cta": {
-      "imageAlt": "Bir gayrimenkul projeniz var mı?",
-      "title": "Bir gayrimenkul projeniz var mı?",
-      "description": "Bontera, onu başarıyla hayata geçirmek için stratejik ortağınızdır."
-    }
-  }
-}
+  }}}
+
+    
+  
+

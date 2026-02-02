@@ -1913,10 +1913,11 @@
     },
     "backToCareers": "Torna a tutte le posizioni"
   },
+
   "whyBonteraPage": {
     "meta": {
       "title": "Perché scegliere noi? | Bontera Construction",
-      "description": "Bontera è una società integrata che supporta i clienti in ogni fase dei progetti, combinando competenza tecnica, visione strategica ed eccellenza operativa."
+      "description": "Bontera è una società integrata che supporta i clienti in ogni fase del progetto, combinando competenza tecnica, visione strategica ed eccellenza operativa."
     },
     "breadcrumb": {
       "ariaLabel": "Percorso di navigazione",
@@ -1932,9 +1933,39 @@
     "sections": {
       "global": {
         "title": "BONTERA GmbH",
-        "p1": "Bontera è una società integrata che supporta i clienti in ogni fase dei progetti, combinando competenza tecnica, visione strategica ed eccellenza operativa. Il nostro approccio si basa su trasparenza, affidabilità e impegno, con un obiettivo costante: creare valore duraturo mantenendo i rischi sotto controllo.",
-        "p2": "Grazie a una conoscenza approfondita del mercato e a una gestione rigorosa dei progetti, Bontera lavora con privati, aziende e investitori, offrendo soluzioni su misura per ogni esigenza."
+        "p1": "Bontera è una realtà integrata che accompagna i clienti in ogni fase dei loro progetti, unendo competenza tecnica, visione strategica ed eccellenza operativa. Il nostro approccio si fonda su trasparenza, affidabilità e impegno, con un obiettivo costante: creare valore duraturo e gestire i rischi con rigore.",
+        "p2": "Grazie a una profonda conoscenza del mercato e a una gestione strutturata dei progetti, Bontera affianca privati, aziende e investitori con soluzioni su misura, pensate per rispondere a ogni esigenza.",
+        "summaryTitle": "Cosa ottieni",
+        "bullets": {
+          "clarity": "Chiarezza su perimetro e risultati attesi.",
+          "control": "Controllo di pianificazione e coordinamento.",
+          "finish": "Una finitura di alto livello di cui essere orgogliosi."
+        },
+        "card": {
+          "title": "Consegna premium",
+          "body": "Uno standard unico, applicato con coerenza lungo l’intero progetto.",
+          "ctaLabel": "Email",
+          "ctaValue": "info@bontera.de"
+        }
       },
+      "integrated": {
+        "title": "Un approccio integrato all’immobiliare",
+        "p1": "Combinando queste competenze, Bontera offre un approccio integrato lungo l’intero ciclo immobiliare: fattibilità, progettazione, costruzione, gestione e valorizzazione. Questo migliora le performance, riduce le inefficienze nei passaggi e rafforza il controllo dei rischi.",
+        "block1Title": "Cosa viene allineato",
+        "block2Title": "Cosa puoi aspettarti",
+        "bullets": {
+          "scope": "Perimetro definito e deliverable chiari",
+          "timeline": "Pianificazione strutturata e fasi di progetto trasparenti",
+          "quality": "Milestone di qualità e consegne documentate",
+          "predictable": "Esecuzione più prevedibile e meno sorprese",
+          "accountability": "Responsabilità chiare e comunicazione diretta",
+          "premium": "Standard premium in esecuzione e cura dei dettagli"
+        }
+      
+    
+  
+},
+
       "contractor": {
         "title": "Bontera – Impresa di costruzioni",
         "p1": "Come impresa di costruzioni, Bontera garantisce la pianificazione, la gestione e l’esecuzione di progetti immobiliari residenziali e commerciali, assicurando qualità, conformità e rispetto delle scadenze.",
@@ -1949,12 +1980,8 @@
         "title": "Bontera – Intermediazione immobiliare",
         "p1": "Come intermediario immobiliare, Bontera affianca clienti privati e investitori nelle operazioni di acquisto, vendita e locazione. La nostra conoscenza del mercato, unita a una forte competenza tecnica e finanziaria, ci consente di individuare le migliori opportunità e di mettere in sicurezza ogni transazione.",
         "p2": "Mettiamo trasparenza e tutela degli interessi dei nostri clienti al centro del nostro lavoro, garantendo decisioni informate e risultati ottimali."
-      },
-      "integrated": {
-        "title": "Una visione integrata dell’immobiliare",
-        "p1": "La combinazione di queste tre aree di competenza consente a Bontera di offrire un approccio unico e completo che copre l’intero ciclo di vita immobiliare: fattibilità, progettazione, costruzione, gestione e commercializzazione. Questa visione integrata è una garanzia di performance, controllo dei rischi e creazione di valore sostenibile."
-      }
-    },
+   }},
+    
     "cta": {
       "imageAlt": "Hai un progetto immobiliare?",
       "title": "Hai un progetto immobiliare?",
