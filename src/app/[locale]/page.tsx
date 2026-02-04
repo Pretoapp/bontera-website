@@ -14,6 +14,19 @@ import { getLatestNews } from "@/data/news";
 import HeroBackgroundSlider from "@/components/home/HeroSlider";
 import ProjectsCarousel from "@/components/home/ProjectsCarousel";
 
+type LocalizedText = Partial<Record<LocaleKey, string>>;
+
+function localizeText(
+  v: string | LocalizedText | undefined,
+  loc: LocaleKey,
+  fallback = "🔒"
+) {
+  if (!v) return fallback;
+  if (typeof v === "string") return v;
+  return v[loc] || v.en || Object.values(v)[0] || fallback;
+}
+
+
 /* ═══════════════════════════════════════════════════════════════════════════
    TYPES
    ═══════════════════════════════════════════════════════════════════════════ */
@@ -52,19 +65,24 @@ export default async function HomePage({ params }: Props) {
   const featuredProjectsData = getFeaturedProjects();
 
   // Process projects for carousel
-  const processedProjects = featuredProjectsData.slice(0, 6).map((p) => ({
-    id: p.id,
-    slug: p.slug,
-    title: p.title[loc] || p.title.en,
-    category: tProjects(`categories.${p.category}`),
-    categorySlug: p.category,
-    location: p.location[loc] || p.location.en,
-    year: p.year,
-    value: p.value,
-    client: p.client,
-    imageUrl: p.image || "/images/placeholder.jpg",
-    href: `/${locale}/projects/${p.slug}`,
-  }));
+ const processedProjects = featuredProjectsData.slice(0, 6).map((p) => ({
+  id: p.id,
+  slug: p.slug,
+  title: p.title[loc] || p.title.en,
+  category: tProjects(`categories.${p.category}`),
+  categorySlug: p.category,
+  location: p.location[loc] || p.location.en,
+  year: p.year,
+
+  // FIX: always pass a string to the carousel
+  value: localizeText(p.value as any, loc, "🔒"),
+
+ client: p.client ?? "",
+
+  imageUrl: p.image || "/images/placeholder.jpg",
+  href: `/${locale}/projects/${p.slug}`,
+}));
+
 
   // Get projects for the bento grid section
   const bentoProjects = projects.slice(0, 4).map((p) => ({

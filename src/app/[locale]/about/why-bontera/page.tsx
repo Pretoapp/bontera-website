@@ -678,7 +678,10 @@ export default async function WhyBonteraPage({ params }: Props) {
           <div className="text-center max-w-3xl mx-auto mb-20 lg:mb-24">
             <span className="inline-flex items-center gap-4 text-bontera-grey-400 text-xs uppercase tracking-[0.3em] font-semibold">
               <span className="w-10 h-px bg-bontera-grey-500" />
-              {safeT(t, "sections.integrated.eyebrow", "Operating model")}
+     {safeT(t, "sections.integrated.eyebrow", "Operating model")}
+
+
+
               <span className="w-10 h-px bg-bontera-grey-500" />
             </span>
 

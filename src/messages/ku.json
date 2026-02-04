@@ -8,88 +8,96 @@
     "news": "Nûçe",
     "contact": "Têkilî"
   },
+
+  "sections": {
+    "integrated": {
+      "eyebrow": "Modela xebatê"
+    }
+  },
+
   "ourStoryPage": {
     "meta": {
-      "title": "Çîroka me | Bontera",
-      "description": "Serdana destpêkê, pêşketin û vîzyona Bontera bibîne. Ji 2004 heta îro, rêwîtiyek ku bi ekselans, ewlehî û domdarî tê rêvebirin."
+      "title": "Çîroka Me | Bontera.",
+      "description": "Destpêk, pêşketin û vizyona Bontera bibîne. Ji 2004 heta îro, rêwîtiyek bi xebata baş, ewlehî û domdarî tê rêvebirin."
     },
     "breadcrumb": {
       "home": "Destpêk",
       "about": "Derbarê me de",
-      "ourStory": "Çîroka me"
+      "ourStory": "Çîroka Me"
     },
     "hero": {
-      "eyebrow": "Çîroka me",
-      "title": "Mîratek ku armancan dike rastî",
-      "subtitle": "Bi zêdetir ji 20 salan ezmûnê di avakirinê, pêşxistina projeyan û navberîya malbatan de, em di her gavê de bi ewlehî, kalîte û transparansê re li gel xerîdarên xwe dimeşin."
+      "eyebrow": "Çîroka Me",
+      "title": "Mîratek ku hedefan dike rastiyê",
+      "subtitle": "Bi zêdetir ji 20 salan tecrûbe di avakirina, pêşvebirina projeyan de, em bi transparans, karîgerî û bawerî, li her gavê li kêleka we ne."
     },
     "origin": {
-      "eyebrow": "Serdema destpêkê",
-      "title": "Li wir ku hemû tişt dest pê kir",
-      "paragraph1": "Bontera ji baweriyek sade hatiye dayîn: bi şert, transparans û zanyarîya teknîkî ava bike, da ku projeyên bawerbar û dirêjdemî bêne teslim kirin.",
-      "paragraph2": "Ji destpêkê ve, me rêbazê xwe li ser ewlehî, rêzgirtina standardan û rêvebirina bihayê û deman bi disiplin avakirin.",
-      "paragraph3": "Bi salan re, ezmûna me ber bi projeyên zêdetir tevlihev mezin bû, û di heman demê de balê me li ser performansa enerjiyê û pratîkên avakirina berpirsyar zêde bû.",
+      "eyebrow": "Destpêk",
+      "title": "Li ku dest pê kir",
+      "paragraph1": "Bontera ji baweriyek hêsan hat dayîn: bi rêgez, transparans û zanyarîya teknîkî ava bikin, da ku projeyên piştgirîdar û dirêjdemî were teslim kirin.",
+      "paragraph2": "Ji destpêkê ve, em şêwaza xwe li ser ewlehî, rêzgirtina standardan, û rêvebirina bi rêgez a lêçûn û deman avakirin.",
+      "paragraph3": "Bi salan re, tecrûbeya me berbi projeyên zêdetir aloz pêş ket, bi baldarîya zêde li performansa enerjiyê û rêbazên avakirina berpirsiyar.",
       "founded": "Damezrandin",
-      "location": "Berlin, Almanya"
+      "location": "Brûksel, Belçîka"
     },
     "founderQuote": {
-      "quote": "Armanca me eşkere ye: ji bo hevkar û xerîdarên xwe projeyên neynikan ên bawerbar, ewle û bi nirxa zêde pêşkêş bikin.",
+      "quote": "Armanca me eşkere ye: ji bo hevkar û xerîdarên me, projeyên milkî yên bawerbar, ewle û bi nirxa zêde pêşkêş bikin.",
       "name": "Mr. Necdet",
-      "title": "Damezrîner û Rêvebirê Giştî"
+      "title": "Damezrîner & CEO"
     },
     "timeline": {
-      "eyebrow": "Rêya me",
-      "title": "Milestoneên ku me diyar dikin",
+      "eyebrow": "Rêwîtiya me",
+      "title": "Mehengan ku me diyar dikin",
       "milestones": {
         "founding": {
           "title": "Destpêk",
-          "description": "Bontera bi vîzyonek hate damezrandin: standardên kalîte, ewlehî û teslimkirinê bilind bike."
+          "description": "Bontera tê damezrandin bi vizyonek: standardên kalîte, ewlehî û teslîmkirinê bilind bike."
         },
         "firstMajor": {
-          "title": "Projekta mezin ya yekem",
-          "description": "Teslimkirina projeya mezin a yekem, ku bawerî û rêbaza me ya pêkanînê xurt kir."
+          "title": "Proje ya yekem a mezin",
+          "description": "Teslîmkirina projeya me ya yekem a mezin, ku bawerî û metoda me ya xebatê xurt kir."
         },
         "expansion": {
           "title": "Firehbûna herêmî",
-          "description": "Hevkarîyên bingehîn, mezinbûna tîmê û firehbûna hêza operasiyonê bi qademan."
+          "description": "Hevkarîyên girîng, mezinbûna tîmê, û firehbûna hêdî-hêdî ya kapasîteya me ya operasyonê."
         },
         "international": {
-          "title": "Bûna navneteweyî",
-          "description": "Firehbûn li çend bazaran, bi rêbazek standard û pêkanîna herêmî ya kontrolkirî."
+          "title": "Firehbûna navneteweyî",
+          "description": "Xebat li çend bazaran, bi şêwazeke standard û xebata herêmî ya kontrolkirî."
         },
         "sustainability": {
-          "title": "Guhertina domdarî",
-          "description": "Têkildarkirina pratîkên berpirsyar, materyalên optimizekirî û armancên performansa enerjiyê di projeyan de."
+          "title": "Guhertina berbi domdarî",
+          "description": "Têkildarkirina rêbazên berpirsiyar, materyalên baştir û armancên performansa enerjiyê di projeyan de."
         },
         "technology": {
           "title": "Lezkirina teknolojiyê",
-          "description": "Bikaranîna amûrên koordînasyona pêşkeftî û rêbazên nû ji bo başkirina kalîte, dem û şopandinê."
+          "description": "Bikaranîna amûrên pêşkeftî yên koordînasyonê û rêbazên nû ji bo kalîte, dem û şopandinê."
         },
         "pandemic": {
-          "title": "Berxwedan di demek şert de",
-          "description": "Adaptasyona bilez a prosesan û domandina teslimkirinan, her çend şertên cîhanî ne stabîl bûn."
+          "title": "Bersivdan di demeke krîtîk de",
+          "description": "Guhertina bilez a pêvajoyan û parastina teslîmkirinê, her çend cîhan di ne aramiyê de bû."
         },
         "future": {
           "title": "Avakirina sibê",
-          "description": "Domandina nûbûnê, bilindkirina kalîte û firehbûn bi projeyên domdar û bi nirxa bilind."
+          "description": "Berdewamîya nûbûnan, çûyîna berbi asta bilind, û firehbûna li ser projeyên domdar û bi nirxa zêde."
         }
       }
-    },
+     }
+,
     "achievements": {
       "eyebrow": "Bi hejmaran",
       "title": "Serkeftinên me",
       "items": {
-        "projects": "Projeyên hatine teslim kirin",
-        "employees": "Endamên tîmê",
-        "countries": "Welatên ku em tê de dixebitin",
-        "awards": "Xelat"
+        "projects": "Projeyên teslîm kirî",
+        "deliveredValue": "Nirxa teslîm kirî",
+        "countries": "Welat",
+        "sqmDelivered": "Metreka çargoşeyî ya teslîm kirî"
       }
     },
     "future": {
-      "eyebrow": "Li ber sibê",
-      "title": "Vîzyona sibê",
-      "paragraph1": "Pêşîniya me ew e ku projeyên zêdetir performansdar, ewle û domdar bêne teslim kirin, bê ku ji kalîteyê kêm bibe.",
-      "paragraph2": "Em di rêbazên xebatê, têlent û hevkarîyên pêwîst de ve-invest dikin, da ku di bazarên xwe de her tim rolek bingehîn bihêlin.",
+      "eyebrow": "Ber bi pêş",
+      "title": "Vizyona sibê",
+      "paragraph1": "Pêşniyara me ev e ku projeyên herî zêde performansdar, ewle û domdar bidin, bêyî ku em ji kalîteyê dûr bibin.",
+      "paragraph2": "Em di rêbaz, talant û hevkariyên pêwîst de veberhênan dikin da ku di bazarên me de her dem wek benchmark û referans bimînin.",
       "focus": {
         "innovation": "Nûbûn",
         "sustainability": "Domdarî",
@@ -97,1328 +105,1367 @@
       }
     },
     "cta": {
-      "title": "Amade yî ku tiştek taybet ava bikî",
-      "description": "Tu çi pêşxistina bazirganiyê, çi binavî, yan jî avahiyek domdar plan dike, tîma me amade ye ku vîzyona te bîne jiyanê.",
-      "startProject": "Bi me re têkilî bike",
-      "joinTeam": "Beşdarî tîmê bibe"
+      "title": "Amade ne ku tiştek taybet ava bikin",
+      "description": "Heke hûn pêşvebirina niştecîhî an bazirganî plan dikin, an jî avahiyeke domdar, tîma me amade ye ku vizyona we bibe rastî.",
+      "startProject": "Bi me re têkilî",
+      "joinTeam": "Tevlî tîmê bibin"
     }
   },
 
   "metadata": {
-    "title": "Bontera | Avahisazi & Binesazi",
-    "description": "Carinan avahisazi u binesaziya cihangi. Ji ramaneke heta qedandineki, em projeyan radest dikin ku ezmanan diyar dikin u civakan veguhezinin."
+    "title": "Bontera | Avakirin & Emlak",
+    "description": "Çareseriyên avakirin û binavbûnê yên asta cîhanî. Ji dizaynê heta teslîmkirinê, em projeyên ku asîmanxêzan diguherînin û civakan diyar dikin bi rêgez pêk tînin."
   },
+
   "hero": {
-    "eyebrow": "Avahisaziya Bilind Ji Sala 2004an",
-    "titleLine1": "Em",
-    "titleLine2": "Pasiroke Ava Dikin",
-    "description": "Bi 20+ salen tecrube di avahisazi, peseroka projeyan u bireveriya milkan de, em xeridaneyen xwe di her qonaxeke de bi ewlehiye, kalite u safiye pishtgiri dikin.",
-    "ctaPrimary": "Projeyen Me Bibin",
-    "ctaSecondary": "Bi Me Re Tekili Daynin",
+    "eyebrow": "Avakirin bi kalîte ji 2004 ve",
+    "titleLine1": "Em ava dikin",
+    "titleLine2": "sibê",
+    "description": "Bi zêdetir ji 20 salan tecrûbe di avakirina, pêşvebirina projeyan û brokeriyê emlakê de, em bi karîgerî, girêdayîbûn, bawerî, kalîte û transparans, li kêleka her xerîdarê rawestin.",
+    "ctaPrimary": "Projeyên me bibîne",
+    "ctaSecondary": "Bi me re têkilî",
     "stats": {
-      "years": "Salen Tecrubey",
-      "sqm": "Metre Cargosey Radest Bun",
-      "budget": "Projên Temamkirî",
-      "languages": "Zimanen Axaftine"
-    }
-  },
-  "vision": {
-    "eyebrow": "Diteya Me",
-    "headline": "Nisenan Sibe Iro Avakirin",
-    "description": "Em ne tene avahiyan ava dikin. Em mirateyen mayinde diafirinin. Sozdariya me ya li ser nujeni, domdariye, u kaliteya bela bilind me kir ku em ji bo projeyen here mezin en cihane hevkare bijarte bin.",
-    "features": {
-      "innovation": {
-        "title": "Nujeni Yekem",
-        "description": "Teknoloji u metodolojiyeyen avahisaziye yen peserok ku standardeyen nuh en piseye danin."
-      },
-      "heritage": {
-        "title": "Li Ser Miras Hatiye Avakirin",
-        "description": "20+ salen pisporive ku ji neslekan wergirtiye ji ostayan avahisaz u endezyaran."
-      },
-      "sustainability": {
-        "title": "Paserokeya Berdewam",
-        "description": "Projeyen bi LEED-sertifika bi sozdariya avahisaziya sifir-karbon heta sala 2030an."
-      }
-    }
-  },
-  "services": {
-    "eyebrow": "Em Ci Dikin",
-    "headline": "Carinan Avahisaziye Temam",
-    "viewAll": "Hemu Xizmetan Bibin",
-    "items": {
-      "construction": {
-        "title": "Avahisazi",
-        "description": "Projeyen avahisaziya nistecihi, bazirganiye u tertiyera bi ewlehiye, kalite u peyrovkirina hisht a standarden."
-      },
-      "restoration": {
-        "title": "Restorasyon & Nuvekirin",
-        "description": "Restorasyona pispor a avahiyen miras u nuvevkirina nistecihi bi rezdariya temambuna mimarine."
-      },
-      "projectManagement": {
-        "title": "Bireveriya Projeye",
-        "description": "Bireveriya projeye ji destpek heta dawi ji bo xeridaneyen taybet u karsaziya bi safiye u dembendiya radesti."
-      },
-      "realEstate": {
-        "title": "Peseroka Milkan",
-        "description": "Peseroka milken nistecihi u bazirganiye bi bal li ser domdariye u afirandina nirxa drezahi."
-      },
-      "brokerage": {
-        "title": "Navberiya Milkan",
-        "description": "Xizmetên navberiyê yên pîşeyî ji bo kirîn, firotin û kirêkirina milkên niştecîhî û bazirganî."
-      },
-      "consulting": {
-        "title": "Serwistemeni",
-        "description": "Alikariya pispor li ser gengazi, plansazi, bireveriya lesch u tevliheviya rêzike."
-      }
-    }
-  },
-  "projects": {
-    "eyebrow": "Kareyen Taybet",
-    "headline": "Projeyen ku Ezmanan Diyar Dikin",
-    "viewAll": "Hemu Projeyan Bibin",
-    "noProjects": "Di ve deme de ti proje tune ye ku were xuya kirin.",
-    "viewProject": "Projeye Bibin",
-    "projectValue": "Nirxa Projeye",
-    "client": "Xeridan",
-    "year": "Sal",
-    "showcase": {
-      "eyebrow": "Peshangaha Projeyan",
-      "headline": "Kareyen Me yen Heri Nu Bibin"
-    },
-    "categories": {
-      "eyebrow": "Li gor kategoriye bigerin",
-      "headline": "Pisporiyen Me Bibin",
-      "explore": "Bibin"
-    }
-  },
-  "stats": {
-    "years": "Salen Tecrubey",
-    "sqm": "Metre Cargosey Radest Bun",
-    "budget": "Projên Temamkirî",
-    "languages": "Zimanen Axaftine",
-    "projects": "Proje Qediyane",
-    "satisfaction": "Razibuna Xeridan",
-    "delivered": "Nirkirin Radest Bun"
-  },
-  "whyUs": {
-    "eyebrow": "Cima Bontera Hilbijerin",
-    "headline": "Serkeftin Standarda Me Ye",
-    "description": "Dema ku hun bi Bontera re hevriki dikin, hun timeke hildibijerin ku her projeyeke wek ku navuda me pe ve giredi ye dihesibinin - ji ber ku wisa ye.",
-    "cta": "Der Bare Me de Ferbun",
-    "points": {
-      "quality": {
-        "title": "Kaliteya Bela",
-        "description": "Prosesen serkeftina domdar di her projeyeki de misoger dikin."
-      },
-      "timeline": {
-        "title": "Radestkirina Li Ser Deme",
-        "description": "98% ji projeyen me li ser deme an jiberi radest dibin, her car."
-      },
-      "safety": {
-        "title": "Ewlehi Yekem",
-        "description": "Qeyda ewlehiye ya pesereng bi lihevhatina OSHA u destpeskirinen bela-buhur."
-      }
-    }
-  },
-  "testimonial": {
-    "quote": "Bontera ji her heviyeki derbas bu. Baldariya wan a li ser huran, pesnaziyi, u sozdariya wan a ji bo diteya me encam da avahiyeke nisane ku em pe geli serbilind in.",
-    "name": "Reginald Charles",
-    "role": "Lakay Business LTDA"
-  },
-  "news": {
-    "eyebrow": "Nuce & Biran",
-    "headline": "Nuvekiriyen Dawi",
-    "viewAll": "Hemu Nuceyan Bibin",
-    "readMore": "Gotare Bixwinin",
-    "noNews": "Di ve deme de ti gotareyen nuceyan tune ne ku were xuya kirin."
-  },
-  "newsSection": {
-    "title": "Nuce & Biran",
-    "seeMore": "Gotare Bixwinin",
-    "discoverAll": "Hemu Nuceyan Bibin",
-    "empty": "Di ve deme de ti gotareyen nuceyan tune ne ku were xuya kirin."
-  },
-  "header": {
-    "headquarters": "Berlin, Almanya",
-    "emergency24": "24/7 Rewseke Lez",
-    "search": "Ligerr",
-    "searchPlaceholder": "Li proje, xizmet, nuceyan bigerin...",
-    "quickLinks": "Linkeyen Bilez",
-    "pressEsc": "ESC bixin an li derve bixin da bigirin",
-    "selectLanguage": "Ziman Hilbijerin",
-    "requestQuote": "Bihayeke Bixwazin",
-    "contactInfo": "Agahiya Tekiliye",
-    "ourServices": "Xizmeten Me",
-    "featured": "Taybet",
-    "sustainableBuilding": "Carinan Avahisaziya Berdewam",
-    "sustainableBuildingDesc": "Di avahisaziya eko-dostane de pesereng bi projeyen bi LEED-sertifika.",
-    "viewAllServices": "Hemu Xizmetan Bibin",
-    "projectCategories": "Kategoriyeyen Projeyan",
-    "featuredProject": "Projeya Taybet",
-    "featuredProjectTitle": "Kompleksa Bircen Marina",
-    "featuredProjectLocation": "Brussels, Belgium",
-    "completed": "Qediyaye",
-    "viewAllProjects": "Hemu Projeyan Bibin",
-    "aboutBontera": "Der Bare Bontera de",
-    "byTheNumbers": "Bi Jimare",
-    "yearsExperience": "Salen Tecrubey",
-    "projectsCompleted": "Proje Qediyane",
-    "countriesOperating": "Welaten ku Te de Kar Dikin",
-    "teamMembers": "Endam Time",
-    "services": {
-      "commercialConstruction": "Avahisaziya Bazirganiye",
-      "commercialConstructionDesc": "Avahiyen ofise, firotin, miteli",
-      "realEstate": "Binesazi",
-      "realEstateDesc": "Reh, pir, kargehi",
-      "renovation": "Nuvekirin & Restorasyon",
-      "renovationDesc": "Modernkirin u restorasyona miras",
-      "consulting": "Xizmeten Serwistemeniye",
-      "consultingDesc": "Serlehe pispor u likolinen gengazi",
-      "projectManagement": "Bireveriya Projeyan",
-      "projectManagementDesc": "Cawerniya projeye ji sereke heta dawi",
-      "sustainability": "Avahisaziya Berdewam",
-      "sustainabilityDesc": "Avahiya kesk u sertifikaya LEED"
-    },
-    "projects": {
-      "commercial": "Bazirganiye",
-      "residential": "Nistecih",
-      "industrial": "Piseyi",
-      "publicWorks": "Kareyen Gisti"
-    },
-    "company": {
-      "ourStory": "Cirokeya Me",
-      "leadership": "Timea Rehberiye",
-      "values": "Meram & Nirxan",
-      "certifications": "Sertifikayan",
-      "partners": "Hevkar & Girediyan",
-      "why Bontera": "çima Bontera",
-      "whyBontera": "Çima Bontera"
-    }
-  },
-  "cta": {
-    "headline": "Amade ne ku Tirsek Awarte Ava Bikin?",
-    "description": "Werin diteya xwe biaxivin. Timea me amade ye ku ramanene we yen mezin veguheze rastiyen mimariye.",
-    "buttonPrimary": "Projeya Xwe Dest Pe Bikin",
-    "buttonSecondary": "Bihayeke Bixwazin",
-    "certifications": {
-      "leed": "Hevkara Sertifika",
-      "osha": "Lihevhati"
-    }
-  },
-  "footer": {
-    "description": "Bontera avahisazi u binesaziya premium radest dike bi plansaziya disiplini, pekvekirina rast, u qedandineke bela.",
-    "followUs": "Me Biseqinin",
-    "company": "Sirket",
-    "services": "Xizmet",
-    "contactUs": "Bi Me Re Tekili Daynin",
-    "phone": "Telefon",
-    "email": "Email",
-    "emergency": "Rewseke Lez",
-    "backToTop": "Vegere seri",
-    "allRightsReserved": "Hemu maf parastin in.",
-    "cta": {
-      "headline": "Amade ne ku Tirsek Awarte Ava Bikin?",
-      "description": "Ji me re bejin hun ci ava dikin. Em timeki, planeki, u pekvekirineki tinin da li ser deme u li gora standarde here bilind radest bikin.",
-      "button": "Bi Me Re Tekili Daynin",
-      "secondaryButton": "Bihayeke Bixwazin"
-    },
-    "offices": {
-      "headquarters": "Navenda Serekin"
-    },
-    "serviceLinks": {
-      "commercial": "Avahisaziya Bazirganiye",
-      "realEstate": "Binesazi",
-      "residential": "Nistecih",
-      "industrial": "Piseyi",
-      "renovation": "Nuvekirin",
-      "consulting": "Serwistemeni"
-    },
-    "legal": {
-      "privacy": "Siyaseta Nihenitiyi",
-      "terms": "Sertan Xizmetkirini",
-      "cookies": "Siyaseta Cookie"
+      "years": "Salên tecrûbe",
+      "sqm": "Metreka çargoşeyî ya teslîm kirî",
+      "budget": "Projeyên qedandî",
+      "languages": "Zimanên ku tê axaftin",
+      "projectsDelivered": "Projeyên teslîm kirî",
+      "categories": "Niştecîhî, bazirganî û endustriyî"
     }
   },
 
+  "vision": {
+    "eyebrow": "Vizyona me",
+    "headline": "Nîşanên sibê ava bikin, ji îro dest pê bikin",
+    "description": "Em tenê avahî nadikin. Em mîratek dirêjdemî çêdikin. Bi hêzê nûbûnê, domdarî û kalîteya bêkompromîs, em bûne hevkara bijartî ya projeyên herî mezin û herî mezinbûnî.",
+    "features": {
+      "innovation": {
+        "title": "Pêşî li nûbûnê",
+        "description": "Teknolojî û rêbazên pêşkeftî yên avakirina ku standardên nû datînin."
+      },
+      "heritage": {
+        "title": "Mîratek xurt",
+        "description": "Zêdetir ji 20 salan tecrûbe di avakirina, nûjenkirinê û pêşvebirina emlakê de li seranserê Ewropa."
+      },
+      "sustainability": {
+        "title": "Sibeyeke domdar",
+        "description": "Projeyên bi sertîfîkaya LEED û girêdayîbûna me ya bo avakirina net-zero heta 2030."
+      }
+    }
+  },
+
+
+    "services": {
+    "eyebrow": "Em çi dikin",
+    "headline": "Çareseriyên avakirinê ji destpêkê heta dawî",
+    "viewAll": "Hemû xizmetan bibîne",
+    "items": {
+      "construction": {
+        "title": "Avakirin",
+        "description": "Avakirina niştecîhî, bazirganî û sêktora tersiyê bi ewlehî, kalîte û rêzgirtina hişyarkirî ya standardên sepandî."
+      },
+      "restoration": {
+        "title": "Rûmetkirin & Nûjenkirin",
+        "description": "Rûmetkirina profesyonel a avahiyên parastî û nûjenkirina niştecîhî bi rêzgirtina rûmeta mîmarî."
+      },
+      "projectManagement": {
+        "title": "Rêvebirina Projeyê",
+        "description": "Rêvebirina projeyê ji destpêkê heta teslîmkirinê ji bo kesane û şîrketan, bi transparans û teslîmkirina di demê de."
+      },
+      "realEstate": {
+        "title": "Pêşvebirina projeyan",
+        "description": "Pêşvebirina milk û projeyên niştecîhî û bazirganî bi giranî li ser domdarî û afirandina nirxa dirêjdemî."
+      },
+      "brokerage": {
+        "title": "Brokeriya Emlakê",
+        "description": "Xizmetên brokeriyê yên profesyonel ji bo kirîn, firotin û kirêkirina milkên niştecîhî û bazirganî."
+      },
+      "consulting": {
+        "title": "Şîretkarî",
+        "description": "Piştgiriya pispor di feasibilîteyê, planîkirinê, rêvebirina lêçûn û rêzgirtina rêzikên qanûnî de."
+      }
+    }
+  },
+
+  "projects": {
+    "eyebrow": "Xebata hilbijartî",
+    "headline": "Projeyên ku asîmanxêzan diguherînin",
+    "viewAll": "Hemû projeyan bibîne",
+    "noProjects": "Niha projeyek ji bo nîşandan tune ye.",
+    "viewProject": "Projeyê bibîne",
+    "projectValue": "Nirxa projeyê",
+    "client": "Xerîdar",
+    "year": "Sal",
+    "showcase": {
+      "eyebrow": "Nîşandana projeyê",
+      "headline": "Xebata me ya herî nû keşf bike"
+    },
+    "categories": {
+      "eyebrow": "Li gorî kategoriya bigere",
+      "headline": "Pisporiya me keşf bike",
+      "explore": "Keşf bike"
+    }
+  },
+
+  "stats": {
+    "years": "Salên tecrûbe",
+    "sqm": "Metreka çargoşeyî ya teslîm kirî",
+    "budget": "Projeyên qedandî",
+    "languages": "Zimanên ku tê axaftin",
+    "projects": "Projeyên qedandî",
+    "satisfaction": "Razîbûna xerîdar",
+    "delivered": "Nirxa teslîm kirî"
+  },
+
+  "whyUs": {
+    "eyebrow": "Çima Bontera",
+    "headline": "Kalîte standarda me ye",
+    "description": "Bontera hilbijartin wate hilbijartina tîmeke ye ku her projeyê wekî nav û rûmeta xwe têk dike. Ji ber ku bi rastî wusa ye.",
+    "cta": "Zêdetir fêr bibe",
+    "points": {
+      "quality": {
+        "title": "Standardên kalîteya bilind.",
+        "description": "Pêvajoyên me li her projeyê kalîteya domdar û yekreng garantî dikin."
+      },
+      "timeline": {
+        "title": "Teslîmkirina di demê de",
+        "description": "98% projeyên me di demê de an jî beriya demê têne teslîm kirin, bi awayek domdar."
+      },
+      "safety": {
+        "title": "Ewlehî",
+        "description": "Performansa ewlehiyê ya nimûneyî, rêzgirtina OSHA, û destpêşxistina \"zero-incident\"."
+      }
+    }
+  },
+
+  "testimonial": {
+    "quote": "Bontera li ser hemû hêvîyên me derbas bû. Bala wan li hûrgulî, profesyonelî û girêdayîbûna wan bi vizyona me, wisa kir ku em avahiyekî awarte teslîm bikin ku em pir bi wê serbilind in.",
+    "name": "Reginald Charles",
+    "role": "Lakay Business LTDA"
+  },
+
+  "news": {
+    "eyebrow": "Nûçe & têgihiştin",
+    "headline": "Nûvekirinên herî dawî",
+    "viewAll": "Hemû nûçeyan bibîne",
+    "readMore": "Gotar bixwîne",
+    "noNews": "Niha gotarek ji bo nîşandan tune ye."
+  },
+
+  "newsSection": {
+    "title": "Nûçe & têgihiştin",
+    "seeMore": "Gotar bixwîne",
+    "discoverAll": "Hemû nûçeyan bibîne",
+    "empty": "Niha gotarek ji bo nîşandan tune ye."
+  },
+
+    "header": {
+    "headquarters": "Halle (Westfalen), Almanya",
+    "emergency24": "Acil 24/7",
+    "search": "Lêgerîn",
+    "searchPlaceholder": "Li proje, xizmet, nûçe... bigere",
+    "quickLinks": "Girêdanên bilez",
+    "pressEsc": "ESC bitikîne an jî li derveyî bike ku were girtin",
+    "selectLanguage": "Ziman hilbijêre",
+    "requestQuote": "Daxwaza pêşniyar (quote)",
+    "contactInfo": "Agahiyên têkilî",
+    "ourServices": "Xizmetên me",
+    "featured": "Hilbijartî",
+    "sustainableBuilding": "Çareseriyên avakirina domdar",
+    "sustainableBuildingDesc": "",
+    "viewAllServices": "Hemû xizmetan bibîne",
+    "projectCategories": "Kategoriyên projeyan",
+    "featuredProject": "Proje ya hilbijartî",
+    "featuredProjectTitle": "Serekaniya NATO, Brûksel",
+    "featuredProjectLocation": "Brûksel, Belçîka",
+    "completed": "Qedandî",
+    "viewAllProjects": "Hemû projeyan bibîne",
+    "aboutBontera": "Derbarê Bontera de",
+    "byTheNumbers": "Bi hejmaran",
+    "yearsExperience": "Salên tecrûbe",
+    "projectsCompleted": "Projeyên qedandî",
+    "countriesOperating": "Welatên ku em tê de dixebitin",
+    "teamMembers": "Endamên tîmê",
+    "services": {
+      "commercialConstruction": "Avakirin",
+      "commercialConstructionDesc": "Niştecîhî, bazirganî û binavbûn",
+      "realEstate": "Emlak",
+      "realEstateDesc": "Pêşvebirina emlaka premium",
+      "renovation": "Nûjenkirin & rûmetkirin",
+      "renovationDesc": "Avahiyên parastî, niştecîhî û bazirganî",
+      "consulting": "Şîretkarî",
+      "consultingDesc": "Şîretkarîya pispor û lêkolînên feasibilîteyê",
+      "projectManagement": "Rêvebirina projeyê",
+      "projectManagementDesc": "Teslîmkirina ji destpêkê heta dawî",
+      "sustainability": "Avakirinê ya domdar",
+      "sustainabilityDesc": "Avakirinê ya kesane, LEED û sertîfîkasyon"
+    },
+    "projects": {
+      "commercial": "Bazirganî",
+      "residential": "Niştecîhî",
+      "industrial": "Endustriyî",
+      "publicWorks": "Xizmetên giştî"
+    },
+    "company": {
+      "ourStory": "Çîroka me",
+      "leadership": "Rêberî",
+      "values": "Mîsyon & nirx",
+      "certifications": "Sertîfîka",
+      "partners": "Hevkar & girêdan",
+      "why Bontera": "Çima Bontera",
+      "whyBontera": "Çima Bontera"
+    }
+  },
+
+  "cta": {
+    "headline": "Amade ne ku tiştek taybet ava bikin",
+    "description": "Ka em li ser vizyona we biaxivin. Tîma me amade ye ku fikirên we yên mezin bibe rastîya mîmarî.",
+    "buttonPrimary": "Projeya xwe dest pê bike",
+    "buttonSecondary": "Daxwaza pêşniyar (quote)",
+    "certifications": {
+      "leed": "Hevkarê sertîfîkakirî",
+      "osha": "Rêzgirtin"
+    }
+  },
+
+  "footer": {
+    "description": "Bontera projeyên avakirina asta bilind teslîm dike û pêşvebirina projeyan bi planîkirina bi rêgez û teslîmkirina bêxelet pêşkêş dike.",
+    "followUs": "Me bişopîne",
+    "company": "Şîrket",
+    "services": "Xizmet",
+    "contactUs": "Têkilî",
+    "phone": "Telefon",
+    "email": "Email",
+    "emergency": "Acil",
+    "backToTop": "Vegere ser",
+    "allRightsReserved": "Hemû maf parastî ne.",
+    "cta": {
+      "headline": "Amade ne ku tiştek taybet ava bikin",
+      "description": "Bêje hûn çi ava dikin. Em tîm, plan û xebatê tînin da ku bi demê re û bi asta herî bilind were teslîm kirin.",
+      "button": "Bi me re têkilî",
+      "secondaryButton": "Daxwaza pêşniyar (quote)"
+    },
+    "offices": {
+      "headquarters": "Navenda sereke"
+    },
+    "serviceLinks": {
+      "commercial": "Avakirin",
+      "realEstate": "Pêşvebirina projeyan",
+      "residential": "Niştecîhî",
+      "industrial": "Endustriyî",
+      "renovation": "Nûjenkirin",
+      "consulting": "Şîretkarî",
+      "projectManagement": "Rêvebirina projeyê"
+    },
+    "legal": {
+      "privacy": "Polîtîkaya nepenîtiyê",
+      "terms": "Mercên bikaranînê",
+      "cookies": "Polîtîkaya cookie"
+    }
+  },
+
+
   "legalPage": {
     "meta": {
-      "title": "Yasayî, Nepenî, Kukî û Pirsên Pir Tên Pirsîn (FAQ) | Bontera",
-      "description": "Agahiyên yasayî, politikaya nepenîtiyê, politikaya kukiyan û pirsên pir tên pirsîn bibînin."
+      "title": "Agahiyên qanûnî, nepenî, cookie û FAQ | Bontera",
+      "description": "Agahiyên qanûnî, polîtîkaya nepenîtiyê, polîtîkaya cookie û pirsên pir tên pirsîn (FAQ) bibîne."
     },
     "hero": {
-      "eyebrow": "Navenda Yasayî",
-      "title": "Veşarî",
-      "subtitle": "Hemû tiştên pêwîst derbarê bikaranîna malperê, rêvebirina daneyan û pirsên herî pir tên pirsîn, li yek cihê."
+      "eyebrow": "Navenda qanûnî",
+      "title": "Polîtîkaya nepenîtiyê",
+      "subtitle": "Hemû tiştên ku pêwîst in bizanin li ser bikaranîna malperê, rêvebirina daneyan û pirsên herî pir tên pirsîn, hemû li yek cih."
     },
     "nav": {
-      "privacy": "Nepení",
-      "terms": "Şert û Merc",
-      "cookies": "Kukî",
+      "privacy": "Nepenî",
+      "terms": "Merc",
+      "cookies": "Cookie",
       "faq": "FAQ"
     },
     "sidebar": {
       "title": "Li ser vê rûpelê"
     },
     "privacy": {
-      "title": "Politikaya Nepenîtiyê",
-      "body": "Bontera rêzê li nepenîtiya we digire. Em tenê agahiyên ku pêdivî ne ji bo bersivdanê (form, e-name, telefon) û başkirina tecrûbeya malperê berhev dikin. Em daneyên we nafiroşin. Ji bo pirs an daxwazên têkildar bi daneyên xwe, bi me re li info@bontera.de têkilî daynin."
+      "title": "Polîtîkaya nepenîtiyê",
+      "body": "Bontera nepenîtiya we rêz dike. Em tenê ew agahiyan kom dikin ku ji bo bersivdanê ji daxwazên we (form, email, telefon) û başkirina tecrûbeya malperê pêwîst in. Em daneyên we nafiroşin. Ji bo her pirs an daxwazên têkildarî daneyên xwe, bi me re li info@bontera.de têkilî daynin."
     },
     "terms": {
-      "title": "Şert û Mercên Bikaranînê",
-      "body": "Bi bikaranîna vê malperê, hûn qebûl dikin ku wê bi awayekî qanûnî bikar bînin û karûbarê wê nebinirxînin. Naverok (nivîs, wêne, hêmanên grafîkî) parastî ye û bê destûr nayê ji nû ve bikaranîn. Agahiyên li vir ji bo rêberîya giştî ne û dikarin di demê de biguherin."
+      "title": "Mercên bikaranînê",
+      "body": "Bi bikaranîna vê malperê, hûn li ser mebestên qanûnî dê bigerin û nekarin karûbarê wê xerab bikin. Naverok (nivîs, wêne, hêmanên grafîkî) tê parastin û bê destûr nayê ji nû ve bikaranîn. Agahiyên pêşkêşkirî ji bo agahdarkirinê ne û dikare biguherin."
     },
     "cookies": {
-      "title": "Politikaya Kukiyan",
-      "body": "Em kukî û teknolojiyên mîna wan bikar tînin da ku malper rast bixebite, trafîkê bipîvînin û performans baş bikin. Hûn dikarin tercîhên xwe di mîhengên gerokê de rêk bikin. Heke kukî werin girtin, dibe ku hin taybetmendî bi sinor bixebitin."
+      "title": "Polîtîkaya cookie",
+      "body": "Em cookie û teknololojiyên wekhev bikar tînin da ku malper bi awayek rast bixebite, temaşevanî (audience) were pîvan kirin û performans were başkirin. Hûn dikarin di mîhengên browsera xwe de tercîhên xwe rêve bibin. Heke cookie neçalak bin, hin taybetmendî dikarin sînorkirî bibin."
     },
     "faqBlock": {
-      "title": "Pirsên Pir Tên Pirsîn (FAQ)",
-      "subtitle": "Bersivên pirsên herî pir têkildar bi projeyan, deman û prosesê me li vir bibînin."
+      "title": "Pirsên pir tên pirsîn (FAQ)",
+      "subtitle": "Li vir bersivên pirsên herî gelek li ser projeyan, deman û pêvajoya me bibîne."
     }
   },
+
   "about": {
     "meta": {
-      "title": "Der Bare Me de | Bontera GmbH",
-      "description": "Der bare 20+ salen tecrubey Bontera di avahisazi, peseroka projeyan u navberiya milkan de bi ewlehi, kalite u safiye ferbun."
+      "title": "Derbarê me de | Bontera GmbH",
+      "description": "Zêdetir ji 20 salan kalîteya Bontera di avakirina, pêşvebirina projeyan û brokeriya emlakê de keşf bike. Ewlehî, kalîte û transparans."
     },
     "quickNav": {
-      "ourStory": "Cirokeya Me",
-      "leadership": "Rehberi",
+      "ourStory": "Çîroka Me",
+      "leadership": "Rêberî",
       "values": "Nirx",
-      "certifications": "Sertifika",
-      "partners": "Hevkar",
-      "whyBontera": "Çima Bontera"
+      "why Bontera": "Çima Bontera",
+      "whyBontera": "Çima Bontera",
+      "certifications": "Sertîfîka",
+      "partners": "Hevkar"
     },
     "breadcrumb": {
-      "home": "Destpek",
-      "about": "Der Bare Me de"
+      "home": "Destpêk",
+      "about": "Derbarê me de"
     },
     "hero": {
-  "eyebrow": "Der Bare Bontera de",
-  "title": "Serkeftina Avahisaziye Ji Sala 2004an",
-  "subtitle": "Bi zêdetir ji 20 salan tecrûbe di avahîsazî, pêşvebirina projeyan û navberiya milkan de, em xerîdarên xwe di her gavê de bi karîgerî, dilsozî, bawerîpêkhatin, kalite û safîyê re şopandin dikin.",
-  "stats": {
-    "years": "Salen Tecrubey",
-    "sqm": "Metre Cargoseh Radest Bun",
-    "budget": "Projên Temamkirî",
-    "languages": "Zimanen ku Em Dipeyivin"
-  }
-}
-,
+      "eyebrow": "Derbarê Bontera de",
+      "title": "Kalîteya avakirina ji 2004 ve",
+      "subtitle": "Bi zêdetir ji 20 salan tecrûbe di avakirina û pêşvebirina projeyan de, em bi transparans, karîgerî û bawerî, li her gavê li kêleka we ne. ",
+      "stats": {
+        "years": "Salên tecrûbe",
+        "sqm": "Metreka çargoşeyî ya teslîm kirî",
+        "budget": "Projeyên qedandî",
+        "languages": "Zimanên ku tê axaftin",
+        "projectsDelivered": "Projeyên teslîm kirî",
+        "categories": "Niştecîhî, bazirganî û endustriyî"
+      }
+    },
     "story": {
-      "eyebrow": "Cirokeya Me",
-      "title": "Mirateya Veguhertina Xewnan bo Rastiye",
-      "paragraph1": "Di sala 2004an de hate damezrandin, Bontera wek sirketek avahisaziye ya biquk bi diteyeke mezin dest pe kir: veguhertina jingehe avakiri bi nujeni, rasti, u sozdariya bela ji bo serkeftine. Timekeke avahisazeren dilsoz ci dibe rehberek avahisaziye ya cihani.",
-      "paragraph2": "Di 25 salen boriye de, me zede ji 500 projeyen nisane di 12 welatan de qedandiye, ji birceyen bazirganiye yen ikonik heta civaken nistecih en berdewam. Her proje sozdariya me ya ji bo huneremendiya kaliteye u baweriya me ku avahiyen mezin dikarin ilham bidin nisan dide.",
-      "paragraph3": "Iro, Bontera wek xuyakirinek li ser ciki gengaz dema ku pisporbun bi meyla mezin re werin cem hev dimint. Em berdewam sinoran diperzin, teknolojiyeyen nuh hildibijerin, u standardeyen nuh di pratiken avahisaziya berdewam de daynin.",
-      "founderQuote": "Em ne tene avahiyan ava dikin; em bingeheyen ji bo civaken pesereftine u neslen dewlemendiyi diafirinin.",
-      "founderName": "Birez Nedjet",
-      "founderTitle": "Damezriner & Serok",
-      "yearsExcellence": "Salen Serkeftine",
+      "eyebrow": "Çîroka me",
+      "title": "Mîratek ku hedefan dike rastiyê",
+      "paragraph1": "Bi zêdetir ji 20 salan tecrûbe di avakirina û pêşvebirina projeyan de, em xerîdarên xwe di her qonaxê de pîştgirî dikin, ji dizaynê heta teslîmkirina dawîn, bi giranîya herî bilind li ser ewlehî, kalîteya xebatê û rêzgirtina standardan.",
+      "paragraph2": "Bi alîkarîya tecrûbeya me ya teknîkî û zanîna me ya bazara emlakê, em çareseriyên bawerbar û dirêjdemî pêşkêş dikin ku li gorî hewcedariyên her xerîdar hatine saz kirin. Girêdayîbûna me li ser nirxên bingehîn e: profesyonelî, rêgez û bawerî.",
+      "paragraph3": "Bi şertên jîngehî yên niha agah, em çareseriyên ekolojîk, materyalên bi kalîte û rêbazên avakirina ku jîngehê rêz dikin têkildar dikin. Her proje tê saz kirin da ku performansa enerjiyê, dirêjdemîbûn û rehetî bi hev re bide.",
+      "founderQuote": "Armanca me eşkere ye: ji bo hevkar û xerîdarên me, projeyên milkî yên bawerbar, ewle û bi nirxa zêde pêşkêş bikin.",
+      "founderName": "Mr. Necdet",
+      "founderTitle": "Damezrîner & CEO",
+      "yearsExcellence": "Salên kalîte",
       "since": "Damezrandin"
     },
     "mission": {
-      "title": "Merama Me",
-      "description": "Radestkirina carinan avahisaziye yen awarte ye ku ji heviyeyen xeridan derbas dibin, nujeniyi dijorin, u bi ereketi besedesteyen civaken ku em pe re xizmet dikin, dema ku standardeyen here bilind en ewlehi, kalite, u domdariye diparezin."
+      "title": "Mîsyona me",
+      "description": "Em çareseriyên domdar, ewle û bi aborî yên guncaw ji bo xerîdarên taybet, veberhêner û şîrketan çêdikin. Ji bo vê yekê, em zanîna kûr a bazarê, şîretkarîya transparan û tora xurt a hevkarên darayî û emlakê bi hev re têk dikin."
     },
     "vision": {
-      "title": "Diteya Me",
-      "description": "Bun rehbere cihani di avahisaziya berdewam de, ku ji bo veguhertina diteyeyen mimariye yen dilsoz bo struktureyen mayinde ye ku ilham didin, xizmet dikin, u testek deme derbasker dibin nas dibin."
+      "title": "Vizyona me",
+      "description": "Di Ewropa de bibin hevkara bawerbar a avakirina û emlakê, ku bi projeyên ku kalîte, domdarî û afirandina nirxa dirêjdemî bi hev re dikin tê nasîn."
     },
+
     "values": {
-      "eyebrow": "Ya ku em li ser wê rawestan",
+      "eyebrow": "Prensîpên me",
       "title": "Nirxên me yên bingehîn",
-      "subtitle": "Ev prensîb her bir biryar ku em didin û her projeyê ku em pêk tînin rêberî dikin.",
+      "subtitle": "Ev prensîp li hemû biryarên me û li hemû projeyên me rêberî dikin.",
       "items": {
         "transparency": {
           "title": "Şeffafî",
-          "description": "Em bi rengekî zelal têkiliyê dikin û di her qonaxê projeyê de dîtina tevahî peyda dikin."
+          "description": "Em ji bo xerîdarên xwe li her qonaxê dîtina tam û agahiyên vekirî garantî dikin."
         },
         "reliability": {
           "title": "Bawerbarî",
-          "description": "Em li peymanên xwe digirin bi şopandina hişkbûna lêçûn, disiplinê budceyê û teslîmkirina li gorî planê."
+          "description": "Em bi rêvebirina bi rêgez a lêçûn û teslîmkirina di demê de, li peymanên xwe dimeşin."
         },
         "expertise": {
           "title": "Pisporiya teknîkî",
-          "description": "Zanîna teknîkî ya qelew û rêveberiya projeyê ya yekgirtî di her qonaxê de qalîteya domdar garantî dike."
+          "description": "Zanyarîya me ya kûr û rêvebirina projeyê ya yekgirtî, di hemû qonaxan de başbûna domdar dide."
         },
         "integrated": {
-          "title": "Rêbazê yekgirtî",
-          "description": "Çareseriyaek tevahî ku avahî û emlakan li hev tîne, ji konseptê heta teslîmkirinê."
+          "title": "Rêbaza yekgirtî",
+          "description": "Em çareseriyeke tevahî pêşkêş dikin ku avakirin û firotan bi hev re têk dike, ji dizaynê heta teslîmkirinê."
         },
         "sustainability": {
-          "title": "Berdewamî",
-          "description": "Em materyal û rêbazên berpirsiyar bikar tînin da ku bandor kêm bikin û nirx zêde bikin."
+          "title": "Domdarî",
+          "description": "Em çareseriyên ekolojîk, materyalên bi kalîte û rêbazên avakirina ku jîngehê rêz dikin têkildar dikin."
         },
         "valueCreation": {
           "title": "Afirandina nirxê",
-          "description": "Em nirxa dirêjdemê zêde dikin bi kêmkirina rîskê û hilbijartinên zîrek di sêwirandin û pêkanînê de."
+          "description": "Em li ser zêdekirina nirxê, kêmkirina rîsk û parastina aramiya dirêjdemî ji bo hemû hevkaran û xerîdaran baldar in."
         }
       }
     },
+
     "timeline": {
-      "eyebrow": "Regeza Me",
-      "title": "Qonagiyen ku Me Diyar Dikin",
+      "eyebrow": "Rêwîtiya me",
+      "title": "Mehengan ku me diyar dikin",
       "milestones": {
         "founding": {
-          "title": "Destpek",
-          "description": "Bontera bi diteyeke ji bo veguhertina piseya avahisaziye bi nujeni u sozdariya bela ji bo kaliteye hate damezrandin."
+          "title": "Destpêk",
+          "description": "Bontera bi vizyonek hate damezrandin: avakirin bi nûbûnê û girêdayîbûna bê şert bi kalîte."
         },
         "expansion": {
-          "title": "Berfireh buna Heremi",
-          "description": "Karguzeriye li seranser Rojhilata Navin berfireh bun, hevkariyen serekin ava bun u projeya me ya yekem a bazirganiye ya mezin qediyan."
+          "title": "Firehbûna herêmî",
+          "description": "Destpêkirina xebatê li Rojhilata Navîn, hevkarîyên girîng, û teslîmkirina projeya me ya yekem a bazirganî ya mezin."
         },
         "international": {
-          "title": "Bun Cihani",
-          "description": "Ketina bazareyen Ewrupa u Asyaye, destpeka hebuna me ya navnetewi bi ofisenki di 5 welaten nuh de nisan da."
+          "title": "Firehbûna navneteweyî",
+          "description": "Ketina bazarên Ewropa û Asyayê, bi vekirina ofîsan li 5 welatên nû."
         },
         "sustainability": {
-          "title": "Rehberiya Domdariye",
-          "description": "Destpeskirina me ya domdariyi ya berfireh hate danin, sertifikaya LEED hate stendin u sozdariya karguzariyeyen karbon-betal heta sala 2030an hate dayyin."
+          "title": "Rêberiya domdarî",
+          "description": "Destpêkirina inîsiyatîfa domdarî, wergirtina sertîfîkaya LEED û peymana bo karbon-netralî heta 2030."
         },
         "digital": {
-          "title": "Veguhertina Dijital",
-          "description": "Teknolojiya BIM ya pesreftir u bireveriya projeyan bi AI-ajotin hate bicih kirin, prosesene me yen avahisaziye veguhestin."
+          "title": "Guhertina dîjîtal",
+          "description": "Bikaranîna BIM a pêşkeftî û rêvebirina projeyan bi AI, ku pêvajoyên me bi temamî guherand."
         },
         "future": {
-          "title": "Avahikirina Sibe",
-          "description": "Berdewamkirina nujeniya bi teknolojiyeyen avahiya jir u berfirehkirina portfolioya me ya avahisaziya berdewam li seranser cihane."
+          "title": "Avakirina sibê",
+          "description": "Berdewamîya nûbûnan bi teknololojiyên avahiyên jîr û firehbûna portfolyoya me ya domdar li seranserê cîhanê."
         }
       }
     },
+
     "leadership": {
-      "eyebrow": "Timea Rehberiye",
-      "title": "Rehbereyen Me Nas Bikin",
-      "subtitle": "Pisporeen bi tecrube ku diteya Bontera ya serkeftine di avahisaziye de dijonin.",
-      "viewAll": "Hemuk Time Bibin",
+      "eyebrow": "Tîma rêberiyê",
+      "title": "Rêberên me nas bike",
+      "subtitle": "Pisporên tecrûbedar ku vizyona Bontera ya kalîte û disiplinê didomînin.",
+      "viewAll": "Hemû tîmê bibîne",
       "members": {
         "ceo": {
-          "name": "Bireza Nedjet",
-          "title": "Seroke Karguzari"
+          "name": "Mr. Necdet",
+          "title": "Serokê Giştî (CEO)"
         },
         "coo": {
           "name": "Reginald Charles",
-          "title": "Seroke Karguzariye"
+          "title": "Serokê Operasyonê (COO)"
         },
         "cto": {
           "name": "Dr. Michael Chen",
-          "title": "Seroke Teknolojiye"
+          "title": "Serokê Teknolojiyê (CTO)"
         },
         "cfo": {
           "name": "Elena Rodriguez",
-          "title": "Seroke Daravi"
+          "title": "Serokê Darayî (CFO)"
         }
       }
     },
+
     "certifications": {
-      "eyebrow": "Kalite & Standardan",
-      "title": "Sertifikayan & Akkreditasyonan",
-      "description": "Sozdariya me ya ji bo serkeftine bi sertifikayeyen navnetewi naskirine u akkreditasyoneyen pisey ku standarden here bilind di kalite, ewlehi, u berpirsiyariya jingehe de misoger dikin, pejirand dibe.",
-      "viewAll": "Hemu Sertifikayan Bibin"
+      "eyebrow": "Kalîte & standard",
+      "title": "Sertîfîka & pejirandin",
+      "description": "Girêdayîbûna me bi kalîte, bi sertîfîkayên navneteweyî û pejirandinên pîşesazî tê piştrast kirin, ku standardên herî bilind ên kalîte, ewlehî û berpirsiyariya jîngehî garantî dikin.",
+      "viewAll": "Hemû sertîfîkayan bibîne"
     },
+
     "global": {
-      "eyebrow": "Taybetmendiya Cihani",
-      "title": "Avahikirin Li Seranser Sinoran",
-      "description": "Ji ezmanen bilind en Dubai heta kolanene dirokiye yen Ewrupa, pisporiya Bontera qareyan derbas dike. Hebuna me ya cihani dem dide me ku selihiyeten avahisaziye yen cihan-class li her projeyan binin.",
+      "eyebrow": "Hebûna navneteweyî",
+      "title": "Avakirina li derveyî sînor",
+      "description": "Ji asîmanxêzên Almanya heta kolanên dîrokî yên Îtalya, pisporiya Bontera li çend welatan belav bûye. Hebûna me ya Ewropî destûr dide ku em li her derê kapasîteya avakirina pêşeng bînin.",
       "stats": {
         "countries": "Welat",
-        "offices": "Ofisen Heremi",
-        "continents": "Qare",
-        "clients": "Xeriden Navnetewi"
+        "offices": "Ofîsên herêmî",
+        "continents": "Kîntînent",
+        "budget": "Projeyên qedandî",
+        "clients": "Xerîdarên navneteweyî"
       }
     },
+
     "cta": {
-      "title": "Amade ne ku Tirsek Awarte Ava Bikin?",
-      "description": "Gelo hun pesereftinek bazirganiye, projeyek binesaziye, an avahiyeke berdewam plan dikin, timea me amade ye ku diteya we bo jiyane bine.",
-      "contactUs": "Bi Me Re Tekili Daynin",
-      "joinTeam": "Bibe Endam Timea Me"
+      "title": "Amade ne ku tiştek taybet ava bikin",
+      "description": "Heke hûn pêşvebirina niştecîhî an bazirganî plan dikin, an jî avahiyeke domdar, tîma me amade ye ku vizyona we bibe rastî.",
+      "contactUs": "Bi me re têkilî",
+      "joinTeam": "Tevlî tîmê bibin"
     }
   },
-  "servicesPage": {
-    "meta": {
-      "title": "Xizmeten Me | Bontera Avahisazi",
-      "description": "Xizmeten avahisaziya temam ya Bontera bibinin tev avahisaziya bazirganiye, nistecih, binesazi, piseyi, nuvekirin, u carinan serwistemeniye."
-    },
-    "breadcrumb": {
-      "home": "Destpek",
-      "services": "Xizmet"
-    },
-    "hero": {
-      "eyebrow": "Em Ci Dikin",
-      "title": "Carinan Avahisaziye Temam",
-      "subtitle": "Ji ramane heta qedandine, em xizmeten avahisaziye ji sere heta dawi radest dikin ku li gora diteya u pewisteyen we yene awarte kirin.",
-      "cta": "Bihayeke Bixwazin"
-    },
-    "overview": {
-      "eyebrow": "Pisporiya Me",
-      "title": "Avahikirina Serkeftine Li Seranser Her Sektore",
-      "description": "Bi zede ji 25 salen tecrubey, Bontera pisporiya kur di sektoreyen avahisaziye yen ciyas de pesxistiye. Nerda me ya yekbui dizayne nujeni, endezyariya rast, u pratiken berdewam dike yek da projeyen ku heviyane derbas dikin radest bikin.",
-      "points": {
-        "expertise": {
-          "title": "Pisporiya Piseyi ya Kur",
-          "description": "Zanina taybeti li seranser sektoreyen bazirganiye, nistecih, u binesaziye."
-        },
-        "quality": {
-          "title": "Kaliteya Bela",
-          "description": "Kontrola kaliteye ya dijwar di her qonaga avahisaziye de."
-        },
-        "innovation": {
-          "title": "Carinan Nujeni",
-          "description": "Teknolojiya pesereng u metodet avahisaziye yen nujen."
-        },
-        "safety": {
-          "title": "Serkeftina Ewlehiye",
-          "description": "Standardet u protokolen ewlehiye yen pesereng di piseye de."
-        }
+
+ "servicesPage": {
+  "meta": {
+    "title": "Xizmetên me | Bontera Construction",
+    "description": "Xizmetên tevahî yên Bontera keşf bike: bazirganî, niştecîhî, binavbûn, endustriyî, nûjenkirin û şîretkarî."
+  },
+  "breadcrumb": {
+    "home": "Destpêk",
+    "services": "Xizmet"
+  },
+  "hero": {
+    "eyebrow": "Em çi dikin",
+    "title": "Çareseriyên avakirinê ji destpêkê heta dawî",
+    "subtitle": "Ji fikrê heta teslîmkirinê, em xizmetên avakirinê yên li gorî vizyon û şertên we pêşkêş dikin.",
+    "cta": "Daxwaza pêşniyar (quote)"
+  },
+  "overview": {
+    "eyebrow": "Pisporiya me",
+    "title": "Kalîte di her sektorekê de",
+    "description": "Bi zêdetir ji 20 salan tecrûbe, Bontera di gelek sektorên cûda de pisporiyeke kûr ava kiriye. Rêbaza me ya yekgirtî dizayna nûjen, endezyariya bi rêgez, û pêvajoyên domdar bi hev re têk dike da ku projeyên ku ji hêvîyan derbas dibin were teslîm kirin.",
+    "points": {
+      "expertise": {
+        "title": "Pisporî",
+        "description": ""
       },
-      "stats": {
-        "projects": "Proje Qediyane",
-        "years": "Salen Tecrubey",
-        "satisfaction": "Razibuna Xeridan",
-        "awards": "Xelaten Piseyi"
-      }
-    },
-    "mainServices": {
-      "eyebrow": "Xizmeten Me",
-      "title": "Em Ci Peskesin",
-      "subtitle": "Xizmeten avahisaziye yen temam ku ji bo diteya we bo jiyane binin hatine diyarin.",
-      "learnMore": "Zede Ferbun",
-      "items": {
-        "commercial": {
-          "title": "Avahisaziya Bazirganiye",
-          "description": "Ji birceyen ofise yen ikonik heta cihaken firotin en dinamik, em jingehen bazirganiye diafirinin ku hilberdariye ilham didin, serkeftina kare dijonin, u wek nisaneyen di dorbereke bajaran de diminin.",
-          "features": {
-            "officeBuildings": "Avahiyen Ofise",
-            "retailCenters": "Navendeen Firotin",
-            "mixedUse": "Peseroken Bi Karanina Tev",
-            "hospitality": "Miteli"
-          }
-        },
-        "realEstate": {
-          "title": "Pêşveçûna Milkê & Navbeynkariya Milkê",
-          "description": "Em projeyên milkê yên nîştecihî, bazirganî û bi karanîna tev pêşve dikin û rêvebirin, her weha navbeynkariya kirîn, firotin û kirêkirinê jî pêşkêş dikin. Nêzîkbûnek yekgirtî ku zanîna bazarê, rastnivîsîya teknîk û şeffafiyeta tam li hev dike, da ku her gav pêvajoyê bi ewlehî bibe û nirxa milkê zêde bike.",
-          "features": {
-            "residential": "Projeyên Niştecihiyê",
-            "commercial": "Milkên Bazirganî",
-            "mixedUse": "Pêşveçûnên Bi Karanîna Tev",
-            "investment": "Milkên Veberhênanê",
-            "brokerage": "Navbeynkariya Milkê: Kirîn, Firotin & Kirêkirin"
-          },
-          "brokerage": {
-            "title": "Navbeynkariya Milkê – Kirîn, Firotin & Kirêkirin",
-            "description": "Em di karûbarên kirîn, firotin û kirêkirina milkê de alîkariya xerîdarên xwe dikin û ezmûna bazarê li ber dest dixin.\n\nBi torê me ya profesyonelan û nêzîkbûnek şexsîkirî, em we alîkarî dikin ku biryarên herî baş bistînin û karûbarên xwe ewle bikin. Em di her gavê de berjewendiyên we diparêzin da ku nirxa milkên we baştir bibe û danûstandin li şertên herî baş bi dawî bibe.\n\nPeymana me li ser şeffafiyeta tam û parastina berdewam a berjewendiyên xerîdarên me ava bûye."
-          }
-        },
-        "real-estate": {
-          "title": "Pêşveçûna Milkê & Navbeynkariya Milkê",
-          "description": "Em projeyên milkê yên nîştecihî, bazirganî û bi karanîna tev pêşve dikin û rêvebirin, her weha navbeynkariya kirîn, firotin û kirêkirinê jî pêşkêş dikin. Nêzîkbûnek yekgirtî ku zanîna bazarê, rastnivîsîya teknîk û şeffafiyeta tam li hev dike, da ku her gav pêvajoyê bi ewlehî bibe û nirxa milkê zêde bike.",
-          "features": {
-            "residential": "Projeyên Niştecihiyê",
-            "commercial": "Milkên Bazirganî",
-            "mixedUse": "Pêşveçûnên Bi Karanîna Tev",
-            "investment": "Milkên Veberhênanê",
-            "brokerage": "Navbeynkariya Milkê: Kirîn, Firotin & Kirêkirin"
-          },
-          "brokerage": {
-            "title": "Navbeynkariya Milkê – Kirîn, Firotin & Kirêkirin",
-            "description": "Em di karûbarên kirîn, firotin û kirêkirina milkê de alîkariya xerîdarên xwe dikin û ezmûna bazarê li ber dest dixin.\n\nBi torê me ya profesyonelan û nêzîkbûnek şexsîkirî, em we alîkarî dikin ku biryarên herî baş bistînin û karûbarên xwe ewle bikin. Em di her gavê de berjewendiyên we diparêzin da ku nirxa milkên we baştir bibe û danûstandin li şertên herî baş bi dawî bibe.\n\nPeymana me li ser şeffafiyeta tam û parastina berdewam a berjewendiyên xerîdarên me ava bûye."
-          }
-        },
-        "residential": {
-          "title": "Avahisaziya Nistecih",
-          "description": "Afirandina mal u civakeyen ku malbat te de pesereft dibin, ji xaniyen luks heta peserokene nistecih en berdewam ku jiyane nujen diyar dikin.",
-          "features": {
-            "luxuryHomes": "Xaniyen Luks",
-            "apartments": "Kompleksen Apartemaniye",
-            "communities": "Civaken Serekin",
-            "villas": "Villa & Malane Mezin"
-          }
-        },
-        "industrial": {
-          "title": "Avahisaziya Piseyi",
-          "description": "Dizaynkirin u avahikirina tesisen piseyi ku karguzariyan optimize dikin, bandoriye zede dikin, u pewisteyen dijwar en hilberina nujen pir dikin.",
-          "features": {
-            "factories": "Tesisen Hilberine",
-            "warehouses": "Embar",
-            "logistics": "Navendeen Logistiki",
-            "manufacturing": "Tesisen Pekvekirine"
-          }
-        },
-        "renovation": {
-          "title": "Nuvekirin & Restorasyon",
-          "description": "Dayina jiyane nuh bo struktureyen heyi bi nuvekirinek bihezman, parastina diroki, u biker-veguhertine ku boriye di bin rumetde digire dema ku pasiroke hildibijere.",
-          "features": {
-            "historic": "Parastina Diroki",
-            "modernization": "Modernkirin",
-            "retrofitting": "Retrofitting",
-            "restoration": "Restorasyona Temam"
-          }
-        },
-        "consulting": {
-          "title": "Xizmeten Serwistemeniye",
-          "description": "Alikariya pispor di her qonaga projeya we de, ji likolinen gengazi u tahminkirina liraje heta nirxandina metirsiye u lihevhatina biryarname.",
-          "features": {
-            "feasibility": "Likolinen Gengazi",
-            "costEstimation": "Tahminkirina Liraje",
-            "riskAssessment": "Nirxandina Metirsiye",
-            "compliance": "Lihevhatina Biryarname"
-          }
-        },
-        "management": {
-          "title": "بەڕێوەبردنی پڕۆژە",
-          "description": "لە پلاندانانی سەرەتاییەوە بۆ گەیاندنی کۆتایی، خزمەتگوزاریەکانی بەڕێوەبردنی تایبەتمەندمان روونی، بەرپرسیارێتی و ئەنجام دڵنیا دەکەن. ئێمە چاودێری خشتەکان دەکەین، پەیمانکاران ڕێکدەخەین و بودجەکان بەڕێوە دەبەین بۆ پاراستنی بیرۆکەکەت لەسەر ڕێگا.",
-          "features": {
-            "planning": "پلاندانانی ستراتیژیک",
-            "coordination": "ڕێکخستنی تیم",
-            "budgetControl": "کۆنترۆڵی بودجە",
-            "qualityAssurance": "دڵنیایی کوالیتی"
-          }
-        },
-        "sustainability": {
-          "title": "بیناسازی بەردەوام",
-          "description": "ئێمە پابەندین بە ڕێوشوێنی بیناسازی بەرپرسیارانە بۆ ژینگە. لە ڕێنمایی بڕوانامەی LEED بۆ دیزاینی کارامەی وزە و سەرچاوەی کەرەستەی بەردەوام، یارمەتیت دەدەین بۆ داھاتوو بنیات بنێیت.",
-          "features": {
-            "greenBuilding": "بیناسازی سەوز",
-            "energyEfficiency": "کارایی وزە",
-            "sustainableMaterials": "کەرەستەی بەردەوام",
-            "leedCertification": "بڕوانامەی LEED"
-          }
-        }
-      }
-    },
-    "process": {
-      "eyebrow": "Em Cawa Kar Dikin",
-      "title": "Prosesa Me ya Selih",
-      "subtitle": "Nerineke sistemati ku kalite, bandori, u zelalbuniye di her qonage de misoger dike.",
-      "steps": {
-        "discovery": {
-          "title": "Vedibinin & Plansazi",
-          "description": "Em bi fahimkirina diteya we, pewisteyan, u sinoran dest pe dikin da planeke projeyeke temam pesxin.",
-          "point1": "Analiza pewisteyan",
-          "point2": "Nirxandina cihi",
-          "point3": "Plansaziya bihayi"
-        },
-        "planning": {
-          "title": "Dizayn & Endezyari",
-          "description": "Timeyen me yen pispor dizayn u planeyen endezyariye yen berbereki diafirinin ku diteya we bo jiyane tinin.",
-          "point1": "Dizayna mimari",
-          "point2": "Endezyariya strukturi",
-          "point3": "Koordinasyona MEP"
-        },
-        "execution": {
-          "title": "Avahisazi & Pekvekirine",
-          "description": "Hosteyen jir u teknolojiya pesreftir digihijin yek da kaliteyeke avahisaziye ya awarte radest bikin.",
-          "point1": "Avahisaziya kaliteye",
-          "point2": "Lihevhatina ewlehiye",
-          "point3": "Sewqandina pesereftine"
-        },
-        "delivery": {
-          "title": "Radestkirine & Pilani",
-          "description": "Testkirina berbereki, radestkirine, u pilania berdewam razibuna we ya temam misoger dike.",
-          "point1": "Misogerkirina kaliteye",
-          "point2": "Rahenandin xeridan",
-          "point3": "Pilania garantiye"
-        }
-      }
-    },
-    "industries": {
-      "eyebrow": "Piseyen ku Em pe Xizmet Dikin",
-      "title": "Pispori Li Seranser Sektoran",
-      "description": "Portfolioya me ya ciyas sektoreyen pir derbas dike, ku her yek pewisteyen taybet heye ku zanina taybeti u carinan li gora daxwazan pesdixin.",
-      "items": {
-        "healthcare": "Tenderusti",
-        "education": "Perwerdehi",
-        "hospitality": "Miteli",
-        "retail": "Firotin",
-        "government": "Hukumet",
-        "energy": "Enerji"
+      "quality": {
+        "title": "Standardên kalîteya bilind.",
+        "description": ""
       },
-      "sectorsServed": "Sektoreyen Piseyi"
-    },
-    "technology": {
-      "eyebrow": "Nujeni & Teknoloji",
-      "title": "Avahikirin bi Teknolojiya Sibe",
-      "description": "Em teknolojiya pesereng biker dikin da bandoriye zede bikin, kalite pesxin, u encameyen bashtir ji bo xeridaneyen me radest bikin.",
-      "items": {
-        "bim": {
-          "title": "Teknolojiya BIM",
-          "description": "Modela Agahiya Avahiye ji bo plansazi, koordinasyon, u xuyakirineke rast di seranser jiyana projeye de."
-        },
-        "drones": {
-          "title": "Pirmasiya bi Drone",
-          "description": "Pirmasiya hewai u sewqandin ji bo nirxandina cihan rast u sewqandina pesereftine di deme rast de."
-        },
-        "prefab": {
-          "title": "Prefabrikasyon",
-          "description": "Hilberina parceyen avahiye li derve cihe ji bo avahisaziyeke bilez, bi bandortir, u bi kaliteya bilindtir."
-        },
-        "iot": {
-          "title": "IoT & Avahiyen Jir",
-          "description": "Sistemet gireday u senzor ji bo bireveriya avahiye ya jir u bandoriya karguzariye."
-        }
+      "innovation": {
+        "title": "Çareserî",
+        "description": ""
+      },
+      "safety": {
+        "title": "Ewlehî",
+        "description": ""
       }
     },
-    "cta": {
-      "title": "Amade ne ku Projeya Xwe Dest Pe Bikin?",
-      "description": "Werin biaxivin cawa Bontera dikare diteya we bo jiyane bine bi carinan avahisaziye yen me yen temam.",
-      "getQuote": "Bihayeke Bibin",
-      "contactUs": "Bi Me Re Tekili Daynin"
+    "stats": {
+      "projects": "Projeyên qedandî",
+      "years": "Salên tecrûbe",
+      "satisfaction": "Razîbûna xerîdar",
+      "awards": ""
     }
   },
+  "mainServices": {
+    "eyebrow": "Xizmetên me",
+    "title": "Em çi pêşkêş dikin",
+    "subtitle": "Xizmetên tevahî ji bo ku vizyona we bibe rastî.",
+    "learnMore": "Zêdetir fêr bibe",
+    "items": {
+      "commercial": {
+        "title": "Avakirin",
+        "heroTagline": "Niştecîhî, bazirganî, tersiyê",
+        "heroDescription": "Em projeyên avakirinê yên hemû mezinahiyan teslîm dikin, ji dizaynê heta teslîmkirina dawîn. Metoda me kalîteya xebatê, rêzgirtina standardan, teslîmkirina di demê de û kontrola budceyê garantî dike, bi baldarî li ser domdarî, performans û rehetî.",
+        "description": "Em xanî, avahî, cihên bazirganî û depoyan ava dikin bi piştgiriya tevahî û xebata bi rêgez. Her proje tê rêvebirin da ku surprîzan kêm bibin, lêçûn were optimîze kirin, û malek dirêjdemî, performansdar û bi nirxê zêde were teslîm kirin.",
+        "features": {
+          "officeBuildings": "Avahiyên ofîsê",
+          "retailCenters": "Navendên firotanê",
+          "mixedUse": "Projeyên mixed-use",
+          "hospitality": "Mîvandariyê"
+        }
+      },
+      "realEstate": {
+        "title": "Pêşvebirin & Brokeriya Emlakê",
+        "description": "Em projeyên emlakê yên niştecîhî, bazirganî û mixed-use pêşve dikin û piştgirî dikin, her weha xizmetên brokeriyê ji bo kirîn, firotin û kirêkirinê pêşkêş dikin. Rêbaza me pisporiya bazarê, kontrola teknîkî û şeffafîya tevahî bi hev re têk dike da ku her gav were ewle kirin û nirxa mal û sermayeyê were zêdekirin.",
+        "features": {
+          "residential": "Projeyên niştecîhî",
+          "commercial": "Milkên bazirganî",
+          "mixedUse": "Pêşvebirinên mixed-use",
+          "investment": "Milkên veberhênanê",
+          "brokerage": "Brokeriya: Kirîn, firotin & kirêkirin"
+        },
+        "brokerage": {
+          "title": "Brokeriya emlakê: Kirîn, firotin & kirêkirin",
+          "description": "Em di kirîn, firotin û kirêkirina we de piştgirî dikin, bi bikaranîna pisporiya me ya bazarê.\n\nBi alîkarîya tora me ya profesyonalan û rêbaza me ya kişanekirî, em alîkariyê dikin ku hûn biryarên baştir bidin û danûstandinên xwe ewle bikin. Em li her gavê maf û berjewendiyên we diparêzin da ku nirxa mal û sermayeyê were optimîze kirin û şertên herî baş werin bidestxistin.\n\nGirêdayîbûna me li ser şeffafîya tevahî û parastina domdar a berjewendiyên xerîdar e."
+        }
+      },
+      "real-estate": {
+        "title": "Pêşvebirina projeyê",
+        "heroTagline": "Stratejî, xebat, nirx",
+        "heroDescription": "Em pêşvebirina projeyên emlakê yên niştecîhî, bazirganî û mixed-use bi rêbazeke strukturî û transparan rêve dikin. Ji feasibilîteyê heta teslîmkirinê, em her qonaxê ewle dikin, rîsk kontrol dikin û nirxa mal û sermayeyê baştir dikin.",
+        "description": "Em projeyên we yên emlakê ji destpêkê heta dawî piştgirî dikin bi têkildarkirina pisporiya bazarê, karîgeriya teknîkî û koordînasyona bi rêgez. Armanca me: biryarên we ewle bikin, surprîzan kêm bikin, û performansa veberhênanên we zêde bikin.",
+        "features": {
+          "residential": "Projeyên niştecîhî",
+          "commercial": "Milkên bazirganî",
+          "mixedUse": "Pêşvebirinên mixed-use",
+          "investment": "Veberhênana emlakê",
+          "brokerage": "Brokeriya: kirîn, firotin û kirêkirin"
+        },
+        "brokerage": {
+          "title": "Brokeriya emlakê",
+          "description": "Em di kirîn, firotin û kirêkirinê de bi zanîna kûr a bazarê û stratejiyeke zelal a danûstandinê piştgirî dikin.\n\nBi alîkarîya tora me û rêbaza me ya kişanekirî, em derfetên herî baş diyar dikin, gavên bingehîn ewle dikin, û maf û berjewendiyên we heta demê îmzakirinê diparêzin.\n\nGirêdayîbûna me: şeffafî, bersivdarî, û encamên pîvankar."
+        }
+      },
+      "residential": {
+        "title": "Avakirina niştecîhî",
+        "description": "Em cihên jiyanê çêdikin ku malbat di wan de geş dibin, ji malên lûks heta pêşvebirinên domdar ên ku xaniyên nûjen diyar dikin.",
+        "features": {
+          "luxuryHomes": "Malên lûks",
+          "apartments": "Nîştecî / apartman",
+          "communities": "Komên planîkirî",
+          "villas": "Vîla & malên taybet"
+        }
+      },
+      "industrial": {
+        "title": "Avakirina endustriyî",
+        "description": "Dizayn û teslîmkirina cihên endustriyî yên ku ji bo karîgeriya operasyonê û hewcedariyên hilberîna nûjen hatine optimîze kirin.",
+        "features": {
+          "factories": "Fabrîka",
+          "warehouses": "Depo",
+          "logistics": "Platformên lojîstîkê",
+          "manufacturing": "Yekîneyên çêkirinê"
+        }
+      },
+      "renovation": {
+        "title": "Nûjenkirin & Rûmetkirin",
+        "heroTagline": "NIŞTECÎHÎ, BAZIRGANÎ Û MÎRAS",
+        "heroDescription": "Cihên xwe vegerînin jiyanê, bê ku nasnameya wan were xera kirin. Em nûjenkirin û rûmetkirina we bi hûrgulî rêve dikin, bi tevlihevkirina teknîkên kevn û çareseriyên nû da ku rehetî, ewlehî, performansa enerjiyê û nirxa mîrasê were bilind kirin.",
+        "description": "Em milkên niştecîhî û bazirganî nûjen dikin û avahiyên parastî rûmet dikin, bi rêzgirtina nasnameya mîmarî, standardên sepandî û şertên teknîkî yên cihê. Rêbaza me hunera kevn û çareseriyên nûjen bi hev re têk dike da ku karîgerî, ewlehî, performansa enerjiyê û dirêjdemîbûn were başkirin. Ji teşhîsê heta temamkirinê, em xebata bi rêgez, kontrola kalîteyê û encamek ku bi ruhê cihê re hevrê ye garantî dikin, bi afirandina nirxê ya dirêjdemî ji bo mîrasa we.",
+        "features": {
+          "historic": "Avahiya parastî",
+          "modernization": "Nûjenkirina tevahî",
+          "retrofitting": "Upgrade",
+          "restoration": "Nûjenkirin"
+        }
+      },
+      "consulting": {
+        "title": "Şîretkarî",
+        "heroTagline": "FEASIBILÎTE, LÊÇÛN, RÎSK, RÊZÛREK",
+        "heroDescription": "Piştgiriya pispor di her qonaxê de: feasibilîte, nirxandina lêçûn, analîza rîsk û rêzgirtina qanûn û standardan.",
+        "description": "Em xizmetên şîretkarîya avakirinê pêşkêş dikin ji bo kes û şîrketên ku dixwazin biryarên xwe yên teknîkî û darayî ewle bikin. Wek nûnerê maldarê projeyê (giştî an taybet), em wek yek navenda têkiliyê dixebitin, berjewendiyên xerîdar diparêzin.",
+        "features": {
+          "feasibility": "Lêkolînên feasibilîteyê",
+          "costEstimation": "Nirxandina lêçûn",
+          "riskAssessment": "Rêzgirtin",
+          "compliance": "Çavdêriya avakirinê"
+        }
+      },
+      "management": {
+        "title": "Rêvebirina Projeyê",
+        "heroTagline": "RÊVEBIRIN, BUDCE, DEM, KALÎTE",
+        "heroDescription": "Em xizmeteke rêvebirina projeyê ya bi awayê turnkey pêşkêş dikin ji bo kes û şîrketên ku dixwazin veberhênanên xwe yên emlakê ewle bikin. Wek yek nuqteya têkiliyê, em hemû alîgirên projeyê koordîne dikin: mîmar, ofîsên endezyariyê, kontraktor û pêşkêşker. Mîsyona me kontrola herî baş a lêçûn, deman û kalîte ye, bi şeffafîya tevahî di her qonaxê de",
+        "description": "Ji planîkirina destpêkê heta teslîmkirina dawîn, em rêvebirina strukturî, transparan û encam-axaftî pêşkêş dikin. Em armancan diyar dikin, demnameyeke rastîn saz dikin, alîgir koordîne dikin, û her roj pêşketinê dişopînin da ku diyarî (drift) neyê. Tîma me budceyê rêve dike, rîsk pêşbînî dike, astengî bi lez çareser dike, û kontrola kalîteyê domdar çalak dike. Encama dawîn: şantiyeke kontrolkirî, peywendiya zelal, û teslîmkirinek li gorî şertên teknîkî û hêviyên xerîdar.",
+        "features": {
+          "planning": "Planîkirina stratejîk",
+          "coordination": "Koordînasyona tîmê",
+          "budgetControl": "Kontrola budceyê",
+          "qualityAssurance": "Garantîya kalîteyê"
+        }
+      },
+      "sustainability": {
+        "title": "Avakirina domdar",
+        "description": "Em bi rêbazên avakirina berpirsiyar li ser jîngehê girêdayî ne. Ji rêberiya sertîfîkasyona LEED heta dizayna bi karîgeriya enerjiyê û peydakirina materyalên domdar, em alîkariyê dikin ku hûn ji bo sibê ava bikin.",
+        "features": {
+          "greenBuilding": "Avakirina zelen",
+          "energyEfficiency": "Karîgeriya enerjiyê",
+          "sustainableMaterials": "Materyalên domdar",
+          "leedCertification": "Sertîfîkasyona LEED"
+        }
+      }
+    }
+  },
+  "process": {
+    "eyebrow": "Metoda me",
+    "title": "Pêvajoyek bişopandî",
+    "subtitle": "Rêbazeke strukturî ku kalîte, karîgerî û transparans di her qonaxê de garantî dike.",
+    "steps": {
+      "discovery": {
+        "title": "Keşf & planîkirin",
+        "description": "Em bi têgihiştina vizyona we, hewcedariyên we û şertên we dest pê dikin da ku planeke tevahî amade bikin.",
+        "point1": "Analîza hewcedariyan",
+        "point2": "Nirxandina cihê",
+        "point3": "Planîkirina budceyê"
+      },
+      "planning": {
+        "title": "Dizayn & endezyarî",
+        "description": "Tîman me planên hûrgulî û endezyariya rast amade dikin da ku projeya we bibe rastî.",
+        "point1": "Dizayna mîmarî",
+        "point2": "Endezyariya strukturî",
+        "point3": "Koordînasyona MEP/HVAC"
+      },
+      "execution": {
+        "title": "Avakirin & xebat",
+        "description": "Pisporiya şantiyê û teknololojiyên pêşkeftî ji bo kalîteya xebatê ya nimûneyî.",
+        "point1": "Xebata bi kalîte",
+        "point2": "Rêzgirtina ewlehiyê",
+        "point3": "Şopandina pêşketinê"
+      },
+      "delivery": {
+        "title": "Teslîm & piştgirî",
+        "description": "Test, teslîmkirin û piştgirîya paşîn da ku razîbûna we were garantî kirin.",
+        "point1": "Kontrola kalîteyê",
+        "point2": "Hînkirina xerîdar",
+        "point3": "Piştgiriya warranty"
+      }
+    }
+  },
+  "industries": {
+    "eyebrow": "Sektoran",
+    "title": "Pisporiya pir-sektorî",
+    "description": "Portfolyoya me di sektorên ku şertên taybet hene de belav bûye. Ev şert pisporiya kûr û çareseriyên li gorî hewcedariyê daxwaz dike.",
+    "items": {
+      "healthcare": "Tenduristî",
+      "education": "Perwerde",
+      "hospitality": "Mîvandariyê",
+      "retail": "Firotan",
+      "government": "Sektora giştî",
+      "energy": "Enerjî"
+    },
+    "sectorsServed": "Sektor"
+  },
+  "technology": {
+    "eyebrow": "Nûbûn & teknololojî",
+    "title": "Avakirin bi teknololojiyên sibê",
+    "description": "Em teknololojiyên pêşkeftî bikar tînin da ku karîgerî zêde bikin, kalîte bilind bikin, û encamên baştir bidin.",
+    "items": {
+      "bim": {
+        "title": "Teknololojîya BIM",
+        "description": "BIM ji bo planîkirin, koordînasyon û dîtina rast di suça projeyê de."
+      },
+      "drones": {
+        "title": "Lêkolînên drone",
+        "description": "Lêkolînên hewayî û şopandina dem-real ji bo nirxandina rast a cihê û pêşketina şantiyê."
+      },
+      "prefab": {
+        "title": "Prefabrikasyon",
+        "description": "Hilberandina parçeyan li derveyî şantiyê ji bo avakirina bilez, karîger û bi kalîteya bilind."
+      },
+      "iot": {
+        "title": "IoT & avahiyên jîr",
+        "description": "Sîstemên girêdayî û sensor ji bo rêvebirina jîr û performansa operasyonê ya baştir."
+      }
+    }
+  },
+  "cta": {
+    "title": "Amade ne ku projeya xwe dest pê bikin",
+    "description": "Ka em bibînin Bontera çawa dikare vizyona we bi çareseriyên tevahî bibe rastî.",
+    "getQuote": "Daxwaza pêşniyar (quote)",
+    "contactUs": "Bi me re têkilî"
+  }
+}
+,
+
   "projectsPage": {
     "meta": {
-      "title": "Projeyen Me | Bontera Avahisazi",
-      "description": "Portfolioya projeyen avahisaziye yen nisane ya Bontera bibinin ku sektoreyen bazirganiye, nistecih, binesazi, u piseyi li 12 welatan derbas dike."
+      "title": "Projeyên me | Bontera Construction",
+      "description": "Portfolyoya Bontera keşf bike: projeyên nîşanê di bazirganî, niştecîhî, binavbûn û endustriyî de, li seranserê 12 welatan."
     },
     "breadcrumb": {
-      "home": "Destpek",
+      "home": "Destpêk",
       "projects": "Proje"
     },
     "hero": {
-      "eyebrow": "Portfolioya Me",
-      "title": "Projeyen Nisane ku Ezmanan Diyar Dikin",
-      "subtitle": "Portfolioya me ya ciyas a projeyen qediyayi u berdewam bibinin ku sozdariya me ya ji bo serkeftin, nujeni, u avahisaziya berdewam nisan dide.",
+      "eyebrow": "Portfolyoya me",
+      "title": "Projeyên îkonîk ku asîmanxêzan diyar dikin",
+      "subtitle": "Projeyên me yên qedandî û yên herî niha di çalakiyê de keşf bike, ku girêdayîbûna me bi kalîte, nûbûn û avakirina domdar nîşan dide.",
       "stats": {
-        "projectsCompleted": "Proje Qediyane",
-        "totalValue": "Metreyên çargoşeyî teslîmkirî",
+        "projectsCompleted": "Projeyên qedandî",
+        "totalValue": "Metreka çargoşeyî ya qedandî",
         "countries": "Welat",
-        "onTimeDelivery": "Radestkirina Li Ser Deme"
+        "onTimeDelivery": "Teslîmkirina di demê de"
       }
     },
     "featured": {
-      "eyebrow": "Kareyen Taybet",
-      "title": "Projeyen Imza",
-      "description": "Projeyen me yen here bandodar ku selihiyet u sozdariya me ya ji bo serkeftine di avahisaziye de nisan didin.",
-      "badge": "Taybet",
-      "viewProject": "Proje Bibin"
+      "eyebrow": "Xebata hilbijartî",
+      "title": "Projeyên îmzayê",
+      "description": "Projeyên me yên herî girîng, ku kapasîte û standardên me nîşan dide.",
+      "badge": "Hilbijartî",
+      "viewProject": "Projeyê bibîne"
     },
     "allProjects": {
-      "eyebrow": "Portfolioya Temam",
-      "title": "Hemu Proje",
-      "showing": "{count} proje teni xuya kirin",
+      "eyebrow": "Portfolyoya tevahî",
+      "title": "Hemû proje",
+      "showing": "Nîşandan: {count} proje",
       "inCategory": "di"
     },
     "categories": {
-      "all": "Hemu Proje",
-      "commercial": "Bazirganiye",
-      "residential": "Nistecih",
-      "infrastructure": "Binesazî",
-      "realEstate": "Pêşveçûna Milkê",
-      "industrial": "Piseyi",
-      "renovation": "Nuvekirin",
-      "publicWorks": "Kareyen Gisti",
-      "public": "Kareyen Gisti"
+      "all": "Hemû proje",
+      "commercial": "Bazirganî",
+      "residential": "Niştecîhî",
+      "infrastructure": "Binavbûn",
+      "realEstate": "Emlak",
+      "industrial": "Endustriyî",
+      "renovation": "Nûjenkirin",
+      "publicWorks": "Xizmetên giştî",
+      "public": "Xizmetên giştî"
     },
     "status": {
-      "completed": "Qediyaye",
-      "ongoing": "Berdewam",
-      "upcoming": "Te"
+      "completed": "Qedandî",
+      "ongoing": "Di xebatê de",
+      "upcoming": "Di pêşerojê de"
     },
     "projectCard": {
-      "value": "Nirk",
-      "client": "Xerid",
-      "viewDetails": "Huran Bibin"
+      "value": "Nirx",
+      "client": "Xerîdar",
+      "viewDetails": "Hûrgulî bibîne"
     },
     "noProjects": {
-      "title": "Ti Proje Nehat Ditin",
-      "description": "Me nekaribu ti projeyeyen ku li gora piveranene we bin bibinin.",
-      "viewAll": "Hemu Projeyan Bibin"
+      "title": "Proje nehat dîtin",
+      "description": "Em proje yekê ku li gorî şertên we be nehatin dîtin.",
+      "viewAll": "Hemû projeyan bibîne"
     },
     "breakdown": {
-      "eyebrow": "Bi Kategoriye",
-      "title": "Proje Li Seranser Her Sektore",
-      "exploreCategory": "Kategoriye Bibinin",
+      "eyebrow": "Li gorî kategoriya",
+      "title": "Projeyên li her sektorekê",
+      "exploreCategory": "Kategoriya keşf bike",
       "categories": {
         "commercial": {
-          "title": "Bazirganiye",
-          "description": "Birceyen ofise, navendeen firotin, otelen, u peserokene bi karanina tev ku serkeftina kare dijonin."
+          "title": "Bazirganî",
+          "description": "Avahiyên ofîsê, navendên firotanê, otêl û projeyên mixed-use ku çalakîya aborî pêş dixin."
         },
         "residential": {
-          "title": "Nistecih",
-          "description": "Xaniyen luks, kompleksen apartemaniye, u civaken plan-serekin ku malbat te de pesereft dibin."
+          "title": "Niştecîhî",
+          "description": "Malên lûks, nîştecî û komên planîkirî ku malbat di wan de geş dibin."
         },
         "infrastructure": {
-          "title": "Binesazî",
-          "description": "Rê, karûbarên giştî, avahiyên giştî û projeyên endezyariya sivîl ku bi standardên bilind ên lihevhatinê têne bidestxistin."
+          "title": "Binavbûn",
+          "description": "Rê, tor, avahiyên giştî û projeyên endezyariya sivîl bi rêzgirtina standardên herî bilind."
         },
         "realEstate": {
-          "title": "Binesazi",
-          "description": "Pir, otostradan, balafirgehan, u kargehi ku civakan giredidin u enerjiye didin."
+          "title": "Emlak",
+          "description": "Piran, rê, balafirgehan û torên ku herêman girêdidin û hêz dide."
         },
         "industrial": {
-          "title": "Piseyi",
-          "description": "Tesisen hilberine, embar, u navendeen logistiki ku ji bo bandoriye hatine optimize kirin."
+          "title": "Endustriyî",
+          "description": "Fabrîka, depo û platformên lojîstîkê yên ku ji bo karîgerî hatine optimîze kirin."
         },
         "renovation": {
-          "title": "Nuvekirin",
-          "description": "Projeyen parastina diroki u modernkirine ku boriye di bin rumetde digire dema ku pasiroke hildibijere."
+          "title": "Nûjenkirin",
+          "description": "Parastina mîrasê û nûjenkirina ku borî û pêşerojê bi hev re girêdide."
         },
         "publicWorks": {
-          "title": "Kareyen Gisti",
-          "description": "Avahiyen hukumet, navendeen siviki, u tesisen gisti ku civakan xizmet dikin."
+          "title": "Xizmetên giştî",
+          "description": "Avahiyên giştî, tesîsên şaredarî û binavbûnên ku civakan xizmet dikin."
         }
       }
     },
     "cta": {
-      "eyebrow": "Projeya Xwe Dest Pe Bikin",
-      "title": "Amade ne ku Diteya Xwe Ava Bikin?",
-      "description": "Gelo hun pesereftinek bazirganiye, civakek nistecih, an projeyek binesaziye plan dikin, timea me amade ye ku diteya we bo jiyane bine.",
-      "startProject": "Projeya Xwe Dest Pe Bikin",
-      "contactUs": "Bi Me Re Tekili Daynin"
+      "eyebrow": "Projeya xwe dest pê bike",
+      "title": "Amade ne ku vizyona xwe ava bikin",
+      "description": "Heke hûn pêşvebirina bazirganî, komêk niştecîhî, an jî projeyeke binavbûnê plan dikin, tîma me amade ye ku projeya we teslîm bike.",
+      "startProject": "Projeya xwe dest pê bike",
+      "contactUs": "Bi me re têkilî"
     }
   },
+
   "contactPage": {
     "meta": {
-      "title": "Bi Me Re Tekili Daynin | Bontera Avahisazi",
-      "description": "Bi Bontera Avahisazi re tekili daynin. Seredana ofisenene me li Dubai, Riyadh, Qahire, u London bikin, an peyameke ji me re bisepin da projeya xwe ya avahisaziye biaxivin."
+      "title": "Têkilî | Bontera Construction",
+      "description": "Bi Bontera Construction re têkilî daynin. Ofîsên me li Dubai, Riyadh, Qahira û London biçin, an jî peyamek bişînin da ku li ser projeya xwe biaxivin."
     },
     "breadcrumb": {
-      "home": "Destpek",
-      "contact": "Tekili"
+      "home": "Destpêk",
+      "contact": "Têkilî"
     },
     "hero": {
-      "eyebrow": "Bi Me Re Tekili Daynin",
-      "title": "Werin Tirsek Mezin Bi Hevra Ava Bikin",
-      "subtitle": "Projeyek di hizra we de heye? Timea me amade ye ku alkariya we bike da diteya we bo jiyane bine. Bi riya her yek ji kanalene me yen li jeri bi me re tekili daynin."
+      "eyebrow": "Bi me re têkilî",
+      "title": "Ka em tiştek baş bi hev re ava bikin",
+      "subtitle": "Hûn projeyek di serê xwe de hene. Tîma me amade ye ku alîkariyê bide ku ew bibe rastî. Bi yek ji kanalên jêrîn re bi me re têkilî daynin."
     },
     "methods": {
       "phone": {
-        "label": "Ji Me Re Bizen",
-        "description": "Dusem-Ini ji 8e sibeh heta 6e evari"
+        "label": "Telefon bikin",
+        "description": "Duşem - În: 8am heta 6pm"
       },
       "email": {
-        "label": "Ji Me Re Email Bikin",
-        "description": "Em di 24 seetadi de bersiv didin"
+        "label": "Email bişînin",
+        "description": "Bersiv di nav 24 saetan de"
       },
       "whatsapp": {
         "label": "WhatsApp",
-        "description": "Pilania suhbet bilez"
+        "description": "Piştgiriya sohbetê ya bilez"
       },
       "emergency": {
-        "label": "24/7 Rewseke Lez",
-        "description": "Ji bo kareyen lez"
+        "label": "Acil 24/7",
+        "description": "Ji bo rewşên bilez"
       }
     },
+
     "form": {
-      "eyebrow": "Peyameke Bisepin",
-      "title": "Em Cawa Dikarin Alikariya We Bikin?",
-      "description": "Forma li jeri dagirin u timea me di 24 seetadi de bersive we dide.",
+      "eyebrow": "Peyamek bişînin",
+      "title": "Em çawa dikarin alîkariyê bikin",
+      "description": "Formê jêrîn dagirin û tîma me dê di nav 24 saetan de bi we re vegere.",
       "fields": {
         "name": {
-          "label": "Nave Temam",
-          "placeholder": "John Smith"
+          "label": "Navê tevahî",
+          "placeholder": "John Doe"
         },
         "email": {
-          "label": "Navnisana Email",
+          "label": "Navnîşana emailê",
           "placeholder": "john@company.com"
         },
         "phone": {
-          "label": "Nimreya Telefone",
+          "label": "Hejmara telefonê",
           "placeholder": "+49 30 123 456 7890"
         },
         "company": {
-          "label": "Nave Sirkete",
-          "placeholder": "Sirketa We"
+          "label": "Navê şîrketê",
+          "placeholder": "Şîrketa we"
         },
         "subject": {
           "label": "Mijar",
-          "placeholder": "Em cawa dikarin alikariye bikin?"
+          "placeholder": "Em çawa dikarin alîkariyê bikin"
         },
         "projectType": {
-          "label": "Curne Projeye",
-          "placeholder": "Curneyek projeye hilbijerin",
+          "label": "Cureya projeyê",
+          "placeholder": "Cureya projeyê hilbijêre",
           "options": {
-            "commercial": "Avahisaziya Bazirganiye",
-            "residential": "Avahisaziya Nistecih",
-            "realEstate": "Binesazi",
-            "industrial": "Piseyi",
-            "renovation": "Nuvekirin & Restorasyon",
-            "consulting": "Xizmeten Serwistemeniye",
-            "infrastructure": "Binyasazî",
-
-            "other": "Yen Din"
+            "commercial": "Avakirina bazirganî",
+            "residential": "Avakirina niştecîhî",
+            "realEstate": "Emlak",
+            "industrial": "Endustriyî",
+            "renovation": "Nûjenkirin & rûmetkirin",
+            "infrastructure": "Binavbûn",
+            "heroTagline": "NIŞTECÎHÎ, BAZIRGANÎ Û BINAVBÛN",
+            "consulting": "Şîretkarî",
+            "other": "Yên din"
           }
         },
         "budget": {
-          "label": "Bihaya Tahminyi",
-          "placeholder": "Piveya biha hilbijerin",
+          "label": "Budceya texmînî",
+          "placeholder": "Rêjeya budceyê hilbijêre",
           "options": {
-            "under1m": "Bin $1 Milyon",
-            "1mTo5m": "$1 - $5 Milyon",
-            "5mTo10m": "$5 - $10 Milyon",
-            "10mTo50m": "$10 - $50 Milyon",
-            "over50m": "Zede ji $50 Milyon",
-            "notSure": "Hina Nediyar"
+            "under1m": "Kêmtir ji $1M",
+            "1mTo5m": "$1M - $5M",
+            "5mTo10m": "$5M - $10M",
+            "10mTo50m": "$10M - $50M",
+            "over50m": "Zêdetir ji $50M",
+            "notSure": "Hê ne diyar e"
           }
         },
         "message": {
-          "label": "Peyama We",
-          "placeholder": "Der bare projeya xwe, pewisteyan, demname, u her hurayen din ku dikarin alkariye bikin da pewisteyen we fahim bikin ji me re bejin..."
+          "label": "Peyama we",
+          "placeholder": "Derbarê projeya xwe de biaxive: şert, hewcedarî, demname, û her tiştê ku alîkariyê dike em projeya we baş fêm bikin..."
         }
       },
       "errors": {
-        "nameRequired": "Ji kerema xwe nave xwe binivisin",
-        "emailRequired": "Ji kerema xwe navnisana email xwe binivisin",
-        "emailInvalid": "Ji kerema xwe navnisaneke email drust binivisin",
-        "messageRequired": "Ji kerema xwe peyama xwe binivisin",
-        "messageTooShort": "Peyama we divit bi kembasi 20 tip be"
+        "nameRequired": "Ji kerema xwe navê xwe binivîse",
+        "emailRequired": "Ji kerema xwe emaila xwe binivîse",
+        "emailInvalid": "Ji kerema xwe emaila rast binivîse",
+        "messageRequired": "Ji kerema xwe peyama xwe binivîse",
+        "messageTooShort": "Peyama we divê herî kêm 20 karakter be"
       },
       "privacy": {
-        "text": "Bi seperandina ve forme, hun bi",
-        "link": "Siyaseta Nihenitiyi"
+        "text": "Bi şandinê vê formê, hûn razî dibin bi",
+        "link": "Polîtîkaya nepenîtiyê"
       },
-      "submit": "Peyame Bisepin",
-      "submitting": "Te sepedrme...",
+      "submit": "Bişîne",
+      "submitting": "Tê şandin...",
       "success": {
-        "title": "Peyam bi Serkefti Hat Sepedrme!",
-        "message": "Spas ji bo tekilidayina me. Timea me peyama we dixwine u di 24 seetadi de bersive we dide."
+        "title": "Peyam hate şandin",
+        "message": "Spas ji bo têkilî. Tîma me dê peyama we bibîne û di nav 24 saetan de bersiv bide."
       },
       "error": {
-        "title": "Tirsek Xelet Derket",
-        "message": "Me nekaribu peyama we bisepin. Ji kerema xwe disa biceribewin an bi riya telefon an email rasterast bi me re tekili daynin."
+        "title": "Çewtiyek çêbû",
+        "message": "Em nekarîn peyama we bişînin. Ji kerema xwe dîsa biceribîne an jî bi telefon an emailê rast bi me re têkilî daynin."
       }
-    },
+    }
+
+,
     "departments": {
-      "title": "Bi Besha re Tekili Daynin",
+      "title": "Têkilî li gorî beşê",
       "items": {
-        "general": "Pirsen Gisti",
-        "sales": "Firotin & Pesereftina Kar",
-        "projects": "Bireveriya Projeyan",
-        "careers": "Kariyer & HR",
-        "media": "Medya & Capa",
-        "support": "Pilania Tekniki"
+        "general": "Pirsên giştî",
+        "sales": "Firotan & pêşvebirin",
+        "projects": "Rêvebirina projeyan",
+        "careers": "Karîyer & HR",
+        "media": "Çapemenî & medya",
+        "support": "Piştgiriya teknîkî"
       }
     },
     "responseTime": {
-      "title": "Bersiva Bilez Garantiye",
-      "description": "Timea me bi girant di 24 seetadi de di rojen kare de bersiv dide. Ji bo kareyen lez, ji kerema xwe xeta me ya rewseke lez biker bikin."
+      "title": "Bersiva bilez garantî ye",
+      "description": "Tîma me bi gelemperî di nav 24 saetan de di rojên karî de bersiv dide. Ji bo rewşên bilez, xeta acil bikar bînin."
     },
     "social": {
-      "title": "Me Biseqinin"
+      "title": "Me bişopîne"
     },
     "offices": {
-      "eyebrow": "Cihneyen Me",
-      "title": "Seredana Ofisenene Me Bikin",
-      "description": "Bi ofiseneme li seranser Rojhilata Navin u Ewrupa, em tim li nezi projeya we ne.",
-      "headquarters": "Navenda Serekin",
-      "viewOnMap": "Li Nexseyi Bibin"
+      "eyebrow": "Cihên me",
+      "title": "Serdana ofîsan bikin",
+      "description": "Bi ofîsan li Rojhilata Navîn û Ewropa, em her dem nêzî projeya we ne.",
+      "headquarters": "Navenda sereke",
+      "viewOnMap": "Li ser nexşe bibîne"
     },
     "faq": {
       "eyebrow": "FAQ",
-      "title": "Pirseyen ku Pircar Diken",
-      "description": "Bersiveyen bilez li pirseyen hevpar der bare karkirina bi Bontera re bibinin.",
-      "viewAll": "Hemu FAQ Bibin",
+      "title": "Pirsên pir tên pirsîn",
+      "description": "Bersivên kurt ji bo pirsên herî gelek li ser kar kirin bi Bontera.",
+      "viewAll": "Hemû FAQ bibîne",
       "items": {
         "timeline": {
-          "question": "Projeyek avahisaziye bi giranke cend dem digire?",
-          "answer": "Demnameyen projeyan li gora dorme u pirgirviye diguherrin. Nuvekirinek bazirganiye ya biquk dikare 3-6 mehan bigire, dema ku pesereftinek mezin dikare 2-3 salan bidominin. Di serleheya me ya destpeki de, em demnameyeke berbereki ku taybeti projeya we ye peskesin."
+          "question": "Projeyek avakirinê çiqas dem dike",
+          "answer": "Dem li gorî qada karê û astengiyê diguherî. Nûjenkirina biçûk a bazirganî dikare 3 heta 6 meh bigire, lê pêşvebirineke mezin dikare 2 heta 3 salan bidome. Di şûrê destpêkê de, em demnameyeke hûrgulî ya li gorî projeya we pêşkêş dikin."
         },
         "budget": {
-          "question": "Hun cawa bihayen projeyan u tahminkirina liraje birevin dikin?",
-          "answer": "Em di qonaga plansaziye de tahminkirinene liraje yen zelal, berbereki peskesin. Timea me nermalava tahminkirine ya pesreftir u daneyeyen diroki biker dike da rastbune misoger bike. Em jibo vebijarkene endezyariya nirke jibo optimizekirina liraje bela hevgirtina kaliteye peskesin."
+          "question": "Hûn budce û texmînên lêçûn çawa rêve dikin",
+          "answer": "Em di qonaxa planîkirinê de texmînên zelal û bi hûrgulî pêşkêş dikin. Em amûrên pêşkeftî û daneyên dîrokî bikar tînin da ku rastbûn were zêdekirin. Her weha em vebijarkên value engineering pêşkêş dikin da ku lêçûn were optimîze kirin bê ku kalîte qurban bibe."
         },
         "process": {
-          "question": "Prosesa bireveriya projeyen we ci ye?",
-          "answer": "Prosesa me ya 4-qonag ya selih Vedibinin & Plansazi, Dizayn & Endezyari, Avahisazi & Pekvekirine, u Radestkirine & Pilani digire. Her qonageki qonagiyen zelal heye, u bireverek projeyek we wek xala tekilidayina yek were ji sere heta dawi."
+          "question": "Pêvajoya we ya rêvebirina projeyê çi ye",
+          "answer": "Pêvajoya me ya 4-qonaxî: Keşf & planîkirin, Dizayn & endezyarî, Avakirin & xebat, Teslîm & piştgirî. Her qonax xwedî milestone-yên zelal e, û hûn project manager-ek taybet heye wek nuqteya yekem a têkiliyê."
         },
         "warranty": {
-          "question": "Hun ci garantiyan li projeyen qediyayi peskesin?",
-          "answer": "Em li seranser hemu kara me garantiyen temam peskesin. Henceyen strukturi 10 sal, sistemeyen mekaniki u elektrik 5 sal, u huneremendiya gisti 2 sal teni dagirin. Vebijareyen garantiye ya direjkiri jibo heye."
+          "question": "Hûn çi warranty pêşkêş dikin",
+          "answer": "Em warranty-yên tevahî pêşkêş dikin: 10 sal ji bo hêmanên strukturî, 5 sal ji bo sîstemên mekanîkî û elektrîkî, û 2 sal ji bo karê destî. Vebijarkên warranty-yên dirêjkirî jî hene."
         }
       }
     },
     "map": {
-      "placeholder": "Nexseya interaktiv li vir were xuya kirin",
-      "visitUs": "Seredana Navenda Me ya Serekin Bikin",
-      "getDirections": "Rehneran Bibin"
+      "placeholder": "Li vir dê nexşeyeke interaktîf xuya bibe",
+      "visitUs": "Navenda me ya sereke serdan bikin",
+      "getDirections": "Rêya çûnê bistîne"
     }
   },
+
   "careersPage": {
     "meta": {
-      "title": "Kariyer | Bibe Endam Bontera Avahisazi",
-      "description": "Kariyera xwe bi Bontera re ava bikin. Derfeyen heyecan di avahisazi, endezyari, bireveriya projeyan, u zede li seranser ofisene me yen cihani bibinin."
+      "title": "Karîyer | Tevlî Bontera Construction bibe",
+      "description": "Karîyera xwe bi Bontera re pêş bibe. Derfetên di avakirinê, endezyarî, rêvebirina projeyan û zêdetir de, li seranserê ofîsên me keşf bike."
     },
     "breadcrumb": {
-      "home": "Destpek",
-      "careers": "Kariyer"
+      "home": "Destpêk",
+      "careers": "Karîyer"
     },
     "hero": {
-      "eyebrow": "Bibe Endam Timea Me",
-      "title": "Pasiroke Xwe Bi Me Re Ava Bikin",
-      "subtitle": "Bibe endam timekeke pisporene dilsoz ku ezmanan diyar dikin u civakan li seranser cihane ava dikin. Derfeya we ya mezin te hat intizar dike.",
-      "viewJobs": "Pozisyonene Vekiriye Bibin",
-      "ourCulture": "Kultura Me",
+      "eyebrow": "Tevlî tîmê me bibe",
+      "title": "Sibêya xwe bi me re ava bike",
+      "subtitle": "Tevlî tîmeke profesyonelên dilsoz bibe ku asîmanxêzan diyar dikin û civakan ava dikin. Derfeta te ya nû li vir e.",
+      "viewJobs": "Karên vekirî bibîne",
+      "ourCulture": "Çanda me",
       "stats": {
-        "employees": "Endam Time",
+        "employees": "Endamên tîmê",
         "countries": "Welat",
-        "openPositions": "Pozisyonene Vekiriye",
-        "glassdoorRating": "Nivra Glassdoor"
+        "openPositions": "Postên vekirî",
+        "glassdoorRating": "Nirxandina Glassdoor"
       }
     },
     "whyJoin": {
-      "eyebrow": "Cima Bontera",
-      "title": "Cima Kariyera Xwe Li Vir Ava Bikin?",
-      "description": "Li Bontera, em bawer dikin ku mirovene me sermaniya me ya here mezin in. Em sozdar in ku jingeyeke ku zebuhati te de pesereft dibe, nujeni te de gesedibe, u her endamek time dikare potansiyeleke xwe ya temam bigihit biafirinin.",
-      "yearsGrowing": "Salen Pesxistina Bi Hevra",
+      "eyebrow": "Çima Bontera",
+      "title": "Çima li vir karîyera xwe ava bikî",
+      "description": "Li Bontera, em bawer dikin ku mirovên me sermayeya me ya herî mezin in. Em şertên xebatê ava dikin ku tê de talent geş dike, nûbûn pêş dike, û her kes dikare bigihîje asta xwe ya herî bilind.",
+      "yearsGrowing": "Salên ku bi hev re mezin dibin",
       "points": {
         "impact": {
-          "title": "Bandoreke Rast Bikin",
-          "description": "Li ser projeyen nisane ku civakan diyar dikin u mirateke mayinde dihelin kar bikin."
+          "title": "Bandora rast",
+          "description": "Li ser projeyên nîşanî bixebite ku civakan diguherînin û mîratek domdar dihêlin."
         },
         "growth": {
-          "title": "Pesxistina Berdewam",
-          "description": "Gihistina rahenandin, bernameyeyen mentoriye, u rehene kariyereyen zelal."
+          "title": "Pêşketina domdar",
+          "description": "Gihiştina perwerdehiyê ya cîhanî, mentorîng û rêyên karîyerê yên zelal."
         },
         "team": {
-          "title": "Timea Hevkar",
-          "description": "Bibe endam timekeke ciyas, pilani ku serkeftinan bi hevra pirozbahi dike."
+          "title": "Tîmek hevkar",
+          "description": "Tevlî tîmek cihê cihê, piştgir û heval bibe ku serkeftinê bi hev re pîroz dike."
         },
         "innovation": {
-          "title": "Nujeni Yekem",
-          "description": "Bi teknolojiya pesereng u metodet avahisaziye yen peserok kar bikin."
+          "title": "Nûbûn li navenda karê",
+          "description": "Bi teknololojî û rêbazên nûjen ên avakirinê re bixebite."
         }
       }
     },
     "featured": {
-      "eyebrow": "Derfeyen Germ",
-      "title": "Pozisyonene Taybet",
-      "viewAll": "Hemu Pozisyonan Bibin",
-      "badge": "Taybet",
-      "applyNow": "Nuke Sepin"
+      "eyebrow": "Derfetên hilbijartî",
+      "title": "Karên hilbijartî",
+      "viewAll": "Hemû karan bibîne",
+      "badge": "Hilbijartî",
+      "applyNow": "Serlêdan bike"
     },
     "departments": {
-      "engineering": "Endezyari",
-      "projectManagement": "Bireveriya Projeyan",
-      "architecture": "Mimari & Dizayn",
-      "operations": "Karguzariyen",
-      "finance": "Daravi",
-      "hr": "Careseriya Mirovi"
+      "engineering": "Endezyarî",
+      "projectManagement": "Rêvebirina projeyê",
+      "architecture": "Mîmarî & dizayn",
+      "operations": "Operasyon",
+      "finance": "Darayî",
+      "hr": "Çavkaniyên mirovî"
     },
     "locations": {
       "dubai": "Dubai, Emiratên Erebî yên Yekbûyî",
-      "riyadh": "Riyad, Erebistana Siûdî",
-      "cairo": "Qahîre, Misir",
+      "riyadh": "Riyadh, Erebistana Sûdî",
+      "cairo": "Qahira, Misir",
       "london": "London, Keyaniya Yekbûyî",
-      "brussels": "Bruksel, Belçîka",
+      "brussels": "Brûksel, Belçîka",
       "germany": "Halle (Westfalen), Almanya"
     },
     "jobTypes": {
-      "fullTime": "Dem-Temam",
-      "partTime": "Dem-Pareki",
-      "contract": "Peymanname",
-      "internship": "Stajyeri"
-    },
-
-    "careersPage": {
-      "locations": {
-        "brussels": "Brussels, Belgium",
-        "dubai": "Dubai, UAE",
-        "cairo": "Cairo, Egypt",
-        "riyadh": "Riyadh, KSA"
-      }
+      "fullTime": "Tam-dem",
+      "partTime": "Nîv-dem",
+      "contract": "Peymanî",
+      "internship": "Staj"
     },
     "benefits": {
-      "eyebrow": "Feyde & Xelatan",
-      "title": "Em Li Timea Xwe Meraq Dikin",
-      "subtitle": "Paketa feydeyan temam ku saxlemani, dewlemendi, u hevsengiya kar-jiyan pilani dike.",
+      "eyebrow": "Sûd",
+      "title": "Em ji tîman xwe re balê dikin",
+      "subtitle": "Pakêtek tevahî ji bo tenduristî, aramiya darayî û balansa jiyan û kar.",
       "items": {
         "health": {
-          "title": "Saxlemani & Bexteri",
-          "description": "Dagirtina pizski, diranan, u diten temam ji bo we u malbata we, herwiha bernameyeyen bexteriyi u endametiya jimnastikan."
+          "title": "Tenduristî & xweşbûn",
+          "description": "Parastina tenduristî ji bo te û malbata te."
         },
         "retirement": {
-          "title": "Planeyen Teqawtbune",
-          "description": "Planeyen pasinena teqawtbune yen peskesker bi lihevhatina sirkete da pasirokeke we ya daravi ewle bike."
+          "title": "Xeta dûrxistina kar (retirement)",
+          "description": "Planên xilasbûnê yên pêşbaz bi beşdariya şîrketê."
         },
         "learning": {
-          "title": "Ferbunn & Pesereftine",
-          "description": "Derfeyen ferbunn yen berdewam tev sertifikayan, konferansan, u bernameyeyen vegerandina xerciye rahenandin."
+          "title": "Fêr bûn & pêşketin",
+          "description": "Derfetên domdar: sertîfîka, konferans û bernameyên alîkarîya xercên xwendinê."
         },
         "vacation": {
-          "title": "Dema Betlane ya Comerd",
-          "description": "Siyaseta PTO ya lekev, rojene betlane yen bi muzde, u derfeyen sabbatical da venuvinim u vekolim bikin."
+          "title": "Demê bêkarîya zêde",
+          "description": "Polîtîkaya flexible ya bêkarî û rojên betlaneyê yên dayînî."
         },
         "flexibility": {
-          "title": "Lekeviya Kar",
-          "description": "Aranjmaneyene kar en lekev u vebijareyen karkirina ji dure da alkariya we bikin ku hevsengiya kar-jiyan bidominin."
+          "title": "Flexîbîlîtî",
+          "description": "Rêbazên xebata flexible û karîna remote jî têne çêkirin"
         },
         "growth": {
-          "title": "Pesereftina Kariyere",
-          "description": "Rehene kariyereyen zelal, bernameyeyen mentoriye, u derfeyen pesereftine li seranser karguzariyene me yen cihani."
+          "title": "Pêşketina karîyerê",
+          "description": "Rêyên zelal, mentorîng û derfetên bilindbûnê di operasyonên me yên navneteweyî de."
         }
       }
     },
     "culture": {
-      "eyebrow": "Kultura Me",
+      "eyebrow": "Çanda me",
       "title": "Jiyan li Bontera",
-      "description": "Em kultureke serkeftin, hevkari, u pesxistina berdewam didominin ku her deng giring e.",
+      "description": "BONTERA GmbH",
       "values": {
         "innovation": {
-          "title": "Nujeni",
-          "description": "Em ramanene nuh u teknolojiya pesereng hildibijerin da carinan bashtir radest bikin."
+          "title": "Nûbûn",
+          "description": "Em fikrên nû û teknololojiyên pêşkeftî qebûl dikin da ku çareseriyên baştir bidin."
         },
         "teamwork": {
-          "title": "Kara Time",
-          "description": "Hevkari li navina her tirseke ku em dikin e, nerinene ciyas pirozbahi dike."
+          "title": "Ruhê tîmê",
+          "description": "Hevkarî li navenda hemû tiştan e, û perspektîfên cûda têne nirxandin."
         },
         "excellence": {
-          "title": "Serkeftin",
-          "description": "Em xwe li gora standardeyen here bilind di her projeyeke ku em dest pe dikin de digirin."
+          "title": "Perwerde",
+          "description": "Em li ser her projeyê standardên herî bilind têkildar dikin."
         },
         "safety": {
-          "title": "Ewlehi Yekem",
-          "description": "Saxbuna timea me u civakan herdem prioriteya me ya here mezin e."
+          "title": "Ewlehî pêşî",
+          "description": "Xweşiya tîman û civakan yekem e. Em li ser her şantiyê standardên ewlehiyê yên hişyarkirî sepandin."
         }
       }
     },
     "testimonials": {
-      "eyebrow": "Cirokene Karmendan",
-      "title": "Ji Timea Me Bibihizin",
+      "eyebrow": "Dengên karmendan",
+      "title": "Wan bi xwe dibêjin",
       "quotes": {
-        "engineer": "Bune endam Bontera biryara kariyere here baş bu ku min da. Proje dijwar in, time pilani ye, u tim cihe pesxistine heye. Min li vir derfeyen ku min ti car neditin hebun.",
-        "manager": "Tirsa ku ez here ji Bontera hez dikim kultura hevkariye ye. Her kes ji rehberiya mezin heta endam nuh li hember armanjen havbeh kar dikin. Bi rasti wek malbateke his dike.",
-        "architect": "Dome u pirgirviya projeyan li Bontera tu lihevhatiye tune ye. Min karibu li ser avahiyen nisane ku ji bo neslan diminin kar bikim. Zor xwes e ku diteya xwe ezmanen bajaran diyar dike bibinin."
+        "engineer": "Tevlî Bontera bûn biryara herî baş ya karîyera min bû. Projeyên me dijwar in, tîm piştgir e, û her tim cih heye ji bo pêşketinê. Li vir min derfetên wisa dît ku min qet nehestibûn.",
+        "manager": "Tişta ku ez herî zêde hez dikim li Bontera çanda hevkarî ye. Hemû kes, ji rêveberiyê heta karmendên nû, bi hev re ji bo armancên hevpar dixebitin. Bi rastî tê wateya malbatekê heye.",
+        "architect": "Mezinahî û astengiya projeyên Bontera bêhempa ne. Min li ser avahiyên îkonîk xebitîye ku dê salan bisekinin. Dîtina karê xwe ku asîmanxêz diguherîne, pir bi qîmet e."
       }
     },
     "openings": {
-      "eyebrow": "Pozisyonene Vekiriye",
-      "title": "Rola Xwe ya Tekhur Bibinin",
-      "showing": "{count} pozisyon teni xuya kirin",
-      "apply": "Sepin"
+      "eyebrow": "Karên vekirî",
+      "title": "Karê herî guncaw bibîne",
+      "showing": "Nîşandan: {count} kar",
+      "apply": "Serlêdan"
     },
     "filters": {
-      "allDepartments": "Hemu Besan",
-      "allLocations": "Hemu Cihneyan"
+      "allDepartments": "Hemû beş",
+      "allLocations": "Hemû cih"
     },
     "noJobs": {
-      "title": "Ti Pozisyon Nehat Ditin",
-      "description": "Me nekaribu ti pozisyoneyek ku li gora piveranene we bin bibinin. Filtereyen xwe bigjerin an zudi ji bo naveroka nuh vegerrin.",
-      "clearFilters": "Filtereyan Paqij Bikin"
+      "title": "Kar nehat dîtin",
+      "description": "Em karên ku li gorî şertên we be nehatin dîtin. Filteran biguherîne an jî paşê dîsa biceribîne.",
+      "clearFilters": "Filteran nûve bike"
     },
     "cta": {
-      "title": "Rola Rast Nabinin?",
-      "description": "Em tim li donalene bi zebuhati digerin ku bibe endam timea me. Resumeya xwe ji me re bisepin u em we ji bo derfeyen pasiroke bi bir dikin.",
-      "browseJobs": "Hemu Karan Bigevin",
-      "sendResume": "Resumeya Xwe Bisepin"
+      "title": "Tu karê guncaw nedît",
+      "description": "Em her dem li pey talentê ne. CVya xwe bişîne û em dê li ser derfetên paşê bi te re têkilî daynin.",
+      "browseJobs": "Hemû karan bibîne",
+      "sendResume": "CV bişîne"
     }
-  },
+  }
+
+  ,
   "newsPage": {
     "meta": {
-      "title": "Nuce & Biran | Bontera Avahisazi",
-      "description": "Bi nuceyen dawi, ragihandinene projeyan, biraneyen piseyi, u nuvekirinan sirkete ya Bontera ji seranser karguzariyene me yen cihani biminin nuhati."
+      "title": "Nûçe & têgihiştin | Bontera Construction",
+      "description": "Nûçe, ragihandinên projeyan, têgihiştinên pîşesaziyê û nûvekirinên şîrketê yên Bontera li seranserê operasyonên me yên navneteweyî bişopîne."
     },
     "breadcrumb": {
-      "home": "Destpek",
-      "news": "Nuce"
+      "home": "Destpêk",
+      "news": "Nûçe"
     },
     "hero": {
-      "eyebrow": "Nuce & Biran",
-      "title": "Cirokene ku Sibe Ava Dikin",
-      "subtitle": "Bi nuvekirinan dawi ji Bontera biminin agahdar, tev qonagiyen projeyan, trendene piseyi, u ragihandinene sirkete."
+      "eyebrow": "Nûçe & têgihiştin",
+      "title": "Çîrokên ku sibê ava dikin",
+      "subtitle": "Bi nûvekirinên herî nû yên Bontera agahdar bimîne: milestone-yên projeyan, trendên pîşesaziyê, û ragihandinên şîrketê."
     },
     "featured": {
-      "eyebrow": "Cirokene Taybet",
-      "title": "Sername Dawi",
-      "description": "Nuvekirin u ragihandinene here giring ji seranser karguzariyene me yen cihani."
+      "eyebrow": "Hilbijartî",
+      "title": "Sernavên herî nû",
+      "description": "Nûvekirinên herî girîng û ragihandinên sereke li seranserê operasyonên me yên navneteweyî."
     },
     "allNews": {
-      "eyebrow": "Hemu Gotare",
-      "title": "Hemu Nuceyan Bigevin",
-      "showing": "{count} gotare teni xuya kirin",
+      "eyebrow": "Hemû gotar",
+      "title": "Hemû nûçeyan bibîne",
+      "showing": "Nîşandan: {count} gotar",
       "inCategory": "di"
     },
     "categories": {
-      "all": "Hemu Nuce",
-      "companyNews": "Nuceyen Sirkete",
+      "all": "Hemû nûçe",
+      "companyNews": "Nûçeyên şîrketê",
       "projects": "Proje",
-      "industry": "Piseyi",
-      "sustainability": "Domdariye",
-      "awards": "Xelatan",
-      "events": "Buyer"
+      "industry": "Pîşesazî",
+      "sustainability": "Domdarî",
+      "awards": "Xelat",
+      "events": "Bûyer"
     },
-    "readMore": "Zede Bixwinin",
-    "minRead": "{minutes} deq xwendin",
+    "readMore": "Zêdetir bixwîne",
+    "minRead": "{minutes} xulek xwendin",
     "articles": {
       "news-001": {
-        "title": "Bontera $2.5 Milyar Peymannameya Binesaziya NEOM Qezenc Kir",
-        "excerpt": "Di serkeftineke nisane de, Bontera wek peymankere serekin ji bo pesereftineke binesaziye ya mezin di nav mega-projeya NEOM de hat hilbijartin, peymana me ya here mezin heta nuke nisan dide."
+        "title": "Bontera peymana binavbûnê ya NEOM bi nirxa $2.5B qezenc kir",
+        "excerpt": "Di serkeftineke mezin de, Bontera wek kontraktorê sereke hate hilbijartin ji bo pêşvebirineke binavbûnê di nav projeya mega ya NEOM de. Ev peymana me ya herî mezin e heta niha."
       },
       "news-002": {
-        "title": "10 Trendene Avahisaziya Berdewam ku Sala 2024e Diyar Dikin",
-        "excerpt": "Ji materyaleyen karbon-betal heta bireveriya avahiye bi AI-ajotin, nujeniyeyen ku veguhezinin cawa em ji bo paserokeye berdewamtir ava dikin bibinin."
+        "title": "Top 10 trendên avakirina domdar ku 2024 diguherînin",
+        "excerpt": "Ji materyalên bi karbon-netral heta rêvebirina avahiyan bi AI, nûbûnên ku çawa em ji bo sibê ava dikin keşf bike."
       },
       "news-003": {
-        "title": "Birceka Marina Sertifikaya LEED Platinum Stendin",
-        "excerpt": "Pesereftina me ya bi karanina tev ya flagship nivra domdariye ya here bilind stendin, sozdariya Bontera ya ji bo avahisaziya berpirsiyar a jingehe nisan dide."
+        "title": "Marina Tower sertîfîkaya LEED Platinum wergirt",
+        "excerpt": "Projeya me ya nîşanî ya mixed-use sertîfîkaya domdarî ya herî bilind wergirt, ku girêdayîbûna Bontera bi avakirina berpirsiyar nîşan dide."
       },
       "news-004": {
-        "title": "Bontera Xelata Serkeftina Avahisaziye ya 2024e Werdigire",
-        "excerpt": "Xelata piseyi ya girank nerda me ya nujeni ji bo radestkirina projeyan u sozdariya kaliteye li seranser portfolioya me nas dike."
+        "title": "Bontera Xelata Construction Excellence 2024 wergirt",
+        "excerpt": "Ev xelata girîng rêbaza me ya nûjen a teslîmkirinê û standardên me yên kalîteya bê şert nas dike."
       },
       "news-005": {
-        "title": "Navenda Heremi ya Nuh li Riyadh Vebe",
-        "excerpt": "Berfirehkirina hebuna me li Erebistana Suudi, ofisa nuh wek navend ji bo karguzariyene me yen pesereft di projeyen Diteh 2030e ya Padisahiye de xizmet dike."
+        "title": "Vekirina navendeke herêmî ya nû li Riyadh",
+        "excerpt": "Bi zêdekirina hebûna me li Erebistana Sûdî, ev ofîsa nû dê bibe navendek ji bo operasyonên têkildarî Vision 2030."
       },
       "news-006": {
-        "title": "Encameyen Serekin ji Konferansa Binesaziye ya Cihani ya 2024e",
-        "excerpt": "Timea me biranan ji buye ya pesereng a piseye parbehs dike, ku teknolojiyeyen pesereng, trendene vermayise, u derfeyen hevkari digire."
+        "title": "Peyamên sereke ji Global Real Estate Summit 2024",
+        "excerpt": "Tîma me têgihiştinên li ser teknololojiyên derketî, trendên veberhênanê, û derfetên hevkarîyê parve dike."
       },
       "news-007": {
-        "title": "Yekkirina Teknolojiya Avahiya Jir: Rehberek Pratik",
-        "excerpt": "Ferbin cawa em senzoret IoT, sistemeyen otomatik, u bireveriya bi AI-ajotin di projeyen avahisaziya nujen de biker dikin."
+        "title": "Teknolojiyên avahiyên jîr têkildar kirin: rêbereke pratîk",
+        "excerpt": "Fêr bibe ka em çawa sensorên IoT, otomasyon û rêvebirina bi AI di projeyan de têkildar dikin."
       },
       "news-008": {
-        "title": "Merasima Destpekkirine ji bo Kompleksa Tenderustiye ya $400M",
-        "excerpt": "Avahisazi fermii li ser tesisa pizski ya pesereng dest pe dike ku ze ji 2 milyon runistanet di navceya metropole de xizmet bike."
+        "title": "Destpêkirina avakirina komplekseke tenduristî ya $400M",
+        "excerpt": "Avakirin bi fermî dest pê kir ji bo tesîseke nûjen a tibbî ku dê zêdetir ji 2 mîlyon kesan xizmet bide."
       },
       "news-009": {
-        "title": "Bontera Sozdariya Karbon-Betaliye bo Sala 2030an Dide",
-        "excerpt": "Nexseya reya domdariye ya me ya temam gaveyen ku em digirin da emmisyonene sifir-net li seranser hemu karguzariyan bigihijin nisan dide."
+        "title": "Bontera bi karbon-netralî heta 2030 re peyman dike",
+        "excerpt": "Rêya me ya domdarî gavên ku ji bo gihiştina net-zero di operasyonên me de pêwîst in diyar dike."
       },
       "news-010": {
-        "title": "Hevkariyek Stratejik bi Sirketek Mimariye ya Cihani",
-        "excerpt": "Hevkari pisporiya dizayne ya cihan-class bo projeyen me li seranser Rojhilata Navin u Bakure Afrikaye tine."
+        "title": "Hevkarîya stratejîk bi fîrmayeke navneteweyî ya mîmarî",
+        "excerpt": "Ev hevkarî dê pisporiya dizayna cîhanî bîne bo projeyên me li seranserê Rojhilata Navîn û Afrîkaya Bakur."
       },
       "news-011": {
-        "title": "Ronahiya Karmendan: Stareyen Me yen Janviye Nas Bikin",
-        "excerpt": "Pirozbahiya endamene time yen awarte yen ku di ve mehe de ji normali derbas bun, zebuhati ku serkeftina Bontera diajo nisan dide."
+        "title": "Ronîkirina tîmê: stêrkên me yên Rêbendanê",
+        "excerpt": "Em endamên tîmê yên berbiçav di vê mehan de pîroz dikin, ku talentê li pişt serkeftina Bontera nîşan dide."
       },
       "news-012": {
-        "title": "Nujeniyen Teknolojiya Ewlehiya Cihde Avahisaziye",
-        "excerpt": "Lekolina teknolojiyeyen libasne, sistemeyen sewqandine, u serirastekirinene AI yen dawi ku cihdene kara me ji her deme ewletir dikin."
+        "title": "Nûbûn di teknololojiyên ewlehiyê yên şantiyê de",
+        "excerpt": "Nihêrînek li ser wearable, sîstemên şopandinê û sepandina AI ku şantiyên me her roj ewletir dike."
       }
     },
     "noArticles": {
-      "title": "Ti Gotare Nehat Ditin",
-      "description": "Me nekaribu ti gotareyan di ve kategoriye de bibinin. Kategoriyeke cuda hilbijerin an zudi ji bo naveroka nuh vegerrin.",
-      "viewAll": "Hemu Gotareyan Bibin"
+      "title": "Gotar nehat dîtin",
+      "description": "Em gotarek li vê kategoriya de nehatin dîtin. Kategoriya din hilbijêre an jî paşê dîsa vegere.",
+      "viewAll": "Hemû gotaran bibîne"
     },
     "newsletter": {
-      "eyebrow": "Binimin Nuhati",
-      "title": "Subscribe Rojnameya Me Bikin",
-      "description": "Nuce, nuvekirinene projeyan, u biraneyen piseyi yen dawi rasterast bo inbox a we bibin.",
-      "placeholder": "Navnisana email xwe binivisin",
-      "subscribe": "Subscribe Bikin",
-      "privacy": "Em nihenitiyi we rumet dikin. Her deme unsubscribe bikin."
+      "eyebrow": "Agahdar bimîne",
+      "title": "Tevlî newslettera me bibe",
+      "description": "Nûçe, nûvekirinên projeyan û têgihiştinên pîşesaziyê bişînin bo inboxa we.",
+      "placeholder": "Emaila xwe binivîse",
+      "subscribe": "Tevlî bibe",
+      "privacy": "Em nepenîtiya we rêz dikin. Hûn her dem dikarin xwe derxînin."
     },
     "media": {
-      "eyebrow": "Capa & Medya",
-      "title": "Pirseyen Medyaye",
-      "description": "Ji bo pirseyen capa, daxwaziyeyen hevpeyivine, an careseriyeyen medyaye, timea ragihandina me amade ye ku alkariya we bike.",
-      "email": "Tekiliya Medyaye",
-      "phone": "Xeta Capa",
-      "downloadKit": "Kita Capa Daxistin",
-      "featuredIn": "Li Te de Hat Xuya Kirin"
+      "eyebrow": "Çapemenî & medya",
+      "title": "Daxwazên medya",
+      "description": "Ji bo daxwazên çapemeniyê, hevpeyvîn, an jî çavkaniyên medya, tîma me ya têkiliyên giştî amade ye.",
+      "email": "Têkilîya medya",
+      "phone": "Xeta çapemeniyê",
+      "downloadKit": "Press kit daxîne",
+      "featuredIn": "Di van de hatine nîşandan"
     }
   },
+
   "quotePage": {
     "meta": {
-      "title": "Bihayeke Bixwazin | Bontera Avahisazi",
-      "description": "Ji bo projeya xwe ya avahisaziye bihayeke belahe, bela-sozdar bibin. Der bare diteya xwe de ji me re bejin u timea me di 48 seetadi de peskesenke berbereki pesdixe."
+      "title": "Daxwaza pêşniyar (quote) | Bontera Construction",
+      "description": "Ji bo projeya xwe pêşniyareke belaş, bê şert bistîne. Vizyona xwe binivîse û di nav 48 saetan de pêşniyareke hûrgulî wergire."
     },
     "breadcrumb": {
-      "home": "Destpek",
-      "quote": "Bihayeke Bixwazin"
+      "home": "Destpêk",
+      "quote": "Daxwaza pêşniyar"
     },
     "hero": {
-      "eyebrow": "Dest Pe Bikin",
-      "title": "Bihayeke Xwe ya Belahe Bixwazin",
-      "subtitle": "Der bare projeya xwe de ji me re bejin u peskesenke berbereki, li gora we ya taylandi ji timea me ya pispor bibin. Bela sozdar, bela heqen vesite.",
+      "eyebrow": "Dest pê bike",
+      "title": "Pêşniyara xwe ya belaş bixwaze",
+      "subtitle": "Derbarê projeya xwe de biaxive û pêşniyareke hûrgulî û li gorî hewcedariyan ji tîma me bistîne. Tu şert tune, tu lêçûna veşartî tune.",
       "trust": {
-        "free": "Bihayeke %100 Belahe",
-        "response": "Bersiva 48 Seeta",
-        "obligation": "Bela Sozdar"
+        "free": "Pêşniyara 100% belaş",
+        "response": "Bersiv di nav 48 saetan de",
+        "obligation": "Bê şert"
       }
     },
     "form": {
-      "eyebrow": "Pirsa Projeye",
-      "title": "Der Bare Projeya Xwe de ji Me Re Bejin",
-      "description": "Forma li jeri dagirin u timea me bihayeke berbereki ku li gora pewisteyen we yen taybeti hatiye taylandin amade dike.",
+      "eyebrow": "Daxwaza projeyê",
+      "title": "Derbarê projeya xwe de biaxive",
+      "description": "Formê jêrîn dagirin û tîma me dê pêşniyareke hûrgulî û li gorî hewcedariyan amade bike.",
       "steps": {
-        "contact": "Agahiya Tekili",
-        "project": "Hurayen Projeye",
-        "details": "Agahiya Zede"
+        "contact": "Detayên têkiliyê",
+        "project": "Detayên projeyê",
+        "details": "Agahiyên zêde"
       },
       "step1": {
-        "title": "Agahiya Tekili"
+        "title": "Detayên têkiliyê"
       },
       "step2": {
-        "title": "Hurayen Projeye"
+        "title": "Detayên projeyê"
       },
       "step3": {
-        "title": "Agahiya Zede"
+        "title": "Agahiyên zêde"
       },
       "fields": {
-        "firstName": "Nave Yekem",
-        "lastName": "Pasnav",
-        "email": "Navnisana Email",
-        "phone": "Nimreya Telefone",
-        "company": "Nave Sirkete",
-        "role": "Rola We",
-        "rolePlaceholder": "me. Xwedi, Birevere Projeye, Mimar",
-        "projectType": "Curne Projeye",
-        "projectLocation": "Cihde Projeye",
-        "projectLocationPlaceholder": "Bajar, Welat",
-        "projectSize": "Meza Projeye",
-        "budget": "Bihaya Tahminyi",
-        "timeline": "Demname ya Heviya",
-        "description": "Ravekirina Projeye",
-        "descriptionPlaceholder": "Ji kerema xwe projeya xwe bi berbereki ravebkin, tev dorme, armancan, u her pewisteyen taybeti...",
-        "requirements": "Xizmeten Pesdixin",
-        "referralSource": "We cawa der bare me de bihist?",
-        "preferredContact": "Metoda Tekiliye ya Bijarte",
-        "selectOption": "Vebijarkeke hilbijerin"
+        "firstName": "Nav",
+        "lastName": "Paşnav",
+        "email": "Email",
+        "phone": "Telefon",
+        "company": "Navê şîrketê",
+        "role": "Rolê te",
+        "rolePlaceholder": "Mînak: Xwedî, rêvebirê proje, mîmar",
+        "projectType": "Cureya projeyê",
+        "projectLocation": "Cihê projeyê",
+        "projectLocationPlaceholder": "Bajar, welat",
+        "projectSize": "Mezinahiya projeyê",
+        "budget": "Budceya texmînî",
+        "timeline": "Demnameya texmînî",
+        "description": "Danasîna projeyê",
+        "descriptionPlaceholder": "Projeya xwe bi hûrgulî binivîse, di nav de qada karê, armanc û şertên taybet...",
+        "requirements": "Xizmetên pêwîst",
+        "referralSource": "Hûn em çawa nas kirin",
+        "preferredContact": "Rêya têkiliyê ya tercîhkirî",
+        "selectOption": "Vebijarkek hilbijêre"
       },
       "projectTypes": {
-        "commercial": "Avahisaziya Bazirganiye",
-        "residential": "Avahisaziya Nistecih",
-        "realEstate": "Binesazi",
-        "industrial": "Piseyi",
-        "renovation": "Nuvekirin & Restorasyon",
-        "mixedUse": "Pesereftina Bi Karanina Tev",
-        "healthcare": "Tesisa Tenderustiye",
-        "education": "Saziyek Perwerdehi",
-        "hospitality": "Miteli & Gerok",
-        "other": "Yen Din"
+        "commercial": "Avakirina bazirganî",
+        "residential": "Avakirina niştecîhî",
+        "realEstate": "Emlak",
+        "industrial": "Endustriyî",
+        "renovation": "Nûjenkirin & rûmetkirin",
+        "mixedUse": "Pêşvebirina mixed-use",
+        "healthcare": "Tesîsa tenduristî",
+        "education": "Tesîsa perwerdeyê",
+        "hospitality": "Mîvandariyê & turîzm",
+        "other": "Yên din"
       },
       "projectSizes": {
-        "small": "Biquk (< 5,000 sq ft)",
-        "medium": "Navincok (5,000 - 50,000 sq ft)",
-        "large": "Mezin (50,000 - 500,000 sq ft)",
-        "megaProject": "Mega Proje (> 500,000 sq ft)"
+        "small": "Biçûk (< 5,000 ft²)",
+        "medium": "Navîn (5,000 - 50,000 ft²)",
+        "large": "Mezin (50,000 - 500,000 ft²)",
+        "megaProject": "Mega proje (> 500,000 ft²)"
       },
       "budgetRanges": {
-        "under500k": "Bin $500,000",
-        "500kTo1m": "$500,000 - $1 Milyon",
-        "1mTo5m": "$1 Milyon - $5 Milyon",
-        "5mTo10m": "$5 Milyon - $10 Milyon",
-        "10mTo50m": "$10 Milyon - $50 Milyon",
-        "50mTo100m": "$50 Milyon - $100 Milyon",
-        "over100m": "Zede ji $100 Milyon"
+        "under500k": "Kêmtir ji $500,000",
+        "500kTo1m": "$500,000 - $1M",
+        "1mTo5m": "$1M - $5M",
+        "5mTo10m": "$5M - $10M",
+        "10mTo50m": "$10M - $50M",
+        "50mTo100m": "$50M - $100M",
+        "over100m": "Zêdetir ji $100M"
       },
       "timelines": {
-        "immediate": "Destpeka Tavilane",
-        "1to3months": "1-3 Meh",
-        "3to6months": "3-6 Meh",
-        "6to12months": "6-12 Meh",
-        "over12months": "12+ Meh",
-        "flexible": "Lekev"
+        "immediate": "Destpêka bilez",
+        "1to3months": "1-3 meh",
+        "3to6months": "3-6 meh",
+        "6to12months": "6-12 meh",
+        "over12months": "12+ meh",
+        "flexible": "Flexible"
       },
       "requirements": {
-        "design": "Dizayn & Mimari",
-        "permits": "Desturen & Pesandin",
-        "projectManagement": "Bireveriya Projeyan",
-        "sustainability": "Domdariye/LEED",
-        "bim": "Xizmeten BIM",
-        "turnkey": "Careseriyek Turnkey"
+        "design": "Dizayn & mîmarî",
+        "permits": "Destûr & pejirandin",
+        "projectManagement": "Rêvebirina projeyê",
+        "sustainability": "Domdarî/LEED",
+        "bim": "Xizmetên BIM",
+        "turnkey": "Çareserîya turnkey"
       },
       "referralSources": {
-        "search": "Motorek Ligerine",
-        "referral": "Referans/Gotin Devi",
-        "socialMedia": "Medyaya Civaki",
+        "search": "Motora lêgerînê",
+        "referral": "Pêşniyar/dengê mirov",
+        "socialMedia": "Medya civakî",
         "advertisement": "Reklam",
-        "event": "Buyer/Konferans",
-        "other": "Yen Din"
+        "event": "Bûyer/konferans",
+        "other": "Yên din"
       },
       "contactMethods": {
         "email": "Email",
@@ -1426,356 +1473,341 @@
         "whatsapp": "WhatsApp"
       },
       "privacy": {
-        "text": "Bi seperandina ve forme, hun bi",
-        "link": "Siyaseta Nihenitiyi",
-        "and": "u",
-        "terms": "Sertan Xizmetkirini"
+        "text": "Bi şandinê vê formê, hûn razî dibin bi",
+        "link": "Polîtîkaya nepenîtiyê",
+        "and": "û",
+        "terms": "Mercên bikaranînê"
       },
       "buttons": {
-        "previous": "Beri",
-        "next": "Gava Pasei",
-        "submit": "Daxwaze Bisepin",
-        "submitting": "Te sepedrme..."
+        "previous": "Paşve",
+        "next": "Gava din",
+        "submit": "Daxwazê bişîne",
+        "submitting": "Tê şandin..."
       },
       "errors": {
-        "required": "Ev qad pesdixe",
-        "invalidEmail": "Ji kerema xwe navnisaneke email drust binivisin",
-        "descriptionTooShort": "Ji kerema xwe bi kembasi 50 tipeyan peskesin"
+        "required": "Ev qada pêwîst e",
+        "invalidEmail": "Ji kerema xwe emaila rast binivîse",
+        "descriptionTooShort": "Ji kerema xwe herî kêm 50 karakter binivîse"
       },
       "success": {
-        "title": "Daxwaza Biha Hat Sepedrme!",
-        "message": "Spas ji bo eleqa we bi Bontera. Timea me hurayen projeya we dixwine u di 48 seetadi de bi peskesneke taylandi bi we re tekili digire.",
-        "reference": "Nimreya Referanse"
+        "title": "Daxwaz hate şandin",
+        "message": "Spas ji bo eleqeya we. Tîma me dê daxwaza we bibîne û di nav 48 saetan de bi we re têkilî dayne, bi pêşniyareke li gorî hewcedariyan.",
+        "reference": "Hejmara referansê"
       },
       "error": {
-        "title": "Seperandin Serniket",
-        "message": "Me nekaribu daxwaza we pekve bikin. Ji kerema xwe disa biceribewin an rasterast bi me re tekili daynin."
+        "title": "Şandin serneket",
+        "message": "Em nekarîn daxwaza we pêvajoyê bikin. Ji kerema xwe dîsa biceribîne an jî rast bi me re têkilî daynin."
       }
     },
     "sidebar": {
       "whyUs": {
-        "title": "Cima Bontera Hilbijerin?",
-        "experience": "Salen Tecrubey",
-        "projects": "Proje Qediyane",
-        "onTime": "Radestkirina Li Ser Deme",
-        "clients": "Xeriden Razi"
+        "title": "Çima Bontera hilbijêre",
+        "experience": "Salên tecrûbe",
+        "projects": "Projeyên qedandî",
+        "onTime": "Teslîmkirina di demê de",
+        "clients": "Xerîdarên razî"
       },
       "contact": {
-        "title": "Biaxivin Hezdikint?",
-        "description": "Timea me amade ye ku projeya we rasterast biaxivin.",
-        "phone": "Ji Me Re Bizen",
-        "email": "Ji Me Re Email Bikin",
+        "title": "Tercîh didî biaxivî",
+        "description": "Tîma me amade ye ku li ser projeya we biaxive.",
+        "phone": "Telefon bikin",
+        "email": "Email bişînin",
         "whatsapp": "WhatsApp"
       },
       "hours": {
-        "title": "Seten Kare",
-        "weekdays": "Yeksem - Pencasem",
-        "saturday": "Sembi",
-        "sunday": "Ini",
-        "closed": "Girtiye"
+        "title": "Demjimêr",
+        "weekdays": "Yekşem - Pêncşem",
+        "saturday": "Şemî",
+        "sunday": "În",
+        "closed": "Girtî"
       }
     },
     "process": {
-      "eyebrow": "Cawa Kar Dike",
-      "title": "Ji Pirseyeke bo Peskesneke",
-      "description": "Prosesa me ya sade misoger dike ku hun bihayeke temam, rast bilez bibin.",
+      "eyebrow": "Çawa dixebite",
+      "title": "Ji daxwazê heta pêşniyarê",
+      "description": "Pêvajoya me ya kurt û rêgezê garantî dike ku hûn pêşniyareke tevahî û rast bi lez bistînin.",
       "steps": {
         "submit": {
-          "title": "Daxwaza Xwe Bisepin",
-          "description": "Forma me ya berbereki bi agahiya projeya xwe u pewisteyan dagirin."
+          "title": "Daxwaza xwe bişîne",
+          "description": "Formê me ya hûrgulî dagire bi agahiyên xwe û hewcedariyan."
         },
         "review": {
-          "title": "Em Dixwinin & Analiz Dikin",
-          "description": "Pisporene me seperandina we dixwinin u pewisteyen projeye analiz dikin."
+          "title": "Analîz & nirxandin",
+          "description": "Pisporên me daxwaza we dîtin û hewcedariyên projeyê analîz dikin."
         },
         "consultation": {
-          "title": "Serleheya Destpeki",
-          "description": "Em bangeke daninin da hurayen biaxivin u pirsen we bersiv bidin."
+          "title": "Şûra destpêkê",
+          "description": "Em telefonêk saz dikin da ku hûrguliyan biaxivin û pirsên we bersiv bidin."
         },
         "proposal": {
-          "title": "Peskesneka Xwe Bibin",
-          "description": "Peskesnekeke berbereki, taylandi bi bihayiriyeke zelal bibin."
+          "title": "Pêşniyara xwe bistîne",
+          "description": "Pêşniyareke bi nirxandinên zelal û transparan bistîne."
         }
       }
     },
     "faq": {
       "eyebrow": "FAQ",
-      "title": "Pirseyen Hevpar Der Bare Bihayan de",
-      "description": "Bersiveyen pirseyen ku pircar dikin der bare prosesa bihayaen me de bibinin.",
+      "title": "Pirsên pir tên pirsîn derbarê pêşniyaran de",
+      "description": "Bersivên pirsên herî gelek li ser pêvajoya pêşniyarê bibîne.",
       "stillQuestions": {
-        "title": "Hina pirsen heye?",
-        "description": "Timea me li vir e ku alikariye bike. Ji bo alikariya kesane bi me re tekili daynin.",
-        "link": "Bi Timea Me Re Tekili Daynin"
+        "title": "Hê pirsên we hene",
+        "description": "Tîma me li vir e ku alîkariyê bide. Ji bo piştgirîya taybet bi me re têkilî daynin.",
+        "link": "Bi tîma me re têkilî"
       },
       "items": {
         "timeline": {
-          "question": "Bihayeke bi giranke cend dem digire ku bibin?",
-          "answer": "Em bi girant bihayeyen destpeki di 48 seetadi de pirti daxwaza we peskesin. Ji bo projeyen pirgirviye ku analiza berbereki pesdixe, em bi we re tekili digirin da heviyeyen demname biaxivin."
+          "question": "Pêşniyar çiqas dem digire",
+          "answer": "Em bi gelemperî di nav 48 saetan de pêşniyareke destpêkî amade dikin piştî ku daxwaza we wergirt. Ji bo projeyên tevlihev ku analîzeke kûrtir dixwazin, em dê bi we re têkilî daynin da ku demnameyê rast bikin."
         },
         "cost": {
-          "question": "Heqek heye ji bo bidestxistina bihayeke?",
-          "answer": "Na, bihayeyen me bi temamiyi belahe ne bela sozdar. Em bi ragihandina zelal bawer dikin u dixwazin ku hemu agahiya ku pesdixe hebin da biryareke agahdar bidin."
+          "question": "Pêşniyar bi pere ye",
+          "answer": "Na, pêşniyarên me 100% belaş in û şert nadin. Em şeffafî pêşî dikin da ku hûn hemû agahiyên pêwîst hebin ji bo biryarê."
         },
         "included": {
-          "question": "Di bihaye de ci heye?",
-          "answer": "Bihayeyen me daberkirina liraje ya berbereki, demname projeye, dorme kare, taybetmendiyen materyalan, u sertan deyn digirin. Em jibo agahiya der bare desturen, sigmarta, u dagirtina garantiye jibo peskesin."
+          "question": "Pêşniyar çi tê de heye",
+          "answer": "Pêşniyarên me di nav de: dabeşkirina lêçûn, demname, qada karê, taybetmendiyên materyalan, şertên dayînê, her weha agahiyên li ser destûr, bîme û warranty."
         },
         "changes": {
-          "question": "Ez dikarim pirti bidestxistina bihayeke guhertinan bikim?",
-          "answer": "Bi tekusi. Em fahim dikin ku pewisteyen projeyan dikarin biguherin. Em kefxwes in ku bihayeyen li gora taybetmendiyen nuhati an guhertinan dorme bela heqe zede nuvekin."
+          "question": "Dikare projeyê piştî wergirtina pêşniyarê biguherînim",
+          "answer": "Erê. Hewcedariyên we dikarin biguherin. Em pêşniyaran li gorî taybetmendiyên nû an guhertina qada karê nûve dikin, bê lêçûna zêde."
         }
       }
     },
     "testimonial": {
-      "quote": "Prosesa bihaye zor sade bu. Timea Bontera wext dan ku pewisteyen me yen taybet fahim bikin u peskesnekeke berbereki, zelal peskesin ku baweriya temam da me ku berdewam bikin.",
+      "quote": "Pêvajoya pêşniyarê pir hêsan bû. Tîma Bontera dem da ku hewcedariyên me bi rastî fêm bike û pêşniyareke hûrgulî û transparan da, ku me bi temamî bawerî da ku pêşde biçin.",
       "author": "Mohammad Al-Farsi",
       "role": "CEO, Al-Farsi Developments"
     },
     "cta": {
-      "title": "Amade ne ku Projeya Xwe Dest Pe Bikin?",
-      "description": "Bibe endam sedan xeridenen razi ku Bontera ji bo pewisteyen avahisaziya xwe hilbijart.",
-      "getQuote": "Bihayeke Xwe ya Belahe Bibin",
-      "viewProjects": "Projeyen Me Bibin"
+      "title": "Amade ne ku projeya xwe dest pê bikin",
+      "description": "Bi sedan xerîdarên razî re tevlî bibe ku Bontera ji bo projeyan hilbijartin.",
+      "getQuote": "Pêşniyareke belaş bistîne",
+      "viewProjects": "Projeyên me bibîne"
     }
   },
+
   "projectDetail": {
     "breadcrumb": {
-      "home": "Mal",
+      "home": "Destpêk",
       "projects": "Proje"
     },
     "status": {
-      "completed": "Qediya",
-      "ongoing": "Derdikeve",
-      "upcoming": "Nêzîk e",
-      "planning": "Plansaz"
+      "completed": "Qedandî",
+      "ongoing": "Di xebatê de",
+      "upcoming": "Di pêşerojê de",
+      "planning": "Di planê de"
     },
-    "featured": "Projeya Taybetî",
-    "scrollToExplore": "Ji bo lêgerînê bigerin",
+    "featured": "Projeya hilbijartî",
+    "scrollToExplore": "Ji bo keşfê biçûke",
     "overview": {
-      "eyebrow": "Nêrîna Projeyê",
+      "eyebrow": "Nihêrîna giştî ya projeyê",
       "title": "Derbarê vê projeyê de"
     },
     "scope": {
-      "title": "Berfirehiya Projeyê"
+      "title": "Qada karê"
     },
     "servicesFeatures": {
-      "title": "Xizmet û Taybetmendî"
+      "title": "Xizmet û taybetmendî"
     },
     "challenges": {
-      "title": "Dijwarî"
+      "title": "Astengî"
     },
     "solutions": {
-      "title": "Çareseriyên Me"
+      "title": "Çareseriyên me"
     },
     "results": {
-      "title": "Encam û Bandor"
+      "title": "Encam û bandor"
     },
     "awards": {
-      "title": "Xelat û Sertîfîka"
+      "title": "Xelat û sertîfîka"
     },
     "details": {
-      "title": "Hûrguliyên Projeyê",
+      "title": "Hûrguliyên projeyê",
       "client": "Xerîdar",
-      "location": "Cîh",
+      "location": "Cih",
       "year": "Sal",
-      "value": "Nirxa Projeyê",
+      "value": "Nirxa projeyê",
       "duration": "Dem",
-      "size": "Mezinbûna Projeyê",
+      "size": "Mezinahî",
       "status": "Rewş",
-      "teamSize": "Mezinbûna Tîmê"
+      "teamSize": "Mezinahiya tîmê"
     },
     "team": {
-      "title": "Tîma Projeyê",
+      "title": "Tîma projeyê",
       "architect": "Mîmar",
-      "contractor": "Peymankara Sereke",
+      "contractor": "Kontraktorê sereke",
       "engineers": "Endezyar"
     },
     "sidebar": {
       "cta": {
-        "title": "Balkêşiya projeyek wekhev?",
-        "description": "Ka em nîqaş bikin ka em çawa dikarin dîtina we zindî bikin.",
-        "button": "Bihayê Bixwaze"
+        "title": "Eleqe heye bi projeyeke wekhev",
+        "description": "Ka em biaxivin ka em çawa dikarin vizyona we bibe rastî.",
+        "button": "Daxwaza pêşniyar (quote)"
       }
     },
     "gallery": {
-      "eyebrow": "Galeriya Projeyê",
-      "title": "Belgekirin Dîtbarî"
+      "eyebrow": "Galerîya projeyê",
+      "title": "Belgekirina dîtbar"
     },
     "related": {
-      "eyebrow": "Projeyên Din",
-      "title": "Karên Têkildar",
-      "viewAll": "Hemû Projeyan Bibin"
+      "eyebrow": "Projeyên din",
+      "title": "Xebatên têkildar",
+      "viewAll": "Hemû projeyan bibîne"
     },
     "cta": {
-      "eyebrow": "Projeya Xwe Dest Pê Bikin",
-      "title": "Amade ne ku Dîtina Xwe Ava Bikin?",
-      "description": "Tîma me amade ye ku ramanên we veguherîne rastiyê. Ka îro li ser projeya xwe nîqaş bikin.",
-      "startProject": "Projeya Xwe Dest Pê Bikin",
-      "contactUs": "Bi Me Re Têkilî Bikin"
+      "eyebrow": "Projeya xwe dest pê bike",
+      "title": "Amade ne ku vizyona xwe ava bikin?",
+      "description": "Tîma me amade ye ku fikrên we bibe rastî. Îro li ser projeya xwe biaxive.",
+      "startProject": "Projeya xwe dest pê bike",
+      "contactUs": "Bi me re têkilî"
     }
   },
 
   "valuesPage": {
     "meta": {
-      "title": "Mîsyon û Nirx | Bontera Construction",
-      "description": "Mîsyon, vîzyon û nirxên bingehîn ên Bontera keşf bikin ku her projeyek û her hevkarî rêber dikin."
+      "title": "Mîsyon & Nirx | Bontera Construction",
+      "description": "Mîsyona Bontera, vizyon û nirxên bingehîn keşf bike ku her projeyê û hevkarîyê rêberî dikin."
     },
-
     "breadcrumb": {
       "home": "Destpêk",
-      "about": "Derbarê Me",
+      "about": "Derbarê me de",
       "values": "Nirx"
     },
-
     "hero": {
-      "eyebrow": "Ev e baweriya me",
-      "title": "Mîsyon, Vîzyon û Nirxên Me",
-      "subtitle": "Prensîbên ku her biryar û her projeya ku em pêk tînin rêber dikin."
+      "eyebrow": "Em li ser çi radiwestin",
+      "title": "Mîsyon, Vîzyon & Nirxên me",
+      "subtitle": "Prensîpên ku her biryar û her proje ya me teslîm dikin rêberî dikin."
     },
-
     "mission": {
-      "eyebrow": "Mîsyona Me",
-      "title": "Avakirina ekselansê, afirandina nirxê",
-      "description": "Em ji bo mişteriyên taybet, veberhêner û şîrketan çareseriyên domdar, ewledar û aborî bihêz pêş dikin. Ji bo vê yekê, em zanîna kûr a bazarê, şîretkirina şeffaf û torêk hêzdar a hevkarên darayî û real-estate bi hev re têk dikin."
+      "eyebrow": "Mîsyona me",
+      "title": "Kalîte ava bike, nirx biafirîne",
+      "description": "Em çareseriyên domdar, ewle û bi aborî yên guncaw ji bo xerîdarên taybet, veberhêner û şîrketan pêşve dikin. Ji bo vê yekê, em zanîna kûr a bazarê, şîretkarîya transparan û tora xurt a hevkarên darayî û emlakê bi hev re têk dikin."
     },
-
     "vision": {
-      "eyebrow": "Vîzyona Me",
-      "title": "Şêwandina cîhana sibehê",
-      "description": "Bûn serokê cîhanî di avakirina domdar de, ku tê naskirin bi veguherandina vîzyonên mezin ên arşîtêktûrî bo avahiyên mayîndar ku îlham dide, xizmet dike û demê têber dike."
+      "eyebrow": "Vizyona me",
+      "title": "Cîhana sibê şekil bide",
+      "description": "Bibin serokê cîhanî di avakirina domdar de, ku bi projeyên ku vizyonên mîmarî yên mezin vediguherînin berbi strukturên domdar, îlhambexş û dirêjdemî tê nasîn."
     },
-
     "coreValues": {
-      "eyebrow": "Nirxên Bingehîn",
+      "eyebrow": "Nirxên bingehîn",
       "title": "Stûnên serkeftina me",
-      "subtitle": "Ev nirxên bingehîn çanda me û awayê ku em bi mişterî, hevkar û navbera xwe de dixebitin diyar dikin.",
-
+      "subtitle": "Ev nirxên sereke çanda şîrketê ava dikin û diyar dikin em çawa bi xerîdar, hevkar û hevkarên me re dixebitin.",
       "items": {
         "excellence": {
-          "title": "Ekselans",
-          "description": "Em li her hûrguliyê ekselansê digerin, ji destpêka sêwiranê heta radestkirina dawî, da ku karê me nîşana kalîte û pisporiyê be."
+          "title": "Kalîte",
+          "description": "Em kalîte li her hûrguliyê dişopînin, ji dizayna destpêkê heta teslîmkirina dawîn, da ku xebata me bibe nîşana huner û kalîte."
         },
         "integrity": {
-          "title": "Rastî û Rêxistin",
-          "description": "Em bi rastî û şeffafî dixebitin, bawerî bi rêya pratîkên exlaqî û berpirsiyar ava dikin."
+          "title": "Berpirsiyarbûn",
+          "description": "Em karûbarê xwe bi rastbûn û şeffafî dimeşînin, bawerî bi rêya rêbazên etik ava dikin."
         },
         "innovation": {
           "title": "Nûbûn",
-          "description": "Em teknololojî û metodên nû dipejirînin da ku çareseriyên avakirinê zîrek, bikêrhatî û domdar pêşkêş bikin."
+          "description": "Em teknololojî û rêbazên herî pêşkeftî qebûl dikin da ku çareseriyên avakirina zîrek û domdar bidin."
         },
         "safety": {
-          "title": "Ewlehî her tiştê pêşî",
-          "description": "Rêxistina ewlehiyê ji bo tîmê me û civakê herî girîng e. Em di her projeyê de standardên ewlehiyê yên hişk diparêzin."
+          "title": "Ewlehî",
+          "description": "Xweşiya tîm û civak yekem e. Em li ser her proje standardên ewlehiyê yên hişyarkirî sepandin."
         },
         "sustainability": {
-          "title": "Domdariyê",
-          "description": "Em bi pratîkên jîngehparêz re girêdayî ne, bandora xwe kêm dikin û nirx ji bo nifşên pêşerojê diafirînin."
+          "title": "Domdarî",
+          "description": "Em bi rêbazên berpirsiyar ên jîngehî re girêdayî ne da ku bandora xwe kêm bikin û ji bo nifşên pêşerojê nirx biafirînin."
         },
         "partnership": {
           "title": "Hevkarî",
-          "description": "Em bawer dikin ku peywendiyên hevkarî yên bihêz pêdivî ne, bi mişterî û şertdarên projeyê re nêzîk dixebitin da ku serkeftina hevpar bi dest bixin."
+          "description": "Em bawer dikin di peywendiyên xurt ên hevkarî de, bi xerîdar û alîgirên projeyê re nêzî dixebitin da ku serkeftinên hevpar were bidestxistin."
         }
       }
     },
-
     "principles": {
-      "eyebrow": "Prensîbên Rêber",
-      "title": "Awayê me yê karê",
-
+      "eyebrow": "Prensîpên rêber",
+      "title": "Em çawa dixebitin",
       "items": {
         "clientFirst": {
-          "title": "Mişterî di navendê de",
-          "description": "Her biryar li ser tiştê ku ji bo mişteriyan herî baş e tê avakirin. Em guhdarî dikin, fêm dikin û zêdetir ji hêviyan radigihînin."
+          "title": "Xerîdar pêşî",
+          "description": "Her biryar li ser tiştê ku ji bo xerîdar herî baş e tê dayîn. Em dibihîzin, difêm in, û ji hêvîyan derbas dikin."
         },
         "qualityDriven": {
-          "title": "Kalîte bê kompromîs",
-          "description": "Em qet li ser kalîte kompromîs nakin. Ji materyalan heta karê destan, em standardên herî bilind diparêzin."
+          "title": "Standardên kalîteyê",
+          "description": "Em li ser kalîte qet kompromîs nakin. Ji materyal heta xebat, em standardên herî bilind pêk tînin."
         },
         "teamEmpowerment": {
-          "title": "Hêzkirina tîmê",
-          "description": "Em di mirovên xwe de veberhênan dikin bi perwerde, çavkaniyên pêwîst û derfetên pêşkeftinê. Tîmên bihêz encamên awarte diafirînin."
+          "title": "Hêzdana tîman",
+          "description": "Em di kesan de veberhênan dikin bi perwerdehî, çavkaniyên pêwîst û derfetên pêşketinê. Tîmên xurt encamên taybet didin."
         },
         "continuousImprovement": {
-          "title": "Pêşveçûna herdemî",
-          "description": "Em her dem hewl didin ku pêvajoyan baştir bikin, teknololojîya nû bi kar bînin û di pîşesaziyê de pêşeng bimînin."
+          "title": "Başkirina domdar",
+          "description": "Em her dem pêvajoyên xwe baş dikin, teknololojîyên nû qebûl dikin, û bi trendên pîşesaziyê re pêşde diçin."
         }
       }
     },
-
     "valuesSnapshot": {
-      "eyebrow": "Nirx di çalakiyê de",
-      "title": "Tiştê ku Bontera diyar dike",
-
+      "eyebrow": "Nirx di xebatê de",
+      "title": "Çi Bontera diyar dike",
       "items": {
-        "transparencyReliabilityCommitment": "Şeffafî, bawerî û girêdan bingehê her hevkariyê ne.",
-        "technicalExpertise": "Pisporiya teknîkî û îcraya hişk encamên cîhanî garantî dike.",
-        "holisticApproach": "Nêrînek holîstîk ku avakirin û real-estate di yek vîzyonê de têk dike.",
-        "valueGrowth": "Afirandina nirxê ya domdar bi kontrolkirina rîskê û mezinbûna dirêjdem."
+        "transparencyReliabilityCommitment": "Şeffafî, bawerbarî û girêdayîbûn bingehê her hevkarîyê ne.",
+        "technicalExpertise": "Pisporiya teknîkî û xebata bi rêgez teslîmkirina cîhanî garantî dike.",
+        "holisticApproach": "Rêbazeke tevahî ku avakirin û emlakê di bin yek vizyonê de têk dike.",
+        "valueGrowth": "Afirandina nirxa domdar, bi kontrola rîsk û geşbûna dirêjdemî."
       },
-
-      "closing": "Li Bontera, nirx ne tenê gotin in, lê standardên rojane ne ku em bi wan dixebitin."
+      "closing": "Li Bontera, nirx ne tenê gotin in, ew standard in ku em her roj pêk tînin."
     },
-
     "culture": {
-      "eyebrow": "Çanda Me",
-      "title": "Çandeke ekselansê",
-      "paragraph1": "Li Bontera, çanda me li ser rêzgirtin, hevkarî û girêdana hevpar bo ekselansê ava bûye.",
-      "paragraph2": "Em cihêrengiyê pîroz dikin, nûbûn teşwîq dikin û dizanin ku hêza me ya herî mezin di mirovên me de ye.",
-      "quote": "Çand tenê li ser tiştê ku em dikin nayê. Ew li ser tiştê ku em in û awayê ku em bi hev re têkilî dikin ye.",
+      "eyebrow": "Çanda şîrketê me",
+      "title": "Standardeke xebatê ya rast",
+      "paragraph1": "Li Bontera, çanda me li ser rêzgirtin, hevkarî û girêdayîbûna hevpar bi kalîte hate avakirin.",
+      "paragraph2": "Em cihêrengiyê pîroz dikin, nûbûn teşwîq dikin, û dizanin ku hêza me ya herî mezin tîmên me ne",
+      "quote": "Çand tenê tiştê ku em dikin nîne. Ew kî ne em in û em çawa bi hev re têkiliyê dikin.",
       "quoteAuthor": "Reginald Charles",
-      "quoteTitle": "Rêvebera Operasyonê",
-      "teamMembers": "Endamên tîmê li cîhanê"
+      "quoteTitle": "Serokê Operasyonê (COO)",
+      "teamMembers": "Endamên tîmê li seranserê cîhanê"
     },
-
     "cta": {
-      "title": "Cûdabûna Bontera Bibîne",
-      "description": "Bibîne ka nirxên me çawa dibin encamên awarte ji bo projeya te.",
-      "contactUs": "Bi Me Re Têkilî Bikin",
-      "learnMore": "Zêdetir Bizanin"
+      "title": "Cûdahiya Bontera keşf bike",
+      "description": "Bibîne ka nirxên me çawa vediguherin encamên taybet ji bo projeya te.",
+      "contactUs": "Bi me re têkilî",
+      "learnMore": "Zêdetir fêr bibe"
     }
   },
+
   "partnersPage": {
     "meta": {
-      "title": "Hevkar & Affiliates | Bontera Construction",
-      "description": "Hevkarîyên stratejîk ên Bontera bi şîrketên pêşeng di avakirinê, teknololojiyê û peydakirina materyalan de keşf bikin."
+      "title": "Hevkar & affiliate | Bontera Construction",
+      "description": "Hevkarîyên stratejîk ên Bontera bi şîrketên pêşeng di avakirina, teknololojî û peydakirina materyalan de keşf bike."
     },
-
     "breadcrumb": {
       "home": "Destpêk",
-      "about": "Derbarê Me",
+      "about": "Derbarê me de",
       "partners": "Hevkar"
     },
-
     "hero": {
-      "eyebrow": "Allîansên stratejîk",
-      "title": "Avakirina serkeftinê bi hevkarî",
-      "subtitle": "Em bi serokên pîşesaziyê re hevkarî dikin da ku encamên awarte pêşkêş bikin û nûbûnê di avakirinê de pêş bixin."
+      "eyebrow": "Hevkarîyên stratejîk",
+      "title": "Serkeftin bi hevkarî ava dibe",
+      "subtitle": "Em bi rêberên pîşesaziyê re hevkarî dikin da ku encamên taybet bidin û nûbûn di avakirina de bide pêş."
     },
-
     "philosophy": {
-      "eyebrow": "Felsefeya hevkariyê",
-      "title": "Bi hev re bihêztir",
-      "paragraph1": "Li Bontera, em bawer dikin ku projeyên herî baş bi hevkarî têne avakirin. Hevkarîyên me yên stratejîk kapasîteya me fireh dikin û destûr didin ku em çareseriyên temam pêşkêş bikin ku hêviyên mişteriyan derbas dikin.",
-      "paragraph2": "Em bi baldarî hevkarên ku heman girêdan bi kalîte, nûbûn û domdarî re hene hilbijêrin. Bi hev re, em pisporî, çavkanî û teknololojî têk dikin da ku projeyên herî dijwar ên avakirinê bi ser bikevin.",
+      "eyebrow": "Felsefeya hevkarîyê",
+      "title": "Bi hev re xurtir",
+      "paragraph1": "Li Bontera, em bawer dikin ku projeyên herî baş bi hevkarî têne avakirin. Hevkarîyên me yên stratejîk kapasîteya me fireh dikin û destûr didin ku em çareseriyên navneteweyî pêşkêş bikin ku ji hêviyên xerîdar derbas dibin.",
+      "paragraph2": "Em hevkaran bi baldarî hilbijêrin ku bi kalîte, nûbûn û domdarî re hevrê ne. Bi hev re, em pisporî, çavkanî û teknololojî têk dikin da ku projeyên herî dijwar pêk bînin.",
       "stats": {
         "partners": "Hevkarên stratejîk",
-        "years": "Salên hevkariyê",
+        "years": "Salên hevkarîyê",
         "countries": "Welat"
       }
     },
-
     "strategic": {
       "eyebrow": "Hevkarên stratejîk",
-      "title": "Hevkarên endezyarî & sêwiranê",
-      "subtitle": "Ofîsên endezyarî û sêwiranê yên asta cîhanî ku vîzyonên mezin didin jiyan.",
+      "title": "Hevkarên endezyarî & dizaynê",
+      "subtitle": "Fîrmayên endezyarî û dizaynê yên cîhanî ku vizyonên herî mezin dikin rastî.",
       "partners": {
         "arcadis": {
           "name": "Arcadis",
-          "specialty": "Sêwiran & şîretkarî"
+          "specialty": "Dizayn & şîretkarî"
         },
         "aecom": {
           "name": "AECOM",
-          "specialty": "Infrastruktûr"
+          "specialty": "Binavbûn"
         },
         "arup": {
           "name": "Arup",
@@ -1787,19 +1819,18 @@
         }
       }
     },
-
     "technology": {
       "eyebrow": "Hevkarên teknololojiyê",
-      "title": "Pêşvebirina nûbûna dîjîtal",
-      "subtitle": "Hevkarên teknololojiyê ku veguherîna me ya dîjîtal pêş dixin û avakirina zîrek dikin.",
+      "title": "Nûbûna dîjîtal bilez dike",
+      "subtitle": "Hevkarên teknololojiyê ku guhertina dîjîtal piştgirî dikin û avakirina zîrek mümkün dikin.",
       "partners": {
         "autodesk": {
           "name": "Autodesk",
-          "solution": "Nermalava BIM & sêwiranê"
+          "solution": "BIM & nermalava dizaynê"
         },
         "trimble": {
           "name": "Trimble",
-          "solution": "Teknololojiya avakirinê"
+          "solution": "Teknololojiyên avakirinê"
         },
         "procore": {
           "name": "Procore",
@@ -1807,19 +1838,18 @@
         },
         "oracle": {
           "name": "Oracle",
-          "solution": "Çareseriyên şîrketî"
+          "solution": "Çareseriyên enterprise"
         }
       }
     },
-
     "suppliers": {
       "eyebrow": "Hevkarên materyalan",
-      "title": "Firoşkarên materyalên premium",
-      "subtitle": "Firoşkarên bawerbar ku materyalên bilindkalîte peyda dikin û standardên me yên hişk pêk tînin.",
+      "title": "Pêşkêşkerên premium",
+      "subtitle": "Pêşkêşkerên bawerbar ku materyalên bi kalîte pêşkêş dikin ku bi standardên me re hevrê ne.",
       "partners": {
         "holcim": {
           "name": "Holcim",
-          "products": "Siman & agregat"
+          "products": "Semend & agregat"
         },
         "heidelberg": {
           "name": "Heidelberg Materials",
@@ -1827,7 +1857,7 @@
         },
         "caterpillar": {
           "name": "Caterpillar",
-          "products": "Makîneyên giran"
+          "products": "Amûrên giran"
         },
         "hilti": {
           "name": "Hilti",
@@ -1835,11 +1865,10 @@
         }
       }
     },
-
     "associations": {
-      "eyebrow": "Endamtiyên pîşesaziyê",
-      "title": "Komeleyên profesyonel",
-      "description": "Em endamtiyên çalak di komeleyên pêşeng ên pîşesaziyê de diparêzin, bi pratîkên herî baş re girêdayî dimînin û beşdarî pêşkeftina sektora avakirinê dibin.",
+      "eyebrow": "Endamtiya profesyonel",
+      "title": "Komeleyên pîşesaziyê",
+      "description": "Em endamtiya çalak di komeleyên pîşesaziyê yên pêşeng de diparêzin, bi best-practice re têkildar dimînin û di pêşketina pîşesaziyê de beşdar dibin.",
       "items": {
         "agc": {
           "name": "AGC of America"
@@ -1861,141 +1890,136 @@
         }
       }
     },
-
-  
-  "cta": {
-    "title": "Bibe hevkar",
-    "description": "Tu dixwazî bi Bontera re hevkarî bikî? Em her dem li rêxistinên ku heman girêdan bi ekselansê re hene digerin.",
-    "becomePartner": "Bibe hevkar",
-    "learnMore": "Zêdetir bizane"
+    "cta": {
+      "title": "Bibe hevkar",
+      "description": "Dixwazî bi Bontera re hevkarî bikî? Em her dem li pey rêxistinên ku bi kalîte re hevrê ne.",
+      "becomePartner": "Bibe hevkar",
+      "learnMore": "Zêdetir fêr bibe"
+    }
   },
+
   "jobDetailPage": {
     "meta": {
-      "titleSuffix": "Kar | Bontera Construction",
-      "description": "Ji bo vê derfetê karê ya balkêş li Bontera Construction serlêdan bike."
+      "titleSuffix": "Karîyer | Bontera Construction",
+      "description": "Ji bo vê derfeta karîyerê ya balkêş li Bontera Construction serlêdan bike."
     },
     "breadcrumb": {
-      "home": "Mal",
-      "careers": "Kar"
+      "home": "Destpêk",
+      "careers": "Karîyer"
     },
-    "featured": "Taybet",
-    "posted": "Hat weşandin",
+    "featured": "Hilbijartî",
+    "posted": "Hate weşandin",
     "applyNow": "Niha serlêdan bike",
     "sections": {
       "description": "Danasîna karê",
-      "responsibilities": "Berpirsiyariyên bingehîn",
-      "requirements": "Pêdiviyên bingehîn",
+      "responsibilities": "Berpirsiyariyên sereke",
+      "requirements": "Şert",
       "benefits": "Em çi pêşkêş dikin"
     },
     "sidebar": {
       "quickInfo": "Agahiyên bilez",
       "department": "Beş",
       "location": "Cih",
-      "type": "Cureyê karê",
+      "type": "Cureya karê",
       "experience": "Tecrûbe",
       "shareJob": "Vê karê parve bike",
-      "questions": "Pirsyarên te hene?",
-      "contactText": "Tîma me ya şandinê amade ye ku alîkariya te bike. Ji bo her pirsê li ser vê pozîsyonê, bi me re têkilî daynin."
+      "questions": "Pirs hene?",
+      "contactText": "Tîma me ya recruitment li vir e ku alîkariyê bide. Ger pirsên we hene li ser vê rolê, bi me re têkilî daynin."
     },
     "apply": {
-      "title": "Ji bo vê pozîsyonê serlêdan bike",
-      "subtitle": "Forma jêrîn tije bike da ku serlêdana xwe bişînî. Em wê binirxînin û di demeke kurt de bi te re têkilî daynin.",
+      "title": "Ji bo vê rolê serlêdan bike",
+      "subtitle": "Formê jêrîn dagirin da ku serlêdana xwe bişînin. Em dê wê zû bibînin û bi we re vegerin.",
       "fields": {
-        "firstName": "Navê yekem",
-        "lastName": "Navê paşîn",
-        "email": "Navnîşana e-nameyê",
-        "phone": "Hejmara telefonê",
+        "firstName": "Nav",
+        "lastName": "Paşnav",
+        "email": "Email",
+        "phone": "Telefon",
         "linkedin": "Profîla LinkedIn",
         "resume": "CV",
-        "resumeHint": "Pelê xwe li vir bikşîne an jî bitikîne da ku bibîne",
-        "resumeFormats": "PDF, DOC, DOCX (herî zêde 5MB)",
-        "coverLetter": "Nameya şopandinê",
-        "coverLetterPlaceholder": "Ji me re bêje çima tu vê rolê dixwazî û çi te dike kesekî guncaw..."
+        "resumeHint": "Pelê xwe li vir bişike, an jî bitikîne da ku hilbijêre",
+        "resumeFormats": "PDF, DOC, DOCX (Herî zêde 5 MB)",
+        "coverLetter": "Cover letter",
+        "coverLetterPlaceholder": "Bêje çima tu bi vê rolê re eleqedar î û çi tê de tu dibînin ku tu kandidatek baş î..."
       },
       "privacy": {
-        "text": "Ez razî me ku daneyên kesane yên min li gorî",
-        "link": "Siyaseta taybetiyê"
+        "text": "Ez razî me bi pêvajoyê kirina daneyên min li gorî",
+        "link": "Polîtîkaya nepenîtiyê"
       },
-      "submit": "Serlêdanê bişîne"
+      "submit": "Serlêdan bişîne"
     },
-    "backToCareers": "Vegere hemû pozîsyonan"
-  }
-}
-,
+    "backToCareers": "Vegere Karîyer"
+  },
 
- 
   "whyBonteraPage": {
     "meta": {
-      "title": "Çima em hilbijêrin? | Bontera Construction",
-      "description": "Bontera pargîdanîyek yekgirtî ye ku di her qonaxê projeyên we de bi hev re pisporiya teknîkî, vîzyona stratejîk û ekselansiya operasyonî têk dike û piştgirî pêşkêş dike."
+      "title": "Çima me hilbijêre? | Bontera Construction",
+      "description": "Bontera şîrketeke yekgirtî ye ku xerîdar di her qonaxê de piştgirî dike, bi tevlihevkirina pisporiya teknîkî, vizyona stratejîk û xebata operasyonek bi standard."
     },
     "breadcrumb": {
-      "ariaLabel": "Rêbera rê",
+      "ariaLabel": "Breadcrumb",
       "home": "Destpêk",
       "about": "Derbarê me de",
-      "current": "Çima em hilbijêrin?"
+      "current": "Çima me hilbijêre?"
     },
     "hero": {
-      "imageAlt": "Çima em hilbijêrin?",
-      "title": "Çima em hilbijêrin?",
-      "subtitle": "Bontera, hevkarê gerdûnî ji bo projeyên we yên mal û milkê"
+      "imageAlt": "Çima me hilbijêre?",
+      "title": "Çima me hilbijêre?",
+      "subtitle": "Bontera, hevkarek navneteweyî ji bo projeyên we yên emlakê"
     },
     "sections": {
       "global": {
         "title": "BONTERA GmbH",
-        "p1": "Bontera pargîdanîyek yekgirtî ye ku di her qonaxê projeyan de bi xerîdaran re li gel hev dimeşe, bi tevahî têkiliya pisporiya teknîkî, nêrîna stratejîk û ekselansiya operasyonî. Rêbazê me li ser şeffafî, bawerîpêkî û girêdayîbûnê tê avakirin, bi armancek herdemî: nirxeke mayîndar biafirîne û di heman demê de xetereyan bi rêkûpêk kontrol bike.",
-        "p2": "Bi zanîna kûr a bazarê û rêveberiya projeyê ya bi disiplin, Bontera kesên taybet, pargîdaniyan û veberhêneran bi çareseriyên li gorî hewcedariyên wan piştgirî dike, ku li gorî her daxwazê têne saz kirin.",
-        "summaryTitle": "Tiştên ku hûn bistînin",
+        "p1": "Bontera şîrketek e ku xerîdar di her qonaxê de piştgirî dike, bi tevlihevkirina pisporiya teknîkî, vizyona stratejîk û pêşkêşkirina xizmetê ya qalîte. Rêbaza me li ser şeffafî, bawerbarî û girêdayîbûn hatiye avakirin, bi armancek her dem: nirxa domdar biafirîne, her weha rîsk kontrol bike.",
+        "p2": "Bi zanîna kûr a bazarê û rêvebirina projeyê ya bi rêgez, Bontera kes, şîrket û veberhêner piştgirî dike bi çareseriyên taybet û li gorî hewcedariyên wan.",
+        "summaryTitle": "Tiştên ku tu bistînî",
         "bullets": {
-          "clarity": "Roniya tam li ser scope û encamên radestkirinê.",
-          "control": "Kontrol li ser plankirin û hevrêziyê.",
-          "finish": "Qedandina bilind-asta ku hûn dikarin pê serbilind bibin."
+          "clarity": "Zelalî li ser qada karê û teslîman.",
+          "control": "Kontrola demname û koordînasyonê.",
+          "finish": "Temamkirina bilind ku tu pê serbilind bî."
         },
         "card": {
-          "title": "Radestkirina premium",
-          "body": "Standardeke yek, ku bi domdarî li ser hemû projeyê tê sepandin.",
-          "ctaLabel": "E-name",
+          "title": "Teslîmkirina premium",
+          "body": "Yek standard, bi heman rêbazê li seranserê projeyê tê sepandin.",
+          "ctaLabel": "Email",
           "ctaValue": "info@bontera.de"
         }
       },
+      "integrated": {
+        "eyebrow": "Modela xebatê",
+        "title": "Vizyoneke yekgirtî ya emlakê",
+        "p1": "Tevlihevkirina van qadên pisporiyê destûr dide Bontera ku rêbazeke tevahî pêşkêş bike ku tevahiya jiyana emlakê digire: feasibilîte, dizayn, avakirin, rêvebirin û komersyalîzasyon. Ev vizyona yekgirtî performans baştir dike, têkçûn kêm dike, û kontrola rîsk xurt dike.",
+        "block1Title": "Çi tê hevkirin",
+        "block2Title": "Tu çi bendewar bibî",
+        "bullets": {
+          "scope": "Qada karê û teslîman diyar",
+          "timeline": "Demname û fazbandiya kontrolkirî",
+          "quality": "Milestone-yên kalîte û pejirandin",
+          "predictable": "Teslîmkirina pêşbînîbartir",
+          "accountability": "Berpirsiyarîyên zelal",
+          "premium": "Standardê temamkirina premium"
+        }
+      },
       "contractor": {
-        "title": "Bontera - Pêdivîdar (Contractor)",
-        "p1": "Wek pêdivîdar, Bontera plankirin, rêvebirin û bicihkirina projeyên avahiyên niştecîhî û bazirganiyê bi awayekî profesyonel pêk tîne, bi garantîya qalîteyê, pejirandinê û rêzgirtina deman.",
-        "p2": "Em her weha xizmetên şîretkirina avahîsaziyê pêşkêş dikin ji bo kes û pargîdanîyan ku dixwazin biryarên xwe yên teknîkî û darayî ewle bikin. Wek nûnerê xwediyê projeyê (giştî an taybet), em dibin yek xalê têkilî, berjewendiyên mişterî diparêzin, hemû aliyên têkildar rêkûpêk dikin û şopandina ronahî di tevahî projeyê de təmin dikin."
+        "title": "Bontera - Kontraktorê giştî",
+        "p1": "Wek kontraktorê giştî, Bontera planîkirin, rêvebirin û xebata projeyên emlakê yên niştecîhî û bazirganî pêşkêş dike, bi garantîya kalîte û rêzgirtina deman û standardan.",
+        "p2": "Em her weha xizmetên şîretkarîya avakirinê pêşkêş dikin ji bo kes û şîrketên ku dixwazin biryarên xwe yên teknîkî û darayî ewle bikin. Wek nûnerê xwediyê projeyê (giştî an taybet), em wek yek nuqteya têkiliyê dixebitin, berjewendiyên xerîdar diparêzin, hemû alîgir koordîne dikin, û şopandina transparan di her qonaxê de garantî dikin."
       },
       "developer": {
-        "title": "Bontera - Pêşvebirê Projeyê / Pêşvebirê Mal û Milkê",
-        "p1": "Bontera wek pêşvebirê projeyê û pêşvebirê mal û milkê dixebite û di afirandin û pêşvebirina projeyên niştecîhî an endustriyî de alîkarî dike. Em lêkolînên feasibility pêk tînin ku tê de aliyên teknîkî, qanûnî, darayî û bazarî bi hev re têne nirxandin, da ku veberhênerî ji destpêkê ve were ewle kirin.",
-        "p2": "Ji dizaynê heta bicihkirinê, em nêrînek giştî pêşkêş dikin ku armancê wê zêdekirina nirxê assetê, ewlekirina qazancî û domdarîya dirêjdemî ye."
+        "title": "Bontera - Pêşvebirina projeyê",
+        "p1": "Bontera wek pêşvebirê proje dixebite, di konsept û pêşvebirina projeyên emlakê yên niştecîhî an bazirganî de piştgirî dike. Em lêkolînên feasibilîteyê yên tevahî dikin ku aliyên teknîkî, qanûnî, darayî û bazirganî digirin, da ku veberhênan ji destpêkê ve were ewle kirin.",
+        "p2": "Ji dizaynê heta teslîmkirinê, em projeyan bi awayek end-to-end saz dikin û rêve dikin, bi armancek: zêdekirina nirxa mal û sermayeyê û parastina qezencê ya dirêjdemî û domdarî."
       },
       "broker": {
-        "title": "Bontera - Brokerê Mal û Milkê",
-        "p1": "Wek brokerê mal û milkê, Bontera mişterîyên taybet û veberhêneran di kirîn, firotin û kirêdanê de alîkarî dike. Zanîna me ya bazarê bi pisporiya teknîkî û darayî re destûr dide ku em şansên herî baş bibînin û her danûstendinê bi ewlehî bigihînin.",
-        "p2": "Em şeffafî û parastina berjewendiyên mişterîyên xwe li navenda karê xwe dikin, da ku biryar bi agahî were girtin û encam bi şertên herî baş were bidestxistin."
-      },
-      "integrated": {
-        "title": "Nêrînek yekgirtî ya mal û milkê",
-        "p1": "Têkiliya van warên pisporiyê dihêle Bontera ku nêrînek yekgirtî li ser hemû jiyana projeyên mal û milkê pêşkêş bike: feasibility, dizayn, avahî, rêveberin û firotandin. Ev nêrîn performansê baştir dike, xetereyan kêm dike û kontrola projeyê zêde dike.",
-        "block1Title": "Tiştên ku em di yekê de rêz dikin",
-        "block2Title": "Tiştên ku hûn dikarin li bendê bin",
-        "bullets": {
-          "scope": "Scope hate diyarkirin û encamên radestkirinê ronî ne",
-          "timeline": "Plana demê ya rêkûpêk û qonaxên projeyê yên şeffaf",
-          "quality": "Standartên qalîteyê û radestkirinên bi belge",
-          "predictable": "Bicihkirina pêşbînîbar û surprîzên kêm",
-          "accountability": "Berdestîya berpirsiyariyê û ragihandina rasterast",
-          "premium": "Standardê premium di karmendî û hûrguliyên qediya de"
-        }
+        "title": "Bontera - Brokerê emlakê",
+        "p1": "Wek brokerê emlakê, Bontera kes û veberhêner di kirîn, firotin û kirêkirinê de piştgirî dike. Zanîna me ya bazarê, bi pisporiya teknîkî û darayî re, alîkariyê dike ku em derfetên herî baş bibînin û her danûstandinê ewle bikin.",
+        "p2": "Em şeffafî û parastina berjewendiyên xerîdar li navenda rêbaza xwe dikin, da ku biryarên agahdar û encamên herî baş were bidestxistin."
       }
     },
- 
-
-      
-      "cta": {
-        "imageAlt": "Bir gayrimenkul projeniz var mı?",
-        "title": "Bir gayrimenkul projeniz var mı?",
-        "description": "Bontera, onu başarıyla hayata geçirmek için stratejik ortağınızdır."
-      }
-    
+    "cta": {
+      "imageAlt": "Projeyek emlakê heye?",
+      "title": "Projeyek emlakê heye?",
+      "description": "Bontera hevkara te ya stratejîk e ku wê bi serkeftinî teslîm bike."
+    }
   }
 }
+

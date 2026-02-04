@@ -125,11 +125,19 @@ const Icons = {
       <path strokeLinecap="round" strokeLinejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
     </svg>
   ),
+
   industrial: (
-    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-      <path strokeLinecap="round" strokeLinejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
-    </svg>
-  ),
+  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      d="M3 21V10l6 3V10l6 3V10l6 3v8H3z"
+    />
+    <path strokeLinecap="round" strokeLinejoin="round" d="M7 21v-3m4 3v-3m4 3v-3" />
+  </svg>
+),
+
+
   publicWorks: (
     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
       <path strokeLinecap="round" strokeLinejoin="round" d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z" />
@@ -138,16 +146,6 @@ const Icons = {
   linkedin: (
     <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
       <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
-    </svg>
-  ),
-  twitter: (
-    <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-      <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
-    </svg>
-  ),
-  facebook: (
-    <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-      <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
     </svg>
   ),
   instagram: (
@@ -208,7 +206,7 @@ export default function Header() {
       { key: 'renovation', icon: Icons.renovation, href: `/${currentLocale}/services/renovation` },
       { key: 'consulting', icon: Icons.consulting, href: `/${currentLocale}/services/consulting` },
       { key: 'projectManagement', icon: Icons.management, href: `/${currentLocale}/services/management` },
-      { key: 'sustainability', icon: Icons.sustainability, href: `/${currentLocale}/services/sustainability` },
+
     ],
     [currentLocale]
   );
@@ -231,7 +229,7 @@ export default function Header() {
       { key: 'values', href: `/${currentLocale}/about/values` },
        { key: 'whyBontera', href: `/${currentLocale}/about/why-bontera` },
       
-      { key: 'partners', href: `/${currentLocale}/about/partners` },
+    
     ],
     [currentLocale]
   );
@@ -382,8 +380,8 @@ export default function Header() {
               <div className="flex items-center gap-1">
                 {[
                   { icon: Icons.linkedin, href: '#', label: 'LinkedIn' },
-                  { icon: Icons.twitter, href: '#', label: 'X (Twitter)' },
-                  { icon: Icons.facebook, href: '#', label: 'Facebook' },
+                 
+             
                   { icon: Icons.instagram, href: '#', label: 'Instagram' },
                 ].map((social) => (
                   <a
@@ -399,15 +397,7 @@ export default function Header() {
 
               <div className="w-px h-4 bg-bontera-grey-700" />
 
-              {/* Certifications Badge */}
-              <div className="flex items-center gap-2 text-bontera-grey-400">
-                <span className="inline-flex items-center justify-center h-5 w-5 rounded bg-green-600 text-[10px] font-bold text-white">
-                  ISO
-                </span>
-                
-              </div>
-
-              <div className="w-px h-4 bg-bontera-grey-700" />
+           
 
               {/* Emergency Contact */}
               <a
@@ -440,13 +430,16 @@ export default function Header() {
         {/* Architectural accent line */}
         <div className="h-[3px] bg-gradient-to-r from-bontera-navy-600 via-bontera-navy-500 to-bontera-navy-600" />
 
-        <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-6">
+
         <div
   className={cn(
     'flex items-center justify-between gap-3',          // mobile
-    'lg:grid lg:grid-cols-[180px_1fr_auto] lg:gap-6',   // desktop
+  'lg:grid lg:grid-cols-[140px_1fr_auto] lg:gap-6',
+ // desktop
     'transition-all duration-300',
-    isScrolled ? 'h-[82px]' : 'h-[102px]'
+ isScrolled ? 'h-[72px]' : 'h-[86px]'
+
   )}
 >
 
@@ -454,30 +447,29 @@ export default function Header() {
                 LOGO / BRAND - Shows full logo
             ───────────────────────────────────────────── */}
 
-            <Link
-              href={`/${currentLocale}`}
-              className="inline-flex items-center group self-stretch"
-            >
-            <span
-  className={cn(
-    'relative h-full min-w-0',                          // allow shrink
-    isScrolled
-      ? 'w-[170px] sm:w-[220px] lg:w-[360px]'
-      : 'w-[190px] sm:w-[260px] lg:w-[440px]'
-  )}
+<Link
+  href={`/${currentLocale}`}
+  className="relative flex items-center self-stretch shrink-0 w-[170px] lg:w-[210px] -ml-2 lg:-ml-4"
 >
+  <span className="absolute left-0 top-1/2 -translate-y-1/2 h-[40px] lg:h-[46px] w-full overflow-visible">
+    <Image
+      src="/brand/logo01_clean.png"
+      alt="Bontera"
+      fill
+      priority
+      quality={100}
+      sizes="(min-width: 1024px) 210px, 170px"
+      className={cn(
+        "object-contain object-left origin-left will-change-transform transition-transform duration-300",
+        isScrolled ? "scale-[0.98]" : "scale-[1.00]",
+        "drop-shadow-[0_10px_18px_rgba(30,58,95,0.18)]"
+      )}
+    />
+  </span>
+</Link>
 
-                <Image
-                  src="/brand/lastlogo.png"
-                  alt="Bontera"
-                  fill
-                  priority
-                  quality={100}
-                  sizes="(min-width: 1024px) 440px, (min-width: 640px) 320px, 280px"
-                  className="object-contain object-left origin-left scale-[1.10]"
-                />
-              </span>
-            </Link>
+
+
 
             {/* ─────────────────────────────────────────────
                 DESKTOP NAVIGATION
@@ -861,7 +853,7 @@ function ServicesMegaMenu({
 
           <div className="rounded-xl overflow-hidden mb-4">
             <Image
-              src="/brand/lastlogo.png"
+              src="/brand/logo01_clean.png"
               alt="Featured service"
               width={200}
               height={120}
@@ -1017,7 +1009,7 @@ function CompanyMegaMenu({
           <div className="space-y-4">
             {[
               { value: '20+', label: t('yearsExperience') },
-              { value: '80+', label: t('projectsCompleted') },
+              { value: '70+', label: t('projectsCompleted') },
               { value: '12', label: t('countriesOperating') },
               { value: '1200+', label: t('teamMembers') },
             ].map((stat) => (
@@ -1071,16 +1063,16 @@ function MobileMenu({
       />
 
       {/* Panel */}
-      <div className="absolute inset-y-0 right-0 w-full max-w-md bg-white shadow-[0_0_60px_rgba(30,58,95,0.25)] animate-bontera-slide-in-right overflow-y-auto">
+      <div className="absolxute inset-y-0 right-0 w-full max-w-md bg-white shadow-[0_0_60px_rgba(30,58,95,0.25)] animate-bontera-slide-in-right overflow-y-auto">
         {/* Header - Shows full logo */}
         <div className="sticky top-0 z-10 bg-white border-b border-bontera-grey-200 px-5 py-4 flex items-center justify-between">
           <div className="flex items-center">
             <span className="relative h-11 w-[160px] overflow-hidden">
               <Image
-                src="/brand/lastlogo.png"
+                src="/brand/logo01_clean.png"
                 alt="Bontera"
                 fill
-                sizes="120px"
+                sizes="10px"
                 className="object-contain object-left"
                 priority
               />
@@ -1287,8 +1279,8 @@ function MobileMenu({
           <div className="flex items-center justify-center gap-2">
             {[
               { icon: Icons.linkedin, href: '#', label: 'LinkedIn' },
-              { icon: Icons.twitter, href: '#', label: 'X' },
-              { icon: Icons.facebook, href: '#', label: 'Facebook' },
+             
+              
               { icon: Icons.instagram, href: '#', label: 'Instagram' },
             ].map((social) => (
               <a

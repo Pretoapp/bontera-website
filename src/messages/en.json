@@ -8,255 +8,356 @@
     "news": "News",
     "contact": "Contact"
   },
+
+  "sections": {
+    "integrated": {
+      "eyebrow": "Operating model"
+    }
+  },
+
+  "ourStoryPage": {
+    "meta": {
+      "title": "Our Story | Bontera",
+      "description": "Discover Bontera’s origin, evolution, and vision. From 2004 to today, a journey driven by excellence, safety, and sustainability."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "about": "About",
+      "ourStory": "Our Story"
+    },
+    "hero": {
+      "eyebrow": "Our Story",
+      "title": "A legacy that turns ambitions into reality",
+      "subtitle": "With more than 20 years of expertise in construction and project development, we guide our clients at every step with transparency, efficiency, and reliability."
+    },
+    "origin": {
+      "eyebrow": "Origins",
+      "title": "Where it all began",
+      "paragraph1": "Bontera was born from a simple conviction: build with rigor, transparency, and technical mastery to deliver reliable and durable projects.",
+      "paragraph2": "From the start, we structured our approach around safety, compliance with standards, and rigorous management of costs and timelines.",
+      "paragraph3": "Over the years, our expertise expanded to more complex projects, with a growing focus on energy performance and responsible construction practices.",
+      "founded": "Founded",
+      "location": "Brussels, Belgium"
+    },
+    "founderQuote": {
+      "quote": "Our objective is clear: to offer our partners and clients real estate projects that are reliable, safe, and high value-added.",
+      "name": "Mr. Necdet",
+      "title": "Founder & CEO"
+    },
+    "timeline": {
+      "eyebrow": "Our journey",
+      "title": "Milestones that define us",
+      "milestones": {
+        "founding": {
+          "title": "The beginning",
+          "description": "Bontera is founded with a vision: raise the standards of quality, safety, and delivery."
+        },
+        "firstMajor": {
+          "title": "First major project",
+          "description": "Delivery of our first major project, strengthening our credibility and execution methodology."
+        },
+        "expansion": {
+          "title": "Regional expansion",
+          "description": "Key partnerships, team growth, and a gradual expansion of our operational capabilities."
+        },
+        "international": {
+          "title": "International expansion",
+          "description": "Deployment across multiple markets, with a standardized approach and controlled local execution."
+        },
+        "sustainability": {
+          "title": "Sustainability shift",
+          "description": "Integration of responsible practices, optimized materials, and energy performance targets across our projects."
+        },
+        "technology": {
+          "title": "Technology acceleration",
+          "description": "Adoption of advanced coordination tools and modern methods to improve quality, timelines, and traceability."
+        },
+        "pandemic": {
+          "title": "Resilience in a critical period",
+          "description": "Rapid adaptation of processes and maintained deliveries, despite a globally unstable environment."
+        },
+        "future": {
+          "title": "Building tomorrow",
+          "description": "Continued innovation, moving upmarket, and expansion around sustainable, high-value projects."
+        }
+      }
+     },
+    "achievements": {
+      "eyebrow": "By the numbers",
+      "title": "Our achievements",
+      "items": {
+        "projects": "Projects delivered",
+        "deliveredValue": "Value delivered",
+        "countries": "Countries",
+        "sqmDelivered": "Square meters delivered"
+      }
+    },
+    "future": {
+      "eyebrow": "Looking ahead",
+      "title": "Future vision",
+      "paragraph1": "Our priority is to deliver projects that are ever more high-performing, safer, and more sustainable, without compromising on quality.",
+      "paragraph2": "We invest in the methods, talent, and partnerships needed to remain a benchmark player in our markets.",
+      "focus": {
+        "innovation": "Innovation",
+        "sustainability": "Sustainability",
+        "growth": "Growth"
+      }
+    },
+    "cta": {
+      "title": "Ready to build something exceptional",
+      "description": "Whether you are planning a residential or commercial development or a sustainable building, our team is ready to bring your vision to life.",
+      "startProject": "Contact us",
+      "joinTeam": "Join the team"
+    }
+  },
   "metadata": {
-    "title": "Bontera | Construction & Infrastructure",
-    "description": "World-class construction and infrastructure solutions. From concept to completion, we deliver projects that define skylines and transform communities."
+    "title": "Bontera | Construction & Real Estate",
+    "description": "World-class construction and infrastructure solutions. From design to delivery, we execute projects that reshape skylines and transform communities."
   },
   "hero": {
-    "eyebrow": "Building Excellence Since 2004",
-    "titleLine1": "We Build",
-    "titleLine2": "The Future",
-    "description": "With over 20 years of experience in construction, project development, and real estate brokerage, we support our clients at every stage of their projects with safety, quality, and transparency.",
-    "ctaPrimary": "View Our Projects",
-    "ctaSecondary": "Get In Touch",
+    "eyebrow": "Construction excellence since 2004",
+    "titleLine1": "We build",
+    "titleLine2": "the future",
+    "description": "With more than 20 years of expertise in construction, project development, and real estate brokerage, we support every client with efficiency, commitment, reliability, quality, and transparency.",
+    "ctaPrimary": "View our projects",
+    "ctaSecondary": "Contact us",
     "stats": {
-      "years": "Years of Experience",
-      "sqm": "Square Meters Delivered",
-      "budget": "Projects Delivered",
-      "languages": "Languages Spoken"
+      "years": "Years of experience",
+      "sqm": "Square meters delivered",
+      "budget": "Completed projects",
+      "languages": "Languages spoken",
+      "projectsDelivered": "Projects delivered",
+      "categories": "Residential, commercial and industrial"
     }
   },
   "vision": {
-    "eyebrow": "Our Vision",
-    "headline": "Engineering Tomorrow's Landmarks Today",
-    "description": "We do not just construct buildings. We create enduring legacies. Our commitment to innovation, sustainability, and uncompromising quality has made us the partner of choice for the world's most ambitious projects.",
+    "eyebrow": "Our vision",
+    "headline": "Design tomorrow’s landmarks, starting today",
+    "description": "We do not just build buildings. We shape lasting legacies. Driven by innovation, sustainability, and uncompromising quality, we have become the preferred partner for the world’s most ambitious projects.",
     "features": {
       "innovation": {
-        "title": "Innovation First",
-        "description": "Pioneering construction technologies and methodologies that set new industry standards."
+        "title": "Innovation first",
+        "description": "Pioneering construction technologies and methodologies that set new standards."
       },
       "heritage": {
-        "title": "Built on Heritage",
-        "description": "20+ years of expertise in construction, restoration, and real estate development across Europe."
+        "title": "A strong legacy",
+        "description": "More than 20 years of expertise in construction, restoration, and real estate development across Europe."
       },
       "sustainability": {
-        "title": "Sustainable Future",
-        "description": "LEED-certified projects with a commitment to net-zero construction by 2030."
+        "title": "A sustainable future",
+        "description": "LEED-certified projects and a commitment to net-zero construction by 2030."
       }
     }
   },
+
   "services": {
-    "eyebrow": "What We Do",
-    "headline": "Comprehensive Construction Solutions",
-    "viewAll": "Explore All Services",
+    "eyebrow": "What we do",
+    "headline": "End-to-end construction solutions",
+    "viewAll": "Discover all services",
     "items": {
       "construction": {
         "title": "Construction",
-        "description": "Residential, commercial, and tertiary construction projects built with safety, quality, and strict adherence to standards."
+        "description": "Residential, commercial, and tertiary construction delivered with safety, quality, and strict compliance with applicable standards."
       },
       "restoration": {
         "title": "Restoration & Renovation",
-        "description": "Expert restoration of classified heritage buildings and residential renovation with respect for architectural integrity."
+        "description": "Expert restoration of listed buildings and residential renovation with respect for architectural integrity."
       },
       "projectManagement": {
         "title": "Project Management",
-        "description": "End-to-end project management for private clients and businesses, ensuring transparency and deadline compliance."
+        "description": "End-to-end project management for private clients and businesses, ensuring transparency and on-time delivery."
       },
       "realEstate": {
-        "title": "Real Estate Development",
-        "description": "Residential and commercial property development with focus on sustainability and long-term value creation."
+        "title": "Project development",
+        "description": "Development of residential and commercial properties focused on sustainability and long-term value creation."
       },
       "brokerage": {
         "title": "Real Estate Brokerage",
-        "description": "Professional brokerage services for purchase, sale, and rental of residential and commercial properties."
+        "description": "Professional brokerage services for buying, selling, and leasing residential and commercial properties."
       },
       "consulting": {
         "title": "Consulting",
-        "description": "Expert guidance on feasibility, planning, cost management, and regulatory compliance."
+        "description": "Expert support in feasibility, planning, cost management, and regulatory compliance."
       }
     }
   },
   "projects": {
-    "eyebrow": "Featured Work",
-    "headline": "Projects That Define Skylines",
-    "viewAll": "View All Projects",
-    "noProjects": "No projects to display at this time.",
-    "viewProject": "View Project",
-    "projectValue": "Project Value",
+    "eyebrow": "Featured work",
+    "headline": "Projects that reshape skylines",
+    "viewAll": "View all projects",
+    "noProjects": "No projects to display at the moment.",
+    "viewProject": "View project",
+    "projectValue": "Project value",
     "client": "Client",
     "year": "Year",
     "showcase": {
-      "eyebrow": "Project Showcase",
-      "headline": "Explore Our Latest Work"
+      "eyebrow": "Project showcase",
+      "headline": "Discover our latest work"
     },
     "categories": {
-      "eyebrow": "Browse by Category",
-      "headline": "Explore Our Expertise",
+      "eyebrow": "Browse by category",
+      "headline": "Explore our expertise",
       "explore": "Explore"
     }
   },
   "stats": {
-    "years": "Years of Experience",
-    "sqm": "Square Meters Delivered",
-    "budget": "Projects Delivered",
-    "languages": "Languages Spoken",
-    "projects": "Projects Completed",
-    "satisfaction": "Client Satisfaction",
-    "delivered": "Value Delivered"
+    "years": "Years of experience",
+    "sqm": "Square meters delivered",
+    "budget": "Completed projects",
+    "languages": "Languages spoken",
+    "projects": "Projects completed",
+    "satisfaction": "Client satisfaction",
+    "delivered": "Value delivered"
   },
   "whyUs": {
-    "eyebrow": "Why Choose Bontera",
-    "headline": "Excellence Is Our Standard",
-    "description": "When you partner with Bontera, you are choosing a team that treats every project as if our reputation depends on it, because it does.",
-    "cta": "Learn About Us",
+    "eyebrow": "Why Bontera",
+    "headline": "Excellence is our standard",
+    "description": "Choosing Bontera means choosing a team that treats every project as if its reputation depends on it. Because it does.",
+    "cta": "Learn more",
     "points": {
       "quality": {
-        "title": "Uncompromising Quality",
-        "description": "Processes ensure consistent excellence across every project."
+        "title": "High quality standards.",
+        "description": "Processes ensure consistent excellence on every project."
       },
       "timeline": {
-        "title": "On-Time Delivery",
-        "description": "98% of our projects are delivered on or ahead of schedule, every single time."
+        "title": "On-time delivery",
+        "description": "98% of our projects are delivered on time or ahead of schedule, consistently."
       },
       "safety": {
-        "title": "Safety First",
-        "description": "Industry-leading safety record with OSHA compliance and zero-incident initiatives."
+        "title": "Safety",
+        "description": "Exemplary safety performance, OSHA compliance, and zero-incident initiatives."
       }
     }
   },
   "testimonial": {
-    "quote": "Bontera exceeded every expectation. Their attention to detail, professionalism, and commitment to our vision resulted in a landmark building we are incredibly proud of.",
+    "quote": "Bontera exceeded all our expectations. Their attention to detail, professionalism, and commitment to our vision made it possible to deliver an exceptional building we are extremely proud of.",
     "name": "Reginald Charles",
     "role": "Lakay Business LTDA"
   },
   "news": {
-    "eyebrow": "News & Insights",
-    "headline": "Latest Updates",
-    "viewAll": "View All News",
-    "readMore": "Read Article",
-    "noNews": "No news articles to display at this time."
+    "eyebrow": "News & insights",
+    "headline": "Latest updates",
+    "viewAll": "View all news",
+    "readMore": "Read the article",
+    "noNews": "No articles to display at the moment."
   },
   "newsSection": {
-    "title": "News & Insights",
-    "seeMore": "Read Article",
-    "discoverAll": "View All News",
-    "empty": "No news articles to display at this time."
+    "title": "News & insights",
+    "seeMore": "Read the article",
+    "discoverAll": "View all news",
+    "empty": "No articles to display at the moment."
   },
   "header": {
     "headquarters": "Halle (Westfalen), Germany",
-    "emergency24": "24/7 Emergency",
+    "emergency24": "Emergency 24/7",
     "search": "Search",
     "searchPlaceholder": "Search projects, services, news...",
-    "quickLinks": "Quick Links",
+    "quickLinks": "Quick links",
     "pressEsc": "Press ESC or click outside to close",
-    "selectLanguage": "Select Language",
-    "requestQuote": "Request Quote",
-    "contactInfo": "Contact Info",
-    "ourServices": "Our Services",
+    "selectLanguage": "Select language",
+    "requestQuote": "Request a quote",
+    "contactInfo": "Contact information",
+    "ourServices": "Our services",
     "featured": "Featured",
-    "sustainableBuilding": "Sustainable Building Solutions",
-    "sustainableBuildingDesc": "Leading the industry in eco-friendly construction with LEED-certified projects.",
-    "viewAllServices": "View All Services",
-    "projectCategories": "Project Categories",
-    "featuredProject": "Featured Project",
+    "sustainableBuilding": "Sustainable building solutions",
+    "sustainableBuildingDesc": "",
+    "viewAllServices": "View all services",
+    "projectCategories": "Project categories",
+    "featuredProject": "Featured project",
     "featuredProjectTitle": "NATO Headquarters Brussels",
     "featuredProjectLocation": "Brussels, Belgium",
     "completed": "Completed",
-    "viewAllProjects": "View All Projects",
+    "viewAllProjects": "View all projects",
     "aboutBontera": "About Bontera",
-    "byTheNumbers": "By The Numbers",
-    "yearsExperience": "Years of Experience",
-    "projectsCompleted": "Projects Completed",
-    "countriesOperating": "Countries Operating",
-    "teamMembers": "Team Members",
+    "byTheNumbers": "By the numbers",
+    "yearsExperience": "Years of experience",
+    "projectsCompleted": "Projects completed",
+    "countriesOperating": "Countries of operation",
+    "teamMembers": "Team members",
     "services": {
-      "commercialConstruction": "Commercial Construction",
-      "commercialConstructionDesc": "Office buildings, retail, hospitality",
-      "realEstate": "Real Estate",
-      "realEstateDesc": "Premium property development",
-      "renovation": "Renovation & Restoration",
-      "renovationDesc": "Modernization and heritage restoration",
-      "consulting": "Consulting Services",
-      "consultingDesc": "Expert advice and feasibility studies",
-      "projectManagement": "Project Management",
-      "projectManagementDesc": "End-to-end project oversight",
-      "sustainability": "Sustainable Construction",
+      "commercialConstruction": "Construction",
+      "commercialConstructionDesc": "Residential, commercial and infrastructure",
+      "realEstate": "Real estate",
+      "realEstateDesc": "Premium real estate development",
+      "renovation": "Renovation & restoration",
+      "renovationDesc": "Listed buildings, residential and commercial",
+      "consulting": "Consulting",
+      "consultingDesc": "Expert consulting and feasibility studies",
+      "projectManagement": "Project management",
+      "projectManagementDesc": "End-to-end delivery",
+      "sustainability": "Sustainable construction",
       "sustainabilityDesc": "Green building and LEED certification"
     },
     "projects": {
       "commercial": "Commercial",
       "residential": "Residential",
       "industrial": "Industrial",
-      "publicWorks": "Public Works"
+      "publicWorks": "Public works"
     },
     "company": {
-      "ourStory": "Our Story",
-      "why Bontera": "why Bontera",
-      "whyBontera": "Why Bontera",
-      "values": "Mission & Values",
+      "ourStory": "Our story",
+      "leadership": "Leadership",
+      "values": "Mission & values",
       "certifications": "Certifications",
-      "partners": "Partners & Affiliates"
+      "partners": "Partners & affiliates",
+      "why Bontera": "Why choose Bontera",
+      "whyBontera": "Why choose Bontera"
     }
   },
   "cta": {
-    "headline": "Ready to Build Something Extraordinary?",
-    "description": "Let us discuss your vision. Our team is ready to turn your ambitious ideas into architectural reality.",
-    "buttonPrimary": "Start Your Project",
-    "buttonSecondary": "Request a Quote",
+    "headline": "Ready to build something exceptional",
+    "description": "Let’s talk about your vision. Our team is ready to turn your ambitious ideas into architectural reality.",
+    "buttonPrimary": "Start your project",
+    "buttonSecondary": "Request a quote",
     "certifications": {
-      "leed": "Certified Partner",
+      "leed": "Certified partner",
       "osha": "Compliant"
     }
   },
   "footer": {
-    "description": "Bontera delivers premium construction and infrastructure work with disciplined planning, precise execution, and uncompromising finish.",
-    "followUs": "Follow Us",
+    "description": "Bontera delivers high-end construction projects and provides project development through rigorous planning and flawless execution.",
+    "followUs": "Follow us",
     "company": "Company",
     "services": "Services",
-    "contactUs": "Contact Us",
+    "contactUs": "Contact",
     "phone": "Phone",
     "email": "Email",
     "emergency": "Emergency",
     "backToTop": "Back to top",
     "allRightsReserved": "All rights reserved.",
     "cta": {
-      "headline": "Ready to Build Something Exceptional?",
-      "description": "Tell us what you are building. We will bring the team, the plan, and the execution to deliver it on time and at the highest standard.",
-      "button": "Contact Us",
-      "secondaryButton": "Request a Quote"
+      "headline": "Ready to build something exceptional",
+      "description": "Tell us what you are building. We bring the team, the plan, and the execution to deliver on time and at the highest level.",
+      "button": "Contact us",
+      "secondaryButton": "Request a quote"
     },
     "offices": {
-      "headquarters": "Head Office"
+      "headquarters": "Headquarters"
     },
     "serviceLinks": {
-      "commercial": "Commercial Construction",
-      "realEstate": "Real Estate",
+      "commercial": "Construction",
+      "realEstate": "Project development",
       "residential": "Residential",
       "industrial": "Industrial",
       "renovation": "Renovation",
-      "consulting": "Consulting"
+      "consulting": "Consulting",
+      "projectManagement": "Project management"
     },
     "legal": {
-      "privacy": "Privacy Policy",
-      "terms": "Terms of Service",
-      "cookies": "Cookie Policy"
+      "privacy": "Privacy policy",
+      "terms": "Terms of use",
+      "cookies": "Cookie policy"
     }
   },
-
   "legalPage": {
     "meta": {
-      "title": "Legal, Privacy, Cookies & FAQ | Bontera",
-      "description": "Read our legal information, privacy policy, cookie policy, and frequently asked questions."
-    },
-    "breadcrumb": {
-      "home": "Home",
-      "legal": "Legal"
+      "title": "Legal notice, privacy, cookies and FAQ | Bontera",
+      "description": "View our legal information, privacy policy, cookie policy, and frequently asked questions."
     },
     "hero": {
-      "eyebrow": "Legal Center",
-      "title": "PRIVACY",
-
-      "subtitle": "Everything you need to know about site usage, data handling, and common questions in one place."
+      "eyebrow": "Legal center",
+      "title": "Privacy policy",
+      "subtitle": "Everything you need to know about site usage, data management, and frequently asked questions, all in one place."
     },
     "nav": {
       "privacy": "Privacy",
@@ -268,137 +369,142 @@
       "title": "On this page"
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "body": "Bontera respects your privacy. We only collect information needed to respond to your requests (forms, email, phone) and improve the website experience. We do not sell your data. For questions or requests about your data, contact us at info@bontera.de."
+      "title": "Privacy policy",
+      "body": "Bontera respects your privacy. We only collect the information necessary to respond to your requests (form, email, phone) and improve the site experience. We do not sell your data. For any questions or requests regarding your data, contact us at info@bontera.de."
     },
     "terms": {
-      "title": "Terms of Use",
-      "body": "By using this website, you agree to use it lawfully and not disrupt its operation. Content (text, images, graphics) is protected and may not be reused without permission. Information on this site is provided for general guidance and may change over time."
+      "title": "Terms of use",
+      "body": "By using this site, you agree to browse it for lawful purposes and not disrupt its operation. The content (texts, images, graphic elements) is protected and may not be reused without authorization. The information presented is provided for informational purposes and may change."
     },
     "cookies": {
-      "title": "Cookie Policy",
-      "body": "We use cookies and similar technologies to ensure the site functions properly, measure traffic, and improve performance. You can manage preferences in your browser settings. Some features may not work as expected if cookies are disabled."
+      "title": "Cookie policy",
+      "body": "We use cookies and similar technologies to ensure the site functions properly, measure audience, and improve performance. You can manage your preferences via your browser settings. Some features may be limited if cookies are disabled."
     },
     "faqBlock": {
-      "eyebrow": "Support",
-      "title": "Frequently Asked Questions (FAQ)",
-      "subtitle": "Find answers to common questions about our projects, timelines, and process."
+      "title": "Frequently asked questions (FAQ)",
+      "subtitle": "Find answers here to the most common questions about our projects, timelines, and process."
     }
   },
   "about": {
     "meta": {
-      "title": "About Us | Bontera GmbH",
-      "description": "Learn about Bontera's 20+ years of excellence in construction, project development, and real estate brokerage. Safety, quality, and transparency in every project."
+      "title": "About | Bontera GmbH",
+      "description": "Discover Bontera’s 20+ years of excellence in construction, project development, and real estate brokerage. Safety, quality, and transparency."
     },
     "quickNav": {
       "ourStory": "Our Story",
       "leadership": "Leadership",
       "values": "Values",
+      "why Bontera": "why Bontera",
       "whyBontera": "Why Bontera",
       "certifications": "Certifications",
       "partners": "Partners"
     },
     "breadcrumb": {
       "home": "Home",
-      "about": "About Us"
+      "about": "About"
     },
     "hero": {
       "eyebrow": "About Bontera",
-      "title": "Building Excellence Since 2004",
-      "subtitle": "With over 20 years of experience in construction, project development, and real estate brokerage, we support our clients at every stage with safety, quality, and transparency.",
+      "title": "Construction excellence since 2004",
+      "subtitle": "With more than 20 years of expertise in construction and project development, we guide our clients at every step with transparency, efficiency, and reliability. ",
       "stats": {
-        "years": "Years of Experience",
-        "sqm": "Square Meters Delivered",
-        "budget": "Projects Delivered",
-        "languages": "Languages Spoken"
+        "years": "Years of experience",
+        "sqm": "Square meters delivered",
+        "budget": "Completed projects",
+        "languages": "Languages spoken",
+        "projectsDelivered": "Projects delivered",
+        "categories": "Residential, commercial and industrial"
       }
     },
     "story": {
-      "eyebrow": "Our Story",
-      "title": "A Legacy of Building Dreams Into Reality",
-      "paragraph1": "With over 20 years of experience in construction, project development, and real estate brokerage, we support our clients at every stage of their projects, from design to final completion, with a primary focus on safety, quality of execution, and strict compliance with current standards.",
-      "paragraph2": "We guarantee transparency and respect for deadlines. Thanks to our technical expertise and knowledge of the real estate market, we offer reliable, sustainable solutions tailored to each client's needs. Our commitment is based on essential values: professionalism, rigor, and trust.",
-      "paragraph3": "Whether it's construction, development, or marketing real estate, our expertise enables us to design and deliver sustainable, high-performance projects adapted to current market requirements. We integrate eco-responsible solutions, quality materials, and environmentally friendly construction methods.",
-      "founderQuote": "Our goal is clear: to offer our partners and clients reliable, secure real estate projects with high added value.",
+      "eyebrow": "Our story",
+      "title": "A legacy that turns ambitions into reality",
+      "paragraph1": "With more than 20 years of experience in construction and project development, we support our clients at every stage of their projects, from design to final delivery, placing paramount importance on safety, execution quality, and compliance with standards.",
+      "paragraph2": "Thanks to our technical expertise and our knowledge of the real estate market, we offer reliable, durable solutions tailored to each client’s needs. Our commitment is built on essential values: professionalism, rigor, and trust.",
+      "paragraph3": "Aware of environmental challenges, we integrate eco-responsible solutions, quality materials, and construction methods that respect the environment. Each project is designed to combine energy performance, durability, and comfort.",
+      "founderQuote": "Our objective is clear: to offer our partners and clients real estate projects that are reliable, safe, and high value-added.",
       "founderName": "Mr. Necdet",
-      "founderTitle": "Founder & Managing Director",
-      "yearsExcellence": "Years of Excellence",
-      "since": "Established"
+      "founderTitle": "Founder & CEO",
+      "yearsExcellence": "Years of excellence",
+      "since": "Founded"
     },
     "mission": {
-      "title": "Our Mission",
-      "description": "We create sustainable, safe, and economically viable solutions for private clients, investors, and businesses. We combine in-depth market knowledge, transparent advice, and a solid network of financial and real estate partners."
+      "title": "Our mission",
+      "description": "We create sustainable, safe, and economically viable solutions for private clients, investors, and businesses. To do so, we combine deep market knowledge, transparent advice, and a strong network of financial and real estate partners."
     },
     "vision": {
-      "title": "Our Vision",
-      "description": "To be the trusted partner for construction and real estate in Europe, recognized for delivering projects that combine quality, sustainability, and long-term value creation."
+      "title": "Our vision",
+      "description": "To be the trusted partner for construction and real estate in Europe, recognized for projects that combine quality, sustainability, and long-term value creation."
     },
+
+    
     "values": {
-      "eyebrow": "What We Stand For",
-      "title": "Our Core Values",
-      "subtitle": "These principles guide every decision we make and every project we undertake.",
+      "eyebrow": "Our principles",
+      "title": "Our core values",
+      "subtitle": "These principles guide every one of our decisions and every one of our projects.",
       "items": {
         "transparency": {
           "title": "Transparency",
-          "description": "We conduct business with complete honesty and openness, ensuring our clients have full visibility into every aspect of their projects."
+          "description": "We guarantee our clients full visibility into every aspect of their projects."
         },
         "reliability": {
           "title": "Reliability",
-          "description": "We honor our commitments with rigorous cost management, guaranteed budget compliance, and on-time delivery."
+          "description": "We honor our commitments with rigorous cost management and on-time delivery."
         },
         "expertise": {
-          "title": "Technical Expertise",
-          "description": "Our deep technical knowledge and integrated project management ensure consistent excellence across all construction phases."
+          "title": "Technical expertise",
+          "description": "Our deep technical knowledge and integrated project management ensure continuous improvement across all phases of construction."
         },
         "integrated": {
-          "title": "Integrated Approach",
-          "description": "We offer a complete solution combining construction and sales, providing seamless service from concept to completion."
+          "title": "Integrated approach",
+          "description": "We offer a complete solution combining construction and sales, providing a seamless service from design to delivery."
         },
         "sustainability": {
           "title": "Sustainability",
-          "description": "We integrate eco-responsible solutions, quality materials, and environmentally friendly construction methods in every project."
+          "description": "We integrate eco-responsible solutions, quality materials, and construction methods that respect the environment."
         },
         "valueCreation": {
-          "title": "Value Creation",
-          "description": "We focus on increasing value, minimizing risks, and ensuring long-term stability for all our clients and partners."
+          "title": "Value creation",
+          "description": "We focus on increasing value, minimizing risk, and ensuring long-term stability for all our clients and partners."
         }
       }
     },
+
     "timeline": {
-      "eyebrow": "Our Journey",
-      "title": "Milestones That Define Us",
+      "eyebrow": "Our journey",
+      "title": "Milestones that define us",
       "milestones": {
         "founding": {
-          "title": "The Beginning",
-          "description": "Bontera was founded with a vision to revolutionize the construction industry through innovation and unwavering commitment to quality."
+          "title": "The beginning",
+          "description": "Bontera was founded with a vision: revolutionize construction through innovation and an unwavering commitment to quality."
         },
         "expansion": {
-          "title": "Regional Expansion",
-          "description": "Expanded operations across the Middle East, establishing key partnerships and completing our first major commercial project."
+          "title": "Regional expansion",
+          "description": "Deployment of operations in the Middle East, key partnerships, and delivery of our first major commercial project."
         },
         "international": {
-          "title": "Going Global",
-          "description": "Entered European and Asian markets, marking the beginning of our international presence with offices in 5 new countries."
+          "title": "International expansion",
+          "description": "Entry into European and Asian markets, with the opening of offices in 5 new countries."
         },
         "sustainability": {
-          "title": "Sustainability Leadership",
-          "description": "Launched our comprehensive sustainability initiative, achieving LEED certification and committing to carbon-neutral operations by 2030."
+          "title": "Sustainable leadership",
+          "description": "Launch of our sustainability initiative, obtaining LEED certification and committing to carbon neutrality by 2030."
         },
         "digital": {
-          "title": "Digital Transformation",
-          "description": "Implemented advanced BIM technology and AI-driven project management, revolutionizing our construction processes."
+          "title": "Digital transformation",
+          "description": "Implementation of advanced BIM and AI-driven project management, transforming our processes."
         },
         "future": {
-          "title": "Building Tomorrow",
-          "description": "Continuing to innovate with smart building technologies and expanding our sustainable construction portfolio worldwide."
+          "title": "Building tomorrow",
+          "description": "Continued innovation with smart building technologies and expansion of our sustainable portfolio worldwide."
         }
       }
     },
     "leadership": {
-      "eyebrow": "Leadership Team",
-      "title": "Meet Our Leaders",
-      "subtitle": "Experienced professionals driving Bontera's vision of excellence in construction.",
-      "viewAll": "View Full Team",
+      "eyebrow": "Leadership team",
+      "title": "Meet our leaders",
+      "subtitle": "Experienced professionals who carry Bontera’s vision of excellence.",
+      "viewAll": "View the full team",
       "members": {
         "ceo": {
           "name": "Mr. Necdet",
@@ -419,222 +525,221 @@
       }
     },
     "certifications": {
-      "eyebrow": "Quality & Standards",
-      "title": "Certifications & Accreditations",
-      "description": "Our commitment to excellence is validated by internationally recognized certifications and industry accreditations that ensure the highest standards in quality, safety, and environmental responsibility.",
-      "viewAll": "View All Certifications"
+      "eyebrow": "Quality & standards",
+      "title": "Certifications & accreditations",
+      "description": "Our commitment to excellence is confirmed by internationally recognized certifications and industry accreditations that guarantee the highest standards of quality, safety, and environmental responsibility.",
+      "viewAll": "View all certifications"
     },
     "global": {
-      "eyebrow": "Our Reach",
-      "title": "Building Across Europe",
-      "description": "From Germany to Belgium and beyond, Bontera's expertise spans across Europe. We bring world-class construction and real estate capabilities to projects throughout the region.",
+      "eyebrow": "Global presence",
+      "title": "Building beyond borders",
+      "description": "From Germany’s skylines to Italy’s historic streets, Bontera’s expertise spans multiple countries. Our European presence enables us to bring leading construction capabilities anywhere.",
       "stats": {
-        "years": "Years Experience",
-        "sqm": "Sqm Delivered",
-        "budget": "Projects Delivered",
-        "languages": "Languages"
-      }
-    },
-    "clients": {
-      "eyebrow": "Trusted By",
-      "title": "Our Clients",
-      "description": "We are proud to work with prestigious organizations and institutions across Europe.",
-      "list": {
-        "valens": "Valens SA",
-        "galere": "Galere SA",
-        "galeries": "Galeries Royales Saint-Hubert",
-        "nato": "NATO",
-        "denys": "Denys NV"
+        "countries": "Countries",
+        "offices": "Regional offices",
+        "continents": "Continents",
+        "budget": "Completed projects",
+        "clients": "International clients"
       }
     },
     "cta": {
-      "title": "Ready to Build Something Extraordinary?",
-      "description": "Whether you're planning a commercial development, restoration project, or real estate investment, our team is ready to bring your vision to life.",
-      "contactUs": "Contact Us",
-      "joinTeam": "Join Our Team"
+      "title": "Ready to build something exceptional",
+      "description": "Whether you are planning a residential or commercial development or a sustainable building, our team is ready to bring your vision to life.",
+      "contactUs": "Contact us",
+      "joinTeam": "Join the team"
     }
   },
   "servicesPage": {
     "meta": {
-      "title": "Our Services | Bontera Construction",
-      "description": "Explore Bontera's comprehensive construction services including commercial, residential, infrastructure, industrial, renovation, and consulting solutions."
+      "title": "Our services | Bontera Construction",
+      "description": "Discover Bontera’s complete services: commercial, residential, infrastructure, industrial, renovation, and consulting."
     },
     "breadcrumb": {
       "home": "Home",
       "services": "Services"
     },
     "hero": {
-      "eyebrow": "What We Do",
-      "title": "Comprehensive Construction Solutions",
-      "subtitle": "From concept to completion, we deliver end-to-end construction services tailored to your unique vision and requirements.",
-      "cta": "Request a Quote"
+      "eyebrow": "What we do",
+      "title": "End-to-end construction solutions",
+      "subtitle": "From idea to delivery, we provide construction services tailored to your vision and requirements.",
+      "cta": "Request a quote"
     },
     "overview": {
-      "eyebrow": "Our Expertise",
-      "title": "Building Excellence Across Every Sector",
-      "description": "With over 20 years of experience, Bontera has developed deep expertise across construction, restoration, and real estate sectors. Our integrated approach combines technical excellence, transparent practices, and sustainable solutions to deliver projects that exceed expectations.",
+      "eyebrow": "Our expertise",
+      "title": "Excellence in every sector",
+      "description": "With more than 20 years of experience, Bontera has developed deep expertise across a wide range of sectors. Our integrated approach combines innovative design, precision engineering, and sustainable practices to deliver projects that exceed expectations.",
       "points": {
         "expertise": {
-          "title": "Deep Industry Expertise",
-          "description": "Specialized knowledge across commercial, residential, and infrastructure sectors."
+          "title": "Expertise",
+          "description": ""
         },
         "quality": {
-          "title": "Uncompromising Quality",
-          "description": "Rigorous quality control at every stage of construction."
+          "title": "High quality standards.",
+          "description": ""
         },
         "innovation": {
-          "title": "Innovative Solutions",
-          "description": "Cutting-edge technology and modern construction methods."
+          "title": "Solutions",
+          "description": ""
         },
         "safety": {
-          "title": "Safety Excellence",
-          "description": "Industry-leading safety standards and protocols."
+          "title": "Safety",
+          "description": ""
         }
       },
       "stats": {
-        "projects": "Projects Completed",
-        "years": "Years Experience",
-        "satisfaction": "Client Satisfaction",
-        "awards": "Industry Awards"
+        "projects": "Projects completed",
+        "years": "Years of experience",
+        "satisfaction": "Client satisfaction",
+        "awards": ""
       }
     },
     "mainServices": {
-      "eyebrow": "Our Services",
-      "title": "What We Offer",
-      "subtitle": "Comprehensive construction services designed to bring your vision to life.",
-      "learnMore": "Learn More",
+      "eyebrow": "Our services",
+      "title": "What we offer",
+      "subtitle": "Comprehensive services to bring your vision to life.",
+      "learnMore": "Learn more",
       "items": {
         "commercial": {
-          "title": "Commercial Construction",
-          "description": "From iconic office towers to dynamic retail spaces, we create commercial environments that inspire productivity, drive business success, and stand as landmarks in urban landscapes.",
+          "title": "Construction",
+          "heroTagline": "Residential, commercial, tertiary",
+          "heroDescription": "We deliver construction projects of all sizes, from design to handover. Our method ensures execution quality, compliance with standards, on-time delivery, and budget control, with a sustainable focus on performance and comfort.",
+          "description": "We build houses, buildings, commercial spaces, and warehouses with full support and rigorous execution. Each project is managed to reduce surprises, optimize costs, and deliver a durable, high-performing asset that creates long-term value.",
           "features": {
-            "officeBuildings": "Office Buildings",
-            "retailCenters": "Retail Centers",
-            "mixedUse": "Mixed-Use Developments",
+            "officeBuildings": "Office buildings",
+            "retailCenters": "Retail centers",
+            "mixedUse": "Mixed-use projects",
             "hospitality": "Hospitality"
           }
         },
         "realEstate": {
           "title": "Real Estate Development & Brokerage",
-          "description": "End-to-end real estate support, from development and investment strategy to brokerage services for buying, selling, and renting. We secure every stage with market insight, technical rigor, and total transparency.",
+          "description": "We develop and support residential, commercial, and mixed-use real estate projects, while also providing brokerage services for buying, selling, and leasing. Our approach combines market expertise, technical control, and total transparency to secure every step and maximize asset value.",
           "features": {
-            "residential": "Residential Projects",
-            "commercial": "Commercial Properties",
-            "mixedUse": "Mixed-Use Developments",
-            "investment": "Investment Strategy",
-            "brokerage": "Brokerage: Buy, Sell & Rent"
+            "residential": "Residential projects",
+            "commercial": "Commercial properties",
+            "mixedUse": "Mixed-use developments",
+            "investment": "Investment properties",
+            "brokerage": "Brokerage: Buying, Selling & Leasing"
           },
           "brokerage": {
-            "title": "Real Estate Brokerage – Buying, Selling & Renting",
-            "description": "We support clients with property purchase, sale, and rental transactions by leveraging our market expertise. Through our professional network and a personalized approach, we help you make the best decisions and secure your transactions. We defend your interests at every stage to optimize asset value and close under the best conditions. Our commitment is built on total transparency and constant advocacy for our clients’ interests."
+            "title": "Real estate brokerage: Buying, Selling & Leasing",
+            "description": "We support our clients in their buying, selling, and leasing transactions, leveraging our market expertise.\n\nThanks to our network of professionals and our personalized approach, we help you make the best decisions and secure your transactions. We defend your interests at every step to optimize the value of your assets and close deals under the best conditions.\n\nOur commitment is built on total transparency and consistent advocacy for our clients’ interests."
           }
         },
         "real-estate": {
-          "title": "Real Estate Development & Brokerage",
-          "description": "End-to-end real estate support, from development and investment strategy to brokerage services for buying, selling, and renting. We secure every stage with market insight, technical rigor, and total transparency.",
+          "title": "Project development",
+          "heroTagline": "Strategy, execution, value",
+          "heroDescription": "We manage the development of residential, commercial, and mixed-use real estate projects with a structured and transparent approach. From feasibility study to delivery, we secure every stage, control risks, and optimize the value of your assets.",
+          "description": "We support your real estate projects end-to-end by combining market expertise, technical mastery, and rigorous coordination. Our goal: secure your decisions, reduce surprises, and maximize the performance of your investments.",
           "features": {
-            "residential": "Residential Projects",
-            "commercial": "Commercial Properties",
-            "mixedUse": "Mixed-Use Developments",
-            "investment": "Investment Strategy",
-            "brokerage": "Brokerage: Buy, Sell & Rent"
+            "residential": "Residential projects",
+            "commercial": "Commercial assets",
+            "mixedUse": "Mixed-use developments",
+            "investment": "Real estate investment",
+            "brokerage": "Brokerage: buying, selling and leasing"
           },
           "brokerage": {
-            "title": "Real Estate Brokerage – Buying, Selling & Renting",
-            "description": "We support clients with property purchase, sale, and rental transactions by leveraging our market expertise. Through our professional network and a personalized approach, we help you make the best decisions and secure your transactions. We defend your interests at every stage to optimize asset value and close under the best conditions. Our commitment is built on total transparency and constant advocacy for our clients’ interests."
+            "title": "Real estate brokerage",
+            "description": "We support you in buying, selling, and leasing with deep market knowledge and a clear negotiation strategy.\n\nThanks to our network and a personalized approach, we identify the best opportunities, secure the key steps, and defend your interests through to signing.\n\nOur commitment: transparency, responsiveness, and measurable results."
           }
         },
         "residential": {
-          "title": "Residential Construction",
-          "description": "Creating homes and communities where families thrive, from luxury estates to sustainable housing developments that define modern living.",
+          "title": "Residential construction",
+          "description": "We create living spaces where families thrive, from luxury residences to sustainable developments that define contemporary housing.",
           "features": {
-            "luxuryHomes": "Luxury Homes",
-            "apartments": "Apartment Complexes",
-            "communities": "Master Communities",
-            "villas": "Villas & Estates"
+            "luxuryHomes": "Luxury homes",
+            "apartments": "Residences / apartments",
+            "communities": "Planned communities",
+            "villas": "Villas & estates"
           }
         },
         "industrial": {
-          "title": "Industrial Construction",
-          "description": "Designing and building industrial facilities that optimize operations, maximize efficiency, and meet the demanding requirements of modern manufacturing.",
+          "title": "Industrial construction",
+          "description": "Design and delivery of industrial sites optimized for operational efficiency and the demands of modern production.",
           "features": {
-            "factories": "Manufacturing Plants",
+            "factories": "Factories",
             "warehouses": "Warehouses",
-            "logistics": "Logistics Centers",
-            "manufacturing": "Processing Facilities"
+            "logistics": "Logistics platforms",
+            "manufacturing": "Processing units"
           }
         },
         "renovation": {
-          "title": "Renovation & Restoration",
-          "description": "Breathing new life into existing structures through thoughtful renovation, historic preservation, and adaptive reuse that honors the past while embracing the future.",
+          "title": "Renovation & restoration",
+          "heroTagline": "RESIDENTIAL, COMMERCIAL AND HERITAGE",
+          "heroDescription": "Bring your spaces back to life without betraying their identity. We manage your renovations and restorations with precision, combining traditional techniques and modern solutions to improve comfort, safety, energy performance, and heritage value.",
+          "description": "We renovate residential and commercial properties and restore listed buildings, respecting architectural identity, applicable standards, and the site’s technical constraints. Our approach combines traditional know-how and modern solutions to improve functionality, safety, energy performance, and durability. From diagnosis to finishes, we ensure rigorous execution, controlled quality, and a result faithful to the spirit of the place, while delivering lasting value to your heritage.",
           "features": {
-            "historic": "Historic Preservation",
-            "modernization": "Modernization",
-            "retrofitting": "Retrofitting",
-            "restoration": "Full Restoration"
+            "historic": "Listed building",
+            "modernization": "Full renovation",
+            "retrofitting": "Upgrade",
+            "restoration": "Modernization"
           }
         },
         "consulting": {
-          "title": "Consulting Services",
-          "description": "Expert guidance through every phase of your project, from feasibility studies and cost estimation to risk assessment and regulatory compliance.",
+          "title": "Consulting",
+          "heroTagline": "FEASIBILITY, COSTS, RISKS, COMPLIANCE",
+          "heroDescription": "Expert support at every phase: feasibility, cost estimation, risk analysis, and regulatory compliance.",
+          "description": "We provide construction consulting services for individuals and businesses looking to secure their technical and financial decisions. As the representative of a public or private project owner, we act as a single point of contact, defending the client’s interests.",
           "features": {
-            "feasibility": "Feasibility Studies",
-            "costEstimation": "Cost Estimation",
-            "riskAssessment": "Risk Assessment",
-            "compliance": "Regulatory Compliance"
+            "feasibility": "Feasibility studies",
+            "costEstimation": "Cost estimation",
+            "riskAssessment": "Compliance",
+            "compliance": "Construction oversight"
           }
         },
         "management": {
           "title": "Project Management",
-          "description": "From early-stage planning to final delivery, our dedicated management services ensure clarity, accountability, and results. We oversee schedules, coordinate contractors, and manage budgets to keep your vision on track.",
+          "heroTagline": "MANAGEMENT, BUDGET, TIMELINES, QUALITY",
+          "heroDescription": "We provide a turnkey project management service for individuals and businesses looking to secure their real estate investments. As a single point of contact, we coordinate all project stakeholders: architects, engineering firms, contractors, and suppliers. Our mission is to ensure optimal control of costs, timelines, and quality, while offering full transparency at every stage of the project",
+          "description": "From initial planning to final handover, we provide structured, transparent, results-driven project management. We define objectives, set a realistic schedule, coordinate stakeholders, and monitor execution daily to prevent drift. Our team manages the budget, anticipates risks, resolves blockers quickly, and implements continuous quality control. Result: a controlled site, clear communication, and a delivery aligned with technical requirements and client expectations.",
           "features": {
-            "planning": "Strategic Planning",
-            "coordination": "Team Coordination",
-            "budgetControl": "Budget Control",
-            "qualityAssurance": "Quality Assurance"
+            "planning": "Strategic planning",
+            "coordination": "Team coordination",
+            "budgetControl": "Budget control",
+            "qualityAssurance": "Quality assurance"
           }
         },
         "sustainability": {
-          "title": "Sustainable Building",
-          "description": "We are committed to environmentally responsible construction practices. From LEED certification guidance to energy-efficient design and sustainable material sourcing, we help you build for the future.",
+          "title": "Sustainable Construction",
+          "description": "We are committed to environmentally responsible construction practices. From guidance toward LEED certification to energy-efficient design and sourcing sustainable materials, we help you build for the future.",
           "features": {
-            "greenBuilding": "Green Building",
-            "energyEfficiency": "Energy Efficiency",
-            "sustainableMaterials": "Sustainable Materials",
-            "leedCertification": "LEED Certification"
+            "greenBuilding": "Green building",
+            "energyEfficiency": "Energy efficiency",
+            "sustainableMaterials": "Sustainable materials",
+            "leedCertification": "LEED certification"
           }
         }
       }
     },
     "process": {
-      "eyebrow": "How We Work",
-      "title": "Our Proven Process",
-      "subtitle": "A systematic approach that ensures quality, efficiency, and transparency at every stage.",
+      "eyebrow": "Our method",
+      "title": "A proven process",
+      "subtitle": "A structured approach that ensures quality, efficiency, and transparency at every stage.",
       "steps": {
         "discovery": {
-          "title": "Discovery & Planning",
-          "description": "We begin by understanding your vision, requirements, and constraints to develop a comprehensive project plan.",
-          "point1": "Requirements analysis",
+          "title": "Discovery & planning",
+          "description": "We start by understanding your vision, requirements, and constraints in order to establish a comprehensive plan.",
+          "point1": "Needs analysis",
           "point2": "Site assessment",
           "point3": "Budget planning"
         },
         "planning": {
-          "title": "Design & Engineering",
-          "description": "Our expert teams create detailed designs and engineering plans that bring your vision to life.",
+          "title": "Design & engineering",
+          "description": "Our teams develop detailed plans and precise engineering to bring your project to life.",
           "point1": "Architectural design",
           "point2": "Structural engineering",
-          "point3": "MEP coordination"
+          "point3": "MEP/HVAC coordination"
         },
         "execution": {
-          "title": "Construction & Execution",
-          "description": "Skilled craftsmen and advanced technology combine to deliver exceptional construction quality.",
-          "point1": "Quality construction",
+          "title": "Construction & execution",
+          "description": "On-site expertise and advanced technologies for exemplary build quality.",
+          "point1": "Quality execution",
           "point2": "Safety compliance",
-          "point3": "Progress monitoring"
+          "point3": "Progress tracking"
         },
         "delivery": {
-          "title": "Delivery & Support",
-          "description": "Thorough testing, handover, and ongoing support ensure your complete satisfaction.",
+          "title": "Handover & support",
+          "description": "Testing, handover, and ongoing support to ensure your satisfaction.",
           "point1": "Quality assurance",
           "point2": "Client training",
           "point3": "Warranty support"
@@ -642,94 +747,94 @@
       }
     },
     "industries": {
-      "eyebrow": "Industries We Serve",
-      "title": "Expertise Across Sectors",
-      "description": "Our diverse portfolio spans multiple industries, each with unique requirements that demand specialized knowledge and tailored solutions.",
+      "eyebrow": "Industries served",
+      "title": "Multi-sector expertise",
+      "description": "Our portfolio spans industries with specific requirements, demanding deep expertise and tailored solutions.",
       "items": {
         "healthcare": "Healthcare",
         "education": "Education",
         "hospitality": "Hospitality",
         "retail": "Retail",
-        "government": "Government",
+        "government": "Public sector",
         "energy": "Energy"
       },
-      "sectorsServed": "Industry Sectors"
+      "sectorsServed": "Sectors"
     },
     "technology": {
-      "eyebrow": "Innovation & Technology",
-      "title": "Building with Tomorrow's Technology",
-      "description": "We leverage cutting-edge technology to enhance efficiency, improve quality, and deliver better outcomes for our clients.",
+      "eyebrow": "Innovation & technology",
+      "title": "Building with tomorrow’s technologies",
+      "description": "We leverage cutting-edge technologies to improve efficiency, enhance quality, and deliver better outcomes.",
       "items": {
         "bim": {
-          "title": "BIM Technology",
-          "description": "Building Information Modeling for precise planning, coordination, and visualization throughout the project lifecycle."
+          "title": "BIM technology",
+          "description": "BIM to plan, coordinate, and visualize accurately throughout the project lifecycle."
         },
         "drones": {
-          "title": "Drone Surveying",
-          "description": "Aerial surveying and monitoring for accurate site assessment and real-time progress tracking."
+          "title": "Drone surveys",
+          "description": "Aerial surveys and real-time monitoring for accurate site assessment and progress tracking."
         },
         "prefab": {
           "title": "Prefabrication",
-          "description": "Off-site manufacturing of building components for faster, more efficient, and higher quality construction."
+          "description": "Off-site manufacturing of components for faster, more efficient construction and higher quality."
         },
         "iot": {
-          "title": "IoT & Smart Buildings",
-          "description": "Connected systems and sensors for intelligent building management and operational efficiency."
+          "title": "IoT & smart buildings",
+          "description": "Connected systems and sensors for intelligent management and improved operational performance."
         }
       }
     },
     "cta": {
-      "title": "Ready to Start Your Project?",
-      "description": "Let's discuss how Bontera can bring your vision to life with our comprehensive construction solutions.",
-      "getQuote": "Get a Quote",
-      "contactUs": "Contact Us"
+      "title": "Ready to start your project",
+      "description": "Let’s see how Bontera can bring your vision to life with complete solutions.",
+      "getQuote": "Request a quote",
+      "contactUs": "Contact us"
     }
   },
-  "projectsPage": {
+
+    "projectsPage": {
     "meta": {
-      "title": "Our Projects | Bontera Construction",
-      "description": "Explore Bontera's portfolio of construction projects spanning commercial, residential, industrial, and public sectors across Europe."
+      "title": "Our projects | Bontera Construction",
+      "description": "Explore Bontera’s portfolio of landmark projects across commercial, residential, infrastructure and industrial sectors, across 12 countries."
     },
     "breadcrumb": {
       "home": "Home",
       "projects": "Projects"
     },
     "hero": {
-      "eyebrow": "Our Portfolio",
-      "title": "Landmark Projects That Shape Skylines",
-      "subtitle": "Explore our diverse portfolio of completed and ongoing projects that showcase our commitment to excellence, innovation, and sustainable construction.",
+      "eyebrow": "Our portfolio",
+      "title": "Iconic projects that shape skylines",
+      "subtitle": "Discover our delivered and ongoing projects, reflecting our commitment to excellence, innovation, and sustainable construction.",
       "stats": {
-        "projectsCompleted": "Projects Completed",
-        "totalValue": "Square Meters Delivered",
+        "projectsCompleted": "Completed projects",
+        "totalValue": "Square meters completed",
         "countries": "Countries",
-        "onTimeDelivery": "On-Time Delivery"
+        "onTimeDelivery": "On-time delivery"
       }
     },
     "featured": {
-      "eyebrow": "Featured Work",
-      "title": "Signature Projects",
-      "description": "Our most impactful projects that demonstrate our capabilities and commitment to excellence in construction.",
+      "eyebrow": "Featured work",
+      "title": "Signature projects",
+      "description": "Our most notable projects, showcasing our capabilities and standards.",
       "badge": "Featured",
-      "viewProject": "View Project"
+      "viewProject": "View project"
     },
     "allProjects": {
-      "eyebrow": "Full Portfolio",
-      "title": "All Projects",
+      "eyebrow": "Full portfolio",
+      "title": "All projects",
       "showing": "Showing {count} projects",
       "inCategory": "in"
     },
     "categories": {
-      "all": "All Projects",
+      "all": "All projects",
       "commercial": "Commercial",
       "residential": "Residential",
       "infrastructure": "Infrastructure",
-      "realEstate": "Real Estate",
+      "realEstate": "Real estate",
       "industrial": "Industrial",
       "renovation": "Renovation",
-      "publicWorks": "Public Works",
-      "public": "Public Works"
+      "publicWorks": "Public works",
+      "public": "Public works"
     },
-
     "status": {
       "completed": "Completed",
       "ongoing": "Ongoing",
@@ -738,141 +843,143 @@
     "projectCard": {
       "value": "Value",
       "client": "Client",
-      "viewDetails": "View Details"
+      "viewDetails": "View details"
     },
     "noProjects": {
-      "title": "No Projects Found",
-      "description": "We couldn't find any projects matching your criteria.",
-      "viewAll": "View All Projects"
+      "title": "No projects found",
+      "description": "We did not find any projects matching your criteria.",
+      "viewAll": "View all projects"
     },
     "breakdown": {
-      "eyebrow": "By Category",
-      "title": "Projects Across Every Sector",
-      "exploreCategory": "Explore Category",
+      "eyebrow": "By category",
+      "title": "Projects across every sector",
+      "exploreCategory": "Explore category",
       "categories": {
         "commercial": {
           "title": "Commercial",
-          "description": "Office towers, retail centers, hotels, and mixed-use developments that drive business success."
+          "description": "Office towers, shopping centers, hotels, and mixed-use projects that power economic activity."
         },
         "residential": {
           "title": "Residential",
-          "description": "Luxury homes, apartment complexes, and master-planned communities where families thrive."
+          "description": "Luxury homes, residences, and planned communities where families thrive."
         },
         "infrastructure": {
           "title": "Infrastructure",
-          "description": "Roads, utilities, public facilities, and civil engineering projects delivered to high compliance standards."
+          "description": "Roads, networks, public facilities, and civil engineering projects delivered in strict compliance with the highest standards."
         },
         "realEstate": {
-          "title": "Real Estate",
-          "description": "Premium property developments, investment properties, and mixed-use projects with exceptional value."
+          "title": "Real Estates",
+          "description": "Bridges, roads, airports, and networks that connect and power regions."
         },
         "industrial": {
           "title": "Industrial",
-          "description": "Manufacturing plants, warehouses, and logistics centers optimized for efficiency."
+          "description": "Factories, warehouses, and logistics platforms optimized for efficiency."
         },
         "renovation": {
           "title": "Renovation",
-          "description": "Historic preservation and modernization projects that honor the past while embracing the future."
+          "description": "Heritage preservation and modernization, connecting past and future."
         },
         "publicWorks": {
-          "title": "Public Works",
-          "description": "Government buildings, civic centers, and public facilities serving communities."
+          "title": "Public works",
+          "description": "Public buildings, civic facilities, and infrastructure that serve communities."
         }
       }
     },
     "cta": {
-      "eyebrow": "Start Your Project",
-      "title": "Ready to Build Your Vision?",
-      "description": "Whether you're planning a commercial development, residential community, or infrastructure project, our team is ready to bring your vision to life.",
-      "startProject": "Start Your Project",
-      "contactUs": "Contact Us"
+      "eyebrow": "Start your project",
+      "title": "Ready to build your vision",
+      "description": "Whether you are planning a commercial development, a residential neighborhood, or infrastructure, our team is ready to deliver your project.",
+      "startProject": "Start your project",
+      "contactUs": "Contact us"
     }
   },
   "contactPage": {
     "meta": {
-      "title": "Contact Us | Bontera Construction",
-      "description": "Get in touch with Bontera Construction. Visit our offices in Dubai, Riyadh, Cairo, and London, or send us a message to discuss your construction project."
+      "title": "Contact | Bontera Construction",
+      "description": "Contact Bontera Construction. Visit our offices in Dubai, Riyadh, Cairo and London, or send us a message to discuss your project."
     },
     "breadcrumb": {
       "home": "Home",
       "contact": "Contact"
     },
     "hero": {
-      "eyebrow": "Get In Touch",
-      "title": "Let's Build Something Great Together",
-      "subtitle": "Have a project in mind? Our team is ready to help you bring your vision to life. Reach out to us through any of our channels below."
+      "eyebrow": "Contact us",
+      "title": "Let’s build something great together",
+      "subtitle": "You have a project in mind. Our team is ready to help you bring it to life. Contact us through one of the channels below."
     },
     "methods": {
       "phone": {
-        "label": "Call Us",
+        "label": "Call us",
         "description": "Mon-Fri 8am to 6pm"
       },
       "email": {
-        "label": "Email Us",
-        "description": "We'll respond within 24 hours"
+        "label": "Email us",
+        "description": "Reply within 24h"
       },
       "whatsapp": {
         "label": "WhatsApp",
-        "description": "Quick chat support"
+        "description": "Fast chat support"
       },
       "emergency": {
-        "label": "24/7 Emergency",
+        "label": "Emergency 24/7",
         "description": "For urgent matters"
       }
     },
     "form": {
-      "eyebrow": "Send a Message",
-      "title": "How Can We Help You?",
+      "eyebrow": "Send a message",
+      "title": "How can we help",
       "description": "Fill out the form below and our team will get back to you within 24 hours.",
       "fields": {
         "name": {
-          "label": "Full Name",
-          "placeholder": "John Smith"
+          "label": "Full name",
+          "placeholder": "John Doe"
         },
         "email": {
-          "label": "Email Address",
+          "label": "Email address",
           "placeholder": "john@company.com"
         },
         "phone": {
-          "label": "Phone Number",
+          "label": "Phone number",
           "placeholder": "+49 30 123 456 7890"
         },
         "company": {
-          "label": "Company Name",
-          "placeholder": "Your Company"
+          "label": "Company name",
+          "placeholder": "Your company"
         },
         "subject": {
           "label": "Subject",
-          "placeholder": "How can we help?"
+          "placeholder": "How can we help"
         },
         "projectType": {
-          "label": "Project Type",
+          "label": "Project type",
           "placeholder": "Select a project type",
           "options": {
-            "commercial": "Commercial Construction",
-            "residential": "Residential Construction",
-            "infrastructure": "Infrastructure",
+            "commercial": "Commercial construction",
+            "residential": "Residential construction",
+            "realEstate": "Real Estate",
             "industrial": "Industrial",
-            "renovation": "Renovation & Restoration",
-            "consulting": "Consulting Services",
+            "renovation": "Renovation & restoration",
+            "infrastructure": "Infrastructure",
+            "heroTagline": "RESIDENTIAL, COMMERCIAL AND INFRASTRUCTURE",
+            "consulting": "Consulting",
             "other": "Other"
           }
         },
         "budget": {
-          "label": "Estimated Budget",
-          "placeholder": "Select budget range",
+          "label": "Estimated budget",
+          "placeholder": "Select a budget range",
           "options": {
-            "under1m": "Under $1 Million",
-            "1mTo5m": "$1 - $5 Million",
-            "5mTo10m": "$5 - $10 Million",
-            "10mTo50m": "$10 - $50 Million",
-            "over50m": "Over $50 Million",
-            "notSure": "Not Sure Yet"
+            "under1m": "Under $1M",
+            "1mTo5m": "$1M - $5M",
+            "5mTo10m": "$5M - $10M",
+            "10mTo50m": "$10M - $50M",
+            "over50m": "Over $50M",
+            "notSure": "Not sure yet"
           }
         },
         "message": {
-          "label": "Your Message",
-          "placeholder": "Tell us about your project, requirements, timeline, and any other details that would help us understand your needs..."
+          "label": "Your message",
+          "placeholder": "Tell us about your project, your requirements, your timeline, and anything that helps us understand your needs..."
         }
       },
       "errors": {
@@ -880,455 +987,454 @@
         "emailRequired": "Please enter your email address",
         "emailInvalid": "Please enter a valid email address",
         "messageRequired": "Please enter your message",
-        "messageTooShort": "Your message should be at least 20 characters"
+        "messageTooShort": "Your message must be at least 20 characters"
       },
       "privacy": {
         "text": "By submitting this form, you agree to our",
-        "link": "Privacy Policy"
+        "link": "Privacy policy"
       },
-      "submit": "Send Message",
+      "submit": "Send",
       "submitting": "Sending...",
       "success": {
-        "title": "Message Sent Successfully!",
-        "message": "Thank you for contacting us. Our team will review your message and get back to you within 24 hours."
+        "title": "Message sent",
+        "message": "Thank you for contacting us. Our team will review your message and respond within 24 hours."
       },
       "error": {
-        "title": "Something Went Wrong",
-        "message": "We couldn't send your message. Please try again or contact us directly via phone or email."
+        "title": "An error occurred",
+        "message": "We could not send your message. Please try again or contact us directly by phone or email."
       }
     },
     "departments": {
-      "title": "Contact by Department",
+      "title": "Contact by department",
       "items": {
-        "general": "General Inquiries",
-        "sales": "Sales & Business Development",
-        "projects": "Project Management",
+        "general": "General inquiries",
+        "sales": "Sales & development",
+        "projects": "Project management",
         "careers": "Careers & HR",
-        "media": "Media & Press",
-        "support": "Technical Support"
+        "media": "Press & media",
+        "support": "Technical support"
       }
     },
     "responseTime": {
-      "title": "Quick Response Guaranteed",
-      "description": "Our team typically responds within 24 hours during business days. For urgent matters, please use our emergency hotline."
+      "title": "Fast response guaranteed",
+      "description": "Our team typically responds within 24 hours on business days. For urgent matters, use the emergency line."
     },
     "social": {
-      "title": "Follow Us"
+      "title": "Follow us"
     },
     "offices": {
-      "eyebrow": "Our Locations",
-      "title": "Visit Our Offices",
-      "description": "With offices across the Middle East and Europe, we're always close to your project.",
+      "eyebrow": "Our locations",
+      "title": "Visit our offices",
+      "description": "With offices in the Middle East and Europe, we are always close to your project.",
       "headquarters": "Headquarters",
-      "viewOnMap": "View on Map"
+      "viewOnMap": "View on map"
     },
     "faq": {
       "eyebrow": "FAQ",
-      "title": "Frequently Asked Questions",
-      "description": "Find quick answers to common questions about working with Bontera.",
-      "viewAll": "View All FAQs",
+      "title": "Frequently asked questions",
+      "description": "Quick answers to common questions about working with Bontera.",
+      "viewAll": "View all FAQs",
       "items": {
         "timeline": {
-          "question": "How long does a typical construction project take?",
-          "answer": "Project timelines vary based on scope and complexity. A small commercial renovation might take 3-6 months, while a large-scale development could span 2-3 years. During our initial consultation, we'll provide a detailed timeline specific to your project."
+          "question": "How long does a construction project take",
+          "answer": "Timelines vary depending on scope and complexity. A small commercial renovation may take 3 to 6 months, while a large-scale development can span 2 to 3 years. During the initial consultation, we provide a detailed schedule tailored to your project."
         },
         "budget": {
-          "question": "How do you handle project budgets and cost estimation?",
-          "answer": "We provide transparent, detailed cost estimates during the planning phase. Our team uses advanced estimation software and historical data to ensure accuracy. We also offer value engineering options to optimize costs without compromising quality."
+          "question": "How do you manage budgets and cost estimates",
+          "answer": "We provide transparent, detailed estimates during planning. We use advanced tools and historical data to ensure accuracy. We also offer value engineering options to optimize costs without compromising quality."
         },
         "process": {
-          "question": "What is your project management process?",
-          "answer": "Our proven 4-phase process includes Discovery & Planning, Design & Engineering, Construction & Execution, and Delivery & Support. Each phase has clear milestones, and you'll have a dedicated project manager as your single point of contact throughout."
+          "question": "What is your project management process",
+          "answer": "Our 4-phase process includes: Discovery & planning, Design & engineering, Construction & execution, Handover & support. Each phase has clear milestones, and you have a dedicated project manager as your single point of contact."
         },
         "warranty": {
-          "question": "What warranties do you offer on completed projects?",
-          "answer": "We provide comprehensive warranties on all our work. Structural elements are covered for 10 years, mechanical and electrical systems for 5 years, and general workmanship for 2 years. Extended warranty options are also available."
+          "question": "What warranties do you offer",
+          "answer": "We offer comprehensive warranties: 10 years on structural elements, 5 years on mechanical and electrical systems, and 2 years on workmanship. Extended warranty options are also available."
         }
       }
     },
     "map": {
-      "placeholder": "Interactive map will be displayed here",
-      "visitUs": "Visit Our Headquarters",
-      "getDirections": "Get Directions"
+      "placeholder": "An interactive map will appear here",
+      "visitUs": "Visit our headquarters",
+      "getDirections": "Get directions"
     }
   },
   "careersPage": {
     "meta": {
       "title": "Careers | Join Bontera Construction",
-      "description": "Build your career with Bontera. Explore exciting opportunities in construction, engineering, project management, and more across our global offices."
+      "description": "Grow your career with Bontera. Explore opportunities in construction, engineering, project management and more, across our offices worldwide."
     },
     "breadcrumb": {
       "home": "Home",
       "careers": "Careers"
     },
     "hero": {
-      "eyebrow": "Join Our Team",
-      "title": "Build Your Future With Us",
-      "subtitle": "Join a team of passionate professionals who are shaping skylines and building communities around the world. Your next great opportunity awaits.",
-      "viewJobs": "View Open Positions",
-      "ourCulture": "Our Culture",
+      "eyebrow": "Join our team",
+      "title": "Build your future with us",
+      "subtitle": "Join a team of passionate professionals shaping skylines and building communities worldwide. Your next opportunity is waiting.",
+      "viewJobs": "View open roles",
+      "ourCulture": "Our culture",
       "stats": {
-        "employees": "Team Members",
+        "employees": "Team members",
         "countries": "Countries",
-        "openPositions": "Open Positions",
-        "glassdoorRating": "Glassdoor Rating"
+        "openPositions": "Open positions",
+        "glassdoorRating": "Glassdoor rating"
       }
     },
     "whyJoin": {
       "eyebrow": "Why Bontera",
-      "title": "Why Build Your Career Here?",
-      "description": "At Bontera, we believe our people are our greatest asset. We're committed to creating an environment where talent thrives, innovation flourishes, and every team member can reach their full potential.",
-      "yearsGrowing": "Years of Growing Together",
+      "title": "Why build your career here",
+      "description": "At Bontera, we believe our people are our greatest asset. We are committed to creating an environment where talent thrives, innovation advances, and everyone can reach their full potential.",
+      "yearsGrowing": "Years growing together",
       "points": {
         "impact": {
-          "title": "Make a Real Impact",
-          "description": "Work on landmark projects that shape communities and leave a lasting legacy."
+          "title": "Real impact",
+          "description": "Work on landmark projects that transform communities and leave a lasting legacy."
         },
         "growth": {
-          "title": "Continuous Growth",
-          "description": "Access world-class training, mentorship programs, and clear career pathways."
+          "title": "Continuous development",
+          "description": "Access world-class training, mentorship, and clear career paths."
         },
         "team": {
-          "title": "Collaborative Team",
-          "description": "Join a diverse, supportive team that celebrates achievements together."
+          "title": "A collaborative team",
+          "description": "Join a diverse, supportive team that celebrates success together."
         },
         "innovation": {
-          "title": "Innovation First",
-          "description": "Work with cutting-edge technology and pioneering construction methods."
+          "title": "Innovation at the core",
+          "description": "Work with cutting-edge technologies and innovative construction methods."
         }
       }
     },
-
     "featured": {
-      "eyebrow": "Hot Opportunities",
-      "title": "Featured Positions",
-      "viewAll": "View All Positions",
+      "eyebrow": "Featured opportunities",
+      "title": "Featured roles",
+      "viewAll": "View all roles",
       "badge": "Featured",
-      "applyNow": "Apply Now"
+      "applyNow": "Apply now"
     },
     "departments": {
       "engineering": "Engineering",
-      "projectManagement": "Project Management",
-      "architecture": "Architecture & Design",
+      "projectManagement": "Project management",
+      "architecture": "Architecture & design",
       "operations": "Operations",
       "finance": "Finance",
-      "hr": "Human Resources"
+      "hr": "Human resources"
     },
     "locations": {
-      "dubai": "Dubai, UAE",
-      "riyadh": "Riyadh, KSA",
+      "dubai": "Dubai, United Arab Emirates",
+      "riyadh": "Riyadh, Saudi Arabia",
       "cairo": "Cairo, Egypt",
-      "london": "London, UK",
+      "london": "London, United Kingdom",
       "brussels": "Brussels, Belgium",
       "germany": "Halle (Westfalen), Germany"
     },
     "jobTypes": {
-      "fullTime": "Full-Time",
-      "partTime": "Part-Time",
+      "fullTime": "Full-time",
+      "partTime": "Part-time",
       "contract": "Contract",
       "internship": "Internship"
     },
     "benefits": {
-      "eyebrow": "Benefits & Perks",
-      "title": "We Take Care of Our Team",
-      "subtitle": "Comprehensive benefits package designed to support your health, wealth, and work-life balance.",
+      "eyebrow": "Benefits",
+      "title": "We take care of our teams",
+      "subtitle": "A comprehensive package to support your health, financial stability, and work-life balance.",
       "items": {
         "health": {
-          "title": "Health & Wellness",
-          "description": "Comprehensive medical, dental, and vision coverage for you and your family, plus wellness programs and gym memberships."
+          "title": "Health & wellbeing",
+          "description": "Medical coverage for you and your family."
         },
         "retirement": {
-          "title": "Retirement Plans",
-          "description": "Competitive retirement savings plans with company matching to help secure your financial future."
+          "title": "Retirement",
+          "description": "Competitive retirement savings plans with company contribution."
         },
         "learning": {
-          "title": "Learning & Development",
-          "description": "Continuous learning opportunities including certifications, conferences, and tuition reimbursement programs."
+          "title": "Learning & development",
+          "description": "Ongoing opportunities: certifications, conferences, and tuition reimbursement programs."
         },
         "vacation": {
-          "title": "Generous Time Off",
-          "description": "Flexible PTO policy, paid holidays, and sabbatical opportunities to recharge and explore."
+          "title": "Generous time off",
+          "description": "Flexible time-off policy and paid holidays."
         },
         "flexibility": {
-          "title": "Work Flexibility",
-          "description": "Flexible work arrangements and remote work options to help you maintain work-life balance."
+          "title": "Flexibility",
+          "description": "Flexible work arrangements and remote work possible"
         },
         "growth": {
-          "title": "Career Growth",
-          "description": "Clear career pathways, mentorship programs, and opportunities for advancement across our global operations."
+          "title": "Career growth",
+          "description": "Clear pathways, mentorship, and advancement opportunities within our global operations."
         }
       }
     },
     "culture": {
-      "eyebrow": "Our Culture",
+      "eyebrow": "Our culture",
       "title": "Life at Bontera",
-      "description": "We foster a culture of excellence, collaboration, and continuous improvement where every voice matters.",
+      "description": "BONTERA GmbH",
       "values": {
         "innovation": {
           "title": "Innovation",
-          "description": "We embrace new ideas and cutting-edge technology to deliver better solutions."
+          "description": "We embrace new ideas and cutting-edge technologies to deliver better solutions."
         },
         "teamwork": {
-          "title": "Teamwork",
-          "description": "Collaboration is at the heart of everything we do, celebrating diverse perspectives."
+          "title": "Team spirit",
+          "description": "Collaboration is at the heart of everything, valuing diverse perspectives."
         },
         "excellence": {
-          "title": "Excellence",
-          "description": "We hold ourselves to the highest standards in every project we undertake."
+          "title": "Training",
+          "description": "We hold ourselves to the highest standards on every project."
         },
         "safety": {
-          "title": "Safety First",
-          "description": "The wellbeing of our team and communities is our top priority, always."
+          "title": "Safety first",
+          "description": "The wellbeing of our teams and communities is our top priority."
         }
       }
     },
     "testimonials": {
-      "eyebrow": "Employee Stories",
-      "title": "Hear From Our Team",
+      "eyebrow": "Employee voices",
+      "title": "They say it best",
       "quotes": {
-        "engineer": "Joining Bontera was the best career decision I've made. The projects are challenging, the team is supportive, and there's always room to grow. I've had opportunities here I never thought possible.",
-        "manager": "What I love most about Bontera is the culture of collaboration. Everyone from senior leadership to new hires works together towards common goals. It truly feels like a family.",
-        "architect": "The scale and complexity of projects at Bontera is unmatched. I've been able to work on landmark buildings that will stand for generations. It's incredibly rewarding to see your work shape city skylines."
+        "engineer": "Joining Bontera was the best decision of my career. The projects are demanding, the team is supportive, and there is always room to grow. I had opportunities here I never imagined.",
+        "manager": "What I love most about Bontera is the collaborative culture. Everyone, from leadership to new hires, works together toward shared goals. It really feels like a family.",
+        "architect": "The scale and complexity of Bontera’s projects are unmatched. I have worked on iconic buildings that will stand for generations. It is incredibly rewarding to see your work shape the skyline."
       }
     },
     "openings": {
-      "eyebrow": "Open Positions",
-      "title": "Find Your Perfect Role",
-      "showing": "Showing {count} positions",
+      "eyebrow": "Open roles",
+      "title": "Find the perfect role",
+      "showing": "Showing {count} roles",
       "apply": "Apply"
     },
     "filters": {
-      "allDepartments": "All Departments",
-      "allLocations": "All Locations"
+      "allDepartments": "All departments",
+      "allLocations": "All locations"
     },
     "noJobs": {
-      "title": "No Positions Found",
-      "description": "We couldn't find any positions matching your criteria. Try adjusting your filters or check back soon.",
-      "clearFilters": "Clear Filters"
+      "title": "No roles found",
+      "description": "We did not find any roles matching your criteria. Adjust the filters or try again later.",
+      "clearFilters": "Reset filters"
     },
     "cta": {
-      "title": "Don't See the Right Role?",
-      "description": "We're always looking for talented individuals to join our team. Send us your resume and we'll keep you in mind for future opportunities.",
-      "browseJobs": "Browse All Jobs",
-      "sendResume": "Send Your Resume"
+      "title": "Can’t find the right role",
+      "description": "We are always looking for talent. Send us your resume and we will reach out about future opportunities.",
+      "browseJobs": "View all roles",
+      "sendResume": "Send your resume"
     }
   },
   "newsPage": {
     "meta": {
-      "title": "News & Insights | Bontera Construction",
-      "description": "Stay updated with Bontera's latest news, project announcements, industry insights, and company updates from across our global operations."
+      "title": "News & insights | Bontera Construction",
+      "description": "Follow the latest Bontera news, project announcements, industry insights, and company updates across our global operations."
     },
     "breadcrumb": {
       "home": "Home",
       "news": "News"
     },
     "hero": {
-      "eyebrow": "News & Insights",
-      "title": "Stories That Build Tomorrow",
-      "subtitle": "Stay informed with the latest updates from Bontera, including project milestones, industry trends, and company announcements."
+      "eyebrow": "News & insights",
+      "title": "Stories that build tomorrow",
+      "subtitle": "Stay informed with the latest Bontera updates: project milestones, industry trends, and company announcements."
     },
     "featured": {
-      "eyebrow": "Featured Stories",
-      "title": "Latest Headlines",
-      "description": "The most important updates and announcements from across our global operations."
+      "eyebrow": "Featured",
+      "title": "Latest headlines",
+      "description": "The most important updates and announcements across our global operations."
     },
     "allNews": {
-      "eyebrow": "All Articles",
-      "title": "Browse All News",
+      "eyebrow": "All articles",
+      "title": "Browse all news",
       "showing": "Showing {count} articles",
       "inCategory": "in"
     },
     "categories": {
-      "all": "All News",
-      "companyNews": "Company News",
+      "all": "All news",
+      "companyNews": "Company news",
       "projects": "Projects",
       "industry": "Industry",
       "sustainability": "Sustainability",
       "awards": "Awards",
       "events": "Events"
     },
-    "readMore": "Read More",
+    "readMore": "Read more",
     "minRead": "{minutes} min read",
     "articles": {
       "news-001": {
-        "title": "Bontera Awarded $2.5 Billion NEOM Infrastructure Contract",
-        "excerpt": "In a landmark achievement, Bontera has been selected as the primary contractor for a major infrastructure development within the NEOM mega-project, marking our largest contract to date."
+        "title": "Bontera wins a $2.5B NEOM infrastructure contract",
+        "excerpt": "In a major achievement, Bontera has been selected as the lead contractor for an infrastructure development within the NEOM mega-project, our largest contract to date."
       },
       "news-002": {
-        "title": "Top 10 Sustainable Construction Trends Shaping 2024",
-        "excerpt": "From carbon-neutral materials to AI-powered building management, explore the innovations that are transforming how we build for a more sustainable future."
+        "title": "Top 10 sustainable construction trends shaping 2024",
+        "excerpt": "From carbon-neutral materials to AI-driven building management, discover the innovations transforming how we build for a more sustainable future."
       },
       "news-003": {
-        "title": "Marina Tower Achieves LEED Platinum Certification",
-        "excerpt": "Our flagship mixed-use development has received the highest sustainability rating, showcasing Bontera's commitment to environmentally responsible construction."
+        "title": "Marina Tower achieves LEED Platinum certification",
+        "excerpt": "Our flagship mixed-use project earned the highest sustainability certification, showcasing Bontera’s commitment to responsible construction."
       },
       "news-004": {
-        "title": "Bontera Receives Construction Excellence Award 2024",
-        "excerpt": "The prestigious industry award recognizes our innovative approach to project delivery and commitment to quality across our portfolio."
+        "title": "Bontera receives the Construction Excellence Award 2024",
+        "excerpt": "This prestigious award recognizes our innovative delivery approach and uncompromising quality standards."
       },
       "news-005": {
-        "title": "New Regional Headquarters Opens in Riyadh",
-        "excerpt": "Expanding our presence in Saudi Arabia, the new office will serve as a hub for our growing operations in the Kingdom's Vision 2030 projects."
+        "title": "Opening of a new regional headquarters in Riyadh",
+        "excerpt": "Strengthening our presence in Saudi Arabia, this new office will serve as a hub for our Vision 2030-related operations."
       },
       "news-006": {
-        "title": "Key Takeaways from the Global Infrastructure Summit 2024",
-        "excerpt": "Our team shares insights from the industry's premier event, covering emerging technologies, investment trends, and collaborative opportunities."
+        "title": "Key takeaways from the Global Real Estate Summit 2024",
+        "excerpt": "Our team shares insights on emerging technologies, investment trends, and collaboration opportunities."
       },
       "news-007": {
-        "title": "Integrating Smart Building Technology: A Practical Guide",
-        "excerpt": "Learn how we're incorporating IoT sensors, automated systems, and AI-driven management into modern construction projects."
+        "title": "Integrating smart building technologies: a practical guide",
+        "excerpt": "Learn how we integrate IoT sensors, automation, and AI-driven management into modern projects."
       },
       "news-008": {
-        "title": "Groundbreaking Ceremony for $400M Healthcare Complex",
-        "excerpt": "Construction officially begins on the state-of-the-art medical facility that will serve over 2 million residents in the metropolitan area."
+        "title": "Groundbreaking ceremony for a $400M healthcare complex",
+        "excerpt": "Construction officially begins on a cutting-edge medical facility set to serve more than 2 million residents."
       },
       "news-009": {
-        "title": "Bontera Commits to Carbon Neutrality by 2030",
-        "excerpt": "Our comprehensive sustainability roadmap outlines the steps we're taking to achieve net-zero emissions across all operations."
+        "title": "Bontera commits to carbon neutrality by 2030",
+        "excerpt": "Our sustainability roadmap outlines the steps to reach net-zero across our operations."
       },
       "news-010": {
-        "title": "Strategic Partnership with Global Architecture Firm",
-        "excerpt": "The collaboration will bring world-class design expertise to our projects across the Middle East and North Africa region."
+        "title": "Strategic partnership with a global architecture firm",
+        "excerpt": "This collaboration will bring world-class design expertise to our projects across the Middle East and North Africa."
       },
       "news-011": {
-        "title": "Employee Spotlight: Meet Our January Stars",
-        "excerpt": "Celebrating the exceptional team members who went above and beyond this month, showcasing the talent that drives Bontera's success."
+        "title": "Team spotlight: our January stars",
+        "excerpt": "We celebrate outstanding team members who stood out this month, showcasing the talent behind Bontera’s success."
       },
       "news-012": {
-        "title": "Innovations in Construction Site Safety Technology",
-        "excerpt": "Exploring the latest wearables, monitoring systems, and AI applications that are making our job sites safer than ever."
+        "title": "Innovations in on-site safety technologies",
+        "excerpt": "An overview of wearables, monitoring systems, and AI applications making our sites safer than ever."
       }
     },
     "noArticles": {
-      "title": "No Articles Found",
-      "description": "We couldn't find any articles in this category. Try selecting a different category or check back soon for new content.",
-      "viewAll": "View All Articles"
+      "title": "No articles found",
+      "description": "We did not find any articles in this category. Select another category or check back soon.",
+      "viewAll": "View all articles"
     },
     "newsletter": {
-      "eyebrow": "Stay Updated",
-      "title": "Subscribe to Our Newsletter",
-      "description": "Get the latest news, project updates, and industry insights delivered directly to your inbox.",
+      "eyebrow": "Stay informed",
+      "title": "Subscribe to our newsletter",
+      "description": "Get our latest news, project updates, and industry insights delivered to your inbox.",
       "placeholder": "Enter your email address",
       "subscribe": "Subscribe",
-      "privacy": "We respect your privacy. Unsubscribe at any time."
+      "privacy": "We respect your privacy. Unsubscribe anytime."
     },
     "media": {
-      "eyebrow": "Press & Media",
-      "title": "Media Inquiries",
-      "description": "For press inquiries, interview requests, or media resources, our communications team is ready to assist you.",
-      "email": "Media Contact",
-      "phone": "Press Hotline",
-      "downloadKit": "Download Press Kit",
-      "featuredIn": "As Featured In"
+      "eyebrow": "Press & media",
+      "title": "Media inquiries",
+      "description": "For press requests, interviews, or media resources, our communications team is available.",
+      "email": "Media contact",
+      "phone": "Press hotline",
+      "downloadKit": "Download press kit",
+      "featuredIn": "Featured in"
     }
   },
   "quotePage": {
     "meta": {
-      "title": "Request a Quote | Bontera Construction",
-      "description": "Get a free, no-obligation quote for your construction project. Tell us about your vision and our team will provide a detailed proposal within 48 hours."
+      "title": "Request a quote | Bontera Construction",
+      "description": "Get a free, no-obligation quote for your project. Describe your vision and receive a detailed proposal within 48 hours."
     },
     "breadcrumb": {
       "home": "Home",
-      "quote": "Request Quote"
+      "quote": "Quote request"
     },
     "hero": {
-      "eyebrow": "Get Started",
-      "title": "Request Your Free Quote",
-      "subtitle": "Tell us about your project and receive a detailed, customized proposal from our expert team. No obligation, no hidden fees.",
+      "eyebrow": "Get started",
+      "title": "Request your free quote",
+      "subtitle": "Tell us about your project and receive a detailed, tailored proposal from our team. No commitment, no hidden fees.",
       "trust": {
-        "free": "100% Free Quote",
-        "response": "48-Hour Response",
-        "obligation": "No Obligation"
+        "free": "100% free quote",
+        "response": "Response within 48 hours",
+        "obligation": "No obligation"
       }
     },
     "form": {
-      "eyebrow": "Project Inquiry",
-      "title": "Tell Us About Your Project",
-      "description": "Complete the form below and our team will prepare a detailed quote tailored to your specific requirements.",
+      "eyebrow": "Project request",
+      "title": "Tell us about your project",
+      "description": "Fill out the form below and our team will prepare a detailed quote tailored to your needs.",
       "steps": {
-        "contact": "Contact Info",
-        "project": "Project Details",
-        "details": "Additional Info"
+        "contact": "Contact details",
+        "project": "Project details",
+        "details": "Additional info"
       },
       "step1": {
-        "title": "Contact Information"
+        "title": "Contact details"
       },
       "step2": {
-        "title": "Project Details"
+        "title": "Project details"
       },
       "step3": {
-        "title": "Additional Information"
+        "title": "Additional info"
       },
       "fields": {
-        "firstName": "First Name",
-        "lastName": "Last Name",
-        "email": "Email Address",
-        "phone": "Phone Number",
-        "company": "Company Name",
-        "role": "Your Role",
-        "rolePlaceholder": "e.g., Owner, Project Manager, Architect",
-        "projectType": "Project Type",
-        "projectLocation": "Project Location",
-        "projectLocationPlaceholder": "City, Country",
-        "projectSize": "Project Size",
-        "budget": "Estimated Budget",
-        "timeline": "Expected Timeline",
-        "description": "Project Description",
-        "descriptionPlaceholder": "Please describe your project in detail, including scope, objectives, and any specific requirements...",
-        "requirements": "Services Required",
-        "referralSource": "How did you hear about us?",
-        "preferredContact": "Preferred Contact Method",
+        "firstName": "First name",
+        "lastName": "Last name",
+        "email": "Email address",
+        "phone": "Phone number",
+        "company": "Company name",
+        "role": "Your role",
+        "rolePlaceholder": "Ex: Owner, Project manager, Architect",
+        "projectType": "Project type",
+        "projectLocation": "Project location",
+        "projectLocationPlaceholder": "City, country",
+        "projectSize": "Project size",
+        "budget": "Estimated budget",
+        "timeline": "Expected timeline",
+        "description": "Project description",
+        "descriptionPlaceholder": "Describe your project in detail, including scope, objectives, and any specific requirements...",
+        "requirements": "Required services",
+        "referralSource": "How did you hear about us",
+        "preferredContact": "Preferred contact method",
         "selectOption": "Select an option"
       },
       "projectTypes": {
-        "commercial": "Commercial Construction",
-        "residential": "Residential Construction",
-        "realEstate": "Real Estate Development",
+        "commercial": "Commercial construction",
+        "residential": "Residential construction",
+        "realEstate": "Real Estates",
         "industrial": "Industrial",
-        "renovation": "Renovation & Restoration",
-        "mixedUse": "Mixed-Use Development",
-        "healthcare": "Healthcare Facility",
-        "education": "Educational Institution",
-        "hospitality": "Hospitality & Tourism",
+        "renovation": "Renovation & restoration",
+        "mixedUse": "Mixed-use development",
+        "healthcare": "Healthcare facility",
+        "education": "Educational facility",
+        "hospitality": "Hospitality & tourism",
         "other": "Other"
       },
       "projectSizes": {
-        "small": "Small (< 5,000 sq ft)",
-        "medium": "Medium (5,000 - 50,000 sq ft)",
-        "large": "Large (50,000 - 500,000 sq ft)",
-        "megaProject": "Mega Project (> 500,000 sq ft)"
+        "small": "Small (< 5,000 ft²)",
+        "medium": "Medium (5,000 - 50,000 ft²)",
+        "large": "Large (50,000 - 500,000 ft²)",
+        "megaProject": "Mega project (> 500,000 ft²)"
       },
       "budgetRanges": {
         "under500k": "Under $500,000",
-        "500kTo1m": "$500,000 - $1 Million",
-        "1mTo5m": "$1 Million - $5 Million",
-        "5mTo10m": "$5 Million - $10 Million",
-        "10mTo50m": "$10 Million - $50 Million",
-        "50mTo100m": "$50 Million - $100 Million",
-        "over100m": "Over $100 Million"
+        "500kTo1m": "$500,000 - $1M",
+        "1mTo5m": "$1M - $5M",
+        "5mTo10m": "$5M - $10M",
+        "10mTo50m": "$10M - $50M",
+        "50mTo100m": "$50M - $100M",
+        "over100m": "Over $100M"
       },
       "timelines": {
-        "immediate": "Immediate Start",
-        "1to3months": "1-3 Months",
-        "3to6months": "3-6 Months",
-        "6to12months": "6-12 Months",
-        "over12months": "12+ Months",
+        "immediate": "Immediate start",
+        "1to3months": "1-3 months",
+        "3to6months": "3-6 months",
+        "6to12months": "6-12 months",
+        "over12months": "12+ months",
         "flexible": "Flexible"
       },
       "requirements": {
-        "design": "Design & Architecture",
-        "permits": "Permits & Approvals",
-        "projectManagement": "Project Management",
+        "design": "Design & architecture",
+        "permits": "Permits & approvals",
+        "projectManagement": "Project management",
         "sustainability": "Sustainability/LEED",
-        "bim": "BIM Services",
-        "turnkey": "Turnkey Solution"
+        "bim": "BIM services",
+        "turnkey": "Turnkey solution"
       },
       "referralSources": {
-        "search": "Search Engine",
-        "referral": "Referral/Word of Mouth",
-        "socialMedia": "Social Media",
-        "advertisement": "Advertisement",
-        "event": "Event/Conference",
+        "search": "Search engine",
+        "referral": "Referral/word of mouth",
+        "socialMedia": "Social media",
+        "advertisement": "Advertising",
+        "event": "Event/conference",
         "other": "Other"
       },
       "contactMethods": {
@@ -1338,48 +1444,48 @@
       },
       "privacy": {
         "text": "By submitting this form, you agree to our",
-        "link": "Privacy Policy",
+        "link": "Privacy policy",
         "and": "and",
-        "terms": "Terms of Service"
+        "terms": "Terms of use"
       },
       "buttons": {
         "previous": "Previous",
-        "next": "Next Step",
-        "submit": "Submit Request",
-        "submitting": "Submitting..."
+        "next": "Next step",
+        "submit": "Submit request",
+        "submitting": "Sending..."
       },
       "errors": {
         "required": "This field is required",
         "invalidEmail": "Please enter a valid email address",
-        "descriptionTooShort": "Please provide at least 50 characters"
+        "descriptionTooShort": "Please enter at least 50 characters"
       },
       "success": {
-        "title": "Quote Request Submitted!",
-        "message": "Thank you for your interest in Bontera. Our team will review your project details and contact you within 48 hours with a customized proposal.",
-        "reference": "Reference Number"
+        "title": "Request sent",
+        "message": "Thank you for your interest in Bontera. Our team will review your request and contact you within 48 hours with a tailored proposal.",
+        "reference": "Reference number"
       },
       "error": {
-        "title": "Submission Failed",
-        "message": "We couldn't process your request. Please try again or contact us directly."
+        "title": "Submission failed",
+        "message": "We could not process your request. Please try again or contact us directly."
       }
     },
     "sidebar": {
       "whyUs": {
-        "title": "Why Choose Bontera?",
-        "experience": "Years Experience",
-        "projects": "Projects Completed",
-        "onTime": "On-Time Delivery",
-        "clients": "Satisfied Clients"
+        "title": "Why choose Bontera",
+        "experience": "Years of experience",
+        "projects": "Projects completed",
+        "onTime": "On-time delivery",
+        "clients": "Satisfied clients"
       },
       "contact": {
-        "title": "Prefer to Talk?",
-        "description": "Our team is available to discuss your project directly.",
-        "phone": "Call Us",
-        "email": "Email Us",
+        "title": "Prefer to talk",
+        "description": "Our team is available to discuss your project.",
+        "phone": "Call us",
+        "email": "Email us",
         "whatsapp": "WhatsApp"
       },
       "hours": {
-        "title": "Office Hours",
+        "title": "Hours",
         "weekdays": "Sunday - Thursday",
         "saturday": "Saturday",
         "sunday": "Friday",
@@ -1387,66 +1493,66 @@
       }
     },
     "process": {
-      "eyebrow": "How It Works",
-      "title": "From Inquiry to Proposal",
-      "description": "Our streamlined process ensures you receive a comprehensive, accurate quote quickly.",
+      "eyebrow": "How it works",
+      "title": "From request to proposal",
+      "description": "Our streamlined process ensures you receive a complete, accurate quote quickly.",
       "steps": {
         "submit": {
-          "title": "Submit Your Request",
-          "description": "Fill out our detailed form with your project information and requirements."
+          "title": "Submit your request",
+          "description": "Fill out our detailed form with your information and needs."
         },
         "review": {
-          "title": "We Review & Analyze",
-          "description": "Our experts review your submission and analyze project requirements."
+          "title": "Analysis & review",
+          "description": "Our experts review your request and analyze project requirements."
         },
         "consultation": {
-          "title": "Initial Consultation",
+          "title": "Initial consultation",
           "description": "We schedule a call to discuss details and answer your questions."
         },
         "proposal": {
-          "title": "Receive Your Proposal",
-          "description": "Get a detailed, customized proposal with transparent pricing."
+          "title": "Receive your proposal",
+          "description": "Get a detailed proposal with transparent pricing."
         }
       }
     },
     "faq": {
       "eyebrow": "FAQ",
-      "title": "Common Questions About Quotes",
-      "description": "Find answers to frequently asked questions about our quote process.",
+      "title": "Frequently asked questions about quotes",
+      "description": "Find answers to common questions about our quoting process.",
       "stillQuestions": {
-        "title": "Still have questions?",
-        "description": "Our team is here to help. Contact us for personalized assistance.",
-        "link": "Contact Our Team"
+        "title": "Still have questions",
+        "description": "Our team is here to help. Contact us for personalized support.",
+        "link": "Contact our team"
       },
       "items": {
         "timeline": {
-          "question": "How long does it take to receive a quote?",
-          "answer": "We typically provide initial quotes within 48 hours of receiving your request. For complex projects requiring detailed analysis, we'll contact you to discuss timeline expectations."
+          "question": "How long does it take to receive a quote",
+          "answer": "We generally provide an initial quote within 48 hours after receiving your request. For complex projects requiring a deeper analysis, we will contact you to confirm the timeline."
         },
         "cost": {
-          "question": "Is there a fee for getting a quote?",
-          "answer": "No, our quotes are completely free with no obligation. We believe in transparent communication and want you to have all the information needed to make an informed decision."
+          "question": "Is the quote paid",
+          "answer": "No, our quotes are completely free and without obligation. We prioritize transparency so you have all the information you need to decide."
         },
         "included": {
-          "question": "What's included in the quote?",
-          "answer": "Our quotes include detailed cost breakdowns, project timeline, scope of work, materials specifications, and payment terms. We also provide information about permits, insurance, and warranty coverage."
+          "question": "What does the quote include",
+          "answer": "Our quotes include a cost breakdown, timeline, scope of work, material specifications, and payment terms, as well as information on permits, insurance, and warranty."
         },
         "changes": {
-          "question": "Can I make changes after receiving the quote?",
-          "answer": "Absolutely. We understand that project requirements can evolve. We're happy to revise quotes based on updated specifications or scope changes at no additional charge."
+          "question": "Can I change the project after receiving the quote",
+          "answer": "Absolutely. Needs can evolve. We revise quotes based on updated specifications or scope changes, at no additional cost."
         }
       }
     },
     "testimonial": {
-      "quote": "The quote process was incredibly smooth. Bontera's team took the time to understand our unique requirements and provided a detailed, transparent proposal that gave us complete confidence in moving forward.",
+      "quote": "The quoting process was extremely smooth. The Bontera team took the time to understand our needs and delivered a detailed, transparent proposal that gave us full confidence to move forward.",
       "author": "Mohammad Al-Farsi",
       "role": "CEO, Al-Farsi Developments"
     },
     "cta": {
-      "title": "Ready to Start Your Project?",
-      "description": "Join hundreds of satisfied clients who chose Bontera for their construction needs.",
-      "getQuote": "Get Your Free Quote",
-      "viewProjects": "View Our Projects"
+      "title": "Ready to start your project",
+      "description": "Join hundreds of satisfied clients who chose Bontera for their projects.",
+      "getQuote": "Get a free quote",
+      "viewProjects": "View our projects"
     }
   },
   "projectDetail": {
@@ -1456,197 +1562,79 @@
     },
     "status": {
       "completed": "Completed",
-      "ongoing": "In Progress",
+      "ongoing": "Ongoing",
       "upcoming": "Upcoming",
       "planning": "Planning"
     },
-    "featured": "Featured Project",
-    "scrollToExplore": "Scroll to Explore",
+    "featured": "Featured project",
+    "scrollToExplore": "Scroll to explore",
     "overview": {
-      "eyebrow": "Project Overview",
-      "title": "About This Project"
+      "eyebrow": "Project overview",
+      "title": "About this project"
     },
     "scope": {
-      "title": "Project Scope"
+      "title": "Project scope"
     },
     "servicesFeatures": {
-      "title": "Services & Features"
+      "title": "Services and features"
     },
     "challenges": {
       "title": "Challenges"
     },
     "solutions": {
-      "title": "Our Solutions"
+      "title": "Our solutions"
     },
     "results": {
-      "title": "Results & Impact"
+      "title": "Results and impact"
     },
     "awards": {
-      "title": "Awards & Certifications"
+      "title": "Awards and certifications"
     },
     "details": {
-      "title": "Project Details",
+      "title": "Project details",
       "client": "Client",
       "location": "Location",
       "year": "Year",
-      "value": "Project Value",
+      "value": "Project value",
       "duration": "Duration",
-      "size": "Project Size",
+      "size": "Size",
       "status": "Status",
-      "teamSize": "Team Size"
+      "teamSize": "Team size"
     },
     "team": {
-      "title": "Project Team",
+      "title": "Project team",
       "architect": "Architect",
-      "contractor": "Main Contractor",
+      "contractor": "Lead contractor",
       "engineers": "Engineers"
     },
     "sidebar": {
       "cta": {
-        "title": "Interested in a Similar Project?",
-        "description": "Let's discuss how we can bring your vision to life.",
-        "button": "Request Quote"
+        "title": "Interested in a similar project?",
+        "description": "Let’s discuss how we can bring your vision to life.",
+        "button": "Request a quote"
       }
     },
     "gallery": {
-      "eyebrow": "Project Gallery",
-      "title": "Visual Documentation"
+      "eyebrow": "Project gallery",
+      "title": "Visual documentation"
     },
     "related": {
-      "eyebrow": "More Projects",
-      "title": "Related Work",
-      "viewAll": "View All Projects"
+      "eyebrow": "More projects",
+      "title": "Related work",
+      "viewAll": "View all projects"
     },
     "cta": {
-      "eyebrow": "Start Your Project",
-      "title": "Ready to Build Your Vision?",
-      "description": "Our team is ready to transform your ideas into reality. Let's discuss your project today.",
-      "startProject": "Start Your Project",
-      "contactUs": "Contact Us"
-    }
-  },
-  "leadershipPage": {
-    "meta": {
-      "title": "Leadership Team | Bontera Construction",
-      "description": "Meet the experienced leaders driving Bontera's vision of excellence in construction. Our executive team brings decades of combined experience."
-    },
-    "breadcrumb": {
-      "home": "Home",
-      "about": "About",
-      "leadership": "Leadership"
-    },
-    "hero": {
-      "eyebrow": "Our Leadership",
-      "title": "Meet the Team Behind Our Success",
-      "subtitle": "Experienced professionals with a shared vision of excellence, driving innovation and delivering exceptional results across every project."
-    },
-    "executive": {
-      "eyebrow": "Executive Team",
-      "title": "Executive Leadership",
-      "subtitle": "Our executive team brings together decades of industry experience and a shared commitment to building excellence.",
-      "members": {
-        "ceo": {
-          "name": "Mr. Necdet",
-          "title": "Chief Executive Officer",
-          "bio": "With over 30 years in construction, Mr. Necdet founded Bontera with a vision to transform the industry through innovation and quality."
-        },
-        "coo": {
-          "name": "Reginald Charles",
-          "title": "Chief Operating Officer",
-          "bio": "Sarah oversees all operational aspects, ensuring projects are delivered on time and to the highest standards."
-        },
-        "cto": {
-          "name": "Dr. Michael Chen",
-          "title": "Chief Technology Officer",
-          "bio": "Michael leads our digital transformation initiatives, implementing cutting-edge construction technologies."
-        },
-        "cfo": {
-          "name": "Elena Rodriguez",
-          "title": "Chief Financial Officer",
-          "bio": "Elena manages our financial strategy, ensuring sustainable growth and value creation for stakeholders."
-        }
-      }
-    },
-    "philosophy": {
-      "eyebrow": "Our Philosophy",
-      "title": "Leadership That Inspires Excellence",
-      "paragraph1": "At Bontera, leadership means more than managing projects and people. It means setting the standard for excellence, fostering innovation, and creating an environment where every team member can thrive.",
-      "paragraph2": "Our leaders are hands-on professionals who understand the complexities of construction from the ground up. They lead by example, prioritizing safety, quality, and sustainability in every decision.",
-      "quote": "Great buildings start with great leadership. We invest in our people because we know that's what builds lasting success.",
-      "quoteAuthor": "Mr. Necdet",
-      "quoteTitle": "Founder & CEO",
-      "stats": {
-        "experience": "Years Combined Experience",
-        "projects": "Projects Led",
-        "countries": "Countries",
-        "satisfaction": "Client Satisfaction"
-      }
-    },
-    "senior": {
-      "eyebrow": "Senior Leadership",
-      "title": "Senior Management Team",
-      "subtitle": "Our senior leaders bring specialized expertise across all aspects of construction and business operations.",
-      "members": {
-        "vpEngineering": {
-          "name": "James Thompson",
-          "title": "VP of Engineering"
-        },
-        "vpOperations": {
-          "name": "Maria Santos",
-          "title": "VP of Operations"
-        },
-        "vpBusiness": {
-          "name": "Ahmed Hassan",
-          "title": "VP of Business Development"
-        },
-        "vpHR": {
-          "name": "Lisa Park",
-          "title": "VP of Human Resources"
-        },
-        "vpSafety": {
-          "name": "Robert Williams",
-          "title": "VP of Safety & Compliance"
-        },
-        "vpSustainability": {
-          "name": "Dr. Anna Schmidt",
-          "title": "VP of Sustainability"
-        }
-      }
-    },
-    "board": {
-      "eyebrow": "Board of Directors",
-      "title": "Our Board",
-      "subtitle": "Distinguished leaders providing strategic guidance and governance.",
-      "members": {
-        "chairman": {
-          "name": "Mr. Necdet",
-          "title": "Chairman"
-        },
-        "director1": {
-          "name": "Dr. Klaus Weber",
-          "title": "Independent Director"
-        },
-        "director2": {
-          "name": "Margaret Chen",
-          "title": "Independent Director"
-        },
-        "director3": {
-          "name": "Omar Al-Rashid",
-          "title": "Independent Director"
-        }
-      }
-    },
-    "cta": {
-      "title": "Join Our Team of Professionals",
-      "description": "We're always looking for talented individuals who share our passion for excellence in construction.",
-      "joinTeam": "View Careers",
-      "contactUs": "Contact Us"
+      "eyebrow": "Start your project",
+      "title": "Ready to build your vision?",
+      "description": "Our team is ready to turn your ideas into reality. Let’s discuss your project today.",
+      "startProject": "Start your project",
+      "contactUs": "Contact us"
     }
   },
   "valuesPage": {
     "meta": {
       "title": "Mission & Values | Bontera Construction",
-      "description": "Discover Bontera's mission, vision, and core values that guide every project we undertake and every relationship we build."
+      "description": "Discover Bontera’s mission, vision, and core values that guide every project and partnership."
     },
     "breadcrumb": {
       "home": "Home",
@@ -1654,210 +1642,105 @@
       "values": "Values"
     },
     "hero": {
-      "eyebrow": "What We Stand For",
+      "eyebrow": "What we stand for",
       "title": "Our Mission, Vision & Values",
-      "subtitle": "The principles that guide every decision we make and every project we undertake."
+      "subtitle": "The principles that guide every one of our decisions and every project we deliver."
     },
     "mission": {
-      "eyebrow": "Our Mission",
-      "title": "Building Excellence, Delivering Value",
-      "description": "We create sustainable, safe, and economically viable solutions for private clients, investors, and businesses. To achieve this, we combine deep market knowledge, transparent advice, and a strong network of financial and real estate partners."
+      "eyebrow": "Our mission",
+      "title": "Build excellence, create value",
+      "description": "We develop sustainable, safe, and economically viable solutions for private clients, investors, and businesses. To do so, we combine deep market knowledge, transparent advice, and a strong network of financial and real estate partners."
     },
     "vision": {
-      "eyebrow": "Our Vision",
-      "title": "Shaping Tomorrow's World",
-      "description": "To be the global leader in sustainable construction, recognized for transforming bold architectural visions into enduring structures that inspire, serve, and stand the test of time."
+      "eyebrow": "Our vision",
+      "title": "Shape the world of tomorrow",
+      "description": "To be the global leader in sustainable construction, recognized for turning bold architectural visions into lasting structures that inspire, serve, and stand the test of time."
     },
     "coreValues": {
-      "eyebrow": "Core Values",
-      "title": "The Pillars of Our Success",
-      "subtitle": "These fundamental values shape our culture and define how we work with clients, partners, and each other.",
+      "eyebrow": "Core values",
+      "title": "The pillars of our success",
+      "subtitle": "These essential values shape our company culture and define how we work with our clients, partners, and each other.",
       "items": {
         "excellence": {
-          "title": "Excellence",
-          "description": "We pursue excellence in every detail, from initial design to final delivery, ensuring our work stands as a testament to quality craftsmanship."
+          "title": "Quality ",
+          "description": "We pursue quality in every detail, from initial design to final handover, so that our work is a symbol of quality and craftsmanship."
         },
         "integrity": {
-          "title": "Integrity",
-          "description": "We conduct business with honesty and transparency, building trust with clients, partners, and communities through ethical practices."
+          "title": "Accountability",
+          "description": "We conduct our business with honesty and transparency, building trust through ethical practices."
         },
         "innovation": {
           "title": "Innovation",
-          "description": "We embrace cutting-edge technologies and methodologies to deliver smarter, more efficient, and more sustainable construction solutions."
+          "description": "We adopt the most advanced technologies and methods to deliver smarter and more sustainable construction solutions."
         },
         "safety": {
-          "title": "Safety First",
-          "description": "The wellbeing of our team and communities is paramount. We maintain rigorous safety standards and protocols on every project."
+          "title": "Safety",
+          "description": "The wellbeing of our team and communities is paramount. We apply strict safety standards on every project."
         },
         "sustainability": {
           "title": "Sustainability",
-          "description": "We are committed to environmentally responsible practices that minimize our footprint and maximize positive impact for future generations."
+          "description": "We are committed to environmentally responsible practices to reduce our impact and create value for future generations."
         },
         "partnership": {
           "title": "Partnership",
-          "description": "We believe in collaborative relationships, working closely with clients and stakeholders to achieve shared success and lasting value."
+          "description": "We believe in strong collaborative relationships, working closely with our clients and stakeholders to achieve shared success."
         }
       }
     },
     "principles": {
-      "eyebrow": "Guiding Principles",
-      "title": "How We Work",
+      "eyebrow": "Guiding principles",
+      "title": "How we work",
       "items": {
         "clientFirst": {
-          "title": "Client First",
-          "description": "Every decision we make is guided by what's best for our clients. We listen, understand, and deliver solutions that exceed expectations."
+          "title": "Client first",
+          "description": "Every decision is guided by what is best for our clients. We listen, understand, and deliver beyond expectations."
         },
         "qualityDriven": {
-          "title": "Quality Driven",
-          "description": "We never compromise on quality. From materials to workmanship, we hold ourselves to the highest standards in the industry."
+          "title": "Quality standards",
+          "description": "We make no compromises on quality. From materials to execution, we meet the highest standards."
         },
         "teamEmpowerment": {
-          "title": "Team Empowerment",
-          "description": "We invest in our people, providing training, resources, and opportunities for growth. Empowered teams deliver exceptional results."
+          "title": "Empowering teams",
+          "description": "We invest in our people through training, resources, and development opportunities. Strong teams deliver exceptional results."
         },
         "continuousImprovement": {
-          "title": "Continuous Improvement",
-          "description": "We constantly seek ways to improve our processes, embrace new technologies, and evolve our practices to stay ahead of industry trends."
+          "title": "Continuous improvement",
+          "description": "We constantly optimize our processes, adopt new technologies, and evolve to stay ahead of industry trends."
         }
       }
     },
-
     "valuesSnapshot": {
-      "eyebrow": "Values in Action",
-      "title": "What Defines Bontera",
-
+      "eyebrow": "Values in action",
+      "title": "What defines Bontera",
       "items": {
         "transparencyReliabilityCommitment": "Transparency, reliability, and commitment are the foundation of every partnership.",
-        "technicalExpertise": "Technical expertise and rigorous execution ensure world-class results.",
-        "holisticApproach": "A holistic approach that unites construction and real estate under one vision.",
+        "technicalExpertise": "Technical expertise and rigorous execution ensure world-class delivery.",
+        "holisticApproach": "A holistic approach that brings construction and real estate together under one vision.",
         "valueGrowth": "Sustainable value creation with controlled risk and long-term growth."
       },
-
       "closing": "At Bontera, values are not statements, they are standards we apply every day."
     },
     "culture": {
-      "eyebrow": "Our Culture",
-      "title": "A Culture of Excellence",
-      "paragraph1": "At Bontera, our culture is built on mutual respect, collaboration, and a shared commitment to excellence. We foster an environment where every team member feels valued and empowered to contribute their best work.",
-      "paragraph2": "We celebrate diversity, encourage innovation, and recognize that our greatest strength lies in our people. Together, we're building more than structures—we're building careers, communities, and a legacy of excellence.",
-      "quote": "Culture isn't just about what we do—it's about who we are and how we treat each other. At Bontera, excellence is a way of life.",
+      "eyebrow": "Our company culture",
+      "title": "A standard of work done right",
+      "paragraph1": "At Bontera, our company culture is built on mutual respect, collaboration, and a shared commitment to excellence.",
+      "paragraph2": "We celebrate diversity, encourage innovation, and recognize that our greatest strength is our teams",
+      "quote": "Culture is not just what we do. It is who we are and how we treat each other.",
       "quoteAuthor": "Reginald Charles",
       "quoteTitle": "Chief Operating Officer",
-      "teamMembers": "Team Members Worldwide"
+      "teamMembers": "Team members worldwide"
     },
     "cta": {
-      "title": "Experience the Bontera Difference",
-      "description": "Discover how our values translate into exceptional results for your project.",
-      "contactUs": "Contact Us",
-      "learnMore": "Learn More"
-    }
-  },
-  "certificationsPage": {
-    "meta": {
-      "title": "Certifications & Standards | Bontera Construction",
-      "description": "Explore Bontera's internationally recognized certifications and quality standards that ensure excellence in every project."
-    },
-    "breadcrumb": {
-      "home": "Home",
-      "about": "About",
-      "certifications": "Certifications"
-    },
-    "hero": {
-      "eyebrow": "Quality & Standards",
-      "title": "Certified Excellence in Construction",
-      "subtitle": "Our commitment to quality is validated by internationally recognized certifications and industry accreditations."
-    },
-    "overview": {
-      "eyebrow": "Our Commitment",
-      "title": "Setting the Standard for Quality",
-      "paragraph1": "At Bontera, quality isn't just a goal—it's a fundamental part of who we are. Our comprehensive certification portfolio demonstrates our unwavering commitment to excellence in every aspect of construction.",
-      "paragraph2": "These certifications aren't just credentials on paper. They represent thousands of hours of training, rigorous audits, and a company-wide dedication to maintaining the highest standards in quality, safety, and environmental responsibility.",
-      "stats": {
-        "safeHours": "Safe Work Hours",
-        "compliance": "Audit Compliance",
-        "incidents": "Major Safety Incidents",
-        "trained": "Staff Certified"
-      }
-    },
-    "certifications": {
-      "eyebrow": "Our Certifications",
-      "title": "Industry-Leading Standards",
-      "subtitle": "Each certification represents our dedication to specific areas of excellence.",
-      "since": "Since",
-      "items": {
-        "iso9001": {
-          "name": "ISO",
-          "category": "Quality Management",
-          "description": "International standard for quality management systems, ensuring consistent delivery of products and services that meet customer requirements."
-        },
-        "iso14001": {
-          "name": "ISO 14001:2015",
-          "category": "Environmental Management",
-          "description": "Framework for effective environmental management, helping us minimize our environmental footprint and comply with regulations."
-        },
-        "iso45001": {
-          "name": "ISO 45001:2018",
-          "category": "Occupational Health & Safety",
-          "description": "International standard for occupational health and safety management, ensuring safe and healthy workplaces."
-        },
-        "leed": {
-          "name": "LEED Certified Partner",
-          "category": "Green Building",
-          "description": "Leadership in Energy and Environmental Design certification, demonstrating our expertise in sustainable building practices."
-        },
-        "osha": {
-          "name": "OSHA Certified",
-          "category": "Workplace Safety",
-          "description": "Compliance with Occupational Safety and Health Administration standards, ensuring safe working conditions."
-        },
-        "pmp": {
-          "name": "PMP Certified Team",
-          "category": "Project Management",
-          "description": "Project Management Professional certification, demonstrating expertise in project management best practices."
-        }
-      }
-    },
-    "accreditations": {
-      "eyebrow": "Accreditations",
-      "title": "Industry Accreditations",
-      "subtitle": "Additional accreditations that validate our expertise across specialized areas.",
-      "items": {
-        "breeam": {
-          "name": "BREEAM Assessor"
-        },
-        "greenStar": {
-          "name": "Green Star Accredited"
-        },
-        "wellBuilding": {
-          "name": "WELL AP"
-        },
-        "passivHaus": {
-          "name": "Passive House Certified"
-        }
-      }
-    },
-    "commitment": {
-      "eyebrow": "Quality Assurance",
-      "title": "Our Quality Commitment",
-      "paragraph1": "Quality assurance is embedded in every phase of our projects. From initial planning through final handover, we implement rigorous quality control measures that ensure consistent excellence.",
-      "paragraph2": "Our dedicated quality team conducts regular audits, inspections, and reviews to identify and address any issues before they impact project delivery. This proactive approach has resulted in industry-leading client satisfaction rates.",
-      "badges": {
-        "quality": "Quality Assured",
-        "safety": "Safety Certified",
-        "environment": "Environmentally Responsible"
-      }
-    },
-    "cta": {
-      "title": "Build with Confidence",
-      "description": "Partner with a certified leader in construction excellence.",
-      "contactUs": "Contact Us",
-      "viewProjects": "View Projects"
+      "title": "Discover the Bontera difference",
+      "description": "See how our values translate into exceptional outcomes for your project.",
+      "contactUs": "Contact us",
+      "learnMore": "Learn more"
     }
   },
   "partnersPage": {
     "meta": {
       "title": "Partners & Affiliates | Bontera Construction",
-      "description": "Discover Bontera's strategic partnerships with leading companies in construction, technology, and materials supply."
+      "description": "Discover Bontera’s strategic partnerships with leading companies in construction, technology, and materials supply."
     },
     "breadcrumb": {
       "home": "Home",
@@ -1865,29 +1748,29 @@
       "partners": "Partners"
     },
     "hero": {
-      "eyebrow": "Strategic Alliances",
-      "title": "Building Success Through Partnership",
-      "subtitle": "We collaborate with industry leaders to deliver exceptional results and drive innovation in construction."
+      "eyebrow": "Strategic alliances",
+      "title": "Building success through partnership",
+      "subtitle": "We collaborate with industry leaders to deliver exceptional outcomes and drive innovation in construction."
     },
     "philosophy": {
-      "eyebrow": "Partnership Philosophy",
-      "title": "Stronger Together",
-      "paragraph1": "At Bontera, we believe that the best projects are built through collaboration. Our strategic partnerships extend our capabilities and allow us to deliver comprehensive solutions that exceed client expectations.",
-      "paragraph2": "We carefully select partners who share our commitment to quality, innovation, and sustainability. Together, we combine expertise, resources, and technologies to tackle the most challenging construction projects.",
+      "eyebrow": "Partnership philosophy",
+      "title": "Stronger together",
+      "paragraph1": "At Bontera, we believe the best projects are built through collaboration. Our strategic partnerships expand our capabilities and enable us to deliver global solutions that exceed client expectations.",
+      "paragraph2": "We carefully select partners who share our commitment to quality, innovation, and sustainability. Together, we combine expertise, resources, and technologies to take on the most demanding construction projects.",
       "stats": {
-        "partners": "Strategic Partners",
-        "years": "Years of Partnerships",
+        "partners": "Strategic partners",
+        "years": "Years of partnership",
         "countries": "Countries"
       }
     },
     "strategic": {
-      "eyebrow": "Strategic Partners",
-      "title": "Engineering & Design Partners",
-      "subtitle": "World-class engineering and design firms that help bring ambitious visions to life.",
+      "eyebrow": "Strategic partners",
+      "title": "Engineering & design partners",
+      "subtitle": "World-class engineering and design firms that bring the most ambitious visions to life.",
       "partners": {
         "arcadis": {
           "name": "Arcadis",
-          "specialty": "Design & Consultancy"
+          "specialty": "Design & consulting"
         },
         "aecom": {
           "name": "AECOM",
@@ -1899,60 +1782,60 @@
         },
         "wsp": {
           "name": "WSP",
-          "specialty": "Professional Services"
+          "specialty": "Professional services"
         }
       }
     },
     "technology": {
-      "eyebrow": "Technology Partners",
-      "title": "Driving Digital Innovation",
-      "subtitle": "Technology partners that power our digital transformation and enable smarter construction.",
+      "eyebrow": "Technology partners",
+      "title": "Accelerating digital innovation",
+      "subtitle": "Technology partners that support our digital transformation and enable smarter construction.",
       "partners": {
         "autodesk": {
           "name": "Autodesk",
-          "solution": "BIM & Design Software"
+          "solution": "BIM & design software"
         },
         "trimble": {
           "name": "Trimble",
-          "solution": "Construction Technology"
+          "solution": "Construction technologies"
         },
         "procore": {
           "name": "Procore",
-          "solution": "Project Management"
+          "solution": "Project management"
         },
         "oracle": {
           "name": "Oracle",
-          "solution": "Enterprise Solutions"
+          "solution": "Enterprise solutions"
         }
       }
     },
     "suppliers": {
-      "eyebrow": "Material Partners",
-      "title": "Premium Material Suppliers",
-      "subtitle": "Trusted suppliers providing quality materials that meet our exacting standards.",
+      "eyebrow": "Materials partners",
+      "title": "Premium suppliers",
+      "subtitle": "Trusted suppliers providing quality materials that meet our standards of excellence.",
       "partners": {
         "holcim": {
           "name": "Holcim",
-          "products": "Cement & Aggregates"
+          "products": "Cement & aggregates"
         },
         "heidelberg": {
           "name": "Heidelberg Materials",
-          "products": "Building Materials"
+          "products": "Construction materials"
         },
         "caterpillar": {
           "name": "Caterpillar",
-          "products": "Heavy Equipment"
+          "products": "Heavy equipment"
         },
         "hilti": {
           "name": "Hilti",
-          "products": "Construction Tools"
+          "products": "Construction tools"
         }
       }
     },
     "associations": {
-      "eyebrow": "Industry Memberships",
-      "title": "Professional Associations",
-      "description": "We maintain active memberships in leading industry associations, staying connected to best practices and contributing to industry advancement.",
+      "eyebrow": "Professional memberships",
+      "title": "Industry associations",
+      "description": "We maintain active memberships with leading professional associations, staying connected to best practices and contributing to the evolution of the industry.",
       "items": {
         "agc": {
           "name": "AGC of America"
@@ -1975,105 +1858,10 @@
       }
     },
     "cta": {
-      "title": "Become a Partner",
-      "description": "Interested in partnering with Bontera? We're always looking for organizations that share our commitment to excellence.",
-      "becomePartner": "Partner With Us",
-      "learnMore": "Learn More"
-    }
-  },
-  "ourStoryPage": {
-    "meta": {
-      "title": "Our Story | Bontera GmbH",
-      "description": "Discover the journey of Bontera GmbH from its founding to becoming a trusted leader in construction and real estate in Europe."
-    },
-    "breadcrumb": {
-      "home": "Home",
-      "about": "About",
-      "ourStory": "Our Story"
-    },
-    "hero": {
-      "eyebrow": "Our Journey",
-      "title": "20+ Years of Building Dreams",
-      "subtitle": "From our founding to European recognition, this is the story of how we became trusted partners in construction and real estate."
-    },
-    "origin": {
-      "eyebrow": "Where It All Began",
-      "title": "A Vision Takes Shape",
-      "paragraph1": "Bontera GmbH was founded with a simple yet ambitious vision: to transform the construction and real estate industry through professionalism, rigor, and an unwavering commitment to client satisfaction.",
-      "paragraph2": "Starting with a dedicated team and a focus on quality, we quickly built a reputation for reliable delivery and transparent business practices. Word spread, and soon we were taking on larger, more prestigious projects.",
-      "paragraph3": "What set us apart from the beginning was our integrated approach. We didn't just build structures—we built lasting relationships, combining construction expertise with real estate knowledge to deliver complete solutions.",
-      "founded": "Year Founded",
-      "location": "Berlin, Germany"
-    },
-    "founderQuote": {
-      "quote": "Our goal is clear: to offer our partners and clients reliable, secure real estate projects with high added value. With Bontera, you invest in security, competence, and sustainable value creation.",
-      "name": "Mr. Necdet",
-      "title": "Founder & Managing Director"
-    },
-    "timeline": {
-      "eyebrow": "Our Journey",
-      "title": "Milestones That Define Us",
-      "milestones": {
-        "founding": {
-          "title": "The Beginning",
-          "description": "Bontera was founded in Berlin with a vision to revolutionize the construction industry through quality and innovation."
-        },
-        "firstMajor": {
-          "title": "First Major Project",
-          "description": "Completed our first major commercial development, establishing our reputation for excellence in the region."
-        },
-        "expansion": {
-          "title": "Regional Expansion",
-          "description": "Expanded operations across Germany and into neighboring European markets, growing our team and capabilities."
-        },
-        "international": {
-          "title": "Going Global",
-          "description": "Entered international markets in the Middle East and Asia, establishing regional offices and partnerships."
-        },
-        "sustainability": {
-          "title": "Sustainability Leadership",
-          "description": "Launched comprehensive sustainability initiative, achieving LEED certification and committing to carbon-neutral operations."
-        },
-        "technology": {
-          "title": "Digital Transformation",
-          "description": "Implemented advanced BIM technology and AI-driven project management, revolutionizing our construction processes."
-        },
-        "pandemic": {
-          "title": "Resilience & Adaptation",
-          "description": "Successfully navigated global challenges, maintaining project delivery while prioritizing team safety and innovation."
-        },
-        "future": {
-          "title": "Building Tomorrow",
-          "description": "Continuing to innovate with smart building technologies and expanding our sustainable construction portfolio worldwide."
-        }
-      }
-    },
-    "achievements": {
-      "eyebrow": "By The Numbers",
-      "title": "Our Achievements",
-      "items": {
-        "projects": "Projects Delivered",
-        "employees": "Team Members",
-        "countries": "Countries of Operation",
-        "awards": "Industry Awards"
-      }
-    },
-    "future": {
-      "eyebrow": "Looking Forward",
-      "title": "The Next Chapter",
-      "paragraph1": "As we look to the future, we remain committed to the values that have guided us for over 20 years. We will continue to deliver sustainable, safe, and economically viable solutions for our clients.",
-      "paragraph2": "Our vision is to be the trusted partner for construction and real estate in Europe, delivering projects that combine quality, sustainability, and long-term value creation.",
-      "focus": {
-        "innovation": "Technology & Innovation",
-        "sustainability": "Sustainable Practices",
-        "growth": "European Growth"
-      }
-    },
-    "cta": {
-      "title": "Be Part of Our Story",
-      "description": "Join us as we continue to build the future. Whether as a client, partner, or team member, there's a place for you in the Bontera story.",
-      "startProject": "Start Your Project",
-      "joinTeam": "Join Our Team"
+      "title": "Become a partner",
+      "description": "Want to collaborate with Bontera? We are always looking for organizations that share our commitment to excellence.",
+      "becomePartner": "Become a partner",
+      "learnMore": "Learn more"
     }
   },
   "jobDetailPage": {
@@ -2081,131 +1869,122 @@
       "titleSuffix": "Careers | Bontera Construction",
       "description": "Apply for this exciting career opportunity at Bontera Construction."
     },
-
     "breadcrumb": {
       "home": "Home",
       "careers": "Careers"
     },
     "featured": "Featured",
     "posted": "Posted",
-    "applyNow": "Apply Now",
+    "applyNow": "Apply now",
     "sections": {
-      "description": "Job Description",
-      "responsibilities": "Key Responsibilities",
+      "description": "Job description",
+      "responsibilities": "Key responsibilities",
       "requirements": "Requirements",
-      "benefits": "What We Offer"
+      "benefits": "What we offer"
     },
     "sidebar": {
-      "quickInfo": "Quick Information",
+      "quickInfo": "Quick info",
       "department": "Department",
       "location": "Location",
-      "type": "Employment Type",
+      "type": "Job type",
       "experience": "Experience",
-      "shareJob": "Share This Job",
-      "questions": "Have Questions?",
-      "contactText": "Our recruitment team is here to help. Reach out for any inquiries about this position."
+      "shareJob": "Share this job",
+      "questions": "Questions?",
+      "contactText": "Our recruitment team is here to help. Contact us with any questions about this role."
     },
     "apply": {
-      "title": "Apply for This Position",
-      "subtitle": "Fill out the form below to submit your application. We'll review it and get back to you soon.",
+      "title": "Apply for this role",
+      "subtitle": "Fill out the form below to submit your application. We will review it and get back to you quickly.",
       "fields": {
-        "firstName": "First Name",
-        "lastName": "Last Name",
-        "email": "Email Address",
-        "phone": "Phone Number",
-        "linkedin": "LinkedIn Profile",
-        "resume": "Resume / CV",
+        "firstName": "First name",
+        "lastName": "Last name",
+        "email": "Email address",
+        "phone": "Phone number",
+        "linkedin": "LinkedIn profile",
+        "resume": "Resume",
         "resumeHint": "Drag and drop your file here or click to browse",
-        "resumeFormats": "PDF, DOC, DOCX (Max 5MB)",
-        "coverLetter": "Cover Letter",
-        "coverLetterPlaceholder": "Tell us why you're interested in this role and what makes you a great fit..."
+        "resumeFormats": "PDF, DOC, DOCX (Max 5 MB)",
+        "coverLetter": "Cover letter",
+        "coverLetterPlaceholder": "Tell us why you are interested in this role and what makes you a great candidate..."
       },
       "privacy": {
         "text": "I agree to the processing of my personal data in accordance with the",
-        "link": "Privacy Policy"
+        "link": "Privacy policy"
       },
-      "submit": "Submit Application"
+      "submit": "Submit application"
     },
-    "backToCareers": "Back to All Positions"
+    "backToCareers": "Back to careers"
   },
-
   "whyBonteraPage": {
     "meta": {
-      "title": "Why Choose Us? | Bontera Construction",
-      "description": "Bontera is an integrated company that supports its clients at every stage of their projects by combining technical expertise, strategic vision, and operational excellence."
+      "title": "Why choose us? | Bontera Construction",
+      "description": "Bontera is an integrated company that supports clients at every stage of their projects by combining technical expertise, strategic vision, and operational excellence."
     },
     "breadcrumb": {
       "ariaLabel": "Breadcrumb",
       "home": "Home",
       "about": "About",
-      "why Bontera": "Why Bontera",
-      "current": "Why Choose Us?"
+      "current": "Why choose us?"
     },
     "hero": {
-      "imageAlt": "Why Choose Us?",
-      "title": "Why Choose Us?",
-      "subtitle": "Bontera, a Global Partner for Your Real Estate Projects"
+      "imageAlt": "Why choose us?",
+      "title": "Why choose us?",
+      "subtitle": "Bontera, an international partner for your real estate projects"
     },
     "sections": {
       "global": {
         "title": "BONTERA GmbH",
-        "p1": "Bontera is an integrated company that supports its clients at every stage of their projects by combining technical expertise, strategic vision, and operational excellence. Our approach is built on transparency, reliability, and commitment, with one constant objective: to create lasting value while controlling risks.",
-        "p2": "Thanks to an in-depth knowledge of the market and rigorous project management, Bontera works with private individuals, companies, and investors, delivering tailored solutions to meet every need."
-      },
-      "contractor": {
-        "title": "Bontera – Contractor",
-        "p1": "As a contractor, Bontera ensures the planning, management, and execution of residential and commercial real estate projects, guaranteeing quality, compliance, and respect of deadlines.",
-        "p2": "We also provide construction consulting services for individuals and businesses seeking to secure their technical and financial decisions. Acting as the representative of public or private project owners, we serve as a single point of contact, defending the client’s interests, coordinating all stakeholders, and ensuring transparent monitoring throughout the project."
-      },
-      "developer": {
-        "title": "Bontera – Project Developer / Real Estate Developer",
-        "p1": "Bontera operates as a project developer and real estate promoter, supporting the creation and development of residential or industrial real estate projects. We carry out comprehensive feasibility studies, integrating technical, regulatory, financial, and commercial aspects to secure investments from the earliest stages.",
-        "p2": "From design through implementation, we provide full project structuring with a global approach aimed at maximizing asset value and ensuring long-term profitability and sustainability."
-      },
-      "broker": {
-        "title": "Bontera – Real Estate Broker",
-        "p1": "As a real estate broker, Bontera supports private clients and investors in their property purchase, sale, and rental transactions. Our market knowledge, combined with strong technical and financial expertise, enables us to identify the best opportunities and secure every transaction.",
-        "p2": "We place transparency and the protection of our clients’ interests at the heart of our work, ensuring informed decisions and optimal results."
+        "p1": "Bontera is a company that supports clients at every stage of their projects by combining technical expertise, strategic vision, and qualified service delivery. Our approach is built on transparency, reliability, and commitment, with a constant objective: create sustainable value while controlling risk.",
+        "p2": "With deep market knowledge and rigorous project management, Bontera supports individuals, businesses, and investors by providing tailored solutions adapted to every need.",
+        "summaryTitle": "What you get",
+        "bullets": {
+          "clarity": "Clarity on scope and deliverables.",
+          "control": "Control of schedule and coordination.",
+          "finish": "A high-end finish you can be proud of."
+        },
+        "card": {
+          "title": "Premium delivery",
+          "body": "A single standard, applied consistently across the entire project.",
+          "ctaLabel": "Email",
+          "ctaValue": "info@bontera.de"
+        }
       },
       "integrated": {
-        "title": "An Integrated Vision of Real Estate",
-        "p1": "The combination of these three areas of expertise allows Bontera to offer a unique, comprehensive approach covering the entire real estate lifecycle: feasibility, design, construction, management, and commercialization. This integrated vision is a guarantee of performance, risk control, and sustainable value creation."
+        "eyebrow": "Operating model",
+        "title": "An integrated real estate vision",
+        "p1": "Combining these areas of expertise enables Bontera to offer a holistic approach covering the entire real estate lifecycle: feasibility, design, construction, management, and commercialization. This integrated vision improves performance, reduces friction, and strengthens risk control.",
+        "block1Title": "What is aligned",
+        "block2Title": "What you can expect",
+        "bullets": {
+          "scope": "Defined scope and deliverables",
+          "timeline": "Controlled schedule and phasing",
+          "quality": "Quality milestones and validations",
+          "predictable": "More predictable delivery",
+          "accountability": "Clear responsibilities",
+          "premium": "Premium finish standard"
+        }
+      },
+      "contractor": {
+        "title": "Bontera - General contractor",
+        "p1": "As a general contractor, Bontera provides planning, management, and execution of residential and commercial real estate projects, ensuring quality and compliance with deadlines and standards.",
+        "p2": "We also provide construction consulting services for individuals and businesses looking to secure their technical and financial decisions. As a representative of public or private project owners, we act as a single point of contact, defend the client’s interests, coordinate all stakeholders, and ensure transparent tracking throughout the project."
+      },
+      "developer": {
+        "title": "Bontera - Project development",
+        "p1": "Bontera operates as a project developer, supporting the concept and development of residential or commercial real estate projects. We carry out complete feasibility studies covering technical, regulatory, financial, and commercial aspects to secure the investment from the earliest stages.",
+        "p2": "From design to delivery, we structure and manage projects end-to-end with an approach aimed at maximizing asset value and ensuring long-term profitability and sustainability."
+      },
+      "broker": {
+        "title": "Bontera - Real estate broker",
+        "p1": "As a real estate broker, Bontera supports individuals and investors in their buying, selling, and leasing transactions. Our market knowledge, combined with strong technical and financial expertise, enables us to identify the best opportunities and secure each transaction.",
+        "p2": "We place transparency and protection of our clients’ interests at the heart of our approach, ensuring informed decisions and optimal results."
       }
     },
     "cta": {
       "imageAlt": "Do you have a real estate project?",
       "title": "Do you have a real estate project?",
-      "description": "Bontera is your strategic partner to bring it to life successfully."
-    }
-  },
-
-  "jobs": {
-    "job-001": {
-      "title": "Senior Project Manager",
-      "description": "Lead complex construction projects from inception to completion, ensuring delivery on time and within budget while maintaining the highest quality standards.",
-      "responsibilities": [
-        "Lead and manage multiple construction projects simultaneously",
-        "Develop and maintain project schedules, budgets, and resource plans",
-        "Coordinate with clients, architects, engineers, and subcontractors",
-        "Ensure compliance with safety regulations and quality standards",
-        "Manage project risks and implement mitigation strategies",
-        "Report project progress to senior management and stakeholders"
-      ],
-      "requirements": [
-        "Bachelor's degree in Civil Engineering, Construction Management, or related field",
-        "8+ years of experience in construction project management",
-        "PMP certification preferred",
-        "Strong leadership and communication skills",
-        "Proficiency in project management software (MS Project, Primavera)",
-        "Experience with large-scale commercial or infrastructure projects"
-      ],
-      "benefits": [
-        "Competitive salary and performance bonuses",
-        "Comprehensive health insurance",
-        "Professional development opportunities",
-        "Relocation assistance",
-        "Annual leave and holiday benefits"
-      ]
+      "description": "Bontera is your strategic partner to deliver it successfully."
     }
   }
 }
+

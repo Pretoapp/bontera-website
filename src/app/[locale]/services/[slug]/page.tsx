@@ -34,7 +34,7 @@ const servicesData = {
       "/images/services/commercial.jpg",
     ],
     features: ["officeBuildings", "retailCenters", "mixedUse", "hospitality"],
-    stats: { projects: "80+", value: "20+", satisfaction: "99%" },
+    stats: { projects: "70+", value: "20+", satisfaction: "99%" },
   },
   "real-estate": {
     key: "real-estate",
@@ -46,7 +46,7 @@ const servicesData = {
       "/images/services/real-estate.jpg",
     ],
     features: ["residential", "commercial", "mixedUse", "investment"],
-    stats: { projects: "80+", value: "20+", satisfaction: "99%" },
+    stats: { projects: "10+", value: "20+", satisfaction: "99%" },
   },
   residential: {
     key: "residential",
@@ -82,7 +82,7 @@ const servicesData = {
       "/images/slide-2.jpg",
     ],
     features: ["historic", "modernization", "retrofitting", "restoration"],
-    stats: { projects: "80+", value: "20+", satisfaction: "99%" },
+    stats: { projects: "70+", value: "20+", satisfaction: "99%" },
   },
   consulting: {
     key: "consulting",
@@ -94,7 +94,7 @@ const servicesData = {
       "/images/slide-2.jpg",
     ],
     features: ["feasibility", "costEstimation", "riskAssessment", "compliance"],
-    stats: { projects: "80+", value: "20+", satisfaction: "100%" },
+    stats: { projects: "50+", value: "20+", satisfaction: "100%" },
   },
   management: {
     key: "management",
@@ -124,6 +124,7 @@ const servicesData = {
 
 const validSlugs = Object.keys(servicesData);
 
+
 /* ═══════════════════════════════════════════════════════════════════════════
    STATIC PARAMS
    ═══════════════════════════════════════════════════════════════════════════ */
@@ -150,6 +151,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   const t = await getTranslations({ locale, namespace: "servicesPage" });
+  
 
   return {
     title: `${t(`mainServices.items.${slug}.title`)} | Bontera`,
@@ -172,7 +174,16 @@ export default async function ServiceDetailPage({ params }: Props) {
   const service = servicesData[slug as keyof typeof servicesData];
   const t = await getTranslations({ locale, namespace: "servicesPage" });
   const tNav = await getTranslations({ locale, namespace: "navigation" });
-  const isRTL = locale === "ku";
+const isRTL = locale === "ku";
+
+const taglineKey = `mainServices.items.${service.key}.heroTagline`;
+const heroDescKey = `mainServices.items.${service.key}.heroDescription`;
+
+const tagline = t.has(taglineKey) ? t(taglineKey) : "";
+const heroDescription = t.has(heroDescKey)
+  ? t(heroDescKey)
+  : t(`mainServices.items.${service.key}.description`);
+
 
   // Get other services for the related section
   const otherServices = validSlugs.filter((s) => s !== slug).slice(0, 3);
@@ -182,7 +193,8 @@ export default async function ServiceDetailPage({ params }: Props) {
       {/* ═══════════════════════════════════════════════════════════════════
           HERO SECTION
       ═══════════════════════════════════════════════════════════════════ */}
-      <section className="relative min-h-[60vh] lg:min-h-[70vh] flex items-end overflow-hidden">
+<section className="relative min-h-[70vh] lg:min-h-[80vh] overflow-hidden">
+
         {/* Background */}
         <div className="absolute inset-0">
           <Image
@@ -212,7 +224,7 @@ export default async function ServiceDetailPage({ params }: Props) {
         </div>
 
         {/* Content */}
-        <div className="relative z-10 w-full pb-16 lg:pb-24">
+        <div className="relative z-10 w-full pt-24 sm:pt-28 lg:pt-32 pb-16 lg:pb-24">
           <div className="max-w-[1600px] mx-auto px-6 lg:px-16">
             {/* Breadcrumb */}
             <nav className="mb-8" aria-label="Breadcrumb">
@@ -256,10 +268,21 @@ export default async function ServiceDetailPage({ params }: Props) {
                 {t(`mainServices.items.${service.key}.title`)}
               </span>
             </h1>
+            {tagline ? (
+  <p className="mt-4 text-sm sm:text-base font-semibold tracking-[0.18em] uppercase text-white/80">
+    {tagline}
+  </p>
+) : null}
+
 
             {/* Description */}
             <p className="mt-6 max-w-2xl text-lg lg:text-xl text-bontera-grey-300 leading-relaxed">
-              {t(`mainServices.items.${service.key}.description`)}
+           {(() => {
+  const key = `mainServices.items.${service.key}.heroDescription`;
+  return t.has(key) ? t(key) : t(`mainServices.items.${service.key}.description`);
+})()}
+
+
             </p>
 
             {/* CTA Buttons */}
@@ -290,22 +313,23 @@ export default async function ServiceDetailPage({ params }: Props) {
       <section className="relative py-20 lg:py-28 bg-white overflow-hidden">
         <div className="max-w-[1600px] mx-auto px-6 lg:px-16">
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-            {/* Content */}
-            <div>
-              <span className="inline-flex items-center gap-3 text-bontera-navy-600 text-xs uppercase tracking-[0.3em] font-semibold">
-                <span className="w-8 h-px bg-bontera-navy-600" />
-                {t("overview.eyebrow")}
-              </span>
+         {/* Content */}
 
-              <h2 className="mt-6 text-3xl sm:text-4xl lg:text-5xl font-semibold text-bontera-grey-900 leading-[1.1] tracking-tight">
-                {t(`mainServices.items.${service.key}.title`)}
-              </h2>
+         
+<div className="p-6 lg:p-8">
+  <h3 className="text-xl lg:text-2xl font-semibold text-bontera-grey-900 group-hover:text-bontera-navy-600 transition-colors">
+    {t(`mainServices.items.${service.key}.title`)}
+  </h3>
+  
 
-              <div className="mt-8 h-1 w-24 bg-gradient-to-r from-gray-500 to-gray-400" />
+ <p className="mt-3 text-bontera-grey-600 leading-relaxed">
+  {t(`mainServices.items.${service.key}.description`)}
+</p>
 
-              <p className="mt-8 text-lg text-bontera-grey-600 leading-relaxed">
-                {t(`mainServices.items.${service.key}.description`)}
-              </p>
+
+ 
+
+
 
               {/* Features List */}
               <div className="mt-10 space-y-4">
@@ -370,65 +394,6 @@ export default async function ServiceDetailPage({ params }: Props) {
         </div>
       </section>
 
-      {/* ═══════════════════════════════════════════════════════════════════
-          PROCESS SECTION
-      ═══════════════════════════════════════════════════════════════════ */}
-      <section className="relative py-20 lg:py-28 bg-bontera-navy-900 overflow-hidden">
-        {/* Background Pattern */}
-        <div className="absolute inset-0 opacity-[0.04]">
-          <div
-            className="absolute inset-0"
-            style={{
-              backgroundImage: `linear-gradient(90deg, white 1px, transparent 1px), linear-gradient(white 1px, transparent 1px)`,
-              backgroundSize: "60px 60px",
-            }}
-          />
-        </div>
-
-        <div className="relative max-w-[1600px] mx-auto px-6 lg:px-16">
-          {/* Section Header */}
-          <div className="text-center max-w-3xl mx-auto mb-16">
-            <span className="inline-flex items-center gap-3 text-bontera-grey-400 text-xs uppercase tracking-[0.3em] font-semibold">
-              <span className="w-8 h-px bg-bontera-grey-400" />
-              {t("process.eyebrow")}
-              <span className="w-8 h-px bg-bontera-grey-400" />
-            </span>
-            <h2 className="mt-6 text-3xl sm:text-4xl lg:text-5xl font-semibold text-white leading-[1.1] tracking-tight">
-              {t("process.title")}
-            </h2>
-            <p className="mt-6 text-lg text-bontera-grey-400">
-              {t("process.subtitle")}
-            </p>
-          </div>
-
-          {/* Process Steps */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
-            {["discovery", "planning", "execution", "delivery"].map((step, index) => (
-              <div key={step} className="relative group">
-                {/* Connector Line */}
-                {index < 3 && (
-                  <div className="hidden lg:block absolute top-12 left-full w-full h-px bg-bontera-grey-700 z-0" />
-                )}
-
-                <div className="relative bg-bontera-navy-800 p-8 border border-bontera-grey-700 hover:border-gray-500 transition-all duration-300 z-10">
-                  {/* Step Number */}
-                  <div className="text-5xl lg:text-6xl font-bold text-gray-500 mb-4">
-                    {String(index + 1).padStart(2, "0")}
-                  </div>
-
-                  {/* Content */}
-                  <h3 className="text-xl font-semibold text-white mb-3">
-                    {t(`process.steps.${step}.title`)}
-                  </h3>
-                  <p className="text-bontera-grey-400 leading-relaxed">
-                    {t(`process.steps.${step}.description`)}
-                  </p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* ═══════════════════════════════════════════════════════════════════
           OTHER SERVICES SECTION

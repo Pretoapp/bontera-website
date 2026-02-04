@@ -162,9 +162,10 @@ export default async function CareersPage({ params, searchParams }: Props) {
           />
         </div>
 
-        <div className="relative z-10 w-full pb-16 lg:pb-24">
+        <div className="relative z-10 w-full pt-28 lg:pt-32 pb-16 lg:pb-24">
+
           <div className="max-w-[1600px] mx-auto px-6 lg:px-16">
-            <nav className="mb-8" aria-label="Breadcrumb">
+            <nav className="mb-10" aria-label="Breadcrumb">
               <ol className="flex items-center gap-2 text-sm text-bontera-grey-400">
                 <li>
                   <Link href={`/${locale}`} className="hover:text-white transition-colors">

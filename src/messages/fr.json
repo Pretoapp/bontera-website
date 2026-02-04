@@ -9,6 +9,12 @@
     "contact": "Contact"
   },
 
+  "sections": {
+    "integrated": {
+      "eyebrow": "Modèle opérationnel"
+    }
+  },
+
   "ourStoryPage": {
     "meta": {
       "title": "Notre histoire | Bontera",
@@ -19,12 +25,11 @@
       "about": "À propos",
       "ourStory": "Notre histoire"
     },
-  "hero": {
-  "eyebrow": "Notre histoire",
-  "title": "Un héritage qui transforme les ambitions en réalité",
-  "subtitle": "Avec plus de 20 ans d’expertise en construction, développement de projets et courtage immobilier, nous guidons nos clients à chaque étape avec efficacité, engagement, fiabilité, qualité et transparence."
-}
-,
+    "hero": {
+      "eyebrow": "Notre histoire",
+      "title": "Un héritage qui transforme les ambitions en réalité",
+      "subtitle": "Avec plus de 20 ans d’expertise en construction et en développement de projets, nous guidons nos clients à chaque étape avec transparence, efficacité, et fiabilité."
+    },
     "origin": {
       "eyebrow": "Les origines",
       "title": "Là où tout a commencé",
@@ -32,7 +37,7 @@
       "paragraph2": "Dès le départ, nous avons structuré notre approche autour de la sécurité, du respect des normes et d’une gestion rigoureuse des coûts et des délais.",
       "paragraph3": "Au fil des années, notre expertise s’est élargie à des projets plus complexes, avec une attention croissante à la performance énergétique et aux pratiques de construction responsables.",
       "founded": "Fondée",
-      "location": "Berlin, Allemagne"
+      "location": "Bruxelles, Belgique"
     },
     "founderQuote": {
       "quote": "Notre objectif est clair: offrir à nos partenaires et clients des projets immobiliers fiables, sécurisés et à forte valeur ajoutée.",
@@ -82,9 +87,9 @@
       "title": "Nos réussites",
       "items": {
         "projects": "Projets livrés",
-        "employees": "Membres de l’équipe",
-        "countries": "Pays d’intervention",
-        "awards": "Récompenses"
+        "deliveredValue": "Valeur réalisée",
+        "countries": "Pays",
+        "sqmDelivered": "Mètres carrés livrés"
       }
     },
     "future": {
@@ -100,7 +105,7 @@
     },
     "cta": {
       "title": "Prêt à bâtir quelque chose d’exceptionnel",
-      "description": "Que vous planifiiez un développement commercial, une infrastructure ou un bâtiment durable, notre équipe est prête à donner vie à votre vision.",
+      "description": "Que vous planifiiez un développement résidentiel ou commercial ou un bâtiment durable, notre équipe est prête à donner vie à votre vision.",
       "startProject": "Nous contacter",
       "joinTeam": "Rejoindre l’équipe"
     }
@@ -109,25 +114,26 @@
     "title": "Bontera | Construction & Real Estates",
     "description": "Des solutions de construction et d’infrastructure de classe mondiale. De la conception à la livraison, nous réalisons des projets qui redessinent les skylines et transforment les communautés."
   },
- "hero": {
-  "eyebrow": "L'excellence en construction depuis 2004",
-  "titleLine1": "Nous bâtissons",
-  "titleLine2": "l'avenir",
-  "description": "Avec plus de 20 ans d’expertise en construction, développement de projets et courtage immobilier, nous accompagnons chaque client avec efficacité, engagement, fiabilité, qualité et transparence.",
-  "ctaPrimary": "Voir nos projets",
-  "ctaSecondary": "Nous contacter",
-  "stats": {
-    "years": "Années d'expérience",
-    "sqm": "Mètres carrés livrés",
-    "budget": "Projets achevés",
-    "languages": "Langues parlées"
-  }
-}
-,
+  "hero": {
+    "eyebrow": "L'excellence en construction depuis 2004",
+    "titleLine1": "Nous bâtissons",
+    "titleLine2": "l'avenir",
+    "description": "Avec plus de 20 ans d’expertise en construction, développement de projets et courtage immobilier, nous accompagnons chaque client avec efficacité, engagement, fiabilité, qualité et transparence.",
+    "ctaPrimary": "Voir nos projets",
+    "ctaSecondary": "Nous contacter",
+    "stats": {
+      "years": "Années d'expérience",
+      "sqm": "Mètres carrés livrés",
+      "budget": "Projets achevés",
+      "languages": "Langues parlées",
+      "projectsDelivered": "Projets livrés",
+      "categories": "Residentiel, commercial et industriel"
+    }
+  },
   "vision": {
     "eyebrow": "Notre vision",
     "headline": "Concevoir les repères de demain, dès aujourd’hui",
-    "description": "Nous ne construisons pas seulement des bâtiments. Nous créons des héritages durables. Notre engagement envers l’innovation, la durabilité et une qualité sans compromis a fait de nous le partenaire de choix pour les projets les plus ambitieux au monde.",
+    "description": "Nous ne construisons pas seulement des bâtiments. Nous façonnons des héritages durables. Portés par l’innovation, la durabilité et une exigence constante de qualité, nous sommes devenus le partenaire privilégié des projets les plus ambitieux au monde.",
     "features": {
       "innovation": {
         "title": "L’innovation d’abord",
@@ -161,7 +167,7 @@
         "description": "Gestion de projet de bout en bout pour clients privés et entreprises, garantissant transparence et respect des délais."
       },
       "realEstate": {
-        "title": "Promotion Immobilière",
+        "title": "Développement de projet",
         "description": "Développement de biens résidentiels et commerciaux axé sur la durabilité et la création de valeur à long terme."
       },
       "brokerage": {
@@ -199,17 +205,19 @@
     "budget": "Projets achevés",
     "languages": "Langues parlées",
     "projects": "Projets terminés",
+
     "satisfaction": "Satisfaction client",
     "delivered": "Valeur livrée"
   },
   "whyUs": {
     "eyebrow": "Pourquoi Bontera",
+
     "headline": "L’excellence est notre standard",
     "description": "Choisir Bontera, c’est choisir une équipe qui traite chaque projet comme si sa réputation en dépendait. Parce que c’est le cas.",
     "cta": "En savoir plus",
     "points": {
       "quality": {
-        "title": "Qualité sans compromis",
+        "title": "Standards de qualité élevés.",
         "description": "Des processus garantissent une excellence constante sur chaque projet."
       },
       "timeline": {
@@ -217,13 +225,13 @@
         "description": "98% de nos projets sont livrés à l’heure ou en avance, systématiquement."
       },
       "safety": {
-        "title": "La sécurité avant tout",
+        "title": "Sécurité",
         "description": "Un niveau de sécurité exemplaire, conformité OSHA et initiatives zéro incident."
       }
     }
   },
   "testimonial": {
-    "quote": "Bontera a dépassé toutes nos attentes. Leur sens du détail, leur professionnalisme et leur engagement envers notre vision ont donné naissance à un bâtiment emblématique dont nous sommes très fiers.",
+    "quote": "Bontera a dépassé toutes nos attentes. Leur sens du détail, leur professionnalisme et leur engagement envers notre vision ont permis de réaliser un bâtiment d’exception dont nous sommes très fiers.",
     "name": "Reginald Charles",
     "role": "Lakay Business LTDA"
   },
@@ -241,7 +249,7 @@
     "empty": "Aucun article à afficher pour le moment."
   },
   "header": {
-    "headquarters": "Berlin, Allemagne",
+    "headquarters": "Halle (Westfalen), Allemagne",
     "emergency24": "Urgence 24/7",
     "search": "Rechercher",
     "searchPlaceholder": "Rechercher des projets, services, actualités...",
@@ -253,7 +261,7 @@
     "ourServices": "Nos services",
     "featured": "À la une",
     "sustainableBuilding": "Solutions de construction durable",
-    "sustainableBuildingDesc": "Nous sommes leaders de la construction écoresponsable avec des projets certifiés LEED.",
+    "sustainableBuildingDesc": "",
     "viewAllServices": "Voir tous les services",
     "projectCategories": "Catégories de projets",
     "featuredProject": "Projet à la une",
@@ -268,12 +276,12 @@
     "countriesOperating": "Pays d’implantation",
     "teamMembers": "Membres de l’équipe",
     "services": {
-      "commercialConstruction": "Construction commerciale",
-      "commercialConstructionDesc": "Bureaux, commerce, hôtellerie",
+      "commercialConstruction": "Construction",
+      "commercialConstructionDesc": "Résidentielle, Commercial et Infrastructure",
       "realEstate": "Immobilier",
       "realEstateDesc": "Développement immobilier premium",
       "renovation": "Rénovation & restauration",
-      "renovationDesc": "Modernisation et restauration patrimoniale",
+      "renovationDesc": "Bâtiment classé, Résidentiel et commercial",
       "consulting": "Conseil",
       "consultingDesc": "Conseil expert et études de faisabilité",
       "projectManagement": "Gestion de projet",
@@ -308,7 +316,7 @@
     }
   },
   "footer": {
-    "description": "Bontera réalise des projets premium de construction et d’infrastructure avec une planification rigoureuse, une exécution précise et une finition sans compromis.",
+    "description": "Bontera réalise des projets de construction haut de gamme et assure le développement de projets grâce à une planification rigoureuse et une exécution irréprochable.",
     "followUs": "Suivez-nous",
     "company": "Entreprise",
     "services": "Services",
@@ -328,12 +336,13 @@
       "headquarters": "Siège"
     },
     "serviceLinks": {
-      "commercial": "Construction commerciale",
-      "realEstate": "Real Estates",
+      "commercial": "Construction",
+      "realEstate": "Développement de projets",
       "residential": "Résidentiel",
       "industrial": "Industriel",
       "renovation": "Rénovation",
-      "consulting": "Conseil"
+      "consulting": "Conseil",
+      "projectManagement": "Gestion de projet"
     },
     "legal": {
       "privacy": "Politique de confidentialité",
@@ -396,24 +405,24 @@
       "home": "Accueil",
       "about": "À propos"
     },
- "hero": {
-  "eyebrow": "À propos de Bontera",
-  "title": "L'excellence en construction depuis 2004",
-  "subtitle": "Avec plus de 20 ans d’expertise en construction, développement de projets et courtage immobilier, nous accompagnons nos clients avec efficacité, engagement, fiabilité, qualité et transparence.",
-  "stats": {
-    "years": "Années d'expérience",
-    "sqm": "Mètres carrés livrés",
-    "budget": "Projets achevés",
-    "languages": "Langues parlées"
-  }
-}
-,
-
+    "hero": {
+      "eyebrow": "À propos de Bontera",
+      "title": "L'excellence en construction depuis 2004",
+      "subtitle": "Avec plus de 20 ans d’expertise en construction et en développement de projets, nous guidons nos clients à chaque étape avec transparence, efficacité, et fiabilité. ",
+      "stats": {
+        "years": "Années d'expérience",
+        "sqm": "Mètres carrés livrés",
+        "budget": "Projets achevés",
+        "languages": "Langues parlées",
+        "projectsDelivered": "Projets livrés",
+        "categories": "Residentiel, commercial et industriel"
+      }
+    },
     "story": {
       "eyebrow": "Notre histoire",
       "title": "Un héritage qui transforme les ambitions en réalité",
-      "paragraph1": "Forte de plus de 20 ans d'expérience dans les domaines de la construction, du développement de projets et du courtage immobilier, nous accompagnons nos clients à chaque étape de leurs projets, depuis la conception jusqu'à la réalisation finale, en accordant une importance primordiale à la sécurité, à la qualité d'exécution et au respect strict des normes en vigueur.",
-      "paragraph2": "Nous garantissons transparence et respect des délais. Grâce à notre expertise technique et à notre connaissance du marché immobilier, nous proposons des solutions fiables, durables et adaptées aux besoins de chaque client. Notre engagement repose sur des valeurs essentielles : professionnalisme, rigueur et confiance.",
+      "paragraph1": "Forte de plus de 20 ans d'expérience dans les domaines de la construction et du développement de projets, nous accompagnons nos clients à chaque étape de leurs projets, depuis la conception jusqu'à la réalisation finale, en accordant une importance primordiale à la sécurité, à la qualité d'exécution et au respect des normes.",
+      "paragraph2": "Grâce à notre expertise technique et à notre connaissance du marché immobilier, nous proposons des solutions fiables, durables et adaptées aux besoins de chaque client. Notre engagement repose sur des valeurs essentielles : professionnalisme, rigueur et confiance.",
       "paragraph3": "Conscients des enjeux environnementaux, nous intégrons des solutions éco-responsables, des matériaux de qualité et des méthodes de construction respectueuses de l'environnement. Chaque projet est pensé pour allier performance énergétique, durabilité et confort.",
       "founderQuote": "Notre objectif est clair : offrir à nos partenaires et clients des projets immobiliers fiables, sécurisés et à forte valeur ajoutée.",
       "founderName": "Mr. Necdet",
@@ -436,15 +445,15 @@
       "items": {
         "transparency": {
           "title": "Transparence",
-          "description": "Nous conduisons nos affaires avec une totale honnêteté et ouverture, garantissant à nos clients une visibilité complète sur tous les aspects de leurs projets."
+          "description": "Nous garantissons à nos clients une visibilité complète sur tous les aspects de leurs projets."
         },
         "reliability": {
           "title": "Fiabilité",
-          "description": "Nous honorons nos engagements avec une gestion rigoureuse des coûts, le respect du budget garanti et une livraison dans les délais."
+          "description": "Nous honorons nos engagements avec une gestion rigoureuse des coûts une livraison dans les délais."
         },
         "expertise": {
           "title": "Expertise Technique",
-          "description": "Notre connaissance technique approfondie et notre gestion intégrée des projets garantissent une excellence constante à toutes les phases de construction."
+          "description": "Notre connaissance technique approfondie et notre gestion intégrée des projets garantissent une amélioration constante à toutes les phases de construction."
         },
         "integrated": {
           "title": "Approche Intégrée",
@@ -524,17 +533,18 @@
     "global": {
       "eyebrow": "Présence mondiale",
       "title": "Construire au-delà des frontières",
-      "description": "Des skylines de Dubaï aux rues historiques d’Europe, l’expertise de Bontera s’étend sur plusieurs continents. Notre présence mondiale nous permet d’apporter des capacités de construction de premier plan partout.",
+      "description": "Des Skyline d’Allemagne aux rues historiques d’Italie, l’expertise de Bontera s’étend sur plusieurs pays. Notre présence européenne, nous permet d’apporter des capacités de construction de premier plan partout.",
       "stats": {
         "countries": "Pays",
         "offices": "Bureaux régionaux",
         "continents": "Continents",
+        "budget": "Projets achevés",
         "clients": "Clients internationaux"
       }
     },
     "cta": {
       "title": "Prêt à bâtir quelque chose d’exceptionnel",
-      "description": "Que vous planifiiez un développement commercial, une infrastructure ou un bâtiment durable, notre équipe est prête à donner vie à votre vision.",
+      "description": "Que vous planifiiez un développement résidentiel ou commercial ou un bâtiment durable, notre équipe est prête à donner vie à votre vision.",
       "contactUs": "Nous contacter",
       "joinTeam": "Rejoindre l’équipe"
     }
@@ -551,36 +561,36 @@
     "hero": {
       "eyebrow": "Ce que nous faisons",
       "title": "Des solutions de construction complètes",
-      "subtitle": "De la conception à la livraison, nous proposons des services de construction de bout en bout adaptés à votre vision et à vos exigences.",
+      "subtitle": "De l’idée à la livraison, nous proposons des services de construction adaptés à votre vision et à vos exigences.",
       "cta": "Demander un devis"
     },
     "overview": {
       "eyebrow": "Notre expertise",
       "title": "L’excellence dans chaque secteur",
-      "description": "Avec plus de 25 ans d’expérience, Bontera a développé une expertise approfondie dans des secteurs variés. Notre approche intégrée associe design innovant, ingénierie de précision et pratiques durables pour livrer des projets qui dépassent les attentes.",
+      "description": "Avec plus de 20 ans d’expérience, Bontera a développé une expertise approfondie dans des secteurs variés. Notre approche intégrée associe design innovant, ingénierie de précision et pratiques durables pour livrer des projets qui dépassent les attentes.",
       "points": {
         "expertise": {
-          "title": "Expertise sectorielle",
-          "description": "Compétences spécialisées dans le commercial, le résidentiel et les infrastructures."
+          "title": "Expertise",
+          "description": ""
         },
         "quality": {
-          "title": "Qualité sans compromis",
-          "description": "Contrôle qualité rigoureux à chaque étape."
+          "title": "Standards de qualité élevés.",
+          "description": ""
         },
         "innovation": {
-          "title": "Solutions innovantes",
-          "description": "Technologies de pointe et méthodes de construction modernes."
+          "title": "Solutions",
+          "description": ""
         },
         "safety": {
-          "title": "Excellence sécurité",
-          "description": "Standards et protocoles de sécurité leaders du marché."
+          "title": "sécurité",
+          "description": ""
         }
       },
       "stats": {
         "projects": "Projets terminés",
         "years": "Années d’expérience",
         "satisfaction": "Satisfaction client",
-        "awards": "Récompenses sectorielles"
+        "awards": ""
       }
     },
     "mainServices": {
@@ -590,12 +600,14 @@
       "learnMore": "En savoir plus",
       "items": {
         "commercial": {
-          "title": "Construction commerciale",
-          "description": "Des tours de bureaux iconiques aux espaces retail dynamiques, nous créons des environnements qui inspirent la performance et deviennent des repères urbains.",
+          "title": "Construction",
+          "heroTagline": "Résidentiel, commercial, tertiaire",
+          "heroDescription": "Nous réalisons des projets de construction de toutes tailles, de la conception à la remise des clés. Notre méthode garantit qualité d’exécution, conformité aux normes, respect des délais et maîtrise budgétaire, avec un focus durable sur la performance et le confort.",
+          "description": "Nous construisons maisons, bâtiments, espaces commerciaux et entrepôts avec un accompagnement complet et une exécution rigoureuse. Chaque projet est piloté pour limiter les imprévus, optimiser les coûts et livrer un ouvrage durable, performant et valorisant sur le long terme.",
           "features": {
             "officeBuildings": "Immeubles de bureaux",
             "retailCenters": "Centres commerciaux",
-            "mixedUse": "Développements mixtes",
+            "mixedUse": "Projets mixtes",
             "hospitality": "Hôtellerie"
           }
         },
@@ -615,18 +627,20 @@
           }
         },
         "real-estate": {
-          "title": "Développement Immobilier & Courtage",
-          "description": "Nous développons et accompagnons des projets immobiliers résidentiels, commerciaux et mixtes, tout en assurant un service de courtage pour l’achat, la vente et la location. Notre approche combine expertise marché, maîtrise technique et transparence totale afin de sécuriser chaque étape et maximiser la valeur des actifs.",
+          "title": "Développement de projets",
+          "heroTagline": "Stratégie, exécution, valeur",
+          "heroDescription": "Nous pilotons le développement de projets immobiliers résidentiels, commerciaux et mixtes avec une approche structurée et transparente. De l’étude de faisabilité à la livraison, nous sécurisons chaque étape, maîtrisons les risques et optimisons la valeur de vos actifs.",
+          "description": "Nous accompagnons vos projets immobiliers de bout en bout en combinant expertise marché, maîtrise technique et coordination rigoureuse. Notre objectif: sécuriser vos décisions, réduire les imprévus et maximiser la performance de vos investissements.",
           "features": {
-            "residential": "Projets Résidentiels",
-            "commercial": "Propriétés Commerciales",
-            "mixedUse": "Développements Mixtes",
-            "investment": "Propriétés d'Investissement",
-            "brokerage": "Courtage: Achat, Vente & Location"
+            "residential": "Projets résidentiels",
+            "commercial": "Actifs commerciaux",
+            "mixedUse": "Développements mixtes",
+            "investment": "Investissement immobilier",
+            "brokerage": "Courtage: achat, vente et location"
           },
           "brokerage": {
-            "title": "Courtage immobilier – Achat, Vente & Location",
-            "description": "Nous accompagnons nos clients dans leurs opérations d’achat, de vente et de location, en mettant à leur disposition notre expertise du marché.\n\nGrâce à notre réseau de professionnel, et notre approche personnalisée, nous vous aidons à prendre les meilleures décisions et à sécuriser vos opérations. Nous défendons vos intérêts à chaque étape afin d’optimiser la valeur de vos biens et de conclure vos transactions dans les meilleures conditions.\n\nNotre engagement repose sur une transparence totale et une défense constante des intérêts de nos clients."
+            "title": "Courtage immobilier",
+            "description": "Nous vous accompagnons dans l’achat, la vente et la location avec une connaissance fine du marché et une stratégie de négociation claire.\n\nGrâce à notre réseau et à une approche personnalisée, nous identifions les meilleures opportunités, sécurisons les étapes clés et défendons vos intérêts jusqu’à la signature.\n\nNotre engagement: transparence, réactivité et résultats mesurables."
           }
         },
         "residential": {
@@ -651,32 +665,38 @@
         },
         "renovation": {
           "title": "Rénovation & restauration",
-          "description": "Donner une nouvelle vie aux ouvrages existants grâce à une rénovation réfléchie, à la préservation patrimoniale et à la réhabilitation.",
+          "heroTagline": "RÉSIDENTIELLE, COMMERCIAL ET PATRIMOINE",
+          "heroDescription": "Redonnez vie à vos espaces sans trahir leur identité. Nous pilotons vos rénovations et restaurations avec précision, en combinant techniques traditionnelles et solutions modernes pour améliorer confort, sécurité, performance énergétique et valeur patrimoniale.",
+          "description": "Nous rénovons des biens résidentiels et commerciaux, et restaurons des bâtiments classés, en respectant l’identité architecturale, les normes en vigueur et les contraintes techniques du site. Notre approche combine savoir-faire traditionnel et solutions modernes pour améliorer la fonctionnalité, la sécurité, la performance énergétique et la durabilité des ouvrages. Du diagnostic aux finitions, nous assurons une exécution rigoureuse, une qualité contrôlée et un résultat fidèle à l’esprit du lieu, tout en valorisant durablement votre patrimoine.",
           "features": {
-            "historic": "Préservation patrimoniale",
-            "modernization": "Modernisation",
+            "historic": "Bâtiment classé",
+            "modernization": "Rénovation complète",
             "retrofitting": "Mise à niveau",
-            "restoration": "Restauration complète"
+            "restoration": "Modernisation"
           }
         },
         "consulting": {
           "title": "Conseil",
-          "description": "Un accompagnement expert à chaque phase: faisabilité, estimation des coûts, analyse des risques et conformité réglementaire.",
+          "heroTagline": "FAISABILITÉ, COÛTS, RISQUES, CONFORMITÉ",
+          "heroDescription": "Un accompagnement expert à chaque phase: faisabilité, estimation des coûts, analyse des risques et conformité de la réglementation.",
+          "description": "Nous proposons un service de conseil en construction, destiné aux particuliers et aux entreprises souhaitant sécuriser leurs décisions techniques et financières. En tant que représentant du maître d’ouvrage public ou privé, nous agissons comme un interlocuteur unique, défendant les intérêts du client.",
           "features": {
             "feasibility": "Études de faisabilité",
             "costEstimation": "Estimation des coûts",
-            "riskAssessment": "Analyse des risques",
-            "compliance": "Conformité"
+            "riskAssessment": "Conformité",
+            "compliance": "Contrôle de la construction"
           }
         },
         "management": {
           "title": "Gestion de Projet",
-          "description": "De la planification initiale à la livraison finale, nos services de gestion dédiés assurent clarté, responsabilité et résultats. Nous supervisons les calendriers, coordonnons les entrepreneurs et gérons les budgets pour maintenir votre vision sur la bonne voie.",
+          "heroTagline": "PILOTAGE, BUDGET, DÉLAIS, QUALITÉ",
+          "heroDescription": "Nous proposons un service de gestion de projet clé en main, destiné aux particuliers comme aux entreprises souhaitant sécuriser leurs investissements immobiliers. En tant qu’interlocuteur unique, nous assurons la coordination de l’ensemble des acteurs du projet : architectes, bureaux d’études, entreprises et fournisseurs. Notre mission est de garantir une maîtrise optimale des coûts, des délais et de la qualité, tout en vous offrant une transparence totale à chaque étape du projet",
+          "description": "De la planification initiale à la livraison finale, nous assurons une gestion de projet structurée, transparente et orientée résultats. Nous cadrons les objectifs, définissons un planning réaliste, coordonnons les intervenants et suivons l’exécution au quotidien pour éviter les dérives. Notre équipe pilote le budget, anticipe les risques, arbitre rapidement les points bloquants et met en place un contrôle qualité constant. Résultat: un chantier maîtrisé, une communication claire et une livraison conforme aux exigences techniques et aux attentes du client.",
           "features": {
-            "planning": "Planification Stratégique",
-            "coordination": "Coordination d'Équipe",
-            "budgetControl": "Contrôle Budgétaire",
-            "qualityAssurance": "Assurance Qualité"
+            "planning": "Planification stratégique",
+            "coordination": "Coordination d’équipe",
+            "budgetControl": "Contrôle budgétaire",
+            "qualityAssurance": "Assurance qualité"
           }
         },
         "sustainability": {
@@ -940,6 +960,7 @@
             "industrial": "Industriel",
             "renovation": "Rénovation & restauration",
             "infrastructure": "Infrastructure",
+            "heroTagline": "RESIDENTIELLE, COMMERCIAL ET INFRASTRUCTURE",
 
             "consulting": "Conseil",
             "other": "Autre"
@@ -1121,7 +1142,7 @@
       "items": {
         "health": {
           "title": "Santé & bien-être",
-          "description": "Couverture médicale, dentaire et optique pour vous et votre famille, plus des programmes bien-être et des abonnements sport."
+          "description": "Couverture médicale pour vous et votre famille."
         },
         "retirement": {
           "title": "Retraite",
@@ -1133,11 +1154,11 @@
         },
         "vacation": {
           "title": "Congés généreux",
-          "description": "Politique de congés flexible, jours fériés payés et possibilités de congé sabbatique."
+          "description": "Politique de congés flexible et jours fériés payés."
         },
         "flexibility": {
           "title": "Flexibilité",
-          "description": "Modalités de travail flexibles et options de télétravail pour un meilleur équilibre."
+          "description": "Modalités de travail flexibles et télétravail possible"
         },
         "growth": {
           "title": "Évolution de carrière",
@@ -1148,7 +1169,7 @@
     "culture": {
       "eyebrow": "Notre culture",
       "title": "La vie chez Bontera",
-      "description": "Nous cultivons une culture d’excellence, de collaboration et d’amélioration continue, où chaque voix compte.",
+      "description": "BONTERA GmbH",
       "values": {
         "innovation": {
           "title": "Innovation",
@@ -1159,7 +1180,7 @@
           "description": "La collaboration est au cœur de tout, en valorisant les perspectives diverses."
         },
         "excellence": {
-          "title": "Excellence",
+          "title": "Formation",
           "description": "Nous nous imposons les standards les plus élevés dans chaque projet."
         },
         "safety": {
@@ -1645,15 +1666,15 @@
     "coreValues": {
       "eyebrow": "Valeurs Fondamentales",
       "title": "Les piliers de notre réussite",
-      "subtitle": "Ces valeurs essentielles façonnent notre culture et définissent la manière dont nous travaillons avec nos clients, nos partenaires et entre nous.",
+      "subtitle": "Ces valeurs essentielles façonnent notre culture d’entreprise et définissent la manière dont nous travaillons avec nos clients, nos partenaires et entre nous.",
 
       "items": {
         "excellence": {
-          "title": "Excellence",
-          "description": "Nous visons l’excellence dans chaque détail, de la conception initiale à la livraison finale, afin que notre travail soit un symbole de qualité et de savoir-faire."
+          "title": "Qualité ",
+          "description": "Nous visons la qualité dans chaque détail, de la conception initiale à la livraison finale, afin que notre travail soit un symbole de qualité et de savoir-faire."
         },
         "integrity": {
-          "title": "Intégrité",
+          "title": "Responsabilité",
           "description": "Nous menons nos activités avec honnêteté et transparence, en construisant la confiance grâce à des pratiques éthiques."
         },
         "innovation": {
@@ -1661,7 +1682,7 @@
           "description": "Nous adoptons les technologies et méthodes les plus avancées afin de proposer des solutions de construction plus intelligentes et plus durables."
         },
         "safety": {
-          "title": "La sécurité avant tout",
+          "title": "Sécurité",
           "description": "Le bien-être de notre équipe et des communautés est primordial. Nous appliquons des normes de sécurité rigoureuses sur chaque projet."
         },
         "sustainability": {
@@ -1714,10 +1735,10 @@
     },
 
     "culture": {
-      "eyebrow": "Notre Culture",
-      "title": "Une culture de l’excellence",
-      "paragraph1": "Chez Bontera, notre culture repose sur le respect mutuel, la collaboration et un engagement partagé envers l’excellence.",
-      "paragraph2": "Nous célébrons la diversité, encourageons l’innovation et reconnaissons que notre plus grande force réside dans nos équipes.",
+      "eyebrow": "Notre culture d’entreprise",
+      "title": "L’exigence du travail bien fait",
+      "paragraph1": "Chez Bontera, notre culture d’entreprise repose sur le respect mutuel, la collaboration et un engagement partagé envers l’excellence.",
+      "paragraph2": "Nous célébrons la diversité, encourageons l’innovation et reconnaissons que notre plus grande force réside dans nos équipes",
       "quote": "La culture n’est pas seulement ce que nous faisons. C’est ce que nous sommes et la manière dont nous nous traitons.",
       "quoteAuthor": "Reginald Charles",
       "quoteTitle": "Directeur des opérations",
@@ -1937,7 +1958,7 @@
     "sections": {
       "global": {
         "title": "BONTERA GmbH",
-        "p1": "Bontera est une entreprise intégrée qui accompagne ses clients à chaque étape de leurs projets en combinant expertise technique, vision stratégique et excellence opérationnelle. Notre approche repose sur la transparence, la fiabilité et l’engagement, avec un objectif constant : créer une valeur durable tout en maîtrisant les risques.",
+        "p1": "Bontera est une entreprise qui accompagne ses clients à chaque étape de leurs projets en combinant expertise technique, vision stratégique et prestation qualifié. Notre approche repose sur la transparence, la fiabilité et l’engagement, avec un objectif constant : créer une valeur durable tout en maîtrisant les risques.",
         "p2": "Grâce à une connaissance approfondie du marché et à une gestion rigoureuse des projets, Bontera accompagne les particuliers, les entreprises et les investisseurs en proposant des solutions sur mesure adaptées à chaque besoin.",
         "summaryTitle": "Ce que vous obtenez",
         "bullets": {
@@ -1953,6 +1974,7 @@
         }
       },
       "integrated": {
+        "eyebrow": "Modèle opérationnel",
         "title": "Une vision intégrée de l’immobilier",
         "p1": "La combinaison de ces domaines d’expertise permet à Bontera de proposer une approche globale couvrant l’ensemble du cycle de vie immobilier : faisabilité, conception, construction, gestion et commercialisation. Cette vision intégrée améliore la performance, réduit les frictions, et renforce la maîtrise des risques.",
         "block1Title": "Ce qui est aligné",
@@ -1965,36 +1987,23 @@
           "accountability": "Responsabilités claires",
           "premium": "Standard de finition premium"
         }
-      
-    
-  
-},
-
-
-
-      
-
-      
-      
+      },
       "contractor": {
         "title": "Bontera – Entreprise générale",
-        "p1": "En tant qu’entreprise générale, Bontera assure la planification, la gestion et l’exécution de projets immobiliers résidentiels et commerciaux, en garantissant la qualité, la conformité et le respect des délais.",
+        "p1": "En tant qu’entreprise générale, Bontera assure la planification, la gestion et l’exécution de projets immobiliers résidentiels et commerciaux, en garantissant la qualité et le respect des délais et des normes.",
         "p2": "Nous proposons également des services de conseil en construction pour les particuliers et les entreprises souhaitant sécuriser leurs décisions techniques et financières. En tant que représentant de maîtres d’ouvrage publics ou privés, nous agissons comme interlocuteur unique, défendons les intérêts du client, coordonnons l’ensemble des intervenants et assurons un suivi transparent tout au long du projet."
       },
       "developer": {
-        "title": "Bontera – Développeur / Promoteur immobilier",
-        "p1": "Bontera intervient en tant que développeur et promoteur immobilier, en accompagnant la création et le développement de projets immobiliers résidentiels ou industriels. Nous réalisons des études de faisabilité complètes intégrant les volets techniques, réglementaires, financiers et commerciaux, afin de sécuriser l’investissement dès les premières phases.",
-        "p2": "De la conception à la réalisation, nous assurons un montage global des projets avec une approche visant à maximiser la valeur de l’actif et à garantir une rentabilité et une durabilité à long terme."
+        "title": "Bontera – Dévelloppement de projet",
+        "p1": "Bontera intervient en tant que développeur de projet, en accompagnant le concept et le développement de projets immobiliers résidentiels ou commerciaux. Nous réalisons des études de faisabilité complètes intégrant les volets techniques, réglementaires, financiers et commerciaux, afin de sécuriser l’investissement dès les premières phases.",
+        "p2": "De la conception à la réalisation, nous assurons un montage global des projets avec une approche visant à maximiser la valeur du patrimoine et à garantir une rentabilité et une durabilité à long terme."
       },
       "broker": {
         "title": "Bontera – Courtier immobilier",
         "p1": "En tant que courtier immobilier, Bontera accompagne les particuliers et les investisseurs dans leurs opérations d’achat, de vente et de location. Notre connaissance du marché, associée à une solide expertise technique et financière, nous permet d’identifier les meilleures opportunités et de sécuriser chaque transaction.",
         "p2": "Nous plaçons la transparence et la protection des intérêts de nos clients au cœur de notre démarche, afin de garantir des décisions éclairées et des résultats optimaux."
-    }},
-     
-
-
-    
+      }
+    },
     "cta": {
       "imageAlt": "Vous avez un projet immobilier ?",
       "title": "Vous avez un projet immobilier ?",

@@ -37,6 +37,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
    ═══════════════════════════════════════════════════════════════════════════ */
 
 const services = [
+
+    {
+    key: "residential",
+    slug: "residential",
+    icon: "M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25",
+    image: "/images/services/residential.jpg",
+    features: ["luxuryHomes", "apartments", "communities", "villas"],
+  },
+
+
   {
     key: "commercial",
     slug: "commercial",
@@ -44,20 +54,8 @@ const services = [
     image: "/images/services/commercial.jpg",
     features: ["officeBuildings", "retailCenters", "mixedUse", "hospitality"],
   },
-  {
-    key: "real-estate",
-    slug: "real-estate",
-    icon: "M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25",
-    image: "/images/real.jpg",
-    features: ["residential", "commercial", "mixedUse", "investment", "brokerage"],
-  },
-  {
-    key: "residential",
-    slug: "residential",
-    icon: "M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25",
-    image: "/images/services/residential.jpg",
-    features: ["luxuryHomes", "apartments", "communities", "villas"],
-  },
+
+
   {
     key: "industrial",
     slug: "industrial",
@@ -72,13 +70,7 @@ const services = [
     image: "/images/services/renovation.jpg",
     features: ["historic", "modernization", "retrofitting", "restoration"],
   },
-  {
-    key: "consulting",
-    slug: "consulting",
-    icon: "M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z",
-    image: "/images/services/consulting.jpg",
-    features: ["feasibility", "costEstimation", "riskAssessment", "compliance"],
-  },
+ 
   {
     key: "management",
     slug: "management",
@@ -87,13 +79,13 @@ const services = [
     features: ["planning", "coordination", "budgetControl", "qualityAssurance"],
   },
 
-  
-  {
-    key: "sustainability",
-    slug: "sustainability",
-    icon: "M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418",
-    image: "/images/services/sustainability.jpg",
-    features: ["greenBuilding", "energyEfficiency", "sustainableMaterials", "leedCertification"],
+
+   {
+    key: "consulting",
+    slug: "consulting",
+    icon: "M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z",
+    image: "/images/services/consulting.jpg",
+    features: ["feasibility", "costEstimation", "riskAssessment", "compliance"],
   },
 
     
@@ -257,10 +249,10 @@ export default async function ServicesPage({ params }: Props) {
             {/* Stats Grid */}
             <div className="grid grid-cols-2 gap-4">
               {[
-                { value: "80+", label: t("overview.stats.projects") },
+                { value: "7 0+", label: t("overview.stats.projects") },
                 { value: "20+", label: t("overview.stats.years") },
                 { value: "98%", label: t("overview.stats.satisfaction") },
-                { value: "50+", label: t("overview.stats.awards") },
+               
               ].map((stat, index) => (
                 <div
                   key={stat.label}
@@ -373,184 +365,12 @@ export default async function ServicesPage({ params }: Props) {
         </div>
       </section>
 
-      {/* ═══════════════════════════════════════════════════════════════════
-          OUR PROCESS SECTION
-      ═══════════════════════════════════════════════════════════════════ */}
-      <section className="relative py-20 lg:py-28 bg-bontera-navy-900 overflow-hidden">
-        {/* Background Pattern */}
-        <div className="absolute inset-0 opacity-[0.04]">
-          <div
-            className="absolute inset-0"
-            style={{
-              backgroundImage: `linear-gradient(90deg, white 1px, transparent 1px), linear-gradient(white 1px, transparent 1px)`,
-              backgroundSize: "60px 60px",
-            }}
-          />
-        </div>
+    
 
-        <div className="relative max-w-[1600px] mx-auto px-6 lg:px-16">
-          {/* Section Header */}
-          <div className="text-center max-w-3xl mx-auto mb-16">
-            <span className="inline-flex items-center gap-3 text-bontera-grey-400 text-xs uppercase tracking-[0.3em] font-semibold">
-              <span className="w-8 h-px bg-bontera-grey-400" />
-              {t("process.eyebrow")}
-              <span className="w-8 h-px bg-bontera-grey-400" />
-            </span>
-            <h2 className="mt-6 text-3xl sm:text-4xl lg:text-5xl font-semibold text-white leading-[1.1] tracking-tight">
-              {t("process.title")}
-            </h2>
-            <p className="mt-6 text-lg text-bontera-grey-400">
-              {t("process.subtitle")}
-            </p>
-          </div>
+       
 
-          {/* Process Steps */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
-            {processSteps.map((step, index) => (
-              <div key={step.key} className="relative group">
-                {/* Connector Line */}
-                {index < processSteps.length - 1 && (
-                  <div className="hidden lg:block absolute top-12 left-full w-full h-px bg-bontera-grey-700 z-0" />
-                )}
 
-                <div className="relative bg-bontera-navy-800 p-8 border border-bontera-grey-700 hover:border-gray-500 transition-all duration-300 z-10">
-                  {/* Step Number */}
-                  <div className="text-5xl lg:text-6xl font-bold text-gray-500 mb-4">
-                    {step.number}
-                  </div>
-
-                  {/* Content */}
-                  <h3 className="text-xl font-semibold text-white mb-3">
-                    {t(`process.steps.${step.key}.title`)}
-                  </h3>
-                  <p className="text-bontera-grey-400 leading-relaxed">
-                    {t(`process.steps.${step.key}.description`)}
-                  </p>
-
-                  {/* Features */}
-                  <ul className="mt-6 space-y-2">
-                    {["point1", "point2", "point3"].map((point) => (
-                      <li key={point} className="flex items-center gap-2 text-sm text-bontera-grey-400">
-                        <span className="w-1.5 h-1.5 bg-gray-500 rounded-full" />
-                        {t(`process.steps.${step.key}.${point}`)}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ═══════════════════════════════════════════════════════════════════
-          INDUSTRIES WE SERVE
-      ═══════════════════════════════════════════════════════════════════ */}
-      <section className="relative py-20 lg:py-28 bg-white overflow-hidden">
-        <div className="max-w-[1600px] mx-auto px-6 lg:px-16">
-          <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-            {/* Content */}
-            <div>
-              <span className="inline-flex items-center gap-3 text-bontera-navy-600 text-xs uppercase tracking-[0.3em] font-semibold">
-                <span className="w-8 h-px bg-bontera-navy-600" />
-                {t("industries.eyebrow")}
-              </span>
-
-              <h2 className="mt-6 text-3xl sm:text-4xl lg:text-5xl font-semibold text-bontera-grey-900 leading-[1.1] tracking-tight">
-                {t("industries.title")}
-              </h2>
-
-              <p className="mt-6 text-lg text-bontera-grey-600 leading-relaxed">
-                {t("industries.description")}
-              </p>
-
-              {/* Industries Grid */}
-              <div className="mt-10 grid grid-cols-2 sm:grid-cols-3 gap-4">
-                {industries.map((industry) => (
-                  <div
-                    key={industry.key}
-                    className="group p-4 bg-bontera-grey-50 border border-bontera-grey-200 hover:bg-bontera-navy-50 hover:border-bontera-navy-200 transition-all duration-300"
-                  >
-                    <div className="w-10 h-10 bg-bontera-navy-100 text-bontera-navy-600 flex items-center justify-center mb-3 group-hover:bg-bontera-navy-600 group-hover:text-white transition-all">
-                      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-                        <path strokeLinecap="round" strokeLinejoin="round" d={industry.icon} />
-                      </svg>
-                    </div>
-                    <h4 className="font-semibold text-bontera-grey-900 text-sm">
-                      {t(`industries.items.${industry.key}`)}
-                    </h4>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            {/* Image */}
-            <div className="relative">
-              <div className="relative aspect-[4/5] overflow-hidden">
-                <Image
-                  src="/images/industri.jpg"
-                  alt="Industries we serve"
-                  fill
-                  className="object-cover"
-                  sizes="50vw"
-                />
-              </div>
-
-              {/* Floating Stats */}
-              <div className="absolute -bottom-6 -left-6 lg:-left-12 bg-bontera-navy-600 text-white p-6 shadow-2xl">
-                <div className="text-4xl font-bold">20+</div>
-                <div className="text-sm text-bontera-navy-200 mt-1">{t("industries.sectorsServed")}</div>
-              </div>
-
-              {/* Decorative Element */}
-              <div className="absolute -top-4 -right-4 w-24 h-24 border-2 border-bontera-navy-200 opacity-60" />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ═══════════════════════════════════════════════════════════════════
-          TECHNOLOGY & INNOVATION
-      ═══════════════════════════════════════════════════════════════════ */}
-      <section className="relative py-20 lg:py-28 bg-bontera-grey-100 overflow-hidden">
-        <div className="max-w-[1600px] mx-auto px-6 lg:px-16">
-          {/* Section Header */}
-          <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-8 mb-12">
-            <div>
-              <span className="inline-flex items-center gap-3 text-bontera-navy-600 text-xs uppercase tracking-[0.3em] font-semibold">
-                <span className="w-8 h-px bg-bontera-navy-600" />
-                {t("technology.eyebrow")}
-              </span>
-              <h2 className="mt-6 text-3xl sm:text-4xl lg:text-5xl font-semibold text-bontera-grey-900 leading-[1.1] tracking-tight">
-                {t("technology.title")}
-              </h2>
-            </div>
-            <p className="text-lg text-bontera-grey-600 max-w-xl">
-              {t("technology.description")}
-            </p>
-          </div>
-
-          {/* Technology Cards */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {["bim", "drones", "prefab", "iot"].map((tech, index) => (
-              <div
-                key={tech}
-                className="group bg-white p-6 lg:p-8 border border-bontera-grey-200 hover:border-bontera-navy-300 hover:shadow-xl transition-all duration-300"
-              >
-                <div className="text-5xl font-bold text-bontera-grey-200 group-hover:text-bontera-navy-100 transition-colors">
-                  {String(index + 1).padStart(2, "0")}
-                </div>
-                <h3 className="mt-4 text-lg font-semibold text-bontera-grey-900 group-hover:text-bontera-navy-600 transition-colors">
-                  {t(`technology.items.${tech}.title`)}
-                </h3>
-                <p className="mt-3 text-sm text-bontera-grey-600 leading-relaxed">
-                  {t(`technology.items.${tech}.description`)}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+  
 
       {/* ═══════════════════════════════════════════════════════════════════
           CTA SECTION

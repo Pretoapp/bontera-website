@@ -13,6 +13,11 @@ import { Suspense } from "react";
 
 import { projects, getProjectsByCategory, categoryInfo, type Project } from "@/data/projects";
 import { locales } from "@/lib/i18n/config";
+import {
+  getProjectValueLocalized,
+  getProjectDurationLocalized,
+} from "@/data/projects";
+
 
 /* ═══════════════════════════════════════════════════════════════════════════
    TYPES
@@ -87,22 +92,25 @@ export default async function ProjectCategoryPage({ params }: Props) {
   const categoryProjects = getProjectsByCategory(catKey);
 
   // Process projects for display
-  const processedProjects = categoryProjects.map((p) => ({
-    id: p.id,
-    slug: p.slug,
-    title: p.title[loc] || p.title.en,
-    category: t(`categories.${p.category}`),
-    categorySlug: p.category,
-    location: p.location[loc] || p.location.en,
-    year: p.year,
-    client: p.client,
-    value: p.value,
-    duration: p.duration,
-    status: p.status,
-    featured: p.featured,
-    href: `/${locale}/projects/${p.slug}`,
-    imageUrl: p.image || "/images/placeholder.jpg",
-  }));
+const processedProjects = categoryProjects.map((p) => ({
+  id: p.id,
+  slug: p.slug,
+  title: p.title[loc] || p.title.en,
+  category: t(`categories.${p.category}`),
+  categorySlug: p.category,
+  location: p.location[loc] || p.location.en,
+  year: p.year,
+  client: p.client,
+
+  value: getProjectValueLocalized(p, loc),
+  duration: getProjectDurationLocalized(p, loc),
+
+  status: p.status,
+  featured: p.featured,
+  href: `/${locale}/projects/${p.slug}`,
+  imageUrl: p.image || "/images/placeholder.jpg",
+}));
+
 
   // Other categories for navigation
   const otherCategories = validCategories.filter(c => c !== catKey);

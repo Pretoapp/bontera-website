@@ -9,8 +9,19 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { Suspense } from "react";
+import {
+  projects,
+  categoryInfo,
+  getFeaturedProjects,
+  getProjectDurationLocalized,
+  getProjectValueLocalized,
+  type Locale,
+} from "@/data/projects";
 
-import { projects, getFeaturedProjects, categoryInfo } from "@/data/projects";
+
+
+
+
 
 /* ═══════════════════════════════════════════════════════════════════════════
    TYPES
@@ -21,7 +32,7 @@ type Props = {
   searchParams: Promise<{ category?: string; year?: string }>;
 };
 
-type Locale = "de" | "en" | "fr" | "nl" | "it" | "ku" | "tr";
+
 
 /* ═══════════════════════════════════════════════════════════════════════════
    METADATA
@@ -30,6 +41,7 @@ type Locale = "de" | "en" | "fr" | "nl" | "it" | "ku" | "tr";
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "projectsPage" });
+  
 
   return {
     title: t("meta.title"),
@@ -40,6 +52,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 /* ═══════════════════════════════════════════════════════════════════════════
    CATEGORY DATA
    ═══════════════════════════════════════════════════════════════════════════ */
+
+   
 
 const categories = [
   { key: "all", slug: "" },
@@ -68,24 +82,27 @@ export default async function ProjectsPage({ params, searchParams }: Props) {
   const t = await getTranslations({ locale, namespace: "projectsPage" });
   const isRTL = locale === "ku";
   const loc = locale as Locale;
+  
+  
 
   // Process projects from static data
-  const processedProjects = projects.map((p) => ({
-    id: p.id,
-    slug: p.slug,
-    title: p.title[loc] || p.title.en,
-    category: t(`categories.${p.category}`),
-    categorySlug: p.category,
-    location: p.location[loc] || p.location.en,
-    year: p.year,
-    client: p.client,
-    value: p.value,
-    duration: p.duration,
-    status: p.status,
-    featured: p.featured,
-    href: `/${locale}/projects/${p.slug}`,
-    imageUrl: p.image,
-  }));
+const processedProjects = projects.map((p) => ({
+  id: p.id,
+  slug: p.slug,
+  title: p.title[loc] || p.title.en,
+  category: t(`categories.${p.category}`),
+  categorySlug: p.category,
+  location: p.location[loc] || p.location.en,
+  year: p.year,
+  client: p.client,
+  value: getProjectValueLocalized(p, loc),
+  duration: getProjectDurationLocalized(p, loc),
+  status: p.status,
+  featured: p.featured,
+  href: `/${locale}/projects/${p.slug}`,
+  imageUrl: p.image,
+}));
+
 
   // Filter by category
   const filteredProjects = categoryFilter
@@ -95,6 +112,7 @@ export default async function ProjectsPage({ params, searchParams }: Props) {
   // Get featured projects
   const featuredProjects = processedProjects.filter((p) => p.featured).slice(0, 3);
   const displayFeatured = featuredProjects.length > 0 ? featuredProjects : processedProjects.slice(0, 3);
+  
 
   return (
     <main className="bg-bontera-grey-50" dir={isRTL ? "rtl" : "ltr"}>
@@ -135,21 +153,29 @@ export default async function ProjectsPage({ params, searchParams }: Props) {
         <div className="relative z-10 w-full pb-16 lg:pb-24">
           <div className="max-w-[1600px] mx-auto px-6 lg:px-16">
             {/* Breadcrumb */}
-            <nav className="mb-8" aria-label="Breadcrumb">
-              <ol className="flex items-center gap-2 text-sm text-bontera-grey-400">
-                <li>
-                  <Link href={`/${locale}`} className="hover:text-white transition-colors">
-                    {t("breadcrumb.home")}
-                  </Link>
-                </li>
-                <li>
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                </li>
-                <li className="text-white font-medium">{t("breadcrumb.projects")}</li>
-              </ol>
-            </nav>
+          {/* Breadcrumb (same behavior as Quote page) */}
+<nav className="mb-2" aria-label="Breadcrumb">
+  <ol className="flex items-center gap-2 text-sm text-bontera-grey-400">
+    <li>
+      <Link href={`/${locale}`} className="hover:text-white transition-colors">
+        {t("breadcrumb.home")}
+      </Link>
+    </li>
+
+    <li aria-hidden="true">
+      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+      </svg>
+    </li>
+
+    <li className="text-white font-medium">
+      <Link href={`/${locale}/projects`} className="hover:text-white transition-colors">
+        {t("breadcrumb.projects")}
+      </Link>
+    </li>
+  </ol>
+</nav>
+
 
             {/* Eyebrow */}
             <span className="inline-flex items-center gap-3 text-bontera-grey-400 text-sm uppercase tracking-[0.25em]">
