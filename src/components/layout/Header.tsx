@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useMemo, useRef, useState, useCallback } from 'react';
+import type { ReactNode } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
@@ -23,7 +24,7 @@ const localeLabels: Record<Locale, string> = {
 
 type MegaMenuItem = {
   key: string;
-  icon: React.ReactNode;
+  icon: ReactNode;
   href: string;
 };
 
@@ -39,23 +40,35 @@ function cn(...classes: Array<string | false | undefined | null>) {
 }
 
 /* ═══════════════════════════════════════════════════════════════════════════
-   ICONS - Architectural/Construction themed
+   ICONS
    ═══════════════════════════════════════════════════════════════════════════ */
 
 const Icons = {
   phone: (
     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.8}>
-      <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+      />
     </svg>
   ),
   email: (
     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.8}>
-      <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+      />
     </svg>
   ),
   location: (
     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.8}>
-      <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+      />
       <path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
     </svg>
   ),
@@ -86,17 +99,29 @@ const Icons = {
   ),
   building: (
     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-      <path strokeLinecap="round" strokeLinejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"
+      />
     </svg>
   ),
   realEstate: (
     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-      <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"
+      />
     </svg>
   ),
   renovation: (
     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-      <path strokeLinecap="round" strokeLinejoin="round" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"
+      />
     </svg>
   ),
   consulting: (
@@ -106,7 +131,11 @@ const Icons = {
   ),
   management: (
     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-      <path strokeLinecap="round" strokeLinejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"
+      />
     </svg>
   ),
   sustainability: (
@@ -122,22 +151,19 @@ const Icons = {
   ),
   residential: (
     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-      <path strokeLinecap="round" strokeLinejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+      />
     </svg>
   ),
-
   industrial: (
-  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-    <path
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      d="M3 21V10l6 3V10l6 3V10l6 3v8H3z"
-    />
-    <path strokeLinecap="round" strokeLinejoin="round" d="M7 21v-3m4 3v-3m4 3v-3" />
-  </svg>
-),
-
-
+    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
+      <path strokeLinecap="round" strokeLinejoin="round" d="M3 21V10l6 3V10l6 3V10l6 3v8H3z" />
+      <path strokeLinecap="round" strokeLinejoin="round" d="M7 21v-3m4 3v-3m4 3v-3" />
+    </svg>
+  ),
   publicWorks: (
     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
       <path strokeLinecap="round" strokeLinejoin="round" d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z" />
@@ -166,8 +192,7 @@ export default function Header() {
   const params = useParams();
   const pathname = usePathname();
   const currentLocale = params.locale as Locale;
- const isRTL = currentLocale === 'ku';
-
+  const isRTL = currentLocale === 'ku';
 
   // State management
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -179,7 +204,6 @@ export default function Header() {
 
   // Refs
   const langMenuRef = useRef<HTMLDivElement | null>(null);
-  const mobilePanelRef = useRef<HTMLDivElement | null>(null);
   const searchInputRef = useRef<HTMLInputElement | null>(null);
   const megaMenuTimeoutRef = useRef<NodeJS.Timeout | null>(null);
 
@@ -206,7 +230,6 @@ export default function Header() {
       { key: 'renovation', icon: Icons.renovation, href: `/${currentLocale}/services/renovation` },
       { key: 'consulting', icon: Icons.consulting, href: `/${currentLocale}/services/consulting` },
       { key: 'projectManagement', icon: Icons.management, href: `/${currentLocale}/services/management` },
-
     ],
     [currentLocale]
   );
@@ -216,7 +239,7 @@ export default function Header() {
       { key: 'commercial', icon: Icons.commercial, href: `/${currentLocale}/projects?category=commercial` },
       { key: 'residential', icon: Icons.residential, href: `/${currentLocale}/projects?category=residential` },
       { key: 'industrial', icon: Icons.industrial, href: `/${currentLocale}/projects?category=industrial` },
-      { key: 'publicWorks', icon: Icons.publicWorks, href: `/${currentLocale}/projects?category=public` },
+      { key: 'publicWorks', icon: Icons.publicWorks, href: `/${currentLocale}/projects?category=publicWorks` },
     ],
     [currentLocale]
   );
@@ -224,12 +247,8 @@ export default function Header() {
   const companyLinks = useMemo(
     () => [
       { key: 'ourStory', href: `/${currentLocale}/about/our-story` },
-    
-
       { key: 'values', href: `/${currentLocale}/about/values` },
-       { key: 'whyBontera', href: `/${currentLocale}/about/why-bontera` },
-      
-    
+      { key: 'whyBontera', href: `/${currentLocale}/about/why-bontera` },
     ],
     [currentLocale]
   );
@@ -281,14 +300,12 @@ export default function Header() {
      EFFECTS
   ───────────────────────────────────────────── */
 
-  // Track scroll
   useEffect(() => {
     const onScroll = () => setIsScrolled(window.scrollY > 10);
     window.addEventListener('scroll', onScroll, { passive: true });
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
-  // Close menus on route change
   useEffect(() => {
     setIsLangMenuOpen(false);
     setIsMobileMenuOpen(false);
@@ -296,7 +313,6 @@ export default function Header() {
     setIsSearchOpen(false);
   }, [pathname]);
 
-  // Escape closes menus
   useEffect(() => {
     const onKeyDown = (e: KeyboardEvent) => {
       if (e.key === 'Escape') {
@@ -310,7 +326,6 @@ export default function Header() {
     return () => document.removeEventListener('keydown', onKeyDown);
   }, []);
 
-  // Click outside closes dropdowns
   useEffect(() => {
     const onPointerDown = (e: PointerEvent) => {
       const target = e.target as Node;
@@ -322,26 +337,19 @@ export default function Header() {
     return () => document.removeEventListener('pointerdown', onPointerDown);
   }, [isLangMenuOpen]);
 
-  // Focus search input when opened
   useEffect(() => {
     if (isSearchOpen && searchInputRef.current) {
       searchInputRef.current.focus();
     }
   }, [isSearchOpen]);
 
-  // Prevent body scroll when mobile menu is open
   useEffect(() => {
-    if (isMobileMenuOpen) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = '';
-    }
+    if (isMobileMenuOpen) document.body.style.overflow = 'hidden';
+    else document.body.style.overflow = '';
     return () => {
       document.body.style.overflow = '';
     };
   }, [isMobileMenuOpen]);
-
-
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50" dir={isRTL ? 'rtl' : 'ltr'}>
@@ -352,8 +360,7 @@ export default function Header() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="h-10 flex items-center justify-between text-xs">
             {/* Contact Info */}
-            <div className="flex items-center gap-6 lg:-ml-4">
-
+            <div className="flex items-center gap-6">
               <a
                 href="tel:+1234567890"
                 className="inline-flex items-center gap-2 text-bontera-grey-300 hover:text-white transition-colors"
@@ -361,6 +368,7 @@ export default function Header() {
                 {Icons.phone}
                 <span className="font-medium">+49 30 123 456 7890</span>
               </a>
+
               <a
                 href="mailto:info@bontera.de"
                 className="inline-flex items-center gap-2 text-bontera-grey-300 hover:text-white transition-colors"
@@ -368,20 +376,18 @@ export default function Header() {
                 {Icons.email}
                 <span>info@bontera.de</span>
               </a>
+
               <span className="inline-flex items-center gap-2 text-bontera-grey-400">
                 {Icons.location}
                 <span>{tHeader('headquarters')}</span>
               </span>
             </div>
 
-            {/* Social + Quick Links */}
+            {/* Social + Emergency */}
             <div className="flex items-center gap-4">
-              {/* Social Icons */}
               <div className="flex items-center gap-1">
                 {[
                   { icon: Icons.linkedin, href: '#', label: 'LinkedIn' },
-                 
-             
                   { icon: Icons.instagram, href: '#', label: 'Instagram' },
                 ].map((social) => (
                   <a
@@ -397,16 +403,13 @@ export default function Header() {
 
               <div className="w-px h-4 bg-bontera-grey-700" />
 
-           
-
-              {/* Emergency Contact */}
               <a
                 href="tel:+1800BONTERA"
                 className="inline-flex items-center gap-2 text-amber-400 hover:text-amber-300 font-semibold transition-colors"
               >
                 <span className="relative flex h-2 w-2">
-                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
-                  <span className="relative inline-flex rounded-full h-2 w-2 bg-amber-500"></span>
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75" />
+                  <span className="relative inline-flex rounded-full h-2 w-2 bg-amber-500" />
                 </span>
                 {tHeader('emergency24')}
               </a>
@@ -416,67 +419,87 @@ export default function Header() {
       </div>
 
       {/* ─────────────────────────────────────────────
-          MAIN HEADER BAR
+          MAIN HEADER BAR (Modern IT / Enterprise)
       ───────────────────────────────────────────── */}
       <div
         className={cn(
-          'bg-white border-b border-bontera-grey-200',
+          'relative',
+          'border-b border-bontera-grey-200',
           'transition-all duration-300',
-          isScrolled
-            ? 'shadow-[0_8px_30px_rgba(30,58,95,0.12)]'
-            : 'shadow-[0_2px_10px_rgba(30,58,95,0.04)]'
+          'bg-white/80 backdrop-blur-xl supports-[backdrop-filter]:bg-white/70',
+          isScrolled ? 'shadow-[0_10px_30px_rgba(15,23,42,0.10)]' : 'shadow-[0_4px_18px_rgba(15,23,42,0.06)]'
         )}
       >
-        {/* Architectural accent line */}
-      <div className="h-[2px] lg:h-[3px] bg-gradient-to-r from-bontera-navy-600 via-bontera-navy-500 to-bontera-navy-600" />
-
+        {/* Premium hairline */}
+        <div className="h-px bg-gradient-to-r from-transparent via-bontera-navy-300 to-transparent opacity-70" />
 
         <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-6">
-
-<div
-  className={cn(
-    'flex items-center justify-between gap-3',
-    'lg:grid lg:grid-cols-[140px_1fr_auto] lg:gap-6',
-    'transition-all duration-300',
-    isScrolled
-      ? 'h-[60px] sm:h-[68px] lg:h-[72px]'
-      : 'h-[68px] sm:h-[78px] lg:h-[86px]'
-  )}
->
-
-
-            {/* ─────────────────────────────────────────────
-                LOGO / BRAND - Shows full logo
-            ───────────────────────────────────────────── */}
-
+          <div
+            className={cn(
+              'flex items-center justify-between gap-3',
+              'lg:grid lg:grid-cols-[220px_1fr_auto] lg:gap-6',
+              'transition-all duration-300',
+              isScrolled ? 'h-[60px] lg:h-[64px]' : 'h-[66px] lg:h-[72px]'
+            )}
+          >
+           {/* LOGO (physical badge, still compact header) */}
 <Link
   href={`/${currentLocale}`}
-  className="relative flex items-center self-stretch shrink-0 w-[170px] lg:w-[210px] -ml-2 lg:-ml-4"
+  className="relative flex items-center shrink-0 w-[180px] lg:w-[220px]"
+  aria-label="Bontera"
 >
-  <span className="absolute left-0 top-1/2 -translate-y-1/2 h-[34px] sm:h-[40px] lg:h-[46px]
- w-full overflow-visible">
-    <Image
-      src="/brand/logo01_clean.png"
-      alt="Bontera"
-      fill
-      priority
-      quality={100}
-      sizes="(min-width: 1024px) 210px, 170px"
+  {/* Outer shell: gives the “touchable” edge */}
+  <span
+    className={cn(
+      'relative inline-flex rounded-2xl p-[2px]',
+      'bg-gradient-to-b from-white/95 to-bontera-grey-200/70',
+      'shadow-[0_10px_26px_rgba(15,23,42,0.14)]'
+    )}
+  >
+    {/* Inner glass plate */}
+    <span
       className={cn(
-        "object-contain object-left origin-left will-change-transform transition-transform duration-300",
-        isScrolled ? "scale-[0.98]" : "scale-[1.00]",
-        "drop-shadow-[0_10px_18px_rgba(30,58,95,0.18)]"
+        'relative inline-flex items-center rounded-[14px] px-2 py-1',
+        'bg-white/55 supports-[backdrop-filter]:bg-white/35',
+        'backdrop-blur-md',
+        'ring-1 ring-white/60'
       )}
-    />
+    >
+      {/* Specular highlight (this is the “real object” effect) */}
+      <span
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-0 rounded-[14px] bg-gradient-to-br from-white/75 via-white/20 to-transparent opacity-90"
+      />
+      {/* Bottom shading to add depth */}
+      <span
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-0 rounded-[14px] bg-gradient-to-t from-black/10 via-transparent to-transparent opacity-40"
+      />
+
+      {/* Logo image */}
+      <span className="relative block h-[40px] lg:h-[44px] w-[170px] lg:w-[210px]">
+        <Image
+          src="/brand/logo01_clean.png"
+          alt="Bontera"
+          fill
+          priority
+          quality={100}
+          sizes="(min-width: 1024px) 220px, 180px"
+          className={cn(
+            'object-contain object-left',
+            'transition-transform duration-300 will-change-transform',
+            isScrolled ? 'scale-[1.00]' : 'scale-[1.06]',
+            // cleaner shadow = no “dirty” look
+            'drop-shadow-[0_4px_10px_rgba(15,23,42,0.12)]'
+          )}
+        />
+      </span>
+    </span>
   </span>
 </Link>
 
 
-
-
-            {/* ─────────────────────────────────────────────
-                DESKTOP NAVIGATION
-            ───────────────────────────────────────────── */}
+            {/* DESKTOP NAVIGATION */}
             <nav className="hidden lg:flex items-center justify-center gap-0.5">
               {navItems.map((item) => {
                 const active = isActive(item.href);
@@ -496,20 +519,15 @@ export default function Header() {
                       aria-expanded={hasMega ? activeMegaMenu === item.key : undefined}
                       className={cn(
                         'relative inline-flex items-center gap-1 px-3 py-2 rounded-full',
-                        'text-sm font-medium transition-all duration-150 whitespace-nowrap',
+                        'text-sm font-semibold transition-all duration-150 whitespace-nowrap',
                         active
-                          ? 'text-bontera-navy-600 bg-bontera-navy-50'
-                          : 'text-bontera-grey-600 hover:text-bontera-navy-600 hover:bg-bontera-grey-100'
+                          ? 'text-bontera-navy-700 bg-bontera-navy-50/70'
+                          : 'text-bontera-grey-700 hover:text-bontera-navy-700 hover:bg-bontera-grey-100/70'
                       )}
                     >
                       {t(item.key)}
                       {hasMega && (
-                        <span
-                          className={cn(
-                            'transition-transform duration-200 flex-shrink-0',
-                            activeMegaMenu === item.key && 'rotate-180'
-                          )}
-                        >
+                        <span className={cn('transition-transform duration-200 flex-shrink-0', activeMegaMenu === item.key && 'rotate-180')}>
                           {Icons.chevronDown}
                         </span>
                       )}
@@ -518,10 +536,10 @@ export default function Header() {
                       <span
                         aria-hidden="true"
                         className={cn(
-                          'absolute left-1/2 -translate-x-1/2 -bottom-[14px]',
-                          'h-[2px] w-8 rounded-full bg-bontera-navy-600',
+                          'absolute left-1/2 -translate-x-1/2 -bottom-[12px]',
+                          'h-[2px] w-7 rounded-full bg-bontera-navy-600',
                           'transition-all duration-200',
-                          active ? 'opacity-100 scale-x-100' : 'opacity-0 scale-x-0'
+                          active ? 'opacity-100 scale-x-100' : 'opacity-0 scale-x-75'
                         )}
                       />
                     </Link>
@@ -529,20 +547,12 @@ export default function Header() {
                     {/* Mega Menu Dropdown */}
                     {hasMega && activeMegaMenu === item.key && (
                       <div
-                        className={cn(
-                          'absolute top-full left-1/2 -translate-x-1/2 pt-4',
-                          'animate-bontera-fade-in'
-                        )}
+                        className={cn('absolute top-full left-1/2 -translate-x-1/2 pt-4', 'animate-bontera-fade-in')}
                         onMouseEnter={() => handleMegaMenuEnter(item.key)}
                         onMouseLeave={handleMegaMenuLeave}
                       >
                         {item.megaMenuType === 'services' && (
-                          <ServicesMegaMenu
-                            items={serviceItems}
-                            locale={currentLocale}
-                            t={tHeader}
-                            onClose={() => setActiveMegaMenu(null)}
-                          />
+                          <ServicesMegaMenu items={serviceItems} locale={currentLocale} t={tHeader} onClose={() => setActiveMegaMenu(null)} />
                         )}
                         {item.megaMenuType === 'projects' && (
                           <ProjectsMegaMenu
@@ -553,12 +563,7 @@ export default function Header() {
                           />
                         )}
                         {item.megaMenuType === 'company' && (
-                          <CompanyMegaMenu
-                            links={companyLinks}
-                            locale={currentLocale}
-                            t={tHeader}
-                            onClose={() => setActiveMegaMenu(null)}
-                          />
+                          <CompanyMegaMenu links={companyLinks} locale={currentLocale} t={tHeader} onClose={() => setActiveMegaMenu(null)} />
                         )}
                       </div>
                     )}
@@ -567,9 +572,7 @@ export default function Header() {
               })}
             </nav>
 
-            {/* ─────────────────────────────────────────────
-                RIGHT CONTROLS
-            ───────────────────────────────────────────── */}
+            {/* RIGHT CONTROLS */}
             <div className="flex items-center justify-end gap-2 sm:gap-2">
               {/* Search Button */}
               <button
@@ -579,8 +582,9 @@ export default function Header() {
                 className={cn(
                   'hidden sm:inline-flex items-center justify-center',
                   'h-10 w-10 rounded-full',
-                  'text-bontera-grey-600 hover:text-bontera-navy-600',
-                  'bg-bontera-grey-100 hover:bg-bontera-grey-200',
+                  'text-bontera-grey-700 hover:text-bontera-navy-700',
+                  'bg-bontera-grey-100/80 hover:bg-bontera-grey-200/80',
+                  'border border-bontera-grey-200/80',
                   'transition-colors duration-150'
                 )}
               >
@@ -597,20 +601,15 @@ export default function Header() {
                   className={cn(
                     'inline-flex items-center gap-1.5',
                     'h-10 px-3 rounded-full',
-                    'text-sm font-medium',
-                    'text-bontera-grey-700 hover:text-bontera-navy-600',
-                    'bg-bontera-grey-100 hover:bg-bontera-grey-200',
-                    'border border-bontera-grey-200',
+                    'text-sm font-semibold',
+                    'text-bontera-grey-800 hover:text-bontera-navy-700',
+                    'bg-bontera-grey-100/80 hover:bg-bontera-grey-200/80',
+                    'border border-bontera-grey-200/80',
                     'transition-colors duration-150'
                   )}
                 >
                   <span className="tracking-wide">{localeShortNames[currentLocale]}</span>
-                  <span
-                    className={cn(
-                      'text-bontera-grey-500 transition-transform duration-200',
-                      isLangMenuOpen && 'rotate-180'
-                    )}
-                  >
+                  <span className={cn('text-bontera-grey-500 transition-transform duration-200', isLangMenuOpen && 'rotate-180')}>
                     {Icons.chevronDown}
                   </span>
                 </button>
@@ -623,7 +622,7 @@ export default function Header() {
                       'absolute right-0 mt-3 w-60',
                       'rounded-2xl bg-white',
                       'border border-bontera-grey-200',
-                      'shadow-[0_16px_48px_rgba(30,58,95,0.16)]',
+                      'shadow-[0_16px_48px_rgba(15,23,42,0.14)]',
                       'overflow-hidden',
                       'animate-bontera-fade-in'
                     )}
@@ -644,19 +643,15 @@ export default function Header() {
                               'flex items-center justify-between px-4 py-2.5 text-sm',
                               'transition-colors duration-150',
                               selected
-                                ? 'bg-bontera-navy-50 text-bontera-navy-600'
-                                : 'text-bontera-grey-700 hover:bg-bontera-grey-50 hover:text-bontera-grey-900'
+                                ? 'bg-bontera-navy-50 text-bontera-navy-700'
+                                : 'text-bontera-grey-800 hover:bg-bontera-grey-50 hover:text-bontera-grey-950'
                             )}
                           >
-                            <span className="font-medium">
+                            <span className="font-semibold">
                               {localeShortNames[locale]}
-                              <span className="ml-2 font-normal text-bontera-grey-500">
-                                {localeLabels[locale]}
-                              </span>
+                              <span className="ml-2 font-normal text-bontera-grey-500">{localeLabels[locale]}</span>
                             </span>
-                            {selected && (
-                              <span className="h-2 w-2 rounded-full bg-bontera-navy-600" aria-hidden="true" />
-                            )}
+                            {selected && <span className="h-2 w-2 rounded-full bg-bontera-navy-600" aria-hidden="true" />}
                           </Link>
                         );
                       })}
@@ -671,11 +666,11 @@ export default function Header() {
                 className={cn(
                   'hidden xl:inline-flex items-center justify-center',
                   'h-10 px-4 rounded-full',
-                  'bg-bontera-grey-100 hover:bg-bontera-grey-200',
-                  'text-bontera-grey-700 hover:text-bontera-navy-600',
+                  'bg-bontera-grey-100/80 hover:bg-bontera-grey-200/80',
+                  'text-bontera-grey-800 hover:text-bontera-navy-700',
                   'text-sm font-semibold whitespace-nowrap',
-                  'border border-bontera-grey-200',
-                  'transition-all duration-150'
+                  'border border-bontera-grey-200/80',
+                  'transition-colors duration-150'
                 )}
               >
                 {tHeader('requestQuote')}
@@ -689,10 +684,9 @@ export default function Header() {
                   'h-10 px-4 rounded-full',
                   'bg-bontera-navy-600 hover:bg-bontera-navy-700',
                   'text-white text-sm font-semibold whitespace-nowrap',
-                  'shadow-[0_4px_14px_rgba(30,58,95,0.25)]',
-                  'hover:shadow-[0_6px_20px_rgba(30,58,95,0.30)]',
-                  'transition-all duration-150',
-                  'hover:-translate-y-0.5'
+                  'shadow-[0_6px_18px_rgba(15,23,42,0.16)] hover:shadow-[0_10px_26px_rgba(15,23,42,0.18)]',
+                  'ring-1 ring-bontera-navy-600/10 hover:ring-bontera-navy-600/20',
+                  'transition-all duration-150'
                 )}
               >
                 {t('contact')}
@@ -708,9 +702,9 @@ export default function Header() {
                 className={cn(
                   'lg:hidden inline-flex items-center justify-center',
                   'h-10 w-10 rounded-full',
-                  'border border-bontera-grey-200',
-                  'bg-white hover:bg-bontera-grey-50',
-                  'text-bontera-grey-700 hover:text-bontera-navy-600',
+                  'border border-bontera-grey-200/80',
+                  'bg-white/80 hover:bg-bontera-grey-50',
+                  'text-bontera-grey-800 hover:text-bontera-navy-700',
                   'transition-colors duration-150'
                 )}
               >
@@ -721,14 +715,11 @@ export default function Header() {
         </div>
       </div>
 
-      {/* ─────────────────────────────────────────────
-          SEARCH OVERLAY
-      ───────────────────────────────────────────── */}
+      {/* SEARCH OVERLAY */}
       {isSearchOpen && (
         <div className="fixed inset-0 z-[60] bg-bontera-grey-900/60 backdrop-blur-sm">
           <div className="max-w-3xl mx-auto px-6 pt-[20vh]">
-            <div className="relative bg-white rounded-2xl shadow-[0_24px_64px_rgba(30,58,95,0.24)] overflow-hidden animate-bontera-fade-in">
-              {/* Search Header */}
+            <div className="relative bg-white rounded-2xl shadow-[0_24px_64px_rgba(15,23,42,0.20)] overflow-hidden animate-bontera-fade-in">
               <div className="flex items-center gap-4 px-6 py-4 border-b border-bontera-grey-200">
                 <span className="text-bontera-grey-400">{Icons.search}</span>
                 <input
@@ -749,7 +740,6 @@ export default function Header() {
                 </button>
               </div>
 
-              {/* Quick Links */}
               <div className="px-6 py-4">
                 <div className="text-xs font-semibold uppercase tracking-wider text-bontera-grey-400 mb-3">
                   {tHeader('quickLinks')}
@@ -760,7 +750,7 @@ export default function Header() {
                       key={link}
                       href={`/${currentLocale}/${link.toLowerCase()}`}
                       onClick={() => setIsSearchOpen(false)}
-                      className="px-3 py-1.5 rounded-full text-sm font-medium text-bontera-grey-600 bg-bontera-grey-100 hover:bg-bontera-navy-50 hover:text-bontera-navy-600 transition-colors"
+                      className="px-3 py-1.5 rounded-full text-sm font-semibold text-bontera-grey-700 bg-bontera-grey-100 hover:bg-bontera-navy-50 hover:text-bontera-navy-700 transition-colors"
                     >
                       {link}
                     </Link>
@@ -769,17 +759,12 @@ export default function Header() {
               </div>
             </div>
 
-            {/* Click outside hint */}
-            <p className="mt-4 text-center text-sm text-bontera-grey-400">
-              {tHeader('pressEsc')}
-            </p>
+            <p className="mt-4 text-center text-sm text-bontera-grey-400">{tHeader('pressEsc')}</p>
           </div>
         </div>
       )}
 
-      {/* ─────────────────────────────────────────────
-          MOBILE DRAWER
-      ───────────────────────────────────────────── */}
+      {/* MOBILE DRAWER */}
       {isMobileMenuOpen && (
         <MobileMenu
           navItems={navItems}
@@ -798,6 +783,12 @@ export default function Header() {
   );
 }
 
+/* Part 2 will include:
+   - ServicesMegaMenu
+   - ProjectsMegaMenu
+   - CompanyMegaMenu
+   - MobileMenu
+*/
 /* ═══════════════════════════════════════════════════════════════════════════
    MEGA MENU COMPONENTS
    ═══════════════════════════════════════════════════════════════════════════ */
@@ -814,8 +805,8 @@ function ServicesMegaMenu({
   onClose: () => void;
 }) {
   return (
-    <div className="w-[720px] bg-white rounded-2xl border border-bontera-grey-200 shadow-[0_20px_60px_rgba(30,58,95,0.18)] overflow-hidden">
-      {/* Architectural texture background */}
+    <div className="relative w-[720px] bg-white rounded-2xl border border-bontera-grey-200 shadow-[0_20px_60px_rgba(15,23,42,0.14)] overflow-hidden">
+      {/* Subtle tech texture */}
       <div className="absolute inset-0 pattern-bontera-lines opacity-[0.04] pointer-events-none" />
 
       <div className="relative grid grid-cols-[2fr_1fr]">
@@ -824,19 +815,24 @@ function ServicesMegaMenu({
           <div className="text-xs font-semibold uppercase tracking-wider text-bontera-grey-400 mb-4">
             {t('ourServices')}
           </div>
+
           <div className="grid grid-cols-2 gap-2">
             {items.map((item) => (
               <Link
                 key={item.key}
                 href={item.href}
                 onClick={onClose}
-                className="group flex items-start gap-3 p-3 rounded-xl hover:bg-bontera-grey-50 transition-colors"
+                className={cn(
+                  'group flex items-start gap-3 p-3 rounded-xl',
+                  'hover:bg-bontera-grey-50 transition-colors'
+                )}
               >
                 <span className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-xl bg-bontera-navy-50 text-bontera-navy-600 group-hover:bg-bontera-navy-100 transition-colors">
                   {item.icon}
                 </span>
+
                 <div>
-                  <div className="text-sm font-semibold text-bontera-grey-900 group-hover:text-bontera-navy-600 transition-colors">
+                  <div className="text-sm font-semibold text-bontera-grey-950 group-hover:text-bontera-navy-700 transition-colors">
                     {t(`services.${item.key}`)}
                   </div>
                   <div className="text-xs text-bontera-grey-500 mt-0.5 line-clamp-1">
@@ -850,11 +846,11 @@ function ServicesMegaMenu({
 
         {/* Featured / CTA Panel */}
         <div className="bg-bontera-navy-50 p-6 border-l border-bontera-grey-200">
-          <div className="text-xs font-semibold uppercase tracking-wider text-bontera-navy-600 mb-4">
+          <div className="text-xs font-semibold uppercase tracking-wider text-bontera-navy-700 mb-4">
             {t('featured')}
           </div>
 
-          <div className="rounded-xl overflow-hidden mb-4">
+          <div className="rounded-xl overflow-hidden mb-4 ring-1 ring-bontera-grey-200">
             <Image
               src="/brand/lastlogo.png"
               alt="Featured service"
@@ -864,7 +860,7 @@ function ServicesMegaMenu({
             />
           </div>
 
-          <h4 className="text-sm font-semibold text-bontera-grey-900 mb-2">
+          <h4 className="text-sm font-semibold text-bontera-grey-950 mb-2">
             {t('sustainableBuilding')}
           </h4>
           <p className="text-xs text-bontera-grey-600 mb-4 leading-relaxed">
@@ -874,7 +870,7 @@ function ServicesMegaMenu({
           <Link
             href={`/${locale}/services`}
             onClick={onClose}
-            className="inline-flex items-center gap-2 text-sm font-semibold text-bontera-navy-600 hover:text-bontera-navy-700"
+            className="inline-flex items-center gap-2 text-sm font-semibold text-bontera-navy-700 hover:text-bontera-navy-800"
           >
             {t('viewAllServices')}
             {Icons.arrowRight}
@@ -897,13 +893,14 @@ function ProjectsMegaMenu({
   onClose: () => void;
 }) {
   return (
-    <div className="w-[640px] bg-white rounded-2xl border border-bontera-grey-200 shadow-[0_20px_60px_rgba(30,58,95,0.18)] overflow-hidden">
+    <div className="w-[640px] bg-white rounded-2xl border border-bontera-grey-200 shadow-[0_20px_60px_rgba(15,23,42,0.14)] overflow-hidden">
       <div className="grid grid-cols-2">
         {/* Categories */}
         <div className="p-6">
           <div className="text-xs font-semibold uppercase tracking-wider text-bontera-grey-400 mb-4">
             {t('projectCategories')}
           </div>
+
           <div className="space-y-1">
             {categories.map((cat) => (
               <Link
@@ -912,10 +909,10 @@ function ProjectsMegaMenu({
                 onClick={onClose}
                 className="group flex items-center gap-3 p-3 rounded-xl hover:bg-bontera-grey-50 transition-colors"
               >
-                <span className="flex items-center justify-center h-10 w-10 rounded-xl bg-bontera-grey-100 text-bontera-grey-600 group-hover:bg-bontera-navy-50 group-hover:text-bontera-navy-600 transition-colors">
+                <span className="flex items-center justify-center h-10 w-10 rounded-xl bg-bontera-grey-100 text-bontera-grey-700 group-hover:bg-bontera-navy-50 group-hover:text-bontera-navy-700 transition-colors">
                   {cat.icon}
                 </span>
-                <span className="text-sm font-medium text-bontera-grey-700 group-hover:text-bontera-navy-600 transition-colors">
+                <span className="text-sm font-semibold text-bontera-grey-800 group-hover:text-bontera-navy-700 transition-colors">
                   {t(`projects.${cat.key}`)}
                 </span>
               </Link>
@@ -926,7 +923,7 @@ function ProjectsMegaMenu({
             <Link
               href={`/${locale}/projects`}
               onClick={onClose}
-              className="inline-flex items-center gap-2 text-sm font-semibold text-bontera-navy-600 hover:text-bontera-navy-700"
+              className="inline-flex items-center gap-2 text-sm font-semibold text-bontera-navy-700 hover:text-bontera-navy-800"
             >
               {t('viewAllProjects')}
               {Icons.arrowRight}
@@ -950,16 +947,16 @@ function ProjectsMegaMenu({
             />
           </div>
 
-          <h4 className="text-sm font-semibold text-bontera-grey-900 mb-1">
+          <h4 className="text-sm font-semibold text-bontera-grey-950 mb-1">
             {t('featuredProjectTitle')}
           </h4>
-          <p className="text-xs text-bontera-grey-500 mb-3">
+          <p className="text-xs text-bontera-grey-600 mb-3">
             {t('featuredProjectLocation')}
           </p>
 
-          <div className="flex items-center gap-4 text-xs text-bontera-grey-600">
+          <div className="flex items-center gap-4 text-xs text-bontera-grey-700">
             <span className="inline-flex items-center gap-1">
-              <span className="h-2 w-2 rounded-full bg-green-500" />
+              <span className="h-2 w-2 rounded-full bg-emerald-500" />
               {t('completed')}
             </span>
             <span>2024</span>
@@ -982,20 +979,21 @@ function CompanyMegaMenu({
   onClose: () => void;
 }) {
   return (
-    <div className="w-[480px] bg-white rounded-2xl border border-bontera-grey-200 shadow-[0_20px_60px_rgba(30,58,95,0.18)] overflow-hidden">
+    <div className="w-[480px] bg-white rounded-2xl border border-bontera-grey-200 shadow-[0_20px_60px_rgba(15,23,42,0.14)] overflow-hidden">
       <div className="grid grid-cols-2">
         {/* Company Links */}
         <div className="p-6">
           <div className="text-xs font-semibold uppercase tracking-wider text-bontera-grey-400 mb-4">
             {t('aboutBontera')}
           </div>
+
           <div className="space-y-1">
             {links.map((link) => (
               <Link
                 key={link.key}
                 href={link.href}
                 onClick={onClose}
-                className="block px-3 py-2.5 rounded-xl text-sm font-medium text-bontera-grey-700 hover:bg-bontera-grey-50 hover:text-bontera-navy-600 transition-colors"
+                className="block px-3 py-2.5 rounded-xl text-sm font-semibold text-bontera-grey-800 hover:bg-bontera-grey-50 hover:text-bontera-navy-700 transition-colors"
               >
                 {t(`company.${link.key}`)}
               </Link>
@@ -1004,7 +1002,7 @@ function CompanyMegaMenu({
         </div>
 
         {/* Stats / Quick Facts */}
-        <div className="bg-bontera-navy-600 p-6 text-white">
+        <div className="bg-bontera-navy-700 p-6 text-white">
           <div className="text-xs font-semibold uppercase tracking-wider text-bontera-navy-200 mb-4">
             {t('byTheNumbers')}
           </div>
@@ -1060,18 +1058,14 @@ function MobileMenu({
   return (
     <div className="lg:hidden fixed inset-0 z-[60]">
       {/* Backdrop */}
-      <div
-        className="absolute inset-0 bg-bontera-grey-900/40 backdrop-blur-sm"
-        onClick={onClose}
-      />
+      <div className="absolute inset-0 bg-bontera-grey-900/40 backdrop-blur-sm" onClick={onClose} />
 
       {/* Panel */}
-      <div className="absolute inset-y-0 right-0 w-full max-w-md bg-white shadow-[0_0_60px_rgba(30,58,95,0.25)] animate-bontera-slide-in-right overflow-y-auto">
-        {/* Header - Shows full logo */}
-        <div className="sticky top-0 z-10 bg-white border-b border-bontera-grey-200 px-4 py-3 flex items-center justify-between">
+      <div className="absolute inset-y-0 right-0 w-full max-w-md bg-white shadow-[0_0_60px_rgba(15,23,42,0.22)] animate-bontera-slide-in-right overflow-y-auto">
+        {/* Header */}
+        <div className="sticky top-0 z-10 bg-white/90 backdrop-blur border-b border-bontera-grey-200 px-4 py-3 flex items-center justify-between">
           <div className="flex items-center">
-            <span className="relative h-9 w-[140px] overflow-hidden">
-
+            <span className="relative h-9 w-[140px]">
               <Image
                 src="/brand/logo01_clean.png"
                 alt="Bontera"
@@ -1086,7 +1080,7 @@ function MobileMenu({
           <button
             type="button"
             onClick={onClose}
-            className="h-9 w-9 rounded-full border border-bontera-grey-200 bg-white hover:bg-bontera-grey-50 text-bontera-grey-600 hover:text-bontera-navy-600 transition-colors flex items-center justify-center"
+            className="h-9 w-9 rounded-full border border-bontera-grey-200 bg-white hover:bg-bontera-grey-50 text-bontera-grey-700 hover:text-bontera-navy-700 transition-colors flex items-center justify-center"
             aria-label="Close menu"
           >
             {Icons.close}
@@ -1095,7 +1089,7 @@ function MobileMenu({
 
         {/* Search */}
         <div className="px-5 py-4 border-b border-bontera-grey-200">
-          <div className="flex items-center gap-3 px-4 py-3 rounded-xl bg-bontera-grey-100">
+          <div className="flex items-center gap-3 px-4 py-3 rounded-xl bg-bontera-grey-100/80 border border-bontera-grey-200/70">
             <span className="text-bontera-grey-400">{Icons.search}</span>
             <input
               type="search"
@@ -1122,29 +1116,22 @@ function MobileMenu({
                       className={cn(
                         'flex-1 flex items-center justify-between px-4 py-3 rounded-xl text-sm font-semibold transition-colors',
                         active
-                          ? 'bg-bontera-navy-50 text-bontera-navy-600'
-                          : 'text-bontera-grey-700 hover:bg-bontera-grey-50 hover:text-bontera-navy-600'
+                          ? 'bg-bontera-navy-50 text-bontera-navy-700'
+                          : 'text-bontera-grey-800 hover:bg-bontera-grey-50 hover:text-bontera-navy-700'
                       )}
                     >
                       <span>{t(item.key)}</span>
-                      {active && !hasSubmenu && (
-                        <span className="h-2 w-2 rounded-full bg-bontera-navy-600" />
-                      )}
+                      {active && !hasSubmenu && <span className="h-2 w-2 rounded-full bg-bontera-navy-600" />}
                     </Link>
 
                     {hasSubmenu && (
                       <button
                         type="button"
                         onClick={() => setExpandedSection(isExpanded ? null : item.key)}
-                        className="h-10 w-10 flex items-center justify-center text-bontera-grey-400 hover:text-bontera-grey-600"
+                        className="h-10 w-10 flex items-center justify-center text-bontera-grey-500 hover:text-bontera-grey-700"
                         aria-label={isExpanded ? 'Collapse' : 'Expand'}
                       >
-                        <span
-                          className={cn(
-                            'transition-transform duration-200',
-                            isExpanded && 'rotate-180'
-                          )}
-                        >
+                        <span className={cn('transition-transform duration-200', isExpanded && 'rotate-180')}>
                           {Icons.chevronDown}
                         </span>
                       </button>
@@ -1160,29 +1147,31 @@ function MobileMenu({
                             key={s.key}
                             href={s.href}
                             onClick={onClose}
-                            className="block px-3 py-2 text-sm text-bontera-grey-600 hover:text-bontera-navy-600 transition-colors"
+                            className="block px-3 py-2 text-sm text-bontera-grey-700 hover:text-bontera-navy-700 transition-colors"
                           >
                             {tHeader(`services.${s.key}`)}
                           </Link>
                         ))}
+
                       {item.megaMenuType === 'projects' &&
                         projectCategories.map((p) => (
                           <Link
                             key={p.key}
                             href={p.href}
                             onClick={onClose}
-                            className="block px-3 py-2 text-sm text-bontera-grey-600 hover:text-bontera-navy-600 transition-colors"
+                            className="block px-3 py-2 text-sm text-bontera-grey-700 hover:text-bontera-navy-700 transition-colors"
                           >
                             {tHeader(`projects.${p.key}`)}
                           </Link>
                         ))}
+
                       {item.megaMenuType === 'company' &&
                         companyLinks.map((c) => (
                           <Link
                             key={c.key}
                             href={c.href}
                             onClick={onClose}
-                            className="block px-3 py-2 text-sm text-bontera-grey-600 hover:text-bontera-navy-600 transition-colors"
+                            className="block px-3 py-2 text-sm text-bontera-grey-700 hover:text-bontera-navy-700 transition-colors"
                           >
                             {tHeader(`company.${c.key}`)}
                           </Link>
@@ -1200,14 +1189,15 @@ function MobileMenu({
           <Link
             href={`/${currentLocale}/quote`}
             onClick={onClose}
-            className="flex items-center justify-center h-12 w-full rounded-xl bg-bontera-grey-100 text-bontera-grey-700 hover:bg-bontera-grey-200 text-sm font-semibold transition-colors"
+            className="flex items-center justify-center h-12 w-full rounded-xl bg-bontera-grey-100 text-bontera-grey-800 hover:bg-bontera-grey-200 text-sm font-semibold transition-colors"
           >
             {tHeader('requestQuote')}
           </Link>
+
           <Link
             href={`/${currentLocale}/contact`}
             onClick={onClose}
-            className="flex items-center justify-center gap-2 h-12 w-full rounded-xl bg-bontera-navy-600 hover:bg-bontera-navy-700 text-white text-sm font-semibold shadow-[0_4px_14px_rgba(30,58,95,0.25)] transition-colors"
+            className="flex items-center justify-center gap-2 h-12 w-full rounded-xl bg-bontera-navy-600 hover:bg-bontera-navy-700 text-white text-sm font-semibold shadow-[0_6px_18px_rgba(15,23,42,0.16)] transition-colors"
           >
             {t('contact')}
             {Icons.arrowRight}
@@ -1230,8 +1220,8 @@ function MobileMenu({
                   className={cn(
                     'px-3 py-2.5 rounded-xl border text-sm font-semibold text-center transition-colors',
                     selected
-                      ? 'border-bontera-navy-300 bg-bontera-navy-50 text-bontera-navy-600'
-                      : 'border-bontera-grey-200 bg-white text-bontera-grey-700 hover:bg-bontera-grey-50 hover:text-bontera-navy-600'
+                      ? 'border-bontera-navy-300 bg-bontera-navy-50 text-bontera-navy-700'
+                      : 'border-bontera-grey-200 bg-white text-bontera-grey-800 hover:bg-bontera-grey-50 hover:text-bontera-navy-700'
                   )}
                 >
                   {localeShortNames[locale]}
@@ -1246,17 +1236,16 @@ function MobileMenu({
           <div className="text-xs font-semibold uppercase tracking-wider text-bontera-grey-400 mb-3">
             {tHeader('contactInfo')}
           </div>
+
           <div className="space-y-3">
-            <a
-              href="tel:+1234567890"
-              className="flex items-center gap-3 text-sm text-bontera-grey-700 hover:text-bontera-navy-600"
-            >
+            <a href="tel:+1234567890" className="flex items-center gap-3 text-sm text-bontera-grey-800 hover:text-bontera-navy-700">
               {Icons.phone}
               <span>+49 30 123 456 7890</span>
             </a>
+
             <a
               href="mailto:info@bontera.de"
-              className="flex items-center gap-3 text-sm text-bontera-grey-700 hover:text-bontera-navy-600"
+              className="flex items-center gap-3 text-sm text-bontera-grey-800 hover:text-bontera-navy-700"
             >
               {Icons.email}
               <span>info@bontera.de</span>
@@ -1272,7 +1261,7 @@ function MobileMenu({
               </span>
               {tHeader('emergency24')}
             </div>
-            <a href="tel:+1800BONTERA" className="text-sm text-amber-600 mt-1 block">
+            <a href="tel:+1800BONTERA" className="text-sm text-amber-700 mt-1 block">
               1-800-BONTERA
             </a>
           </div>
@@ -1283,15 +1272,13 @@ function MobileMenu({
           <div className="flex items-center justify-center gap-2">
             {[
               { icon: Icons.linkedin, href: '#', label: 'LinkedIn' },
-             
-              
               { icon: Icons.instagram, href: '#', label: 'Instagram' },
             ].map((social) => (
               <a
                 key={social.label}
                 href={social.href}
                 aria-label={social.label}
-                className="p-3 text-bontera-grey-500 hover:text-bontera-navy-600 transition-colors"
+                className="p-3 text-bontera-grey-500 hover:text-bontera-navy-700 transition-colors"
               >
                 {social.icon}
               </a>

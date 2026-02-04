@@ -464,12 +464,12 @@ export const projects: Project[] = [
     ku: "Bruksel, Belçîka",
     tr: "Brüksel, Belçika",
   },
-  year: "2024",
+  year: "2014",
   client: "NATO",
 
   // Keep only en if you want your localizeValue/localizeDuration to format others automatically
   value: { en: "€1.2B" },
-  duration: { en: "24 months" },
+  duration: { en: "2014-2016" },
   size: {
     en: "12,500 m²",
     fr: "12 500 m²",
