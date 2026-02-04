@@ -295,7 +295,7 @@ export default function Footer() {
                         {t("footer.phone")}
                       </div>
                       <div className="text-sm font-medium text-white group-hover:text-amber-400 transition-colors">
-                        +49 30 123 456 789
+                           +32 477 37 75 44
                       </div>
                     </div>
                   </a>
