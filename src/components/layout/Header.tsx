@@ -448,55 +448,19 @@ export default function Header() {
   className="relative flex items-center shrink-0 w-[150px] lg:w-[190px]"
   aria-label="Bontera"
 >
-  {/* Outer shell: gives the “touchable” edge */}
-  <span
-    className={cn(
-      'relative inline-flex rounded-2xl p-[1px]',
-      'bg-gradient-to-b from-white/95 to-bontera-grey-200/70',
-      'shadow-[0_10px_26px_rgba(15,23,42,0.14)]'
-    )}
-  >
-    {/* Inner glass plate */}
-    <span
-      className={cn(
-        'relative inline-flex items-center rounded-[14px] px-2 py-0.5',
-        'bg-white/55 supports-[backdrop-filter]:bg-white/35',
-        'backdrop-blur-md',
-        'ring-1 ring-white/60'
-      )}
-    >
-      {/* Specular highlight (this is the “real object” effect) */}
-      <span
-        aria-hidden="true"
-        className="pointer-events-none absolute inset-0 rounded-[14px] bg-gradient-to-br from-white/75 via-white/20 to-transparent opacity-90"
-      />
-      {/* Bottom shading to add depth */}
-      <span
-        aria-hidden="true"
-        className="pointer-events-none absolute inset-0 rounded-[14px] bg-gradient-to-t from-black/10 via-transparent to-transparent opacity-40"
-      />
-
-      {/* Logo image */}
-      <span className="relative block h-[32px] lg:h-[36px] w-[140px] lg:w-[180px]">
-        <Image
-          src="/brand/logo01_clean.png"
-          alt="Bontera"
-          fill
-          priority
-          quality={100}
-          sizes="(min-width: 1024px) 220px, 180px"
-          className={cn(
-            'object-contain object-left',
-            'transition-transform duration-300 will-change-transform',
-            isScrolled ? 'scale-[1.00]' : 'scale-[1.06]',
-            // cleaner shadow = no “dirty” look
-            'drop-shadow-[0_4px_10px_rgba(15,23,42,0.12)]'
-          )}
-        />
-      </span>
-    </span>
+  <span className="relative block h-[32px] lg:h-[36px] w-[140px] lg:w-[180px]">
+    <Image
+      src="/brand/logo01_clean.png"
+      alt="Bontera"
+      fill
+      priority
+      quality={100}
+      sizes="(min-width: 1024px) 190px, 150px"
+      className="object-contain object-left"
+    />
   </span>
 </Link>
+
 
 
             {/* DESKTOP NAVIGATION */}
