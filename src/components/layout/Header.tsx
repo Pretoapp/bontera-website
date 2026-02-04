@@ -428,20 +428,22 @@ export default function Header() {
         )}
       >
         {/* Architectural accent line */}
-        <div className="h-[3px] bg-gradient-to-r from-bontera-navy-600 via-bontera-navy-500 to-bontera-navy-600" />
+      <div className="h-[2px] lg:h-[3px] bg-gradient-to-r from-bontera-navy-600 via-bontera-navy-500 to-bontera-navy-600" />
+
 
         <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-6">
 
-        <div
+<div
   className={cn(
-    'flex items-center justify-between gap-3',          // mobile
-  'lg:grid lg:grid-cols-[140px_1fr_auto] lg:gap-6',
- // desktop
+    'flex items-center justify-between gap-3',
+    'lg:grid lg:grid-cols-[140px_1fr_auto] lg:gap-6',
     'transition-all duration-300',
- isScrolled ? 'h-[72px]' : 'h-[86px]'
-
+    isScrolled
+      ? 'h-[60px] sm:h-[68px] lg:h-[72px]'
+      : 'h-[68px] sm:h-[78px] lg:h-[86px]'
   )}
 >
+
 
             {/* ─────────────────────────────────────────────
                 LOGO / BRAND - Shows full logo
@@ -451,7 +453,8 @@ export default function Header() {
   href={`/${currentLocale}`}
   className="relative flex items-center self-stretch shrink-0 w-[170px] lg:w-[210px] -ml-2 lg:-ml-4"
 >
-  <span className="absolute left-0 top-1/2 -translate-y-1/2 h-[40px] lg:h-[46px] w-full overflow-visible">
+  <span className="absolute left-0 top-1/2 -translate-y-1/2 h-[34px] sm:h-[40px] lg:h-[46px]
+ w-full overflow-visible">
     <Image
       src="/brand/logo01_clean.png"
       alt="Bontera"
@@ -853,7 +856,7 @@ function ServicesMegaMenu({
 
           <div className="rounded-xl overflow-hidden mb-4">
             <Image
-              src="/brand/logo01_clean.png"
+              src="/brand/lastlogo.png"
               alt="Featured service"
               width={200}
               height={120}
@@ -1063,16 +1066,17 @@ function MobileMenu({
       />
 
       {/* Panel */}
-      <div className="absolxute inset-y-0 right-0 w-full max-w-md bg-white shadow-[0_0_60px_rgba(30,58,95,0.25)] animate-bontera-slide-in-right overflow-y-auto">
+      <div className="absolute inset-y-0 right-0 w-full max-w-md bg-white shadow-[0_0_60px_rgba(30,58,95,0.25)] animate-bontera-slide-in-right overflow-y-auto">
         {/* Header - Shows full logo */}
-        <div className="sticky top-0 z-10 bg-white border-b border-bontera-grey-200 px-5 py-4 flex items-center justify-between">
+        <div className="sticky top-0 z-10 bg-white border-b border-bontera-grey-200 px-4 py-3 flex items-center justify-between">
           <div className="flex items-center">
-            <span className="relative h-11 w-[160px] overflow-hidden">
+            <span className="relative h-9 w-[140px] overflow-hidden">
+
               <Image
                 src="/brand/logo01_clean.png"
                 alt="Bontera"
                 fill
-                sizes="10px"
+                sizes="140px"
                 className="object-contain object-left"
                 priority
               />
@@ -1082,7 +1086,7 @@ function MobileMenu({
           <button
             type="button"
             onClick={onClose}
-            className="h-10 w-10 rounded-full border border-bontera-grey-200 bg-white hover:bg-bontera-grey-50 text-bontera-grey-600 hover:text-bontera-navy-600 transition-colors flex items-center justify-center"
+            className="h-9 w-9 rounded-full border border-bontera-grey-200 bg-white hover:bg-bontera-grey-50 text-bontera-grey-600 hover:text-bontera-navy-600 transition-colors flex items-center justify-center"
             aria-label="Close menu"
           >
             {Icons.close}
