@@ -81,7 +81,7 @@
           "description": "Weiterentwicklung durch Innovation, hochwertigere Projekte und Wachstum mit nachhaltiger, hoher Wertschöpfung."
         }
       }
-     },
+    },
     "achievements": {
       "eyebrow": "In Zahlen",
       "title": "Unsere Erfolge",
@@ -437,7 +437,6 @@
       "description": "Der verlässliche Partner für Bau und Immobilien in Europa zu sein, bekannt für Projekte, die Qualität, Nachhaltigkeit und langfristige Wertschöpfung verbinden."
     },
 
-    
     "values": {
       "eyebrow": "Unsere Prinzipien",
       "title": "Unsere Kernwerte",
@@ -791,7 +790,7 @@
     }
   },
 
-    "projectsPage": {
+  "projectsPage": {
     "meta": {
       "title": "Unsere Projekte | Bontera Construction",
       "description": "Entdecken Sie Bonteras Portfolio an Landmark-Projekten in den Bereichen Gewerbe, Wohnen, Infrastruktur und Industrie, in 12 Ländern."
@@ -894,7 +893,7 @@
     }
   },
 
-    "contactPage": {
+  "contactPage": {
     "meta": {
       "title": "Kontakt | Bontera Construction",
       "description": "Kontaktieren Sie Bontera Construction. Besuchen Sie unsere Büros in Dubai, Riad, Kairo und London oder senden Sie uns eine Nachricht, um Ihr Projekt zu besprechen."
@@ -941,7 +940,7 @@
         },
         "phone": {
           "label": "Telefonnummer",
-          "placeholder": "+49 30 123 456 7890"
+          "placeholder": "+32 477 37 75 44"
         },
         "company": {
           "label": "Unternehmen",
@@ -1219,10 +1218,8 @@
       "browseJobs": "Alle Rollen ansehen",
       "sendResume": "Lebenslauf senden"
     }
-  }
+  },
 
-
-  ,
   "newsPage": {
     "meta": {
       "title": "News & Einblicke | Bontera Construction",

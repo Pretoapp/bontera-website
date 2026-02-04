@@ -81,7 +81,7 @@
           "description": "Continued innovation, moving upmarket, and expansion around sustainable, high-value projects."
         }
       }
-     },
+    },
     "achievements": {
       "eyebrow": "By the numbers",
       "title": "Our achievements",
@@ -248,7 +248,7 @@
     "empty": "No articles to display at the moment."
   },
   "header": {
-    "headquarters": "Halle (Westfalen), Germany",
+    "headquarters": "Halle Westfalen, Germany",
     "emergency24": "Emergency 24/7",
     "search": "Search",
     "searchPlaceholder": "Search projects, services, news...",
@@ -437,7 +437,6 @@
       "description": "To be the trusted partner for construction and real estate in Europe, recognized for projects that combine quality, sustainability, and long-term value creation."
     },
 
-    
     "values": {
       "eyebrow": "Our principles",
       "title": "Our core values",
@@ -791,7 +790,7 @@
     }
   },
 
-    "projectsPage": {
+  "projectsPage": {
     "meta": {
       "title": "Our projects | Bontera Construction",
       "description": "Explore Bontera’s portfolio of landmark projects across commercial, residential, infrastructure and industrial sectors, across 12 countries."
@@ -940,7 +939,7 @@
         },
         "phone": {
           "label": "Phone number",
-          "placeholder": "+49 30 123 456 7890"
+          "placeholder": "+32 477 37 75 44"
         },
         "company": {
           "label": "Company name",
@@ -1126,7 +1125,7 @@
       "cairo": "Cairo, Egypt",
       "london": "London, United Kingdom",
       "brussels": "Brussels, Belgium",
-      "germany": "Halle (Westfalen), Germany"
+      "germany": "Halle Westfalen, Germany"
     },
     "jobTypes": {
       "fullTime": "Full-time",
@@ -1987,4 +1986,3 @@
     }
   }
 }
-

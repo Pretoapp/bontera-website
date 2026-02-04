@@ -1,25 +1,25 @@
-'use client';
+"use client";
 
-import { useEffect, useMemo, useRef, useState, useCallback } from 'react';
-import type { ReactNode } from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
-import { useTranslations } from 'next-intl';
-import { useParams, usePathname } from 'next/navigation';
-import { locales, localeShortNames, type Locale } from '@/lib/i18n/config';
+import { useEffect, useMemo, useRef, useState, useCallback } from "react";
+import type { ReactNode } from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { useTranslations } from "next-intl";
+import { useParams, usePathname } from "next/navigation";
+import { locales, localeShortNames, type Locale } from "@/lib/i18n/config";
 
 /* ═══════════════════════════════════════════════════════════════════════════
    CONFIGURATION & TYPES
    ═══════════════════════════════════════════════════════════════════════════ */
 
 const localeLabels: Record<Locale, string> = {
-  de: 'Deutsch',
-  en: 'English',
-  fr: 'Français',
-  nl: 'Néerlandais',
-  it: 'Italiano',
-  ku: 'Kurmaçi',
-  tr: 'Türkçe',
+  de: "Deutsch",
+  en: "English",
+  fr: "Français",
+  nl: "Néerlandais",
+  it: "Italiano",
+  ku: "Kurmaçi",
+  tr: "Türkçe",
 };
 
 type MegaMenuItem = {
@@ -32,11 +32,11 @@ type NavItem = {
   key: string;
   href: string;
   hasMegaMenu?: boolean;
-  megaMenuType?: 'services' | 'projects' | 'company';
+  megaMenuType?: "services" | "projects" | "company";
 };
 
 function cn(...classes: Array<string | false | undefined | null>) {
-  return classes.filter(Boolean).join(' ');
+  return classes.filter(Boolean).join(" ");
 }
 
 /* ═══════════════════════════════════════════════════════════════════════════
@@ -45,7 +45,13 @@ function cn(...classes: Array<string | false | undefined | null>) {
 
 const Icons = {
   phone: (
-    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.8}>
+    <svg
+      className="w-4 h-4"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+      strokeWidth={1.8}
+    >
       <path
         strokeLinecap="round"
         strokeLinejoin="round"
@@ -54,7 +60,13 @@ const Icons = {
     </svg>
   ),
   email: (
-    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.8}>
+    <svg
+      className="w-4 h-4"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+      strokeWidth={1.8}
+    >
       <path
         strokeLinecap="round"
         strokeLinejoin="round"
@@ -63,42 +75,104 @@ const Icons = {
     </svg>
   ),
   location: (
-    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.8}>
+    <svg
+      className="w-4 h-4"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+      strokeWidth={1.8}
+    >
       <path
         strokeLinecap="round"
         strokeLinejoin="round"
         d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
       />
-      <path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+      />
     </svg>
   ),
   search: (
-    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-      <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+    <svg
+      className="w-5 h-5"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+      strokeWidth={2}
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+      />
     </svg>
   ),
   chevronDown: (
-    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+    <svg
+      className="w-4 h-4"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+      strokeWidth={2}
+    >
       <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
     </svg>
   ),
   arrowRight: (
-    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-      <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+    <svg
+      className="w-4 h-4"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+      strokeWidth={2}
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M17 8l4 4m0 0l-4 4m4-4H3"
+      />
     </svg>
   ),
   close: (
-    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-      <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+    <svg
+      className="w-5 h-5"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+      strokeWidth={2}
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M6 18L18 6M6 6l12 12"
+      />
     </svg>
   ),
   menu: (
-    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-      <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+    <svg
+      className="w-5 h-5"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+      strokeWidth={2}
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M4 6h16M4 12h16M4 18h16"
+      />
     </svg>
   ),
   building: (
-    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
+    <svg
+      className="w-6 h-6"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+      strokeWidth={1.5}
+    >
       <path
         strokeLinecap="round"
         strokeLinejoin="round"
@@ -107,7 +181,13 @@ const Icons = {
     </svg>
   ),
   realEstate: (
-    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
+    <svg
+      className="w-6 h-6"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+      strokeWidth={1.5}
+    >
       <path
         strokeLinecap="round"
         strokeLinejoin="round"
@@ -116,7 +196,13 @@ const Icons = {
     </svg>
   ),
   renovation: (
-    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
+    <svg
+      className="w-6 h-6"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+      strokeWidth={1.5}
+    >
       <path
         strokeLinecap="round"
         strokeLinejoin="round"
@@ -125,12 +211,28 @@ const Icons = {
     </svg>
   ),
   consulting: (
-    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-      <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+    <svg
+      className="w-6 h-6"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+      strokeWidth={1.5}
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+      />
     </svg>
   ),
   management: (
-    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
+    <svg
+      className="w-6 h-6"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+      strokeWidth={1.5}
+    >
       <path
         strokeLinecap="round"
         strokeLinejoin="round"
@@ -139,18 +241,44 @@ const Icons = {
     </svg>
   ),
   sustainability: (
-    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-      <path strokeLinecap="round" strokeLinejoin="round" d="M12 21c-4.5 0-8-3-8-7 0-6 8-11 8-11s8 5 8 11c0 4-3.5 7-8 7z" />
+    <svg
+      className="w-6 h-6"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+      strokeWidth={1.5}
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M12 21c-4.5 0-8-3-8-7 0-6 8-11 8-11s8 5 8 11c0 4-3.5 7-8 7z"
+      />
       <path strokeLinecap="round" strokeLinejoin="round" d="M12 21v-8" />
     </svg>
   ),
   commercial: (
-    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-      <path strokeLinecap="round" strokeLinejoin="round" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+    <svg
+      className="w-6 h-6"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+      strokeWidth={1.5}
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+      />
     </svg>
   ),
   residential: (
-    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
+    <svg
+      className="w-6 h-6"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+      strokeWidth={1.5}
+    >
       <path
         strokeLinecap="round"
         strokeLinejoin="round"
@@ -159,14 +287,38 @@ const Icons = {
     </svg>
   ),
   industrial: (
-    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-      <path strokeLinecap="round" strokeLinejoin="round" d="M3 21V10l6 3V10l6 3V10l6 3v8H3z" />
-      <path strokeLinecap="round" strokeLinejoin="round" d="M7 21v-3m4 3v-3m4 3v-3" />
+    <svg
+      className="w-6 h-6"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+      strokeWidth={1.5}
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M3 21V10l6 3V10l6 3V10l6 3v8H3z"
+      />
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M7 21v-3m4 3v-3m4 3v-3"
+      />
     </svg>
   ),
   publicWorks: (
-    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-      <path strokeLinecap="round" strokeLinejoin="round" d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z" />
+    <svg
+      className="w-6 h-6"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+      strokeWidth={1.5}
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z"
+      />
     </svg>
   ),
   linkedin: (
@@ -187,12 +339,12 @@ const Icons = {
    ═══════════════════════════════════════════════════════════════════════════ */
 
 export default function Header() {
-  const t = useTranslations('navigation');
-  const tHeader = useTranslations('header');
+  const t = useTranslations("navigation");
+  const tHeader = useTranslations("header");
   const params = useParams();
   const pathname = usePathname();
   const currentLocale = params.locale as Locale;
-  const isRTL = currentLocale === 'ku';
+  const isRTL = currentLocale === "ku";
 
   // State management
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -200,7 +352,7 @@ export default function Header() {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const [activeMegaMenu, setActiveMegaMenu] = useState<string | null>(null);
-  const [searchQuery, setSearchQuery] = useState('');
+  const [searchQuery, setSearchQuery] = useState("");
 
   // Refs
   const langMenuRef = useRef<HTMLDivElement | null>(null);
@@ -213,44 +365,95 @@ export default function Header() {
 
   const navItems: NavItem[] = useMemo(
     () => [
-      { key: 'home', href: `/${currentLocale}` },
-      { key: 'about', href: `/${currentLocale}/about`, hasMegaMenu: true, megaMenuType: 'company' },
-      { key: 'services', href: `/${currentLocale}/services`, hasMegaMenu: true, megaMenuType: 'services' },
-      { key: 'projects', href: `/${currentLocale}/projects`, hasMegaMenu: true, megaMenuType: 'projects' },
-      { key: 'careers', href: `/${currentLocale}/careers` },
-      { key: 'news', href: `/${currentLocale}/news` },
+      { key: "home", href: `/${currentLocale}` },
+      {
+        key: "about",
+        href: `/${currentLocale}/about`,
+        hasMegaMenu: true,
+        megaMenuType: "company",
+      },
+      {
+        key: "services",
+        href: `/${currentLocale}/services`,
+        hasMegaMenu: true,
+        megaMenuType: "services",
+      },
+      {
+        key: "projects",
+        href: `/${currentLocale}/projects`,
+        hasMegaMenu: true,
+        megaMenuType: "projects",
+      },
+      { key: "careers", href: `/${currentLocale}/careers` },
+      { key: "news", href: `/${currentLocale}/news` },
     ],
-    [currentLocale]
+    [currentLocale],
   );
 
   const serviceItems: MegaMenuItem[] = useMemo(
     () => [
-      { key: 'commercialConstruction', icon: Icons.building, href: `/${currentLocale}/services/commercial` },
-      { key: 'realEstate', icon: Icons.realEstate, href: `/${currentLocale}/services/real-estate` },
-      { key: 'renovation', icon: Icons.renovation, href: `/${currentLocale}/services/renovation` },
-      { key: 'consulting', icon: Icons.consulting, href: `/${currentLocale}/services/consulting` },
-      { key: 'projectManagement', icon: Icons.management, href: `/${currentLocale}/services/management` },
+      {
+        key: "commercialConstruction",
+        icon: Icons.building,
+        href: `/${currentLocale}/services/commercial`,
+      },
+      {
+        key: "realEstate",
+        icon: Icons.realEstate,
+        href: `/${currentLocale}/services/real-estate`,
+      },
+      {
+        key: "renovation",
+        icon: Icons.renovation,
+        href: `/${currentLocale}/services/renovation`,
+      },
+      {
+        key: "consulting",
+        icon: Icons.consulting,
+        href: `/${currentLocale}/services/consulting`,
+      },
+      {
+        key: "projectManagement",
+        icon: Icons.management,
+        href: `/${currentLocale}/services/management`,
+      },
     ],
-    [currentLocale]
+    [currentLocale],
   );
 
   const projectCategories: MegaMenuItem[] = useMemo(
     () => [
-      { key: 'commercial', icon: Icons.commercial, href: `/${currentLocale}/projects?category=commercial` },
-      { key: 'residential', icon: Icons.residential, href: `/${currentLocale}/projects?category=residential` },
-      { key: 'industrial', icon: Icons.industrial, href: `/${currentLocale}/projects?category=industrial` },
-      { key: 'publicWorks', icon: Icons.publicWorks, href: `/${currentLocale}/projects?category=publicWorks` },
+      {
+        key: "commercial",
+        icon: Icons.commercial,
+        href: `/${currentLocale}/projects?category=commercial`,
+      },
+      {
+        key: "residential",
+        icon: Icons.residential,
+        href: `/${currentLocale}/projects?category=residential`,
+      },
+      {
+        key: "industrial",
+        icon: Icons.industrial,
+        href: `/${currentLocale}/projects?category=industrial`,
+      },
+      {
+        key: "publicWorks",
+        icon: Icons.publicWorks,
+        href: `/${currentLocale}/projects?category=publicWorks`,
+      },
     ],
-    [currentLocale]
+    [currentLocale],
   );
 
   const companyLinks = useMemo(
     () => [
-      { key: 'ourStory', href: `/${currentLocale}/about/our-story` },
-      { key: 'values', href: `/${currentLocale}/about/values` },
-      { key: 'whyBontera', href: `/${currentLocale}/about/why-bontera` },
+      { key: "ourStory", href: `/${currentLocale}/about/our-story` },
+      { key: "values", href: `/${currentLocale}/about/values` },
+      { key: "whyBontera", href: `/${currentLocale}/about/why-bontera` },
     ],
-    [currentLocale]
+    [currentLocale],
   );
 
   const contactHref = `/${currentLocale}/contact`;
@@ -262,20 +465,20 @@ export default function Header() {
 
   const isActive = useCallback(
     (href: string) => {
-      const a = (pathname || '').replace(/\/+$/, '');
-      const b = href.replace(/\/+$/, '');
-      return a === b || a.startsWith(b + '/');
+      const a = (pathname || "").replace(/\/+$/, "");
+      const b = href.replace(/\/+$/, "");
+      return a === b || a.startsWith(b + "/");
     },
-    [pathname]
+    [pathname],
   );
 
   const getLocalizedPath = useCallback(
     (locale: Locale) => {
-      const segments = (pathname || `/${currentLocale}`).split('/');
+      const segments = (pathname || `/${currentLocale}`).split("/");
       if (segments.length > 1) segments[1] = locale;
-      return segments.join('/') || `/${locale}`;
+      return segments.join("/") || `/${locale}`;
     },
-    [pathname, currentLocale]
+    [pathname, currentLocale],
   );
 
   /* ─────────────────────────────────────────────
@@ -302,8 +505,8 @@ export default function Header() {
 
   useEffect(() => {
     const onScroll = () => setIsScrolled(window.scrollY > 10);
-    window.addEventListener('scroll', onScroll, { passive: true });
-    return () => window.removeEventListener('scroll', onScroll);
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
   useEffect(() => {
@@ -315,26 +518,30 @@ export default function Header() {
 
   useEffect(() => {
     const onKeyDown = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') {
+      if (e.key === "Escape") {
         setIsLangMenuOpen(false);
         setIsMobileMenuOpen(false);
         setActiveMegaMenu(null);
         setIsSearchOpen(false);
       }
     };
-    document.addEventListener('keydown', onKeyDown);
-    return () => document.removeEventListener('keydown', onKeyDown);
+    document.addEventListener("keydown", onKeyDown);
+    return () => document.removeEventListener("keydown", onKeyDown);
   }, []);
 
   useEffect(() => {
     const onPointerDown = (e: PointerEvent) => {
       const target = e.target as Node;
-      if (isLangMenuOpen && langMenuRef.current && !langMenuRef.current.contains(target)) {
+      if (
+        isLangMenuOpen &&
+        langMenuRef.current &&
+        !langMenuRef.current.contains(target)
+      ) {
         setIsLangMenuOpen(false);
       }
     };
-    document.addEventListener('pointerdown', onPointerDown);
-    return () => document.removeEventListener('pointerdown', onPointerDown);
+    document.addEventListener("pointerdown", onPointerDown);
+    return () => document.removeEventListener("pointerdown", onPointerDown);
   }, [isLangMenuOpen]);
 
   useEffect(() => {
@@ -344,15 +551,18 @@ export default function Header() {
   }, [isSearchOpen]);
 
   useEffect(() => {
-    if (isMobileMenuOpen) document.body.style.overflow = 'hidden';
-    else document.body.style.overflow = '';
+    if (isMobileMenuOpen) document.body.style.overflow = "hidden";
+    else document.body.style.overflow = "";
     return () => {
-      document.body.style.overflow = '';
+      document.body.style.overflow = "";
     };
   }, [isMobileMenuOpen]);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50" dir={isRTL ? 'rtl' : 'ltr'}>
+    <header
+      className="fixed top-0 left-0 right-0 z-50"
+      dir={isRTL ? "rtl" : "ltr"}
+    >
       {/* ─────────────────────────────────────────────
           TOP UTILITY BAR
       ───────────────────────────────────────────── */}
@@ -366,7 +576,7 @@ export default function Header() {
                 className="inline-flex items-center gap-2 text-bontera-grey-300 hover:text-white transition-colors"
               >
                 {Icons.phone}
-                <span className="font-medium">+49 30 123 456 7890</span>
+                <span className="font-medium">+32 477 37 75 44</span>
               </a>
 
               <a
@@ -379,7 +589,7 @@ export default function Header() {
 
               <span className="inline-flex items-center gap-2 text-bontera-grey-400">
                 {Icons.location}
-                <span>{tHeader('headquarters')}</span>
+                <span>{tHeader("headquarters")}</span>
               </span>
             </div>
 
@@ -387,8 +597,8 @@ export default function Header() {
             <div className="flex items-center gap-4">
               <div className="flex items-center gap-1">
                 {[
-                  { icon: Icons.linkedin, href: '#', label: 'LinkedIn' },
-                  { icon: Icons.instagram, href: '#', label: 'Instagram' },
+                  { icon: Icons.linkedin, href: "#", label: "LinkedIn" },
+                  { icon: Icons.instagram, href: "#", label: "Instagram" },
                 ].map((social) => (
                   <a
                     key={social.label}
@@ -411,7 +621,7 @@ export default function Header() {
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75" />
                   <span className="relative inline-flex rounded-full h-2 w-2 bg-amber-500" />
                 </span>
-                {tHeader('emergency24')}
+                {tHeader("emergency24")}
               </a>
             </div>
           </div>
@@ -423,11 +633,13 @@ export default function Header() {
       ───────────────────────────────────────────── */}
       <div
         className={cn(
-          'relative',
-          'border-b border-bontera-grey-200',
-          'transition-all duration-300',
-          'bg-white/80 backdrop-blur-xl supports-[backdrop-filter]:bg-white/70',
-          isScrolled ? 'shadow-[0_10px_30px_rgba(15,23,42,0.10)]' : 'shadow-[0_4px_18px_rgba(15,23,42,0.06)]'
+          "relative",
+          "border-b border-bontera-grey-200",
+          "transition-all duration-300",
+          "bg-white/80 backdrop-blur-xl supports-[backdrop-filter]:bg-white/70",
+          isScrolled
+            ? "shadow-[0_10px_30px_rgba(15,23,42,0.10)]"
+            : "shadow-[0_4px_18px_rgba(15,23,42,0.06)]",
         )}
       >
         {/* Premium hairline */}
@@ -436,32 +648,30 @@ export default function Header() {
         <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-6">
           <div
             className={cn(
-              'flex items-center justify-between gap-3',
-              'lg:grid lg:grid-cols-[220px_1fr_auto] lg:gap-6',
-              'transition-all duration-300',
-              isScrolled ? 'h-[60px] lg:h-[64px]' : 'h-[66px] lg:h-[72px]'
+              "flex items-center justify-between gap-3",
+              "lg:grid lg:grid-cols-[220px_1fr_auto] lg:gap-6",
+              "transition-all duration-300",
+              isScrolled ? "h-[60px] lg:h-[64px]" : "h-[66px] lg:h-[72px]",
             )}
           >
-           {/* LOGO (physical badge, still compact header) */}
-<Link
-  href={`/${currentLocale}`}
-  className="relative flex items-center shrink-0 w-[150px] lg:w-[190px]"
-  aria-label="Bontera"
->
-  <span className="relative block h-[32px] lg:h-[36px] w-[140px] lg:w-[180px]">
-    <Image
-      src="/brand/logo01_clean.png"
-      alt="Bontera"
-      fill
-      priority
-      quality={100}
-      sizes="(min-width: 1024px) 190px, 150px"
-      className="object-contain object-left"
-    />
-  </span>
-</Link>
-
-
+            {/* LOGO (physical badge, still compact header) */}
+            <Link
+              href={`/${currentLocale}`}
+              className="relative flex items-center shrink-0 w-[150px] lg:w-[190px]"
+              aria-label="Bontera"
+            >
+              <span className="relative block h-[32px] lg:h-[36px] w-[140px] lg:w-[180px]">
+                <Image
+                  src="/brand/logo01_clean.png"
+                  alt="Bontera"
+                  fill
+                  priority
+                  quality={100}
+                  sizes="(min-width: 1024px) 190px, 150px"
+                  className="object-contain object-left"
+                />
+              </span>
+            </Link>
 
             {/* DESKTOP NAVIGATION */}
             <nav className="hidden lg:flex items-center justify-center gap-0.5">
@@ -473,25 +683,34 @@ export default function Header() {
                   <div
                     key={item.key}
                     className="relative"
-                    onMouseEnter={() => hasMega && handleMegaMenuEnter(item.key)}
+                    onMouseEnter={() =>
+                      hasMega && handleMegaMenuEnter(item.key)
+                    }
                     onMouseLeave={handleMegaMenuLeave}
                   >
                     <Link
                       href={item.href}
-                      aria-current={active ? 'page' : undefined}
-                      aria-haspopup={hasMega ? 'menu' : undefined}
-                      aria-expanded={hasMega ? activeMegaMenu === item.key : undefined}
+                      aria-current={active ? "page" : undefined}
+                      aria-haspopup={hasMega ? "menu" : undefined}
+                      aria-expanded={
+                        hasMega ? activeMegaMenu === item.key : undefined
+                      }
                       className={cn(
-                        'relative inline-flex items-center gap-1 px-3 py-2 rounded-full',
-                        'text-sm font-semibold transition-all duration-150 whitespace-nowrap',
+                        "relative inline-flex items-center gap-1 px-3 py-2 rounded-full",
+                        "text-sm font-semibold transition-all duration-150 whitespace-nowrap",
                         active
-                          ? 'text-bontera-navy-700 bg-bontera-navy-50/70'
-                          : 'text-bontera-grey-700 hover:text-bontera-navy-700 hover:bg-bontera-grey-100/70'
+                          ? "text-bontera-navy-700 bg-bontera-navy-50/70"
+                          : "text-bontera-grey-700 hover:text-bontera-navy-700 hover:bg-bontera-grey-100/70",
                       )}
                     >
                       {t(item.key)}
                       {hasMega && (
-                        <span className={cn('transition-transform duration-200 flex-shrink-0', activeMegaMenu === item.key && 'rotate-180')}>
+                        <span
+                          className={cn(
+                            "transition-transform duration-200 flex-shrink-0",
+                            activeMegaMenu === item.key && "rotate-180",
+                          )}
+                        >
                           {Icons.chevronDown}
                         </span>
                       )}
@@ -500,10 +719,12 @@ export default function Header() {
                       <span
                         aria-hidden="true"
                         className={cn(
-                          'absolute left-1/2 -translate-x-1/2 -bottom-[12px]',
-                          'h-[2px] w-7 rounded-full bg-bontera-navy-600',
-                          'transition-all duration-200',
-                          active ? 'opacity-100 scale-x-100' : 'opacity-0 scale-x-75'
+                          "absolute left-1/2 -translate-x-1/2 -bottom-[12px]",
+                          "h-[2px] w-7 rounded-full bg-bontera-navy-600",
+                          "transition-all duration-200",
+                          active
+                            ? "opacity-100 scale-x-100"
+                            : "opacity-0 scale-x-75",
                         )}
                       />
                     </Link>
@@ -511,14 +732,22 @@ export default function Header() {
                     {/* Mega Menu Dropdown */}
                     {hasMega && activeMegaMenu === item.key && (
                       <div
-                        className={cn('absolute top-full left-1/2 -translate-x-1/2 pt-4', 'animate-bontera-fade-in')}
+                        className={cn(
+                          "absolute top-full left-1/2 -translate-x-1/2 pt-4",
+                          "animate-bontera-fade-in",
+                        )}
                         onMouseEnter={() => handleMegaMenuEnter(item.key)}
                         onMouseLeave={handleMegaMenuLeave}
                       >
-                        {item.megaMenuType === 'services' && (
-                          <ServicesMegaMenu items={serviceItems} locale={currentLocale} t={tHeader} onClose={() => setActiveMegaMenu(null)} />
+                        {item.megaMenuType === "services" && (
+                          <ServicesMegaMenu
+                            items={serviceItems}
+                            locale={currentLocale}
+                            t={tHeader}
+                            onClose={() => setActiveMegaMenu(null)}
+                          />
                         )}
-                        {item.megaMenuType === 'projects' && (
+                        {item.megaMenuType === "projects" && (
                           <ProjectsMegaMenu
                             categories={projectCategories}
                             locale={currentLocale}
@@ -526,8 +755,13 @@ export default function Header() {
                             onClose={() => setActiveMegaMenu(null)}
                           />
                         )}
-                        {item.megaMenuType === 'company' && (
-                          <CompanyMegaMenu links={companyLinks} locale={currentLocale} t={tHeader} onClose={() => setActiveMegaMenu(null)} />
+                        {item.megaMenuType === "company" && (
+                          <CompanyMegaMenu
+                            links={companyLinks}
+                            locale={currentLocale}
+                            t={tHeader}
+                            onClose={() => setActiveMegaMenu(null)}
+                          />
                         )}
                       </div>
                     )}
@@ -542,14 +776,14 @@ export default function Header() {
               <button
                 type="button"
                 onClick={() => setIsSearchOpen(true)}
-                aria-label={tHeader('search')}
+                aria-label={tHeader("search")}
                 className={cn(
-                  'hidden sm:inline-flex items-center justify-center',
-                  'h-10 w-10 rounded-full',
-                  'text-bontera-grey-700 hover:text-bontera-navy-700',
-                  'bg-bontera-grey-100/80 hover:bg-bontera-grey-200/80',
-                  'border border-bontera-grey-200/80',
-                  'transition-colors duration-150'
+                  "hidden sm:inline-flex items-center justify-center",
+                  "h-10 w-10 rounded-full",
+                  "text-bontera-grey-700 hover:text-bontera-navy-700",
+                  "bg-bontera-grey-100/80 hover:bg-bontera-grey-200/80",
+                  "border border-bontera-grey-200/80",
+                  "transition-colors duration-150",
                 )}
               >
                 {Icons.search}
@@ -563,17 +797,24 @@ export default function Header() {
                   aria-haspopup="menu"
                   aria-expanded={isLangMenuOpen}
                   className={cn(
-                    'inline-flex items-center gap-1.5',
-                    'h-10 px-3 rounded-full',
-                    'text-sm font-semibold',
-                    'text-bontera-grey-800 hover:text-bontera-navy-700',
-                    'bg-bontera-grey-100/80 hover:bg-bontera-grey-200/80',
-                    'border border-bontera-grey-200/80',
-                    'transition-colors duration-150'
+                    "inline-flex items-center gap-1.5",
+                    "h-10 px-3 rounded-full",
+                    "text-sm font-semibold",
+                    "text-bontera-grey-800 hover:text-bontera-navy-700",
+                    "bg-bontera-grey-100/80 hover:bg-bontera-grey-200/80",
+                    "border border-bontera-grey-200/80",
+                    "transition-colors duration-150",
                   )}
                 >
-                  <span className="tracking-wide">{localeShortNames[currentLocale]}</span>
-                  <span className={cn('text-bontera-grey-500 transition-transform duration-200', isLangMenuOpen && 'rotate-180')}>
+                  <span className="tracking-wide">
+                    {localeShortNames[currentLocale]}
+                  </span>
+                  <span
+                    className={cn(
+                      "text-bontera-grey-500 transition-transform duration-200",
+                      isLangMenuOpen && "rotate-180",
+                    )}
+                  >
                     {Icons.chevronDown}
                   </span>
                 </button>
@@ -583,16 +824,16 @@ export default function Header() {
                   <div
                     role="menu"
                     className={cn(
-                      'absolute right-0 mt-3 w-60',
-                      'rounded-2xl bg-white',
-                      'border border-bontera-grey-200',
-                      'shadow-[0_16px_48px_rgba(15,23,42,0.14)]',
-                      'overflow-hidden',
-                      'animate-bontera-fade-in'
+                      "absolute right-0 mt-3 w-60",
+                      "rounded-2xl bg-white",
+                      "border border-bontera-grey-200",
+                      "shadow-[0_16px_48px_rgba(15,23,42,0.14)]",
+                      "overflow-hidden",
+                      "animate-bontera-fade-in",
                     )}
                   >
                     <div className="px-4 pt-3 pb-2 text-xs font-semibold uppercase tracking-wider text-bontera-grey-400">
-                      {tHeader('selectLanguage')}
+                      {tHeader("selectLanguage")}
                     </div>
                     <div className="pb-2">
                       {locales.map((locale) => {
@@ -604,18 +845,25 @@ export default function Header() {
                             onClick={() => setIsLangMenuOpen(false)}
                             role="menuitem"
                             className={cn(
-                              'flex items-center justify-between px-4 py-2.5 text-sm',
-                              'transition-colors duration-150',
+                              "flex items-center justify-between px-4 py-2.5 text-sm",
+                              "transition-colors duration-150",
                               selected
-                                ? 'bg-bontera-navy-50 text-bontera-navy-700'
-                                : 'text-bontera-grey-800 hover:bg-bontera-grey-50 hover:text-bontera-grey-950'
+                                ? "bg-bontera-navy-50 text-bontera-navy-700"
+                                : "text-bontera-grey-800 hover:bg-bontera-grey-50 hover:text-bontera-grey-950",
                             )}
                           >
                             <span className="font-semibold">
                               {localeShortNames[locale]}
-                              <span className="ml-2 font-normal text-bontera-grey-500">{localeLabels[locale]}</span>
+                              <span className="ml-2 font-normal text-bontera-grey-500">
+                                {localeLabels[locale]}
+                              </span>
                             </span>
-                            {selected && <span className="h-2 w-2 rounded-full bg-bontera-navy-600" aria-hidden="true" />}
+                            {selected && (
+                              <span
+                                className="h-2 w-2 rounded-full bg-bontera-navy-600"
+                                aria-hidden="true"
+                              />
+                            )}
                           </Link>
                         );
                       })}
@@ -628,48 +876,50 @@ export default function Header() {
               <Link
                 href={quoteHref}
                 className={cn(
-                  'hidden xl:inline-flex items-center justify-center',
-                  'h-10 px-4 rounded-full',
-                  'bg-bontera-grey-100/80 hover:bg-bontera-grey-200/80',
-                  'text-bontera-grey-800 hover:text-bontera-navy-700',
-                  'text-sm font-semibold whitespace-nowrap',
-                  'border border-bontera-grey-200/80',
-                  'transition-colors duration-150'
+                  "hidden xl:inline-flex items-center justify-center",
+                  "h-10 px-4 rounded-full",
+                  "bg-bontera-grey-100/80 hover:bg-bontera-grey-200/80",
+                  "text-bontera-grey-800 hover:text-bontera-navy-700",
+                  "text-sm font-semibold whitespace-nowrap",
+                  "border border-bontera-grey-200/80",
+                  "transition-colors duration-150",
                 )}
               >
-                {tHeader('requestQuote')}
+                {tHeader("requestQuote")}
               </Link>
 
               {/* Primary Contact CTA */}
               <Link
                 href={contactHref}
                 className={cn(
-                  'hidden lg:inline-flex items-center justify-center gap-2',
-                  'h-10 px-4 rounded-full',
-                  'bg-bontera-navy-600 hover:bg-bontera-navy-700',
-                  'text-white text-sm font-semibold whitespace-nowrap',
-                  'shadow-[0_6px_18px_rgba(15,23,42,0.16)] hover:shadow-[0_10px_26px_rgba(15,23,42,0.18)]',
-                  'ring-1 ring-bontera-navy-600/10 hover:ring-bontera-navy-600/20',
-                  'transition-all duration-150'
+                  "hidden lg:inline-flex items-center justify-center gap-2",
+                  "h-10 px-4 rounded-full",
+                  "bg-bontera-navy-600 hover:bg-bontera-navy-700",
+                  "text-white text-sm font-semibold whitespace-nowrap",
+                  "shadow-[0_6px_18px_rgba(15,23,42,0.16)] hover:shadow-[0_10px_26px_rgba(15,23,42,0.18)]",
+                  "ring-1 ring-bontera-navy-600/10 hover:ring-bontera-navy-600/20",
+                  "transition-all duration-150",
                 )}
               >
-                {t('contact')}
-                <span className={isRTL ? 'rotate-180' : ''}>{Icons.arrowRight}</span>
+                {t("contact")}
+                <span className={isRTL ? "rotate-180" : ""}>
+                  {Icons.arrowRight}
+                </span>
               </Link>
 
               {/* Mobile Menu Toggle */}
               <button
                 type="button"
                 onClick={() => setIsMobileMenuOpen((v) => !v)}
-                aria-label={isMobileMenuOpen ? 'Close menu' : 'Open menu'}
+                aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"}
                 aria-expanded={isMobileMenuOpen}
                 className={cn(
-                  'lg:hidden inline-flex items-center justify-center',
-                  'h-10 w-10 rounded-full',
-                  'border border-bontera-grey-200/80',
-                  'bg-white/80 hover:bg-bontera-grey-50',
-                  'text-bontera-grey-800 hover:text-bontera-navy-700',
-                  'transition-colors duration-150'
+                  "lg:hidden inline-flex items-center justify-center",
+                  "h-10 w-10 rounded-full",
+                  "border border-bontera-grey-200/80",
+                  "bg-white/80 hover:bg-bontera-grey-50",
+                  "text-bontera-grey-800 hover:text-bontera-navy-700",
+                  "transition-colors duration-150",
                 )}
               >
                 {isMobileMenuOpen ? Icons.close : Icons.menu}
@@ -691,7 +941,7 @@ export default function Header() {
                   type="search"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  placeholder={tHeader('searchPlaceholder')}
+                  placeholder={tHeader("searchPlaceholder")}
                   className="flex-1 text-lg text-bontera-grey-900 placeholder:text-bontera-grey-400 outline-none bg-transparent"
                 />
                 <button
@@ -706,24 +956,28 @@ export default function Header() {
 
               <div className="px-6 py-4">
                 <div className="text-xs font-semibold uppercase tracking-wider text-bontera-grey-400 mb-3">
-                  {tHeader('quickLinks')}
+                  {tHeader("quickLinks")}
                 </div>
                 <div className="flex flex-wrap gap-2">
-                  {['Services', 'Projects', 'Careers', 'Contact'].map((link) => (
-                    <Link
-                      key={link}
-                      href={`/${currentLocale}/${link.toLowerCase()}`}
-                      onClick={() => setIsSearchOpen(false)}
-                      className="px-3 py-1.5 rounded-full text-sm font-semibold text-bontera-grey-700 bg-bontera-grey-100 hover:bg-bontera-navy-50 hover:text-bontera-navy-700 transition-colors"
-                    >
-                      {link}
-                    </Link>
-                  ))}
+                  {["Services", "Projects", "Careers", "Contact"].map(
+                    (link) => (
+                      <Link
+                        key={link}
+                        href={`/${currentLocale}/${link.toLowerCase()}`}
+                        onClick={() => setIsSearchOpen(false)}
+                        className="px-3 py-1.5 rounded-full text-sm font-semibold text-bontera-grey-700 bg-bontera-grey-100 hover:bg-bontera-navy-50 hover:text-bontera-navy-700 transition-colors"
+                      >
+                        {link}
+                      </Link>
+                    ),
+                  )}
                 </div>
               </div>
             </div>
 
-            <p className="mt-4 text-center text-sm text-bontera-grey-400">{tHeader('pressEsc')}</p>
+            <p className="mt-4 text-center text-sm text-bontera-grey-400">
+              {tHeader("pressEsc")}
+            </p>
           </div>
         </div>
       )}
@@ -777,7 +1031,7 @@ function ServicesMegaMenu({
         {/* Services Grid */}
         <div className="p-6">
           <div className="text-xs font-semibold uppercase tracking-wider text-bontera-grey-400 mb-4">
-            {t('ourServices')}
+            {t("ourServices")}
           </div>
 
           <div className="grid grid-cols-2 gap-2">
@@ -787,8 +1041,8 @@ function ServicesMegaMenu({
                 href={item.href}
                 onClick={onClose}
                 className={cn(
-                  'group flex items-start gap-3 p-3 rounded-xl',
-                  'hover:bg-bontera-grey-50 transition-colors'
+                  "group flex items-start gap-3 p-3 rounded-xl",
+                  "hover:bg-bontera-grey-50 transition-colors",
                 )}
               >
                 <span className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-xl bg-bontera-navy-50 text-bontera-navy-600 group-hover:bg-bontera-navy-100 transition-colors">
@@ -811,7 +1065,7 @@ function ServicesMegaMenu({
         {/* Featured / CTA Panel */}
         <div className="bg-bontera-navy-50 p-6 border-l border-bontera-grey-200">
           <div className="text-xs font-semibold uppercase tracking-wider text-bontera-navy-700 mb-4">
-            {t('featured')}
+            {t("featured")}
           </div>
 
           <div className="rounded-xl overflow-hidden mb-4 ring-1 ring-bontera-grey-200">
@@ -825,10 +1079,10 @@ function ServicesMegaMenu({
           </div>
 
           <h4 className="text-sm font-semibold text-bontera-grey-950 mb-2">
-            {t('sustainableBuilding')}
+            {t("sustainableBuilding")}
           </h4>
           <p className="text-xs text-bontera-grey-600 mb-4 leading-relaxed">
-            {t('sustainableBuildingDesc')}
+            {t("sustainableBuildingDesc")}
           </p>
 
           <Link
@@ -836,7 +1090,7 @@ function ServicesMegaMenu({
             onClick={onClose}
             className="inline-flex items-center gap-2 text-sm font-semibold text-bontera-navy-700 hover:text-bontera-navy-800"
           >
-            {t('viewAllServices')}
+            {t("viewAllServices")}
             {Icons.arrowRight}
           </Link>
         </div>
@@ -862,7 +1116,7 @@ function ProjectsMegaMenu({
         {/* Categories */}
         <div className="p-6">
           <div className="text-xs font-semibold uppercase tracking-wider text-bontera-grey-400 mb-4">
-            {t('projectCategories')}
+            {t("projectCategories")}
           </div>
 
           <div className="space-y-1">
@@ -889,7 +1143,7 @@ function ProjectsMegaMenu({
               onClick={onClose}
               className="inline-flex items-center gap-2 text-sm font-semibold text-bontera-navy-700 hover:text-bontera-navy-800"
             >
-              {t('viewAllProjects')}
+              {t("viewAllProjects")}
               {Icons.arrowRight}
             </Link>
           </div>
@@ -898,7 +1152,7 @@ function ProjectsMegaMenu({
         {/* Featured Project */}
         <div className="bg-bontera-grey-50 p-6 border-l border-bontera-grey-200">
           <div className="text-xs font-semibold uppercase tracking-wider text-bontera-grey-400 mb-4">
-            {t('featuredProject')}
+            {t("featuredProject")}
           </div>
 
           <div className="rounded-xl overflow-hidden mb-4 ring-1 ring-bontera-grey-200">
@@ -912,16 +1166,16 @@ function ProjectsMegaMenu({
           </div>
 
           <h4 className="text-sm font-semibold text-bontera-grey-950 mb-1">
-            {t('featuredProjectTitle')}
+            {t("featuredProjectTitle")}
           </h4>
           <p className="text-xs text-bontera-grey-600 mb-3">
-            {t('featuredProjectLocation')}
+            {t("featuredProjectLocation")}
           </p>
 
           <div className="flex items-center gap-4 text-xs text-bontera-grey-700">
             <span className="inline-flex items-center gap-1">
               <span className="h-2 w-2 rounded-full bg-emerald-500" />
-              {t('completed')}
+              {t("completed")}
             </span>
             <span>2024</span>
           </div>
@@ -948,7 +1202,7 @@ function CompanyMegaMenu({
         {/* Company Links */}
         <div className="p-6">
           <div className="text-xs font-semibold uppercase tracking-wider text-bontera-grey-400 mb-4">
-            {t('aboutBontera')}
+            {t("aboutBontera")}
           </div>
 
           <div className="space-y-1">
@@ -968,19 +1222,21 @@ function CompanyMegaMenu({
         {/* Stats / Quick Facts */}
         <div className="bg-bontera-navy-700 p-6 text-white">
           <div className="text-xs font-semibold uppercase tracking-wider text-bontera-navy-200 mb-4">
-            {t('byTheNumbers')}
+            {t("byTheNumbers")}
           </div>
 
           <div className="space-y-4">
             {[
-              { value: '20+', label: t('yearsExperience') },
-              { value: '70+', label: t('projectsCompleted') },
-              { value: '12', label: t('countriesOperating') },
-              { value: '1200+', label: t('teamMembers') },
+              { value: "20+", label: t("yearsExperience") },
+              { value: "70+", label: t("projectsCompleted") },
+              { value: "12", label: t("countriesOperating") },
+              { value: "1200+", label: t("teamMembers") },
             ].map((stat) => (
               <div key={stat.label}>
                 <div className="text-2xl font-bold">{stat.value}</div>
-                <div className="text-xs text-bontera-navy-200">{stat.label}</div>
+                <div className="text-xs text-bontera-navy-200">
+                  {stat.label}
+                </div>
               </div>
             ))}
           </div>
@@ -1022,7 +1278,10 @@ function MobileMenu({
   return (
     <div className="lg:hidden fixed inset-0 z-[60]">
       {/* Backdrop */}
-      <div className="absolute inset-0 bg-bontera-grey-900/40 backdrop-blur-sm" onClick={onClose} />
+      <div
+        className="absolute inset-0 bg-bontera-grey-900/40 backdrop-blur-sm"
+        onClick={onClose}
+      />
 
       {/* Panel */}
       <div className="absolute inset-y-0 right-0 w-full max-w-md bg-white shadow-[0_0_60px_rgba(15,23,42,0.22)] animate-bontera-slide-in-right overflow-y-auto">
@@ -1057,7 +1316,7 @@ function MobileMenu({
             <span className="text-bontera-grey-400">{Icons.search}</span>
             <input
               type="search"
-              placeholder={tHeader('searchPlaceholder')}
+              placeholder={tHeader("searchPlaceholder")}
               className="flex-1 text-sm bg-transparent outline-none text-bontera-grey-900 placeholder:text-bontera-grey-400"
             />
           </div>
@@ -1078,24 +1337,33 @@ function MobileMenu({
                       href={item.href}
                       onClick={() => !hasSubmenu && onClose()}
                       className={cn(
-                        'flex-1 flex items-center justify-between px-4 py-3 rounded-xl text-sm font-semibold transition-colors',
+                        "flex-1 flex items-center justify-between px-4 py-3 rounded-xl text-sm font-semibold transition-colors",
                         active
-                          ? 'bg-bontera-navy-50 text-bontera-navy-700'
-                          : 'text-bontera-grey-800 hover:bg-bontera-grey-50 hover:text-bontera-navy-700'
+                          ? "bg-bontera-navy-50 text-bontera-navy-700"
+                          : "text-bontera-grey-800 hover:bg-bontera-grey-50 hover:text-bontera-navy-700",
                       )}
                     >
                       <span>{t(item.key)}</span>
-                      {active && !hasSubmenu && <span className="h-2 w-2 rounded-full bg-bontera-navy-600" />}
+                      {active && !hasSubmenu && (
+                        <span className="h-2 w-2 rounded-full bg-bontera-navy-600" />
+                      )}
                     </Link>
 
                     {hasSubmenu && (
                       <button
                         type="button"
-                        onClick={() => setExpandedSection(isExpanded ? null : item.key)}
+                        onClick={() =>
+                          setExpandedSection(isExpanded ? null : item.key)
+                        }
                         className="h-10 w-10 flex items-center justify-center text-bontera-grey-500 hover:text-bontera-grey-700"
-                        aria-label={isExpanded ? 'Collapse' : 'Expand'}
+                        aria-label={isExpanded ? "Collapse" : "Expand"}
                       >
-                        <span className={cn('transition-transform duration-200', isExpanded && 'rotate-180')}>
+                        <span
+                          className={cn(
+                            "transition-transform duration-200",
+                            isExpanded && "rotate-180",
+                          )}
+                        >
                           {Icons.chevronDown}
                         </span>
                       </button>
@@ -1105,7 +1373,7 @@ function MobileMenu({
                   {/* Submenu */}
                   {hasSubmenu && isExpanded && (
                     <div className="mt-1 ml-4 pl-4 border-l-2 border-bontera-grey-200 space-y-1">
-                      {item.megaMenuType === 'services' &&
+                      {item.megaMenuType === "services" &&
                         serviceItems.map((s) => (
                           <Link
                             key={s.key}
@@ -1117,7 +1385,7 @@ function MobileMenu({
                           </Link>
                         ))}
 
-                      {item.megaMenuType === 'projects' &&
+                      {item.megaMenuType === "projects" &&
                         projectCategories.map((p) => (
                           <Link
                             key={p.key}
@@ -1129,7 +1397,7 @@ function MobileMenu({
                           </Link>
                         ))}
 
-                      {item.megaMenuType === 'company' &&
+                      {item.megaMenuType === "company" &&
                         companyLinks.map((c) => (
                           <Link
                             key={c.key}
@@ -1155,7 +1423,7 @@ function MobileMenu({
             onClick={onClose}
             className="flex items-center justify-center h-12 w-full rounded-xl bg-bontera-grey-100 text-bontera-grey-800 hover:bg-bontera-grey-200 text-sm font-semibold transition-colors"
           >
-            {tHeader('requestQuote')}
+            {tHeader("requestQuote")}
           </Link>
 
           <Link
@@ -1163,7 +1431,7 @@ function MobileMenu({
             onClick={onClose}
             className="flex items-center justify-center gap-2 h-12 w-full rounded-xl bg-bontera-navy-600 hover:bg-bontera-navy-700 text-white text-sm font-semibold shadow-[0_6px_18px_rgba(15,23,42,0.16)] transition-colors"
           >
-            {t('contact')}
+            {t("contact")}
             {Icons.arrowRight}
           </Link>
         </div>
@@ -1171,7 +1439,7 @@ function MobileMenu({
         {/* Language Selector */}
         <div className="px-5 py-4 border-t border-bontera-grey-200">
           <div className="text-xs font-semibold uppercase tracking-wider text-bontera-grey-400 mb-3">
-            {tHeader('selectLanguage')}
+            {tHeader("selectLanguage")}
           </div>
           <div className="grid grid-cols-3 gap-2">
             {locales.map((locale) => {
@@ -1182,10 +1450,10 @@ function MobileMenu({
                   href={getLocalizedPath(locale)}
                   onClick={onClose}
                   className={cn(
-                    'px-3 py-2.5 rounded-xl border text-sm font-semibold text-center transition-colors',
+                    "px-3 py-2.5 rounded-xl border text-sm font-semibold text-center transition-colors",
                     selected
-                      ? 'border-bontera-navy-300 bg-bontera-navy-50 text-bontera-navy-700'
-                      : 'border-bontera-grey-200 bg-white text-bontera-grey-800 hover:bg-bontera-grey-50 hover:text-bontera-navy-700'
+                      ? "border-bontera-navy-300 bg-bontera-navy-50 text-bontera-navy-700"
+                      : "border-bontera-grey-200 bg-white text-bontera-grey-800 hover:bg-bontera-grey-50 hover:text-bontera-navy-700",
                   )}
                 >
                   {localeShortNames[locale]}
@@ -1198,13 +1466,16 @@ function MobileMenu({
         {/* Contact Info */}
         <div className="px-5 py-4 border-t border-bontera-grey-200 bg-bontera-grey-50">
           <div className="text-xs font-semibold uppercase tracking-wider text-bontera-grey-400 mb-3">
-            {tHeader('contactInfo')}
+            {tHeader("contactInfo")}
           </div>
 
           <div className="space-y-3">
-            <a href="tel:+1234567890" className="flex items-center gap-3 text-sm text-bontera-grey-800 hover:text-bontera-navy-700">
+            <a
+              href="tel:+1234567890"
+              className="flex items-center gap-3 text-sm text-bontera-grey-800 hover:text-bontera-navy-700"
+            >
               {Icons.phone}
-              <span>+49 30 123 456 7890</span>
+              <span>+32 477 37 75 44</span>
             </a>
 
             <a
@@ -1223,9 +1494,12 @@ function MobileMenu({
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75" />
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-amber-500" />
               </span>
-              {tHeader('emergency24')}
+              {tHeader("emergency24")}
             </div>
-            <a href="tel:+1800BONTERA" className="text-sm text-amber-700 mt-1 block">
+            <a
+              href="tel:+1800BONTERA"
+              className="text-sm text-amber-700 mt-1 block"
+            >
               1-800-BONTERA
             </a>
           </div>
@@ -1235,8 +1509,8 @@ function MobileMenu({
         <div className="px-5 py-4 border-t border-bontera-grey-200">
           <div className="flex items-center justify-center gap-2">
             {[
-              { icon: Icons.linkedin, href: '#', label: 'LinkedIn' },
-              { icon: Icons.instagram, href: '#', label: 'Instagram' },
+              { icon: Icons.linkedin, href: "#", label: "LinkedIn" },
+              { icon: Icons.instagram, href: "#", label: "Instagram" },
             ].map((social) => (
               <a
                 key={social.label}

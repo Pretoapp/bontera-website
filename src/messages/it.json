@@ -81,7 +81,7 @@
           "description": "Innovazione continua, posizionamento premium e crescita attorno a progetti sostenibili e ad alto valore."
         }
       }
-     },
+    },
     "achievements": {
       "eyebrow": "In numeri",
       "title": "I nostri risultati",
@@ -437,7 +437,6 @@
       "description": "Essere il partner di fiducia per costruzioni e immobiliare in Europa, riconosciuto per progetti che uniscono qualità, sostenibilità e creazione di valore nel lungo periodo."
     },
 
-    
     "values": {
       "eyebrow": "I nostri principi",
       "title": "I nostri valori fondamentali",
@@ -940,7 +939,7 @@
         },
         "phone": {
           "label": "Numero di telefono",
-          "placeholder": "+49 30 123 456 7890"
+          "placeholder": "+32 477 37 75 44"
         },
         "company": {
           "label": "Nome azienda",
@@ -1331,7 +1330,7 @@
     }
   },
 
-    "quotePage": {
+  "quotePage": {
     "meta": {
       "title": "Richiedi un preventivo | Bontera Construction",
       "description": "Ottieni un preventivo gratuito e senza impegno per il tuo progetto. Descrivi la tua visione e ricevi una proposta dettagliata entro 48 ore."
@@ -1990,4 +1989,3 @@
     }
   }
 }
-

@@ -26,7 +26,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "quotePage" });
 
-
   return {
     title: t("meta.title"),
     description: t("meta.description"),
@@ -83,12 +82,7 @@ const whyChooseUs = [
   },
 ];
 
-const faqs = [
-  "timeline",
-  "cost",
-  "included",
-  "changes",
-];
+const faqs = ["timeline", "cost", "included", "changes"];
 
 /* ═══════════════════════════════════════════════════════════════════════════
    MAIN PAGE COMPONENT
@@ -102,7 +96,6 @@ export default async function QuotePage({ params }: Props) {
 
   return (
     <main className="bg-bontera-grey-50" dir={isRTL ? "rtl" : "ltr"}>
-
       {/* ═══════════════════════════════════════════════════════════════════
           HERO SECTION
       ═══════════════════════════════════════════════════════════════════ */}
@@ -135,8 +128,6 @@ export default async function QuotePage({ params }: Props) {
           />
         </div>
 
-        
-
         {/* Content */}
         <div className="relative z-10 w-full pb-16 lg:pb-24">
           <div className="max-w-[1600px] mx-auto px-6 lg:px-16">
@@ -144,16 +135,31 @@ export default async function QuotePage({ params }: Props) {
             <nav className="mb-2" aria-label="Breadcrumb">
               <ol className="flex items-center gap-2 text-sm text-bontera-grey-400">
                 <li>
-                  <Link href={`/${locale}`} className="hover:text-white transition-colors">
+                  <Link
+                    href={`/${locale}`}
+                    className="hover:text-white transition-colors"
+                  >
                     {t("breadcrumb.home")}
                   </Link>
                 </li>
                 <li>
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  <svg
+                    className="w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M9 5l7 7-7 7"
+                    />
                   </svg>
                 </li>
-                <li className="text-white font-medium">{t("breadcrumb.quote")}</li>
+                <li className="text-white font-medium">
+                  {t("breadcrumb.quote")}
+                </li>
               </ol>
             </nav>
 
@@ -178,20 +184,44 @@ export default async function QuotePage({ params }: Props) {
             {/* Trust Indicators */}
             <div className="mt-10 flex flex-wrap items-center gap-8">
               <div className="flex items-center gap-2 text-bontera-grey-300">
-                <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                <svg
+                  className="w-5 h-5 text-green-400"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                    clipRule="evenodd"
+                  />
                 </svg>
                 {t("hero.trust.free")}
               </div>
               <div className="flex items-center gap-2 text-bontera-grey-300">
-                <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                <svg
+                  className="w-5 h-5 text-green-400"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                    clipRule="evenodd"
+                  />
                 </svg>
                 {t("hero.trust.response")}
               </div>
               <div className="flex items-center gap-2 text-bontera-grey-300">
-                <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                <svg
+                  className="w-5 h-5 text-green-400"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                    clipRule="evenodd"
+                  />
                 </svg>
                 {t("hero.trust.obligation")}
               </div>
@@ -231,12 +261,18 @@ export default async function QuotePage({ params }: Props) {
             <div className="space-y-8">
               {/* Why Choose Us Card */}
               <div className="bg-bontera-navy-900 p-8 text-white">
-                <h3 className="text-xl font-semibold mb-6">{t("sidebar.whyUs.title")}</h3>
+                <h3 className="text-xl font-semibold mb-6">
+                  {t("sidebar.whyUs.title")}
+                </h3>
                 <div className="grid grid-cols-2 gap-6">
                   {whyChooseUs.map((item) => (
                     <div key={item.key}>
-                      <div className="text-3xl font-bold text-gray-400">{item.value}</div>
-                      <div className="text-sm text-bontera-grey-300 mt-1">{t(`sidebar.whyUs.${item.key}`)}</div>
+                      <div className="text-3xl font-bold text-gray-400">
+                        {item.value}
+                      </div>
+                      <div className="text-sm text-bontera-grey-300 mt-1">
+                        {t(`sidebar.whyUs.${item.key}`)}
+                      </div>
                     </div>
                   ))}
                 </div>
@@ -244,43 +280,92 @@ export default async function QuotePage({ params }: Props) {
 
               {/* Contact Card */}
               <div className="bg-bontera-grey-50 p-8 border border-bontera-grey-200">
-                <h3 className="text-lg font-semibold text-bontera-grey-900 mb-4">{t("sidebar.contact.title")}</h3>
-                <p className="text-sm text-bontera-grey-600 mb-6">{t("sidebar.contact.description")}</p>
-                
+                <h3 className="text-lg font-semibold text-bontera-grey-900 mb-4">
+                  {t("sidebar.contact.title")}
+                </h3>
+                <p className="text-sm text-bontera-grey-600 mb-6">
+                  {t("sidebar.contact.description")}
+                </p>
+
                 <div className="space-y-4">
-                  <a href="tel:+49 30 123 456 7890" className="flex items-center gap-3 text-bontera-grey-700 hover:text-bontera-navy-600 transition-colors">
+                  <a
+                    href="tel:+32 477 37 75 44"
+                    className="flex items-center gap-3 text-bontera-grey-700 hover:text-bontera-navy-600 transition-colors"
+                  >
                     <div className="w-10 h-10 bg-bontera-navy-100 text-bontera-navy-600 flex items-center justify-center">
-                      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                      <svg
+                        className="w-5 h-5"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
+                        />
                       </svg>
                     </div>
                     <div>
-                      <div className="text-xs text-bontera-grey-500">{t("sidebar.contact.phone")}</div>
-                      <div className="font-semibold">+49 30 123 456 7890</div>
+                      <div className="text-xs text-bontera-grey-500">
+                        {t("sidebar.contact.phone")}
+                      </div>
+                      <div className="font-semibold">+32 477 37 75 44</div>
                     </div>
                   </a>
 
-                  <a href="mailto:quotes@bontera.de" className="flex items-center gap-3 text-bontera-grey-700 hover:text-bontera-navy-600 transition-colors">
+                  <a
+                    href="mailto:quotes@bontera.de"
+                    className="flex items-center gap-3 text-bontera-grey-700 hover:text-bontera-navy-600 transition-colors"
+                  >
                     <div className="w-10 h-10 bg-bontera-navy-100 text-bontera-navy-600 flex items-center justify-center">
-                      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                      <svg
+                        className="w-5 h-5"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
+                        />
                       </svg>
                     </div>
                     <div>
-                      <div className="text-xs text-bontera-grey-500">{t("sidebar.contact.email")}</div>
+                      <div className="text-xs text-bontera-grey-500">
+                        {t("sidebar.contact.email")}
+                      </div>
                       <div className="font-semibold">quotes@bontera.de</div>
                     </div>
                   </a>
 
-                  <a href="https://wa.me/971501234567" className="flex items-center gap-3 text-bontera-grey-700 hover:text-bontera-navy-600 transition-colors">
+                  <a
+                    href="https://wa.me/971501234567"
+                    className="flex items-center gap-3 text-bontera-grey-700 hover:text-bontera-navy-600 transition-colors"
+                  >
                     <div className="w-10 h-10 bg-bontera-navy-100 text-bontera-navy-600 flex items-center justify-center">
-                      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M12 20.25c4.556 0 8.25-3.694 8.25-8.25S16.556 3.75 12 3.75 3.75 7.444 3.75 12c0 1.545.426 2.99 1.166 4.225L3.75 20.25l4.025-1.166A8.206 8.206 0 0012 20.25z" />
+                      <svg
+                        className="w-5 h-5"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M12 20.25c4.556 0 8.25-3.694 8.25-8.25S16.556 3.75 12 3.75 3.75 7.444 3.75 12c0 1.545.426 2.99 1.166 4.225L3.75 20.25l4.025-1.166A8.206 8.206 0 0012 20.25z"
+                        />
                       </svg>
                     </div>
                     <div>
-                      <div className="text-xs text-bontera-grey-500">{t("sidebar.contact.whatsapp")}</div>
-                      <div className="font-semibold">+49 30 123 456 7890</div>
+                      <div className="text-xs text-bontera-grey-500">
+                        {t("sidebar.contact.whatsapp")}
+                      </div>
+                      <div className="font-semibold">+32 477 37 75 44</div>
                     </div>
                   </a>
                 </div>
@@ -288,19 +373,33 @@ export default async function QuotePage({ params }: Props) {
 
               {/* Office Hours Card */}
               <div className="bg-bontera-grey-50 p-8 border border-bontera-grey-200">
-                <h3 className="text-lg font-semibold text-bontera-grey-900 mb-4">{t("sidebar.hours.title")}</h3>
+                <h3 className="text-lg font-semibold text-bontera-grey-900 mb-4">
+                  {t("sidebar.hours.title")}
+                </h3>
                 <div className="space-y-3 text-sm">
                   <div className="flex justify-between">
-                    <span className="text-bontera-grey-600">{t("sidebar.hours.weekdays")}</span>
-                    <span className="font-semibold text-bontera-grey-900">8:00 AM - 6:00 PM</span>
+                    <span className="text-bontera-grey-600">
+                      {t("sidebar.hours.weekdays")}
+                    </span>
+                    <span className="font-semibold text-bontera-grey-900">
+                      8:00 AM - 6:00 PM
+                    </span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-bontera-grey-600">{t("sidebar.hours.saturday")}</span>
-                    <span className="font-semibold text-bontera-grey-900">9:00 AM - 2:00 PM</span>
+                    <span className="text-bontera-grey-600">
+                      {t("sidebar.hours.saturday")}
+                    </span>
+                    <span className="font-semibold text-bontera-grey-900">
+                      9:00 AM - 2:00 PM
+                    </span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-bontera-grey-600">{t("sidebar.hours.sunday")}</span>
-                    <span className="font-semibold text-bontera-grey-500">{t("sidebar.hours.closed")}</span>
+                    <span className="text-bontera-grey-600">
+                      {t("sidebar.hours.sunday")}
+                    </span>
+                    <span className="font-semibold text-bontera-grey-500">
+                      {t("sidebar.hours.closed")}
+                    </span>
                   </div>
                 </div>
               </div>
@@ -335,7 +434,14 @@ export default async function QuotePage({ params }: Props) {
               <div key={step.key} className="relative">
                 {/* Connector Line */}
                 {index < processSteps.length - 1 && (
-                  <div className={`hidden lg:block absolute top-10 ${isRTL ? "right-0 -left-8" : "left-full -right-8"} h-px bg-bontera-grey-300`} style={{ width: "calc(100% - 40px)", marginLeft: isRTL ? "0" : "20px", marginRight: isRTL ? "20px" : "0" }} />
+                  <div
+                    className={`hidden lg:block absolute top-10 ${isRTL ? "right-0 -left-8" : "left-full -right-8"} h-px bg-bontera-grey-300`}
+                    style={{
+                      width: "calc(100% - 40px)",
+                      marginLeft: isRTL ? "0" : "20px",
+                      marginRight: isRTL ? "20px" : "0",
+                    }}
+                  />
                 )}
 
                 <div className="bg-white p-8 border border-bontera-grey-200 hover:border-bontera-navy-300 hover:shadow-xl transition-all duration-300 h-full">
@@ -344,8 +450,18 @@ export default async function QuotePage({ params }: Props) {
                     <div className="w-14 h-14 bg-bontera-navy-600 text-white flex items-center justify-center text-lg font-bold">
                       {step.number}
                     </div>
-                    <svg className="w-8 h-8 text-bontera-grey-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d={step.icon} />
+                    <svg
+                      className="w-8 h-8 text-bontera-grey-300"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d={step.icon}
+                      />
                     </svg>
                   </div>
 
@@ -384,15 +500,29 @@ export default async function QuotePage({ params }: Props) {
               </p>
 
               <div className="mt-8 p-6 bg-bontera-navy-50 border-l-4 border-bontera-navy-600">
-                <h4 className="font-semibold text-bontera-grey-900">{t("faq.stillQuestions.title")}</h4>
-                <p className="mt-2 text-sm text-bontera-grey-600">{t("faq.stillQuestions.description")}</p>
+                <h4 className="font-semibold text-bontera-grey-900">
+                  {t("faq.stillQuestions.title")}
+                </h4>
+                <p className="mt-2 text-sm text-bontera-grey-600">
+                  {t("faq.stillQuestions.description")}
+                </p>
                 <Link
                   href={`/${locale}/contact`}
                   className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-bontera-navy-600 hover:text-bontera-navy-700"
                 >
                   {t("faq.stillQuestions.link")}
-                  <svg className={`w-4 h-4 ${isRTL ? "rotate-180" : ""}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                  <svg
+                    className={`w-4 h-4 ${isRTL ? "rotate-180" : ""}`}
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M17 8l4 4m0 0l-4 4m4-4H3"
+                    />
                   </svg>
                 </Link>
               </div>
@@ -410,8 +540,18 @@ export default async function QuotePage({ params }: Props) {
                       {t(`faq.items.${faq}.question`)}
                     </h3>
                     <span className="flex-shrink-0 w-8 h-8 bg-bontera-navy-100 text-bontera-navy-600 flex items-center justify-center group-open:bg-bontera-navy-600 group-open:text-white transition-colors">
-                      <svg className="w-4 h-4 transition-transform group-open:rotate-45" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
+                      <svg
+                        className="w-4 h-4 transition-transform group-open:rotate-45"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M12 4v16m8-8H4"
+                        />
                       </svg>
                     </span>
                   </summary>
@@ -426,8 +566,6 @@ export default async function QuotePage({ params }: Props) {
           </div>
         </div>
       </section>
-
-  
 
       {/* ═══════════════════════════════════════════════════════════════════
           CTA SECTION
@@ -447,8 +585,18 @@ export default async function QuotePage({ params }: Props) {
               className="group inline-flex items-center gap-3 bg-bontera-navy-600 hover:bg-bontera-navy-700 text-white px-10 py-5 text-sm font-semibold uppercase tracking-wider transition-all duration-300"
             >
               {t("cta.getQuote")}
-              <svg className={`w-5 h-5 transition-transform group-hover:translate-x-1 ${isRTL ? "rotate-180" : ""}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              <svg
+                className={`w-5 h-5 transition-transform group-hover:translate-x-1 ${isRTL ? "rotate-180" : ""}`}
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M17 8l4 4m0 0l-4 4m4-4H3"
+                />
               </svg>
             </a>
             <Link
@@ -460,7 +608,6 @@ export default async function QuotePage({ params }: Props) {
           </div>
         </div>
       </section>
-
     </main>
   );
 }

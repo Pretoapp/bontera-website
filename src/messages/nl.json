@@ -81,7 +81,7 @@
           "description": "Blijvende innovatie, opschalen naar het hogere segment en groei rond duurzame projecten met hoge toegevoegde waarde."
         }
       }
-     },
+    },
     "achievements": {
       "eyebrow": "In cijfers",
       "title": "Onze prestaties",
@@ -109,8 +109,7 @@
       "startProject": "Contacteer ons",
       "joinTeam": "Kom bij het team"
     }
-  }
-  ,
+  },
   "metadata": {
     "title": "Bontera | Bouw & Vastgoed",
     "description": "Toonaangevende bouw- en infrastructuuroplossingen. Van ontwerp tot oplevering realiseren we projecten die skylines hertekenen en gemeenschappen versterken."
@@ -438,7 +437,6 @@
       "description": "De betrouwbare partner zijn voor bouw en vastgoed in Europa, erkend voor projecten die kwaliteit, duurzaamheid en waardecreatie op lange termijn combineren."
     },
 
-    
     "values": {
       "eyebrow": "Onze principes",
       "title": "Onze kernwaarden",
@@ -941,7 +939,7 @@
         },
         "phone": {
           "label": "Telefoonnummer",
-          "placeholder": "+49 30 123 456 7890"
+          "placeholder": "+32 477 37 75 44"
         },
         "company": {
           "label": "Bedrijfsnaam",

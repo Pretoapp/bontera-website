@@ -81,7 +81,7 @@
           "description": "Sürekli inovasyon, daha üst segment projelere yönelim ve sürdürülebilir, yüksek katma değerli projelerde büyüme."
         }
       }
-     },
+    },
     "achievements": {
       "eyebrow": "Rakamlarla",
       "title": "Başarılarımız",
@@ -940,7 +940,7 @@
         },
         "phone": {
           "label": "Telefon numarası",
-          "placeholder": "+49 30 123 456 7890"
+          "placeholder": "+32 477 37 75 44"
         },
         "company": {
           "label": "Şirket adı",

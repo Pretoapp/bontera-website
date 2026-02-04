@@ -81,8 +81,7 @@
           "description": "Berdewamîya nûbûnan, çûyîna berbi asta bilind, û firehbûna li ser projeyên domdar û bi nirxa zêde."
         }
       }
-     }
-,
+    },
     "achievements": {
       "eyebrow": "Bi hejmaran",
       "title": "Serkeftinên me",
@@ -154,8 +153,7 @@
     }
   },
 
-
-    "services": {
+  "services": {
     "eyebrow": "Em çi dikin",
     "headline": "Çareseriyên avakirinê ji destpêkê heta dawî",
     "viewAll": "Hemû xizmetan bibîne",
@@ -259,7 +257,7 @@
     "empty": "Niha gotarek ji bo nîşandan tune ye."
   },
 
-    "header": {
+  "header": {
     "headquarters": "Halle (Westfalen), Almanya",
     "emergency24": "Acil 24/7",
     "search": "Lêgerîn",
@@ -363,7 +361,6 @@
       "cookies": "Polîtîkaya cookie"
     }
   },
-
 
   "legalPage": {
     "meta": {
@@ -570,249 +567,247 @@
     }
   },
 
- "servicesPage": {
-  "meta": {
-    "title": "Xizmetên me | Bontera Construction",
-    "description": "Xizmetên tevahî yên Bontera keşf bike: bazirganî, niştecîhî, binavbûn, endustriyî, nûjenkirin û şîretkarî."
-  },
-  "breadcrumb": {
-    "home": "Destpêk",
-    "services": "Xizmet"
-  },
-  "hero": {
-    "eyebrow": "Em çi dikin",
-    "title": "Çareseriyên avakirinê ji destpêkê heta dawî",
-    "subtitle": "Ji fikrê heta teslîmkirinê, em xizmetên avakirinê yên li gorî vizyon û şertên we pêşkêş dikin.",
-    "cta": "Daxwaza pêşniyar (quote)"
-  },
-  "overview": {
-    "eyebrow": "Pisporiya me",
-    "title": "Kalîte di her sektorekê de",
-    "description": "Bi zêdetir ji 20 salan tecrûbe, Bontera di gelek sektorên cûda de pisporiyeke kûr ava kiriye. Rêbaza me ya yekgirtî dizayna nûjen, endezyariya bi rêgez, û pêvajoyên domdar bi hev re têk dike da ku projeyên ku ji hêvîyan derbas dibin were teslîm kirin.",
-    "points": {
-      "expertise": {
-        "title": "Pisporî",
-        "description": ""
+  "servicesPage": {
+    "meta": {
+      "title": "Xizmetên me | Bontera Construction",
+      "description": "Xizmetên tevahî yên Bontera keşf bike: bazirganî, niştecîhî, binavbûn, endustriyî, nûjenkirin û şîretkarî."
+    },
+    "breadcrumb": {
+      "home": "Destpêk",
+      "services": "Xizmet"
+    },
+    "hero": {
+      "eyebrow": "Em çi dikin",
+      "title": "Çareseriyên avakirinê ji destpêkê heta dawî",
+      "subtitle": "Ji fikrê heta teslîmkirinê, em xizmetên avakirinê yên li gorî vizyon û şertên we pêşkêş dikin.",
+      "cta": "Daxwaza pêşniyar (quote)"
+    },
+    "overview": {
+      "eyebrow": "Pisporiya me",
+      "title": "Kalîte di her sektorekê de",
+      "description": "Bi zêdetir ji 20 salan tecrûbe, Bontera di gelek sektorên cûda de pisporiyeke kûr ava kiriye. Rêbaza me ya yekgirtî dizayna nûjen, endezyariya bi rêgez, û pêvajoyên domdar bi hev re têk dike da ku projeyên ku ji hêvîyan derbas dibin were teslîm kirin.",
+      "points": {
+        "expertise": {
+          "title": "Pisporî",
+          "description": ""
+        },
+        "quality": {
+          "title": "Standardên kalîteya bilind.",
+          "description": ""
+        },
+        "innovation": {
+          "title": "Çareserî",
+          "description": ""
+        },
+        "safety": {
+          "title": "Ewlehî",
+          "description": ""
+        }
       },
-      "quality": {
-        "title": "Standardên kalîteya bilind.",
-        "description": ""
-      },
-      "innovation": {
-        "title": "Çareserî",
-        "description": ""
-      },
-      "safety": {
-        "title": "Ewlehî",
-        "description": ""
+      "stats": {
+        "projects": "Projeyên qedandî",
+        "years": "Salên tecrûbe",
+        "satisfaction": "Razîbûna xerîdar",
+        "awards": ""
       }
     },
-    "stats": {
-      "projects": "Projeyên qedandî",
-      "years": "Salên tecrûbe",
-      "satisfaction": "Razîbûna xerîdar",
-      "awards": ""
-    }
-  },
-  "mainServices": {
-    "eyebrow": "Xizmetên me",
-    "title": "Em çi pêşkêş dikin",
-    "subtitle": "Xizmetên tevahî ji bo ku vizyona we bibe rastî.",
-    "learnMore": "Zêdetir fêr bibe",
-    "items": {
-      "commercial": {
-        "title": "Avakirin",
-        "heroTagline": "Niştecîhî, bazirganî, tersiyê",
-        "heroDescription": "Em projeyên avakirinê yên hemû mezinahiyan teslîm dikin, ji dizaynê heta teslîmkirina dawîn. Metoda me kalîteya xebatê, rêzgirtina standardan, teslîmkirina di demê de û kontrola budceyê garantî dike, bi baldarî li ser domdarî, performans û rehetî.",
-        "description": "Em xanî, avahî, cihên bazirganî û depoyan ava dikin bi piştgiriya tevahî û xebata bi rêgez. Her proje tê rêvebirin da ku surprîzan kêm bibin, lêçûn were optimîze kirin, û malek dirêjdemî, performansdar û bi nirxê zêde were teslîm kirin.",
-        "features": {
-          "officeBuildings": "Avahiyên ofîsê",
-          "retailCenters": "Navendên firotanê",
-          "mixedUse": "Projeyên mixed-use",
-          "hospitality": "Mîvandariyê"
-        }
-      },
-      "realEstate": {
-        "title": "Pêşvebirin & Brokeriya Emlakê",
-        "description": "Em projeyên emlakê yên niştecîhî, bazirganî û mixed-use pêşve dikin û piştgirî dikin, her weha xizmetên brokeriyê ji bo kirîn, firotin û kirêkirinê pêşkêş dikin. Rêbaza me pisporiya bazarê, kontrola teknîkî û şeffafîya tevahî bi hev re têk dike da ku her gav were ewle kirin û nirxa mal û sermayeyê were zêdekirin.",
-        "features": {
-          "residential": "Projeyên niştecîhî",
-          "commercial": "Milkên bazirganî",
-          "mixedUse": "Pêşvebirinên mixed-use",
-          "investment": "Milkên veberhênanê",
-          "brokerage": "Brokeriya: Kirîn, firotin & kirêkirin"
+    "mainServices": {
+      "eyebrow": "Xizmetên me",
+      "title": "Em çi pêşkêş dikin",
+      "subtitle": "Xizmetên tevahî ji bo ku vizyona we bibe rastî.",
+      "learnMore": "Zêdetir fêr bibe",
+      "items": {
+        "commercial": {
+          "title": "Avakirin",
+          "heroTagline": "Niştecîhî, bazirganî, tersiyê",
+          "heroDescription": "Em projeyên avakirinê yên hemû mezinahiyan teslîm dikin, ji dizaynê heta teslîmkirina dawîn. Metoda me kalîteya xebatê, rêzgirtina standardan, teslîmkirina di demê de û kontrola budceyê garantî dike, bi baldarî li ser domdarî, performans û rehetî.",
+          "description": "Em xanî, avahî, cihên bazirganî û depoyan ava dikin bi piştgiriya tevahî û xebata bi rêgez. Her proje tê rêvebirin da ku surprîzan kêm bibin, lêçûn were optimîze kirin, û malek dirêjdemî, performansdar û bi nirxê zêde were teslîm kirin.",
+          "features": {
+            "officeBuildings": "Avahiyên ofîsê",
+            "retailCenters": "Navendên firotanê",
+            "mixedUse": "Projeyên mixed-use",
+            "hospitality": "Mîvandariyê"
+          }
         },
-        "brokerage": {
-          "title": "Brokeriya emlakê: Kirîn, firotin & kirêkirin",
-          "description": "Em di kirîn, firotin û kirêkirina we de piştgirî dikin, bi bikaranîna pisporiya me ya bazarê.\n\nBi alîkarîya tora me ya profesyonalan û rêbaza me ya kişanekirî, em alîkariyê dikin ku hûn biryarên baştir bidin û danûstandinên xwe ewle bikin. Em li her gavê maf û berjewendiyên we diparêzin da ku nirxa mal û sermayeyê were optimîze kirin û şertên herî baş werin bidestxistin.\n\nGirêdayîbûna me li ser şeffafîya tevahî û parastina domdar a berjewendiyên xerîdar e."
-        }
-      },
-      "real-estate": {
-        "title": "Pêşvebirina projeyê",
-        "heroTagline": "Stratejî, xebat, nirx",
-        "heroDescription": "Em pêşvebirina projeyên emlakê yên niştecîhî, bazirganî û mixed-use bi rêbazeke strukturî û transparan rêve dikin. Ji feasibilîteyê heta teslîmkirinê, em her qonaxê ewle dikin, rîsk kontrol dikin û nirxa mal û sermayeyê baştir dikin.",
-        "description": "Em projeyên we yên emlakê ji destpêkê heta dawî piştgirî dikin bi têkildarkirina pisporiya bazarê, karîgeriya teknîkî û koordînasyona bi rêgez. Armanca me: biryarên we ewle bikin, surprîzan kêm bikin, û performansa veberhênanên we zêde bikin.",
-        "features": {
-          "residential": "Projeyên niştecîhî",
-          "commercial": "Milkên bazirganî",
-          "mixedUse": "Pêşvebirinên mixed-use",
-          "investment": "Veberhênana emlakê",
-          "brokerage": "Brokeriya: kirîn, firotin û kirêkirin"
+        "realEstate": {
+          "title": "Pêşvebirin & Brokeriya Emlakê",
+          "description": "Em projeyên emlakê yên niştecîhî, bazirganî û mixed-use pêşve dikin û piştgirî dikin, her weha xizmetên brokeriyê ji bo kirîn, firotin û kirêkirinê pêşkêş dikin. Rêbaza me pisporiya bazarê, kontrola teknîkî û şeffafîya tevahî bi hev re têk dike da ku her gav were ewle kirin û nirxa mal û sermayeyê were zêdekirin.",
+          "features": {
+            "residential": "Projeyên niştecîhî",
+            "commercial": "Milkên bazirganî",
+            "mixedUse": "Pêşvebirinên mixed-use",
+            "investment": "Milkên veberhênanê",
+            "brokerage": "Brokeriya: Kirîn, firotin & kirêkirin"
+          },
+          "brokerage": {
+            "title": "Brokeriya emlakê: Kirîn, firotin & kirêkirin",
+            "description": "Em di kirîn, firotin û kirêkirina we de piştgirî dikin, bi bikaranîna pisporiya me ya bazarê.\n\nBi alîkarîya tora me ya profesyonalan û rêbaza me ya kişanekirî, em alîkariyê dikin ku hûn biryarên baştir bidin û danûstandinên xwe ewle bikin. Em li her gavê maf û berjewendiyên we diparêzin da ku nirxa mal û sermayeyê were optimîze kirin û şertên herî baş werin bidestxistin.\n\nGirêdayîbûna me li ser şeffafîya tevahî û parastina domdar a berjewendiyên xerîdar e."
+          }
         },
-        "brokerage": {
-          "title": "Brokeriya emlakê",
-          "description": "Em di kirîn, firotin û kirêkirinê de bi zanîna kûr a bazarê û stratejiyeke zelal a danûstandinê piştgirî dikin.\n\nBi alîkarîya tora me û rêbaza me ya kişanekirî, em derfetên herî baş diyar dikin, gavên bingehîn ewle dikin, û maf û berjewendiyên we heta demê îmzakirinê diparêzin.\n\nGirêdayîbûna me: şeffafî, bersivdarî, û encamên pîvankar."
-        }
-      },
-      "residential": {
-        "title": "Avakirina niştecîhî",
-        "description": "Em cihên jiyanê çêdikin ku malbat di wan de geş dibin, ji malên lûks heta pêşvebirinên domdar ên ku xaniyên nûjen diyar dikin.",
-        "features": {
-          "luxuryHomes": "Malên lûks",
-          "apartments": "Nîştecî / apartman",
-          "communities": "Komên planîkirî",
-          "villas": "Vîla & malên taybet"
-        }
-      },
-      "industrial": {
-        "title": "Avakirina endustriyî",
-        "description": "Dizayn û teslîmkirina cihên endustriyî yên ku ji bo karîgeriya operasyonê û hewcedariyên hilberîna nûjen hatine optimîze kirin.",
-        "features": {
-          "factories": "Fabrîka",
-          "warehouses": "Depo",
-          "logistics": "Platformên lojîstîkê",
-          "manufacturing": "Yekîneyên çêkirinê"
-        }
-      },
-      "renovation": {
-        "title": "Nûjenkirin & Rûmetkirin",
-        "heroTagline": "NIŞTECÎHÎ, BAZIRGANÎ Û MÎRAS",
-        "heroDescription": "Cihên xwe vegerînin jiyanê, bê ku nasnameya wan were xera kirin. Em nûjenkirin û rûmetkirina we bi hûrgulî rêve dikin, bi tevlihevkirina teknîkên kevn û çareseriyên nû da ku rehetî, ewlehî, performansa enerjiyê û nirxa mîrasê were bilind kirin.",
-        "description": "Em milkên niştecîhî û bazirganî nûjen dikin û avahiyên parastî rûmet dikin, bi rêzgirtina nasnameya mîmarî, standardên sepandî û şertên teknîkî yên cihê. Rêbaza me hunera kevn û çareseriyên nûjen bi hev re têk dike da ku karîgerî, ewlehî, performansa enerjiyê û dirêjdemîbûn were başkirin. Ji teşhîsê heta temamkirinê, em xebata bi rêgez, kontrola kalîteyê û encamek ku bi ruhê cihê re hevrê ye garantî dikin, bi afirandina nirxê ya dirêjdemî ji bo mîrasa we.",
-        "features": {
-          "historic": "Avahiya parastî",
-          "modernization": "Nûjenkirina tevahî",
-          "retrofitting": "Upgrade",
-          "restoration": "Nûjenkirin"
-        }
-      },
-      "consulting": {
-        "title": "Şîretkarî",
-        "heroTagline": "FEASIBILÎTE, LÊÇÛN, RÎSK, RÊZÛREK",
-        "heroDescription": "Piştgiriya pispor di her qonaxê de: feasibilîte, nirxandina lêçûn, analîza rîsk û rêzgirtina qanûn û standardan.",
-        "description": "Em xizmetên şîretkarîya avakirinê pêşkêş dikin ji bo kes û şîrketên ku dixwazin biryarên xwe yên teknîkî û darayî ewle bikin. Wek nûnerê maldarê projeyê (giştî an taybet), em wek yek navenda têkiliyê dixebitin, berjewendiyên xerîdar diparêzin.",
-        "features": {
-          "feasibility": "Lêkolînên feasibilîteyê",
-          "costEstimation": "Nirxandina lêçûn",
-          "riskAssessment": "Rêzgirtin",
-          "compliance": "Çavdêriya avakirinê"
-        }
-      },
-      "management": {
-        "title": "Rêvebirina Projeyê",
-        "heroTagline": "RÊVEBIRIN, BUDCE, DEM, KALÎTE",
-        "heroDescription": "Em xizmeteke rêvebirina projeyê ya bi awayê turnkey pêşkêş dikin ji bo kes û şîrketên ku dixwazin veberhênanên xwe yên emlakê ewle bikin. Wek yek nuqteya têkiliyê, em hemû alîgirên projeyê koordîne dikin: mîmar, ofîsên endezyariyê, kontraktor û pêşkêşker. Mîsyona me kontrola herî baş a lêçûn, deman û kalîte ye, bi şeffafîya tevahî di her qonaxê de",
-        "description": "Ji planîkirina destpêkê heta teslîmkirina dawîn, em rêvebirina strukturî, transparan û encam-axaftî pêşkêş dikin. Em armancan diyar dikin, demnameyeke rastîn saz dikin, alîgir koordîne dikin, û her roj pêşketinê dişopînin da ku diyarî (drift) neyê. Tîma me budceyê rêve dike, rîsk pêşbînî dike, astengî bi lez çareser dike, û kontrola kalîteyê domdar çalak dike. Encama dawîn: şantiyeke kontrolkirî, peywendiya zelal, û teslîmkirinek li gorî şertên teknîkî û hêviyên xerîdar.",
-        "features": {
-          "planning": "Planîkirina stratejîk",
-          "coordination": "Koordînasyona tîmê",
-          "budgetControl": "Kontrola budceyê",
-          "qualityAssurance": "Garantîya kalîteyê"
-        }
-      },
-      "sustainability": {
-        "title": "Avakirina domdar",
-        "description": "Em bi rêbazên avakirina berpirsiyar li ser jîngehê girêdayî ne. Ji rêberiya sertîfîkasyona LEED heta dizayna bi karîgeriya enerjiyê û peydakirina materyalên domdar, em alîkariyê dikin ku hûn ji bo sibê ava bikin.",
-        "features": {
-          "greenBuilding": "Avakirina zelen",
-          "energyEfficiency": "Karîgeriya enerjiyê",
-          "sustainableMaterials": "Materyalên domdar",
-          "leedCertification": "Sertîfîkasyona LEED"
+        "real-estate": {
+          "title": "Pêşvebirina projeyê",
+          "heroTagline": "Stratejî, xebat, nirx",
+          "heroDescription": "Em pêşvebirina projeyên emlakê yên niştecîhî, bazirganî û mixed-use bi rêbazeke strukturî û transparan rêve dikin. Ji feasibilîteyê heta teslîmkirinê, em her qonaxê ewle dikin, rîsk kontrol dikin û nirxa mal û sermayeyê baştir dikin.",
+          "description": "Em projeyên we yên emlakê ji destpêkê heta dawî piştgirî dikin bi têkildarkirina pisporiya bazarê, karîgeriya teknîkî û koordînasyona bi rêgez. Armanca me: biryarên we ewle bikin, surprîzan kêm bikin, û performansa veberhênanên we zêde bikin.",
+          "features": {
+            "residential": "Projeyên niştecîhî",
+            "commercial": "Milkên bazirganî",
+            "mixedUse": "Pêşvebirinên mixed-use",
+            "investment": "Veberhênana emlakê",
+            "brokerage": "Brokeriya: kirîn, firotin û kirêkirin"
+          },
+          "brokerage": {
+            "title": "Brokeriya emlakê",
+            "description": "Em di kirîn, firotin û kirêkirinê de bi zanîna kûr a bazarê û stratejiyeke zelal a danûstandinê piştgirî dikin.\n\nBi alîkarîya tora me û rêbaza me ya kişanekirî, em derfetên herî baş diyar dikin, gavên bingehîn ewle dikin, û maf û berjewendiyên we heta demê îmzakirinê diparêzin.\n\nGirêdayîbûna me: şeffafî, bersivdarî, û encamên pîvankar."
+          }
+        },
+        "residential": {
+          "title": "Avakirina niştecîhî",
+          "description": "Em cihên jiyanê çêdikin ku malbat di wan de geş dibin, ji malên lûks heta pêşvebirinên domdar ên ku xaniyên nûjen diyar dikin.",
+          "features": {
+            "luxuryHomes": "Malên lûks",
+            "apartments": "Nîştecî / apartman",
+            "communities": "Komên planîkirî",
+            "villas": "Vîla & malên taybet"
+          }
+        },
+        "industrial": {
+          "title": "Avakirina endustriyî",
+          "description": "Dizayn û teslîmkirina cihên endustriyî yên ku ji bo karîgeriya operasyonê û hewcedariyên hilberîna nûjen hatine optimîze kirin.",
+          "features": {
+            "factories": "Fabrîka",
+            "warehouses": "Depo",
+            "logistics": "Platformên lojîstîkê",
+            "manufacturing": "Yekîneyên çêkirinê"
+          }
+        },
+        "renovation": {
+          "title": "Nûjenkirin & Rûmetkirin",
+          "heroTagline": "NIŞTECÎHÎ, BAZIRGANÎ Û MÎRAS",
+          "heroDescription": "Cihên xwe vegerînin jiyanê, bê ku nasnameya wan were xera kirin. Em nûjenkirin û rûmetkirina we bi hûrgulî rêve dikin, bi tevlihevkirina teknîkên kevn û çareseriyên nû da ku rehetî, ewlehî, performansa enerjiyê û nirxa mîrasê were bilind kirin.",
+          "description": "Em milkên niştecîhî û bazirganî nûjen dikin û avahiyên parastî rûmet dikin, bi rêzgirtina nasnameya mîmarî, standardên sepandî û şertên teknîkî yên cihê. Rêbaza me hunera kevn û çareseriyên nûjen bi hev re têk dike da ku karîgerî, ewlehî, performansa enerjiyê û dirêjdemîbûn were başkirin. Ji teşhîsê heta temamkirinê, em xebata bi rêgez, kontrola kalîteyê û encamek ku bi ruhê cihê re hevrê ye garantî dikin, bi afirandina nirxê ya dirêjdemî ji bo mîrasa we.",
+          "features": {
+            "historic": "Avahiya parastî",
+            "modernization": "Nûjenkirina tevahî",
+            "retrofitting": "Upgrade",
+            "restoration": "Nûjenkirin"
+          }
+        },
+        "consulting": {
+          "title": "Şîretkarî",
+          "heroTagline": "FEASIBILÎTE, LÊÇÛN, RÎSK, RÊZÛREK",
+          "heroDescription": "Piştgiriya pispor di her qonaxê de: feasibilîte, nirxandina lêçûn, analîza rîsk û rêzgirtina qanûn û standardan.",
+          "description": "Em xizmetên şîretkarîya avakirinê pêşkêş dikin ji bo kes û şîrketên ku dixwazin biryarên xwe yên teknîkî û darayî ewle bikin. Wek nûnerê maldarê projeyê (giştî an taybet), em wek yek navenda têkiliyê dixebitin, berjewendiyên xerîdar diparêzin.",
+          "features": {
+            "feasibility": "Lêkolînên feasibilîteyê",
+            "costEstimation": "Nirxandina lêçûn",
+            "riskAssessment": "Rêzgirtin",
+            "compliance": "Çavdêriya avakirinê"
+          }
+        },
+        "management": {
+          "title": "Rêvebirina Projeyê",
+          "heroTagline": "RÊVEBIRIN, BUDCE, DEM, KALÎTE",
+          "heroDescription": "Em xizmeteke rêvebirina projeyê ya bi awayê turnkey pêşkêş dikin ji bo kes û şîrketên ku dixwazin veberhênanên xwe yên emlakê ewle bikin. Wek yek nuqteya têkiliyê, em hemû alîgirên projeyê koordîne dikin: mîmar, ofîsên endezyariyê, kontraktor û pêşkêşker. Mîsyona me kontrola herî baş a lêçûn, deman û kalîte ye, bi şeffafîya tevahî di her qonaxê de",
+          "description": "Ji planîkirina destpêkê heta teslîmkirina dawîn, em rêvebirina strukturî, transparan û encam-axaftî pêşkêş dikin. Em armancan diyar dikin, demnameyeke rastîn saz dikin, alîgir koordîne dikin, û her roj pêşketinê dişopînin da ku diyarî (drift) neyê. Tîma me budceyê rêve dike, rîsk pêşbînî dike, astengî bi lez çareser dike, û kontrola kalîteyê domdar çalak dike. Encama dawîn: şantiyeke kontrolkirî, peywendiya zelal, û teslîmkirinek li gorî şertên teknîkî û hêviyên xerîdar.",
+          "features": {
+            "planning": "Planîkirina stratejîk",
+            "coordination": "Koordînasyona tîmê",
+            "budgetControl": "Kontrola budceyê",
+            "qualityAssurance": "Garantîya kalîteyê"
+          }
+        },
+        "sustainability": {
+          "title": "Avakirina domdar",
+          "description": "Em bi rêbazên avakirina berpirsiyar li ser jîngehê girêdayî ne. Ji rêberiya sertîfîkasyona LEED heta dizayna bi karîgeriya enerjiyê û peydakirina materyalên domdar, em alîkariyê dikin ku hûn ji bo sibê ava bikin.",
+          "features": {
+            "greenBuilding": "Avakirina zelen",
+            "energyEfficiency": "Karîgeriya enerjiyê",
+            "sustainableMaterials": "Materyalên domdar",
+            "leedCertification": "Sertîfîkasyona LEED"
+          }
         }
       }
-    }
-  },
-  "process": {
-    "eyebrow": "Metoda me",
-    "title": "Pêvajoyek bişopandî",
-    "subtitle": "Rêbazeke strukturî ku kalîte, karîgerî û transparans di her qonaxê de garantî dike.",
-    "steps": {
-      "discovery": {
-        "title": "Keşf & planîkirin",
-        "description": "Em bi têgihiştina vizyona we, hewcedariyên we û şertên we dest pê dikin da ku planeke tevahî amade bikin.",
-        "point1": "Analîza hewcedariyan",
-        "point2": "Nirxandina cihê",
-        "point3": "Planîkirina budceyê"
-      },
-      "planning": {
-        "title": "Dizayn & endezyarî",
-        "description": "Tîman me planên hûrgulî û endezyariya rast amade dikin da ku projeya we bibe rastî.",
-        "point1": "Dizayna mîmarî",
-        "point2": "Endezyariya strukturî",
-        "point3": "Koordînasyona MEP/HVAC"
-      },
-      "execution": {
-        "title": "Avakirin & xebat",
-        "description": "Pisporiya şantiyê û teknololojiyên pêşkeftî ji bo kalîteya xebatê ya nimûneyî.",
-        "point1": "Xebata bi kalîte",
-        "point2": "Rêzgirtina ewlehiyê",
-        "point3": "Şopandina pêşketinê"
-      },
-      "delivery": {
-        "title": "Teslîm & piştgirî",
-        "description": "Test, teslîmkirin û piştgirîya paşîn da ku razîbûna we were garantî kirin.",
-        "point1": "Kontrola kalîteyê",
-        "point2": "Hînkirina xerîdar",
-        "point3": "Piştgiriya warranty"
-      }
-    }
-  },
-  "industries": {
-    "eyebrow": "Sektoran",
-    "title": "Pisporiya pir-sektorî",
-    "description": "Portfolyoya me di sektorên ku şertên taybet hene de belav bûye. Ev şert pisporiya kûr û çareseriyên li gorî hewcedariyê daxwaz dike.",
-    "items": {
-      "healthcare": "Tenduristî",
-      "education": "Perwerde",
-      "hospitality": "Mîvandariyê",
-      "retail": "Firotan",
-      "government": "Sektora giştî",
-      "energy": "Enerjî"
     },
-    "sectorsServed": "Sektor"
-  },
-  "technology": {
-    "eyebrow": "Nûbûn & teknololojî",
-    "title": "Avakirin bi teknololojiyên sibê",
-    "description": "Em teknololojiyên pêşkeftî bikar tînin da ku karîgerî zêde bikin, kalîte bilind bikin, û encamên baştir bidin.",
-    "items": {
-      "bim": {
-        "title": "Teknololojîya BIM",
-        "description": "BIM ji bo planîkirin, koordînasyon û dîtina rast di suça projeyê de."
-      },
-      "drones": {
-        "title": "Lêkolînên drone",
-        "description": "Lêkolînên hewayî û şopandina dem-real ji bo nirxandina rast a cihê û pêşketina şantiyê."
-      },
-      "prefab": {
-        "title": "Prefabrikasyon",
-        "description": "Hilberandina parçeyan li derveyî şantiyê ji bo avakirina bilez, karîger û bi kalîteya bilind."
-      },
-      "iot": {
-        "title": "IoT & avahiyên jîr",
-        "description": "Sîstemên girêdayî û sensor ji bo rêvebirina jîr û performansa operasyonê ya baştir."
+    "process": {
+      "eyebrow": "Metoda me",
+      "title": "Pêvajoyek bişopandî",
+      "subtitle": "Rêbazeke strukturî ku kalîte, karîgerî û transparans di her qonaxê de garantî dike.",
+      "steps": {
+        "discovery": {
+          "title": "Keşf & planîkirin",
+          "description": "Em bi têgihiştina vizyona we, hewcedariyên we û şertên we dest pê dikin da ku planeke tevahî amade bikin.",
+          "point1": "Analîza hewcedariyan",
+          "point2": "Nirxandina cihê",
+          "point3": "Planîkirina budceyê"
+        },
+        "planning": {
+          "title": "Dizayn & endezyarî",
+          "description": "Tîman me planên hûrgulî û endezyariya rast amade dikin da ku projeya we bibe rastî.",
+          "point1": "Dizayna mîmarî",
+          "point2": "Endezyariya strukturî",
+          "point3": "Koordînasyona MEP/HVAC"
+        },
+        "execution": {
+          "title": "Avakirin & xebat",
+          "description": "Pisporiya şantiyê û teknololojiyên pêşkeftî ji bo kalîteya xebatê ya nimûneyî.",
+          "point1": "Xebata bi kalîte",
+          "point2": "Rêzgirtina ewlehiyê",
+          "point3": "Şopandina pêşketinê"
+        },
+        "delivery": {
+          "title": "Teslîm & piştgirî",
+          "description": "Test, teslîmkirin û piştgirîya paşîn da ku razîbûna we were garantî kirin.",
+          "point1": "Kontrola kalîteyê",
+          "point2": "Hînkirina xerîdar",
+          "point3": "Piştgiriya warranty"
+        }
       }
+    },
+    "industries": {
+      "eyebrow": "Sektoran",
+      "title": "Pisporiya pir-sektorî",
+      "description": "Portfolyoya me di sektorên ku şertên taybet hene de belav bûye. Ev şert pisporiya kûr û çareseriyên li gorî hewcedariyê daxwaz dike.",
+      "items": {
+        "healthcare": "Tenduristî",
+        "education": "Perwerde",
+        "hospitality": "Mîvandariyê",
+        "retail": "Firotan",
+        "government": "Sektora giştî",
+        "energy": "Enerjî"
+      },
+      "sectorsServed": "Sektor"
+    },
+    "technology": {
+      "eyebrow": "Nûbûn & teknololojî",
+      "title": "Avakirin bi teknololojiyên sibê",
+      "description": "Em teknololojiyên pêşkeftî bikar tînin da ku karîgerî zêde bikin, kalîte bilind bikin, û encamên baştir bidin.",
+      "items": {
+        "bim": {
+          "title": "Teknololojîya BIM",
+          "description": "BIM ji bo planîkirin, koordînasyon û dîtina rast di suça projeyê de."
+        },
+        "drones": {
+          "title": "Lêkolînên drone",
+          "description": "Lêkolînên hewayî û şopandina dem-real ji bo nirxandina rast a cihê û pêşketina şantiyê."
+        },
+        "prefab": {
+          "title": "Prefabrikasyon",
+          "description": "Hilberandina parçeyan li derveyî şantiyê ji bo avakirina bilez, karîger û bi kalîteya bilind."
+        },
+        "iot": {
+          "title": "IoT & avahiyên jîr",
+          "description": "Sîstemên girêdayî û sensor ji bo rêvebirina jîr û performansa operasyonê ya baştir."
+        }
+      }
+    },
+    "cta": {
+      "title": "Amade ne ku projeya xwe dest pê bikin",
+      "description": "Ka em bibînin Bontera çawa dikare vizyona we bi çareseriyên tevahî bibe rastî.",
+      "getQuote": "Daxwaza pêşniyar (quote)",
+      "contactUs": "Bi me re têkilî"
     }
   },
-  "cta": {
-    "title": "Amade ne ku projeya xwe dest pê bikin",
-    "description": "Ka em bibînin Bontera çawa dikare vizyona we bi çareseriyên tevahî bibe rastî.",
-    "getQuote": "Daxwaza pêşniyar (quote)",
-    "contactUs": "Bi me re têkilî"
-  }
-}
-,
-
   "projectsPage": {
     "meta": {
       "title": "Projeyên me | Bontera Construction",
@@ -964,7 +959,7 @@
         },
         "phone": {
           "label": "Hejmara telefonê",
-          "placeholder": "+49 30 123 456 7890"
+          "placeholder": "+32 477 37 75 44"
         },
         "company": {
           "label": "Navê şîrketê",
@@ -1027,9 +1022,8 @@
         "title": "Çewtiyek çêbû",
         "message": "Em nekarîn peyama we bişînin. Ji kerema xwe dîsa biceribîne an jî bi telefon an emailê rast bi me re têkilî daynin."
       }
-    }
+    },
 
-,
     "departments": {
       "title": "Têkilî li gorî beşê",
       "items": {
@@ -1245,9 +1239,8 @@
       "browseJobs": "Hemû karan bibîne",
       "sendResume": "CV bişîne"
     }
-  }
+  },
 
-  ,
   "newsPage": {
     "meta": {
       "title": "Nûçe & têgihiştin | Bontera Construction",
@@ -2022,4 +2015,3 @@
     }
   }
 }
-
