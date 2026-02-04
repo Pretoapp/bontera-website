@@ -445,13 +445,13 @@ export default function Header() {
            {/* LOGO (physical badge, still compact header) */}
 <Link
   href={`/${currentLocale}`}
-  className="relative flex items-center shrink-0 w-[180px] lg:w-[220px]"
+  className="relative flex items-center shrink-0 w-[150px] lg:w-[190px]"
   aria-label="Bontera"
 >
   {/* Outer shell: gives the “touchable” edge */}
   <span
     className={cn(
-      'relative inline-flex rounded-2xl p-[2px]',
+      'relative inline-flex rounded-2xl p-[1px]',
       'bg-gradient-to-b from-white/95 to-bontera-grey-200/70',
       'shadow-[0_10px_26px_rgba(15,23,42,0.14)]'
     )}
@@ -459,7 +459,7 @@ export default function Header() {
     {/* Inner glass plate */}
     <span
       className={cn(
-        'relative inline-flex items-center rounded-[14px] px-2 py-1',
+        'relative inline-flex items-center rounded-[14px] px-2 py-0.5',
         'bg-white/55 supports-[backdrop-filter]:bg-white/35',
         'backdrop-blur-md',
         'ring-1 ring-white/60'
@@ -477,7 +477,7 @@ export default function Header() {
       />
 
       {/* Logo image */}
-      <span className="relative block h-[40px] lg:h-[44px] w-[170px] lg:w-[210px]">
+      <span className="relative block h-[32px] lg:h-[36px] w-[140px] lg:w-[180px]">
         <Image
           src="/brand/logo01_clean.png"
           alt="Bontera"
