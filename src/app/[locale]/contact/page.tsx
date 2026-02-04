@@ -41,9 +41,9 @@ const t = await getTranslations({ locale, namespace: "contactPage" });
 const offices = [
   {
     key: "headquarters",
-    city: "Halle (Westfalen)",
+    city: "33790 Halle Westfalen",
     country: "Germany",
-    address: "Stodieks Hof 77",
+    address: "Neulehenstraße 8",
     postalCode: "P.O. Box 33790",
     phone: "+49 30 123 456 7890",
     email: "info@bontera.de",

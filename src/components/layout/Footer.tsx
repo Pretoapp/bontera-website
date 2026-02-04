@@ -140,7 +140,7 @@ const isRTL = currentLocale === 'ku';
   </span>
 
   <div className="leading-tight">
-    <div className="text-2xl font-semibold tracking-tight text-white">BONTERA</div>
+    <div className="text-2xl font-semibold tracking-tight text-white">BONTERA GmbH</div>
     <div className="text-sm text-bontera-grey-300"></div>
   </div>
 </Link>
@@ -256,8 +256,8 @@ const isRTL = currentLocale === 'ku';
                     <div>
                       <div className="font-semibold text-white">{t('footer.offices.headquarters')}</div>
                       <div className="mt-1 text-sm text-bontera-grey-400 leading-relaxed">
-  Stodieks Hof 77<br />
-  33790 Halle (Westfalen), Germany
+  Neulehenstraße 8<br />
+  33790 Halle Westfalen, Germany
 </div>
 
                     </div>
@@ -326,7 +326,7 @@ const isRTL = currentLocale === 'ku';
           <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
             {/* Copyright */}
             <div className="text-sm text-bontera-grey-500">
-              © {currentYear} Bontera Construction. {t('footer.allRightsReserved')}
+              © {currentYear} Bontera GmbH {t('footer.allRightsReserved')}
             </div>
 
             {/* Legal Links */}
