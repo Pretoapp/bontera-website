@@ -11,6 +11,9 @@ import Image from "next/image";
 import ContactForm from "@/components/home/ContactForm";
 import ContactFaqModal from "@/components/ContactFaqModal";
 
+export const dynamic = "force-dynamic";
+
+
 /* ═══════════════════════════════════════════════════════════════════════════
    TYPES
    ═══════════════════════════════════════════════════════════════════════════ */
