@@ -1500,7 +1500,7 @@ function MobileMenu({
               href="tel:+1800BONTERA"
               className="text-sm text-amber-700 mt-1 block"
             >
-              1-800-BONTERA
+              emergency@bontera.de
             </a>
           </div>
         </div>
