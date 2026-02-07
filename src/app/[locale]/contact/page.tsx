@@ -40,20 +40,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 const offices = [
   {
     key: "headquarters",
-    city: "33790 Halle Westfalen",
+    city: "Halle Westfalen",
     country: "Germany",
     address: "Neulehenstraße 8",
-    postalCode: "P.O. Box 33790",
+    postalCode: "33790 Halle Westfalen",
     phone: "+32 477 37 75 44",
     email: "info@bontera.de",
     hours: "Sun - Thu: 8:00 AM - 6:00 PM",
     image: "/images/offices/dubai.jpg",
     mapUrl:
-      "https://maps.google.com/?q=Stodieks%20Hof%2077%2C%2033790%20Halle%20%28Westfalen%29%2C%20Germany",
-
+      "https://www.google.com/maps?q=Neulehenstraße+8,+33790+Halle+Westfalen,+Germany",
     isHQ: true,
   },
 ];
+
 
 const contactMethods = [
   {
@@ -77,7 +77,7 @@ const contactMethods = [
   {
     key: "emergency",
     icon: "M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75v-.7V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0",
-    value: "1-800-BONTERA",
+    value: "emergency@bontera.de",
     href: "tel:1800BONTERA",
   },
 ];

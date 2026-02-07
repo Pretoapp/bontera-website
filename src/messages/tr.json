@@ -248,7 +248,7 @@
     "empty": "Şu anda görüntülenecek makale yok."
   },
   "header": {
-    "headquarters": "Halle (Westfalen), Almanya",
+    "headquarters": "Halle Westfalen, Almanya",
     "emergency24": "7/24 Acil",
     "search": "Ara",
     "searchPlaceholder": "Proje, hizmet, haber ara...",
@@ -1127,7 +1127,7 @@
       "cairo": "Kahire, Mısır",
       "london": "Londra, Birleşik Krallık",
       "brussels": "Brüksel, Belçika",
-      "germany": "Halle (Westfalen), Almanya"
+      "germany": "Halle Westfalen, Almanya"
     },
     "jobTypes": {
       "fullTime": "Tam zamanlı",

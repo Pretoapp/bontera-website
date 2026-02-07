@@ -248,7 +248,7 @@
     "empty": "Nessun articolo da mostrare al momento."
   },
   "header": {
-    "headquarters": "Halle (Westfalen), Germania",
+    "headquarters": "Halle Westfalen, Germania",
     "emergency24": "Emergenza 24/7",
     "search": "Cerca",
     "searchPlaceholder": "Cerca progetti, servizi, notizie...",
@@ -1126,7 +1126,7 @@
       "cairo": "Il Cairo, Egitto",
       "london": "Londra, Regno Unito",
       "brussels": "Bruxelles, Belgio",
-      "germany": "Halle (Westfalen), Germania"
+      "germany": "Halle Westfalen, Germania"
     },
     "jobTypes": {
       "fullTime": "Tempo pieno",

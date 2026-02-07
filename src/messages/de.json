@@ -248,7 +248,7 @@
     "empty": "Derzeit sind keine Artikel verfügbar."
   },
   "header": {
-    "headquarters": "Halle (Westfalen), Deutschland",
+    "headquarters": "Halle Westfalen, Deutschland",
     "emergency24": "Notfall 24/7",
     "search": "Suche",
     "searchPlaceholder": "Projekte, Leistungen, News suchen...",
@@ -1126,7 +1126,7 @@
       "cairo": "Kairo, Ägypten",
       "london": "London, Vereinigtes Königreich",
       "brussels": "Brüssel, Belgien",
-      "germany": "Halle (Westfalen), Deutschland"
+      "germany": "Halle Westfalen, Deutschland"
     },
     "jobTypes": {
       "fullTime": "Vollzeit",

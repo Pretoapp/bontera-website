@@ -248,7 +248,7 @@
     "empty": "Momenteel zijn er geen artikelen om te tonen."
   },
   "header": {
-    "headquarters": "Halle (Westfalen), Duitsland",
+    "headquarters": "Halle Westfalen, Duitsland",
     "emergency24": "Nooddienst 24/7",
     "search": "Zoeken",
     "searchPlaceholder": "Zoek projecten, diensten, nieuws...",
@@ -1125,7 +1125,7 @@
       "cairo": "Caïro, Egypte",
       "london": "Londen, Verenigd Koninkrijk",
       "brussels": "Brussel, België",
-      "germany": "Halle (Westfalen), Duitsland"
+      "germany": "Halle Westfalen, Duitsland"
     },
     "jobTypes": {
       "fullTime": "Voltijds",

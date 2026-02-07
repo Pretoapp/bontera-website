@@ -258,7 +258,7 @@
   },
 
   "header": {
-    "headquarters": "Halle (Westfalen), Almanya",
+    "headquarters": "Halle Westfalen, Almanya",
     "emergency24": "Acil 24/7",
     "search": "Lêgerîn",
     "searchPlaceholder": "Li proje, xizmet, nûçe... bigere",
@@ -1147,7 +1147,7 @@
       "cairo": "Qahira, Misir",
       "london": "London, Keyaniya Yekbûyî",
       "brussels": "Brûksel, Belçîka",
-      "germany": "Halle (Westfalen), Almanya"
+      "germany": "Halle Westfalen, Almanya"
     },
     "jobTypes": {
       "fullTime": "Tam-dem",
