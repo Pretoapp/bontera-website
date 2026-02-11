@@ -664,283 +664,6 @@ export const projects: Project[] = [
 }
 ,
 
-  {
-  id: "commercial-3",
-  slug: "anciens-thermes-de-spa",
-  title: {
-    de: "Ehemalige Thermalbäder von Spa",
-    en: "Ancient Spa Thermal Baths",
-    fr: "Anciens Thermes de Spa",
-    nl: "Oude Thermen van Spa",
-    it: "Antiche Terme di Spa",
-    ku: "Termên Kevnar ên Spa",
-    tr: "Spa Antik Termal Tesisleri",
-  },
-
-  category: "commercial",
-
-  description: {
-    de: "Die ehemaligen Thermen von Spa sind ein ikonischer Ort des Wohlbefindens, seit der Antike berühmt für ihre Thermalquellen. Die Anlage geht auf das 18. Jahrhundert zurück und zog Besucher aus aller Welt an, darunter königliche und aristokratische Persönlichkeiten. Im Laufe der Jahrhunderte modernisiert, bewahrt sie bis heute eine einzigartige historische Atmosphäre. Als UNESCO-Welterbe wurde das Gebäude vollständig restauriert und in ein 5-Sterne-Hotel mit Zimmern, Wellnessbereich und Restaurant umgewandelt. Zusätzlich entstand im rückwärtigen Hof ein Neubau mit weiteren Zimmern, Besprechungsraum und einer Tiefgarage. Das Ensemble bleibt ein lebendiges Zeugnis der Bedeutung Spas in der Geschichte der Thermalwässer.",
-    en: "The former thermal baths of Spa are an iconic wellness landmark, renowned since Antiquity for their thermal springs. Dating back to the 18th century, they welcomed visitors from around the world, including royal and aristocratic figures. Modernized over the centuries, the buildings still preserve a unique historic atmosphere. Now listed as a UNESCO World Heritage site, the complex has been fully restored and repurposed into a 5-star hotel with rooms, a wellness area, and a restaurant. A new building was also erected in the rear courtyard, adding rooms, a meeting room, and an underground car park. The project remains a living testament to Spa’s role in the history of thermal waters.",
-    fr: "Les anciens thermes de Spa étaient un lieu emblématique de bien-être et de détente, réputé depuis l’Antiquité pour ses sources thermales. Remontant au XVIIIe siècle, ils ont attiré des visiteurs du monde entier, notamment des personnalités royales et aristocratiques. Modernisés au fil des siècles, les bâtiments conservent une atmosphère historique unique. Aujourd’hui classé au patrimoine mondial de l’UNESCO, l’ensemble a été complètement restauré et réaffecté en hôtel 5 étoiles avec chambres, espace wellness et restaurant. Un nouveau bâtiment a également été érigé dans la cour arrière, comprenant des chambres, une salle de réunion et un parking souterrain. Le site demeure un témoignage vivant de l’importance de Spa dans l’histoire des eaux thermales.",
-    nl: "De oude thermen van Spa zijn een iconische wellnessplek, al sinds de Oudheid bekend om hun thermale bronnen. Ze dateren uit de 18e eeuw en trokken bezoekers van over de hele wereld aan, waaronder koninklijke en aristocratische figuren. Doorheen de eeuwen gemoderniseerd, behouden de gebouwen een unieke historische sfeer. Als UNESCO-werelderfgoed is het complex volledig gerestaureerd en herbestemd tot een 5-sterrenhotel met kamers, wellnessruimte en restaurant. In de achterkoer werd ook een nieuw gebouw opgetrokken met extra kamers, een vergaderzaal en een ondergrondse parking. Het project blijft een levend bewijs van Spa’s belang in de geschiedenis van thermale wateren.",
-    it: "Gli antichi stabilimenti termali di Spa sono un luogo iconico di benessere e relax, rinomato fin dall’Antichità per le sue sorgenti termali. Risalenti al XVIII secolo, hanno attirato visitatori da tutto il mondo, incluse personalità reali e aristocratiche. Modernizzati nel corso dei secoli, gli edifici conservano ancora un’atmosfera storica unica. Oggi, sito iscritto nel Patrimonio Mondiale dell’UNESCO, il complesso è stato completamente restaurato e riconvertito in un hotel 5 stelle con camere, area wellness e ristorante. È stato inoltre costruito un nuovo edificio nel cortile posteriore con camere, sala riunioni e parcheggio sotterraneo. Il sito resta una testimonianza viva dell’importanza di Spa nella storia delle acque termali.",
-    ku: "Termên kevnar ên Spa cihêke nîşanê ya rahiştin û tenduristî bûn, ku ji dema Kevnarî ve bi çavkaniyên termalê têne nas kirin. Ew di sedsala 18’an de dest pê kirin û mêvanên ji hemû dinyayê, her weha kesayetên şahanî û aristokrat, kişand. Her çend bi demê re hatine nûkirin, avahî hîn jî helwesta dîrokî ya taybet diparêze. Îro, wek cihê UNESCO-yê, kompleks bi temamî hate restorasyon kirin û veguherîn hate kirin bo otêlek 5 stêrkî bi odeyan, cihê wellness û restorant. Di hewşa paşîn de jî avahiyeke nû hat avakirin ku ode, salona civînê û parkkirina binerdî tê de heye. Ev projeyê hîn jî şahîdê zindî ye ji girîngiya Spa di dîroka avên termal de.",
-    tr: "Spa’nın eski termal yapıları, Antik Çağ’dan beri termal kaynaklarıyla ün salmış, iyi yaşam ve dinlenmenin simgesel bir mekânıdır. 18. yüzyıla uzanan geçmişiyle dünyanın dört bir yanından ziyaretçileri, özellikle kraliyet ve aristokrasi mensuplarını ağırlamıştır. Yüzyıllar boyunca modernize edilmesine rağmen benzersiz tarihi atmosferini korur. Günümüzde UNESCO Dünya Mirası listesinde yer alan yapı bütünüyle restore edilmiş ve odalar, wellness alanı ve restoran içeren 5 yıldızlı bir otele dönüştürülmüştür. Arka avluda ayrıca yeni bir bina inşa edilerek odalar, toplantı salonu ve yer altı otoparkı eklenmiştir. Proje, Spa’nın termal sular tarihindeki önemine dair yaşayan bir tanıklık olmaya devam eder.",
-  },
-
-  location: {
-    de: "Spa (Provinz Lüttich), Belgien",
-    en: "Spa (Province of Liège), Belgium",
-    fr: "Spa (Province de Liège), Belgique",
-    nl: "Spa (Provincie Luik), België",
-    it: "Spa (Provincia di Liegi), Belgio",
-    ku: "Spa (Parêzgeha Liège), Belçîka",
-    tr: "Spa (Liège Bölgesi), Belçika",
-  },
-
-  // From your screenshot
-  year: "2020",
-
-  // From your note
-  client: "Denys sa",
-
-  value: { en: "🔒" },
-
-  // From your screenshot
-  duration: { en: "2020-2025" },
-
-  // From your screenshot: 8.700 m²
-  size: {
-    en: "8,700 m²",
-    fr: "8 700 m²",
-    de: "8.700 m²",
-    nl: "8.700 m²",
-    it: "8.700 m²",
-  },
-
-  status: "completed",
-  featured: true,
-
-  // Keep your existing naming convention
-  image: "/images/projects/spa-3.jpg",
-  gallery: ["/images/projects/spa-1.jpg", "/images/projects/spa45.jpg", "/images/projects/spa46.jpg","/images/projects/spa47.jpg"],
-
-  // NATO-style localized features list, based on your bullet points
-  features: [
-    {
-      fr: "Architecture historique",
-      de: "Historische Architektur",
-      nl: "Historische architectuur",
-      it: "Architettura storica",
-      tr: "Tarihi mimari",
-      ku: "Mîmariya dîrokî",
-      en: "Historic Architecture",
-    },
-    {
-      fr: "Bâtiment classé",
-      de: "Denkmalgeschütztes Gebäude",
-      nl: "Beschermd erfgoed",
-      it: "Edificio vincolato",
-      tr: "Tescilli yapı",
-      ku: "Avahiyekî parastî",
-      en: "Listed Building",
-    },
-    {
-      fr: "Restauration",
-      de: "Restaurierung",
-      nl: "Restauratie",
-      it: "Restauro",
-      tr: "Restorasyon",
-      ku: "Restorasyon",
-      en: "Restoration",
-    },
-    {
-      fr: "Rénovation",
-      de: "Renovierung",
-      nl: "Renovatie",
-      it: "Ristrutturazione",
-      tr: "Yenileme",
-      ku: "Nûkirin",
-      en: "Renovation",
-    },
-    {
-      fr: "Wellness",
-      de: "Wellnessbereich",
-      nl: "Wellness",
-      it: "Wellness",
-      tr: "Wellness",
-      ku: "Wellness",
-      en: "Wellness",
-    },
-    {
-      fr: "Bâtiment neuf",
-      de: "Neubau",
-      nl: "Nieuwbouw",
-      it: "Nuova costruzione",
-      tr: "Yeni bina",
-      ku: "Avakirina nû",
-      en: "New Building",
-    },
-    {
-      fr: "Espace réunion",
-      de: "Besprechungsraum",
-      nl: "Vergaderruimte",
-      it: "Sala riunioni",
-      tr: "Toplantı alanı",
-      ku: "Cihê civînê",
-      en: "Meeting Space",
-    },
-    {
-      fr: "Parking souterrain",
-      de: "Tiefgarage",
-      nl: "Ondergrondse parking",
-      it: "Parcheggio sotterraneo",
-      tr: "Yer altı otoparkı",
-      ku: "Parkkirina binerdî",
-      en: "Underground Parking",
-    },
-  ],
-
-  // From your note: 150
-  teamSize: "150",
-}
-,
- 
-
-
-
-  // ═══════════════════════════════════════════════════════════════════════════
-  // RESIDENTIAL PROJECTS
-  // ═══════════════════════════════════════════════════════════════════════════
-{
-  id: "commercial-4",
-  slug: "hotel-sofitel-brussels-europe",
-  title: {
-    de: "Sofitel Hotel Brüssel Europa",
-    en: "Sofitel Brussels Europe Hotel",
-    fr: "Hôtel Sofitel Bruxelles Europe",
-    nl: "Sofitel Hotel Brussel Europe",
-    it: "Hotel Sofitel Bruxelles Europe",
-    ku: "Otel Sofitel Bruksel Ewropa",
-    tr: "Sofitel Brüksel Europe Oteli",
-  },
-
-  category: "commercial",
-
-  description: {
-    de: "Ausführung des Rohbaus eines Gebäudes mit Hotel und sechs Apartments im seitlichen Gebäudeteil. Das Sofitel Brussels Europe an der Place Jourdan ist ein modernes Luxushotel, ideal gelegen im Europaviertel von Brüssel. Es bietet elegante, zeitgenössische Zimmer mit hochwertiger Ausstattung für ein außergewöhnliches Aufenthaltserlebnis. Die Nähe zu den EU-Institutionen und zum öffentlichen Verkehr macht es zu einer praktischen und angenehmen Wahl für Geschäftsreisende und Touristen.",
-    en: "Delivery of the structural shell (gros œuvre) for a building combining a hotel and six apartments on the lateral wing. Sofitel Brussels Europe, located on Place Jourdan, is a modern luxury hotel ideally positioned in Brussels’ European Quarter. It offers elegant contemporary rooms with high-quality amenities for an outstanding stay. Its proximity to EU institutions and public transport makes it a convenient and enjoyable choice for business travelers and tourists.",
-    fr: "Réalisation du gros œuvre du bâtiment comprenant un hôtel et 6 appartements sur la partie latérale. Le Sofitel Brussels Europe, situé Place Jourdan, est un hôtel de luxe moderne, idéalement placé dans le quartier européen de Bruxelles. Il propose des chambres élégantes et contemporaines, avec des équipements de haute qualité pour une expérience de séjour exceptionnelle. Sa situation à proximité des institutions européennes et des transports en commun en fait un choix pratique et agréable pour les voyageurs d'affaires et les touristes.",
-    nl: "Realisatie van het gros œuvre van een gebouw met een hotel en 6 appartementen in het zijgedeelte. Sofitel Brussels Europe, gelegen aan het Jourdanplein, is een modern luxehotel, ideaal in de Europese wijk van Brussel. Het biedt elegante, hedendaagse kamers met hoogwaardige voorzieningen voor een uitzonderlijke verblijfservaring. Dankzij de nabijheid van EU-instellingen en het openbaar vervoer is het een praktische en aangename keuze voor zakenreizigers en toeristen.",
-    it: "Realizzazione del gros œuvre di un edificio che comprende un hotel e 6 appartamenti nella parte laterale. Il Sofitel Brussels Europe, situato in Place Jourdan, è un hotel di lusso moderno, in posizione ideale nel quartiere europeo di Bruxelles. Offre camere eleganti e contemporanee con dotazioni di alta qualità per un soggiorno eccezionale. La vicinanza alle istituzioni europee e ai trasporti pubblici lo rende una scelta comoda e piacevole per viaggiatori d’affari e turisti.",
-    ku: "Di vê projeyê de gros œuvre ya avahiyekê hate pêkanîn ku di nav xwe de otêlek û 6 apartmanan di beşa alî de digire. Sofitel Brussels Europe li Place Jourdanê ye, otêlek luxury ya modern e ku di navçeya Ewropî ya Brukselê de bi cihê baş e. Odeyên wî elegan û nûjen in û bi amûrên kaliteyê bilind re ezmûnekî hêja ya mayînê pêşkêş dike. Nêzîkbûna wî bi sazgehên Ewropî û transporta giştî, wî ji bo rêwîyên karsazî û gerokên turîzmê bijarekî rehet û xweş dike.",
-    tr: "Otel ve yan bölümde 6 daire içeren bir yapının kaba inşaatının (gros œuvre) gerçekleştirilmesi. Place Jourdan’da yer alan Sofitel Brussels Europe, Brüksel’in Avrupa Bölgesi’nde ideal konumlanmış modern bir lüks oteldir. Yüksek kalite donanımlara sahip şık ve çağdaş odalar sunarak ayrıcalıklı bir konaklama deneyimi sağlar. Avrupa kurumlarına ve toplu ulaşıma yakınlığı, iş amaçlı seyahat edenler ve turistler için pratik ve keyifli bir tercih olmasını sağlar.",
-  },
-
-  location: {
-    de: "Brüssel, Belgien",
-    en: "Brussels, Belgium",
-    fr: "Bruxelles, Belgique",
-    nl: "Brussel, België",
-    it: "Bruxelles, Belgio",
-    ku: "Bruksel, Belçîka",
-    tr: "Brüksel, Belçika",
-  },
-
-  // From your info
-  year: "2004",
-  client: "Valens sa",
-
-  value: { en: "🔒" },
-
-  // From your info (and matches the screenshot intent)
-  duration: { en: "2004-2006" },
-
-  // From screenshot: 7.500 m²
-  size: {
-    en: "7,500 m²",
-    fr: "7 500 m²",
-    de: "7.500 m²",
-    nl: "7.500 m²",
-    it: "7.500 m²",
-  },
-
-  status: "completed",
-  featured: true,
-
-   image: "/images/projects/dential-2.jpg",
-    gallery: ["/images/projects/dential-2-1.jpg"],
-
-  features: [
-    {
-      fr: "Bâtiment neuf",
-      de: "Neubau",
-      nl: "Nieuwbouw",
-      it: "Nuova costruzione",
-      tr: "Yeni bina",
-      ku: "Avakirina nû",
-      en: "New Building",
-    },
-    {
-      fr: "Hôtel",
-      de: "Hotel",
-      nl: "Hotel",
-      it: "Hotel",
-      tr: "Otel",
-      ku: "Otel",
-      en: "Hotel",
-    },
-    {
-      fr: "Appartements",
-      de: "Apartments",
-      nl: "Appartementen",
-      it: "Appartamenti",
-      tr: "Daireler",
-      ku: "Apartman",
-      en: "Apartments",
-    },
-    {
-      fr: "Chambres haut de gamme",
-      de: "High-End Zimmer",
-      nl: "High-end kamers",
-      it: "Camere di alta gamma",
-      tr: "Üst segment odalar",
-      ku: "Odeyên kaliteyê bilind",
-      en: "High-End Rooms",
-    },
-    {
-      fr: "Restaurant",
-      de: "Restaurant",
-      nl: "Restaurant",
-      it: "Ristorante",
-      tr: "Restoran",
-      ku: "Restoran",
-      en: "Restaurant",
-    },
-    {
-      fr: "Parking souterrain",
-      de: "Tiefgarage",
-      nl: "Ondergrondse parking",
-      it: "Parcheggio sotterraneo",
-      tr: "Yer altı otoparkı",
-      ku: "Parkkirina binerdî",
-      en: "Underground Parking",
-    },
-    {
-      fr: "Skyline",
-      de: "Skyline",
-      nl: "Skyline",
-      it: "Skyline",
-      tr: "Skyline",
-      ku: "Skyline",
-      en: "Skyline",
-    },
-  ],
-
-  // From your info
-  teamSize: "130",
-},
 {
   id: "residential-1",
   slug: "galeries-royales-saint-hubert-renovation",
@@ -1107,8 +830,160 @@ export const projects: Project[] = [
 
   // Based on your info
   teamSize: "100",
+},
+ 
+
+
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  // RESIDENTIAL PROJECTS
+  // ═══════════════════════════════════════════════════════════════════════════
+
+  {
+  id: "commercial-3",
+  slug: "anciens-thermes-de-spa",
+  title: {
+    de: "Ehemalige Thermalbäder von Spa",
+    en: "Ancient Spa Thermal Baths",
+    fr: "Anciens Thermes de Spa",
+    nl: "Oude Thermen van Spa",
+    it: "Antiche Terme di Spa",
+    ku: "Termên Kevnar ên Spa",
+    tr: "Spa Antik Termal Tesisleri",
+  },
+
+  category: "commercial",
+
+  description: {
+    de: "Die ehemaligen Thermen von Spa sind ein ikonischer Ort des Wohlbefindens, seit der Antike berühmt für ihre Thermalquellen. Die Anlage geht auf das 18. Jahrhundert zurück und zog Besucher aus aller Welt an, darunter königliche und aristokratische Persönlichkeiten. Im Laufe der Jahrhunderte modernisiert, bewahrt sie bis heute eine einzigartige historische Atmosphäre. Als UNESCO-Welterbe wurde das Gebäude vollständig restauriert und in ein 5-Sterne-Hotel mit Zimmern, Wellnessbereich und Restaurant umgewandelt. Zusätzlich entstand im rückwärtigen Hof ein Neubau mit weiteren Zimmern, Besprechungsraum und einer Tiefgarage. Das Ensemble bleibt ein lebendiges Zeugnis der Bedeutung Spas in der Geschichte der Thermalwässer.",
+    en: "The former thermal baths of Spa are an iconic wellness landmark, renowned since Antiquity for their thermal springs. Dating back to the 18th century, they welcomed visitors from around the world, including royal and aristocratic figures. Modernized over the centuries, the buildings still preserve a unique historic atmosphere. Now listed as a UNESCO World Heritage site, the complex has been fully restored and repurposed into a 5-star hotel with rooms, a wellness area, and a restaurant. A new building was also erected in the rear courtyard, adding rooms, a meeting room, and an underground car park. The project remains a living testament to Spa’s role in the history of thermal waters.",
+    fr: "Les anciens thermes de Spa étaient un lieu emblématique de bien-être et de détente, réputé depuis l’Antiquité pour ses sources thermales. Remontant au XVIIIe siècle, ils ont attiré des visiteurs du monde entier, notamment des personnalités royales et aristocratiques. Modernisés au fil des siècles, les bâtiments conservent une atmosphère historique unique. Aujourd’hui classé au patrimoine mondial de l’UNESCO, l’ensemble a été complètement restauré et réaffecté en hôtel 5 étoiles avec chambres, espace wellness et restaurant. Un nouveau bâtiment a également été érigé dans la cour arrière, comprenant des chambres, une salle de réunion et un parking souterrain. Le site demeure un témoignage vivant de l’importance de Spa dans l’histoire des eaux thermales.",
+    nl: "De oude thermen van Spa zijn een iconische wellnessplek, al sinds de Oudheid bekend om hun thermale bronnen. Ze dateren uit de 18e eeuw en trokken bezoekers van over de hele wereld aan, waaronder koninklijke en aristocratische figuren. Doorheen de eeuwen gemoderniseerd, behouden de gebouwen een unieke historische sfeer. Als UNESCO-werelderfgoed is het complex volledig gerestaureerd en herbestemd tot een 5-sterrenhotel met kamers, wellnessruimte en restaurant. In de achterkoer werd ook een nieuw gebouw opgetrokken met extra kamers, een vergaderzaal en een ondergrondse parking. Het project blijft een levend bewijs van Spa’s belang in de geschiedenis van thermale wateren.",
+    it: "Gli antichi stabilimenti termali di Spa sono un luogo iconico di benessere e relax, rinomato fin dall’Antichità per le sue sorgenti termali. Risalenti al XVIII secolo, hanno attirato visitatori da tutto il mondo, incluse personalità reali e aristocratiche. Modernizzati nel corso dei secoli, gli edifici conservano ancora un’atmosfera storica unica. Oggi, sito iscritto nel Patrimonio Mondiale dell’UNESCO, il complesso è stato completamente restaurato e riconvertito in un hotel 5 stelle con camere, area wellness e ristorante. È stato inoltre costruito un nuovo edificio nel cortile posteriore con camere, sala riunioni e parcheggio sotterraneo. Il sito resta una testimonianza viva dell’importanza di Spa nella storia delle acque termali.",
+    ku: "Termên kevnar ên Spa cihêke nîşanê ya rahiştin û tenduristî bûn, ku ji dema Kevnarî ve bi çavkaniyên termalê têne nas kirin. Ew di sedsala 18’an de dest pê kirin û mêvanên ji hemû dinyayê, her weha kesayetên şahanî û aristokrat, kişand. Her çend bi demê re hatine nûkirin, avahî hîn jî helwesta dîrokî ya taybet diparêze. Îro, wek cihê UNESCO-yê, kompleks bi temamî hate restorasyon kirin û veguherîn hate kirin bo otêlek 5 stêrkî bi odeyan, cihê wellness û restorant. Di hewşa paşîn de jî avahiyeke nû hat avakirin ku ode, salona civînê û parkkirina binerdî tê de heye. Ev projeyê hîn jî şahîdê zindî ye ji girîngiya Spa di dîroka avên termal de.",
+    tr: "Spa’nın eski termal yapıları, Antik Çağ’dan beri termal kaynaklarıyla ün salmış, iyi yaşam ve dinlenmenin simgesel bir mekânıdır. 18. yüzyıla uzanan geçmişiyle dünyanın dört bir yanından ziyaretçileri, özellikle kraliyet ve aristokrasi mensuplarını ağırlamıştır. Yüzyıllar boyunca modernize edilmesine rağmen benzersiz tarihi atmosferini korur. Günümüzde UNESCO Dünya Mirası listesinde yer alan yapı bütünüyle restore edilmiş ve odalar, wellness alanı ve restoran içeren 5 yıldızlı bir otele dönüştürülmüştür. Arka avluda ayrıca yeni bir bina inşa edilerek odalar, toplantı salonu ve yer altı otoparkı eklenmiştir. Proje, Spa’nın termal sular tarihindeki önemine dair yaşayan bir tanıklık olmaya devam eder.",
+  },
+
+  location: {
+    de: "Spa (Provinz Lüttich), Belgien",
+    en: "Spa (Province of Liège), Belgium",
+    fr: "Spa (Province de Liège), Belgique",
+    nl: "Spa (Provincie Luik), België",
+    it: "Spa (Provincia di Liegi), Belgio",
+    ku: "Spa (Parêzgeha Liège), Belçîka",
+    tr: "Spa (Liège Bölgesi), Belçika",
+  },
+
+  // From your screenshot
+  year: "2020",
+
+  // From your note
+  client: "Denys sa",
+
+  value: { en: "🔒" },
+
+  // From your screenshot
+  duration: { en: "2020-2025" },
+
+  // From your screenshot: 8.700 m²
+  size: {
+    en: "8,700 m²",
+    fr: "8 700 m²",
+    de: "8.700 m²",
+    nl: "8.700 m²",
+    it: "8.700 m²",
+  },
+
+  status: "completed",
+  featured: true,
+
+  // Keep your existing naming convention
+  image: "/images/projects/spa-3.jpg",
+  gallery: ["/images/projects/spa-1.jpg", "/images/projects/spa45.jpg", "/images/projects/spa46.jpg","/images/projects/spa47.jpg"],
+
+  // NATO-style localized features list, based on your bullet points
+  features: [
+    {
+      fr: "Architecture historique",
+      de: "Historische Architektur",
+      nl: "Historische architectuur",
+      it: "Architettura storica",
+      tr: "Tarihi mimari",
+      ku: "Mîmariya dîrokî",
+      en: "Historic Architecture",
+    },
+    {
+      fr: "Bâtiment classé",
+      de: "Denkmalgeschütztes Gebäude",
+      nl: "Beschermd erfgoed",
+      it: "Edificio vincolato",
+      tr: "Tescilli yapı",
+      ku: "Avahiyekî parastî",
+      en: "Listed Building",
+    },
+    {
+      fr: "Restauration",
+      de: "Restaurierung",
+      nl: "Restauratie",
+      it: "Restauro",
+      tr: "Restorasyon",
+      ku: "Restorasyon",
+      en: "Restoration",
+    },
+    {
+      fr: "Rénovation",
+      de: "Renovierung",
+      nl: "Renovatie",
+      it: "Ristrutturazione",
+      tr: "Yenileme",
+      ku: "Nûkirin",
+      en: "Renovation",
+    },
+    {
+      fr: "Wellness",
+      de: "Wellnessbereich",
+      nl: "Wellness",
+      it: "Wellness",
+      tr: "Wellness",
+      ku: "Wellness",
+      en: "Wellness",
+    },
+    {
+      fr: "Bâtiment neuf",
+      de: "Neubau",
+      nl: "Nieuwbouw",
+      it: "Nuova costruzione",
+      tr: "Yeni bina",
+      ku: "Avakirina nû",
+      en: "New Building",
+    },
+    {
+      fr: "Espace réunion",
+      de: "Besprechungsraum",
+      nl: "Vergaderruimte",
+      it: "Sala riunioni",
+      tr: "Toplantı alanı",
+      ku: "Cihê civînê",
+      en: "Meeting Space",
+    },
+    {
+      fr: "Parking souterrain",
+      de: "Tiefgarage",
+      nl: "Ondergrondse parking",
+      it: "Parcheggio sotterraneo",
+      tr: "Yer altı otoparkı",
+      ku: "Parkkirina binerdî",
+      en: "Underground Parking",
+    },
+  ],
+
+  // From your note: 150
+  teamSize: "150",
 }
 ,
+
+
+
   {
   id: "industrial-2",
   slug: "johnson-johnson-courcelles",
@@ -1221,9 +1096,141 @@ export const projects: Project[] = [
 }
 ,
 
-  // ═══════════════════════════════════════════════════════════════════════════
-  // INFRASTRUCTURE PROJECTS
-  // ═══════════════════════════════════════════════════════════════════════════
+
+{
+  id: "public-3",
+  slug: "institut-royal-sciences-naturelles-belgique",
+  title: {
+    de: "Königliches Belgisches Institut für Naturwissenschaften",
+    en: "Royal Belgian Institute of Natural Sciences",
+    fr: "Institut royal des sciences naturelles de Belgique",
+    nl: "Koninklijk Belgisch Instituut voor Natuurwetenschappen",
+    it: "Istituto Reale Belga di Scienze Naturali",
+    ku: "Enstîtuya Qralî ya Zanistên Xwezayî ya Belçîkayê",
+    tr: "Belçika Kraliyet Doğa Bilimleri Enstitüsü",
+  },
+
+  category: "renovation",
+
+  description: {
+    de: "Renovierung mehrerer Ebenen, um neue Ausstellungen zu ermöglichen. Das Königliche Belgisches Institut für Naturwissenschaften (IRSNB) organisiert regelmäßig öffentlich zugängliche wissenschaftliche Ausstellungen und bietet eine einzigartige Gelegenheit, den Reichtum der Natur und der Naturwissenschaften zu entdecken.",
+    en: "Renovation of several levels to enable new exhibitions. The Royal Belgian Institute of Natural Sciences (RBINS) regularly hosts public scientific exhibitions, offering a unique opportunity to explore the richness of nature and the natural sciences.",
+    fr: "Rénovation de plusieurs niveaux pour permettre de nouvelles expositions. L’Institut Royal des Sciences Naturelles de Belgique (IRSNB) organise régulièrement des expositions scientifiques ouvertes au public, offrant une occasion unique de découvrir la richesse de la nature et des sciences naturelles.",
+    nl: "Renovatie van meerdere niveaus om nieuwe tentoonstellingen mogelijk te maken. Het Koninklijk Belgisch Instituut voor Natuurwetenschappen (KBIN) organiseert regelmatig wetenschappelijke tentoonstellingen voor het publiek en biedt een unieke kans om de rijkdom van de natuur en de natuurwetenschappen te ontdekken.",
+    it: "Ristrutturazione di più livelli per consentire nuove esposizioni. L’Istituto Reale Belga di Scienze Naturali (IRSNB) organizza regolarmente mostre scientifiche aperte al pubblico, offrendo un’opportunità unica per scoprire la ricchezza della natura e delle scienze naturali.",
+    ku: "Nûkirina gelek astan ji bo ku pêşangehên nû were çêkirin. Enstîtuya Qralî ya Zanistên Xwezayî ya Belçîkayê (IRSNB) bi rêkûpêk pêşangehên zanistî yên vekirî ji bo gelê giştî rêkxist dike, û derfeteke yekta dide ku kes dewlemendiya xwezayê û zanistên xwezayî bibîne.",
+    tr: "Yeni sergilerin kurulabilmesi için birden fazla katın yenilenmesi. Belçika Kraliyet Doğa Bilimleri Enstitüsü (IRSNB/RBINS), halka açık bilimsel sergiler düzenleyerek doğanın ve doğa bilimlerinin zenginliğini keşfetmek için benzersiz bir fırsat sunar.",
+  },
+
+  location: {
+    de: "Brüssel, Belgien",
+    en: "Brussels, Belgium",
+    fr: "Bruxelles, Belgique",
+    nl: "Brussel, België",
+    it: "Bruxelles, Belgio",
+    ku: "Bruksel, Belçîka",
+    tr: "Brüksel, Belçika",
+  },
+
+  // From screenshot
+  year: "2017",
+
+  // From your info
+  client: "Régie des bâtiments",
+
+  value: { en: "🔒" },
+
+  // From screenshot
+  duration: { en: "2017-2018" },
+
+  // From screenshot: 3.100 m²
+  size: {
+    en: "3,100 m²",
+    fr: "3 100 m²",
+    de: "3.100 m²",
+    nl: "3.100 m²",
+    it: "3.100 m²",
+  },
+
+  status: "completed",
+  featured: true,
+  image: "/images/projects/toya.jpg",
+
+  gallery: [
+    "/images/projects/toya.jpg",
+    "/images/projects/toya1.jpg"
+  ],
+  features: [
+    {
+      fr: "Façade classée",
+      de: "Geschützte Fassade",
+      nl: "Beschermde gevel",
+      it: "Facciata vincolata",
+      tr: "Tescilli cephe",
+      ku: "Fasadê parastî",
+      en: "Listed Façade",
+    },
+    {
+      fr: "Rénovation",
+      de: "Renovierung",
+      nl: "Renovatie",
+      it: "Ristrutturazione",
+      tr: "Yenileme",
+      ku: "Nûkirin",
+      en: "Renovation",
+    },
+    {
+      fr: "Sonorisation",
+      de: "Beschallung",
+      nl: "Geluidsinstallatie",
+      it: "Sonorizzazione",
+      tr: "Seslendirme",
+      ku: "Sonorîzasyon",
+      en: "Sound System",
+    },
+    {
+      fr: "Transformation",
+      de: "Umgestaltung",
+      nl: "Transformatie",
+      it: "Trasformazione",
+      tr: "Dönüşüm",
+      ku: "Guherandin",
+      en: "Transformation",
+    },
+    {
+      fr: "Infrastructure publique",
+      de: "Öffentliche Infrastruktur",
+      nl: "Publieke infrastructuur",
+      it: "Infrastruttura pubblica",
+      tr: "Kamu altyapısı",
+      ku: "Infrastruktura giştî",
+      en: "Public Infrastructure",
+    },
+    {
+      fr: "Bâtiment modernisé",
+      de: "Modernisiertes Gebäude",
+      nl: "Gemoderniseerd gebouw",
+      it: "Edificio modernizzato",
+      tr: "Modernize bina",
+      ku: "Avahiyek nûjenkirî",
+      en: "Modernized Building",
+    },
+    {
+      fr: "Expositions permanentes",
+      de: "Dauerausstellungen",
+      nl: "Permanente tentoonstellingen",
+      it: "Esposizioni permanenti",
+      tr: "Kalıcı sergiler",
+      ku: "Pêşangehên daîmî",
+      en: "Permanent Exhibitions",
+    },
+  ],
+
+  // From your info
+  teamSize: "80",
+}
+,
+
 {
   id: "public-1",
   slug: "institut-royal-meteorologique-belgique-irm",
@@ -1344,6 +1351,10 @@ export const projects: Project[] = [
   teamSize: "60",
 }
 ,
+  // ═══════════════════════════════════════════════════════════════════════════
+  // INFRASTRUCTURE PROJECTS
+  // ═══════════════════════════════════════════════════════════════════════════
+
 
 {
   id: "residential-2",
@@ -1726,6 +1737,136 @@ export const projects: Project[] = [
 ,
 
 
+  {
+  id: "commercial-4",
+  slug: "hotel-sofitel-brussels-europe",
+  title: {
+    de: "Sofitel Hotel Brüssel Europa",
+    en: "Sofitel Brussels Europe Hotel",
+    fr: "Hôtel Sofitel Bruxelles Europe",
+    nl: "Sofitel Hotel Brussel Europe",
+    it: "Hotel Sofitel Bruxelles Europe",
+    ku: "Otel Sofitel Bruksel Ewropa",
+    tr: "Sofitel Brüksel Europe Oteli",
+  },
+
+  category: "commercial",
+
+  description: {
+    de: "Ausführung des Rohbaus eines Gebäudes mit Hotel und sechs Apartments im seitlichen Gebäudeteil. Das Sofitel Brussels Europe an der Place Jourdan ist ein modernes Luxushotel, ideal gelegen im Europaviertel von Brüssel. Es bietet elegante, zeitgenössische Zimmer mit hochwertiger Ausstattung für ein außergewöhnliches Aufenthaltserlebnis. Die Nähe zu den EU-Institutionen und zum öffentlichen Verkehr macht es zu einer praktischen und angenehmen Wahl für Geschäftsreisende und Touristen.",
+    en: "Delivery of the structural shell (gros œuvre) for a building combining a hotel and six apartments on the lateral wing. Sofitel Brussels Europe, located on Place Jourdan, is a modern luxury hotel ideally positioned in Brussels’ European Quarter. It offers elegant contemporary rooms with high-quality amenities for an outstanding stay. Its proximity to EU institutions and public transport makes it a convenient and enjoyable choice for business travelers and tourists.",
+    fr: "Réalisation du gros œuvre du bâtiment comprenant un hôtel et 6 appartements sur la partie latérale. Le Sofitel Brussels Europe, situé Place Jourdan, est un hôtel de luxe moderne, idéalement placé dans le quartier européen de Bruxelles. Il propose des chambres élégantes et contemporaines, avec des équipements de haute qualité pour une expérience de séjour exceptionnelle. Sa situation à proximité des institutions européennes et des transports en commun en fait un choix pratique et agréable pour les voyageurs d'affaires et les touristes.",
+    nl: "Realisatie van het gros œuvre van een gebouw met een hotel en 6 appartementen in het zijgedeelte. Sofitel Brussels Europe, gelegen aan het Jourdanplein, is een modern luxehotel, ideaal in de Europese wijk van Brussel. Het biedt elegante, hedendaagse kamers met hoogwaardige voorzieningen voor een uitzonderlijke verblijfservaring. Dankzij de nabijheid van EU-instellingen en het openbaar vervoer is het een praktische en aangename keuze voor zakenreizigers en toeristen.",
+    it: "Realizzazione del gros œuvre di un edificio che comprende un hotel e 6 appartamenti nella parte laterale. Il Sofitel Brussels Europe, situato in Place Jourdan, è un hotel di lusso moderno, in posizione ideale nel quartiere europeo di Bruxelles. Offre camere eleganti e contemporanee con dotazioni di alta qualità per un soggiorno eccezionale. La vicinanza alle istituzioni europee e ai trasporti pubblici lo rende una scelta comoda e piacevole per viaggiatori d’affari e turisti.",
+    ku: "Di vê projeyê de gros œuvre ya avahiyekê hate pêkanîn ku di nav xwe de otêlek û 6 apartmanan di beşa alî de digire. Sofitel Brussels Europe li Place Jourdanê ye, otêlek luxury ya modern e ku di navçeya Ewropî ya Brukselê de bi cihê baş e. Odeyên wî elegan û nûjen in û bi amûrên kaliteyê bilind re ezmûnekî hêja ya mayînê pêşkêş dike. Nêzîkbûna wî bi sazgehên Ewropî û transporta giştî, wî ji bo rêwîyên karsazî û gerokên turîzmê bijarekî rehet û xweş dike.",
+    tr: "Otel ve yan bölümde 6 daire içeren bir yapının kaba inşaatının (gros œuvre) gerçekleştirilmesi. Place Jourdan’da yer alan Sofitel Brussels Europe, Brüksel’in Avrupa Bölgesi’nde ideal konumlanmış modern bir lüks oteldir. Yüksek kalite donanımlara sahip şık ve çağdaş odalar sunarak ayrıcalıklı bir konaklama deneyimi sağlar. Avrupa kurumlarına ve toplu ulaşıma yakınlığı, iş amaçlı seyahat edenler ve turistler için pratik ve keyifli bir tercih olmasını sağlar.",
+  },
+
+  location: {
+    de: "Brüssel, Belgien",
+    en: "Brussels, Belgium",
+    fr: "Bruxelles, Belgique",
+    nl: "Brussel, België",
+    it: "Bruxelles, Belgio",
+    ku: "Bruksel, Belçîka",
+    tr: "Brüksel, Belçika",
+  },
+
+  // From your info
+  year: "2004",
+  client: "Valens sa",
+
+  value: { en: "🔒" },
+
+  // From your info (and matches the screenshot intent)
+  duration: { en: "2004-2006" },
+
+  // From screenshot: 7.500 m²
+  size: {
+    en: "7,500 m²",
+    fr: "7 500 m²",
+    de: "7.500 m²",
+    nl: "7.500 m²",
+    it: "7.500 m²",
+  },
+
+  status: "completed",
+  featured: true,
+
+   image: "/images/projects/update.jpg",
+    gallery: ["/images/projects/update1.jpg","/images/projects/update3.jpg"],
+
+  features: [
+    {
+      fr: "Bâtiment neuf",
+      de: "Neubau",
+      nl: "Nieuwbouw",
+      it: "Nuova costruzione",
+      tr: "Yeni bina",
+      ku: "Avakirina nû",
+      en: "New Building",
+    },
+    {
+      fr: "Hôtel",
+      de: "Hotel",
+      nl: "Hotel",
+      it: "Hotel",
+      tr: "Otel",
+      ku: "Otel",
+      en: "Hotel",
+    },
+    {
+      fr: "Appartements",
+      de: "Apartments",
+      nl: "Appartementen",
+      it: "Appartamenti",
+      tr: "Daireler",
+      ku: "Apartman",
+      en: "Apartments",
+    },
+    {
+      fr: "Chambres haut de gamme",
+      de: "High-End Zimmer",
+      nl: "High-end kamers",
+      it: "Camere di alta gamma",
+      tr: "Üst segment odalar",
+      ku: "Odeyên kaliteyê bilind",
+      en: "High-End Rooms",
+    },
+    {
+      fr: "Restaurant",
+      de: "Restaurant",
+      nl: "Restaurant",
+      it: "Ristorante",
+      tr: "Restoran",
+      ku: "Restoran",
+      en: "Restaurant",
+    },
+    {
+      fr: "Parking souterrain",
+      de: "Tiefgarage",
+      nl: "Ondergrondse parking",
+      it: "Parcheggio sotterraneo",
+      tr: "Yer altı otoparkı",
+      ku: "Parkkirina binerdî",
+      en: "Underground Parking",
+    },
+    {
+      fr: "Skyline",
+      de: "Skyline",
+      nl: "Skyline",
+      it: "Skyline",
+      tr: "Skyline",
+      ku: "Skyline",
+      en: "Skyline",
+    },
+  ],
+
+  // From your info
+  teamSize: "130",
+},
+
+
 // RENOVATION PROJECTS
 // ═══════════════════════════════════════════════════════════════════════════
 {
@@ -1849,139 +1990,7 @@ export const projects: Project[] = [
 // RENOVATION PROJECTS
 // ═══════════════════════════════════════════════════════════════════════════
 
-{
-  id: "public-3",
-  slug: "institut-royal-sciences-naturelles-belgique",
-  title: {
-    de: "Königliches Belgisches Institut für Naturwissenschaften",
-    en: "Royal Belgian Institute of Natural Sciences",
-    fr: "Institut royal des sciences naturelles de Belgique",
-    nl: "Koninklijk Belgisch Instituut voor Natuurwetenschappen",
-    it: "Istituto Reale Belga di Scienze Naturali",
-    ku: "Enstîtuya Qralî ya Zanistên Xwezayî ya Belçîkayê",
-    tr: "Belçika Kraliyet Doğa Bilimleri Enstitüsü",
-  },
 
-  category: "renovation",
-
-  description: {
-    de: "Renovierung mehrerer Ebenen, um neue Ausstellungen zu ermöglichen. Das Königliche Belgisches Institut für Naturwissenschaften (IRSNB) organisiert regelmäßig öffentlich zugängliche wissenschaftliche Ausstellungen und bietet eine einzigartige Gelegenheit, den Reichtum der Natur und der Naturwissenschaften zu entdecken.",
-    en: "Renovation of several levels to enable new exhibitions. The Royal Belgian Institute of Natural Sciences (RBINS) regularly hosts public scientific exhibitions, offering a unique opportunity to explore the richness of nature and the natural sciences.",
-    fr: "Rénovation de plusieurs niveaux pour permettre de nouvelles expositions. L’Institut Royal des Sciences Naturelles de Belgique (IRSNB) organise régulièrement des expositions scientifiques ouvertes au public, offrant une occasion unique de découvrir la richesse de la nature et des sciences naturelles.",
-    nl: "Renovatie van meerdere niveaus om nieuwe tentoonstellingen mogelijk te maken. Het Koninklijk Belgisch Instituut voor Natuurwetenschappen (KBIN) organiseert regelmatig wetenschappelijke tentoonstellingen voor het publiek en biedt een unieke kans om de rijkdom van de natuur en de natuurwetenschappen te ontdekken.",
-    it: "Ristrutturazione di più livelli per consentire nuove esposizioni. L’Istituto Reale Belga di Scienze Naturali (IRSNB) organizza regolarmente mostre scientifiche aperte al pubblico, offrendo un’opportunità unica per scoprire la ricchezza della natura e delle scienze naturali.",
-    ku: "Nûkirina gelek astan ji bo ku pêşangehên nû were çêkirin. Enstîtuya Qralî ya Zanistên Xwezayî ya Belçîkayê (IRSNB) bi rêkûpêk pêşangehên zanistî yên vekirî ji bo gelê giştî rêkxist dike, û derfeteke yekta dide ku kes dewlemendiya xwezayê û zanistên xwezayî bibîne.",
-    tr: "Yeni sergilerin kurulabilmesi için birden fazla katın yenilenmesi. Belçika Kraliyet Doğa Bilimleri Enstitüsü (IRSNB/RBINS), halka açık bilimsel sergiler düzenleyerek doğanın ve doğa bilimlerinin zenginliğini keşfetmek için benzersiz bir fırsat sunar.",
-  },
-
-  location: {
-    de: "Brüssel, Belgien",
-    en: "Brussels, Belgium",
-    fr: "Bruxelles, Belgique",
-    nl: "Brussel, België",
-    it: "Bruxelles, Belgio",
-    ku: "Bruksel, Belçîka",
-    tr: "Brüksel, Belçika",
-  },
-
-  // From screenshot
-  year: "2017",
-
-  // From your info
-  client: "Régie des bâtiments",
-
-  value: { en: "🔒" },
-
-  // From screenshot
-  duration: { en: "2017-2018" },
-
-  // From screenshot: 3.100 m²
-  size: {
-    en: "3,100 m²",
-    fr: "3 100 m²",
-    de: "3.100 m²",
-    nl: "3.100 m²",
-    it: "3.100 m²",
-  },
-
-  status: "completed",
-  featured: true,
-  image: "/images/projects/institut-sciences-naturelles.jpg",
-
-  gallery: [
-    "/images/projects/institut-sciences-naturelles-1.jpg",
-    "/images/projects/institut-sciences-naturelles-2.jpg"
-  ],
-  features: [
-    {
-      fr: "Façade classée",
-      de: "Geschützte Fassade",
-      nl: "Beschermde gevel",
-      it: "Facciata vincolata",
-      tr: "Tescilli cephe",
-      ku: "Fasadê parastî",
-      en: "Listed Façade",
-    },
-    {
-      fr: "Rénovation",
-      de: "Renovierung",
-      nl: "Renovatie",
-      it: "Ristrutturazione",
-      tr: "Yenileme",
-      ku: "Nûkirin",
-      en: "Renovation",
-    },
-    {
-      fr: "Sonorisation",
-      de: "Beschallung",
-      nl: "Geluidsinstallatie",
-      it: "Sonorizzazione",
-      tr: "Seslendirme",
-      ku: "Sonorîzasyon",
-      en: "Sound System",
-    },
-    {
-      fr: "Transformation",
-      de: "Umgestaltung",
-      nl: "Transformatie",
-      it: "Trasformazione",
-      tr: "Dönüşüm",
-      ku: "Guherandin",
-      en: "Transformation",
-    },
-    {
-      fr: "Infrastructure publique",
-      de: "Öffentliche Infrastruktur",
-      nl: "Publieke infrastructuur",
-      it: "Infrastruttura pubblica",
-      tr: "Kamu altyapısı",
-      ku: "Infrastruktura giştî",
-      en: "Public Infrastructure",
-    },
-    {
-      fr: "Bâtiment modernisé",
-      de: "Modernisiertes Gebäude",
-      nl: "Gemoderniseerd gebouw",
-      it: "Edificio modernizzato",
-      tr: "Modernize bina",
-      ku: "Avahiyek nûjenkirî",
-      en: "Modernized Building",
-    },
-    {
-      fr: "Expositions permanentes",
-      de: "Dauerausstellungen",
-      nl: "Permanente tentoonstellingen",
-      it: "Esposizioni permanenti",
-      tr: "Kalıcı sergiler",
-      ku: "Pêşangehên daîmî",
-      en: "Permanent Exhibitions",
-    },
-  ],
-
-  // From your info
-  teamSize: "80",
-}
-,
 
 // RENOVATION PROJECTS
 // ═══════════════════════════════════════════════════════════════════════════
