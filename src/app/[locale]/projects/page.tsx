@@ -17,7 +17,8 @@ import {
   getProjectValueLocalized,
   type Locale,
 } from "@/data/projects";
-import { MediaFrame } from "@/components/ProjectGallery";
+import MediaFrame from "@/components/ProjectGallery";
+
 
 
 
