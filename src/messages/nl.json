@@ -248,7 +248,8 @@
     "empty": "Momenteel zijn er geen artikelen om te tonen."
   },
   "header": {
-    "headquarters": "Halle Westfalen, Duitsland",
+    "headquarters": "Bielefeld, Duitsland",
+        "herostatssqm":"Opgeleverde vierkante meters",
     "emergency24": "Nooddienst 24/7",
     "search": "Zoeken",
     "searchPlaceholder": "Zoek projecten, diensten, nieuws...",
@@ -607,7 +608,9 @@
             "officeBuildings": "Kantoorgebouwen",
             "retailCenters": "Winkelcentra",
             "mixedUse": "Mixed-use projecten",
-            "hospitality": "Horeca"
+            "hospitality": "Horeca",
+             "Maison": "Huis",
+             "Apartment": "Appartementengebouw"
           }
         },
         "realEstate": {
@@ -1125,7 +1128,7 @@
       "cairo": "Caïro, Egypte",
       "london": "Londen, Verenigd Koninkrijk",
       "brussels": "Brussel, België",
-      "germany": "Halle Westfalen, Duitsland"
+      "germany": "Bielefeld, Duitsland"
     },
     "jobTypes": {
       "fullTime": "Voltijds",

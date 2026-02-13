@@ -248,8 +248,9 @@
     "empty": "No articles to display at the moment."
   },
   "header": {
-    "headquarters": "Halle Westfalen, Germany",
+    "headquarters": "Bielefeld, Germany",
     "emergency24": "Emergency 24/7",
+    "herostatssqm":"Square meters delivered",
     "search": "Search",
     "searchPlaceholder": "Search projects, services, news...",
     "quickLinks": "Quick links",
@@ -573,7 +574,7 @@
           "description": ""
         },
         "quality": {
-          "title": "High quality standards.",
+          "title": "Quality",
           "description": ""
         },
         "innovation": {
@@ -629,7 +630,8 @@
           "title": "Project development",
           "heroTagline": "Strategy, execution, value",
           "heroDescription": "We manage the development of residential, commercial, and mixed-use real estate projects with a structured and transparent approach. From feasibility study to delivery, we secure every stage, control risks, and optimize the value of your assets.",
-          "description": "We support your real estate projects end-to-end by combining market expertise, technical mastery, and rigorous coordination. Our goal: secure your decisions, reduce surprises, and maximize the performance of your investments.",
+          "description": "We develop and manage residential and commercial real estate development projects, based on in-depth market research and rigorous profitability analysis.From identifying land opportunities to design, construction, and marketing, we create attractive, innovative projects that are tailored to market expectations. Our goal is to maximize the value of investments while incorporating sustainable and responsible solutions",
+
           "features": {
             "residential": "Residential projects",
             "commercial": "Commercial assets",

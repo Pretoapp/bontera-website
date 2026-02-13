@@ -249,8 +249,10 @@
     "empty": "Aucun article à afficher pour le moment."
   },
   "header": {
-    "headquarters": "Halle Westfalen, Allemagne",
+    "headquarters": "Bielefeld, Allemagne",
+    
     "emergency24": "Urgence 24/7",
+    "hero.stats.sqm":"ok",
     "search": "Rechercher",
     "searchPlaceholder": "Rechercher des projets, services, actualités...",
     "quickLinks": "Liens rapides",
@@ -262,6 +264,7 @@
     "featured": "À la une",
     "sustainableBuilding": "Solutions de construction durable",
     "sustainableBuildingDesc": "",
+        "herostatssqm":"Mètres carrés livrés",
     "viewAllServices": "Voir tous les services",
     "projectCategories": "Catégories de projets",
     "featuredProject": "Projet à la une",
@@ -274,11 +277,13 @@
     "yearsExperience": "Années d’expérience",
     "projectsCompleted": "Projets terminés",
     "countriesOperating": "Pays d’implantation",
+    
     "teamMembers": "Membres de l’équipe",
     "services": {
       "commercialConstruction": "Construction",
       "commercialConstructionDesc": "Résidentielle, Commercial et Infrastructure",
       "realEstate": "Immobilier",
+      "herostatssqm":"ok",
       "realEstateDesc": "Développement immobilier premium",
       "renovation": "Rénovation & restauration",
       "renovationDesc": "Bâtiment classé, Résidentiel et commercial",
@@ -574,7 +579,7 @@
           "description": ""
         },
         "quality": {
-          "title": "Standards de qualité élevés.",
+          "title": "Qualité",
           "description": ""
         },
         "innovation": {
@@ -582,7 +587,7 @@
           "description": ""
         },
         "safety": {
-          "title": "sécurité",
+          "title": "Sécurité",
           "description": ""
         }
       },
@@ -608,7 +613,9 @@
             "officeBuildings": "Immeubles de bureaux",
             "retailCenters": "Centres commerciaux",
             "mixedUse": "Projets mixtes",
-            "hospitality": "Hôtellerie"
+            "hospitality": "Hôtellerie",
+             "Maison": "Maison",
+             "Apartment": "Immeuble à appartements"
           }
         },
         "realEstate": {
@@ -630,7 +637,7 @@
           "title": "Développement de projets",
           "heroTagline": "Stratégie, exécution, valeur",
           "heroDescription": "Nous pilotons le développement de projets immobiliers résidentiels, commerciaux et mixtes avec une approche structurée et transparente. De l’étude de faisabilité à la livraison, nous sécurisons chaque étape, maîtrisons les risques et optimisons la valeur de vos actifs.",
-          "description": "Nous accompagnons vos projets immobiliers de bout en bout en combinant expertise marché, maîtrise technique et coordination rigoureuse. Notre objectif: sécuriser vos décisions, réduire les imprévus et maximiser la performance de vos investissements.",
+          "description": "Nous développons et pilotons des projets de promotion immobilière résidentiels et commerciaux, en nous appuyant sur des études de marché approfondies et une analyse rigoureuse de la rentabilité.De l’identification des opportunités foncières à la conception, en passant par la réalisation et la commercialisation, nous créons des projets attractifs, innovants et adaptés aux attentes du marché. Notre objectif est de maximiser la valeur des investissements tout en intégrant des solutions durables et responsables",
           "features": {
             "residential": "Projets résidentiels",
             "commercial": "Actifs commerciaux",
@@ -1127,7 +1134,7 @@
       "cairo": "Le Caire, Égypte",
       "london": "Londres, Royaume-Uni",
       "brussels": "Bruxelles, Belgique",
-      "germany": "Halle Westfalen, Allemagne"
+      "germany": "Bielefeld, Allemagne"
     },
     "jobTypes": {
       "fullTime": "Temps plein",
@@ -1173,7 +1180,7 @@
       "values": {
         "innovation": {
           "title": "Innovation",
-          "description": "Nous adoptons de nouvelles idées et des technologies de pointe pour livrer de meilleures solutions."
+          "description": "Nous adoptons de nouvelles idées pour livrer de meilleures solutions."
         },
         "teamwork": {
           "title": "Esprit d’équipe",

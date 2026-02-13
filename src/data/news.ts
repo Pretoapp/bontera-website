@@ -93,33 +93,7 @@ export const newsArticles: NewsArticle[] = [
   },
  
   
-  {
-    id: "news-005",
-    slug: "riyadh-regional-headquarters",
-    category: "companyNews",
-    date: "2023-12-15",
-    readTime: 4,
-    image: "/images/news/riyadh-office.jpg",
-    featured: false,
-    title: {
-      de: "Neues Regionalbüro in Riad eröffnet",
-      en: "New Regional Headquarters Opens in Riyadh",
-      fr: "Ouverture d'un nouveau siège régional à Riyad",
-      nl: "Nieuw regionaal hoofdkantoor geopend in Riyad",
-      it: "Nuova sede regionale aperta a Riyadh",
-      ku: "Navenda Herêmî ya Nû li Riyadh Vebû",
-      tr: "Riyad'da Yeni Bölge Merkezi Açıldı",
-    },
-    excerpt: {
-      de: "Mit der Erweiterung unserer Präsenz in Saudi-Arabien wird das neue Büro als Zentrum für unsere wachsenden Vision 2030-Projekte dienen.",
-      en: "Expanding our presence in Saudi Arabia, the new office will serve as a hub for our growing operations in the Kingdom's Vision 2030 projects.",
-      fr: "En renforçant notre présence en Arabie saoudite, ce nouveau bureau servira de hub pour nos opérations liées à Vision 2030.",
-      nl: "Door onze aanwezigheid in Saoedi-Arabië uit te breiden, zal het nieuwe kantoor dienen als hub voor onze groeiende Vision 2030-projecten.",
-      it: "Espandendo la nostra presenza in Arabia Saudita, il nuovo ufficio servirà come hub per i nostri progetti Vision 2030.",
-      ku: "Bi berfirehkirina hebûna me li Erebistana Siûdî, ofîsa nû dê wekî navendek ji bo operasyonên me yên projeyên Vision 2030 xizmetê bike.",
-      tr: "Suudi Arabistan'daki varlığımızı genişleterek, yeni ofis Vizyon 2030 projelerindeki büyüyen operasyonlarımız için merkez görevi görecek.",
-    },
-  },
+ 
   {
     id: "news-006",
     slug: "global-infrastructure-summit-2024",

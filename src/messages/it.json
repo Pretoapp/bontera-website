@@ -248,8 +248,9 @@
     "empty": "Nessun articolo da mostrare al momento."
   },
   "header": {
-    "headquarters": "Halle Westfalen, Germania",
+    "headquarters": "Bielefeld, Germania",
     "emergency24": "Emergenza 24/7",
+      "herostatssqm":"Metri quadrati consegnati",
     "search": "Cerca",
     "searchPlaceholder": "Cerca progetti, servizi, notizie...",
     "quickLinks": "Link rapidi",
@@ -607,7 +608,9 @@
             "officeBuildings": "Edifici per uffici",
             "retailCenters": "Centri retail",
             "mixedUse": "Progetti mixed-use",
-            "hospitality": "Ospitalità"
+            "hospitality": "Ospitalità",
+             "Maison": "Casa",
+             "Apartment": "Edificio di appartamenti"
           }
         },
         "realEstate": {
@@ -629,7 +632,7 @@
           "title": "Sviluppo progetti",
           "heroTagline": "Strategia, esecuzione, valore",
           "heroDescription": "Gestiamo lo sviluppo di progetti immobiliari residenziali, commerciali e mixed-use con un approccio strutturato e trasparente. Dallo studio di fattibilità alla consegna, mettiamo in sicurezza ogni fase, controlliamo i rischi e ottimizziamo il valore dei tuoi asset.",
-          "description": "Supportiamo i tuoi progetti immobiliari end-to-end unendo competenza di mercato, padronanza tecnica e coordinamento rigoroso. Il nostro obiettivo: mettere in sicurezza le decisioni, ridurre gli imprevisti e massimizzare la performance dei tuoi investimenti.",
+          "description": "Sviluppiamo e gestiamo progetti di promozione immobiliare residenziale e commerciale, basandoci su approfondite ricerche di mercato e su una rigorosa analisi della redditività.Dall'identificazione delle opportunità immobiliari alla progettazione, passando per la realizzazione e la commercializzazione, creiamo progetti attraenti, innovativi e adeguati alle aspettative del mercato. Il nostro obiettivo è massimizzare il valore degli investimenti integrando soluzioni sostenibili e responsabili.",
           "features": {
             "residential": "Progetti residenziali",
             "commercial": "Asset commerciali",

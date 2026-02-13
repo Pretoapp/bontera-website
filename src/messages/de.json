@@ -240,6 +240,8 @@
     "viewAll": "Alle News ansehen",
     "readMore": "Artikel lesen",
     "noNews": "Derzeit sind keine Artikel verfügbar."
+
+    
   },
   "newsSection": {
     "title": "News & Einblicke",
@@ -248,7 +250,8 @@
     "empty": "Derzeit sind keine Artikel verfügbar."
   },
   "header": {
-    "headquarters": "Halle Westfalen, Deutschland",
+    "headquarters": "Bielefeld, Deutschland",
+    "herostatssqm":"Fertiggestellte Quadratmeter",
     "emergency24": "Notfall 24/7",
     "search": "Suche",
     "searchPlaceholder": "Projekte, Leistungen, News suchen...",
@@ -573,7 +576,7 @@
           "description": ""
         },
         "quality": {
-          "title": "Hohe Qualitätsstandards.",
+          "title": "Qualität",
           "description": ""
         },
         "innovation": {
@@ -607,7 +610,9 @@
             "officeBuildings": "Bürogebäude",
             "retailCenters": "Einkaufszentren",
             "mixedUse": "Mixed-Use-Projekte",
-            "hospitality": "Hotellerie"
+            "hospitality": "Hotellerie",
+             "Maison": "Haus",
+             "Apartment": "Wohngebäude"
           }
         },
         "realEstate": {
@@ -629,7 +634,7 @@
           "title": "Projektentwicklung",
           "heroTagline": "Strategie, Umsetzung, Wert",
           "heroDescription": "Wir steuern die Entwicklung von Wohn-, Gewerbe- und Mixed-Use-Projekten mit einem strukturierten und transparenten Ansatz. Von der Machbarkeitsstudie bis zur Übergabe sichern wir jede Phase ab, kontrollieren Risiken und optimieren den Wert Ihrer Assets.",
-          "description": "Wir begleiten Ihre Immobilienprojekte end-to-end durch die Kombination aus Marktkompetenz, technischer Expertise und konsequenter Koordination. Unser Ziel: Entscheidungen absichern, Überraschungen reduzieren und die Performance Ihrer Investments maximieren.",
+          "description": "Wir entwickeln und leiten Wohn- und Gewerbeimmobilienprojekte auf der Grundlage gründlicher Marktstudien und einer strengen Rentabilitätsanalyse.Von der Identifizierung von Grundstücksmöglichkeiten über die Planung bis hin zur Umsetzung und Vermarktung schaffen wir attraktive, innovative Projekte, die den Erwartungen des Marktes entsprechen. Unser Ziel ist es, den Wert der Investitionen zu maximieren und gleichzeitig nachhaltige und verantwortungsbewusste Lösungen zu integrieren.",
           "features": {
             "residential": "Wohnprojekte",
             "commercial": "Gewerbe-Assets",
@@ -1126,7 +1131,7 @@
       "cairo": "Kairo, Ägypten",
       "london": "London, Vereinigtes Königreich",
       "brussels": "Brüssel, Belgien",
-      "germany": "Halle Westfalen, Deutschland"
+      "germany": "Bielefeld, Deutschland"
     },
     "jobTypes": {
       "fullTime": "Vollzeit",

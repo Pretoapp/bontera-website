@@ -465,7 +465,7 @@ export const projects: Project[] = [
     tr: "Brüksel, Belçika",
   },
   year: "2014",
-  client: "NATO",
+  client: "BAM Alliance",
 
   // Keep only en if you want your localizeValue/localizeDuration to format others automatically
   value: { en: "€1.2B" },
@@ -575,7 +575,7 @@ export const projects: Project[] = [
   value: { en: "🔒" },
 
   // Based on your new info: 2009-2011
-  duration: { en: "24 months" },
+  duration: { en: "2009-2011" },
 
   // Keep the same size formatting behavior as NATO object
   size: {
@@ -1154,11 +1154,11 @@ export const projects: Project[] = [
 
   status: "completed",
   featured: true,
-  image: "/images/projects/toya.jpg",
+  image: "/images/projects/institut-sciences-naturelles.jpg",
 
   gallery: [
-    "/images/projects/toya.jpg",
-    "/images/projects/toya1.jpg"
+    "/images/projects/institut-sciences-naturelles-1.jpg",
+    "/images/projects/institut-sciences-naturelles-2..jpg"
   ],
   features: [
     {
@@ -1288,7 +1288,7 @@ export const projects: Project[] = [
   featured: true,
 
    image: "/images/projects/com-4.jpg",
-    gallery: ["/images/projects/com-4-1.jpg","/images/projects/com-4-234.jpg"],
+    gallery: ["/images/projects/com-4-1.jpg","/images/projects/com-4-234.jpg","/images/projects/toya.jpg","/images/projects/toya1.jpg"],
 
   features: [
     {
@@ -1996,15 +1996,15 @@ export const projects: Project[] = [
 // ═══════════════════════════════════════════════════════════════════════════
 {
   id: "public-4",
-  slug: "ecole-europeenne-bruxelles-fabiola",
+  slug: "ecole-europeenne",
   title: {
-    de: "Europäische Schule Brüssel",
-    en: "European School of Brussels",
-    fr: "École européenne de Bruxelles",
-    nl: "Europese School Brussel",
-    it: "Scuola Europea di Bruxelles",
-    ku: "Dibistana Ewropî ya Brukselê",
-    tr: "Brüksel Avrupa Okulu",
+    de: "Europäische Schule",
+    en: "European School",
+    fr: "École européenne",
+    nl: "Europese School",
+    it: "Scuola Europea",
+    ku: "Dibistana Ewropî",
+    tr: "Brüksel Avrupa",
   },
 
   category: "renovation",
@@ -2055,7 +2055,7 @@ export const projects: Project[] = [
   image: "/images/projects/ecole-europeenne-fabiola.jpg",
 
   gallery: [
-    "/images/projects/ecole-europeenne-fabiola-1.jpg",
+   
     "/images/projects/ecole-europeenne-fabiola-2.jpg","/images/projects/ecole-europeenne-fabiola-3.jpg","/images/projects/ecole-europeenne-fabiola-4.jpg","/images/projects/ecole-europeenne-fabiola-5.jpg"
   ],
   features: [
@@ -2109,13 +2109,13 @@ export const projects: Project[] = [
   id: "public-5",
   slug: "prison-de-forest-bruxelles",
   title: {
-    de: "Gefängnis Forest, Brüssel",
-    en: "Forest Prison, Brussels",
-    fr: "Prison de Forest, Bruxelles",
-    nl: "Gevangenis van Vorst, Brussel",
-    it: "Carcere di Forest, Bruxelles",
-    ku: "Girtîgeha Forest, Bruksel",
-    tr: "Forest Hapishanesi, Brüksel",
+    de: "Gefängnis Forest, Brüsse",
+    en: "Forest Prison",
+    fr: "Prison de Forest",
+    nl: "Gevangenis van Vorst",
+    it: "Carcere di Forest",
+    ku: "Girtîgeha Forest",
+    tr: "Forest Hapishanesi",
   },
 
   // Even if your banner shows "INDUSTRIEL", your content is clearly public-sector.
@@ -2150,7 +2150,7 @@ export const projects: Project[] = [
   value: { en: "🔒" },
 
   // You provided correction: 2018 (single year)
-  duration: { en: "2018" },
+  duration: { en: "-2018-" },
 
   // From banner: 4,500 m²
   size: {
@@ -2165,7 +2165,7 @@ export const projects: Project[] = [
   featured: false,
 
     image: "/images/projects/prison-forest.jpg",
-  gallery: ["/images/projects/prison-forest-1.jpg", "/images/projects/prison-forest-1.jpg"],
+  gallery: [ "/images/projects/prison-forest-1.jpg"],
 
   features: [
     {
@@ -2215,13 +2215,13 @@ export const projects: Project[] = [
   id: "public-6",
   slug: "planetarium-bruxelles",
   title: {
-    de: "Planetarium, Brüssel",
-    en: "Planetarium, Brussels",
-    fr: "Planétarium, Bruxelles",
-    nl: "Planetarium, Brussel",
-    it: "Planetario, Bruxelles",
-    ku: "Planetarium, Bruksel",
-    tr: "Planetaryum, Brüksel",
+    de: "Planetarium",
+    en: "Planetarium",
+    fr: "Planétarium",
+    nl: "Planetarium",
+    it: "Planetario",
+    ku: "Planetarium",
+    tr: "Planetaryum",
   },
 
   category: "renovation",
@@ -2255,7 +2255,7 @@ export const projects: Project[] = [
   value: { en: "🔒" },
 
   // From screenshot (explicit months)
-  duration: { en: "May 2018 - Sept 2018" },
+  duration: { en: "-2018-" },
 
   // From screenshot: 1,500 m²
   size: {
@@ -2270,7 +2270,7 @@ export const projects: Project[] = [
   featured: false,
 
   image: "/images/projects/planetarium-brussels.jpg",
-  gallery: ["/images/projects/planetarium-brussels-1.jpg", "/images/projects/planetarium-brussels-2.jpg", "/images/projects/planetarium-brussels-2.jpg","/images/projects/planetarium-brussels-3.jpg","/images/projects/planetarium-brussels-4.jpg"],
+  gallery: ["/images/projects/planetarium-brussels-1.jpg", "/images/projects/planetarium-brussels-2.jpg","/images/projects/planetarium-brussels-3.jpg","/images/projects/planetarium-brussels-4.jpg"],
 
   features: [
     {
@@ -2312,20 +2312,20 @@ export const projects: Project[] = [
   ],
 
   // Not provided
-  teamSize: "—",
+  teamSize: "10",
 }
 ,
 {
   id: "commercial-5",
   slug: "ing-banque-bruxelles-central",
   title: {
-    de: "ING Bank, Brüssel",
-    en: "ING Bank, Brussels",
-    fr: "ING Banque, Bruxelles",
-    nl: "ING Bank, Brussel",
-    it: "Banca ING, Bruxelles",
-    ku: "Bankaya ING, Bruksel",
-    tr: "ING Bankası, Brüksel",
+    de: "ING Bank",
+    en: "ING Bank",
+    fr: "ING Banque",
+    nl: "ING Bank",
+    it: "Banca ING",
+    ku: "Bankaya ING",
+    tr: "ING Bankası",
   },
 
   category: "commercial",
@@ -2359,7 +2359,7 @@ export const projects: Project[] = [
   value: { en: "🔒" },
 
   // From screenshot (explicit months)
-  duration: { en: "Mar 2009 - Nov 2009" },
+  duration: { en: "-2009-" },
 
   // From screenshot: 1,200 m²
   size: {
@@ -2374,7 +2374,7 @@ export const projects: Project[] = [
   featured: false,
 
     image: "/images/projects/ing-parking.jpg",
-  gallery: ["/images/projects/ing-parking-1.jpg", "/images/projects/ing-parking-1.jpg","/images/projects/ing-parking-2.jpg"],
+  gallery: ["/images/projects/ing-parking-1.jpg","/images/projects/ing-parking-2.jpg"],
 
   features: [
     {
@@ -2415,21 +2415,21 @@ export const projects: Project[] = [
     },
   ],
 
-  // Not provided
-  teamSize: "—",
+  
+  teamSize: "10",
 }
 ,
 {
   id: "infrastructure-3",
   slug: "bureaux-site-gazier-fluxys-gand",
   title: {
-    de: "Büros der Gasstandort Fluxys, Gent",
-    en: "Fluxys Gas Site Offices, Ghent",
-    fr: "Bureaux du site gazier Fluxys, Gand",
-    nl: "Fluxys gassite kantoren, Gent",
-    it: "Uffici del sito gas Fluxys, Gand",
-    ku: "Ofîsên cihê gazê Fluxys, Gand",
-    tr: "Fluxys Gaz Sahası Ofisleri, Gent",
+    de: "Büros der Gasstandort Fluxys",
+    en: "Fluxys Gas Site Offices",
+    fr: "Bureaux du site gazier Fluxys",
+    nl: "Fluxys gassite kantoren",
+    it: "Uffici del sito gas Fluxys",
+    ku: "Ofîsên cihê gazê Fluxys",
+    tr: "Fluxys Gaz Sahası Ofisleri",
   },
 
   category: "infrastructure",
@@ -2463,7 +2463,7 @@ export const projects: Project[] = [
   value: { en: "🔒" },
 
   // From screenshot
-  duration: { en: "May 2006 - Nov 2006" },
+  duration: { en: "-2006-" },
 
   // From screenshot: 3.100 m²
   size: {
@@ -2478,7 +2478,7 @@ export const projects: Project[] = [
   featured: false,
 
   image: "/images/projects/fluxys-ghent-offices.jpg",
-  gallery: ["/images/projects/fluxys-ghent-offices-1.jpg", "/images/projects/fluxys-ghent-offices-2.jpg"],
+  gallery: ["/images/projects/fluxys-ghent-offices-1.jpg"],
   features: [
     {
       fr: "Construction neuve",
@@ -2518,8 +2518,8 @@ export const projects: Project[] = [
     },
   ],
 
-  // Not provided
-  teamSize: "—",
+
+  teamSize: "10",
 }
 
 

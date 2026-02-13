@@ -248,8 +248,9 @@
     "empty": "Şu anda görüntülenecek makale yok."
   },
   "header": {
-    "headquarters": "Halle Westfalen, Almanya",
+    "headquarters": "Bielefeld, Almanya",
     "emergency24": "7/24 Acil",
+      "herostatssqm":"Teslim edilen metrekare",
     "search": "Ara",
     "searchPlaceholder": "Proje, hizmet, haber ara...",
     "quickLinks": "Hızlı bağlantılar",
@@ -607,7 +608,9 @@
             "officeBuildings": "Ofis binaları",
             "retailCenters": "Perakende merkezleri",
             "mixedUse": "Karma kullanım projeleri",
-            "hospitality": "Konaklama"
+            "hospitality": "Konaklama",
+             "Maison": "Ev",
+             "Apartment": "Apartman"
           }
         },
         "realEstate": {

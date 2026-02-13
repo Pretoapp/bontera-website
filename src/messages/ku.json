@@ -258,8 +258,9 @@
   },
 
   "header": {
-    "headquarters": "Halle Westfalen, Almanya",
+    "headquarters": "Bielefeld, Almanya",
     "emergency24": "Acil 24/7",
+     "herostatssqm":"Metreka çargoşeyî ya teslîm kirî",
     "search": "Lêgerîn",
     "searchPlaceholder": "Li proje, xizmet, nûçe... bigere",
     "quickLinks": "Girêdanên bilez",
@@ -626,7 +627,9 @@
             "officeBuildings": "Avahiyên ofîsê",
             "retailCenters": "Navendên firotanê",
             "mixedUse": "Projeyên mixed-use",
-            "hospitality": "Mîvandariyê"
+            "hospitality": "Mîvandariyê",
+              "Maison": "Xanî",
+             "Apartment": "Avahiya apartmanan"
           }
         },
         "realEstate": {

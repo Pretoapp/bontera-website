@@ -249,7 +249,7 @@ export default async function ServicesPage({ params }: Props) {
             {/* Stats Grid */}
             <div className="grid grid-cols-2 gap-4">
               {[
-                { value: "7 0+", label: t("overview.stats.projects") },
+                { value: "80+", label: t("overview.stats.projects") },
                 { value: "20+", label: t("overview.stats.years") },
                 { value: "98%", label: t("overview.stats.satisfaction") },
                

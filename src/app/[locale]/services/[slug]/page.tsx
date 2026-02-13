@@ -33,8 +33,8 @@ const servicesData = {
       "/images/expertise-building.jpg",
       "/images/services/commercial.jpg",
     ],
-    features: ["officeBuildings", "retailCenters", "mixedUse", "hospitality"],
-    stats: { projects: "70+", value: "20+", satisfaction: "99%" },
+    features: ["officeBuildings", "retailCenters", "mixedUse", "hospitality", "Maison","Apartment" ],
+    stats: { projects: "80+", value: "20+", satisfaction: "99%" },
   },
   "real-estate": {
     key: "real-estate",
@@ -82,7 +82,7 @@ const servicesData = {
       "/images/slide-2.jpg",
     ],
     features: ["historic", "modernization", "retrofitting", "restoration"],
-    stats: { projects: "70+", value: "20+", satisfaction: "99%" },
+    stats: { projects: "80+", value: "20+", satisfaction: "99%" },
   },
   consulting: {
     key: "consulting",

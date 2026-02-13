@@ -1228,9 +1228,9 @@ function CompanyMegaMenu({
           <div className="space-y-4">
             {[
               { value: "20+", label: t("yearsExperience") },
-              { value: "70+", label: t("projectsCompleted") },
-              { value: "12", label: t("countriesOperating") },
-              { value: "1200+", label: t("teamMembers") },
+              { value: "80+", label: t("projectsCompleted") },
+              { value: "5", label: t("countriesOperating") },
+            { value: "40,000+", label: t("herostatssqm") },
             ].map((stat) => (
               <div key={stat.label}>
                 <div className="text-2xl font-bold">{stat.value}</div>
