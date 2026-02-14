@@ -1,7 +1,7 @@
 {
   "navigation": {
     "home": "Startseite",
-    "about": "Über uns",
+    "about": "warum Bontera",
     "services": "Leistungen",
     "projects": "Projekte",
     "careers": "Karriere",
@@ -22,7 +22,7 @@
     },
     "breadcrumb": {
       "home": "Startseite",
-      "about": "Über uns",
+      "about": "warum Bontera",
       "ourStory": "Unsere Geschichte"
     },
     "hero": {
@@ -115,10 +115,10 @@
     "description": "Erstklassige Bau- und Infrastrukturlösungen. Von der Planung bis zur Übergabe realisieren wir Projekte, die Skylines prägen und Communities verändern."
   },
   "hero": {
-    "eyebrow": "Bau-Exzellenz seit 2004",
+    "eyebrow": " Bau seit 2004",
     "titleLine1": "Wir bauen",
     "titleLine2": "die Zukunft",
-    "description": "Mit über 20 Jahren Erfahrung in Bau, Projektentwicklung und Immobilienvermittlung begleiten wir jeden Kunden mit Effizienz, Engagement, Zuverlässigkeit, Qualität und Transparenz.",
+    "description": "Mit über 20 Jahren Erfahrung in Bau und Projektentwicklung begleiten wir jeden Kunden mit  Effizienz, Engagement und Transparenz.",
     "ctaPrimary": "Unsere Projekte ansehen",
     "ctaSecondary": "Kontakt aufnehmen",
     "stats": {
@@ -132,8 +132,8 @@
   },
   "vision": {
     "eyebrow": "Unsere Vision",
-    "headline": "Die Wahrzeichen von morgen gestalten, ab heute",
-    "description": "Wir bauen nicht nur Gebäude. Wir schaffen bleibende Werte. Angetrieben von Innovation, Nachhaltigkeit und kompromissloser Qualität sind wir zum bevorzugten Partner für die ambitioniertesten Projekte geworden.",
+    "headline": "Neco klaeren",
+    "description": "Wir bauen nicht nur Gebäude. Wir schaffen bleibende Werte. Getragen von Innovation, Nachhaltigkeit und einem konstanten Qualitätsanspruch sind wir zum bevorzugten Partner für die  Projekte weltweit geworden.",
     "features": {
       "innovation": {
         "title": "Innovation zuerst",
@@ -145,14 +145,14 @@
       },
       "sustainability": {
         "title": "Eine nachhaltige Zukunft",
-        "description": "LEED-zertifizierte Projekte und das Ziel, bis 2030 klimaneutral zu bauen."
+        "description": "LEED-zertifizierte Projekte "
       }
     }
   },
 
   "services": {
     "eyebrow": "Was wir tun",
-    "headline": "Ganzheitliche Bauleistungen aus einer Hand",
+    "headline": "Bauleistungen au seiner Hand",
     "viewAll": "Alle Leistungen entdecken",
     "items": {
       "construction": {
@@ -183,7 +183,7 @@
   },
   "projects": {
     "eyebrow": "Ausgewählte Referenzen",
-    "headline": "Projekte, die Skylines prägen",
+    "headline": "Projekte, die Skylines neu gestalten",
     "viewAll": "Alle Projekte ansehen",
     "noProjects": "Derzeit sind keine Projekte verfügbar.",
     "viewProject": "Projekt ansehen",
@@ -211,13 +211,13 @@
   },
   "whyUs": {
     "eyebrow": "Warum Bontera",
-    "headline": "Exzellenz ist unser Standard",
+    "headline": "Hohe Qualität ist unser Standard",
     "description": "Bontera zu wählen heißt, ein Team zu wählen, das jedes Projekt so behandelt, als hinge sein Ruf davon ab. Weil es so ist.",
     "cta": "Mehr erfahren",
     "points": {
       "quality": {
-        "title": "Hohe Qualitätsstandards.",
-        "description": "Unsere Prozesse sichern gleichbleibende Exzellenz in jedem Projekt."
+        "title": "Qualität",
+        "description": "Unsere Prozesse sichern gleichbleibende Leistung in jedem Projekt."
       },
       "timeline": {
         "title": "Termintreue",
@@ -225,7 +225,7 @@
       },
       "safety": {
         "title": "Sicherheit",
-        "description": "Vorbildliche Sicherheitsleistung, OSHA-Compliance und Zero-Incident-Initiativen."
+        "description": "Vorbildliche Sicherheitsleistung"
       }
     }
   },
@@ -240,8 +240,6 @@
     "viewAll": "Alle News ansehen",
     "readMore": "Artikel lesen",
     "noNews": "Derzeit sind keine Artikel verfügbar."
-
-    
   },
   "newsSection": {
     "title": "News & Einblicke",
@@ -251,7 +249,7 @@
   },
   "header": {
     "headquarters": "Bielefeld, Deutschland",
-    "herostatssqm":"Fertiggestellte Quadratmeter",
+    "herostatssqm": "Fertiggestellte Quadratmeter",
     "emergency24": "Notfall 24/7",
     "search": "Suche",
     "searchPlaceholder": "Projekte, Leistungen, News suchen...",
@@ -287,7 +285,7 @@
       "consulting": "Beratung",
       "consultingDesc": "Fachberatung und Machbarkeitsstudien",
       "projectManagement": "Projektmanagement",
-      "projectManagementDesc": "End-to-end Umsetzung",
+      "projectManagementDesc": "Leitung ihres Projektes",
       "sustainability": "Nachhaltiges Bauen",
       "sustainabilityDesc": "Green Building und LEED-Zertifizierung"
     },
@@ -390,7 +388,7 @@
   },
   "about": {
     "meta": {
-      "title": "Über uns | Bontera GmbH",
+      "title": "warum Bontera | Bontera GmbH",
       "description": "Entdecken Sie Bonteras über 20 Jahre Exzellenz in Bau, Projektentwicklung und Immobilienvermittlung. Sicherheit, Qualität und Transparenz."
     },
     "quickNav": {
@@ -404,11 +402,11 @@
     },
     "breadcrumb": {
       "home": "Startseite",
-      "about": "Über uns"
+      "about": "warum Bontera"
     },
     "hero": {
       "eyebrow": "Über Bontera",
-      "title": "Bau-Exzellenz seit 2004",
+      "title": "Bau seit 2004",
       "subtitle": "Mit über 20 Jahren Erfahrung in Bau und Projektentwicklung begleiten wir unsere Kunden in jeder Phase: transparent, effizient und zuverlässig. ",
       "stats": {
         "years": "Jahre Erfahrung",
@@ -428,7 +426,7 @@
       "founderQuote": "Unser Ziel ist klar: Wir wollen unseren Partnern und Kunden Immobilienprojekte bieten, die zuverlässig, sicher und mit echter Wertschöpfung sind.",
       "founderName": "Herr Necdet",
       "founderTitle": "Gründer & CEO",
-      "yearsExcellence": "Jahre Exzellenz",
+      "yearsExcellence": "Jahre Spitzenqualität",
       "since": "Gegründet"
     },
     "mission": {
@@ -562,13 +560,13 @@
     },
     "hero": {
       "eyebrow": "Was wir tun",
-      "title": "Ganzheitliche Bauleistungen aus einer Hand",
+      "title": "Bauleistungen aus seiner Hand",
       "subtitle": "Von der Idee bis zur Übergabe: Wir liefern Bauleistungen, passgenau für Ihre Vision und Anforderungen.",
       "cta": "Angebot anfordern"
     },
     "overview": {
       "eyebrow": "Unsere Kompetenz",
-      "title": "Exzellenz in jedem Bereich",
+      "title": "Spitzenleistung in jedem Bereich",
       "description": "Mit über 20 Jahren Erfahrung hat Bontera umfassende Kompetenz in zahlreichen Sektoren aufgebaut. Unser integrierter Ansatz verbindet innovative Planung, präzises Engineering und nachhaltige Praktiken, um Projekte zu liefern, die Erwartungen übertreffen.",
       "points": {
         "expertise": {
@@ -603,16 +601,16 @@
       "items": {
         "commercial": {
           "title": "Bauausführung",
-          "heroTagline": "Wohnen, Gewerbe, Tertiär",
+          "heroTagline": "Wohnen, Gewerbe, Industrie",
           "heroDescription": "Wir realisieren Bauprojekte jeder Größe: von der Planung bis zur Übergabe. Unsere Methode sichert Ausführungsqualität, Normkonformität, termingerechte Lieferung und Budgetkontrolle, mit nachhaltigem Fokus auf Performance und Komfort.",
           "description": "Wir bauen Häuser, Gebäude, Gewerbeflächen und Lagerhallen mit vollständiger Begleitung und konsequenter Ausführung. Jedes Projekt wird so gesteuert, dass Überraschungen reduziert, Kosten optimiert und ein langlebiges, leistungsfähiges Objekt geliefert wird, das langfristig Wert schafft.",
           "features": {
             "officeBuildings": "Bürogebäude",
             "retailCenters": "Einkaufszentren",
-            "mixedUse": "Mixed-Use-Projekte",
+            "mixedUse": "Gemischt genutzte Projekte",
             "hospitality": "Hotellerie",
-             "Maison": "Haus",
-             "Apartment": "Wohngebäude"
+            "Maison": "Haus",
+            "Apartment": "Wohngebäude"
           }
         },
         "realEstate": {
@@ -637,8 +635,8 @@
           "description": "Wir entwickeln und leiten Wohn- und Gewerbeimmobilienprojekte auf der Grundlage gründlicher Marktstudien und einer strengen Rentabilitätsanalyse.Von der Identifizierung von Grundstücksmöglichkeiten über die Planung bis hin zur Umsetzung und Vermarktung schaffen wir attraktive, innovative Projekte, die den Erwartungen des Marktes entsprechen. Unser Ziel ist es, den Wert der Investitionen zu maximieren und gleichzeitig nachhaltige und verantwortungsbewusste Lösungen zu integrieren.",
           "features": {
             "residential": "Wohnprojekte",
-            "commercial": "Gewerbe-Assets",
-            "mixedUse": "Mixed-Use-Entwicklungen",
+            "commercial": "Gewerbeprojekte",
+            "mixedUse": "Gemischt genutzte Projekte",
             "investment": "Immobilieninvestment",
             "brokerage": "Vermittlung: Kauf, Verkauf und Vermietung"
           },
@@ -681,13 +679,13 @@
         },
         "consulting": {
           "title": "Beratung",
-          "heroTagline": "MACHBARKEIT, KOSTEN, RISIKEN, COMPLIANCE",
-          "heroDescription": "Kompetente Unterstützung in jeder Phase: Machbarkeit, Kostenermittlung, Risikoanalyse und regulatorische Compliance.",
+          "heroTagline": "MACHBARKEIT, KOSTEN, RISIKEN, KONFORMITÄT",
+          "heroDescription": "Kompetente Unterstützung in jeder Phase: Machbarkeit, Kostenermittlung, Risikoanalyse und regulatorische Konformität.",
           "description": "Wir bieten Bauberatung für Privatpersonen und Unternehmen, die ihre technischen und finanziellen Entscheidungen absichern möchten. Als Vertreter öffentlicher oder privater Bauherren fungieren wir als zentrale Anlaufstelle und vertreten konsequent die Interessen des Auftraggebers.",
           "features": {
             "feasibility": "Machbarkeitsstudien",
             "costEstimation": "Kostenermittlung",
-            "riskAssessment": "Compliance",
+            "riskAssessment": "Konformität",
             "compliance": "Bauüberwachung"
           }
         },
@@ -806,7 +804,7 @@
     },
     "hero": {
       "eyebrow": "Unser Portfolio",
-      "title": "Ikonische Projekte, die Skylines formen",
+      "title": "Projekte, Die Skylines prägen",
       "subtitle": "Entdecken Sie abgeschlossene und laufende Projekte, die unser Commitment zu Exzellenz, Innovation und nachhaltigem Bauen widerspiegeln.",
       "stats": {
         "projectsCompleted": "Abgeschlossene Projekte",
@@ -1647,7 +1645,7 @@
     },
     "breadcrumb": {
       "home": "Startseite",
-      "about": "Über uns",
+      "about": "warum Bontera",
       "values": "Werte"
     },
     "hero": {
@@ -1657,7 +1655,7 @@
     },
     "mission": {
       "eyebrow": "Unsere Mission",
-      "title": "Exzellenz bauen, Wert schaffen",
+      "title": "Spitzenleistung, Werte schaffen ",
       "description": "Wir entwickeln nachhaltige, sichere und wirtschaftlich tragfähige Lösungen für Privatkunden, Investoren und Unternehmen. Dafür verbinden wir tiefes Marktverständnis, transparente Beratung und ein starkes Netzwerk aus Finanz- und Immobilienpartnern."
     },
     "vision": {
@@ -1722,8 +1720,8 @@
       "eyebrow": "Werte in Aktion",
       "title": "Was Bontera ausmacht",
       "items": {
-        "transparencyReliabilityCommitment": "Transparenz, Zuverlässigkeit und Commitment sind die Basis jeder Partnerschaft.",
-        "technicalExpertise": "Technische Expertise und konsequente Ausführung sichern Delivery auf Top-Niveau.",
+        "transparencyReliabilityCommitment": "Transparenz, Zuverlässigkeit und Engagement bilden die Grundlage jeder Partnerschaft.",
+        "technicalExpertise": "Technisches Know-how und präzise Ausführung garantieren eine Lieferung von Klasse.",
         "holisticApproach": "Ein ganzheitlicher Ansatz, der Bau und Immobilien unter einer Vision verbindet.",
         "valueGrowth": "Nachhaltige Wertschöpfung mit kontrolliertem Risiko und langfristigem Wachstum."
       },
@@ -1732,8 +1730,8 @@
     "culture": {
       "eyebrow": "Unsere Unternehmenskultur",
       "title": "Ein Standard für saubere Arbeit",
-      "paragraph1": "Bontera baut auf Respekt, Zusammenarbeit und einem gemeinsamen Anspruch an Exzellenz.",
-      "paragraph2": "Wir schätzen Vielfalt, fördern Innovation und wissen: Unsere größte Stärke sind unsere Teams",
+      "paragraph1": "Bei Bontera basiert unsere Unternehmenskultur auf gegenseitigem Respekt, Zusammenarbeit und einem gemeinsamen Engagement für Spitzenleistungen.",
+      "paragraph2": "Wir schätzen Vielfalt, fördern Innovation und wissen: Unsere größte Stärke sind unsere Teams.",
       "quote": "Kultur ist nicht nur, was wir tun. Kultur ist, wer wir sind und wie wir miteinander umgehen.",
       "quoteAuthor": "Reginald Charles",
       "quoteTitle": "Chief Operating Officer",
@@ -1754,7 +1752,7 @@
     },
     "breadcrumb": {
       "home": "Startseite",
-      "about": "Über uns",
+      "about": "warum Bontera",
       "partners": "Partner"
     },
     "hero": {
@@ -1923,7 +1921,7 @@
     "breadcrumb": {
       "ariaLabel": "Breadcrumb",
       "home": "Startseite",
-      "about": "Über uns",
+      "about": "warum Bontera",
       "current": "Warum wir?"
     },
     "hero": {
@@ -1938,30 +1936,30 @@
         "p2": "Mit fundiertem Marktverständnis und konsequentem Projektmanagement unterstützen wir Privatkunden, Unternehmen und Investoren mit maßgeschneiderten Lösungen für jeden Bedarf.",
         "summaryTitle": "Was Sie bekommen",
         "bullets": {
-          "clarity": "Klarheit zu Umfang und Deliverables.",
+          "clarity": "Klarheit hinsichtlich Umfang und Leistungen.",
           "control": "Kontrolle über Terminplan und Koordination.",
-          "finish": "Ein hochwertiges Finish, auf das Sie stolz sein können."
+          "finish": "Eine hochwertige Verarbeitung, auf die Sie stolz sein können."
         },
         "card": {
-          "title": "Premium Delivery",
+          "title": "Hochwertiger Standard",
           "body": "Ein Standard, konsequent angewendet über das gesamte Projekt.",
           "ctaLabel": "E-Mail",
           "ctaValue": "info@bontera.de"
         }
       },
       "integrated": {
-        "eyebrow": "Operating Model",
-        "title": "Eine integrierte Immobilienperspektive",
+        "eyebrow": "Betriebsmodell",
+        "title": "Sichtweise auf Immobilien",
         "p1": "Die Kombination dieser Kompetenzfelder ermöglicht Bontera einen ganzheitlichen Ansatz entlang des gesamten Immobilienlebenszyklus: Machbarkeit, Design, Bau, Management und Vermarktung. Das erhöht Performance, reduziert Reibung und stärkt die Risikokontrolle.",
         "block1Title": "Was abgestimmt ist",
         "block2Title": "Was Sie erwarten können",
         "bullets": {
-          "scope": "Definierter Umfang und Deliverables",
+          "scope": "Umfang und Leistungen",
           "timeline": "Kontrollierte Terminplanung und Phasen",
           "quality": "Qualitäts-Meilensteine und Abnahmen",
           "predictable": "Planbarere Lieferung",
           "accountability": "Klare Verantwortlichkeiten",
-          "premium": "Premium Finish Standard"
+          "premium": "Hochwertige Verarbeitungsstandards"
         }
       },
       "contractor": {
@@ -1972,7 +1970,7 @@
       "developer": {
         "title": "Bontera, Projektentwicklung",
         "p1": "Bontera agiert als Projektentwickler und unterstützt Konzeption und Entwicklung von Wohn- oder Gewerbeprojekten. Wir erstellen vollständige Machbarkeitsstudien, die technische, regulatorische, finanzielle und kommerzielle Aspekte abdecken und die Investition von Anfang an absichern.",
-        "p2": "Von der Planung bis zur Übergabe strukturieren und steuern wir Projekte end-to-end mit dem Ziel, den Asset-Wert zu maximieren und langfristige Rentabilität sowie Nachhaltigkeit zu sichern."
+        "p2": "Von dem Konzept bis zur Umsetzung sorgen wir für eine strukturierte Projektabwicklung mit dem Ziel, den Wert des Vermögens zu maximieren und langfristige Rentabilität und Nachhaltigkeit zu gewährleisten."
       },
       "broker": {
         "title": "Bontera, Immobilienvermittlung",

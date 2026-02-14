@@ -988,13 +988,13 @@ export const projects: Project[] = [
   id: "industrial-2",
   slug: "johnson-johnson-courcelles",
   title: {
-    de: "Johnson & Johnson Standort Courcelles",
-    en: "Johnson & Johnson Courcelles Site",
-    fr: "Johnson & Johnson Courcelles",
-    nl: "Johnson & Johnson Site Courcelles",
-    it: "Sito Johnson & Johnson Courcelles",
-    ku: "Cihê Johnson & Johnson li Courcelles",
-    tr: "Johnson & Johnson Courcelles Tesisi",
+    de: "Johnson & Johnson",
+    en: "Johnson & Johnson",
+    fr: "Johnson & Johnson",
+    nl: "Johnson & Johnson",
+    it: "Johnson & Johnson",
+    ku: "Johnson & Johnson",
+    tr: "Johnson & Johnson",
   },
 
   category: "industrial",
@@ -1158,7 +1158,7 @@ export const projects: Project[] = [
 
   gallery: [
     "/images/projects/institut-sciences-naturelles-1.jpg",
-    "/images/projects/institut-sciences-naturelles-2..jpg"
+    "/images/projects/institut-sciences-naturelles-2.jpg"
   ],
   features: [
     {
@@ -1413,7 +1413,7 @@ export const projects: Project[] = [
   featured: true,
 
     image: "/images/projects/ino.jpg",
-    gallery: ["/images/projects/in.jpg", "/images/projects/in.jpg"],
+    gallery: ["/images/projects/in.jpg"],
 
   features: [
     {
@@ -2109,7 +2109,7 @@ export const projects: Project[] = [
   id: "public-5",
   slug: "prison-de-forest-bruxelles",
   title: {
-    de: "Gefängnis Forest, Brüsse",
+    de: "Gefängnis Forest",
     en: "Forest Prison",
     fr: "Prison de Forest",
     nl: "Gevangenis van Vorst",
