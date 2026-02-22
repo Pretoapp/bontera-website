@@ -250,7 +250,7 @@
   "header": {
     "headquarters": "Bielefeld, Germany",
     "emergency24": "Emergency 24/7",
-    "herostatssqm":"Square meters delivered",
+    "herostatssqm": "Square meters delivered",
     "search": "Search",
     "searchPlaceholder": "Search projects, services, news...",
     "quickLinks": "Quick links",
@@ -941,7 +941,7 @@
         },
         "phone": {
           "label": "Phone number",
-          "placeholder": "+32 477 37 75 44"
+          "placeholder": "+49 160 43 00 07 3"
         },
         "company": {
           "label": "Company name",
@@ -1917,6 +1917,7 @@
     "backToCareers": "Back to careers"
   },
   "whyBonteraPage": {
+    "backToTop": "Back to top",
     "meta": {
       "title": "Why choose us? | Bontera Construction",
       "description": "Bontera is an integrated company that supports clients at every stage of their projects by combining technical expertise, strategic vision, and operational excellence."

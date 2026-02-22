@@ -250,7 +250,7 @@
   "header": {
     "headquarters": "Bielefeld, Germania",
     "emergency24": "Emergenza 24/7",
-      "herostatssqm":"Metri quadrati consegnati",
+    "herostatssqm": "Metri quadrati consegnati",
     "search": "Cerca",
     "searchPlaceholder": "Cerca progetti, servizi, notizie...",
     "quickLinks": "Link rapidi",
@@ -609,8 +609,8 @@
             "retailCenters": "Centri retail",
             "mixedUse": "Progetti mixed-use",
             "hospitality": "Ospitalità",
-             "Maison": "Casa",
-             "Apartment": "Edificio di appartamenti"
+            "Maison": "Casa",
+            "Apartment": "Edificio di appartamenti"
           }
         },
         "realEstate": {
@@ -942,7 +942,7 @@
         },
         "phone": {
           "label": "Numero di telefono",
-          "placeholder": "+32 477 37 75 44"
+          "placeholder": "+49 160 43 00 07 3"
         },
         "company": {
           "label": "Nome azienda",
@@ -1921,6 +1921,7 @@
     "backToCareers": "Torna alle carriere"
   },
   "whyBonteraPage": {
+    "backToTop": "Torna su",
     "meta": {
       "title": "Perché scegliere noi? | Bontera Construction",
       "description": "Bontera è un’azienda integrata che supporta i clienti in ogni fase dei loro progetti, unendo competenza tecnica, visione strategica ed eccellenza operativa."
@@ -1988,7 +1989,8 @@
     "cta": {
       "imageAlt": "Hai un progetto immobiliare?",
       "title": "Hai un progetto immobiliare?",
-      "description": "Bontera è il tuo partner strategico per consegnarlo con successo."
+      "description": "Bontera è il tuo partner strategico per consegnarlo con successo.",
+      "contactUs": "Contatto"
     }
   }
 }

@@ -289,7 +289,7 @@ export default async function QuotePage({ params }: Props) {
 
                 <div className="space-y-4">
                   <a
-                    href="tel:+32 477 37 75 44"
+                    href="tel:+49 160 43 00 07 3"
                     className="flex items-center gap-3 text-bontera-grey-700 hover:text-bontera-navy-600 transition-colors"
                   >
                     <div className="w-10 h-10 bg-bontera-navy-100 text-bontera-navy-600 flex items-center justify-center">
@@ -311,7 +311,7 @@ export default async function QuotePage({ params }: Props) {
                       <div className="text-xs text-bontera-grey-500">
                         {t("sidebar.contact.phone")}
                       </div>
-                      <div className="font-semibold">+32 477 37 75 44</div>
+                      <div className="font-semibold">+49 160 43 00 07 3</div>
                     </div>
                   </a>
 
@@ -365,7 +365,7 @@ export default async function QuotePage({ params }: Props) {
                       <div className="text-xs text-bontera-grey-500">
                         {t("sidebar.contact.whatsapp")}
                       </div>
-                      <div className="font-semibold">+32 477 37 75 44</div>
+                      <div className="font-semibold">+49 160 43 00 07 3</div>
                     </div>
                   </a>
                 </div>

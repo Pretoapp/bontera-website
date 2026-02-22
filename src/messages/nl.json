@@ -249,7 +249,7 @@
   },
   "header": {
     "headquarters": "Bielefeld, Duitsland",
-        "herostatssqm":"Opgeleverde vierkante meters",
+    "herostatssqm": "Opgeleverde vierkante meters",
     "emergency24": "Nooddienst 24/7",
     "search": "Zoeken",
     "searchPlaceholder": "Zoek projecten, diensten, nieuws...",
@@ -609,8 +609,8 @@
             "retailCenters": "Winkelcentra",
             "mixedUse": "Mixed-use projecten",
             "hospitality": "Horeca",
-             "Maison": "Huis",
-             "Apartment": "Appartementengebouw"
+            "Maison": "Huis",
+            "Apartment": "Appartementengebouw"
           }
         },
         "realEstate": {
@@ -942,7 +942,7 @@
         },
         "phone": {
           "label": "Telefoonnummer",
-          "placeholder": "+32 477 37 75 44"
+          "placeholder": "+49 160 43 00 07 3"
         },
         "company": {
           "label": "Bedrijfsnaam",
@@ -1918,6 +1918,7 @@
     "backToCareers": "Terug naar vacatures"
   },
   "whyBonteraPage": {
+    "backToTop": "Naar boven",
     "meta": {
       "title": "Waarom kiezen voor ons? | Bontera Construction",
       "description": "Bontera is een geïntegreerde organisatie die klanten ondersteunt in elke fase van hun project, met technische expertise, strategische visie en operationele excellentie."
@@ -1985,7 +1986,8 @@
     "cta": {
       "imageAlt": "Heeft u een vastgoedproject?",
       "title": "Heeft u een vastgoedproject?",
-      "description": "Bontera is uw strategische partner om het succesvol op te leveren."
+      "description": "Bontera is uw strategische partner om het succesvol op te leveren.",
+      "contactUs": "Contact"
     }
   }
 }

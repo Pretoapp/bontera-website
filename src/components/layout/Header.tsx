@@ -576,7 +576,7 @@ export default function Header() {
                 className="inline-flex items-center gap-2 text-bontera-grey-300 hover:text-white transition-colors"
               >
                 {Icons.phone}
-                <span className="font-medium">+32 477 37 75 44</span>
+                <span className="font-medium">+49 160 43 00 07 3</span>
               </a>
 
               <a
@@ -1230,7 +1230,7 @@ function CompanyMegaMenu({
               { value: "20+", label: t("yearsExperience") },
               { value: "80+", label: t("projectsCompleted") },
               { value: "5", label: t("countriesOperating") },
-            { value: "40,000+", label: t("herostatssqm") },
+              { value: "40,000+", label: t("herostatssqm") },
             ].map((stat) => (
               <div key={stat.label}>
                 <div className="text-2xl font-bold">{stat.value}</div>
@@ -1475,7 +1475,7 @@ function MobileMenu({
               className="flex items-center gap-3 text-sm text-bontera-grey-800 hover:text-bontera-navy-700"
             >
               {Icons.phone}
-              <span>+32 477 37 75 44</span>
+              <span>+49 160 43 00 07 3</span>
             </a>
 
             <a

@@ -260,7 +260,7 @@
   "header": {
     "headquarters": "Bielefeld, Almanya",
     "emergency24": "Acil 24/7",
-     "herostatssqm":"Metreka çargoşeyî ya teslîm kirî",
+    "herostatssqm": "Metreka çargoşeyî ya teslîm kirî",
     "search": "Lêgerîn",
     "searchPlaceholder": "Li proje, xizmet, nûçe... bigere",
     "quickLinks": "Girêdanên bilez",
@@ -628,8 +628,8 @@
             "retailCenters": "Navendên firotanê",
             "mixedUse": "Projeyên mixed-use",
             "hospitality": "Mîvandariyê",
-              "Maison": "Xanî",
-             "Apartment": "Avahiya apartmanan"
+            "Maison": "Xanî",
+            "Apartment": "Avahiya apartmanan"
           }
         },
         "realEstate": {
@@ -962,7 +962,7 @@
         },
         "phone": {
           "label": "Hejmara telefonê",
-          "placeholder": "+32 477 37 75 44"
+          "placeholder": "+49 160 43 00 07 3"
         },
         "company": {
           "label": "Navê şîrketê",
@@ -1947,6 +1947,7 @@
   },
 
   "whyBonteraPage": {
+    "backToTop": "Vegere jor",
     "meta": {
       "title": "Çima me hilbijêre? | Bontera Construction",
       "description": "Bontera şîrketeke yekgirtî ye ku xerîdar di her qonaxê de piştgirî dike, bi tevlihevkirina pisporiya teknîkî, vizyona stratejîk û xebata operasyonek bi standard."
@@ -2014,7 +2015,8 @@
     "cta": {
       "imageAlt": "Projeyek emlakê heye?",
       "title": "Projeyek emlakê heye?",
-      "description": "Bontera hevkara te ya stratejîk e ku wê bi serkeftinî teslîm bike."
+      "description": "Bontera hevkara te ya stratejîk e ku wê bi serkeftinî teslîm bike.",
+      "contactUs": "Têkilî"
     }
   }
 }

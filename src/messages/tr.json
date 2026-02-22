@@ -250,7 +250,7 @@
   "header": {
     "headquarters": "Bielefeld, Almanya",
     "emergency24": "7/24 Acil",
-      "herostatssqm":"Teslim edilen metrekare",
+    "herostatssqm": "Teslim edilen metrekare",
     "search": "Ara",
     "searchPlaceholder": "Proje, hizmet, haber ara...",
     "quickLinks": "Hızlı bağlantılar",
@@ -609,8 +609,8 @@
             "retailCenters": "Perakende merkezleri",
             "mixedUse": "Karma kullanım projeleri",
             "hospitality": "Konaklama",
-             "Maison": "Ev",
-             "Apartment": "Apartman"
+            "Maison": "Ev",
+            "Apartment": "Apartman"
           }
         },
         "realEstate": {
@@ -943,7 +943,7 @@
         },
         "phone": {
           "label": "Telefon numarası",
-          "placeholder": "+32 477 37 75 44"
+          "placeholder": "+49 160 43 00 07 3"
         },
         "company": {
           "label": "Şirket adı",
@@ -1926,6 +1926,7 @@
   },
 
   "whyBonteraPage": {
+    "backToTop": "Yukarı çık",
     "meta": {
       "title": "Neden bizi seçmelisiniz? | Bontera İnşaat",
       "description": "Bontera, teknik uzmanlığı, stratejik vizyonu ve operasyonel mükemmelliği birleştirerek projelerin her aşamasında müşterilerine destek olan entegre bir şirkettir."
@@ -1993,7 +1994,8 @@
     "cta": {
       "imageAlt": "Bir gayrimenkul projeniz mi var?",
       "title": "Bir gayrimenkul projeniz mi var?",
-      "description": "Bontera, başarıyla teslim etmek için stratejik iş ortağınızdır."
+      "description": "Bontera, başarıyla teslim etmek için stratejik iş ortağınızdır.",
+      "contactUs": "İletişim"
     }
   }
 }

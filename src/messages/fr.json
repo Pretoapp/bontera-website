@@ -250,9 +250,9 @@
   },
   "header": {
     "headquarters": "Bielefeld, Allemagne",
-    
+
     "emergency24": "Urgence 24/7",
-    "hero.stats.sqm":"ok",
+    "hero.stats.sqm": "ok",
     "search": "Rechercher",
     "searchPlaceholder": "Rechercher des projets, services, actualités...",
     "quickLinks": "Liens rapides",
@@ -264,7 +264,7 @@
     "featured": "À la une",
     "sustainableBuilding": "Solutions de construction durable",
     "sustainableBuildingDesc": "",
-        "herostatssqm":"Mètres carrés livrés",
+    "herostatssqm": "Mètres carrés livrés",
     "viewAllServices": "Voir tous les services",
     "projectCategories": "Catégories de projets",
     "featuredProject": "Projet à la une",
@@ -277,13 +277,13 @@
     "yearsExperience": "Années d’expérience",
     "projectsCompleted": "Projets terminés",
     "countriesOperating": "Pays d’implantation",
-    
+
     "teamMembers": "Membres de l’équipe",
     "services": {
       "commercialConstruction": "Construction",
       "commercialConstructionDesc": "Résidentielle, Commercial et Infrastructure",
       "realEstate": "Immobilier",
-      "herostatssqm":"ok",
+      "herostatssqm": "ok",
       "realEstateDesc": "Développement immobilier premium",
       "renovation": "Rénovation & restauration",
       "renovationDesc": "Bâtiment classé, Résidentiel et commercial",
@@ -614,8 +614,8 @@
             "retailCenters": "Centres commerciaux",
             "mixedUse": "Projets mixtes",
             "hospitality": "Hôtellerie",
-             "Maison": "Maison",
-             "Apartment": "Immeuble à appartements"
+            "Maison": "Maison",
+            "Apartment": "Immeuble à appartements"
           }
         },
         "realEstate": {
@@ -947,7 +947,7 @@
         },
         "phone": {
           "label": "Numéro de téléphone",
-          "placeholder": "+32 477 37 75 44"
+          "placeholder": "+49 160 43 00 07 3"
         },
         "company": {
           "label": "Nom de l’entreprise",
@@ -1947,6 +1947,7 @@
   },
 
   "whyBonteraPage": {
+    "backToTop": "Haut de page",
     "meta": {
       "title": "Pourquoi nous choisir ? | Bontera Construction",
       "description": "Bontera est une entreprise intégrée qui accompagne ses clients à chaque étape de leurs projets en combinant expertise technique, vision stratégique et excellence opérationnelle."

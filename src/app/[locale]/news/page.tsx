@@ -766,7 +766,7 @@ export default async function NewsPage({ params, searchParams }: Props) {
                       href="tel:+49301234567890"
                       className="text-lg font-semibold text-bontera-grey-900"
                     >
-                      +32 477 37 75 44
+                      +49 160 43 00 07 3
                     </a>
                   </div>
                 </div>

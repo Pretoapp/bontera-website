@@ -1,7 +1,7 @@
 {
   "navigation": {
     "home": "Startseite",
-    "about": "warum Bontera",
+    "about": "Über uns",
     "services": "Leistungen",
     "projects": "Projekte",
     "careers": "Karriere",
@@ -132,7 +132,7 @@
   },
   "vision": {
     "eyebrow": "Unsere Vision",
-    "headline": "Neco klaeren",
+    "headline": "Wir legen heute den Grundstein für die erfolgreiche Planung von morgen",
     "description": "Wir bauen nicht nur Gebäude. Wir schaffen bleibende Werte. Getragen von Innovation, Nachhaltigkeit und einem konstanten Qualitätsanspruch sind wir zum bevorzugten Partner für die  Projekte weltweit geworden.",
     "features": {
       "innovation": {
@@ -152,7 +152,7 @@
 
   "services": {
     "eyebrow": "Was wir tun",
-    "headline": "Bauleistungen au seiner Hand",
+    "headline": "Bauleistungen aus einer Hand ",
     "viewAll": "Alle Leistungen entdecken",
     "items": {
       "construction": {
@@ -397,6 +397,7 @@
       "values": "Werte",
       "why Bontera": "Warum Bontera",
       "whyBontera": "Warum Bontera",
+      "backToTop": "love",
       "certifications": "Zertifizierungen",
       "partners": "Partner"
     },
@@ -631,7 +632,7 @@
         "real-estate": {
           "title": "Projektentwicklung",
           "heroTagline": "Strategie, Umsetzung, Wert",
-          "heroDescription": "Wir steuern die Entwicklung von Wohn-, Gewerbe- und Mixed-Use-Projekten mit einem strukturierten und transparenten Ansatz. Von der Machbarkeitsstudie bis zur Übergabe sichern wir jede Phase ab, kontrollieren Risiken und optimieren den Wert Ihrer Assets.",
+          "heroDescription": "Wir steuern die Entwicklung von Wohn-, Gewerbe- und gemischt genutzte Projekte mit einem strukturierten und transparenten Ansatz. Von der Machbarkeitsstudie bis zur Übergabe sichern wir jede Phase ab, kontrollieren Risiken und optimieren den Wert Ihrer Assets",
           "description": "Wir entwickeln und leiten Wohn- und Gewerbeimmobilienprojekte auf der Grundlage gründlicher Marktstudien und einer strengen Rentabilitätsanalyse.Von der Identifizierung von Grundstücksmöglichkeiten über die Planung bis hin zur Umsetzung und Vermarktung schaffen wir attraktive, innovative Projekte, die den Erwartungen des Marktes entsprechen. Unser Ziel ist es, den Wert der Investitionen zu maximieren und gleichzeitig nachhaltige und verantwortungsbewusste Lösungen zu integrieren.",
           "features": {
             "residential": "Wohnprojekte",
@@ -943,7 +944,7 @@
         },
         "phone": {
           "label": "Telefonnummer",
-          "placeholder": "+32 477 37 75 44"
+          "placeholder": "+49 160 43 00 07 3"
         },
         "company": {
           "label": "Unternehmen",
@@ -1686,7 +1687,7 @@
         },
         "sustainability": {
           "title": "Nachhaltigkeit",
-          "description": "Wir reduzieren unseren Impact und schaffen Wert für künftige Generationen durch verantwortungsvolle Praxis."
+          "description": "Wir verpflichten uns zu umweltbewusstem Handeln, um unsere Auswirkungen auf die Umwelt zu reduzieren und einen Mehrwert für künftige Generationen zu schaffen."
         },
         "partnership": {
           "title": "Partnerschaft",
@@ -1924,6 +1925,8 @@
       "about": "warum Bontera",
       "current": "Warum wir?"
     },
+    "backToTop": "Zum Seitenanfang",
+
     "hero": {
       "imageAlt": "Warum wir?",
       "title": "Warum wir?",
@@ -1944,6 +1947,7 @@
           "title": "Hochwertiger Standard",
           "body": "Ein Standard, konsequent angewendet über das gesamte Projekt.",
           "ctaLabel": "E-Mail",
+          "backToTop": "Nach oben",
           "ctaValue": "info@bontera.de"
         }
       },
@@ -1958,6 +1962,7 @@
           "timeline": "Kontrollierte Terminplanung und Phasen",
           "quality": "Qualitäts-Meilensteine und Abnahmen",
           "predictable": "Planbarere Lieferung",
+          "backToTop": "love",
           "accountability": "Klare Verantwortlichkeiten",
           "premium": "Hochwertige Verarbeitungsstandards"
         }
@@ -1981,7 +1986,8 @@
     "cta": {
       "imageAlt": "Haben Sie ein Immobilienprojekt?",
       "title": "Haben Sie ein Immobilienprojekt?",
-      "description": "Bontera ist Ihr strategischer Partner, um es erfolgreich umzusetzen."
+      "description": "Bontera ist Ihr strategischer Partner, um es erfolgreich umzusetzen.",
+      "contactUs": "Kontakt"
     }
   }
 }
