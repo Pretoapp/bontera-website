@@ -655,23 +655,23 @@ export default function Header() {
             )}
           >
             {/* LOGO (physical badge, still compact header) */}
-            <Link
-              href={`/${currentLocale}`}
-              className="relative flex items-center shrink-0 w-[150px] lg:w-[190px]"
-              aria-label="Bontera"
-            >
-              <span className="relative block h-[32px] lg:h-[36px] w-[140px] lg:w-[180px]">
-                <Image
-                  src="/brand/logo01_clean.png"
-                  alt="Bontera"
-                  fill
-                  priority
-                  quality={100}
-                  sizes="(min-width: 1024px) 190px, 150px"
-                  className="object-contain object-left"
-                />
-              </span>
-            </Link>
+<Link
+  href={`/${currentLocale}`}
+  className="relative flex items-center shrink-0 w-[180px] lg:w-[230px]"
+  aria-label="Bontera"
+>
+  <span className="relative block h-[40px] lg:h-[44px] w-full">
+    <Image
+      src="/brand/gigig.png"
+      alt="Bontera"
+      fill
+      priority
+      quality={100}
+      sizes="(min-width: 1024px) 230px, 180px"
+      className="object-contain object-left"
+    />
+  </span>
+</Link>
 
             {/* DESKTOP NAVIGATION */}
             <nav className="hidden lg:flex items-center justify-center gap-0.5">
