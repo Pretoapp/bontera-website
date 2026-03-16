@@ -37,9 +37,10 @@ export default function Footer() {
   ];
 
   const legalLinks = [
-    { key: "privacy", href: `/${currentLocale}/legal#privacy` },
-    { key: "terms", href: `/${currentLocale}/legal#terms` },
-    { key: "cookies", href: `/${currentLocale}/legal#cookies` },
+    { key: "privacy", href: `/${currentLocale}/legal/datenschutz` },
+    { key: "terms", href: `/${currentLocale}/legal/nutzungsbedingungen` },
+    { key: "cookies", href: `/${currentLocale}/legal/cookies` },
+    { key: "impressum", href: `/${currentLocale}/legal/impressum` },
   ];
 
   const socialLinks = [

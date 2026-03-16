@@ -12,7 +12,7 @@ type Props = {
   params: { locale: string };
 };
 
-type NavId = "privacy" | "terms" | "cookies" | "faq";
+type NavId = "privacy" | "terms" | "cookies" | "faq" | "impressum";
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = params;
@@ -28,30 +28,40 @@ const FAQ_KEYS = ["timeline", "budget", "process", "warranty"] as const;
 
 const NAV: Array<{
   id: NavId;
-  labelKey: "privacy" | "terms" | "cookies" | "faq";
+  labelKey: string;
   iconPath: string;
+  href?: string;
 }> = [
   {
     id: "privacy",
     labelKey: "privacy",
     iconPath: "M12 3l7 4v6c0 5-3 8-7 8s-7-3-7-8V7l7-4z",
+    href: "datenschutz",
   },
   {
     id: "terms",
     labelKey: "terms",
     iconPath: "M7 3h7l3 3v15H7V3z M9 11h6 M9 15h6 M9 7h3",
+    href: "nutzungsbedingungen",
   },
   {
     id: "cookies",
     labelKey: "cookies",
     iconPath:
       "M20 13a8 8 0 11-9-9 3 3 0 003 3 3 3 0 003 3 3 3 0 003 3z M9 10h.01 M12 13h.01 M8 14h.01 M14 10h.01",
+    href: "cookies",
   },
   {
     id: "faq",
     labelKey: "faq",
     iconPath:
       "M12 18h.01 M9.5 9a2.5 2.5 0 115 0c0 2-2.5 1.75-2.5 4 M12 22a10 10 0 100-20 10 10 0 000 20z",
+  },
+  {
+    id: "impressum",
+    labelKey: "impressum",
+    iconPath: "M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z",
+    href: "impressum",
   },
 ];
 
@@ -102,6 +112,7 @@ export default async function LegalPage({ params }: Props) {
   const navTerms = safeT(t, "nav.terms", "Terms");
   const navCookies = safeT(t, "nav.cookies", "Cookies");
   const navFaq = safeT(t, "nav.faq", "FAQ");
+  const navImpressum = safeT(t, "nav.impressum", "Impressum");
 
   const privacyTitle = safeT(t, "privacy.title", "Privacy Policy");
   const privacyBody = safeT(
@@ -139,6 +150,7 @@ export default async function LegalPage({ params }: Props) {
     terms: navTerms,
     cookies: navCookies,
     faq: navFaq,
+    impressum: navImpressum,
   };
 
   return (
@@ -203,26 +215,31 @@ export default async function LegalPage({ params }: Props) {
             </p>
 
             <div className="mt-10 flex flex-wrap gap-3">
-              {NAV.map((item) => (
-                <a
-                  key={item.id}
-                  href={`#${item.id}`}
-                  className="group inline-flex items-center gap-3 px-5 py-3 bg-white/5 border border-white/10 hover:bg-white/10 hover:border-white/20 transition-all duration-300"
-                >
-                  <svg
-                    className="w-5 h-5 text-bontera-grey-200 group-hover:text-white transition-colors"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    strokeWidth={1.6}
+              {NAV.map((item) => {
+                const dest = item.href
+                  ? `/${locale}/legal/${item.href}`
+                  : `#${item.id}`;
+                return (
+                  <Link
+                    key={item.id}
+                    href={dest}
+                    className="group inline-flex items-center gap-3 px-5 py-3 bg-white/5 border border-white/10 hover:bg-white/10 hover:border-white/20 transition-all duration-300"
                   >
-                    <path strokeLinecap="round" strokeLinejoin="round" d={item.iconPath} />
-                  </svg>
-                  <span className="text-sm font-semibold text-bontera-grey-200 group-hover:text-white transition-colors uppercase tracking-wider">
-                    {navLabelById[item.id]}
-                  </span>
-                </a>
-              ))}
+                    <svg
+                      className="w-5 h-5 text-bontera-grey-200 group-hover:text-white transition-colors"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.6}
+                    >
+                      <path strokeLinecap="round" strokeLinejoin="round" d={item.iconPath} />
+                    </svg>
+                    <span className="text-sm font-semibold text-bontera-grey-200 group-hover:text-white transition-colors uppercase tracking-wider">
+                      {navLabelById[item.id]}
+                    </span>
+                  </Link>
+                );
+              })}
             </div>
 
             <div className="mt-10 text-sm text-bontera-grey-400">
@@ -239,26 +256,31 @@ export default async function LegalPage({ params }: Props) {
       <section className="relative py-16 lg:py-20 bg-white border-b border-bontera-grey-200">
         <div className="max-w-[1600px] mx-auto px-6 lg:px-16">
           <div className="flex flex-wrap items-center justify-center gap-4 lg:gap-6">
-            {NAV.map((item) => (
-              <a
-                key={item.id}
-                href={`#${item.id}`}
-                className="group inline-flex items-center gap-2 px-5 py-3 bg-bontera-grey-50 border border-bontera-grey-200 hover:bg-bontera-navy-600 hover:border-bontera-navy-600 transition-all duration-300"
-              >
-                <svg
-                  className="w-5 h-5 text-bontera-navy-600 group-hover:text-white transition-colors"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
+            {NAV.map((item) => {
+              const dest = item.href
+                ? `/${locale}/legal/${item.href}`
+                : `#${item.id}`;
+              return (
+                <Link
+                  key={item.id}
+                  href={dest}
+                  className="group inline-flex items-center gap-2 px-5 py-3 bg-bontera-grey-50 border border-bontera-grey-200 hover:bg-bontera-navy-600 hover:border-bontera-navy-600 transition-all duration-300"
                 >
-                  <path strokeLinecap="round" strokeLinejoin="round" d={item.iconPath} />
-                </svg>
-                <span className="text-sm font-semibold text-bontera-grey-700 group-hover:text-white transition-colors uppercase tracking-wider">
-                  {navLabelById[item.id]}
-                </span>
-              </a>
-            ))}
+                  <svg
+                    className="w-5 h-5 text-bontera-navy-600 group-hover:text-white transition-colors"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" d={item.iconPath} />
+                  </svg>
+                  <span className="text-sm font-semibold text-bontera-grey-700 group-hover:text-white transition-colors uppercase tracking-wider">
+                    {navLabelById[item.id]}
+                  </span>
+                </Link>
+              );
+            })}
           </div>
         </div>
       </section>
