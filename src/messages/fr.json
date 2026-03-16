@@ -252,7 +252,6 @@
     "headquarters": "Bielefeld, Allemagne",
 
     "emergency24": "Urgence 24/7",
-    "hero.stats.sqm": "ok",
     "search": "Rechercher",
     "searchPlaceholder": "Rechercher des projets, services, actualités...",
     "quickLinks": "Liens rapides",
@@ -283,7 +282,6 @@
       "commercialConstruction": "Construction",
       "commercialConstructionDesc": "Résidentielle, Commercial et Infrastructure",
       "realEstate": "Immobilier",
-      "herostatssqm": "ok",
       "realEstateDesc": "Développement immobilier premium",
       "renovation": "Rénovation & restauration",
       "renovationDesc": "Bâtiment classé, Résidentiel et commercial",

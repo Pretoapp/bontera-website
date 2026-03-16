@@ -369,9 +369,13 @@
     "content": {
       "representedBy": "Vertreten durch den Geschäftsführer",
       "registrationTitle": "Handelsregister",
+      "registrationValue": "In Gründungsphase (wird nach Erhalt ergänzt)",
+      "courtValue": "In Gründungsphase (wird nach Erhalt ergänzt)",
       "taxIdTitle": "Umsatzsteuer-ID",
       "taxIdDescription": "Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:",
+      "taxIdValue": "In Gründungsphase (wird nach Erhalt ergänzt)",
       "supervisoryTitle": "Aufsichtsbehörden",
+      "supervisoryBody2": "In Gründungsphase (wird nach Erhalt ergänzt)",
       "editorialTitle": "Redaktionell verantwortlich",
       "euDisputeTitle": "EU-Streitschlichtung",
       "euDisputeBody": "Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit:",
@@ -389,6 +393,25 @@
       "copyrightBody2": "Beiträge Dritter sind als solche gekennzeichnet."
     },
     "backToLegal": "Zurück zum Rechtsbereich"
+  },
+  "legalShared": {
+    "sidebar": {
+      "tocTitle": "Auf dieser Seite",
+      "officeLabel": "Sitz",
+      "phoneLabel": "Telefon",
+      "emailLabel": "E-Mail",
+      "supportTitle": "Brauchen Sie Unterstützung?",
+      "supportBody": "Für rechtliche Fragen, Datenschutzanfragen oder Rückfragen zu Dokumenten wenden Sie sich direkt an unser Team."
+    },
+    "labels": {
+      "company": "Unternehmen",
+      "representative": "Vertretung",
+      "phone": "Telefon",
+      "email": "E-Mail",
+      "commercialRegister": "Handelsregister",
+      "registrationCourt": "Registergericht",
+      "vatId": "Umsatzsteuer-ID"
+    }
   },
   "datenschutzPage": {
     "meta": {
@@ -574,7 +597,10 @@
     "hero": {
       "eyebrow": "Rechtsbereich",
       "title": "Datenschutzerklärung",
-      "subtitle": "Alles Wichtige zur Nutzung der Website, zum Umgang mit Daten und zu häufigen Fragen, übersichtlich an einem Ort."
+      "subtitle": "Alles Wichtige zur Nutzung der Website, zum Umgang mit Daten und zu häufigen Fragen, übersichtlich an einem Ort.",
+      "landingTitle": "Rechts- und Datenschutzcenter",
+      "landingSubtitle": "Alle Dokumente zu Impressum, Datenschutz, Cookies und Nutzungsbedingungen in einer klar strukturierten Übersicht.",
+      "contactLine": "Für rechtliche oder datenschutzbezogene Anfragen schreiben Sie an"
     },
     "nav": {
       "privacy": "Datenschutz",
@@ -585,6 +611,11 @@
     },
     "sidebar": {
       "title": "Auf dieser Seite"
+    },
+    "documents": {
+      "eyebrow": "Dokumentenübersicht",
+      "title": "Wählen Sie das passende Dokument",
+      "description": "Greifen Sie über eine klare, professionelle Dokumentansicht auf Impressum, Datenschutzerklärung, Nutzungsbedingungen und Cookie-Richtlinie zu."
     },
     "privacy": {
       "title": "Datenschutzerklärung",
@@ -598,9 +629,20 @@
       "title": "Cookie-Richtlinie",
       "body": "Wir verwenden Cookies und ähnliche Technologien, damit die Website ordnungsgemäß funktioniert, Reichweite gemessen und die Leistung verbessert werden kann. Sie können Ihre Einstellungen über die Browser-Optionen verwalten. Einige Funktionen können eingeschränkt sein, wenn Cookies deaktiviert sind."
     },
+    "impressum": {
+      "title": "Impressum",
+      "body": "Unternehmensangaben, Registerinformationen und alle gesetzlich vorgeschriebenen Pflichtangaben der Bontera GmbH."
+    },
     "faqBlock": {
+      "eyebrow": "Support",
       "title": "Häufig gestellte Fragen (FAQ)",
       "subtitle": "Hier finden Sie Antworten auf die häufigsten Fragen zu Projekten, Zeitplänen und unserem Ablauf."
+    },
+    "cta": {
+      "title": "Benötigen Sie noch eine Klärung?",
+      "description": "Wenn Sie Fragen zu Recht, Datenschutz oder Compliance haben, hilft Ihnen unser Team beim passenden Dokument oder beantwortet Ihre Anfrage direkt.",
+      "primary": "Kontakt aufnehmen",
+      "secondary": "Legal-Team anschreiben"
     }
   },
   "about": {

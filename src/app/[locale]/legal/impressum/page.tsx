@@ -1,10 +1,18 @@
-// src/app/[locale]/legal/impressum/page.tsx
-// BONTERA - IMPRESSUM PAGE
-
-import { getTranslations } from "next-intl/server";
 import type { Metadata } from "next";
-import Link from "next/link";
-import Image from "next/image";
+import { getTranslations } from "next-intl/server";
+
+import LegalDocumentShell, {
+  LegalSectionCard,
+} from "@/components/legal/LegalDocumentShell";
+import {
+  LEGAL_EMAIL,
+  LEGAL_EMAIL_HREF,
+  LEGAL_OFFICE_LINES,
+  LEGAL_PHONE_DISPLAY,
+  LEGAL_PHONE_HREF,
+  LEGAL_REPRESENTATIVE,
+} from "@/components/legal/legalData";
+import { getLocaleDirection, type Locale } from "@/lib/i18n/config";
 
 type Props = {
   params: { locale: string };
@@ -23,256 +31,239 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function ImpressumPage({ params }: Props) {
   const { locale } = params;
   const t = await getTranslations({ locale, namespace: "impressumPage" });
-  const isRTL = locale === "ar" || locale === "ku";
-  const dir = isRTL ? "rtl" : "ltr";
+  const shared = await getTranslations({ locale, namespace: "legalShared" });
+  const dir = getLocaleDirection(locale as Locale);
+
+  const sections = [
+    { id: "company", number: "01", title: t("hero.title") },
+    { id: "registration", number: "02", title: t("content.registrationTitle") },
+    { id: "tax-id", number: "03", title: t("content.taxIdTitle") },
+    { id: "supervisory", number: "04", title: t("content.supervisoryTitle") },
+    { id: "editorial", number: "05", title: t("content.editorialTitle") },
+    { id: "eu-dispute", number: "06", title: t("content.euDisputeTitle") },
+    {
+      id: "consumer-dispute",
+      number: "07",
+      title: t("content.consumerDisputeTitle"),
+    },
+    {
+      id: "liability-content",
+      number: "08",
+      title: t("content.liabilityContentTitle"),
+    },
+    {
+      id: "liability-links",
+      number: "09",
+      title: t("content.liabilityLinksTitle"),
+    },
+    { id: "copyright", number: "10", title: t("content.copyrightTitle") },
+  ];
 
   return (
-    <main className="bg-bontera-grey-50" dir={dir}>
-      {/* HERO */}
-      <section className="relative min-h-[50vh] lg:min-h-[60vh] flex items-end overflow-hidden">
-        <div className="absolute inset-0">
-          <Image
-            src="/images/contact-hero.jpg"
-            alt="Bontera Impressum"
-            fill
-            priority
-            className="object-cover"
-            sizes="100vw"
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-bontera-navy-900 via-bontera-navy-900/60 to-transparent" />
-          <div className="absolute inset-0 bg-gradient-to-r from-bontera-navy-900/80 via-transparent to-transparent" />
-        </div>
-
-        <div className="absolute inset-0 opacity-[0.05]">
-          <div
-            className="absolute inset-0"
-            style={{
-              backgroundImage:
-                "linear-gradient(90deg, white 1px, transparent 1px), linear-gradient(white 1px, transparent 1px)",
-              backgroundSize: "80px 80px",
-            }}
-          />
-        </div>
-
-        <div className="relative z-10 w-full pb-16 lg:pb-24">
-          <div className="max-w-[1600px] mx-auto px-6 lg:px-16">
-            <nav className="mb-8" aria-label="Breadcrumb">
-              <ol className="flex items-center gap-2 text-sm text-bontera-grey-400">
-                <li>
-                  <Link href={`/${locale}`} className="hover:text-white transition-colors">
-                    {t("breadcrumb.home")}
-                  </Link>
-                </li>
-                <li aria-hidden="true">
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                </li>
-                <li>
-                  <Link href={`/${locale}/legal`} className="hover:text-white transition-colors">
-                    {t("breadcrumb.legal")}
-                  </Link>
-                </li>
-                <li aria-hidden="true">
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                </li>
-                <li className="text-white font-medium">{t("breadcrumb.impressum")}</li>
-              </ol>
-            </nav>
-
-            <span className="inline-flex items-center gap-3 text-bontera-grey-400 text-sm uppercase tracking-[0.25em]">
-              <span className="w-12 h-px bg-gradient-to-r from-bontera-navy-400 to-transparent" />
-              {t("hero.eyebrow")}
-            </span>
-
-            <h1 className="mt-6 max-w-4xl">
-              <span className="block text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-semibold text-white leading-[1.05] tracking-tight">
-                {t("hero.title")}
-              </span>
-            </h1>
-
-            <p className="mt-6 max-w-2xl text-lg lg:text-xl text-bontera-grey-300 leading-relaxed">
-              {t("hero.subtitle")}
+    <LegalDocumentShell
+      locale={locale}
+      dir={dir}
+      heroAlt={t("hero.title")}
+      eyebrow={t("hero.eyebrow")}
+      title={t("hero.title")}
+      subtitle={t("hero.subtitle")}
+      breadcrumbs={[
+        { label: t("breadcrumb.home"), href: `/${locale}` },
+        { label: t("breadcrumb.legal"), href: `/${locale}/legal` },
+        { label: t("breadcrumb.impressum") },
+      ]}
+      sections={sections}
+      sidebarCopy={{
+        tocTitle: shared("sidebar.tocTitle"),
+        officeLabel: shared("sidebar.officeLabel"),
+        phoneLabel: shared("sidebar.phoneLabel"),
+        emailLabel: shared("sidebar.emailLabel"),
+        supportTitle: shared("sidebar.supportTitle"),
+        supportBody: shared("sidebar.supportBody"),
+        backToHubLabel: t("backToLegal"),
+      }}
+    >
+      <LegalSectionCard
+        id={sections[0].id}
+        number={sections[0].number}
+        title={sections[0].title}
+      >
+        <div className="grid gap-4 lg:grid-cols-[1.15fr_0.85fr]">
+          <div className="rounded-2xl border border-bontera-grey-200 bg-bontera-grey-50 p-6">
+            <p className="text-xs font-semibold uppercase tracking-[0.28em] text-bontera-grey-500">
+              {shared("labels.company")}
             </p>
-          </div>
-        </div>
-      </section>
-
-      {/* CONTENT */}
-      <section className="py-20 lg:py-28 bg-white">
-        <div className="max-w-[1000px] mx-auto px-6 lg:px-16">
-          {/* Company Info */}
-          <div className="mb-16">
-            <div className="p-8 lg:p-12 bg-bontera-grey-50 border border-bontera-grey-200">
-              <h2 className="text-2xl lg:text-3xl font-semibold text-bontera-grey-900 mb-6">
-                BONTERA GmbH
-              </h2>
-              <div className="text-lg text-bontera-grey-600 leading-relaxed space-y-1">
-                <p>Stodieks Hof 77</p>
-                <p>33790 Halle Westfalen</p>
-                <p className="mt-4">
-                  Telefon:{" "}
-                  <a href="tel:+4916043000073" className="text-bontera-navy-600 hover:underline">
-                    0160 43 00 07 3
-                  </a>
-                </p>
-                <p>
-                  E-Mail:{" "}
-                  <a href="mailto:info@bontera.de" className="text-bontera-navy-600 hover:underline">
-                    info@bontera.de
-                  </a>
-                </p>
-              </div>
-              <div className="mt-6 pt-6 border-t border-bontera-grey-200">
-                <p className="text-lg text-bontera-grey-600">
-                  <span className="font-semibold text-bontera-grey-900">
-                    {t("content.representedBy")}:
-                  </span>{" "}
-                  Necdet AKBULUT
-                </p>
-              </div>
-            </div>
-          </div>
-
-          {/* Registration Info */}
-          <div className="mb-16">
-            <h2 className="text-xl lg:text-2xl font-semibold text-bontera-grey-900 mb-6 pb-4 border-b border-bontera-grey-200">
-              {t("content.registrationTitle")}
-            </h2>
-            <div className="space-y-4 text-base text-bontera-grey-600 leading-relaxed">
-              <p>
-                <span className="font-semibold text-bontera-grey-800">Handelsregister:</span>{" "}
-                In Gr&uuml;ndungsphase (wird bei Erhalt eingetragen)
-              </p>
-              <p>
-                <span className="font-semibold text-bontera-grey-800">Registergericht:</span>{" "}
-                In Gr&uuml;ndungsphase (wird bei Erhalt eingetragen)
-              </p>
-              <p>
-                <span className="font-semibold text-bontera-grey-800">Vertreten durch:</span>{" "}
-                Necdet Akbulut
-              </p>
-            </div>
-          </div>
-
-          {/* Tax ID */}
-          <div className="mb-16">
-            <h2 className="text-xl lg:text-2xl font-semibold text-bontera-grey-900 mb-6 pb-4 border-b border-bontera-grey-200">
-              {t("content.taxIdTitle")}
-            </h2>
-            <p className="text-base text-bontera-grey-600 leading-relaxed">
-              {t("content.taxIdDescription")}
+            <p className="mt-3 text-2xl font-semibold text-bontera-grey-900">
+              BONTERA GmbH
             </p>
-            <p className="mt-2 text-base text-bontera-grey-600">
-              In Gr&uuml;ndungsphase (wird bei Erhalt eingetragen)
-            </p>
-          </div>
-
-          {/* Supervisory Authority */}
-          <div className="mb-16">
-            <h2 className="text-xl lg:text-2xl font-semibold text-bontera-grey-900 mb-6 pb-4 border-b border-bontera-grey-200">
-              {t("content.supervisoryTitle")}
-            </h2>
-            <p className="text-base text-bontera-grey-600 leading-relaxed">
-              BG BAU
-            </p>
-            <p className="text-base text-bontera-grey-600">
-              In Gr&uuml;ndungsphase (wird bei Erhalt eingetragen)
-            </p>
-          </div>
-
-          {/* Editorially Responsible */}
-          <div className="mb-16">
-            <h2 className="text-xl lg:text-2xl font-semibold text-bontera-grey-900 mb-6 pb-4 border-b border-bontera-grey-200">
-              {t("content.editorialTitle")}
-            </h2>
-            <div className="text-base text-bontera-grey-600 leading-relaxed space-y-1">
-              <p className="font-semibold text-bontera-grey-800">Necdet AKBULUT</p>
-              <p>Stodieks Hof 77</p>
-              <p>33790 Halle Westfalen</p>
+            <div className="mt-4 space-y-1 text-base leading-7 text-bontera-grey-600">
+              {LEGAL_OFFICE_LINES.map((line) => (
+                <p key={line}>{line}</p>
+              ))}
             </div>
           </div>
 
-          {/* EU Dispute Resolution */}
-          <div className="mb-16">
-            <h2 className="text-xl lg:text-2xl font-semibold text-bontera-grey-900 mb-6 pb-4 border-b border-bontera-grey-200">
-              {t("content.euDisputeTitle")}
-            </h2>
-            <div className="text-base text-bontera-grey-600 leading-relaxed space-y-4">
-              <p>{t("content.euDisputeBody")}</p>
-              <p>
-                <a
-                  href="https://ec.europa.eu/consumers/odr/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-bontera-navy-600 hover:underline break-all"
-                >
-                  https://ec.europa.eu/consumers/odr/
-                </a>
-              </p>
-              <p>{t("content.euDisputeEmail")}</p>
-            </div>
-          </div>
-
-          {/* Consumer Dispute Resolution */}
-          <div className="mb-16">
-            <h2 className="text-xl lg:text-2xl font-semibold text-bontera-grey-900 mb-6 pb-4 border-b border-bontera-grey-200">
-              {t("content.consumerDisputeTitle")}
-            </h2>
-            <p className="text-base text-bontera-grey-600 leading-relaxed">
-              {t("content.consumerDisputeBody")}
-            </p>
-          </div>
-
-          {/* Liability for Content */}
-          <div className="mb-16">
-            <h2 className="text-xl lg:text-2xl font-semibold text-bontera-grey-900 mb-6 pb-4 border-b border-bontera-grey-200">
-              {t("content.liabilityContentTitle")}
-            </h2>
-            <div className="text-base text-bontera-grey-600 leading-relaxed space-y-4">
-              <p>{t("content.liabilityContentBody1")}</p>
-              <p>{t("content.liabilityContentBody2")}</p>
-            </div>
-          </div>
-
-          {/* Liability for Links */}
-          <div className="mb-16">
-            <h2 className="text-xl lg:text-2xl font-semibold text-bontera-grey-900 mb-6 pb-4 border-b border-bontera-grey-200">
-              {t("content.liabilityLinksTitle")}
-            </h2>
-            <div className="text-base text-bontera-grey-600 leading-relaxed space-y-4">
-              <p>{t("content.liabilityLinksBody1")}</p>
-              <p>{t("content.liabilityLinksBody2")}</p>
-            </div>
-          </div>
-
-          {/* Copyright */}
-          <div className="mb-16">
-            <h2 className="text-xl lg:text-2xl font-semibold text-bontera-grey-900 mb-6 pb-4 border-b border-bontera-grey-200">
-              {t("content.copyrightTitle")}
-            </h2>
-            <div className="text-base text-bontera-grey-600 leading-relaxed space-y-4">
-              <p>{t("content.copyrightBody1")}</p>
-              <p>{t("content.copyrightBody2")}</p>
-            </div>
-          </div>
-
-          {/* Back to Legal */}
-          <div className="pt-8 border-t border-bontera-grey-200">
-            <Link
-              href={`/${locale}/legal`}
-              className="inline-flex items-center gap-2 text-sm font-semibold text-bontera-navy-700 hover:text-bontera-navy-900 transition-colors"
+          <div className="grid gap-4">
+            <a
+              href={LEGAL_PHONE_HREF}
+              className="rounded-2xl border border-bontera-grey-200 bg-white p-5 transition-colors hover:border-bontera-navy-300"
             >
-              <svg className={`w-4 h-4 ${isRTL ? "" : "rotate-180"}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-              </svg>
-              {t("backToLegal")}
-            </Link>
+              <p className="text-xs font-semibold uppercase tracking-[0.28em] text-bontera-grey-500">
+                {shared("labels.phone")}
+              </p>
+              <p className="mt-3 text-lg font-semibold text-bontera-grey-900">
+                {LEGAL_PHONE_DISPLAY}
+              </p>
+            </a>
+
+            <a
+              href={LEGAL_EMAIL_HREF}
+              className="rounded-2xl border border-bontera-grey-200 bg-white p-5 transition-colors hover:border-bontera-navy-300"
+            >
+              <p className="text-xs font-semibold uppercase tracking-[0.28em] text-bontera-grey-500">
+                {shared("labels.email")}
+              </p>
+              <p className="mt-3 text-lg font-semibold text-bontera-grey-900">
+                {LEGAL_EMAIL}
+              </p>
+            </a>
           </div>
         </div>
-      </section>
-    </main>
+
+        <div className="mt-4 rounded-2xl border border-bontera-navy-100 bg-bontera-navy-50 p-6">
+          <p className="text-xs font-semibold uppercase tracking-[0.28em] text-bontera-navy-500">
+            {t("content.representedBy")}
+          </p>
+          <p className="mt-3 text-lg font-semibold text-bontera-grey-900">
+            {LEGAL_REPRESENTATIVE}
+          </p>
+        </div>
+      </LegalSectionCard>
+
+      <LegalSectionCard
+        id={sections[1].id}
+        number={sections[1].number}
+        title={sections[1].title}
+      >
+        <dl className="grid gap-4 sm:grid-cols-2">
+          <div className="rounded-2xl border border-bontera-grey-200 bg-bontera-grey-50 p-5">
+            <dt className="text-xs font-semibold uppercase tracking-[0.28em] text-bontera-grey-500">
+              {shared("labels.commercialRegister")}
+            </dt>
+            <dd className="mt-3 text-base leading-7 text-bontera-grey-700">
+              {t("content.registrationValue")}
+            </dd>
+          </div>
+
+          <div className="rounded-2xl border border-bontera-grey-200 bg-bontera-grey-50 p-5">
+            <dt className="text-xs font-semibold uppercase tracking-[0.28em] text-bontera-grey-500">
+              {shared("labels.registrationCourt")}
+            </dt>
+            <dd className="mt-3 text-base leading-7 text-bontera-grey-700">
+              {t("content.courtValue")}
+            </dd>
+          </div>
+
+          <div className="rounded-2xl border border-bontera-grey-200 bg-white p-5 sm:col-span-2">
+            <dt className="text-xs font-semibold uppercase tracking-[0.28em] text-bontera-grey-500">
+              {shared("labels.representative")}
+            </dt>
+            <dd className="mt-3 text-base leading-7 text-bontera-grey-700">
+              {LEGAL_REPRESENTATIVE}
+            </dd>
+          </div>
+        </dl>
+      </LegalSectionCard>
+
+      <LegalSectionCard
+        id={sections[2].id}
+        number={sections[2].number}
+        title={sections[2].title}
+        paragraphs={[t("content.taxIdDescription")]}
+      >
+        <div className="rounded-2xl border border-bontera-grey-200 bg-bontera-grey-50 p-5">
+          <p className="text-xs font-semibold uppercase tracking-[0.28em] text-bontera-grey-500">
+            {shared("labels.vatId")}
+          </p>
+          <p className="mt-3 text-base leading-7 text-bontera-grey-700">
+            {t("content.taxIdValue")}
+          </p>
+        </div>
+      </LegalSectionCard>
+
+      <LegalSectionCard
+        id={sections[3].id}
+        number={sections[3].number}
+        title={sections[3].title}
+        paragraphs={["BG BAU", t("content.supervisoryBody2")]}
+      />
+
+      <LegalSectionCard
+        id={sections[4].id}
+        number={sections[4].number}
+        title={sections[4].title}
+      >
+        <div className="rounded-2xl border border-bontera-grey-200 bg-bontera-grey-50 p-6">
+          <p className="text-lg font-semibold text-bontera-grey-900">
+            {LEGAL_REPRESENTATIVE}
+          </p>
+          <div className="mt-4 space-y-1 text-base leading-7 text-bontera-grey-600">
+            {LEGAL_OFFICE_LINES.map((line) => (
+              <p key={line}>{line}</p>
+            ))}
+          </div>
+        </div>
+      </LegalSectionCard>
+
+      <LegalSectionCard
+        id={sections[5].id}
+        number={sections[5].number}
+        title={sections[5].title}
+        paragraphs={[t("content.euDisputeBody"), t("content.euDisputeEmail")]}
+      >
+        <a
+          href="https://ec.europa.eu/consumers/odr/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center rounded-2xl bg-bontera-navy-600 px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-bontera-navy-700"
+        >
+          https://ec.europa.eu/consumers/odr/
+        </a>
+      </LegalSectionCard>
+
+      <LegalSectionCard
+        id={sections[6].id}
+        number={sections[6].number}
+        title={sections[6].title}
+        paragraphs={[t("content.consumerDisputeBody")]}
+      />
+
+      <LegalSectionCard
+        id={sections[7].id}
+        number={sections[7].number}
+        title={sections[7].title}
+        paragraphs={[
+          t("content.liabilityContentBody1"),
+          t("content.liabilityContentBody2"),
+        ]}
+      />
+
+      <LegalSectionCard
+        id={sections[8].id}
+        number={sections[8].number}
+        title={sections[8].title}
+        paragraphs={[
+          t("content.liabilityLinksBody1"),
+          t("content.liabilityLinksBody2"),
+        ]}
+      />
+
+      <LegalSectionCard
+        id={sections[9].id}
+        number={sections[9].number}
+        title={sections[9].title}
+        paragraphs={[t("content.copyrightBody1"), t("content.copyrightBody2")]}
+      />
+    </LegalDocumentShell>
   );
 }

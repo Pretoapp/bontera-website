@@ -1,18 +1,16 @@
-// src/app/[locale]/legal/page.tsx
-// BONTERA - LEGAL PAGE
-
-import { getTranslations } from "next-intl/server";
 import type { Metadata } from "next";
-import Link from "next/link";
 import Image from "next/image";
+import Link from "next/link";
+import { getTranslations } from "next-intl/server";
 
 import ClientFaqList from "./_clientFaqList";
+import { getLocaleDirection, type Locale } from "@/lib/i18n/config";
 
 type Props = {
   params: { locale: string };
 };
 
-type NavId = "privacy" | "terms" | "cookies" | "faq" | "impressum";
+const FAQ_KEYS = ["timeline", "budget", "process", "warranty"] as const;
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = params;
@@ -24,324 +22,225 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-const FAQ_KEYS = ["timeline", "budget", "process", "warranty"] as const;
-
-const NAV: Array<{
-  id: NavId;
-  labelKey: string;
-  iconPath: string;
-  href?: string;
-}> = [
-  {
-    id: "privacy",
-    labelKey: "privacy",
-    iconPath: "M12 3l7 4v6c0 5-3 8-7 8s-7-3-7-8V7l7-4z",
-    href: "datenschutz",
-  },
-  {
-    id: "terms",
-    labelKey: "terms",
-    iconPath: "M7 3h7l3 3v15H7V3z M9 11h6 M9 15h6 M9 7h3",
-    href: "nutzungsbedingungen",
-  },
-  {
-    id: "cookies",
-    labelKey: "cookies",
-    iconPath:
-      "M20 13a8 8 0 11-9-9 3 3 0 003 3 3 3 0 003 3 3 3 0 003 3z M9 10h.01 M12 13h.01 M8 14h.01 M14 10h.01",
-    href: "cookies",
-  },
-  {
-    id: "faq",
-    labelKey: "faq",
-    iconPath:
-      "M12 18h.01 M9.5 9a2.5 2.5 0 115 0c0 2-2.5 1.75-2.5 4 M12 22a10 10 0 100-20 10 10 0 000 20z",
-  },
-  {
-    id: "impressum",
-    labelKey: "impressum",
-    iconPath: "M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z",
-    href: "impressum",
-  },
-];
-
-// Prevent raw keys like "legalPage.hero.title" from showing in UI.
-function isProbablyKeyString(v: string) {
-  return (
-    v.includes("legalPage.") ||
-    /^(meta|breadcrumb|hero|nav|cards|privacy|terms|cookies|faqBlock|backToTop|quickNav)\./.test(v)
-  );
-}
-
-function safeT(
-  t: ((key: any) => string) & { has?: (key: string) => boolean },
-  key: string,
-  fallback: string
-) {
-  if (typeof t?.has === "function" && !t.has(key)) return fallback;
-
-  try {
-    const v = t(key as any);
-    if (!v) return fallback;
-    if (v === key) return fallback;
-    if (isProbablyKeyString(v)) return fallback;
-    return v;
-  } catch {
-    return fallback;
-  }
-}
-
 export default async function LegalPage({ params }: Props) {
   const { locale } = params;
   const t = await getTranslations({ locale, namespace: "legalPage" });
+  const dir = getLocaleDirection(locale as Locale);
+  const isRTL = dir === "rtl";
 
-  const isRTL = locale === "ar" || locale === "ku";
-  const dir = isRTL ? "rtl" : "ltr";
-
-  const title = safeT(t, "hero.title", "Legal + Privacy + Cookies + FAQ");
-  const subtitle = safeT(
-    t,
-    "hero.subtitle",
-    "Everything you need to know about site usage, data handling and frequently asked questions in one place."
-  );
-
-  const breadcrumbHome = safeT(t, "breadcrumb.home", "Home");
-  const breadcrumbLegal = safeT(t, "breadcrumb.legal", "Legal");
-
-  const navPrivacy = safeT(t, "nav.privacy", "Privacy");
-  const navTerms = safeT(t, "nav.terms", "Terms");
-  const navCookies = safeT(t, "nav.cookies", "Cookies");
-  const navFaq = safeT(t, "nav.faq", "FAQ");
-  const navImpressum = safeT(t, "nav.impressum", "Impressum");
-
-  const privacyTitle = safeT(t, "privacy.title", "Privacy Policy");
-  const privacyBody = safeT(
-    t,
-    "privacy.body",
-    "We collect only what is necessary to respond to your requests and improve your experience. We do not sell your data."
-  );
-
-  const termsTitle = safeT(t, "terms.title", "Terms of Use");
-  const termsBody = safeT(
-    t,
-    "terms.body",
-    "By using this website, you agree to use it lawfully and not disrupt its operation. Content is protected and cannot be reused without permission."
-  );
-
-  const cookiesTitle = safeT(t, "cookies.title", "Cookie Policy");
-  const cookiesBody = safeT(
-    t,
-    "cookies.body",
-    "We use cookies to ensure proper functionality, measure audience and improve performance. You can manage preferences in your browser settings."
-  );
-
-  const faqEyebrow = safeT(t, "faqBlock.eyebrow", "Support");
-  const faqTitle = safeT(t, "faqBlock.title", "Frequently Asked Questions");
-  const faqSubtitle = safeT(
-    t,
-    "faqBlock.subtitle",
-    "Find answers to the most common questions about our projects, timelines and process."
-  );
-
-  const backToTop = safeT(t, "backToTop", "Back to top");
-
-  const navLabelById: Record<NavId, string> = {
-    privacy: navPrivacy,
-    terms: navTerms,
-    cookies: navCookies,
-    faq: navFaq,
-    impressum: navImpressum,
-  };
+  const documents = [
+    {
+      number: "01",
+      title: t("privacy.title"),
+      body: t("privacy.body"),
+      href: `/${locale}/legal/datenschutz`,
+    },
+    {
+      number: "02",
+      title: t("terms.title"),
+      body: t("terms.body"),
+      href: `/${locale}/legal/nutzungsbedingungen`,
+    },
+    {
+      number: "03",
+      title: t("cookies.title"),
+      body: t("cookies.body"),
+      href: `/${locale}/legal/cookies`,
+    },
+    {
+      number: "04",
+      title: t("impressum.title"),
+      body: t("impressum.body"),
+      href: `/${locale}/legal/impressum`,
+    },
+  ];
 
   return (
     <main className="bg-bontera-grey-50" dir={dir}>
-      {/* HERO SECTION */}
-      <section className="relative min-h-[70vh] lg:min-h-[80vh] flex items-end overflow-hidden">
+      <section className="relative overflow-hidden">
         <div className="absolute inset-0">
           <Image
             src="/images/contact-hero.jpg"
-            alt="Bontera Legal"
+            alt={t("meta.title")}
             fill
             priority
             className="object-cover"
             sizes="100vw"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-bontera-navy-900 via-bontera-navy-900/60 to-transparent" />
-          <div className="absolute inset-0 bg-gradient-to-r from-bontera-navy-900/80 via-transparent to-transparent" />
+          <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(17,33,57,0.72)_0%,rgba(17,33,57,0.84)_45%,rgba(17,33,57,0.98)_100%)]" />
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(255,255,255,0.14),transparent_26%),radial-gradient(circle_at_bottom_left,rgba(102,133,168,0.18),transparent_38%)]" />
         </div>
 
-        <div className="absolute inset-0 opacity-[0.05]">
+        <div className="absolute inset-0 opacity-[0.08]">
           <div
             className="absolute inset-0"
             style={{
               backgroundImage:
                 "linear-gradient(90deg, white 1px, transparent 1px), linear-gradient(white 1px, transparent 1px)",
-              backgroundSize: "80px 80px",
+              backgroundSize: "72px 72px",
             }}
           />
         </div>
 
-        <div id="top" className="relative z-10 w-full pb-16 lg:pb-24">
-          <div className="max-w-[1600px] mx-auto px-6 lg:px-16">
-            <nav className="mb-8" aria-label="Breadcrumb">
-              <ol className="flex items-center gap-2 text-sm text-bontera-grey-400">
+        <div
+          id="top"
+          className="relative z-10 mx-auto flex min-h-[34rem] max-w-[1500px] items-end px-6 pb-16 pt-32 sm:pb-20 lg:px-16 lg:pt-40"
+        >
+          <div className="w-full">
+            <nav aria-label="Breadcrumb">
+              <ol className="flex flex-wrap items-center gap-2 text-sm text-bontera-grey-300">
                 <li>
-                  <Link href={`/${locale}`} className="hover:text-white transition-colors">
-                    {breadcrumbHome}
+                  <Link href={`/${locale}`} className="transition-colors hover:text-white">
+                    {t("breadcrumb.home")}
                   </Link>
                 </li>
-                <li aria-hidden="true">
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                </li>
-                <li className="text-white font-medium">{breadcrumbLegal}</li>
-              </ol>
-            </nav>
-
-            <span className="inline-flex items-center gap-3 text-bontera-grey-400 text-sm uppercase tracking-[0.25em]">
-              <span className="w-12 h-px bg-gradient-to-r from-bontera-navy-400 to-transparent" />
-              {safeT(t, "hero.eyebrow", "LEGAL CENTER")}
-            </span>
-
-            <h1 className="mt-6 max-w-4xl">
-              <span className="block text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-semibold text-white leading-[1.05] tracking-tight">
-                {title}
-              </span>
-            </h1>
-
-            <p className="mt-6 max-w-2xl text-lg lg:text-xl text-bontera-grey-300 leading-relaxed">
-              {subtitle}
-            </p>
-
-            <div className="mt-10 flex flex-wrap gap-3">
-              {NAV.map((item) => {
-                const dest = item.href
-                  ? `/${locale}/legal/${item.href}`
-                  : `#${item.id}`;
-                return (
-                  <Link
-                    key={item.id}
-                    href={dest}
-                    className="group inline-flex items-center gap-3 px-5 py-3 bg-white/5 border border-white/10 hover:bg-white/10 hover:border-white/20 transition-all duration-300"
-                  >
-                    <svg
-                      className="w-5 h-5 text-bontera-grey-200 group-hover:text-white transition-colors"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                      strokeWidth={1.6}
-                    >
-                      <path strokeLinecap="round" strokeLinejoin="round" d={item.iconPath} />
-                    </svg>
-                    <span className="text-sm font-semibold text-bontera-grey-200 group-hover:text-white transition-colors uppercase tracking-wider">
-                      {navLabelById[item.id]}
-                    </span>
-                  </Link>
-                );
-              })}
-            </div>
-
-            <div className="mt-10 text-sm text-bontera-grey-400">
-              {safeT(t, "hero.contactLine", "For questions:")}{" "}
-              <a className="text-white/90 hover:text-white underline underline-offset-4" href="mailto:info@bontera.de">
-                info@bontera.de
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* QUICK NAV */}
-      <section className="relative py-16 lg:py-20 bg-white border-b border-bontera-grey-200">
-        <div className="max-w-[1600px] mx-auto px-6 lg:px-16">
-          <div className="flex flex-wrap items-center justify-center gap-4 lg:gap-6">
-            {NAV.map((item) => {
-              const dest = item.href
-                ? `/${locale}/legal/${item.href}`
-                : `#${item.id}`;
-              return (
-                <Link
-                  key={item.id}
-                  href={dest}
-                  className="group inline-flex items-center gap-2 px-5 py-3 bg-bontera-grey-50 border border-bontera-grey-200 hover:bg-bontera-navy-600 hover:border-bontera-navy-600 transition-all duration-300"
-                >
+                <li className="flex items-center">
                   <svg
-                    className="w-5 h-5 text-bontera-navy-600 group-hover:text-white transition-colors"
+                    className={`h-4 w-4 ${isRTL ? "rotate-180" : ""}`}
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
-                    strokeWidth={1.5}
                   >
-                    <path strokeLinecap="round" strokeLinejoin="round" d={item.iconPath} />
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={1.8}
+                      d="M9 5l7 7-7 7"
+                    />
                   </svg>
-                  <span className="text-sm font-semibold text-bontera-grey-700 group-hover:text-white transition-colors uppercase tracking-wider">
-                    {navLabelById[item.id]}
-                  </span>
-                </Link>
-              );
-            })}
-          </div>
-        </div>
-      </section>
+                </li>
+                <li className="font-medium text-white">{t("breadcrumb.legal")}</li>
+              </ol>
+            </nav>
 
-      {/* PRIVACY */}
-      <section id="privacy" className="relative py-24 lg:py-32 bg-white overflow-hidden scroll-mt-28">
-        {/* ... unchanged ... */}
-        {/* keep your entire Privacy section exactly as-is */}
-        {/* (omitted here for brevity) */}
-        <div className="relative max-w-[1600px] mx-auto px-6 lg:px-16">
-          {/* keep your existing privacy markup */}
-          {/* NOTE: nothing in this section is related to the build error */}
-          {/* You can paste your existing section body here unchanged */}
-        </div>
-      </section>
+            <div className="mt-10 max-w-4xl">
+              <span className="inline-flex items-center gap-3 text-xs font-semibold uppercase tracking-[0.34em] text-bontera-grey-300">
+                <span className="h-px w-10 bg-white/30" />
+                {t("hero.eyebrow")}
+              </span>
 
-      {/* TERMS + COOKIES */}
-      <section className="relative py-24 lg:py-32 bg-bontera-grey-100 overflow-hidden">
-        {/* keep your existing Terms/Cookies markup unchanged */}
-        <div className="max-w-[1600px] mx-auto px-6 lg:px-16">
-          <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
-            <article id="terms" className="bg-white p-8 lg:p-12 shadow-sm border border-bontera-grey-200 scroll-mt-28">
-              {/* ... unchanged ... */}
-              <h3 className="text-2xl lg:text-3xl font-semibold text-bontera-grey-900 mb-4">{termsTitle}</h3>
-              <p className="text-lg text-bontera-grey-600 leading-relaxed">{termsBody}</p>
-              <div className="mt-8 pt-6 border-t border-bontera-grey-200">
-                <a
-                  href="#faq"
-                  className="inline-flex items-center gap-2 text-sm font-semibold text-bontera-navy-700 hover:text-bontera-navy-900"
+              <h1 className="mt-5 text-4xl font-semibold leading-[1.02] tracking-tight text-white sm:text-5xl lg:text-7xl">
+                {t("hero.landingTitle")}
+              </h1>
+
+              <p className="mt-6 max-w-3xl text-lg leading-8 text-bontera-grey-200 sm:text-xl">
+                {t("hero.landingSubtitle")}
+              </p>
+            </div>
+
+            <div className="mt-10 flex flex-wrap gap-3">
+              {documents.map((document) => (
+                <Link
+                  key={document.href}
+                  href={document.href}
+                  className="rounded-full border border-white/12 bg-white/8 px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-white/12"
                 >
-                  {navFaq}
-                  <svg className={`w-4 h-4 ${isRTL ? "rotate-180" : ""}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                </a>
-              </div>
-            </article>
+                  {document.title}
+                </Link>
+              ))}
+            </div>
 
-            <article id="cookies" className="bg-bontera-navy-600 p-8 lg:p-12 text-white scroll-mt-28">
-              {/* ... unchanged ... */}
-              <h3 className="text-2xl lg:text-3xl font-semibold mb-4">{cookiesTitle}</h3>
-              <p className="text-lg text-bontera-navy-100 leading-relaxed">{cookiesBody}</p>
-              <div className="mt-8 pt-6 border-t border-white/15">
+            <div className="mt-10 max-w-3xl rounded-[28px] border border-white/12 bg-white/8 p-6 backdrop-blur-sm">
+              <p className="text-sm leading-7 text-bontera-grey-100">
+                {t("hero.contactLine")}{" "}
                 <a
                   href="mailto:info@bontera.de"
-                  className="inline-flex items-center gap-2 text-sm font-semibold text-white hover:text-bontera-grey-100"
+                  className="font-semibold text-white underline underline-offset-4"
                 >
                   info@bontera.de
-                  <svg className={`w-4 h-4 ${isRTL ? "rotate-180" : ""}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
                 </a>
-              </div>
-            </article>
+              </p>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* FAQ */}
-      <section id="faq" className="relative py-24 lg:py-32 bg-bontera-navy-900 overflow-hidden scroll-mt-28">
-        <div className="absolute inset-0 opacity-[0.04]">
+      <section className="py-16 sm:py-20 lg:py-24">
+        <div className="mx-auto max-w-[1500px] px-6 lg:px-16">
+          <div className="mx-auto max-w-3xl text-center">
+            <span className="inline-flex items-center gap-3 text-xs font-semibold uppercase tracking-[0.32em] text-bontera-grey-500">
+              <span className="h-px w-10 bg-bontera-grey-300" />
+              {t("documents.eyebrow")}
+              <span className="h-px w-10 bg-bontera-grey-300" />
+            </span>
+
+            <h2 className="mt-5 text-3xl font-semibold tracking-tight text-bontera-grey-900 sm:text-4xl lg:text-5xl">
+              {t("documents.title")}
+            </h2>
+
+            <p className="mt-5 text-lg leading-8 text-bontera-grey-600">
+              {t("documents.description")}
+            </p>
+          </div>
+
+          <div className="mt-12 grid gap-6 lg:grid-cols-2">
+            {documents.map((document, index) => (
+              <Link
+                key={document.href}
+                href={document.href}
+                className={[
+                  "group rounded-[30px] border p-8 shadow-[0_24px_70px_rgba(17,33,57,0.08)] transition-all duration-300 hover:-translate-y-1",
+                  index === 1
+                    ? "border-bontera-navy-700 bg-bontera-navy-900 text-white hover:border-bontera-navy-500"
+                    : "border-bontera-grey-200 bg-white hover:border-bontera-navy-300",
+                ].join(" ")}
+              >
+                <div className="flex items-center justify-between gap-4">
+                  <span
+                    className={[
+                      "flex h-12 w-12 items-center justify-center rounded-2xl text-sm font-semibold",
+                      index === 1
+                        ? "bg-white/10 text-white"
+                        : "bg-bontera-navy-50 text-bontera-navy-700",
+                    ].join(" ")}
+                  >
+                    {document.number}
+                  </span>
+
+                  <svg
+                    className={[
+                      "h-5 w-5 transition-transform group-hover:translate-x-1",
+                      index === 1 ? "text-white" : "text-bontera-navy-600",
+                      isRTL ? "rotate-180 group-hover:-translate-x-1 group-hover:translate-y-0" : "",
+                    ].join(" ")}
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={1.8}
+                      d="M17 8l4 4m0 0l-4 4m4-4H3"
+                    />
+                  </svg>
+                </div>
+
+                <h3
+                  className={[
+                    "mt-8 text-2xl font-semibold tracking-tight",
+                    index === 1 ? "text-white" : "text-bontera-grey-900",
+                  ].join(" ")}
+                >
+                  {document.title}
+                </h3>
+
+                <p
+                  className={[
+                    "mt-4 text-base leading-8",
+                    index === 1 ? "text-bontera-grey-200" : "text-bontera-grey-600",
+                  ].join(" ")}
+                >
+                  {document.body}
+                </p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="relative overflow-hidden bg-bontera-navy-900 py-20 sm:py-24 lg:py-28">
+        <div className="absolute inset-0 opacity-[0.05]">
           <div
             className="absolute inset-0"
             style={{
@@ -352,81 +251,56 @@ export default async function LegalPage({ params }: Props) {
           />
         </div>
 
-        <div className="relative max-w-[1600px] mx-auto px-6 lg:px-16">
-          <div className="text-center max-w-3xl mx-auto mb-16">
-            <span className="inline-flex items-center gap-3 text-bontera-grey-400 text-xs uppercase tracking-[0.3em] font-semibold">
-              <span className="w-8 h-px bg-bontera-grey-400" />
-              {faqEyebrow}
-              <span className="w-8 h-px bg-bontera-grey-400" />
+        <div className="relative mx-auto max-w-[1200px] px-6 lg:px-16">
+          <div className="mx-auto max-w-3xl text-center">
+            <span className="inline-flex items-center gap-3 text-xs font-semibold uppercase tracking-[0.32em] text-bontera-grey-400">
+              <span className="h-px w-8 bg-bontera-grey-400" />
+              {t("faqBlock.eyebrow")}
+              <span className="h-px w-8 bg-bontera-grey-400" />
             </span>
 
-            <h2 className="mt-6 text-3xl sm:text-4xl lg:text-5xl font-semibold text-white leading-[1.1] tracking-tight">
-              {faqTitle}
+            <h2 className="mt-5 text-3xl font-semibold tracking-tight text-white sm:text-4xl lg:text-5xl">
+              {t("faqBlock.title")}
             </h2>
 
-            <p className="mt-6 text-lg text-bontera-grey-300 leading-relaxed">{faqSubtitle}</p>
+            <p className="mt-5 text-lg leading-8 text-bontera-grey-300">
+              {t("faqBlock.subtitle")}
+            </p>
           </div>
 
-          <div
-            className="max-w-5xl mx-auto bg-white border border-bontera-grey-200 shadow-2xl ring-1 ring-black/10 p-8 lg:p-10"
-            dir={dir}
-          >
+          <div className="mt-12 rounded-[32px] border border-white/10 bg-white p-6 shadow-[0_24px_70px_rgba(0,0,0,0.18)] sm:p-8">
             <ClientFaqList faqKeys={[...FAQ_KEYS]} />
-          </div>
-
-          <div className="mt-12 text-center">
-            <a
-              href="#top"
-              className="inline-flex items-center gap-2 text-white/90 font-semibold hover:text-white transition-colors"
-            >
-              {backToTop}
-              <svg className={`w-4 h-4 ${isRTL ? "rotate-180" : ""}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-              </svg>
-            </a>
           </div>
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="relative py-24 lg:py-32 overflow-hidden">
-        {/* keep your CTA section unchanged */}
-        <div className="absolute inset-0">
-          <Image src="/images/cta-construction.jpg" alt="Contact Bontera" fill className="object-cover" sizes="100vw" />
-          <div className="absolute inset-0 bg-bontera-navy-900/85" />
-          <div className="absolute inset-0 bg-gradient-to-r from-bontera-navy-900 via-transparent to-bontera-navy-900" />
-        </div>
+      <section className="py-16 sm:py-20 lg:py-24">
+        <div className="mx-auto max-w-[1200px] px-6 lg:px-16">
+          <div className="rounded-[32px] border border-bontera-grey-200 bg-white p-8 shadow-[0_24px_70px_rgba(17,33,57,0.08)] lg:flex lg:items-center lg:justify-between lg:gap-10 lg:p-12">
+            <div className="max-w-2xl">
+              <h2 className="text-3xl font-semibold tracking-tight text-bontera-grey-900 sm:text-4xl">
+                {t("cta.title")}
+              </h2>
+              <p className="mt-5 text-lg leading-8 text-bontera-grey-600">
+                {t("cta.description")}
+              </p>
+            </div>
 
-        <div className="relative max-w-4xl mx-auto px-6 lg:px-8 text-center">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-white leading-[1.1] tracking-tight">
-            {safeT(t, "cta.title", "Need more information?")}
-          </h2>
-          <p className="mt-6 text-xl text-bontera-grey-300 max-w-2xl mx-auto leading-relaxed">
-            {safeT(t, "cta.description", "Contact our team for any legal, privacy, or cookie related question.")}
-          </p>
-
-          <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link
-              href={`/${locale}/contact`}
-              className="group inline-flex items-center gap-3 bg-gray-500 hover:bg-gray-600 text-white px-10 py-5 text-sm font-semibold uppercase tracking-wider transition-all duration-300"
-            >
-              {safeT(t, "cta.contactUs", "Contact")}
-              <svg
-                className={`w-5 h-5 transition-transform group-hover:translate-x-1 ${isRTL ? "rotate-180" : ""}`}
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
+            <div className="mt-8 flex flex-col gap-4 sm:flex-row lg:mt-0">
+              <Link
+                href={`/${locale}/contact`}
+                className="inline-flex items-center justify-center rounded-full bg-bontera-navy-600 px-7 py-4 text-sm font-semibold text-white transition-colors hover:bg-bontera-navy-700"
               >
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-              </svg>
-            </Link>
+                {t("cta.primary")}
+              </Link>
 
-            <a
-              href="mailto:info@bontera.de"
-              className="inline-flex items-center gap-3 text-white border border-white/40 hover:border-white hover:bg-white/10 px-10 py-5 text-sm font-semibold uppercase tracking-wider transition-all duration-300"
-            >
-              info@bontera.de
-            </a>
+              <a
+                href="mailto:info@bontera.de"
+                className="inline-flex items-center justify-center rounded-full border border-bontera-grey-300 px-7 py-4 text-sm font-semibold text-bontera-grey-800 transition-colors hover:border-bontera-navy-300 hover:text-bontera-navy-700"
+              >
+                {t("cta.secondary")}
+              </a>
+            </div>
           </div>
         </div>
       </section>

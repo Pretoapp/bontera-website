@@ -1,10 +1,18 @@
-// src/app/[locale]/legal/datenschutz/page.tsx
-// BONTERA - DATENSCHUTZ (PRIVACY POLICY) PAGE
-
-import { getTranslations } from "next-intl/server";
 import type { Metadata } from "next";
-import Link from "next/link";
-import Image from "next/image";
+import { getTranslations } from "next-intl/server";
+
+import LegalDocumentShell, {
+  LegalSectionCard,
+} from "@/components/legal/LegalDocumentShell";
+import {
+  LEGAL_EMAIL,
+  LEGAL_EMAIL_HREF,
+  LEGAL_OFFICE_LINES,
+  LEGAL_PHONE_DISPLAY,
+  LEGAL_PHONE_HREF,
+  LEGAL_REPRESENTATIVE,
+} from "@/components/legal/legalData";
+import { getLocaleDirection, type Locale } from "@/lib/i18n/config";
 
 type Props = {
   params: { locale: string };
@@ -23,204 +31,179 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function DatenschutzPage({ params }: Props) {
   const { locale } = params;
   const t = await getTranslations({ locale, namespace: "datenschutzPage" });
-  const isRTL = locale === "ar" || locale === "ku";
-  const dir = isRTL ? "rtl" : "ltr";
+  const shared = await getTranslations({ locale, namespace: "legalShared" });
+  const dir = getLocaleDirection(locale as Locale);
 
   const sections = [
     {
-      number: "1",
-      titleKey: "sections.general.title",
-      paragraphs: ["sections.general.p1", "sections.general.p2"],
+      id: "general",
+      number: "01",
+      title: t("sections.general.title"),
+      paragraphs: [t("sections.general.p1"), t("sections.general.p2")],
     },
     {
-      number: "2",
-      titleKey: "sections.responsible.title",
-      isContact: true,
+      id: "responsible",
+      number: "02",
+      title: t("sections.responsible.title"),
     },
     {
-      number: "3",
-      titleKey: "sections.serverLogs.title",
-      paragraphs: ["sections.serverLogs.p1"],
-      list: ["sections.serverLogs.items.ip", "sections.serverLogs.items.browser", "sections.serverLogs.items.os", "sections.serverLogs.items.referrer", "sections.serverLogs.items.hostname", "sections.serverLogs.items.time"],
-      afterList: ["sections.serverLogs.p2"],
-    },
-    {
-      number: "4",
-      titleKey: "sections.cookies.title",
-      paragraphs: ["sections.cookies.p1", "sections.cookies.p2"],
-    },
-    {
-      number: "5",
-      titleKey: "sections.contact.title",
-      paragraphs: ["sections.contact.p1", "sections.contact.p2"],
-    },
-    {
-      number: "6",
-      titleKey: "sections.rights.title",
-      paragraphs: ["sections.rights.p1"],
-      list: [
-        "sections.rights.items.access",
-        "sections.rights.items.rectification",
-        "sections.rights.items.erasure",
-        "sections.rights.items.restriction",
-        "sections.rights.items.portability",
-        "sections.rights.items.objection",
+      id: "server-logs",
+      number: "03",
+      title: t("sections.serverLogs.title"),
+      paragraphs: [t("sections.serverLogs.p1"), t("sections.serverLogs.p2")],
+      items: [
+        t("sections.serverLogs.items.ip"),
+        t("sections.serverLogs.items.browser"),
+        t("sections.serverLogs.items.os"),
+        t("sections.serverLogs.items.referrer"),
+        t("sections.serverLogs.items.hostname"),
+        t("sections.serverLogs.items.time"),
       ],
     },
     {
-      number: "7",
-      titleKey: "sections.complaint.title",
-      paragraphs: ["sections.complaint.p1", "sections.complaint.p2"],
+      id: "cookies",
+      number: "04",
+      title: t("sections.cookies.title"),
+      paragraphs: [t("sections.cookies.p1"), t("sections.cookies.p2")],
     },
     {
-      number: "8",
-      titleKey: "sections.ssl.title",
-      paragraphs: ["sections.ssl.p1", "sections.ssl.p2"],
+      id: "contact",
+      number: "05",
+      title: t("sections.contact.title"),
+      paragraphs: [t("sections.contact.p1"), t("sections.contact.p2")],
     },
     {
-      number: "9",
-      titleKey: "sections.retention.title",
-      paragraphs: ["sections.retention.p1"],
+      id: "rights",
+      number: "06",
+      title: t("sections.rights.title"),
+      paragraphs: [t("sections.rights.p1")],
+      items: [
+        t("sections.rights.items.access"),
+        t("sections.rights.items.rectification"),
+        t("sections.rights.items.erasure"),
+        t("sections.rights.items.restriction"),
+        t("sections.rights.items.portability"),
+        t("sections.rights.items.objection"),
+      ],
+    },
+    {
+      id: "complaint",
+      number: "07",
+      title: t("sections.complaint.title"),
+      paragraphs: [t("sections.complaint.p1"), t("sections.complaint.p2")],
+    },
+    {
+      id: "ssl",
+      number: "08",
+      title: t("sections.ssl.title"),
+      paragraphs: [t("sections.ssl.p1"), t("sections.ssl.p2")],
+    },
+    {
+      id: "retention",
+      number: "09",
+      title: t("sections.retention.title"),
+      paragraphs: [t("sections.retention.p1")],
     },
   ];
 
   return (
-    <main className="bg-bontera-grey-50" dir={dir}>
-      {/* HERO */}
-      <section className="relative min-h-[50vh] lg:min-h-[60vh] flex items-end overflow-hidden">
-        <div className="absolute inset-0">
-          <Image
-            src="/images/contact-hero.jpg"
-            alt="Bontera Datenschutz"
-            fill
-            priority
-            className="object-cover"
-            sizes="100vw"
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-bontera-navy-900 via-bontera-navy-900/60 to-transparent" />
-          <div className="absolute inset-0 bg-gradient-to-r from-bontera-navy-900/80 via-transparent to-transparent" />
-        </div>
+    <LegalDocumentShell
+      locale={locale}
+      dir={dir}
+      heroAlt={t("hero.title")}
+      eyebrow={t("hero.eyebrow")}
+      title={t("hero.title")}
+      subtitle={t("hero.subtitle")}
+      breadcrumbs={[
+        { label: t("breadcrumb.home"), href: `/${locale}` },
+        { label: t("breadcrumb.legal"), href: `/${locale}/legal` },
+        { label: t("breadcrumb.datenschutz") },
+      ]}
+      sections={sections.map(({ id, number, title }) => ({ id, number, title }))}
+      sidebarCopy={{
+        tocTitle: shared("sidebar.tocTitle"),
+        officeLabel: shared("sidebar.officeLabel"),
+        phoneLabel: shared("sidebar.phoneLabel"),
+        emailLabel: shared("sidebar.emailLabel"),
+        supportTitle: shared("sidebar.supportTitle"),
+        supportBody: shared("sidebar.supportBody"),
+        backToHubLabel: t("backToLegal"),
+      }}
+    >
+      <LegalSectionCard
+        id={sections[0].id}
+        number={sections[0].number}
+        title={sections[0].title}
+        paragraphs={sections[0].paragraphs}
+      />
 
-        <div className="absolute inset-0 opacity-[0.05]">
-          <div
-            className="absolute inset-0"
-            style={{
-              backgroundImage:
-                "linear-gradient(90deg, white 1px, transparent 1px), linear-gradient(white 1px, transparent 1px)",
-              backgroundSize: "80px 80px",
-            }}
-          />
-        </div>
-
-        <div className="relative z-10 w-full pb-16 lg:pb-24">
-          <div className="max-w-[1600px] mx-auto px-6 lg:px-16">
-            <nav className="mb-8" aria-label="Breadcrumb">
-              <ol className="flex items-center gap-2 text-sm text-bontera-grey-400">
-                <li>
-                  <Link href={`/${locale}`} className="hover:text-white transition-colors">
-                    {t("breadcrumb.home")}
-                  </Link>
-                </li>
-                <li aria-hidden="true">
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                </li>
-                <li>
-                  <Link href={`/${locale}/legal`} className="hover:text-white transition-colors">
-                    {t("breadcrumb.legal")}
-                  </Link>
-                </li>
-                <li aria-hidden="true">
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                </li>
-                <li className="text-white font-medium">{t("breadcrumb.datenschutz")}</li>
-              </ol>
-            </nav>
-
-            <span className="inline-flex items-center gap-3 text-bontera-grey-400 text-sm uppercase tracking-[0.25em]">
-              <span className="w-12 h-px bg-gradient-to-r from-bontera-navy-400 to-transparent" />
-              {t("hero.eyebrow")}
-            </span>
-
-            <h1 className="mt-6 max-w-4xl">
-              <span className="block text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-semibold text-white leading-[1.05] tracking-tight">
-                {t("hero.title")}
-              </span>
-            </h1>
-
-            <p className="mt-6 max-w-2xl text-lg lg:text-xl text-bontera-grey-300 leading-relaxed">
-              {t("hero.subtitle")}
+      <LegalSectionCard
+        id={sections[1].id}
+        number={sections[1].number}
+        title={sections[1].title}
+      >
+        <div className="grid gap-4 lg:grid-cols-[1.1fr_0.9fr]">
+          <div className="rounded-2xl border border-bontera-grey-200 bg-bontera-grey-50 p-5">
+            <p className="text-xs font-semibold uppercase tracking-[0.28em] text-bontera-grey-500">
+              {shared("labels.company")}
             </p>
-          </div>
-        </div>
-      </section>
-
-      {/* CONTENT */}
-      <section className="py-20 lg:py-28 bg-white">
-        <div className="max-w-[1000px] mx-auto px-6 lg:px-16">
-          {sections.map((section) => (
-            <div key={section.number} className="mb-16">
-              <h2 className="text-xl lg:text-2xl font-semibold text-bontera-grey-900 mb-6 pb-4 border-b border-bontera-grey-200">
-                {section.number}. {t(section.titleKey)}
-              </h2>
-
-              {section.isContact ? (
-                <div className="p-8 bg-bontera-grey-50 border border-bontera-grey-200">
-                  <div className="text-base text-bontera-grey-600 leading-relaxed space-y-1">
-                    <p className="font-semibold text-bontera-grey-900">BONTERA GmbH</p>
-                    <p>Stodieks Hof 77</p>
-                    <p>33790 Halle Westfalen</p>
-                    <p className="mt-3">
-                      Telefon:{" "}
-                      <a href="tel:+4916043000073" className="text-bontera-navy-600 hover:underline">
-                        0160 43 00 07 3
-                      </a>
-                    </p>
-                    <p>
-                      E-Mail:{" "}
-                      <a href="mailto:info@bontera.de" className="text-bontera-navy-600 hover:underline">
-                        info@bontera.de
-                      </a>
-                    </p>
-                  </div>
-                </div>
-              ) : (
-                <div className="text-base text-bontera-grey-600 leading-relaxed space-y-4">
-                  {section.paragraphs?.map((pKey) => (
-                    <p key={pKey}>{t(pKey)}</p>
-                  ))}
-                  {section.list && (
-                    <ul className="list-disc list-inside space-y-2 ml-2">
-                      {section.list.map((itemKey) => (
-                        <li key={itemKey}>{t(itemKey)}</li>
-                      ))}
-                    </ul>
-                  )}
-                  {section.afterList?.map((pKey) => (
-                    <p key={pKey}>{t(pKey)}</p>
-                  ))}
-                </div>
-              )}
+            <p className="mt-3 text-lg font-semibold text-bontera-grey-900">
+              BONTERA GmbH
+            </p>
+            <div className="mt-3 space-y-1 text-sm leading-6 text-bontera-grey-600">
+              {LEGAL_OFFICE_LINES.map((line) => (
+                <p key={line}>{line}</p>
+              ))}
             </div>
-          ))}
+          </div>
 
-          {/* Back to Legal */}
-          <div className="pt-8 border-t border-bontera-grey-200">
-            <Link
-              href={`/${locale}/legal`}
-              className="inline-flex items-center gap-2 text-sm font-semibold text-bontera-navy-700 hover:text-bontera-navy-900 transition-colors"
+          <div className="grid gap-4">
+            <a
+              href={LEGAL_PHONE_HREF}
+              className="rounded-2xl border border-bontera-grey-200 bg-white p-5 transition-colors hover:border-bontera-navy-300"
             >
-              <svg className={`w-4 h-4 ${isRTL ? "" : "rotate-180"}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-              </svg>
-              {t("backToLegal")}
-            </Link>
+              <p className="text-xs font-semibold uppercase tracking-[0.28em] text-bontera-grey-500">
+                {shared("labels.phone")}
+              </p>
+              <p className="mt-3 text-lg font-semibold text-bontera-grey-900">
+                {LEGAL_PHONE_DISPLAY}
+              </p>
+            </a>
+
+            <a
+              href={LEGAL_EMAIL_HREF}
+              className="rounded-2xl border border-bontera-grey-200 bg-white p-5 transition-colors hover:border-bontera-navy-300"
+            >
+              <p className="text-xs font-semibold uppercase tracking-[0.28em] text-bontera-grey-500">
+                {shared("labels.email")}
+              </p>
+              <p className="mt-3 text-lg font-semibold text-bontera-grey-900">
+                {LEGAL_EMAIL}
+              </p>
+            </a>
           </div>
         </div>
-      </section>
-    </main>
+
+        <div className="mt-4 rounded-2xl border border-bontera-navy-100 bg-bontera-navy-50 p-5">
+          <p className="text-xs font-semibold uppercase tracking-[0.28em] text-bontera-navy-500">
+            {shared("labels.representative")}
+          </p>
+          <p className="mt-3 text-lg font-semibold text-bontera-grey-900">
+            {LEGAL_REPRESENTATIVE}
+          </p>
+        </div>
+      </LegalSectionCard>
+
+      {sections.slice(2).map((section) => (
+        <LegalSectionCard
+          key={section.id}
+          id={section.id}
+          number={section.number}
+          title={section.title}
+          paragraphs={section.paragraphs}
+          items={section.items}
+        />
+      ))}
+    </LegalDocumentShell>
   );
 }

@@ -347,8 +347,247 @@
     "legal": {
       "privacy": "Privacy policy",
       "terms": "Terms of use",
-      "cookies": "Cookie policy"
+      "cookies": "Cookie policy",
+      "impressum": "Imprint"
     }
+  },
+  "legalShared": {
+    "sidebar": {
+      "tocTitle": "On this page",
+      "officeLabel": "Registered office",
+      "phoneLabel": "Phone",
+      "emailLabel": "Email",
+      "supportTitle": "Need assistance?",
+      "supportBody": "For legal questions, privacy requests, or document clarification, contact our team directly."
+    },
+    "labels": {
+      "company": "Company",
+      "representative": "Representative",
+      "phone": "Phone",
+      "email": "Email",
+      "commercialRegister": "Commercial register",
+      "registrationCourt": "Registration court",
+      "vatId": "VAT ID"
+    }
+  },
+  "impressumPage": {
+    "meta": {
+      "title": "Imprint | Bontera GmbH",
+      "description": "Legal notice of BONTERA GmbH pursuant to Section 5 DDG."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "legal": "Legal center",
+      "impressum": "Imprint"
+    },
+    "hero": {
+      "eyebrow": "Legal center",
+      "title": "Imprint",
+      "subtitle": "Information pursuant to Section 5 DDG"
+    },
+    "content": {
+      "representedBy": "Represented by the managing director",
+      "registrationTitle": "Commercial register",
+      "registrationValue": "Company in formation (entry will be added once issued)",
+      "courtValue": "Company in formation (court will be added once issued)",
+      "taxIdTitle": "VAT ID",
+      "taxIdDescription": "VAT identification number pursuant to Section 27 a of the German VAT Act:",
+      "taxIdValue": "Company in formation (ID will be added once issued)",
+      "supervisoryTitle": "Supervisory authorities",
+      "supervisoryBody2": "Company in formation (details will be completed once issued)",
+      "editorialTitle": "Editorially responsible",
+      "euDisputeTitle": "EU dispute resolution",
+      "euDisputeBody": "The European Commission provides a platform for online dispute resolution (ODR):",
+      "euDisputeEmail": "You can find our email address above in this legal notice.",
+      "consumerDisputeTitle": "Consumer dispute resolution / universal arbitration board",
+      "consumerDisputeBody": "We are not willing or obliged to participate in dispute resolution proceedings before a consumer arbitration board.",
+      "liabilityContentTitle": "Liability for content",
+      "liabilityContentBody1": "As a service provider, we are responsible for our own content on these pages in accordance with Section 7(1) DDG and general law.",
+      "liabilityContentBody2": "According to Sections 8 to 10 DDG, however, we are not obliged to monitor transmitted or stored third-party information.",
+      "liabilityLinksTitle": "Liability for links",
+      "liabilityLinksBody1": "Our website contains links to external third-party websites whose content we do not control.",
+      "liabilityLinksBody2": "Therefore, we cannot accept any liability for this external content.",
+      "copyrightTitle": "Copyright",
+      "copyrightBody1": "The content and works created by the site operators on these pages are subject to German copyright law.",
+      "copyrightBody2": "Third-party contributions are marked as such."
+    },
+    "backToLegal": "Back to legal center"
+  },
+  "datenschutzPage": {
+    "meta": {
+      "title": "Privacy policy | Bontera GmbH",
+      "description": "Privacy policy of BONTERA GmbH - information on the protection of your personal data."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "legal": "Legal center",
+      "datenschutz": "Privacy policy"
+    },
+    "hero": {
+      "eyebrow": "Legal center",
+      "title": "Privacy policy",
+      "subtitle": "Information about the protection of your personal data under the GDPR."
+    },
+    "sections": {
+      "general": {
+        "title": "General information",
+        "p1": "Protecting your personal data is especially important to us. We treat your personal data confidentially and in accordance with the applicable data protection regulations and this privacy policy.",
+        "p2": "This website processes personal data in accordance with the General Data Protection Regulation (GDPR)."
+      },
+      "responsible": {
+        "title": "Controller for data processing"
+      },
+      "serverLogs": {
+        "title": "Data collection when visiting the website",
+        "p1": "When you access our website, information is automatically collected by the web server. These so-called server log files include:",
+        "items": {
+          "ip": "IP address",
+          "browser": "Browser type and browser version",
+          "os": "Operating system used",
+          "referrer": "Referrer URL",
+          "hostname": "Hostname of the accessing device",
+          "time": "Time of the server request"
+        },
+        "p2": "Processing takes place on the basis of Article 6(1)(f) GDPR to ensure the technical operation of the website."
+      },
+      "cookies": {
+        "title": "Cookies",
+        "p1": "Our website uses so-called cookies. Cookies are small text files that are stored on your device.",
+        "p2": "Some cookies are technically necessary, while others are used to analyze or improve our offering."
+      },
+      "contact": {
+        "title": "Contact requests",
+        "p1": "If you contact us by email or contact form, the information you provide will be stored to process your request.",
+        "p2": "The legal basis for this is Article 6(1)(b) GDPR (contract or pre-contractual measures)."
+      },
+      "rights": {
+        "title": "Your rights as a data subject",
+        "p1": "You have the following rights under the GDPR:",
+        "items": {
+          "access": "Right of access (Article 15 GDPR)",
+          "rectification": "Right to rectification (Article 16 GDPR)",
+          "erasure": "Right to erasure (Article 17 GDPR)",
+          "restriction": "Right to restriction of processing (Article 18 GDPR)",
+          "portability": "Right to data portability (Article 20 GDPR)",
+          "objection": "Right to object (Article 21 GDPR)"
+        }
+      },
+      "complaint": {
+        "title": "Right to complain to a supervisory authority",
+        "p1": "In the event of data protection violations, you have the right to lodge a complaint with a data protection supervisory authority.",
+        "p2": "The authority responsible is the supervisory authority of the federal state in which our company has its registered office."
+      },
+      "ssl": {
+        "title": "SSL or TLS encryption",
+        "p1": "For security reasons and to protect the transmission of confidential content, this site uses SSL or TLS encryption.",
+        "p2": "You can recognize an encrypted connection by the browser address line changing from \"http://\" to \"https://\"."
+      },
+      "retention": {
+        "title": "Data retention period",
+        "p1": "Personal data is stored only for as long as necessary for the respective purpose or as long as statutory retention periods apply."
+      }
+    },
+    "backToLegal": "Back to legal center"
+  },
+  "nutzungsbedingungenPage": {
+    "meta": {
+      "title": "Terms of use | Bontera GmbH",
+      "description": "Terms of use for the BONTERA GmbH website."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "legal": "Legal center",
+      "terms": "Terms of use"
+    },
+    "hero": {
+      "eyebrow": "Legal center",
+      "title": "Terms of use",
+      "subtitle": "Conditions for using our website and services."
+    },
+    "sections": {
+      "scope": {
+        "title": "Scope",
+        "p1": "These terms of use apply to the use of the BONTERA GmbH website and all associated services.",
+        "p2": "By accessing this website, you agree to these terms of use."
+      },
+      "usage": {
+        "title": "Use of the website",
+        "p1": "This website may only be used for lawful purposes. You agree not to use the website in any way that disrupts or impairs its operation.",
+        "p2": "It is prohibited to use automated systems or software to extract data from this website."
+      },
+      "intellectualProperty": {
+        "title": "Intellectual property",
+        "p1": "All content on this website (texts, images, graphics, logos, videos) is protected by copyright and is the property of BONTERA GmbH or its licensors.",
+        "p2": "Reproduction, distribution, or any other use of the content is not permitted without express written authorization."
+      },
+      "liability": {
+        "title": "Limitation of liability",
+        "p1": "The content of this website is created with the greatest possible care. However, BONTERA GmbH does not guarantee the accuracy, completeness, or timeliness of the information provided.",
+        "p2": "Use of the content is at your own risk. Claims for damages against BONTERA GmbH are excluded unless there is intentional misconduct or gross negligence."
+      },
+      "changes": {
+        "title": "Changes to the terms of use",
+        "p1": "BONTERA GmbH reserves the right to amend these terms of use at any time. The current version can always be viewed on this page."
+      },
+      "applicableLaw": {
+        "title": "Applicable law",
+        "p1": "The law of the Federal Republic of Germany applies. The place of jurisdiction is Halle Westfalen, to the extent permitted by law."
+      }
+    },
+    "backToLegal": "Back to legal center"
+  },
+  "cookiePage": {
+    "meta": {
+      "title": "Cookie policy | Bontera GmbH",
+      "description": "Cookie policy of BONTERA GmbH - information on the use of cookies on our website."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "legal": "Legal center",
+      "cookies": "Cookie policy"
+    },
+    "hero": {
+      "eyebrow": "Legal center",
+      "title": "Cookie policy",
+      "subtitle": "Information on the use of cookies on our website."
+    },
+    "sections": {
+      "whatAreCookies": {
+        "title": "What are cookies?",
+        "p1": "Cookies are small text files that are stored on your device when you visit a website. They help keep the website functional, analyze usage, and improve the experience.",
+        "p2": "Cookies do not contain personal data and cannot execute programs or transfer viruses to your computer."
+      },
+      "typesOfCookies": {
+        "title": "Types of cookies",
+        "p1": "We use the following types of cookies on our website:",
+        "necessary": {
+          "label": "Necessary cookies",
+          "description": "These cookies are required for the basic functionality of the website and cannot be disabled."
+        },
+        "analytics": {
+          "label": "Analytics cookies",
+          "description": "These cookies help us understand how visitors interact with the website by collecting information anonymously."
+        },
+        "preferences": {
+          "label": "Preference cookies",
+          "description": "These cookies allow the website to remember settings you have made, such as language preferences."
+        }
+      },
+      "manageCookies": {
+        "title": "Manage cookies",
+        "p1": "You can manage your cookie settings at any time via your browser settings. Most browsers allow you to block or delete cookies.",
+        "p2": "Please note that disabling certain cookies may affect the functionality of this website."
+      },
+      "thirdParty": {
+        "title": "Third-party cookies",
+        "p1": "Our website may set third-party cookies, for example for analytics purposes. The data processing carried out by third parties is governed by their own privacy policies."
+      },
+      "contact": {
+        "title": "Contact",
+        "p1": "If you have questions about the use of cookies, contact us at:"
+      }
+    },
+    "backToLegal": "Back to legal center"
   },
   "legalPage": {
     "meta": {
@@ -358,16 +597,25 @@
     "hero": {
       "eyebrow": "Legal center",
       "title": "Privacy policy",
-      "subtitle": "Everything you need to know about site usage, data management, and frequently asked questions, all in one place."
+      "subtitle": "Everything you need to know about site usage, data management, and frequently asked questions, all in one place.",
+      "landingTitle": "Legal center",
+      "landingSubtitle": "Review the documents that govern how Bontera communicates, processes data, and operates online.",
+      "contactLine": "For legal or privacy requests, write to"
     },
     "nav": {
       "privacy": "Privacy",
       "terms": "Terms",
       "cookies": "Cookies",
-      "faq": "FAQ"
+      "faq": "FAQ",
+      "impressum": "Imprint"
     },
     "sidebar": {
       "title": "On this page"
+    },
+    "documents": {
+      "eyebrow": "Compliance documents",
+      "title": "Choose the document you need",
+      "description": "Access our legal notice, privacy policy, terms of use, and cookie policy through a cleaner, document-first experience."
     },
     "privacy": {
       "title": "Privacy policy",
@@ -381,9 +629,20 @@
       "title": "Cookie policy",
       "body": "We use cookies and similar technologies to ensure the site functions properly, measure audience, and improve performance. You can manage your preferences via your browser settings. Some features may be limited if cookies are disabled."
     },
+    "impressum": {
+      "title": "Imprint",
+      "body": "Company details, registration information, and legally required disclosures for Bontera GmbH."
+    },
     "faqBlock": {
+      "eyebrow": "Support",
       "title": "Frequently asked questions (FAQ)",
       "subtitle": "Find answers here to the most common questions about our projects, timelines, and process."
+    },
+    "cta": {
+      "title": "Still need clarification?",
+      "description": "If you have a legal, privacy, or compliance question, our team can direct you to the right document or answer your request.",
+      "primary": "Contact us",
+      "secondary": "Email legal team"
     }
   },
   "about": {
