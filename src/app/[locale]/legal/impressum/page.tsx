@@ -195,7 +195,7 @@ export default async function ImpressumPage({ params }: Props) {
         id={sections[3].id}
         number={sections[3].number}
         title={sections[3].title}
-        paragraphs={["BG BAU", t("content.supervisoryBody2")]}
+        paragraphs={["Stadt Halle Westfalen - Ordnungsamt", t("content.supervisoryBody2")]}
       />
 
       <LegalSectionCard
